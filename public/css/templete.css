@@ -633,7 +633,7 @@ h6 {
   background-color: rgba(0, 0, 0, 0);
 }
 .footer-info-bar .icon-bx-wraper.bx-style-1 {
-  background: #fff;
+  background: #fff; min-height: 170px;
 }
 .footer-info-bar .icon-bx-wraper.bx-style-1 {
 }
