@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const services = [
   {
     id: 1,
@@ -643,6 +645,7 @@ export const services5 = [
     description:
       "At Zing Studio we design websites with your customer in mind, because modern web design is more than just about creating a visually stunning site.",
     delay: "0.2s",
+    link:"web-design"
   },
   // {
   //   id: 84,
@@ -661,6 +664,7 @@ export const services5 = [
     description:
       "We offer to jump start your e-commerce brand online with some of the leading Saas platforms that offer your quicker turn around...",
     delay: "0.6s",
+    link:"e-commerce"
   },
   {
     id: 86,
@@ -670,6 +674,7 @@ export const services5 = [
     description:
       "Open Source commerce development is the order of the way in Ecommerce development. The open source platforms offer..",
     delay: "0.8s",
+    link:"e-commerce"
   },
   // {
   //   id: 87,
@@ -688,6 +693,7 @@ export const services5 = [
     description:
       "Search engines have become a vital tool for business buyers and consumers since 95% of all online experiences...",
     delay: "0.4s",
+    link:"search-engine-optimization"
   },
   {
     id: 89,
@@ -697,6 +703,7 @@ export const services5 = [
     description:
       "At Zing Studio, our competent team specializes in providing innovative, result-driven and cost-effective social media marketing...",
     delay: "0.6s",
+    link:"social-media-marketing"
   },
   {
     id: 90,
@@ -706,6 +713,7 @@ export const services5 = [
     description:
       "PPC advertising takes advantage of high-competition keywords to drive targeted traffic to your website cost-effectively...",
     delay: "0.8s",
+    link:"pay-per-click"
   },
   {
     id: 91,
@@ -715,6 +723,7 @@ export const services5 = [
     description:
       "At Zing Studio, we specialize in providing creative LinkedIn marketing services that elevate your business profile into a dynamic...",
     delay: "0.2s",
+    link:"linkedin-marketing"
   },
   {
     id: 92,
@@ -724,6 +733,7 @@ export const services5 = [
     description:
       "At Zing Studio, we specialize in providing reliable, high-impact and cost-effective lead generation solutions customized...",
     delay: "0.4s",
+    link:"lead-generation-compaigns"
   },
   {
     id: 93,
@@ -733,6 +743,7 @@ export const services5 = [
     description:
       "It can be overwhelming for most businesses to manage inventory, process orders and address customer queries. At Zing Studio...",
     delay: "0.4s",
+    link:"e-commerce-management"
   },
 ];
 export const services6 = [

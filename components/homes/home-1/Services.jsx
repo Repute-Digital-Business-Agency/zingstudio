@@ -1,4 +1,5 @@
 import { services5 } from "@/data/services";
+import Link from "next/link";
 import React from "react";
 
 export default function Services() {
@@ -32,6 +33,13 @@ export default function Services() {
                     <h2 className="dlab-title">{service.title}</h2>
                     <p>{service.description}</p>
                   </div>
+                  <Link
+                    href={`/${service.link}`}
+                    className="site-button outline outline-2 btnhover11 mt-3 readmore-link"
+                  >
+                    {" "}
+                    Read More
+                  </Link>
                 </div>
               </div>
             ))}
