@@ -7,6 +7,7 @@ import { allProjects } from "@/data/projects";
 import WebDesignDetails from "@/components/service/WebDesignDetails";
 import AcademyContent from "@/components/academy/AcademyContent";
 import Footer2 from "@/components/footers/Footer2";
+import Header17 from "@/components/headers/Header17";
 
 export const metadata = {
   title: "Academy || Zing Studio",
@@ -16,7 +17,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        <Header17 />
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
