@@ -42,7 +42,10 @@ export default function Footer2() {
                     E-mail
                   </h5>
                   <p className="m-b0 op7">
-                    <Link href="mailto:support@irepute.in">
+                    <Link
+                      href="mailto:support@irepute.in"
+                      style={{ color: "black" }}
+                    >
                       support@irepute.in
                     </Link>
                   </p>
@@ -62,7 +65,10 @@ export default function Footer2() {
                     Phone Number
                   </h5>
                   <p className="m-b0 op7">
-                    Mobile : <a href="tel:04224980307">+91 (422) 498 0307</a>
+                    Mobile :{" "}
+                    <a href="tel:04224980307" style={{ color: "black" }}>
+                      +91 (422) 498 0307
+                    </a>
                   </p>
                   {/* <p className="op7">
                     Phone : <a href="tel:+4733378901">+0 1234 5678 90</a>
@@ -112,17 +118,26 @@ export default function Footer2() {
                 <div className="widget widget_getintuch">
                   <ul>
                     <li>
-                      <i className="ti-location-pin" /> demo address #8901
-                      Marmora Road Chi Minh City, Vietnam
+                      <i className="ti-location-pin" /> 5A-1, 4th Street,
+                      Chinthamani Nagar, K.K.Pudur, Saibaba Colony, Coimbatore –
+                      641 038. Tamil Nadu, India.
                     </li>
                     <li>
                       <i className="ti-mobile" />
-                      <a href="tel:+4733378901">0800-123456 </a> (24/7 Support
-                      Line)
+                      <a href="tel:04224980307" style={{ color: "#747477" }}>
+                        +91 (422) 498 0307
+                      </a>
+                      {/* (24/7
+                      Support Line) */}
                     </li>
                     <li>
                       <i className="ti-email" />
-                      <a href="mailto:someone@example.com">info@example.com</a>
+                      <a
+                        href="mailto:support@irepute.in"
+                        style={{ color: "#747477" }}
+                      >
+                        support@irepute.in
+                      </a>
                     </li>
                   </ul>
                 </div>
