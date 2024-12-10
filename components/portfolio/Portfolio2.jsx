@@ -50,10 +50,12 @@ export default function Portfolio2() {
     >
       <div className="container">
         <div className="site-filters clearfix center m-b40">
-          <h3>
-              Portfolio
-          </h3>
-          <ul className="filters" data-bs-toggle="buttons">
+          <h3>Portfolio</h3>
+          <p>
+            Explore our creative solutions We have a proven track record of
+            delivering outstanding outcomes for our customers.
+          </p>
+          <ul className="filters mt-3" data-bs-toggle="buttons">
             {filters.map((item, index) => (
               <React.Fragment key={index}>
                 <li

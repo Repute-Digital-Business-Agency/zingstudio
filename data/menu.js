@@ -346,7 +346,32 @@ export const elementItems = [
   },
 ];
 
-export const contactLinks = [
+export const AboutUsLink = {
+  href: "/about-2",
+  label: "About Us",
+};
+
+export const AcademyLink = {
+  href: "/academy",
+  label: "Academy",
+};
+
+export const PortfolioLink = {
+  href: "/portfolio-grid-3",
+  label: "Portfolio",
+};
+
+export const CareersLink = {
+  href: "/faq-1",
+  label: "Careers",
+};
+
+export const ContactLink = {
+  href: "/contact-2",
+  label: "Contact Us",
+};
+
+export const contactsLinks = [
   { href: "/contact-1", label: "Contact us 1" },
   { href: "/contact-2", label: "Contact us 2" },
   { href: "/contact-3", label: "Contact us 3" },

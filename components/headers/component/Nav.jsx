@@ -2,12 +2,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import {
+  AboutUsLink,
+  AcademyLink,
   blogItems,
+  CareersLink,
   contactLinks,
   elementItems,
   headerAndFooters,
   homeItems,
   pagesItems,
+  PortfolioLink,
   ServicesLink,
   shopLinks,
 } from "@/data/menu";
@@ -168,12 +172,12 @@ export default function Nav() {
         </ul>
       </li> */}
 
-      <li>
+      <li className={isMenuActive(AboutUsLink) ? "active" : ""}>
         <Link
-          href={`/about-2`}
-          className={`has-mega-menu ${menuOpen1 == "pages" ? "open" : ""}  `}
+          href={AboutUsLink.href}
+          className={isMenuActive(AboutUsLink) ? "menuActive" : ""}
         >
-          About Us
+          {AboutUsLink.label}
         </Link>
       </li>
 
@@ -318,20 +322,30 @@ export default function Nav() {
           ))}
         </ul>
       </li>
-      <li>
+
+       <li className={isMenuActive(PortfolioLink) ? "active" : ""}>
         <Link
-          href={`/academy`}
-          className={`has-mega-menu ${menuOpen1 == "pages" ? "open" : ""}  `}
+          href={PortfolioLink.href}
+          className={isMenuActive(PortfolioLink) ? "menuActive" : ""}
         >
-          Academy
+          {PortfolioLink.label}
         </Link>
       </li>
-      <li>
+
+      <li className={isMenuActive(AcademyLink) ? "active" : ""}>
         <Link
-          href={`/faq-1`}
-          className={`has-mega-menu ${menuOpen1 == "pages" ? "open" : ""}  `}
+          href={AcademyLink.href}
+          className={isMenuActive(AcademyLink) ? "menuActive" : ""}
         >
-          Careers
+          {AcademyLink.label}
+        </Link>
+      </li>
+      <li className={isMenuActive(CareersLink) ? "active" : ""}>
+        <Link
+          href={CareersLink.href}
+          className={isMenuActive(CareersLink) ? "menuActive" : ""}
+        >
+          {CareersLink.label}
         </Link>
       </li>
 
