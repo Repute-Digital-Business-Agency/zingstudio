@@ -328,10 +328,19 @@ export default function Nav() {
       </li>
       <li>
         <Link
-          href={`/academy`}
+          href={`/faq-1`}
           className={`has-mega-menu ${menuOpen1 == "pages" ? "open" : ""}  `}
         >
-          Careerss
+          Careers
+        </Link>
+      </li>
+
+      <li>
+        <Link
+          href={`/contact-2`}
+          className={`has-mega-menu ${menuOpen1 == "pages" ? "open" : ""}  `}
+        >
+          Contact
         </Link>
       </li>
     </>
