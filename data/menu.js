@@ -353,6 +353,27 @@ export const contactLinks = [
   { href: "/contact-4", label: "Contact us 4" },
 ];
 
+export const ServicesLink = [
+  { href: "/services-2", label: "Services" },
+  { href: "/web-design", label: "Web Design" },
+  { href: "/e-commerce", label: "E-Commerce" },
+  { href: "/search-engine-optimization", label: "Search Engine Optimization" },
+  { href: "/social-media-marketing", label: "Social Media Marketing" },
+  { href: "/pay-per-click", label: "Pay Per Click" },
+  {
+    href: "/linkedin-marketing",
+    label: "LinkedIn Marketing",
+  },
+  {
+    href: "/lead-generation-compaigns",
+    label: "Lead Generation Campaigns",
+  },
+  {
+    href: "e-commerce-management",
+    label: "E-commerce Management",
+  },
+];
+
 export const shopLinks = [
   { href: "/shop", label: "Shop" },
   { href: "/shop-sidebar", label: "Shop Sidebar" },

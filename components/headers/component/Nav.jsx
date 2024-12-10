@@ -8,6 +8,7 @@ import {
   headerAndFooters,
   homeItems,
   pagesItems,
+  ServicesLink,
   shopLinks,
 } from "@/data/menu";
 import { usePathname } from "next/navigation";
@@ -90,7 +91,7 @@ export default function Nav() {
 
   return (
     <>
-      <li
+      {/* <li
         className={` has-mega-menu homedemo ${
           menuOpen1 == "home" ? "open" : ""
         }  ${isMenuActive(homeItems) ? "active" : ""}`}
@@ -115,8 +116,15 @@ export default function Nav() {
             </li>
           ))}
         </ul>
-      </li>
+      </li> */}
       <li
+        className={` has-mega-menu homedemo  ${
+          isMenuActive(homeItems) ? "active" : ""
+        }`}
+      >
+        <Link href={`/`}>Home</Link>
+      </li>
+      {/* <li
         className={` ${isMenuActive(headerAndFooters) ? "active" : ""} ${
           menuOpen1 == "features" ? "open" : ""
         }  `}
@@ -158,8 +166,18 @@ export default function Nav() {
             </li>
           ))}
         </ul>
+      </li> */}
+
+      <li>
+        <Link
+          href={`/about-2`}
+          className={`has-mega-menu ${menuOpen1 == "pages" ? "open" : ""}  `}
+        >
+          About Us
+        </Link>
       </li>
-      <li
+
+      {/* <li
         className={`has-mega-menu  ${
           isMenuActive(pagesItems) ? "active" : ""
         } ${menuOpen1 == "pages" ? "open" : ""}  `}
@@ -189,8 +207,8 @@ export default function Nav() {
             </li>
           ))}
         </ul>
-      </li>
-      <li
+      </li> */}
+      {/* <li
         className={` ${isMenuActive(shopLinks) ? "active" : ""} ${
           menuOpen1 == "shop" ? "open" : ""
         }  `}
@@ -273,22 +291,22 @@ export default function Nav() {
             </li>
           ))}
         </ul>
-      </li>
+      </li> */}
       <li
-        className={` ${isMenuActive(contactLinks) ? "active" : ""} ${
-          menuOpen1 == "contact" ? "open" : ""
+        className={` ${isMenuActive(ServicesLink) ? "active" : ""} ${
+          menuOpen1 == "services" ? "open" : ""
         }  `}
       >
         <a
           onClick={() =>
-            setMenuOpen1((pre) => (pre == "contact" ? "" : "contact"))
+            setMenuOpen1((pre) => (pre == "services" ? "" : "services"))
           }
         >
-          Contact Us
+          Services
           <i className="fas fa-chevron-down" />
         </a>
         <ul className="sub-menu right">
-          {contactLinks.map((link, index) => (
+          {ServicesLink.map((link, index) => (
             <li key={index}>
               <Link
                 className={isMenuActive(link) ? "menuActive" : ""}
@@ -299,6 +317,22 @@ export default function Nav() {
             </li>
           ))}
         </ul>
+      </li>
+      <li>
+        <Link
+          href={`/academy`}
+          className={`has-mega-menu ${menuOpen1 == "pages" ? "open" : ""}  `}
+        >
+          Academy
+        </Link>
+      </li>
+      <li>
+        <Link
+          href={`/academy`}
+          className={`has-mega-menu ${menuOpen1 == "pages" ? "open" : ""}  `}
+        >
+          Careerss
+        </Link>
       </li>
     </>
   );

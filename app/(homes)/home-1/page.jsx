@@ -1,36 +1,25 @@
-import Footer1 from "@/components/footers/Footer1";
-import Header1 from "@/components/headers/Header1";
-import About from "@/components/homes/home-1/About";
-import Blogs from "@/components/homes/home-1/Blogs";
-import Clients from "@/components/homes/home-1/Clients";
-import Cta from "@/components/homes/home-1/Cta";
-import Facts from "@/components/homes/home-1/Facts";
-import Hero from "@/components/homes/home-1/Hero";
-import Services from "@/components/homes/home-1/Services";
-import Team from "@/components/homes/home-1/Team";
-import Testimonials from "@/components/homes/home-1/Testimonials";
+import Footer2 from "@/components/footers/Footer2";
+import Header17 from "@/components/headers/Header17";
+import Hero from "@/components/homes/home-18/Hero";
+import Service from "@/components/homes/home-2/Service";
+import React from "react";
+
 export const metadata = {
-  title: "Home || Industry - Factory & Industrial React Nextjs Template",
+  title: "Home 18 || Industry - Factory & Industrial React Nextjs Template",
   description: "Industry - Factory & Industrial React Nextjs Template",
 };
-
-export default function Home1() {
+export default function page() {
   return (
     <>
-      <div className="page-wraper ">
-        <Header1 />
+      <div className="page-wraper  ">
+        <Header17 />
         <div className="page-content bg-white">
           <Hero />
-          <About />
-          <Cta />
-          <Services />
-          <Facts />
-          <Team />
-          <Testimonials />
-          <Blogs />
-          <Clients />
+          <div className="content-block">
+            <Service />
+          </div>
         </div>
-        <Footer1 />
+        <Footer2 />
       </div>
     </>
   );
