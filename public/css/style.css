@@ -16543,19 +16543,19 @@ ol.commentlist li .star-rating {
 
 .theme-btn.bt-buy-now {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1fdf61+0,88BA46+100 */
-  background: #1fdf61;
+  background: #cd4032;
   /* Old browsers */
   background: -moz-linear-gradient(top,
-      #a3d179 0%,
-      #88ba46 100%);
+      #c72d1d 0%,
+      #cd4032 100%);
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top,
-      #a3d179 0%,
-      #88ba46 100%);
+      #c72d1d 0%,
+      #cd4032 100%);
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,
-      #a3d179 0%,
-      #88ba46 100%);
+      #c72d1d 0%,
+      #cd4032 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1fdf61', endColorstr='#88BA46', GradientType=0);
   /* IE6-9 */
