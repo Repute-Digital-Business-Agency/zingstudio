@@ -43,7 +43,7 @@ export default function Hero() {
               </p>
               <div className="dz-banner-btn d-flex align-items-center">
                 <Link
-                  href={`/#`}
+                  href={`/contact`}
                   className="btn btn-lg bg-primary m-0 text-decoration-none"
                 >
                 Get your custom proposal
