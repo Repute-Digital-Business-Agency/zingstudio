@@ -231,7 +231,7 @@ export default function Footer2() {
                         <div className="dlab-post-header">
                           <h6 className="post-title">
                             <Link
-                              href={`/blog-single-left-sidebar/${post.title}`}
+                              href={`/#`}
                             >
                               {post.title}
                             </Link>

@@ -127,20 +127,20 @@ export default function RootLayout({ children }) {
         </Context>
         <SearchPopup />
         <a
-          href="https://1.envato.market/1d1Nm"
+          href="tel:04224980307"
           target="_blank"
           className="bt-buy-now theme-btn"
         >
-          <i className="ti-shopping-cart" />
-          <span>Buy Now</span>
+          <i className="ti-mobile" />
+          <span>call Now</span>
         </a>
         <a
-          href="https://support.w3itexperts.com"
+          href="https://wa.me/7871207631"
           target="_blank"
           className="bt-support-now theme-btn"
         >
-          <i className="ti-headphone-alt" />
-          <span>Support</span>
+          <i className="fab fa-whatsapp" />
+          <span>Whatsapp</span>
         </a>
       </body>
     </html>
