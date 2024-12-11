@@ -16,7 +16,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/Home-Page/web-design.jpg"
+                src="/images/services/web-design.jpg"
                 width="900"
                 height="550"
               />
@@ -57,7 +57,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/Home-Page/saas-platform.jpg"
+                src="/images/services/saas-platform.jpg"
                 width="900"
                 height="550"
               />
@@ -96,7 +96,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/Home-Page/open-source.jpg"
+                src="/images/services/open-source.jpg"
                 width="900"
                 height="550"
               />
@@ -137,7 +137,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/Home-Page/e-commerce-managment.jpg"
+                src="/images/services/e-commerce-managment.jpg"
                 width="900"
                 height="550"
               />
@@ -202,7 +202,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/Home-Page/seo.jpg"
+                src="/images/services/seo.jpg"
                 width="900"
                 height="550"
               />
@@ -245,7 +245,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/Home-Page/linkedin-marketing.jpg"
+                src="/images/services/linkedin-marketing.jpg"
                 width="900"
                 height="550"
               />
@@ -287,7 +287,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/Home-Page/social-media-marketing.jpg"
+                src="/images/services/social-media-marketing.jpg"
                 width="900"
                 height="550"
               />
@@ -328,7 +328,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/Home-Page/pay-per-click.jpg"
+                src="/images/services/pay-per-click.jpg"
                 width="900"
                 height="550"
               />
@@ -344,7 +344,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/our-work/oilgas/pic1.jpg"
+                src="/images/services/lead-generation-camp.jpg"
                 width="900"
                 height="550"
               />

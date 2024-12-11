@@ -25,7 +25,7 @@ export default function Footer2() {
                     </span>
                     Company Address
                   </h5>
-                  <p className="op7">
+                  <p>
                     5A-1, 4th Street, Chinthamani Nagar, K.K.Pudur, Saibaba
                     Colony, Coimbatore – 641 038. Tamil Nadu, India.
                   </p>
@@ -41,7 +41,7 @@ export default function Footer2() {
                     </span>
                     E-mail
                   </h5>
-                  <p className="m-b0 op7">
+                  <p className="m-b0 ">
                     <Link
                       href="mailto:support@irepute.in"
                       style={{ color: "black" }}
@@ -64,7 +64,7 @@ export default function Footer2() {
                     </span>
                     Phone Number
                   </h5>
-                  <p className="m-b0 op7">
+                  <p className="m-b0">
                     Mobile :{" "}
                     <a href="tel:04224980307" style={{ color: "black" }}>
                       +91 (422) 498 0307
@@ -85,8 +85,8 @@ export default function Footer2() {
                     </span>
                     Office Hours
                   </h5>
-                  <p className="m-b0 op7">Mon To Sat : 09.00AM - 7.00PM</p>
-                  <p className="op7">Sunday : Close</p>
+                  <p className="m-b0">Mon To Sat : 09.00AM - 7.00PM</p>
+                  <p>Sunday : Close</p>
                 </div>
               </div>
             </div>
@@ -111,9 +111,9 @@ export default function Footer2() {
                   </Link>
                 </div>
                 <p>
-                  Industry Lorem Ipsum has been the industry's standard dummy
-                  text ever since the when an printer took a galley of type and
-                  scrambled it to make.
+                  Cost effective , effective campaigns that generates reliable
+                  quality leads, enhances marketing and enables excellent
+                  digital `brand promotions and positioning.
                 </p>
                 <div className="widget widget_getintuch">
                   <ul>
