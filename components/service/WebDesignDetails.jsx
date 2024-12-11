@@ -6,10 +6,13 @@ export default function WebDesignDetails() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 m-b30">
-            <h3 className="text-black font-weight-600 m-b15">
-              Smart web design services
-              <br /> To strengthen your digital presence
-            </h3>
+            <div className="our-story">
+              <h2 className="title">
+                Smart web design{" "}
+                <span className="text-primary"> services </span>
+              </h2>
+              <h4 className="title">To strengthen your digital presence</h4>
+            </div>
 
             <p>
               At Zing Studio we design websites with your customer in mind,
