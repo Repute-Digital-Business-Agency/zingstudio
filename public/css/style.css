@@ -6896,9 +6896,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 .list-2 li {
-  float: left;
+  /* float: left; */
   padding: 5px 5px 5px 20px;
-  width: 50%;
   position: relative;
 }
 

@@ -1,19 +1,24 @@
-export const footerLinks = [
+export const footerLinks_1 = [
   { href: "/about", label: "About Us" },
-  { href: "/web-design", label: "Web Design" },
-  { href: "/blog-grid-2", label: "Blog" },
-  { href: "/e-commerce", label: "E-Commerce" },
   { href: "/services", label: "Services" },
-  { href: "/search-engine-optimization", label: "Search Engine Optimization" },
-  { href: "/privacy-policy", label: "Privacy Policy" },
-  { href: "/social-media-marketing", label: "Social Media Marketing" },
   { href: "/portfolio", label: "Portfolio" },
-  { href: "/pay-per-click", label: "Pay Per Click" },
-  { href: "/help-desk", label: "Help Desk" },
-  { href:"/linkedin-marketing", label: "Linkedin Marketing" },
   { href: "/academy", label: "Academy" },
-  { href: "/lead-generation-compaigns", label: "Lead Generation Compaigns" },
+  { href: "/careers", label: "Careers" },
   { href: "/contact", label: "Contact" },
+
+  { href: "/blog-grid-2", label: "Blog" },
+  // { href: "/privacy-policy", label: "Privacy Policy" },
+  // { href: "/help-desk", label: "Help Desk" },
+];
+
+export const footerLinks_2 = [
+  { href: "/web-design", label: "Web Design" },
+  { href: "/e-commerce", label: "E-Commerce" },
+  { href: "/search-engine-optimization", label: "Search Engine Optimization" },
+  { href: "/social-media-marketing", label: "Social Media Marketing" },
+  { href: "/pay-per-click", label: "Pay Per Click" },
+  { href: "/linkedin-marketing", label: "Linkedin Marketing" },
+  { href: "/lead-generation-compaigns", label: "Lead Generation Compaigns" },
   { href: "/e-commerce-management", label: "E-Commerce Management" },
 ];
 

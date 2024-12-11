@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { posts3 } from "@/data/blogs";
-import { footerLinks, socialLinks } from "@/data/footerLinks";
+import { footerLinks, footerLinks_1, footerLinks_2, socialLinks } from "@/data/footerLinks";
 export default function Footer2(props) {
   const { contactSection } = props;
   console.log("✌️contactSection --->", contactSection);
@@ -167,13 +167,22 @@ export default function Footer2(props) {
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="widget">
                 <h4 className="footer-title">Usefull Link</h4>
+                <div className="d-flex justify-content-between">
                 <ul className="list-2">
-                  {footerLinks.map((link, index) => (
+                  {footerLinks_1.map((link, index) => (
                     <li key={index}>
                       <Link href={link.href}>{link.label}</Link>
                     </li>
                   ))}
                 </ul>
+                <ul className="list-2">
+                  {footerLinks_2.map((link, index) => (
+                    <li key={index}>
+                      <Link href={link.href}>{link.label}</Link>
+                    </li>
+                  ))}
+                </ul>
+                </div>
               </div>
               <div className="widget">
                 <h4 className="footer-title mb-2">Newsletter</h4>

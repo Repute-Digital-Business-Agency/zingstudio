@@ -122,7 +122,7 @@ export default function HomeService() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/Home-Page/saas-platform.jpg"
+                src="/images/Home-Page/ecommerce.jpg"
                 width="900"
                 height="550"
               />
@@ -161,7 +161,7 @@ export default function HomeService() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/Home-Page/open-source.jpg"
+                src="/images/Home-Page/digital-marketing.jpg"
                 width="900"
                 height="550"
               />
