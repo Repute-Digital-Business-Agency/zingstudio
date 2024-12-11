@@ -640,12 +640,12 @@ export const services5 = [
   {
     id: 83,
     name: "01",
-    icon: "flaticon-robot-arm",
+    icon: "/images/about-us/web-design.png",
     title: "Web Design",
     description:
       "At Zing Studio we design websites with your customer in mind, because modern web design is more than just about creating a visually stunning site.",
     delay: "0.2s",
-    link:"web-design"
+    link: "web-design",
   },
   // {
   //   id: 84,
@@ -659,22 +659,22 @@ export const services5 = [
   {
     id: 85,
     name: "02",
-    icon: "flaticon-fuel-station",
+    icon: "/images/about-us/saas.png",
     title: "Saas Platform",
     description:
       "We offer to jump start your e-commerce brand online with some of the leading Saas platforms that offer your quicker turn around...",
     delay: "0.6s",
-    link:"e-commerce"
+    link: "e-commerce",
   },
   {
     id: 86,
     name: "03",
-    icon: "flaticon-fuel-truck",
+    icon: "/images/about-us/open-source-icon.png",
     title: "Open-source Development",
     description:
       "Open Source commerce development is the order of the way in Ecommerce development. The open source platforms offer..",
     delay: "0.8s",
-    link:"e-commerce"
+    link: "e-commerce",
   },
   // {
   //   id: 87,
@@ -688,62 +688,62 @@ export const services5 = [
   {
     id: 88,
     name: "04",
-    icon: "flaticon-engineer-1",
+    icon: "/images/about-us/seo.png",
     title: "Search Engine Optimization",
     description:
       "Search engines have become a vital tool for business buyers and consumers since 95% of all online experiences...",
     delay: "0.4s",
-    link:"search-engine-optimization"
+    link: "search-engine-optimization",
   },
   {
     id: 89,
     name: "05",
-    icon: "flaticon-robot-arm",
+    icon: "/images/about-us/social-media-marketing.png",
     title: "Social Media Marketing",
     description:
       "At Zing Studio, our competent team specializes in providing innovative, result-driven and cost-effective social media marketing...",
     delay: "0.6s",
-    link:"social-media-marketing"
+    link: "social-media-marketing",
   },
   {
     id: 90,
     name: "06",
-    icon: "flaticon-factory-1",
+    icon: "/images/about-us/pay-per-click.png",
     title: "Pay Per Click",
     description:
       "PPC advertising takes advantage of high-competition keywords to drive targeted traffic to your website cost-effectively...",
     delay: "0.8s",
-    link:"pay-per-click"
+    link: "pay-per-click",
   },
   {
     id: 91,
     name: "07",
-    icon: "flaticon-fuel-station",
+    icon: "/images/about-us/linkedi-marketing.png",
     title: "LinkedIn Marketing",
     description:
       "At Zing Studio, we specialize in providing creative LinkedIn marketing services that elevate your business profile into a dynamic...",
     delay: "0.2s",
-    link:"linkedin-marketing"
+    link: "linkedin-marketing",
   },
   {
     id: 92,
     name: "8",
-    icon: "flaticon-fuel-truck",
+    icon: "/images/about-us/lead-generation-icon.png",
     title: "Lead Generation Campaigns",
     description:
       "At Zing Studio, we specialize in providing reliable, high-impact and cost-effective lead generation solutions customized...",
     delay: "0.4s",
-    link:"lead-generation-compaigns"
+    link: "lead-generation-compaigns",
   },
   {
     id: 93,
     name: "9",
-    icon: "flaticon-fuel-truck",
+    icon: "/images/about-us/ecommerce-management.png",
     title: "E-commerce Management",
     description:
       "It can be overwhelming for most businesses to manage inventory, process orders and address customer queries. At Zing Studio...",
     delay: "0.4s",
-    link:"e-commerce-management"
+    link: "e-commerce-management",
   },
 ];
 export const services6 = [

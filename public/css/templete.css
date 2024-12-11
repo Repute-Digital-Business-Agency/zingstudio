@@ -1090,6 +1090,12 @@ h6 {
   color: #fff;
 }
 
+.service-box.style3 .icon-bx-wraper:hover .about-service-image {
+  filter: brightness(0) invert(1);
+  /* Turns black into white */
+
+}
+
 .service-box.style3 .icon-bx-wraper:hover:before {
   opacity: 0.2;
 }

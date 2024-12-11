@@ -26,7 +26,7 @@ export default function Services() {
                 <div className="icon-bx-wraper" data-name={service.name}>
                   <div className="icon-lg">
                     <a href="#" className="icon-cell">
-                      <i className={service.icon} />
+                      <img src={service.icon} alt="" className="about-service-image" />
                     </a>
                   </div>
                   <div className="icon-content">
