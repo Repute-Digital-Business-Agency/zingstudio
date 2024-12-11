@@ -42,10 +42,10 @@ export default function page() {
           </div>
 
           <div className="content-block">
-            <AcademyContent />
+            <AcademyContent  />
           </div>
         </div>
-        <Footer2 />
+        <Footer2 contactSection="true" />
       </div>
     </>
   );

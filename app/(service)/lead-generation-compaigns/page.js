@@ -52,7 +52,7 @@ export default function page() {
             <LeadGenerationCompaginsDetails />
           </div>
         </div>
-        <Footer2 />
+        <Footer2  contactSection="true"/>
       </div>
     </>
   );

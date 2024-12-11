@@ -51,7 +51,7 @@ export default function page() {
             <LinkedInMarketingDetails />
           </div>
         </div>
-        <Footer2 />
+        <Footer2  contactSection="true"/>
       </div>
     </>
   );

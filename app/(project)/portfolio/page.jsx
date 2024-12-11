@@ -43,7 +43,7 @@ export default function page() {
             <Portfolio2 />
           </div>
         </div>
-        <Footer2 />
+        <Footer2  contactSection="true" />
       </div>
     </>
   );

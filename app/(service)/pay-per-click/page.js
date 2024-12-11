@@ -50,7 +50,7 @@ export default function page() {
             <PpcDetails />
           </div>
         </div>
-        <Footer2 />
+        <Footer2  contactSection="true"/>
       </div>
     </>
   );

@@ -48,7 +48,7 @@ export default function page() {
             <ECommerceDetails />
           </div>
         </div>
-        <Footer2 />
+        <Footer2 contactSection="true" />
       </div>
     </>
   );

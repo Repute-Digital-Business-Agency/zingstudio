@@ -357,7 +357,7 @@ export const AcademyLink = {
 };
 
 export const PortfolioLink = {
-  href: "/portfolio-grid-3",
+  href: "/portfolio",
   label: "Portfolio",
 };
 

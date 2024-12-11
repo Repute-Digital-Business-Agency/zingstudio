@@ -47,7 +47,7 @@ export default function page() {
             <WebDesignDetails />
           </div>
         </div>
-        <Footer2 />
+        <Footer2 contactSection="true" />
       </div>
     </>
   );

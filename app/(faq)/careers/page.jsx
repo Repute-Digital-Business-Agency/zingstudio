@@ -41,7 +41,7 @@ export default function page() {
             <Faq1 />
           </div>
         </div>
-        <Footer2 />
+        <Footer2 contactSection="true" />
       </div>
     </>
   );
