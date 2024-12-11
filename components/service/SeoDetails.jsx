@@ -6,15 +6,21 @@ export default function SeoDetails() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 m-b30">
-            <h3 className="text-black font-weight-600 m-b15">
-              Search Engine Optimization
-            </h3>
+            <div className="our-story">
+              <h2 className="title">
+                Search Engine
+                <br />
+                <span className="text-primary"> Optimization </span>
+              </h2>
+              <h4 className="title">
+                Search engines have become a vital tool for business buyers and
+                consumers since 95% of all online experiences begin with a
+                search engine.
+              </h4>
+            </div>
             <p>
-              Search engines have become a vital tool for business buyers and
-              consumers since 95% of all online experiences begin with a search
-              engine. It can be tough for small businesses to outperform
-              competition and position your brand at the top of search engine
-              results.
+              It can be tough for small businesses to outperform competition and
+              position your brand at the top of search engine results.
             </p>
             <p>
               At Zing Studio, we deliver comprehensive and high-quality search
@@ -49,7 +55,7 @@ export default function SeoDetails() {
                 </div>
               </div>
             </div>
-            <h2 className="text-black font-weight-600 m-b15">Scoope Of Work</h2>
+            <h3 className="text-black font-weight-600 m-b15">Scoope Of Work</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

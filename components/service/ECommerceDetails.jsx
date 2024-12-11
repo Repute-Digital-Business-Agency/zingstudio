@@ -6,13 +6,20 @@ export default function ECommerceDetails() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 m-b30">
-            <h2 className="text-black font-weight-600 m-b15">E-commerce</h2>
-
+            <div className="our-story">
+              <h2 className="title">
+                E-commerce
+                <br />
+                <span className="text-primary"> services </span>
+              </h2>
+              <h4 className="title">
+                The modern consumer of today looks for a simple and intuitive
+                online shopping experience that responds to their needs.
+              </h4>
+            </div>
             <p>
-              The modern consumer of today looks for a simple and intuitive
-              online shopping experience that responds to their needs. At Zing
-              Studio, our dynamic team specialize in building superior online
-              platforms
+              At Zing Studio, our dynamic team specialize in building superior
+              online platforms
             </p>
             <p>
               With a in depth understanding of your product, market positioning
@@ -115,7 +122,6 @@ export default function ECommerceDetails() {
               most sought out paradigm of `e-commerce development across the
               globe.
             </p>
-           
           </div>
           <div className="col-lg-6">
             <div className="row">

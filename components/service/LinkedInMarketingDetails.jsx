@@ -6,17 +6,22 @@ export default function LinkedInMarketingDetails() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 m-b30">
-            <h3 className="text-black font-weight-600 m-b15">
-              LinkedIn Marketing
-            </h3>
+            <div className="our-story">
+              <h2 className="title">
+                LinkedIn <span className="text-primary"> Marketing </span>
+              </h2>
+              <h4 className="title">
+                At Zing Studio, we specialize in providing creative LinkedIn
+                marketing services that elevate your business profile into a
+                dynamic hub to attract professionals and spark meaningful
+                conversations.
+              </h4>
+            </div>
             <p>
-              At Zing Studio, we specialize in providing creative LinkedIn
-              marketing services that elevate your business profile into a
-              dynamic hub to attract professionals and spark meaningful
-              conversations. Our team excels in crafting compelling narratives
-              that resonate truly with your intended audience, with the aim to
-              strengthen your brand’s presence, expand your professional
-              network, and drive meaningful growth.
+              Our team excels in crafting compelling narratives that resonate
+              truly with your intended audience, with the aim to strengthen your
+              brand’s presence, expand your professional network, and drive
+              meaningful growth.
             </p>
             <p>
               By positioning your brand as a trusted authority in your niche, we

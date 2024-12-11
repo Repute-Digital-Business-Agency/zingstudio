@@ -6,17 +6,24 @@ export default function PpcDetails() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 m-b30">
-            <h3 className="text-black font-weight-600 m-b15">Pay Per Click</h3>
+            <div className="our-story">
+              <h2 className="title">
+                Pay Per
+                <span className="text-primary"> Click </span>
+              </h2>
+              <h4 className="title">
+                PPC advertising takes advantage of high-competition keywords to
+                drive targeted traffic to your website cost-effectively,
+                maximizing returns on your marketing spend.
+              </h4>
+            </div>
             <p>
-              PPC advertising takes advantage of high-competition keywords to
-              drive targeted traffic to your website cost-effectively,
-              maximizing returns on your marketing spend. At Zing Studio, we
-              specialize in transforming your modest marketing budgets into
-              exceptional digital strategies. Our comprehensive range of PPC
-              services which include Paid Search Ads, Display Ads, Social
-              Advertising, PPC Remarketing, Video Advertising, etc., are
-              tailored to meet the specific needs of both small and large
-              businesses.
+              At Zing Studio, we specialize in transforming your modest
+              marketing budgets into exceptional digital strategies. Our
+              comprehensive range of PPC services which include Paid Search Ads,
+              Display Ads, Social Advertising, PPC Remarketing, Video
+              Advertising, etc., are tailored to meet the specific needs of both
+              small and large businesses.
             </p>
             <p>
               Effective Pay-Per-Click advertising delivers immediate results,
@@ -52,7 +59,7 @@ export default function PpcDetails() {
                 </div>
               </div>
             </div>
-            <h2 className="text-black font-weight-600 m-b15">Scoope Of Work</h2>
+            <h3 className="text-black font-weight-600 m-b15">Scoope Of Work</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

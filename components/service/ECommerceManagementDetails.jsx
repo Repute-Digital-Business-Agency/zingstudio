@@ -6,15 +6,20 @@ export default function ECommerceManagementDetails() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 m-b30">
-            <h3 className="text-black font-weight-600 m-b15">
-              E-commerce Management
-            </h3>
+            <div className="our-story">
+              <h2 className="title">
+                E-commerce <span className="text-primary"> Management </span>
+              </h2>
+              <h4 className="title">
+                It can be overwhelming for most businesses to manage inventory,
+                process orders and address customer queries.
+              </h4>
+            </div>
+
             <p>
-              It can be overwhelming for most businesses to manage inventory,
-              process orders and address customer queries. At Zing Studio, we
-              provide simplified and hassle-free ecommerce marketplace
-              management solutions to help your business quickly launch and
-              operate your online store.
+              At Zing Studio, we provide simplified and hassle-free ecommerce
+              marketplace management solutions to help your business quickly
+              launch and operate your online store.
             </p>
             <p>
               With extensive expertise in handling eCommerce functions, our team
@@ -51,7 +56,7 @@ export default function ECommerceManagementDetails() {
                 </div>
               </div>
             </div>
-            <h2 className="text-black font-weight-600 m-b15">Scoope Of Work</h2>
+            <h3 className="text-black font-weight-600 m-b15">Scoope Of Work</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

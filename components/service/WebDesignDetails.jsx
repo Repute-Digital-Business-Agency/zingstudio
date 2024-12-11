@@ -54,7 +54,7 @@ export default function WebDesignDetails() {
                 </div>
               </div>
             </div>
-            <h2 className="text-black font-weight-600 m-b15">Scoope Of Work</h2>
+            <h3 className="text-black font-weight-600 m-b15">Scoope Of Work</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

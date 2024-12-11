@@ -6,15 +6,22 @@ export default function LeadGenerationCompaginsDetails() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 m-b30">
-            <h3 className="text-black font-weight-600 m-b15">
-              Lead Generation Campaigns
-            </h3>
+            <div className="our-story">
+              <h2 className="title">
+                Lead Generation{" "}
+                <span className="text-primary"> Campaigns </span>
+              </h2>
+              <h4 className="title">
+                At Zing Studio, we specialize in providing reliable, high-impact
+                and cost-effective lead generation solutions customized to meet
+                the specific business needs and budget.
+              </h4>
+            </div>
+
             <p>
-              At Zing Studio, we specialize in providing reliable, high-impact
-              and cost-effective lead generation solutions customized to meet
-              the specific business needs and budget. A well- executed lead
-              generation strategy enables your business to identify, attract and
-              engage with high-quality prospects on a consistent basis.
+              A well- executed lead generation strategy enables your business to
+              identify, attract and engage with high-quality prospects on a
+              consistent basis.
             </p>
             <p>
               We use a wide-range of online and offline strategies to identify

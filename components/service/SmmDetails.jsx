@@ -6,16 +6,23 @@ export default function SmmDetails() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 m-b30">
-            <h3 className="text-black font-weight-600 m-b15">
-              Social Media Marketing
-            </h3>
+            <div className="our-story">
+              <h2 className="title">
+                Social Media
+                <br />
+                <span className="text-primary"> Marketing </span>
+              </h2>
+              <h4 className="title">
+                At Zing Studio, our competent team specializes in providing
+                innovative, result-driven and cost-effective social media
+                marketing services in India designed to improve your performance
+                and maximize ROI.
+              </h4>
+            </div>
             <p>
-              At Zing Studio, our competent team specializes in providing
-              innovative, result-driven and cost-effective social media
-              marketing services in India designed to improve your performance
-              and maximize ROI. We take time to understand your business needs
-              and choose the most relevant platforms to help you connect with
-              your intended audience.
+              We take time to understand your business needs and choose the most
+              relevant platforms to help you connect with your intended
+              audience.
             </p>
             <p>
               Our SMM strategies are designed to align with your unique business
@@ -49,7 +56,7 @@ export default function SmmDetails() {
                 </div>
               </div>
             </div>
-            <h2 className="text-black font-weight-600 m-b15">Scoope Of Work</h2>
+            <h3 className="text-black font-weight-600 m-b15">Scoope Of Work</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
