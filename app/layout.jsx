@@ -135,7 +135,7 @@ export default function RootLayout({ children }) {
           <span>call Now</span>
         </a>
         <a
-          href="https://wa.me/7871207631"
+          href="https://wa.me/8248779838"
           target="_blank"
           className="bt-support-now theme-btn"
         >

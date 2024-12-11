@@ -4,7 +4,12 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { posts3 } from "@/data/blogs";
-import { footerLinks, footerLinks_1, footerLinks_2, socialLinks } from "@/data/footerLinks";
+import {
+  footerLinks,
+  footerLinks_1,
+  footerLinks_2,
+  socialLinks,
+} from "@/data/footerLinks";
 export default function Footer2(props) {
   const { contactSection } = props;
   console.log("✌️contactSection --->", contactSection);
@@ -126,8 +131,10 @@ export default function Footer2(props) {
                   <ul>
                     <li>
                       <i className="ti-location-pin" /> 5A-1, 4th Street,
-                      Chinthamani Nagar, K.K.Pudur, Saibaba Colony, Coimbatore –
-                      641 038. Tamil Nadu, India.
+                      Chinthamani Nagar,
+                      <br /> K.K.Pudur, Saibaba Colony,
+                      <br /> Coimbatore – 641 038.
+                      <br /> Tamil Nadu, India.
                     </li>
                     <li>
                       <i className="ti-mobile" />
@@ -168,20 +175,20 @@ export default function Footer2(props) {
               <div className="widget">
                 <h4 className="footer-title">Usefull Link</h4>
                 <div className="d-flex justify-content-between">
-                <ul className="list-2">
-                  {footerLinks_1.map((link, index) => (
-                    <li key={index}>
-                      <Link href={link.href}>{link.label}</Link>
-                    </li>
-                  ))}
-                </ul>
-                <ul className="list-2">
-                  {footerLinks_2.map((link, index) => (
-                    <li key={index}>
-                      <Link href={link.href}>{link.label}</Link>
-                    </li>
-                  ))}
-                </ul>
+                  <ul className="list-2">
+                    {footerLinks_1.map((link, index) => (
+                      <li key={index}>
+                        <Link href={link.href}>{link.label}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                  <ul className="list-2">
+                    {footerLinks_2.map((link, index) => (
+                      <li key={index}>
+                        <Link href={link.href}>{link.label}</Link>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
               <div className="widget">
