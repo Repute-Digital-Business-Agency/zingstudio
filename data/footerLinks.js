@@ -1,5 +1,5 @@
 export const footerLinks = [
-  { href: "/about-2", label: "About Us" },
+  { href: "/about", label: "About Us" },
   { href: "/web-design", label: "Web Design" },
   { href: "/blog-grid-2", label: "Blog" },
   { href: "/e-commerce", label: "E-Commerce" },
@@ -13,7 +13,7 @@ export const footerLinks = [
   { href:"/linkedin-marketing", label: "Linkedin Marketing" },
   { href: "/shop", label: "Shop" },
   { href: "/lead-generation-compaigns", label: "Lead Generation Compaigns" },
-  { href: "/contact-1", label: "Contact" },
+  { href: "/contact", label: "Contact" },
   { href: "/e-commerce-management", label: "E-Commerce Management" },
 ];
 

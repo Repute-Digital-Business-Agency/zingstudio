@@ -11,14 +11,14 @@ export default function Contact2() {
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">
-            <h1 className="text-white">Contact Us 2</h1>
+            <h1 className="text-white">Contact Us</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
               <ul className="list-inline">
                 <li>
                   <Link href={`/`}>Home</Link>
                 </li>
-                <li>Contact Us 2</li>
+                <li>Contact Us</li>
               </ul>
             </div>
             {/* Breadcrumb row END */}
@@ -45,11 +45,11 @@ export default function Contact2() {
                         5A-1, 4th Street, Chinthamani Nagar, K.K.Pudur, Saibaba
                         Colony, Coimbatore – 641 038. Tamil Nadu, India.
                       </p>
-                      <h6 className="m-b15 text-black font-weight-400">
+                      {/* <h6 className="m-b15 text-black font-weight-400">
                         <i className="ti-alarm-clock" /> Office Hours
                       </h6>
                       <p className="m-b0">Mon To Sat : 09.00AM - 7.00PM</p>
-                      <p>Sunday : Close</p>
+                      <p>Sunday : Close</p> */}
                     </div>
                   </div>
                 </div>

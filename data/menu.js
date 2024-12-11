@@ -347,7 +347,7 @@ export const elementItems = [
 ];
 
 export const AboutUsLink = {
-  href: "/about-2",
+  href: "/about",
   label: "About Us",
 };
 
@@ -362,12 +362,12 @@ export const PortfolioLink = {
 };
 
 export const CareersLink = {
-  href: "/faq-1",
+  href: "/careers",
   label: "Careers",
 };
 
 export const ContactLink = {
-  href: "/contact-2",
+  href: "/contact",
   label: "Contact Us",
 };
 

@@ -6,6 +6,7 @@ import {
   AcademyLink,
   blogItems,
   CareersLink,
+  ContactLink,
   contactLinks,
   elementItems,
   headerAndFooters,
@@ -348,15 +349,23 @@ export default function Nav() {
           {CareersLink.label}
         </Link>
       </li>
+      <li className={ isMenuActive(ContactLink) ? "active" : ""}>
+      <Link
+          href={ContactLink.href}
+          className={isMenuActive(ContactLink) ? "menuActive" : ""}
+        >
+          {ContactLink.label}
+        </Link>
+      </li>
 
-      <li>
+      {/* <li>
         <Link
           href={`/contact-2`}
           className={`has-mega-menu ${menuOpen1 == "pages" ? "open" : ""}  `}
         >
           Contact
         </Link>
-      </li>
+      </li> */}
     </>
   );
 }

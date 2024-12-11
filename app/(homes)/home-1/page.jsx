@@ -20,7 +20,7 @@ export default function page() {
             <HomeService />
           </div>
         </div>
-        <Footer2 />
+        <Footer2 contactSection="true"/>
       </div>
     </>
   );

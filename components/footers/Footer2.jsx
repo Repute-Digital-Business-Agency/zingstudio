@@ -5,78 +5,83 @@ import Image from "next/image";
 import Link from "next/link";
 import { posts3 } from "@/data/blogs";
 import { footerLinks, socialLinks } from "@/data/footerLinks";
-export default function Footer2() {
+export default function Footer2(props) {
+  const { contactSection } = props;
+  console.log("✌️contactSection --->", contactSection);
+
   return (
     <footer className="site-footer style2">
       {/* Footer Info */}
-      <div
-        className="section-full p-t50 p-b20 bg-primary text-white overlay-primary-dark footer-info-bar wow fadeIn"
-        data-wow-duration="2s"
-        data-wow-delay="0.6s"
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
-              <div className="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
-                <div className="icon-content">
-                  <h5 className="dlab-tilte">
-                    <span className="icon-sm">
-                      <i className="ti-location-pin" />
-                    </span>
-                    Company Address
-                  </h5>
-                  <p>
-                    5A-1, 4th Street, Chinthamani Nagar, K.K.Pudur, Saibaba
-                    Colony, Coimbatore – 641 038. Tamil Nadu, India.
-                  </p>
+      {contactSection == true ||
+        (contactSection == "true" && (
+          <div
+            className="section-full p-t50 p-b20 bg-primary text-white overlay-primary-dark footer-info-bar wow fadeIn"
+            data-wow-duration="2s"
+            data-wow-delay="0.6s"
+          >
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
+                  <div className="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
+                    <div className="icon-content">
+                      <h5 className="dlab-tilte">
+                        <span className="icon-sm">
+                          <i className="ti-location-pin" />
+                        </span>
+                        Company Address
+                      </h5>
+                      <p>
+                        5A-1, 4th Street, Chinthamani Nagar, K.K.Pudur, Saibaba
+                        Colony, Coimbatore – 641 038. Tamil Nadu, India.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
-              <div className="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
-                <div className="icon-content">
-                  <h5 className="dlab-tilte">
-                    <span className="icon-sm">
-                      <i className="ti-email" />
-                    </span>
-                    E-mail
-                  </h5>
-                  <p className="m-b0 ">
-                    <Link
-                      href="mailto:support@irepute.in"
-                      style={{ color: "black" }}
-                    >
-                      support@irepute.in
-                    </Link>
-                  </p>
-                  {/* <p className="op7">
+                <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
+                  <div className="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
+                    <div className="icon-content">
+                      <h5 className="dlab-tilte">
+                        <span className="icon-sm">
+                          <i className="ti-email" />
+                        </span>
+                        E-mail
+                      </h5>
+                      <p className="m-b0 ">
+                        <Link
+                          href="mailto:support@irepute.in"
+                          style={{ color: "black" }}
+                        >
+                          support@irepute.in
+                        </Link>
+                      </p>
+                      {/* <p className="op7">
                     <a href="mailto:someone@example.com">company@example.com</a>
                   </p> */}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
-              <div className="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
-                <div className="icon-content">
-                  <h5 className="dlab-tilte">
-                    <span className="icon-sm">
-                      <i className="ti-mobile" />
-                    </span>
-                    Phone Number
-                  </h5>
-                  <p className="m-b0">
-                    Mobile :{" "}
-                    <a href="tel:04224980307" style={{ color: "black" }}>
-                      +91 (422) 498 0307
-                    </a>
-                  </p>
-                  {/* <p className="op7">
+                <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
+                  <div className="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
+                    <div className="icon-content">
+                      <h5 className="dlab-tilte">
+                        <span className="icon-sm">
+                          <i className="ti-mobile" />
+                        </span>
+                        Phone Number
+                      </h5>
+                      <p className="m-b0">
+                        Mobile :{" "}
+                        <a href="tel:04224980307" style={{ color: "black" }}>
+                          +91 (422) 498 0307
+                        </a>
+                      </p>
+                      {/* <p className="op7">
                     Phone : <a href="tel:+4733378901">+0 1234 5678 90</a>
                   </p> */}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
+                {/* <div className="col-lg-3 col-md-6 col-sm-6 m-b30">
               <div className="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
                 <div className="icon-content">
                   <h5 className="dlab-tilte">
@@ -89,10 +94,12 @@ export default function Footer2() {
                   <p>Sunday : Close</p>
                 </div>
               </div>
+            </div> */}
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+        ))}
+
       {/* Footer Info End */}
       {/* Footer Top */}
       <div className="footer-top">
@@ -230,11 +237,7 @@ export default function Footer2() {
                         </div>
                         <div className="dlab-post-header">
                           <h6 className="post-title">
-                            <Link
-                              href={`/#`}
-                            >
-                              {post.title}
-                            </Link>
+                            <Link href={`/#`}>{post.title}</Link>
                           </h6>
                         </div>
                       </div>

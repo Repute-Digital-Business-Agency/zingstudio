@@ -35,10 +35,10 @@ export default function Header17() {
               <span />
             </button>
             {/* extra nav */}
-            <div className="extra-nav border-0">
-              {/* <div className="extra-cell"> */}
-              {/* <button id="quik-search-btn" type="button" className="site-button-link"><i className="la la-search"></i></button> */}
-              {/* </div> */}
+            {/* <div className="extra-nav border-0">
+              <div className="extra-cell">
+              <button id="quik-search-btn" type="button" className="site-button-link"><i className="la la-search"></i></button>
+              </div>
               <div className="extra-cell d-flex align-items-center gap-5 gap-xl-3 d-none d-lg-flex">
                 <a href="#" style={{ color: "#253445" }}>
                   {" "}
@@ -51,7 +51,7 @@ export default function Header17() {
                   Sign In
                 </button>
               </div>
-            </div>
+            </div> */}
             {/* Quik search */}
 
             {/* main nav */}
