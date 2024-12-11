@@ -25,7 +25,7 @@ export default function page() {
             <Service />
           </div>
         </div>
-        <Footer2 />
+        <Footer2 contactSection="true" />
       </div>
     </>
   );

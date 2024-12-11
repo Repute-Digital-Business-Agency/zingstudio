@@ -37,7 +37,7 @@ export default function page() {
                     </li>
                     <li>
                       {" "}
-                      <Link href={`/services-2`}>service</Link>
+                      <Link href={`/services`}>service</Link>
                     </li>
                     <li>LinkedIn Marketing</li>
                   </ul>

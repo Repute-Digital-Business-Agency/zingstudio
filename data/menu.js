@@ -379,7 +379,7 @@ export const contactsLinks = [
 ];
 
 export const ServicesLink = [
-  { href: "/services-2", label: "Overview" },
+  { href: "/services", label: "Overview" },
   { href: "/web-design", label: "Web Design" },
   { href: "/e-commerce", label: "E-Commerce" },
   { href: "/search-engine-optimization", label: "Search Engine Optimization" },

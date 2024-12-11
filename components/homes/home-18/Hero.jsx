@@ -127,7 +127,7 @@ export default function Hero() {
                     <h2 className="fw-bold m-0">{slide.content2}</h2>
                     <Link
                       className="btn mediabtn bg-white text-primary"
-                      href={`/services-2`}
+                      href={`/services`}
                     >
                       View Details
                     </Link>

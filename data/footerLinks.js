@@ -3,7 +3,7 @@ export const footerLinks = [
   { href: "/web-design", label: "Web Design" },
   { href: "/blog-grid-2", label: "Blog" },
   { href: "/e-commerce", label: "E-Commerce" },
-  { href: "/services-2", label: "Services" },
+  { href: "/services", label: "Services" },
   { href: "/search-engine-optimization", label: "Search Engine Optimization" },
   { href: "/privacy-policy", label: "Privacy Policy" },
   { href: "/social-media-marketing", label: "Social Media Marketing" },
