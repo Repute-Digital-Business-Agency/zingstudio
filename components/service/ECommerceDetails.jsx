@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 export default function ECommerceDetails() {
   return (
     <div className="section-full content-inner bg-white">
@@ -122,6 +123,15 @@ export default function ECommerceDetails() {
               most sought out paradigm of `e-commerce development across the
               globe.
             </p>
+
+            <Link
+              href="/images/services/saas-opensource-dif.pdf"
+              target="_blank"
+              className="site-button"
+              rel="noopener noreferrer"
+            >
+              View Difference
+            </Link>
           </div>
           <div className="col-lg-6">
             <div className="row">
