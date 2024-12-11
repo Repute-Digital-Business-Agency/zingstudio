@@ -4,6 +4,8 @@ import Header1 from "@/components/headers/Header1";
 
 import Portfolio2 from "@/components/portfolio/Portfolio2";
 import React from "react";
+import Header17 from "@/components/headers/Header17";
+import Footer2 from "@/components/footers/Footer2";
 
 export const metadata = {
   title:
@@ -14,7 +16,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        <Header17 />
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
@@ -41,7 +43,7 @@ export default function page() {
             <Portfolio2 />
           </div>
         </div>
-        <Footer15 />
+        <Footer2 />
       </div>
     </>
   );
