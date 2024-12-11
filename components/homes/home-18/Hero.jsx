@@ -43,7 +43,7 @@ export default function Hero() {
               </p>
               <div className="dz-banner-btn d-flex align-items-center">
                 <Link
-                  href={`/shortcode-pricing-table`}
+                  href={`/#`}
                   className="btn btn-lg bg-primary m-0 text-decoration-none"
                 >
                 Get your custom proposal
@@ -127,7 +127,7 @@ export default function Hero() {
                     <h2 className="fw-bold m-0">{slide.content2}</h2>
                     <Link
                       className="btn mediabtn bg-white text-primary"
-                      href={`/services-1`}
+                      href={`/services-2`}
                     >
                       View Details
                     </Link>
