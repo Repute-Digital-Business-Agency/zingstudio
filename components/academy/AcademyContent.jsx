@@ -6,14 +6,22 @@ export default function AcademyContent() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 m-b30">
-            <h2 className="text-black font-weight-600 m-b15">Academy</h2>
+            <div className="our-story">
+              <h2 className="title">
+                <span className="text-primary"> Academy </span>
+              </h2>
+              <h4 className="title">
+                {" "}
+                At Zing Studio, we are committed to empowering the next
+                generation of digital experts through our immersive training
+                programs.
+              </h4>
+            </div>
 
             <p>
-              At Zing Studio, we are committed to empowering the next generation
-              of digital experts through our immersive training programs. Our
-              courses are meticulously designed to equip you with cutting-edge
-              skills and knowledge, ensuring that you can grow and thrive in
-              your career.
+              Our courses are meticulously designed to equip you with
+              cutting-edge skills and knowledge, ensuring that you can grow and
+              thrive in your career.
             </p>
             <div className="row widget widget_getintuch widget_getintuch-pro-details m-lr0">
               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 p-lr0">

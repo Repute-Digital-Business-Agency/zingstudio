@@ -10,15 +10,21 @@ export default function Faq1() {
       <div className="section-full overlay-white-middle content-inner">
         <div className="container">
           <div className="section-head text-black text-center">
-            <h3 className="title">Careers</h3>
+            <div className="our-story">
+              <h2 className="title">
+                <span className="text-primary"> Careers </span>
+              </h2>
+              <h4 className="title">
+                {" "}
+                Interested candidates can share their updated resumes to email
+              </h4>
+            </div>
+
             <p className="m-b0">
               Zing Studio is one of the fast-emerging Web design and Internet
               Marketing companies in India. We always seek creative and
               experienced business development executives, digital marketers,
               web designers and developers and content writers to join our team.
-            </p>
-            <p className=" font-weight-600">
-              Interested candidates can share their updated resumes to email
             </p>
           </div>
           <div className="row">

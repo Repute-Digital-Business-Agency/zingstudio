@@ -50,7 +50,7 @@ export default function Portfolio2() {
     >
       <div className="container">
         <div className="site-filters clearfix center m-b40">
-          <div className="our-story">
+          <div className="our-story text-capitalize">
             <h2 className="title">
               <span className="text-primary"> Portfolio </span>
             </h2>

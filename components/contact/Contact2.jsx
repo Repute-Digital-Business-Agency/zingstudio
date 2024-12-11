@@ -64,7 +64,7 @@ export default function Contact2() {
                       </h5>
                       <p className="m-b0">
                         <a href="mailto:support@irepute.in">
-                        support@irepute.in
+                          support@irepute.in
                         </a>
                       </p>
                       {/* <p className="m-b0">
@@ -104,16 +104,16 @@ export default function Contact2() {
                 className="inquiry-form wow fadeInUp"
                 data-wow-delay="0.2s"
               >
-                <h3 className="title-box font-weight-300 m-t0 m-b10">
-                  Get in touch with us for affordable and high-quality internet
-                  marketing solutions:
-                  <span className="bg-primary" />
-                </h3>
-                <p>
-                  {/* Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the */}
-                </p>
+                <div className="our-story">
+                  <h2 className="title">
+                    Get in touch <span className="text-primary"> with us </span>
+                  </h2>
+                  <h4 className="title">
+                    for affordable and high-quality internet marketing
+                    solutions:
+                  </h4>
+                </div>
+
                 <div className="row">
                   <div className="col-lg-6 col-md-6">
                     <div className="form-group">
