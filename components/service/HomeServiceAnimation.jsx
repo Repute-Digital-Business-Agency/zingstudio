@@ -13,14 +13,14 @@ const projects = [
   {
     title: "E-Commerce",
     description:
-      "The modern consumer of today looks for a simple and intuitive online shopping experience that responds to their needs.",
+      "The modern consumer of today looks for a simple and intuitive online shopping experience that responds to their needs. At Zing Studio, our dynamic team...",
     src: "images/Home-Page/ecommerce.jpg",
     link: "/e-commerce",
     color: "#1a43bf",
   },
   {
     title: "Digital Marketing",
-    description: "Dummny Text",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since...",
     src: "images/Home-Page/digital-marketing.jpg",
     link: "/digital-marketing",
     color: "#1a43bf",
@@ -28,7 +28,7 @@ const projects = [
   {
     title: "E-Commerce Management",
     description:
-      "It can be overwhelming for most businesses to manage inventory, process orders and address customer queries.",
+      "It can be overwhelming for most businesses to manage inventory, process orders and address customer queries. At Zing Studio, we provide simplified...",
     src: "images/Home-Page/e-commerce-managment.jpg",
     link: "/e-commerce-management",
     color: "#1a43bf",

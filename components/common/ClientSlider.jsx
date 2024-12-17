@@ -27,15 +27,15 @@ export default function ClientSlider({
         speed={2500}
         breakpoints={{
           0: {
-            slidesPerView: 1,
-          },
-
-          480: {
             slidesPerView: 2,
           },
 
-          767: {
+          480: {
             slidesPerView: 3,
+          },
+
+          767: {
+            slidesPerView: 5,
           },
           1000: {
             slidesPerView: 7,

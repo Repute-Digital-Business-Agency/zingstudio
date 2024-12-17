@@ -17396,6 +17396,9 @@ input[type="radio"]+label:hover:before {
     margin:20px 0px
   }
 
+  .card h2 {
+    font-size: 22px;
+  }
   .card .body .imageContainer {
 
     border-radius: 0px 0px 25px 25px;
