@@ -12,7 +12,8 @@ export default function Faq1() {
           <div className="section-head text-black text-center">
             <div className="our-story">
               <h2 className="title">
-                <span className="text-primary"> Careers </span>
+                Life at
+                <span className="text-primary"> Zing </span>
               </h2>
               <h4 className="title">
                 {" "}

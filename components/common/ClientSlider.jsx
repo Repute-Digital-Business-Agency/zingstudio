@@ -46,7 +46,7 @@ export default function ClientSlider({
       >
         {clientLogos.map((logoSrc, index) => (
           <SwiperSlide className="item" key={index}>
-            <div className="ow-client-logo">
+            <div className="ow-client-logo wow fadeInUp will-animate">
               <div className={`client-logo ${border ? "border" : ""}`}>
                 <a href="#">
                   <Image width={300} height={200} src={logoSrc} alt="" />

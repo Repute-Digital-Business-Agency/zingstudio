@@ -46,7 +46,7 @@ export default function Hero() {
                   href={`/contact`}
                   className="btn btn-lg bg-primary m-0 text-decoration-none"
                 >
-                  Get your custom proposal
+                  Get a Free Consultation
                 </Link>
                 <Link
                   href={`/contact`}

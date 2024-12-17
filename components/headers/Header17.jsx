@@ -35,22 +35,23 @@ export default function Header17() {
               <span />
             </button>
             {/* extra nav */}
-            <div className="extra-nav border-0">
-              {/* <div className="extra-cell">
+            {/* <div className="extra-nav border-0">
+              <div className="extra-cell">
               <button id="quik-search-btn" type="button" className="site-button-link"><i className="la la-search"></i></button>
-              </div> */}
+              </div>
               <div className="extra-cell d-flex align-items-center gap-5 gap-xl-3 d-none d-lg-flex">
-                {/* <a href="#" style={{ color: "#253445" }} className="site-button outline outline-2">
-                  Get a Free Consultation
-                </a> */}
+                <a href="#" style={{ color: "#253445" }}>
+                  {" "}
+                  Sign Up{" "}
+                </a>
                 <button
                   className="button dz-bannerbtn bg-primary"
                   type="button"
                 >
-                 Get a Free Consultation
+                  Sign In
                 </button>
               </div>
-            </div>
+            </div> */}
             {/* Quik search */}
 
             {/* main nav */}

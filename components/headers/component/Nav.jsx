@@ -9,12 +9,14 @@ import {
   ContactLink,
   contactLinks,
   elementItems,
+  ExpertsHubLink,
   headerAndFooters,
   homeItems,
   pagesItems,
   PortfolioLink,
   ServicesLink,
   shopLinks,
+  ZingfluenceLink,
 } from "@/data/menu";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -122,13 +124,13 @@ export default function Nav() {
           ))}
         </ul>
       </li> */}
-      <li
+      {/* <li
         className={` has-mega-menu homedemo  ${
           isMenuActive(homeItems) ? "active" : ""
         }`}
       >
         <Link href={`/`}>Home</Link>
-      </li>
+      </li> */}
       {/* <li
         className={` ${isMenuActive(headerAndFooters) ? "active" : ""} ${
           menuOpen1 == "features" ? "open" : ""
@@ -324,7 +326,25 @@ export default function Nav() {
         </ul>
       </li>
 
-       <li className={isMenuActive(PortfolioLink) ? "active" : ""}>
+      <li className={isMenuActive(ZingfluenceLink) ? "active" : ""}>
+        <Link
+          href={ZingfluenceLink.href}
+          className={isMenuActive(ZingfluenceLink) ? "menuActive" : ""}
+        >
+          {ZingfluenceLink.label}
+        </Link>
+      </li>
+
+      <li className={isMenuActive(ExpertsHubLink) ? "active" : ""}>
+        <Link
+          href={ExpertsHubLink.href}
+          className={isMenuActive(ExpertsHubLink) ? "menuActive" : ""}
+        >
+          {ExpertsHubLink.label}
+        </Link>
+      </li>
+
+      <li className={isMenuActive(PortfolioLink) ? "active" : ""}>
         <Link
           href={PortfolioLink.href}
           className={isMenuActive(PortfolioLink) ? "menuActive" : ""}
@@ -349,8 +369,8 @@ export default function Nav() {
           {CareersLink.label}
         </Link>
       </li>
-      <li className={ isMenuActive(ContactLink) ? "active" : ""}>
-      <Link
+      <li className={isMenuActive(ContactLink) ? "active" : ""}>
+        <Link
           href={ContactLink.href}
           className={isMenuActive(ContactLink) ? "menuActive" : ""}
         >

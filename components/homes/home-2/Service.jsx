@@ -64,7 +64,7 @@ export default function Service() {
             </div>
           </div>
           <div
-            className="col-lg-4 bg-secondry text-white wow fadeIn"
+            className="col-lg-4 bg-primary text-white wow fadeIn"
             data-wow-duration="2s"
             data-wow-delay="0.8s"
           >
@@ -294,7 +294,7 @@ export default function Service() {
             </div>
           </div>
           <div
-            className="col-lg-4 bg-secondry text-white wow fadeIn"
+            className="col-lg-4 bg-primary text-white wow fadeIn"
             data-wow-duration="2s"
             data-wow-delay="0.8s"
           >

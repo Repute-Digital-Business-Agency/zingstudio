@@ -103,7 +103,7 @@ export default function Projects2() {
             >
               <li className={"card-container col-lg-6 col-md-6 col-sm-6 "}>
                 <div
-                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow rotateInDownLeft fly-box-ho "
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
                   data-wow-delay="0.3s"
                 >
                   <img src="/images/background/bg16.jpg" alt="" />
@@ -121,43 +121,7 @@ export default function Projects2() {
 
               <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
                 <div
-                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow rotateInDownLeft fly-box-ho"
-                  data-wow-delay="0.3s"
-                >
-                  <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
-                  <div className="overlay-bx">
-                    <div className="portinner">
-                      <div className="port-up">
-                        <h3 className="port-title">
-                          <Link href={`/portfolio-details`}>Testing</Link>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
-                <div
-                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow rotateInDownLeft fly-box-ho"
-                  data-wow-delay="0.3s"
-                >
-                  <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
-                  <div className="overlay-bx">
-                    <div className="portinner">
-                      <div className="port-up">
-                        <h3 className="port-title">
-                          <Link href={`/portfolio-details`}>Testing</Link>
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
-                <div
-                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow rotateInDownRight fly-box-ho"
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
                   data-wow-delay="0.6s"
                 >
                   <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
@@ -175,7 +139,43 @@ export default function Projects2() {
 
               <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
                 <div
-                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow rotateInDownRight fly-box-ho"
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
+                  data-wow-delay="0.9s"
+                >
+                  <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
+                  <div className="overlay-bx">
+                    <div className="portinner">
+                      <div className="port-up">
+                        <h3 className="port-title">
+                          <Link href={`/portfolio-details`}>Testing</Link>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
+                <div
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
+                  data-wow-delay="0.3s"
+                >
+                  <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
+                  <div className="overlay-bx">
+                    <div className="portinner">
+                      <div className="port-up">
+                        <h3 className="port-title">
+                          <Link href={`/portfolio-details`}>Testing</Link>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
+                <div
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
                   data-wow-delay="0.6s"
                 >
                   <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
@@ -193,8 +193,8 @@ export default function Projects2() {
 
               <li className={"card-container col-lg-6 col-md-6 col-sm-6"}>
                 <div
-                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow rotateInDownRight fly-box-ho"
-                  data-wow-delay="0.6s"
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
+                  data-wow-delay="0.9s"
                 >
                   <img src="/images/background/bg16.jpg" alt="" />
                   <div className="overlay-bx">
