@@ -7,7 +7,7 @@ export default function Contact2() {
     <>
       <div
         className="dlab-bnr-inr overlay-black-middle bg-pt"
-        style={{ backgroundImage: "url(/images/banner/bnr1.jpg)" }}
+        style={{ backgroundImage: "url(/images/Contact/banner.jpg)" }}
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">

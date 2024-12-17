@@ -348,7 +348,7 @@ export const elementItems = [
 
 export const AboutUsLink = {
   href: "/about",
-  label: "About Us",
+  label: "Our Story",
 };
 
 export const AcademyLink = {
@@ -363,12 +363,12 @@ export const PortfolioLink = {
 
 export const CareersLink = {
   href: "/careers",
-  label: "Careers",
+  label: "Life at Zing",
 };
 
 export const ContactLink = {
   href: "/contact",
-  label: "Contact Us",
+  label: "Let’s Zing ",
 };
 
 export const contactsLinks = [
@@ -394,7 +394,7 @@ export const ServicesLink = [
     label: "Lead Generation Campaigns",
   },
   {
-    href: "e-commerce-management",
+    href: "/e-commerce-management",
     label: "E-commerce Management",
   },
 ];

@@ -26,7 +26,7 @@ export default function Footer2(props) {
           >
             <div className="container">
               <div className="row">
-                <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
+                <div className="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInLeft">
                   <div className="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
                     <div className="icon-content">
                       <h5 className="dlab-tilte">
@@ -42,7 +42,7 @@ export default function Footer2(props) {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
+                <div className="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInUp">
                   <div className="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
                     <div className="icon-content">
                       <h5 className="dlab-tilte">
@@ -65,7 +65,7 @@ export default function Footer2(props) {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
+                <div className="col-lg-4 col-md-6 col-sm-6 m-b30 wow fadeInRight">
                   <div className="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
                     <div className="icon-content">
                       <h5 className="dlab-tilte">

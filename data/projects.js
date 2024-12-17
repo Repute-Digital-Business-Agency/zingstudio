@@ -342,87 +342,99 @@ export const portfolioItems2 = [
 export const portfolioItems3 = [
   {
     id: 49,
-    filter: "web design",
+    filter: "web-design",
     imageSrc: "/images/portfolio/image_1.jpg",
     title: "Muchen Railway Station",
     category: "System",
+    link:"https://irepute.in/"
   },
   {
     id: 50,
-    filter: "advertising branding photography",
+    filter: "e-commerce",
     imageSrc: "/images/portfolio/image_2.jpg",
     title: "Mining Plant Set Up",
     category: "Mining / Plants",
+    link:"https://irepute.in/"
   },
   {
     id: 51,
-    filter: "branding design photography",
+    filter: "digital-marketing",
     imageSrc: "/images/portfolio/image_3.jpg",
     title: "Sanfran Cisco Bridge",
     category: "Engineering",
+    link:"https://irepute.in/"
   },
   {
     id: 52,
-    filter: "web design",
+    filter: "e-commerce-management",
     imageSrc: "/images/portfolio/image_4.jpg",
     title: "Hamburg Wind Energy Plant",
     category: "Energy",
+    link:"https://irepute.in/"
   },
   {
     id: 53,
-    filter: "web branding",
+    filter: "web-design",
     imageSrc: "/images/portfolio/image_5.jpg",
     title: "Capturing Manila",
     category: "Industry",
+    link:"https://irepute.in/"
   },
   {
     id: 54,
-    filter: "advertising design photography",
+    filter: "e-commerce",
     imageSrc: "/images/portfolio/image_6.jpg",
     title: "Berlin Central Bank",
     category: "Bank / Constructions",
+    link:"https://irepute.in/"
   },
   {
     id: 55,
-    filter: "web branding",
+    filter: "digital-marketing",
     imageSrc: "/images/portfolio/image_7.jpg",
     title: "Crop Identity",
     category: "Branding and Identity",
+    link:"https://irepute.in/"
   },
   {
     id: 56,
-    filter: "advertising design photography",
+    filter: "e-commerce-management",
     imageSrc: "/images/portfolio/image_8.jpg",
     title: "Hamburg Wind Energy Plant",
     category: "Industry",
+    link:"https://irepute.in/"
   },
   {
     id: 57,
-    filter: "web photography",
+    filter: "web-design",
     imageSrc: "/images/portfolio/image_9.jpg",
     title: "Capturing Manila",
     category: "Industry",
+    link:"https://irepute.in/"
   },
   {
     id: 58,
-    filter: "advertising branding",
+    filter: "digital-marketing",
     imageSrc: "/images/portfolio/image_10.jpg",
     title: "Berlin Central Bank",
     category: "Bank / Constructions",
+    link:"https://irepute.in/"
   },
   {
     id: 59,
-    filter: "web design",
+    filter: "e-commerce",
     imageSrc: "/images/portfolio/image_11.jpg",
     title: "Sanfran Cisco Bridge",
     category: "Engineering",
+    link:"https://irepute.in/"
   },
   {
     id: 60,
-    filter: "advertising branding photography",
+    filter: "e-commerce-management",
     imageSrc: "/images/portfolio/image_12.jpg",
     title: "Muchen Railway Station",
     category: "System",
+    link:"https://irepute.in/"
   },
 ];
 
@@ -437,4 +449,12 @@ export const allProjects = [
   ...galleryItems,
   ...portfolioItems2,
   ...portfolioItems3,
+];
+
+export const OurWorks = [
+  {
+    id: 1,
+    title: "our Works",
+    image: "/images/our-works/pic1.jpg",
+  },
 ];

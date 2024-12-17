@@ -7,15 +7,20 @@ export default function Testimonials() {
   return (
     <div className="section-full content-inner bg-gray">
       <div className="container">
-        <div className="section-head style2 text-center">
-          <h2 className="title">Testimonials</h2>
+        <div className="sort-title clearfix text-center" style={{marginBottom:"50px"}}>
+          <h4>Our Vision</h4>
+          {/* <p style={{ marginBottom: "0px" }}>Dummy Text</p> */}
+        </div>
+
+        {/* <div className="section-head style2 text-center">
+          <h4 className="title">Our Vision</h4>
           <p>
             There are many variations of passages of Lorem Ipsum typesetting
             industry has been the industry's standard dummy text ever since the
             been when an unknown printer.
           </p>
-        </div>
-        <Swiper
+        </div> */}
+        {/* <Swiper
           slidesPerView={2}
           spaceBetween={30}
           slidesPerGroup={1}
@@ -30,34 +35,30 @@ export default function Testimonials() {
               slidesPerView: 1,
             },
             991: {
-              slidesPerView: 2,
+              slidesPerView: 1,
             },
           }}
           className="testimonial-five owl-carousel owl-btn-center-lr owl-btn-2 primary dots-style-3 owl-theme"
         >
-          {testimonials5.map((testimonial, index) => (
-            <SwiperSlide
-              className="swiper-slide item wow fadeInUp"
-              data-wow-duration="2s"
-              data-wow-delay={testimonial.animationDelay}
-              key={index}
-            >
-              <div className="testimonial-14 quote-left">
-                <div className="testimonial-detail clearfix text-white">
-                  <h5 className="testimonial-name m-t10 m-b5">
-                    {testimonial.name}
-                  </h5>
-                  <span className="testimonial-position">
-                    {testimonial.position}
-                  </span>
-                </div>
-                <div className="testimonial-text">
-                  <p>{testimonial.text}</p>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+          {testimonials5.map((testimonial, index) => ( */}
+        <div
+          className="swiper-slide item wow fadeInUp"
+          data-wow-duration="2s"
+          // data-wow-delay={testimonial.animationDelay}
+          // key={index}
+        >
+          <div className="testimonial-14 quote-left">
+            <div className="testimonial-text">
+              <p>
+                Get customized solutions based on your business goals – no
+                matter your size or industry. With successful clients ranging
+                from small businesses to Fortune 1000s, you’re in good company.
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* //   ))}
+        // </Swiper> */}
       </div>
     </div>
   );

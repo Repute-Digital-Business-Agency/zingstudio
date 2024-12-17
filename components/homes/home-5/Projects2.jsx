@@ -63,16 +63,16 @@ export default function Projects2() {
       data-wow-duration="2s"
       data-wow-delay="0.6s"
     >
-      <div className="container">
+      <div className="container-fluid">
         <div className="section-head style2 text-center">
-          <h2 className="title m-b10">Design Projects</h2>
+          <h2 className="title m-b10">Our Works</h2>
           <p>
             There are many variations of passages of Lorem Ipsum typesetting
             industry has been the industry's standard dummy text ever since the
             been when an unknown printer.
           </p>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-lg-12 text-center">
             <div className="site-filters m-b20 filters2">
               <ul className="filters" data-bs-toggle="buttons">
@@ -94,48 +94,120 @@ export default function Projects2() {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="row p-l0 sp10">
           <div className="col-lg-12">
             <ul
-              ref={isotopContainer}
               id="masonry"
-              className="dlab-gallery-listing gallery mfp-gallery text-center"
+              className="dlab-gallery-listing gallery mfp-gallery text-center row"
             >
-              {portfolioItems.map((item, index) => (
-                <li
-                  className={
-                    "card-container col-lg-4 col-md-6 col-sm-6" +
-                    " " +
-                    item.categories
-                  }
-                  key={index}
+              <li className={"card-container col-lg-6 col-md-6 col-sm-6 "}>
+                <div
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow rotateInDownLeft fly-box-ho "
+                  data-wow-delay="0.3s"
                 >
-                  <div className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3">
-                    <Image src={item.src} width={500} height={500} alt="" />
-                    <div className="overlay-bx">
-                      <div className="portinner">
-                        <div className="port-up">
-                          <span className="text-primary">{item.category}</span>
-                          <h3 className="port-title">
-                            <Link href={`/portfolio-details/${item.title}`}>
-                              {item.title}
-                            </Link>
-                          </h3>
-                        </div>
-                        <div className="port-down">
-                          <Link
-                            href={`/portfolio-details/${item.title}`}
-                            className="btn-link"
-                          >
-                            View Detail <i className="la la-arrow-right" />
-                          </Link>
-                        </div>
+                  <img src="/images/background/bg16.jpg" alt="" />
+                  <div className="overlay-bx">
+                    <div className="portinner">
+                      <div className="port-up">
+                        <h3 className="port-title">
+                          <Link href={`/portfolio-details`}>Testing</Link>
+                        </h3>
                       </div>
                     </div>
                   </div>
-                </li>
-              ))}
+                </div>
+              </li>
+
+              <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
+                <div
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow rotateInDownLeft fly-box-ho"
+                  data-wow-delay="0.3s"
+                >
+                  <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
+                  <div className="overlay-bx">
+                    <div className="portinner">
+                      <div className="port-up">
+                        <h3 className="port-title">
+                          <Link href={`/portfolio-details`}>Testing</Link>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
+                <div
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow rotateInDownLeft fly-box-ho"
+                  data-wow-delay="0.3s"
+                >
+                  <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
+                  <div className="overlay-bx">
+                    <div className="portinner">
+                      <div className="port-up">
+                        <h3 className="port-title">
+                          <Link href={`/portfolio-details`}>Testing</Link>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
+                <div
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow rotateInDownRight fly-box-ho"
+                  data-wow-delay="0.6s"
+                >
+                  <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
+                  <div className="overlay-bx">
+                    <div className="portinner">
+                      <div className="port-up">
+                        <h3 className="port-title">
+                          <Link href={`/portfolio-details`}>Testing</Link>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
+                <div
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow rotateInDownRight fly-box-ho"
+                  data-wow-delay="0.6s"
+                >
+                  <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
+                  <div className="overlay-bx">
+                    <div className="portinner">
+                      <div className="port-up">
+                        <h3 className="port-title">
+                          <Link href={`/portfolio-details`}>Testing</Link>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li className={"card-container col-lg-6 col-md-6 col-sm-6"}>
+                <div
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow rotateInDownRight fly-box-ho"
+                  data-wow-delay="0.6s"
+                >
+                  <img src="/images/background/bg16.jpg" alt="" />
+                  <div className="overlay-bx">
+                    <div className="portinner">
+                      <div className="port-up">
+                        <h3 className="port-title">
+                          <Link href={`/portfolio-details`}>Testing</Link>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
         </div>

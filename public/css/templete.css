@@ -1672,7 +1672,7 @@ h6 {
   color: #fff;
   font-weight: 500;
   line-height: 80px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .contact-no p {
@@ -1719,7 +1719,7 @@ h6 {
   width: 100%;
   position: absolute;
   right: 0;
-  bottom: -80px;
+  bottom: -50px;
 }
 
 /* Services */
@@ -2713,9 +2713,13 @@ HOME 5 Box Header
 }
 
 .portbox3 .portinner .port-up {
-  background: #fff;
+  color: #fff;
   border-radius: 6px;
   padding: 20px;
+}
+
+.portbox3 .portinner .port-up h3.port-title a {
+  color: white
 }
 
 .portbox3 .portinner .port-down {
@@ -2737,7 +2741,7 @@ HOME 5 Box Header
 .portbox3 .portinner .port-up span {
   text-transform: uppercase;
   font-weight: 600;
-  color: #5e5e5e;
+  color: white;
   font-family: Montserrat;
   font-size: 14px;
 }
@@ -3596,7 +3600,7 @@ HOME 5 Box Header
   }
 
   .sort-title {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 
   .add-box h2,
@@ -4317,6 +4321,7 @@ HOME 5 Box Header
   .portbox3 .portinner .port-up h3.port-title {
     font-size: 18px;
     line-height: 28px;
+    color: white
   }
 
   .portbox3 .portinner .port-up span {

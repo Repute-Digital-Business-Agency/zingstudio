@@ -1,7 +1,14 @@
+import ClientSlider from "@/components/common/ClientSlider";
 import Footer2 from "@/components/footers/Footer2";
 import Header17 from "@/components/headers/Header17";
+import Cta from "@/components/homes/home-1/Cta";
+import Testimonials from "@/components/homes/home-10/Testimonials";
+import Portfolio from "@/components/homes/home-12/Portfolio";
+import Blog1 from "@/components/homes/home-15/Blog1";
 import Hero from "@/components/homes/home-18/Hero";
 import Service from "@/components/homes/home-2/Service";
+import Projects2 from "@/components/homes/home-5/Projects2";
+import HomeServiceAnimation from "@/components/service/HomeServiceAnimation";
 import HomeService from "@/components/service/HomeServices";
 import React from "react";
 
@@ -16,11 +23,27 @@ export default function page() {
         <Header17 />
         <div className="page-content bg-white">
           <Hero />
+          <div className="content-block p-b50 ">
+            <ClientSlider />
+          </div>
+
+          <Testimonials />
+
+          <div className="content-block p-b50">
+            <Cta />
+          </div>
+
+          <Projects2 />
+
           <div className="content-block">
             <HomeService />
           </div>
         </div>
-        <Footer2 contactSection="true"/>
+
+        <div className="content-block">
+          <HomeServiceAnimation />
+        </div>
+        <Footer2 contactSection="true" />
       </div>
     </>
   );

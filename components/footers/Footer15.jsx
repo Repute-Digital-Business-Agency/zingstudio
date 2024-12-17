@@ -105,7 +105,7 @@ export default function Footer15() {
               <div className="widget">
                 <h4 className="footer-title">Usefull Link</h4>
                 <ul className="list-2">
-                  {footerLinks.map((link, index) => (
+                  {footerLinks?.map((link, index) => (
                     <li key={index}>
                       <Link href={link.href}>{link.label}</Link>
                     </li>

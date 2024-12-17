@@ -7737,7 +7737,7 @@ a,
 ---------------------------------------------------------------*/
 /*==== Shortcode Css ====*/
 .sort-title {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .sort-title h4:after {
@@ -15583,7 +15583,7 @@ ol.commentlist li .star-rating {
 }
 
 .content-inner {
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -15593,8 +15593,8 @@ ol.commentlist li .star-rating {
 }
 
 .content-inner-2 {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .content-inner-3 {
@@ -17272,4 +17272,137 @@ input[type="radio"]+label:hover:before {
 
 .dlab-tabs.border-top .nav-tabs>li.active>a {
   border-color: var(--color-primary);
+}
+
+
+
+
+/* testing  */
+
+.main {
+  position: relative;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.cardContainer {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 150px;
+  transform: scale(1);
+  /* Default zoom */
+  opacity: 1;
+  /* Default visibility */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.cardContainer.scrolled-up {
+  transform: scale(0.9);
+  /* Zoom out */
+  opacity: 0.8;
+}
+
+.cardContainer.scrolled-down {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -25%;
+  height: 350px;
+  width: 100%;
+  border-radius: 25px;
+  transform-origin: top;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.card .body {
+
+  height: 100%;
+  margin-top: 0px;
+
+}
+
+.card .body .description {
+  position: relative;
+  top: 10%;
+}
+
+.card .body .description p {
+  font-size: 16px;
+}
+
+.card .body .description span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card .body .description span a {
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card .body .imageContainer {
+  position: relative;
+
+  height: 100%;
+  border-radius: 0px 25px 25px 0px;
+  overflow: hidden;
+}
+
+.card .body .imageContainer .inner {
+  width: 100%;
+  height: 100%;
+}
+
+.card .body .imageContainer img {
+  object-fit: cover;
+}
+
+
+@media(max-width: 500px) {
+
+
+
+  .card {
+
+    height: 475px;
+  }
+
+  .card .body {
+    height: 200px
+  }
+
+  .cardContainer {
+    height: 475px;
+
+  }
+
+  .card .body .description{
+    position: static;
+    margin:20px 0px
+  }
+
+  .card .body .imageContainer {
+
+    border-radius: 0px 0px 25px 25px;
+    overflow: hidden;
+  }
+
+  .card .body .imageContainer img {
+    top: 20px
+  }
 }

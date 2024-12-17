@@ -39,7 +39,7 @@ export default function Faq1() {
                 <Image
                   alt=""
                   className="img-cover radius-sm"
-                  src="/images/about/pic5.jpg"
+                  src="/images/Careers/video-img.jpg"
                   width="1000"
                   height="674"
                 />

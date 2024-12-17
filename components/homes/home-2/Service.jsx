@@ -96,7 +96,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/services/open-source.jpg"
+                src="/images/services/open-source-development.jpg"
                 width="900"
                 height="550"
               />
@@ -245,7 +245,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/services/linkedin-marketing.jpg"
+                src="/images/services/linkedln-marketing.jpg"
                 width="900"
                 height="550"
               />

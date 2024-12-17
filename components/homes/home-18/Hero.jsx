@@ -23,7 +23,7 @@ export default function Hero() {
               data-wow-delay="0.2s"
             >
               <h1 className="dz-title fw-bold position-relative">
-                Result-driven, affordable digital marketing solutions 
+                Result-driven, affordable digital marketing solutions
                 {/* Drive more
                 sales and achieve scalable growth for your business */}
               </h1>
@@ -37,7 +37,7 @@ export default function Hero() {
                 In today’s fast-paced digital world, more and more people are
                 turning to online platforms to shop, discover new brands, and
                 tackle their everyday challenges.
-                 {/* A well-planned marketing
+                {/* A well-planned marketing
                 campaign is what you need to position your online business
                 exactly where you want it to be and distinguish yourself. */}
               </p>
@@ -46,7 +46,14 @@ export default function Hero() {
                   href={`/contact`}
                   className="btn btn-lg bg-primary m-0 text-decoration-none"
                 >
-                Get your custom proposal
+                  Get your custom proposal
+                </Link>
+                <Link
+                  href={`/contact`}
+                  className="site-button outline outline-2 text-decoration-none ms-3 "
+                  style={{ color: "#1a43bf " }}
+                >
+                  Case Study
                 </Link>
                 {/* <a href="#">
                   Learn More

@@ -5,7 +5,7 @@ export default function Cta() {
   return (
     <div
       className="section-full bg-img-fix content-inner-2 overlay-black-dark contact-action style2"
-      style={{ backgroundImage: "url(/images/background/bg2.jpg)" }}
+      style={{ backgroundImage: "url(/images/banner/bnr2.jpg)" }}
     >
       <div className="container">
         <div className="row relative">
@@ -15,10 +15,16 @@ export default function Cta() {
             data-wow-delay="0.2s"
           >
             <div className="contact-no-area">
-              <h2 className="title">
-                A company involved in service, maintenance
-              </h2>
-              <div className="contact-no">
+              <h4 className="title">CEO Speacks</h4>
+              <p style={{ color: "white" }}>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged.
+              </p>
+              {/* <div className="contact-no">
                 <div className="contact-left">
                   <h3 className="no">
                     <i className="sl-call-in" />
@@ -33,7 +39,7 @@ export default function Cta() {
                     Get Appointment
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div
@@ -41,7 +47,7 @@ export default function Cta() {
             data-wow-duration="2s"
             data-wow-delay="0.2s"
           >
-            <Image alt="" src="/images/pic1.png" width="500" height="542" />
+            <img alt="" src="/images/pic1.png" style={{ width: "90%" }} />
           </div>
         </div>
       </div>

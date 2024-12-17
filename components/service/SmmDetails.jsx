@@ -115,7 +115,7 @@ export default function SmmDetails() {
               <div className="col-lg-12 m-b30">
                 <Image
                   alt=""
-                  src="/images/about/pic3.jpg"
+                  src="/images/services/social-media-marketing/img-1.jpg"
                   width="1000"
                   height="674"
                 />
@@ -123,7 +123,7 @@ export default function SmmDetails() {
               <div className="col-lg-6 col-md-6 col-sm-6 m-b30">
                 <Image
                   alt=""
-                  src="/images/our-services/pic2.jpg"
+                  src="/images/services/social-media-marketing/img-2.jpg"
                   width="500"
                   height="357"
                 />
@@ -131,7 +131,7 @@ export default function SmmDetails() {
               <div className="col-lg-6 col-md-6 col-sm-6 m-b30">
                 <Image
                   alt=""
-                  src="/images/our-services/pic3.jpg"
+                  src="/images/services/social-media-marketing/img-3.jpg"
                   width="500"
                   height="357"
                 />
@@ -139,7 +139,7 @@ export default function SmmDetails() {
               <div className="col-lg-12 m-b30">
                 <Image
                   alt=""
-                  src="/images/about/about2.jpg"
+                  src="/images/services/social-media-marketing/img-4.jpg"
                   width="700"
                   height="479"
                 />

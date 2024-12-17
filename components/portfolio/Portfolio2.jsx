@@ -4,11 +4,11 @@ import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 const filters = [
   { filter: "*", text: "All", isActive: true },
-  { filter: ".web", text: "Agricultural" },
-  { filter: ".advertising", text: "Chemical" },
-  { filter: ".branding", text: "Mechanical" },
-  { filter: ".design", text: "Power Energy" },
-  { filter: ".photography", text: "Plants" },
+  { filter: ".web-design", text: "Web Design" },
+  { filter: ".e-commerce", text: "E-Commerce" },
+  { filter: ".digital-marketing", text: "Digital Marketing" },
+  { filter: ".e-commerce-management", text: "E-Commerce Management" },
+  // { filter: ".photography", text: "Plants" },
 ];
 import Image from "next/image";
 export default function Portfolio2() {
@@ -96,7 +96,7 @@ export default function Portfolio2() {
               >
                 <div className="dlab-box dlab-gallery-box">
                   <div className="dlab-media dlab-img-overlay1 dlab-img-effect">
-                    <Link href={`/portfolio-details/${item.title}`}>
+                    <Link href={item.link} target="_blank">
                       <Image
                         src={item.imageSrc}
                         width={650}
@@ -107,17 +107,17 @@ export default function Portfolio2() {
                     <div className="overlay-bx">
                       <div className="overlay-icon">
                         <div className="text-white">
-                          <Link href={`/portfolio-details/${item.title}`}>
+                          <Link href={item.link} target="_blank">
                             <i className="fas fa-link icon-bx-xs"></i>
                           </Link>
-                          <span
+                          {/* <span
                             data-exthumbimage={item.imageSrc}
                             data-src={item.imageSrc}
                             className="check-km"
-                            title="Factory Management"
+                            title={item.title}
                           >
                             <i className="far fa-image icon-bx-xs"></i>
-                          </span>
+                          </span> */}
                         </div>
                       </div>
                     </div>
