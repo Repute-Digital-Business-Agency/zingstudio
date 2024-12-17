@@ -13,14 +13,14 @@ export default function Testimonials() {
     >
       <div className="container ">
         <div className="section-head style2 text-center">
-          <h2 className="title">Clients Say About Us</h2>
-          <p>19+ years’ experience</p>
+          <h2 className="title">CEO Speacks</h2>
+          <p>Dummy Text</p>
         </div>
         <div
           style={{ display: "block" }}
           className="testimonial-num-count visible owl-num-count owl-carousel owl-btn-center-lr owl-btn-3 owl-theme"
         >
-          <Swiper
+          {/* <Swiper
             slidesPerView={1}
             spaceBetween={30}
             slidesPerGroup={1}
@@ -45,25 +45,30 @@ export default function Testimonials() {
               },
             }}
           >
-            {testimonials2.slice(0, 3).map((elm, i) => (
-              <SwiperSlide key={i} className="item">
-                <div className="testimonial-12 text-white">
-                  <div className="testimonial-pic">
-                    <Image src={elm.image} width={500} height={600} alt="" />
-                  </div>
-                  <div className="testimonial-detail">
-                    <h4 className="testimonial-name m-t0 m-b5">{elm.name}</h4>
-                    <span className="testimonial-position">{elm.position}</span>
-                    <div className="testimonial-text">
-                      <p>{elm.text}</p>
-                    </div>
-                  </div>
+            {testimonials2.slice(0, 3).map((elm, i) => ( */}
+          <div className="item">
+            <div className="testimonial-12 text-white">
+              <div className="testimonial-pic">
+                <img src="/images/pic1.png" alt="" />
+              </div>
+              <div className="testimonial-detail">
+                <h4 className="testimonial-name m-t0 m-b5">Testing</h4>
+                <span className="testimonial-position">Sub Heading</span>
+                <div className="testimonial-text">
+                  <p>
+                    {" "}
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s,
+                  </p>
                 </div>
-              </SwiperSlide>
-            ))}
+              </div>
+            </div>
+          </div>
+          {/* ))}
             <div className="owl-dots spt4"></div>
-          </Swiper>
-          <div className="owl-nav">
+          </Swiper> */}
+          {/* <div className="owl-nav">
             <button
               style={{ zIndex: 1 }}
               type="button"
@@ -80,7 +85,7 @@ export default function Testimonials() {
             >
               <i className="ti-arrow-right"></i>
             </button>
-          </div>{" "}
+          </div>{" "} */}
         </div>
       </div>
     </div>

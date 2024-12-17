@@ -11,6 +11,7 @@ import Projects2 from "@/components/homes/home-5/Projects2";
 import HomeServiceAnimation from "@/components/service/HomeServiceAnimation";
 import HomeService from "@/components/service/HomeServices";
 import React from "react";
+import Testimonial from "@/components/homes/home-5/Testimonials";
 
 export const metadata = {
   title: "Home || Zing Studio",
@@ -29,11 +30,15 @@ export default function page() {
 
           <Testimonials />
 
-          <div className="content-block p-b50">
+          <Testimonial />
+
+
+          {/* <div className="content-block p-b50">
             <Cta />
-          </div>
+          </div> */}
 
           <Projects2 />
+
 
           <div className="content-block">
             <HomeService />
