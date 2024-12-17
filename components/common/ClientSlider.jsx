@@ -10,10 +10,15 @@ export default function ClientSlider({
 }) {
   return (
     <>
-      <div className="sort-title clearfix text-center m-b20">
+      {/* <div className="sort-title clearfix text-center m-b20">
         <h4>Our Clients</h4>
         <p style={{ marginBottom: "0px" }}>Dummy Text</p>
-      </div>
+      </div> */}
+
+      <div className="section-head style2 text-center">
+          <h2 className="title">Our Clients</h2>
+          <p>Dummy Text</p>
+        </div>
 
       <Swiper
         // slidesPerView={5}

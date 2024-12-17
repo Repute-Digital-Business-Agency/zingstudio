@@ -7,9 +7,14 @@ export default function Testimonials() {
   return (
     <div className="section-full content-inner bg-gray">
       <div className="container">
-        <div className="sort-title clearfix text-center" style={{marginBottom:"50px"}}>
+        {/* <div className="sort-title clearfix text-center" style={{marginBottom:"50px"}}>
           <h4>Our Vision</h4>
-          {/* <p style={{ marginBottom: "0px" }}>Dummy Text</p> */}
+          <p style={{ marginBottom: "0px" }}>Dummy Text</p>
+        </div> */}
+
+        <div className="section-head style2 text-center">
+          <h2 className="title">Our Vision</h2>
+          <p>Dummy Text</p>
         </div>
 
         {/* <div className="section-head style2 text-center">
