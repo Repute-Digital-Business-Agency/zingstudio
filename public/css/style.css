@@ -17282,7 +17282,28 @@ input[type="radio"]+label:hover:before {
 .main {
   position: relative;
   margin-bottom: 80px;
-  margin-top: 80px;
+  margin-top: 100px;
+}
+
+.homeservice-heading{
+  position: sticky;
+  top: 130px;
+  transform: scale(1);
+  /* Default zoom */
+  opacity: 1;
+  /* Default visibility */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.homeservice-heading.scrolled-up {
+  transform: scale(0.9);
+  /* Zoom out */
+  opacity: 0.8;
+}
+
+.homeservice-heading.scrolled-down {
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 .cardContainer {
@@ -17291,7 +17312,7 @@ input[type="radio"]+label:hover:before {
   align-items: center;
   justify-content: center;
   position: sticky;
-  top: 150px;
+  top: 350px;
   transform: scale(1);
   /* Default zoom */
   opacity: 1;

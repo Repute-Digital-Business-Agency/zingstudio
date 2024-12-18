@@ -48,10 +48,16 @@ export default function Testimonials() {
             {testimonials2.slice(0, 3).map((elm, i) => ( */}
           <div className="item">
             <div className="testimonial-12 text-white">
-              <div className="testimonial-pic">
+              <div
+                className="testimonial-pic wow fadeInUp fly-box-ho "
+                data-wow-delay="1s"
+              >
                 <img src="/images/pic1.png" alt="" />
               </div>
-              <div className="testimonial-detail">
+              <div
+                className="testimonial-detail wow fadeInUp "
+                data-wow-delay="0.3s"
+              >
                 <h4 className="testimonial-name m-t0 m-b5">Testing</h4>
                 <span className="testimonial-position">Sub Heading</span>
                 <div className="testimonial-text">

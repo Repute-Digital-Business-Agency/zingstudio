@@ -48,8 +48,7 @@ export default function Testimonials() {
           {testimonials5.map((testimonial, index) => ( */}
         <div
           className="swiper-slide item wow fadeInUp"
-          data-wow-duration="2s"
-          // data-wow-delay={testimonial.animationDelay}
+          data-wow-delay="0.3s"
           // key={index}
         >
           <div className="testimonial-14 quote-left">

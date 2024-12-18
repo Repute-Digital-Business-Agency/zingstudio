@@ -6636,7 +6636,7 @@ HOME 5 Box Header
 
 .testimonial-12 .testimonial-detail {
   background-color: var(--color-primary);
-  padding: 50px 30px 50px 110px;
+  padding: 50px 30px 50px 130px;
 }
 
 .testimonial-12 h4.testimonial-name {
@@ -6650,7 +6650,7 @@ HOME 5 Box Header
 }
 
 .testimonial-num-count {
-  width: 750px;
+  /* width: 750px; */
   margin: auto;
 }
 

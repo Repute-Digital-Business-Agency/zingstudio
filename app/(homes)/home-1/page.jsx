@@ -1,7 +1,7 @@
 import ClientSlider from "@/components/common/ClientSlider";
 import Footer2 from "@/components/footers/Footer2";
 import Header17 from "@/components/headers/Header17";
-import Cta from "@/components/homes/home-1/Cta";
+import Cta from "@/components/homes/home-13/Cta";
 import Testimonials from "@/components/homes/home-10/Testimonials";
 import Portfolio from "@/components/homes/home-12/Portfolio";
 import Blog1 from "@/components/homes/home-15/Blog1";
@@ -40,15 +40,16 @@ export default function page() {
           <Projects2 />
 
 
-          <div className="content-block">
+          {/* <div className="content-block">
             <HomeService />
-          </div>
+          </div> */}
         </div>
 
         <div className="content-block">
           <HomeServiceAnimation />
         </div>
-        <Footer2 contactSection="true" />
+          <Cta />
+        <Footer2 contactSection="false" />
       </div>
     </>
   );

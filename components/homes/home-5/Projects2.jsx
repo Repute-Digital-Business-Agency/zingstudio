@@ -105,6 +105,7 @@ export default function Projects2() {
                 <div
                   className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
                   data-wow-delay="0.3s"
+                  data-wow-duration="1s"
                 >
                   <img src="/images/background/bg16.jpg" alt="" />
                   <div className="overlay-bx">
@@ -123,6 +124,7 @@ export default function Projects2() {
                 <div
                   className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
                   data-wow-delay="0.6s"
+                   data-wow-duration="1.3s"
                 >
                   <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
                   <div className="overlay-bx">
@@ -140,7 +142,7 @@ export default function Projects2() {
               <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
                 <div
                   className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
-                  data-wow-delay="0.9s"
+                  data-wow-delay="0.9s"  data-wow-duration="1.6s"
                 >
                   <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
                   <div className="overlay-bx">
@@ -158,7 +160,7 @@ export default function Projects2() {
               <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
                 <div
                   className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
-                  data-wow-delay="0.3s"
+                  data-wow-delay="0.3s"  data-wow-duration="1.9s"
                 >
                   <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
                   <div className="overlay-bx">
@@ -176,7 +178,7 @@ export default function Projects2() {
               <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
                 <div
                   className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
-                  data-wow-delay="0.6s"
+                  data-wow-delay="0.6s"  data-wow-duration="1.12s"
                 >
                   <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
                   <div className="overlay-bx">
@@ -194,7 +196,7 @@ export default function Projects2() {
               <li className={"card-container col-lg-6 col-md-6 col-sm-6"}>
                 <div
                   className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
-                  data-wow-delay="0.9s"
+                  data-wow-delay="0.9s"  data-wow-duration="1.15s"
                 >
                   <img src="/images/background/bg16.jpg" alt="" />
                   <div className="overlay-bx">
