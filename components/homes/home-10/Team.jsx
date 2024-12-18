@@ -4,10 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 export default function Team() {
   return (
-    <div className="section-full content-inner bg-white">
+    <div className="section-full content-inner bg-gray">
       <div className="container">
         <div className="section-head style2 text-center">
-          <h2 className="title">Our Team</h2>
+          <h2 className="title">Meet the Team</h2>
           <p>
             There are many variations of passages of Lorem Ipsum typesetting
             industry has been the industry's standard dummy text ever since the

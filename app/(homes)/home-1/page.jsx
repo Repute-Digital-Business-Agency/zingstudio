@@ -32,13 +32,11 @@ export default function page() {
 
           <Testimonial />
 
-
           {/* <div className="content-block p-b50">
             <Cta />
           </div> */}
 
           <Projects2 />
-
 
           {/* <div className="content-block">
             <HomeService />
@@ -48,7 +46,7 @@ export default function page() {
         <div className="content-block">
           <HomeServiceAnimation />
         </div>
-          <Cta />
+        <Cta />
         <Footer2 contactSection="false" />
       </div>
     </>

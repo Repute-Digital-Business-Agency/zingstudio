@@ -8,7 +8,7 @@ export default function Testimonials() {
     <div className="section-full content-inner bg-gray">
       <div className="container">
         <div className="section-head text-center">
-          <h2 className="title">Testimonials</h2>
+          <h2 className="title">Success Stories</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry has been the industry's standard dummy text ever since the

@@ -12,7 +12,7 @@ export default function Testimonials() {
       data-wow-delay="0.6s"
     >
       <div className="container ">
-        <div className="section-head style2 text-center">
+        <div className="section-head style2 text-center mb-0">
           <h2 className="title">CEO Speacks</h2>
           <p>Dummy Text</p>
         </div>
