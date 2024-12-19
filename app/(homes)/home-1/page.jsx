@@ -34,7 +34,7 @@ export default function page() {
 
           <div
             className="content-block p-b50 "
-            style={{ backgroundColor: "#1a1a1a" }}
+            style={{ backgroundColor: "#1a1a1a", backgroundImage: "url(/images/bg1.png)" }}
           >
             <Testimonials />
           </div>
@@ -52,7 +52,7 @@ export default function page() {
           </div> */}
         </div>
 
-        <div className="content-block" style={{ backgroundColor: "#1a1a1a" }}>
+        <div className="content-block" style={{ backgroundColor: "#1a1a1a",  }}>
           <HomeServiceAnimation />
         </div>
         <Cta />
