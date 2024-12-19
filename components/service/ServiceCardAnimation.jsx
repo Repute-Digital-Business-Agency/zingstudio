@@ -8,10 +8,12 @@ const Card = ({
   description,
   src,
   link,
+  price,
   color,
   i,
   activeCard,
-  cardRef,  animation_delay
+  cardRef,
+  animation_delay,
 }) => {
   const isActive = activeCard === `${i + 1}`;
   return (
@@ -51,12 +53,16 @@ const Card = ({
           >
             <h2 style={{ color: "white" }}>{title}</h2>
             <p>{description}</p>
-
+            <h5 className="pricetxt" style={{ color: "white", marginBottom:"25px" }}>Cost: ₹ {price}</h5>
             <Link
               href={link}
               className="site-button outline white outline-2 btnhover11"
             >
-              Read More
+              View Service
+            </Link>{" "}
+            &nbsp;
+            <Link href={link} className="site-button btn red btnhover11">
+              Buy Now
             </Link>
           </div>
 
