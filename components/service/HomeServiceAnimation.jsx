@@ -38,7 +38,7 @@ const projects = [
     title: "E-Commerce Management",
     description:
       "It can be overwhelming for most businesses to manage inventory, process orders and address customer queries. At Zing Studio, we provide simplified...",
-    src: "images/Home-Page/e-commerce-managment.jpg",
+    src: "images/Home-Page/ecommerce-managment.jpg",
     link: "/e-commerce-management",
     color: "#1a43bf",
     animation_delay: "0.12s",

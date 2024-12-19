@@ -6896,8 +6896,9 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 .list-2 li {
-  /* float: left; */
+  float: left;
   padding: 5px 5px 5px 20px;
+  width: 50%;
   position: relative;
 }
 
@@ -13401,14 +13402,14 @@ footer h3 a,
 footer h4 a,
 footer h5 a,
 footer h6 a {
-  color: #b0b0b0;
+  color: black;
 }
 
 footer p,
 footer strong,
 footer b,
 footer {
-  color: #b0b0b0;
+  color: black;
 }
 
 footer h1 a,
@@ -13423,11 +13424,11 @@ footer p a {
 
 footer a,
 footer a:visited {
-  color: #b0b0b0;
+  color: black;
 }
 
 footer p a {
-  color: #b0b0b0;
+  color: black;
 }
 
 footer a:active,
@@ -13445,7 +13446,7 @@ footer .widget_recent_comments ul li a,
 footer .widget_nav_menu li a,
 footer .widget_recent_entries ul li a,
 footer .widget_services ul li a {
-  color: #b0b0b0;
+  color: black;
 }
 
 footer p {
@@ -13488,18 +13489,18 @@ footer .widget_services ul li {
 
 /*widget Getintuch*/
 .footer-top {
-  background: #1c1c1c;
+  background: white;
   background-size: cover;
   background-position: center;
   padding: 80px 0 20px;
 }
 
 .footer-bottom {
-  background-color: #1c1c1c;
+  background-color: white;
   padding: 25px 0;
-  color: #b0b0b0;
+  color: black;
   font-size: 14px;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-top: 1px solid #c8bebe;
 }
 
 .footer-bottom ul {
@@ -13612,12 +13613,12 @@ footer.text-white .dlab-quik-search .form-control::-webkit-input-placeholder {
 /* Subscribe Form */
 .subscribe-form input {
   background-color: rgba(0, 0, 0, 0);
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid black;
   border-radius: 30px !important;
   height: 50px;
   padding: 10px 20px;
   margin-right: 5px;
-  color: #fff;
+  color: black;
   font-size: 15px;
 }
 
@@ -13872,12 +13873,12 @@ footer.footer-white .footer-bottom a {
 
 .footer-gray .footer-top,
 .footer-gray .footer-bottom {
-  background-color: #292929;
+  background-color: white;
 }
 
 .footer-gray-1 .footer-top,
 .footer-gray-1 .footer-bottom {
-  background-color: #1a1a1a;
+  background-color: white;
 }
 
 .site-footer .icon-bx-wraper {
@@ -15391,7 +15392,7 @@ ol.commentlist li .star-rating {
 }
 
 .product-item del {
-  color: #b0b0b0;
+  color: black;
   font-size: 18px;
   margin-top: 0;
   position: relative;
@@ -17285,7 +17286,7 @@ input[type="radio"]+label:hover:before {
   margin-top: 100px;
 }
 
-.homeservice-heading{
+.homeservice-heading {
   position: sticky;
   top: 130px;
   transform: scale(1);
@@ -17412,14 +17413,15 @@ input[type="radio"]+label:hover:before {
 
   }
 
-  .card .body .description{
+  .card .body .description {
     position: static;
-    margin:20px 0px
+    margin: 20px 0px
   }
 
   .card h2 {
     font-size: 22px;
   }
+
   .card .body .imageContainer {
 
     border-radius: 0px 0px 25px 25px;

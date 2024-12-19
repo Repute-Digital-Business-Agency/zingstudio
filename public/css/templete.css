@@ -754,8 +754,9 @@ h6 {
 }
 
 .subscribe-form .form-control:focus {
-  border-color: rgba(255, 255, 255, 0.8);
+  border-color: black;
   background-color: rgba(0, 0, 0, 0);
+  color:red
 }
 
 .footer-info-bar .icon-bx-wraper.bx-style-1 {
@@ -6624,7 +6625,7 @@ HOME 5 Box Header
 .testimonial-12 .testimonial-pic {
   padding: 0;
   width: 200px;
-  min-width: 180px;
+  min-width: 185px;
   height: 200px;
   border: 0;
   margin: 30px -80px 30px 0;
@@ -8970,18 +8971,18 @@ button.scroltop {
 
 .form-white .form-control::placeholder,
 .subscribe-form.form-white .form-control::placeholder {
-  color: #fff;
+  color: black;
   opacity: 1;
 }
 
 .form-white .form-control::-ms-input-placeholder,
 .subscribe-form.form-white .form-control::-ms-input-placeholder {
-  color: #fff;
+  color: black;
 }
 
 .form-white .form-control,
 .subscribe-form.form-white .form-control {
-  color: #fff;
+  color: black;
 }
 
 .form-white .form-control:focus,
@@ -8990,7 +8991,7 @@ button.scroltop {
 .subscribe-form.form-white .form-control:focus,
 .subscribe-form.form-white .form-control:active,
 .subscribe-form.form-white .form-control:hover {
-  color: #fff;
+  color: black;
 }
 
 .site-footer.style-1 .footer-top {
