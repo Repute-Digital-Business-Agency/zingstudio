@@ -14,7 +14,7 @@ export default function Testimonials() {
 
         <div className="section-head style2 text-center">
           <h2 className="title">Our Vision</h2>
-          <p>Dummy Text</p>
+          {/* <p>Dummy Text</p> */}
         </div>
 
         {/* <div className="section-head style2 text-center">

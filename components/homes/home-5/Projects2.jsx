@@ -62,6 +62,10 @@ export default function Projects2() {
       className="section-full bg-white content-inner-2 wow fadeIn"
       data-wow-duration="2s"
       data-wow-delay="0.6s"
+      style={{
+        backgroundImage: "url(/images/element-3.png)",
+        backgroundRepeat: "no-repeat",
+      }}
     >
       <div className="container-fluid">
         <div className="section-head style2 text-center">

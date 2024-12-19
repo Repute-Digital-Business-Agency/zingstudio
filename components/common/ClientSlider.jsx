@@ -16,9 +16,12 @@ export default function ClientSlider({
       </div> */}
 
       <div className="section-head style2 text-center">
-          <h2 className="title">Our Clients</h2>
-          <p>Dummy Text</p>
-        </div>
+        <h2 className="title">Our Clients</h2>
+        <p>
+          Trusted by businesses across industries to bring their visions to
+          life. We take pride in building lasting partnerships with our clients
+        </p>
+      </div>
 
       <Swiper
         // slidesPerView={5}

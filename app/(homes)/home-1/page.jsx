@@ -25,11 +25,24 @@ export default function page() {
         <Header17 />
         <div className="page-content bg-white">
           <Hero />
-          <div className="content-block p-b50  p-t50 bg-gray ">
+          <div
+            className="content-block p-b50  p-t50 bg-gray "
+            // style={{
+            //   backgroundImage: "url(/images/bg1.png)",
+            //   backgroundRepeat: "no-repeat",
+            // }}
+          >
             <ClientSlider />
           </div>
-
-          <Testimonials />
+          <div
+            className="content-block p-b50 "
+            style={{
+              backgroundImage: "url(/images/element-1.png)",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <Testimonials />
+          </div>
 
           <Testimonial />
 
@@ -44,7 +57,15 @@ export default function page() {
           </div> */}
         </div>
 
-        <div className="content-block">
+        <div
+          className="content-block"
+          style={{
+            backgroundImage: "url(/images/element-4.png)",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "top right",
+            //top:"-60px",
+          }}
+        >
           <HomeServiceAnimation />
         </div>
         <Cta />

@@ -7,14 +7,14 @@ export default function Testimonials() {
   return (
     <div
       className="section-full content-inner-2 bg-gray wow fadeIn"
-      style={{ backgroundImage: "url(/images/background/map-bg1.png)" }}
+      style={{ backgroundImage: "url(/images/element-2.png)" }}
       data-wow-duration="2s"
       data-wow-delay="0.6s"
     >
       <div className="container ">
         <div className="section-head style2 text-center mb-0">
           <h2 className="title">CEO Speaks</h2>
-          <p>Dummy Text</p>
+          <p>Insights, Vision, and Leadership Straight from the Top</p>
         </div>
         <div
           style={{ display: "block" }}
@@ -58,14 +58,19 @@ export default function Testimonials() {
                 className="testimonial-detail wow fadeInUp "
                 data-wow-delay="0.3s"
               >
-                <h4 className="testimonial-name m-t0 m-b5">Testing</h4>
-                <span className="testimonial-position">Sub Heading</span>
+                <h4 className="testimonial-name m-t0 m-b5">Subburaj G</h4>
+                <span className="testimonial-position">
+                  Founder and Managing Director
+                </span>
                 <div className="testimonial-text">
                   <p>
                     {" "}
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s,
+                    At Zing Studio, we are driven by a passion for creativity
+                    and innovation. Our goal is not just to meet expectations
+                    but to exceed them, delivering solutions that inspire and
+                    empower businesses to stand out in a competitive world. From
+                    stunning web designs to powerful e-commerce platforms, we
+                    blend technology, strategy, and creativity.
                   </p>
                 </div>
               </div>
