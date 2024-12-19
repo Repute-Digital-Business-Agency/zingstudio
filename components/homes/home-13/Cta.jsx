@@ -3,9 +3,10 @@ import Link from "next/link";
 export default function Cta() {
   return (
     <div
-      className="section-full call-action bg-primary wow fadeIn"
+      className="section-full call-action wow fadeIn"
       data-wow-duration="2s"
       data-wow-delay="0.3s"
+      style={{ backgroundColor: "#c21807" }}
     >
       <div className="container">
         <div className="row">
@@ -18,7 +19,7 @@ export default function Cta() {
           </div>
           <div className="col-lg-3 d-flex">
             <Link
-              href={`/contact-1`}
+              href={`/contact`}
               className="site-button btnhover13 white align-self-center outline ms-auto outline-2"
             >
               Contact Us

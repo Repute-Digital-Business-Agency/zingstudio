@@ -3571,7 +3571,7 @@ blockquote:before {
 ---------------------------------------------------------------*/
 
 .main-bar {
-  background: #ffffff;
+  background: var(--color-primary);
   width: 100%;
   position: relative;
 }
@@ -3634,7 +3634,7 @@ blockquote:before {
 /*== >mena-menu ==*/
 
 #myNavbar li.active a {
-  background-color: var(--color-primary);
+  background-color: white;
 }
 
 .navbar-toggler {
@@ -3677,7 +3677,7 @@ blockquote:before {
 
 .header-nav .nav>li>a {
   border-radius: 0px;
-  color: #020d26;
+  color: white;
   font-size: 16px;
   padding: 23px 17px 22px 17px;
   cursor: pointer;
@@ -6891,13 +6891,14 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 /*---------------------------------------------------------------
 22. WIDGETS
 ---------------------------------------------------------------*/
-.list-2 {
+/* .list-2 {
   display: table;
-}
+} */
 
 .list-2 li {
-  /* float: left; */
+  float: left;
   padding: 5px 5px 5px 20px;
+  width: 50%;
   position: relative;
 }
 
@@ -17281,19 +17282,17 @@ input[type="radio"]+label:hover:before {
 
 .main {
   position: relative;
-  margin-bottom: 80px;
-  margin-top: 100px;
+  padding-bottom: 80px;
+  padding-top: 70px;
 }
 
-.homeservice-heading{
+/* .homeservice-heading {
   position: sticky;
-  top: 130px;
+  top: 120px;
   transform: scale(1);
-  /* Default zoom */
   opacity: 1;
-  /* Default visibility */
   transition: transform 0.3s ease, opacity 0.3s ease;
-}
+} */
 
 .homeservice-heading.scrolled-up {
   transform: scale(0.9);
@@ -17307,12 +17306,12 @@ input[type="radio"]+label:hover:before {
 }
 
 .cardContainer {
-  height: 350px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: sticky;
-  top: 350px;
+  top: 200px;
   transform: scale(1);
   /* Default zoom */
   opacity: 1;
@@ -17337,7 +17336,7 @@ input[type="radio"]+label:hover:before {
   flex-direction: column;
   position: relative;
   top: -25%;
-  height: 350px;
+  height: 400px;
   width: 100%;
   border-radius: 25px;
   transform-origin: top;
@@ -17412,14 +17411,15 @@ input[type="radio"]+label:hover:before {
 
   }
 
-  .card .body .description{
+  .card .body .description {
     position: static;
-    margin:20px 0px
+    margin: 20px 0px
   }
 
   .card h2 {
     font-size: 22px;
   }
+
   .card .body .imageContainer {
 
     border-radius: 0px 0px 25px 25px;

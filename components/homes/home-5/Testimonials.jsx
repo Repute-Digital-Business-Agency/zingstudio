@@ -6,14 +6,17 @@ import Image from "next/image";
 export default function Testimonials() {
   return (
     <div
-      className="section-full content-inner-2 bg-white wow fadeIn"
-      style={{ backgroundImage: "url(/images/background/map-bg1.png)" }}
+      className="section-full content-inner-2 wow fadeIn"
+      style={{
+        backgroundImage: "url(/images/background/map-bg1.png)",
+        backgroundColor: "#1e1e1e",
+      }}
       data-wow-duration="2s"
       data-wow-delay="0.6s"
     >
       <div className="container ">
         <div className="section-head style2 text-center mb-0">
-          <h2 className="title">CEO Speacks</h2>
+          <h2 className="title">CEO Speaks</h2>
           <p>Dummy Text</p>
         </div>
         <div
@@ -52,7 +55,7 @@ export default function Testimonials() {
                 className="testimonial-pic wow fadeInUp fly-box-ho "
                 data-wow-delay="1s"
               >
-                <img src="/images/pic1.png" alt="" />
+                <img src="/images/md-photo.png" alt="" />
               </div>
               <div
                 className="testimonial-detail wow fadeInUp "

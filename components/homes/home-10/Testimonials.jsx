@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function Testimonials() {
   return (
-    <div className="section-full content-inner bg-gray">
+    <div className="section-full content-inner ">
       <div className="container">
         {/* <div className="sort-title clearfix text-center" style={{marginBottom:"50px"}}>
           <h4>Our Vision</h4>

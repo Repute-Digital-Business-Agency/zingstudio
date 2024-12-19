@@ -3,65 +3,68 @@ import { portfolioItems } from "@/data/projects";
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-const filterOptions = [
-  {
-    filter: "*",
-    iconClass: "flaticon-worker",
-    label: "Construction",
-  },
-  {
-    filter: ".penthouse",
-    iconClass: "flaticon-crane",
-    label: "Architecture",
-  },
-  {
-    filter: ".royal",
-    iconClass: "flaticon-analytics",
-    label: "Consulting",
-  },
-  {
-    filter: ".standard",
-    iconClass: "flaticon-optimization",
-    label: "Mechanical",
-  },
-];
+// const filterOptions = [
+//   {
+//     filter: "*",
+//     iconClass: "flaticon-worker",
+//     label: "Construction",
+//   },
+//   {
+//     filter: ".penthouse",
+//     iconClass: "flaticon-crane",
+//     label: "Architecture",
+//   },
+//   {
+//     filter: ".royal",
+//     iconClass: "flaticon-analytics",
+//     label: "Consulting",
+//   },
+//   {
+//     filter: ".standard",
+//     iconClass: "flaticon-optimization",
+//     label: "Mechanical",
+//   },
+// ];
 
 export default function Projects2() {
-  const [currentFilter, setCurrentFilter] = useState("*");
-  const isotopContainer = useRef();
-  const isotope = useRef();
-  const initIsotop = async () => {
-    const Isotope = (await import("isotope-layout")).default;
-    const imagesloaded = (await import("imagesloaded")).default;
+  // const [currentFilter, setCurrentFilter] = useState("*");
+  // const isotopContainer = useRef();
+  // const isotope = useRef();
+  // const initIsotop = async () => {
+  //   const Isotope = (await import("isotope-layout")).default;
+  //   const imagesloaded = (await import("imagesloaded")).default;
 
-    // Initialize Isotope in the mounted hook
-    isotope.current = new Isotope(isotopContainer.current, {
-      itemSelector: ".card-container",
-      layoutMode: "masonry", // or 'fitRows', depending on your layout needs
-    });
-    imagesloaded(isotopContainer.current).on("progress", function () {
-      // Trigger Isotope layout
-      isotope.current.layout();
-    });
-  };
-  const updateCategory = (val) => {
-    setCurrentFilter(val);
-    isotope.current.arrange({
-      filter: val,
-    });
-    //   isotope.value.layout();
-  };
-  useEffect(() => {
-    /////////////////////////////////////////////////////
-    // Magnate Animation
+  //   // Initialize Isotope in the mounted hook
+  //   isotope.current = new Isotope(isotopContainer.current, {
+  //     itemSelector: ".card-container",
+  //     layoutMode: "masonry", // or 'fitRows', depending on your layout needs
+  //   });
+  //   imagesloaded(isotopContainer.current).on("progress", function () {
+  //     // Trigger Isotope layout
+  //     isotope.current.layout();
+  //   });
+  // };
+  // const updateCategory = (val) => {
+  //   setCurrentFilter(val);
+  //   isotope.current.arrange({
+  //     filter: val,
+  //   });
+  //   //   isotope.value.layout();
+  // };
+  // useEffect(() => {
+  //   /////////////////////////////////////////////////////
+  //   // Magnate Animation
 
-    initIsotop();
-  }, []);
+  //   initIsotop();
+  // }, []);
   return (
     <div
-      className="section-full bg-white content-inner-2 wow fadeIn"
+      className="section-full content-inner-2 wow fadeIn"
       data-wow-duration="2s"
       data-wow-delay="0.6s"
+      style={{
+        background: "linear-gradient(to bottom, #1a1a1a 50%, #1e1e1e 50%)",
+      }}
     >
       <div className="container-fluid">
         <div className="section-head style2 text-center">
@@ -103,11 +106,11 @@ export default function Projects2() {
             >
               <li className={"card-container col-lg-6 col-md-6 col-sm-6 "}>
                 <div
-                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp seth  will-animate"
                   data-wow-delay="0.3s"
                   data-wow-duration="1s"
                 >
-                  <img src="/images/background/bg16.jpg" alt="" />
+                  <img src="/images/our-work/our-works-img-1.jpg" alt="" />
                   <div className="overlay-bx">
                     <div className="portinner">
                       <div className="port-up">
@@ -122,11 +125,11 @@ export default function Projects2() {
 
               <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
                 <div
-                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp seth  will-animate"
                   data-wow-delay="0.6s"
-                   data-wow-duration="1.3s"
+                  data-wow-duration="1.3s"
                 >
-                  <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
+                  <img src="/images/our-work/our-works-img-2.jpg" alt="" />
                   <div className="overlay-bx">
                     <div className="portinner">
                       <div className="port-up">
@@ -141,10 +144,11 @@ export default function Projects2() {
 
               <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
                 <div
-                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
-                  data-wow-delay="0.9s"  data-wow-duration="1.6s"
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp  seth  will-animate"
+                  data-wow-delay="0.9s"
+                  data-wow-duration="1.6s"
                 >
-                  <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
+                  <img src="/images/our-work/our-works-img-3.jpg" alt="" />
                   <div className="overlay-bx">
                     <div className="portinner">
                       <div className="port-up">
@@ -159,10 +163,11 @@ export default function Projects2() {
 
               <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
                 <div
-                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
-                  data-wow-delay="0.3s"  data-wow-duration="1.9s"
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp seth  will-animate"
+                  data-wow-delay="0.3s"
+                  data-wow-duration="1.9s"
                 >
-                  <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
+                  <img src="/images/our-work/our-works-img-4.jpg" alt="" />
                   <div className="overlay-bx">
                     <div className="portinner">
                       <div className="port-up">
@@ -177,10 +182,11 @@ export default function Projects2() {
 
               <li className={"card-container col-lg-3 col-md-3 col-sm-6"}>
                 <div
-                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
-                  data-wow-delay="0.6s"  data-wow-duration="1.12s"
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp seth  will-animate"
+                  data-wow-delay="0.6s"
+                  data-wow-duration="1.12s"
                 >
-                  <img src="/images/our-team/team-bx/pic1.jpg" alt="" />
+                  <img src="/images/our-work/our-works-img-5.jpg" alt="" />
                   <div className="overlay-bx">
                     <div className="portinner">
                       <div className="port-up">
@@ -195,10 +201,11 @@ export default function Projects2() {
 
               <li className={"card-container col-lg-6 col-md-6 col-sm-6"}>
                 <div
-                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp fly-box-ho seth  will-animate"
-                  data-wow-delay="0.9s"  data-wow-duration="1.15s"
+                  className="dlab-media dlab-img-overlay1 dlab-img-effect portbox3 wow fadeInUp  seth  will-animate"
+                  data-wow-delay="0.9s"
+                  data-wow-duration="1.15s"
                 >
-                  <img src="/images/background/bg16.jpg" alt="" />
+                  <img src="/images/our-work/our-works-img-6.jpg" alt="" />
                   <div className="overlay-bx">
                     <div className="portinner">
                       <div className="port-up">

@@ -10,7 +10,7 @@ const projects = [
       "At Zing Studio we design websites with your customer in mind, because modern web design is more than just about creating a visually stunning site.",
     src: "images/Home-Page/web-design.jpg",
     link: "/web-design",
-    color: "#1a43bf",
+    color: " #c21807",
     animation_delay: "0.3s",
   },
   {
@@ -20,7 +20,7 @@ const projects = [
       "The modern consumer of today looks for a simple and intuitive online shopping experience that responds to their needs. At Zing Studio, our dynamic team...",
     src: "images/Home-Page/ecommerce.jpg",
     link: "/e-commerce",
-    color: "#1a43bf",
+    color: "#1e1e1e",
     animation_delay: "0.6s",
   },
   {
@@ -30,7 +30,7 @@ const projects = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since...",
     src: "images/Home-Page/digital-marketing.jpg",
     link: "/digital-marketing",
-    color: "#1a43bf",
+    color: " #c21807",
     animation_delay: "0.9s",
   },
   {
@@ -38,9 +38,9 @@ const projects = [
     title: "E-Commerce Management",
     description:
       "It can be overwhelming for most businesses to manage inventory, process orders and address customer queries. At Zing Studio, we provide simplified...",
-    src: "images/Home-Page/e-commerce-managment.jpg",
+    src: "images/Home-Page/ecommerce-managment.jpg",
     link: "/e-commerce-management",
-    color: "#1a43bf",
+    color: "#1e1e1e",
     animation_delay: "0.12s",
   },
 ];
@@ -78,7 +78,7 @@ export default function HomeServiceAnimation() {
   return (
     <>
       {" "}
-      <div className="section-head style2 text-center mt-5 mb-3 homeservice-heading">
+      <div className="section-head style2 text-center pt-5 mb-3 homeservice-heading">
         <h2 className="title m-b10">Our Services</h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting

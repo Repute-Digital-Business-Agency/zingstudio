@@ -16,9 +16,9 @@ export default function ClientSlider({
       </div> */}
 
       <div className="section-head style2 text-center">
-          <h2 className="title">Our Clients</h2>
-          <p>Dummy Text</p>
-        </div>
+        <h2 className="title">Our Clients</h2>
+        <p>Dummy Text</p>
+      </div>
 
       <Swiper
         // slidesPerView={5}
