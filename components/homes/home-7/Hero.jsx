@@ -51,7 +51,8 @@ export default function Hero() {
                 <div>
                   {/* <p className="subTitle1">{slide.subTitle}</p> */}
                   <h1>{slide.title}</h1>
-                  <p>{slide.description}</p>
+                  {/* <p>{slide.description}</p> */}
+                  <p className="subTitle1">{slide.subTitle}</p>
                   <Link href={"/portfolio-grid-2"}>
                     <button className="text-primary">
                       {slide.buttonLabel}
