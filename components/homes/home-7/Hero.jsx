@@ -49,7 +49,7 @@ export default function Hero() {
             >
               <div className="inner sliderStyle7">
                 <div>
-                  <p className="subTitle1">{slide.subTitle}</p>
+                  {/* <p className="subTitle1">{slide.subTitle}</p> */}
                   <h1>{slide.title}</h1>
                   <p>{slide.description}</p>
                   <Link href={"/portfolio-grid-2"}>
