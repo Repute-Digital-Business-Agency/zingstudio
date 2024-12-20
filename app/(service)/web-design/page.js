@@ -7,6 +7,7 @@ import { allProjects } from "@/data/projects";
 import WebDesignDetails from "@/components/service/WebDesignDetails";
 import Footer2 from "@/components/footers/Footer2";
 import Header17 from "@/components/headers/Header17";
+import Footer13 from "@/components/footers/Footer13";
 
 export const metadata = {
   title: "Web Design || Zing Studio",
@@ -20,7 +21,9 @@ export default function page() {
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
-            style={{ backgroundImage: "url(/images/services/web-deisgn/banner.jpg)" }}
+            style={{
+              backgroundImage: "url(/images/services/web-deisgn/banner.jpg)",
+            }}
           >
             <div className="container">
               <div className="dlab-bnr-inr-entry">
@@ -47,7 +50,8 @@ export default function page() {
             <WebDesignDetails />
           </div>
         </div>
-        <Footer2 contactSection="true" />
+        {/* <Footer2 contactSection="true" /> */}
+        <Footer13 />
       </div>
     </>
   );

@@ -1,3 +1,4 @@
+import Footer13 from "@/components/footers/Footer13";
 import Footer15 from "@/components/footers/Footer15";
 import Footer2 from "@/components/footers/Footer2";
 import Header1 from "@/components/headers/Header1";
@@ -25,7 +26,8 @@ export default function page() {
             <Service />
           </div>
         </div>
-        <Footer2 contactSection="true" />
+        {/* <Footer2 contactSection="true" /> */}
+        <Footer13 />
       </div>
     </>
   );

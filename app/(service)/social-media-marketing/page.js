@@ -9,6 +9,7 @@ import SeoDetails from "@/components/service/SeoDetails";
 import SmmDetails from "@/components/service/SmmDetails";
 import Footer2 from "@/components/footers/Footer2";
 import Header17 from "@/components/headers/Header17";
+import Footer13 from "@/components/footers/Footer13";
 
 export const metadata = {
   title: "SMM || Zing Studio",
@@ -49,7 +50,8 @@ export default function page() {
             <SmmDetails />
           </div>
         </div>
-        <Footer2  contactSection="true" />
+        {/* <Footer2  contactSection="true" /> */}
+        <Footer13 />
       </div>
     </>
   );

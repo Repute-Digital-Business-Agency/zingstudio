@@ -9,6 +9,7 @@ import AcademyContent from "@/components/academy/AcademyContent";
 import Footer2 from "@/components/footers/Footer2";
 import Header17 from "@/components/headers/Header17";
 import Testimonials from "@/components/homes/home-6/Testimonials";
+import Footer13 from "@/components/footers/Footer13";
 export const metadata = {
   title: "Academy || Zing Studio",
   description: "Industry - Factory & Industrial React Nextjs Template",
@@ -47,7 +48,8 @@ export default function page() {
 
           <Testimonials />
         </div>
-        <Footer2 contactSection="true" />
+        {/* <Footer2 contactSection="true" /> */}
+        <Footer13 />
       </div>
     </>
   );

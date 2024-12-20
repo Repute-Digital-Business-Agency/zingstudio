@@ -12,6 +12,7 @@ import LinkedInMarketingDetails from "@/components/service/LinkedInMarketingDeta
 import LeadGenerationCompaginsDetails from "@/components/service/LeadGenerationCompaignsDetails";
 import Footer2 from "@/components/footers/Footer2";
 import Header17 from "@/components/headers/Header17";
+import Footer13 from "@/components/footers/Footer13";
 
 export const metadata = {
   title: "Lead Generation Compaigns || Zing Studio",
@@ -52,7 +53,8 @@ export default function page() {
             <LeadGenerationCompaginsDetails />
           </div>
         </div>
-        <Footer2  contactSection="true"/>
+        {/* <Footer2  contactSection="true"/> */}
+        <Footer13 />
       </div>
     </>
   );

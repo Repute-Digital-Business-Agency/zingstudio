@@ -7,6 +7,7 @@ import { allProjects } from "@/data/projects";
 import ECommerceManagementDetails from "@/components/service/ECommerceManagementDetails";
 import Header17 from "@/components/headers/Header17";
 import Footer2 from "@/components/footers/Footer2";
+import Footer13 from "@/components/footers/Footer13";
 
 export const metadata = {
   title: "E-Commerce Management || Zing Studio",
@@ -47,7 +48,8 @@ export default function page() {
             <ECommerceManagementDetails />
           </div>
         </div>
-        <Footer2  contactSection="true"/>
+        {/* <Footer2  contactSection="true"/> */}
+        <Footer13 />
       </div>
     </>
   );

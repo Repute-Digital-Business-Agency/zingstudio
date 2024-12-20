@@ -6,6 +6,7 @@ import Portfolio2 from "@/components/portfolio/Portfolio2";
 import React from "react";
 import Header17 from "@/components/headers/Header17";
 import Footer2 from "@/components/footers/Footer2";
+import Footer13 from "@/components/footers/Footer13";
 
 export const metadata = {
   title:
@@ -43,7 +44,8 @@ export default function page() {
             <Portfolio2 />
           </div>
         </div>
-        <Footer2  contactSection="true" />
+        {/* <Footer2  contactSection="true" /> */}
+        <Footer13 />
       </div>
     </>
   );

@@ -8,6 +8,7 @@ import WebDesignDetails from "@/components/service/WebDesignDetails";
 import SeoDetails from "@/components/service/SeoDetails";
 import Header17 from "@/components/headers/Header17";
 import Footer2 from "@/components/footers/Footer2";
+import Footer13 from "@/components/footers/Footer13";
 
 export const metadata = {
   title: "SEO || Zing Studio",
@@ -51,7 +52,8 @@ export default function page() {
             <SeoDetails />
           </div>
         </div>
-        <Footer2 contactSection="true" />
+        {/* <Footer2 contactSection="true" /> */}
+        <Footer13 />
       </div>
     </>
   );

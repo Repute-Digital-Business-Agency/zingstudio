@@ -11,6 +11,7 @@ import PpcDetails from "@/components/service/PpcDetails";
 import LinkedInMarketingDetails from "@/components/service/LinkedInMarketingDetails";
 import Footer2 from "@/components/footers/Footer2";
 import Header17 from "@/components/headers/Header17";
+import Footer13 from "@/components/footers/Footer13";
 
 export const metadata = {
   title: "LinkedIn Marketing || Zing Studio",
@@ -24,7 +25,10 @@ export default function page() {
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
-            style={{ backgroundImage: "url(/images/services/linkedIn-marketing/banner.jpg)" }}
+            style={{
+              backgroundImage:
+                "url(/images/services/linkedIn-marketing/banner.jpg)",
+            }}
           >
             <div className="container">
               <div className="dlab-bnr-inr-entry">
@@ -51,7 +55,8 @@ export default function page() {
             <LinkedInMarketingDetails />
           </div>
         </div>
-        <Footer2  contactSection="true"/>
+        {/* <Footer2  contactSection="true"/> */}
+        <Footer13 />
       </div>
     </>
   );

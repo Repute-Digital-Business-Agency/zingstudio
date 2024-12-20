@@ -8,6 +8,7 @@ import WebDesignDetails from "@/components/service/WebDesignDetails";
 import ECommerceDetails from "@/components/service/ECommerceDetails";
 import Footer2 from "@/components/footers/Footer2";
 import Header17 from "@/components/headers/Header17";
+import Footer13 from "@/components/footers/Footer13";
 
 export const metadata = {
   title: "E-Commerce || Zing Studio",
@@ -48,7 +49,8 @@ export default function page() {
             <ECommerceDetails />
           </div>
         </div>
-        <Footer2 contactSection="true" />
+        {/* <Footer2 contactSection="true" /> */}
+        <Footer13 />
       </div>
     </>
   );
