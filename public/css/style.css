@@ -131,7 +131,7 @@ html {
 
 body {
   background-color: #fff;
-  font-family: "Manrope", Sans-serif;  
+  font-family: "Manrope", Sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #6f6f6f;
@@ -141,9 +141,18 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
-p{ font-size: 17px !important;}
-ul li{ font-size: 17px !important;}
-ul li a{ font-size: 17px !important;}
+
+p {
+  font-size: 17px !important;
+}
+
+ul li {
+  font-size: 17px !important;
+}
+
+ul li a {
+  font-size: 17px !important;
+}
 
 a {
   color: var(--color-primary);
@@ -305,8 +314,8 @@ h4,
 h5,
 h6 {
   color: #232323;
- /* font-family: "Poppins", sans-serif;*/
-  font-family: 'vve-giallo-regulauploadedfile' !important; 
+  /* font-family: "Poppins", sans-serif;*/
+  font-family: 'vve-giallo-regulauploadedfile' !important;
 }
 
 
@@ -17287,19 +17296,11 @@ input[type="radio"]+label:hover:before {
 
 .main {
   position: relative;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
   padding-top: 100px;
 }
 
-.homeservice-heading {
-  position: sticky;
-  top: 70px;
-  transform: scale(1);
-  /* Default zoom */
-  opacity: 1;
-  /* Default visibility */
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
+/*  */
 
 .homeservice-heading.scrolled-up {
   transform: scale(0.9);
@@ -17318,7 +17319,7 @@ input[type="radio"]+label:hover:before {
   align-items: center;
   justify-content: center;
   position: sticky;
-  top: 350px;
+  top: 200px;
   transform: scale(1);
   /* Default zoom */
   opacity: 1;
@@ -17444,19 +17445,107 @@ input[type="radio"]+label:hover:before {
 @font-face {
   font-family: 'qrosbiregular';
   src: url('/fonts/qrosbi-webfont.woff2') format('woff2'),
-       url('/fonts/qrosbi-webfont.woff') format('woff');
+    url('/fonts/qrosbi-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
+
 @font-face {
-font-family: 'vve-giallo-regulauploadedfile';
-src: url('/fonts/vve-giallo-regular-webfont.woff2') format('woff2'),
-     url('/fonts/vve-giallo-regular-webfont.woff') format('woff');
-font-weight: normal;
-font-style: normal;
+  font-family: 'vve-giallo-regulauploadedfile';
+  src: url('/fonts/vve-giallo-regular-webfont.woff2') format('woff2'),
+    url('/fonts/vve-giallo-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
-.slider-content .inner.sliderStyle7 .subTitle1{ font-family: 'vve-giallo-regulauploadedfile' !important; }
-.slider-content .inner.sliderStyle7 button{ font-family: 'vve-giallo-regulauploadedfile' !important; font-weight: 800 !important;}
+.slider-content .inner.sliderStyle7 .subTitle1 {
+  font-family: 'vve-giallo-regulauploadedfile' !important;
+}
+
+.slider-content .inner.sliderStyle7 button {
+  font-family: 'vve-giallo-regulauploadedfile' !important;
+  font-weight: 800 !important;
+}
+
+
+/* 
+.home-client-section {
+
+  background-image: url(/images/bg1.png);
+  background-repeat: no-repeat;
+} */
+
+.home-service-section {
+
+  background-image: url(/images/element-1.png);
+  background-repeat: no-repeat;
+}
+
+.home-services-section-2nd-bg {
+  background-image: url(/images/element-2.png);
+  background-repeat: no-repeat;
+  height: 465px;
+  margin-top: -350px;
+}
+
+.home-our-work-section {
+
+  background-image: url(/images/element-3.png);
+  background-repeat: no-repeat;
+}
+
+.home-our-vision-section {
+
+  background-image: url(/images/element-4.png);
+  background-repeat: no-repeat;
+}
+
+.home-ceo-speaks-section {
+  background-image: url(/images/element-5.png);
+
+  background-repeat: no-repeat;
+  background-size: 100%
+}
+
+@media(max-width:1024px) {
+
+  .main {
+    padding-bottom: 80px;
+  }
+
+  .home-client-section {
+    background-image: none;
+  }
+
+  .home-service-section {
+    background-image: none;
+
+  }
+
+  .home-services-section-2nd-bg {
+    background-image: none;
+    margin-top: 0px;
+    height: 0px;
+  }
+
+  .home-our-work-section {
+    background-image: none;
+
+  }
+
+  .home-our-vision-section {
+    background-image: none;
+  }
+
+  .testimonial-12 .testimonial-pic {
+    margin: 60px -80px 50px 0;
+  }
+}
+
+@media(max-width:500px) {
+  .testimonial-14 {
+    margin: 45px 30px 10px !important;
+  }
+}

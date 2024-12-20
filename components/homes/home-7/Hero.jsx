@@ -9,7 +9,7 @@ const slidesData = [
     backgroundImage:
       'url("/images/main-slider/slide7-1.jpg") center center no-repeat',
     subTitle: "Building Scalable, Secure, and User-Friendly Online Stores",
-    title: "E-commerce Development",
+    title: "<span style='color: #c21807'>E-Commerce</span><br/> Development",
     description:
       "Empowering your business with seamless eCommerce solutions.From store setup to optimized sales, we’ve got you covered.Grow your online brand and reach customers worldwide.",
     buttonLabel: "BUY & VIEW SERVICES",
@@ -18,7 +18,7 @@ const slidesData = [
     backgroundImage:
       'url("/images/main-slider/slide7-2.jpg") center center no-repeat',
     subTitle: "Beautiful Designs, Seamless Experiences, Results That Matter",
-    title: "Web Development & Design",
+    title: "<span style='color: #c21807'>Web Development &</span><br/> Design",
     description:
       "Crafting stunning, user-friendly websites tailored to your needs.From design to launch, we deliver seamless digital experiences.Your online presence, built to captivate and convert.",
     buttonLabel: "BUY & VIEW SERVICES",
@@ -50,13 +50,11 @@ export default function Hero() {
               <div className="inner sliderStyle7">
                 <div>
                   {/* <p className="subTitle1">{slide.subTitle}</p> */}
-                  <h1>{slide.title}</h1>
+                  <h1 dangerouslySetInnerHTML={{ __html: slide.title }}></h1>
                   {/* <p>{slide.description}</p> */}
                   <p className="subTitle1">{slide.subTitle}</p>
                   <Link href={"/portfolio-grid-2"}>
-                    <button className="text-primary">
-                      {slide.buttonLabel}
-                    </button>
+                    <button className="text-white">{slide.buttonLabel}</button>
                   </Link>
                 </div>
               </div>

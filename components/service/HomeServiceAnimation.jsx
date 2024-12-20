@@ -92,16 +92,20 @@ export default function HomeServiceAnimation() {
           memorable digital experience.
         </p>
       </div>
-      <main className="main container">
-        {projects.map((project, i) => (
-          <Card
-            key={project.id}
-            {...project}
-            i={i}
-            activeCard={activeCard}
-            cardRef={(el) => (cardRefs.current[i] = el)}
-          />
-        ))}
+      <main className="main ">
+        {" "}
+        <div className="container">
+          {projects.map((project, i) => (
+            <Card
+              key={project.id}
+              {...project}
+              i={i}
+              activeCard={activeCard}
+              cardRef={(el) => (cardRefs.current[i] = el)}
+            />
+          ))}
+        </div>
+        <div className="home-services-section-2nd-bg"></div>
       </main>
     </>
   );

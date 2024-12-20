@@ -25,48 +25,21 @@ export default function page() {
         <Header17 />
         <div className="page-content bg-white">
           <Hero />
-          <div
-            className="content-block p-b50  p-t50 bg-gray "
-            // style={{
-            //   backgroundImage: "url(/images/bg1.png)",
-            //   backgroundRepeat: "no-repeat",
-            // }}
-          >
+          <div className="content-block p-t50 p-b50 bg-gray">
             <ClientSlider />
           </div>
-          <div
-            className="content-block p-b50 "
-            style={{
-              backgroundImage: "url(/images/element-1.png)",
-              backgroundRepeat: "no-repeat",
-            }}
-          >
+
+          <div className="content-block home-service-section">
+            <HomeServiceAnimation />
+          </div>
+
+          <Projects2 />
+
+          <div className="content-block p-t20 p-b80 home-our-vision-section">
             <Testimonials />
           </div>
 
           <Testimonial />
-
-          {/* <div className="content-block p-b50">
-            <Cta />
-          </div> */}
-
-          <Projects2 />
-
-          {/* <div className="content-block">
-            <HomeService />
-          </div> */}
-        </div>
-
-        <div
-          className="content-block"
-          style={{
-            backgroundImage: "url(/images/element-4.png)",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "top right",
-            //top:"-60px",
-          }}
-        >
-          <HomeServiceAnimation />
         </div>
         <Cta />
         {/* <Footer2 contactSection="false" /> */}

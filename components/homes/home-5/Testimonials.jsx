@@ -6,8 +6,7 @@ import Image from "next/image";
 export default function Testimonials() {
   return (
     <div
-      className="section-full content-inner-2 bg-gray wow fadeIn"
-      style={{ backgroundImage: "url(/images/element-2.png)" }}
+      className="section-full content-inner-2 wow fadeIn home-ceo-speaks-section bg-gray"
       data-wow-duration="2s"
       data-wow-delay="0.6s"
     >
