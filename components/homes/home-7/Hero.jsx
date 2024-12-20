@@ -17,8 +17,10 @@ const slidesData = [
   {
     backgroundImage:
       'url("/images/main-slider/slide7-2.jpg") center center no-repeat',
-    subTitle: "Beautiful Designs, Seamless Experiences, Results That Matter",
-    title: "<span style='color: #c21807'>Web Development &</span><br/> Design",
+    subTitle:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    title:
+      "<span style='color: #c21807'>Search Engine</span><br/> Optimization",
     description:
       "Crafting stunning, user-friendly websites tailored to your needs.From design to launch, we deliver seamless digital experiences.Your online presence, built to captivate and convert.",
     buttonLabel: "BUY & VIEW SERVICES",
@@ -53,7 +55,7 @@ export default function Hero() {
                   <h1 dangerouslySetInnerHTML={{ __html: slide.title }}></h1>
                   {/* <p>{slide.description}</p> */}
                   <p className="subTitle1">{slide.subTitle}</p>
-                  <Link href={"/portfolio-grid-2"}>
+                  <Link href={"/#"}>
                     <button className="text-white">{slide.buttonLabel}</button>
                   </Link>
                 </div>
