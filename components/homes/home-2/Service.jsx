@@ -39,7 +39,7 @@ export default function Service() {
                   visually stunning site.
                 </p>
                 <Link
-                  href={`/web-design`}
+                  href={`/web-design-service`}
                   className="site-button outline outline-2 btnhover11"
                 >
                   Read More
@@ -71,15 +71,14 @@ export default function Service() {
             <div className="service-box style2">
               <div>
                 <h2 className="title">
-                  <span>E-commerce </span> <br />
-                  Management
+                  <span>Digital </span> <br />
+                  Marketing
                 </h2>
                 <p>
-                  It can be overwhelming for most businesses to manage
-                  inventory, process orders and address customer queries.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe earum tenetur expedita, consequatur facilis voluptatibus hic sit, cumque assumenda 
                 </p>
                 <Link
-                  href={`/e-commerce-management`}
+                  href={`/digital-marketing-service`}
                   className="site-button outline white outline-2 btnhover11"
                 >
                   Read More
@@ -87,7 +86,8 @@ export default function Service() {
               </div>
             </div>
           </div>
-          <div
+          
+           <div
             className="col-lg-4 wow fadeIn"
             data-wow-duration="2s"
             data-wow-delay="0.2s"
@@ -103,7 +103,7 @@ export default function Service() {
             </div>
           </div>
 
-          <div
+        {/*  <div
             className="col-lg-4 bg-primary text-white wow fadeIn"
             data-wow-duration="2s"
             data-wow-delay="0.4s"
@@ -167,7 +167,7 @@ export default function Service() {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div
             className="col-lg-4 bg-white wow fadeIn"
@@ -177,15 +177,14 @@ export default function Service() {
             <div className="service-box style2">
               <div>
                 <h2 className="title text-black">
-                  <span>Search Engine</span> <br /> Optimization
+                  <span>Academy</span> 
+                  {/* <br /> Optimization */}
                 </h2>
                 <p>
-                  Search engines have become a vital tool for business buyers
-                  and consumers since 95% of all online experiences begin with a
-                  search engine.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe earum tenetur expedita, consequatur facilis voluptatibus hic sit, cumque assumenda 
                 </p>
                 <Link
-                  href={`/search-engine-optimization`}
+                  href={`/academy-service`}
                   className="site-button outline outline-2 btnhover11"
                 >
                   Read More
@@ -193,6 +192,9 @@ export default function Service() {
               </div>
             </div>
           </div>
+
+
+
           <div
             className="col-lg-8 wow fadeIn"
             data-wow-duration="2s"
@@ -209,7 +211,7 @@ export default function Service() {
             </div>
           </div>
 
-          <div
+          {/* <div
             className="col-lg-4 bg-primary text-white wow fadeIn"
             data-wow-duration="2s"
             data-wow-delay="0.4s"
@@ -217,9 +219,9 @@ export default function Service() {
             <div className="service-box style2">
               <div>
                 <h2 className="title">
-                  <span>Social Media </span>
+                  <span>Academy</span>
                   <br />
-                  Marketing
+                  Marketing 
                 </h2>
                 <p>
                   At Zing Studio, our competent team specializes in providing
@@ -374,7 +376,7 @@ export default function Service() {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* Content Section End */}

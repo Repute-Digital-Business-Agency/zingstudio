@@ -2,7 +2,7 @@
 
 import React from "react";
 
-export default function HeroSection() {
+export default function HeroSection({head}) {
   return (
     <div
       className="section-full overlay-black-dark bg-img-fix pr-service-hero"
@@ -15,7 +15,7 @@ export default function HeroSection() {
               className="title-box font-weight-300 m-b15 wow fadeInLeft"
               data-wow-delay="0.2s"
             >
-              Web Design Service <span className="bg-primary" />
+              {head} <span className="bg-primary" />
             </h2>
             <p className="font-16 op8 wow fadeInLeft" data-wow-delay="0.4s">
               Give us a call or drop by anytime, we endeavour to answer all

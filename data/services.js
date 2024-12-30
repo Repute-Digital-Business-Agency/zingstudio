@@ -645,7 +645,27 @@ export const services5 = [
     description:
       "At Zing Studio we design websites with your customer in mind, because modern web design is more than just about creating a visually stunning site.",
     delay: "0.2s",
-    link: "web-design",
+    link: "web-design-service",
+  },
+  {
+    id: 83,
+    name: "02",
+    icon: "/images/about-us/web-design.png",
+    title: "Digital Marketing",
+    description:
+      "At Zing Studio we design websites with your customer in mind, because modern web design is more than just about creating a visually stunning site.",
+    delay: "0.2s",
+    link: "digital-marketing-service",
+  },
+  {
+    id: 83,
+    name: "03",
+    icon: "/images/about-us/web-design.png",
+    title: "Academy",
+    description:
+      "At Zing Studio we design websites with your customer in mind, because modern web design is more than just about creating a visually stunning site.",
+    delay: "0.2s",
+    link: "academy-service",
   },
   // {
   //   id: 84,
@@ -656,26 +676,26 @@ export const services5 = [
   //     "The modern consumer of today looks for a simple and intuitive online shopping experience that responds to their needs.",
   //   delay: "0.4s",
   // },
-  {
-    id: 85,
-    name: "02",
-    icon: "/images/about-us/saas.png",
-    title: "Saas Platform",
-    description:
-      "We offer to jump start your e-commerce brand online with some of the leading Saas platforms that offer your quicker turn around...",
-    delay: "0.6s",
-    link: "e-commerce",
-  },
-  {
-    id: 86,
-    name: "03",
-    icon: "/images/about-us/open-source-icon.png",
-    title: "Open-source Development",
-    description:
-      "Open Source commerce development is the order of the way in Ecommerce development. The open source platforms offer..",
-    delay: "0.8s",
-    link: "e-commerce",
-  },
+  // {
+  //   id: 85,
+  //   name: "02",
+  //   icon: "/images/about-us/saas.png",
+  //   title: "Saas Platform",
+  //   description:
+  //     "We offer to jump start your e-commerce brand online with some of the leading Saas platforms that offer your quicker turn around...",
+  //   delay: "0.6s",
+  //   link: "e-commerce",
+  // },
+  // {
+  //   id: 86,
+  //   name: "03",
+  //   icon: "/images/about-us/open-source-icon.png",
+  //   title: "Open-source Development",
+  //   description:
+  //     "Open Source commerce development is the order of the way in Ecommerce development. The open source platforms offer..",
+  //   delay: "0.8s",
+  //   link: "e-commerce",
+  // },
   // {
   //   id: 87,
   //   name: "05",
@@ -685,66 +705,66 @@ export const services5 = [
   //     "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod",
   //   delay: "0.2s",
   // },
-  {
-    id: 88,
-    name: "04",
-    icon: "/images/about-us/seo.png",
-    title: "Search Engine Optimization",
-    description:
-      "Search engines have become a vital tool for business buyers and consumers since 95% of all online experiences...",
-    delay: "0.4s",
-    link: "search-engine-optimization",
-  },
-  {
-    id: 89,
-    name: "05",
-    icon: "/images/about-us/social-media-marketing.png",
-    title: "Social Media Marketing",
-    description:
-      "At Zing Studio, our competent team specializes in providing innovative, result-driven and cost-effective social media marketing...",
-    delay: "0.6s",
-    link: "social-media-marketing",
-  },
-  {
-    id: 90,
-    name: "06",
-    icon: "/images/about-us/pay-per-click.png",
-    title: "Pay Per Click",
-    description:
-      "PPC advertising takes advantage of high-competition keywords to drive targeted traffic to your website cost-effectively...",
-    delay: "0.8s",
-    link: "pay-per-click",
-  },
-  {
-    id: 91,
-    name: "07",
-    icon: "/images/about-us/linkedi-marketing.png",
-    title: "LinkedIn Marketing",
-    description:
-      "At Zing Studio, we specialize in providing creative LinkedIn marketing services that elevate your business profile into a dynamic...",
-    delay: "0.2s",
-    link: "linkedin-marketing",
-  },
-  {
-    id: 92,
-    name: "8",
-    icon: "/images/about-us/lead-generation-icon.png",
-    title: "Lead Generation Campaigns",
-    description:
-      "At Zing Studio, we specialize in providing reliable, high-impact and cost-effective lead generation solutions customized...",
-    delay: "0.4s",
-    link: "lead-generation-compaigns",
-  },
-  {
-    id: 93,
-    name: "9",
-    icon: "/images/about-us/ecommerce-management.png",
-    title: "E-commerce Management",
-    description:
-      "It can be overwhelming for most businesses to manage inventory, process orders and address customer queries. At Zing Studio...",
-    delay: "0.4s",
-    link: "e-commerce-management",
-  },
+  // {
+  //   id: 88,
+  //   name: "04",
+  //   icon: "/images/about-us/seo.png",
+  //   title: "Search Engine Optimization",
+  //   description:
+  //     "Search engines have become a vital tool for business buyers and consumers since 95% of all online experiences...",
+  //   delay: "0.4s",
+  //   link: "search-engine-optimization",
+  // },
+  // {
+  //   id: 89,
+  //   name: "05",
+  //   icon: "/images/about-us/social-media-marketing.png",
+  //   title: "Social Media Marketing",
+  //   description:
+  //     "At Zing Studio, our competent team specializes in providing innovative, result-driven and cost-effective social media marketing...",
+  //   delay: "0.6s",
+  //   link: "social-media-marketing",
+  // },
+  // {
+  //   id: 90,
+  //   name: "06",
+  //   icon: "/images/about-us/pay-per-click.png",
+  //   title: "Pay Per Click",
+  //   description:
+  //     "PPC advertising takes advantage of high-competition keywords to drive targeted traffic to your website cost-effectively...",
+  //   delay: "0.8s",
+  //   link: "pay-per-click",
+  // },
+  // {
+  //   id: 91,
+  //   name: "07",
+  //   icon: "/images/about-us/linkedi-marketing.png",
+  //   title: "LinkedIn Marketing",
+  //   description:
+  //     "At Zing Studio, we specialize in providing creative LinkedIn marketing services that elevate your business profile into a dynamic...",
+  //   delay: "0.2s",
+  //   link: "linkedin-marketing",
+  // },
+  // {
+  //   id: 92,
+  //   name: "8",
+  //   icon: "/images/about-us/lead-generation-icon.png",
+  //   title: "Lead Generation Campaigns",
+  //   description:
+  //     "At Zing Studio, we specialize in providing reliable, high-impact and cost-effective lead generation solutions customized...",
+  //   delay: "0.4s",
+  //   link: "lead-generation-compaigns",
+  // },
+  // {
+  //   id: 93,
+  //   name: "9",
+  //   icon: "/images/about-us/ecommerce-management.png",
+  //   title: "E-commerce Management",
+  //   description:
+  //     "It can be overwhelming for most businesses to manage inventory, process orders and address customer queries. At Zing Studio...",
+  //   delay: "0.4s",
+  //   link: "e-commerce-management",
+  // },
 ];
 export const services6 = [
   {

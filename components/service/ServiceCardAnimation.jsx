@@ -131,7 +131,7 @@ const Card = ({
         </>
       ): 
       <>
-      <div  style={{height:"300px", display:"flex",
+      <div className="dm"  style={{height:"300px", display:"flex",
         alignItems:"center",
         justifyContent:"center",
       }}>

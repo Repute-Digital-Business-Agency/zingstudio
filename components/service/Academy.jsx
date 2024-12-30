@@ -8,7 +8,8 @@ export default function Academy() {
     <>
       <div className="section-full bg-gray content-inner academy">
         <div className="container">
-          <div className="section-head text-center">
+          <div className="section-head text-center wow fadeInUp"
+              data-wow-delay="0.2s">
           <h2 className="title">Zing Academy</h2>
             <h4 className="mt-4 mb-0">Nurturing an environment that is inclusive and full of possibilities</h4>
             <p>
@@ -18,9 +19,10 @@ export default function Academy() {
                     career.
             </p>
           </div>
-          <div className="section-content box-sort-in button-example p-b0">
+          <div className="section-content box-sort-in button-example p-b0 ">
                   <div className="row">
-                    <div className="col-md-12 col-lg-12">
+                    <div className="col-md-12 col-lg-12 wow fadeInUp"
+              data-wow-delay="0.4s">
                       <div className="blog-post blog-md clearfix border-1 br-col-b1 radius-sm">
                         <div className="dlab-post-media dlab-img-effect zoom-slow">
                           <a href="#">
@@ -80,7 +82,8 @@ export default function Academy() {
                         </div>
                       </div>
                     </div> */}
-                    <div className="col-md-12 col-lg-12">
+                    <div className="col-md-12 col-lg-12 wow fadeInUp"
+              data-wow-delay="0.6s">
                       <div className="blog-post blog-md clearfix border-1 br-col-b1 radius-sm">
                        
                         <div className="dlab-post-info">
@@ -112,7 +115,8 @@ receive a flat 15% discount to support their career aspirations and skill-buildi
                     </div>
                   </div>
                 </div>
-          <div className="text-center">
+          <div className="text-center viewMore wow fadeInUp"
+              data-wow-delay="0.8s">
             <button style={{
               background:"#1A43BF",
               color:"white",

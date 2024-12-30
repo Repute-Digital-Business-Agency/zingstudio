@@ -119,7 +119,7 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <HeroSection/>
+        <HeroSection head={"Web Design"}/>
         <ServiceList data={WebDevelopment} head={"Web Design"}/>
         <ServiceCta/>
         <Portfolio/>

@@ -17548,6 +17548,9 @@ color: #ffff;
     padding-bottom: 0;
     font-size: 15px !important;
   }
+  .pricingtable-inner .dm{
+    height: 400px !important;
+  }
   .cardContainer .site-button, .site-button-secondry{
     padding: 8px 5px;
     margin-top: 0;
@@ -17592,6 +17595,9 @@ color: #ffff;
    padding: 0;
    padding-top: 2px;
    padding-bottom: 5px;
+  }
+  .pricingtable-inner .dm{
+    height: 250px !important;
   }
   .cardContainer {
     height: 800px;
@@ -17835,6 +17841,12 @@ color: #ffff;
 }
 .academy .section-content .post-title {
   color: #1A43BF !important;
+}
+
+@media (max-width:600px){
+  .academy .viewMore{
+    margin-bottom: 40px !important;
+  }
 }
 
 .pr-service-hero{

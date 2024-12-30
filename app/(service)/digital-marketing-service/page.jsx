@@ -70,7 +70,7 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <HeroSection/>
+        <HeroSection head={"Digital Marketing"}/>
         <ServiceList data={DigitalMarketing} head={"Digital Marketing"}/>
         <ServiceCta/>
         <Portfolio/>

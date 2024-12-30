@@ -123,7 +123,7 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <HeroSection/>
+        <HeroSection head={"Academy"}/>
         <ServiceList data={Academy} head={"Academy"}/>
         <ServiceCta/>
         <Portfolio/>

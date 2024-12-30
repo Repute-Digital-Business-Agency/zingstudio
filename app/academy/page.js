@@ -47,7 +47,7 @@ export default function page() {
             <AcademyContent  />
           </div>
 
-          <Testimonials />
+          {/* <Testimonials /> */}
         </div>
         <Cta/>
         {/* <Footer2 contactSection="true" /> */}

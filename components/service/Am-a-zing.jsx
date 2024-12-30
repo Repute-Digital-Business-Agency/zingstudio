@@ -6,7 +6,8 @@ export default function Am_a_Zing() {
   return (
     <div className="section-full box-about-list Am_a_Zing">
       <div className="row spno">
-        <div className="col-lg-6 col-md-12">
+        <div className="col-lg-6 col-md-12 wow fadeInLeft"
+              data-wow-delay="0.2s">
           <Image
             alt=""
             className="img-cover"
@@ -15,7 +16,8 @@ export default function Am_a_Zing() {
             height="674"
           />
         </div>
-        <div className="col-lg-6 col-md-12 bg-primary" style={{backgroundColor:"#97989b"}}>
+        <div className="col-lg-6 col-md-12 bg-primary wow fadeInRight"
+              data-wow-delay="0.2s" style={{backgroundColor:"#97989b"}}>
           <div className="max-w700 m-auto p-tb50 p-lr20">
             <div >
              <Link href="/am-a-zing"> <h2>
