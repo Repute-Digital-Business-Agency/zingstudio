@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Am_a_Zing() {
   return (
-    <div className="section-full box-about-list Am_a_Zing">
+    <div className="section-full box-about-list Am_a_Zing bg-gray">
       <div className="row spno">
         <div className="col-lg-6 col-md-12">
           <Image
@@ -13,7 +13,7 @@ export default function Am_a_Zing() {
             height="674"
           />
         </div>
-        <div className="col-lg-6 col-md-12 bg-primary" style={{backgroundColor:"#97989b"}}>
+        <div className="col-lg-6 col-md-12 ">
           <div className="max-w700 m-auto p-tb50 p-lr20">
             <div >
               <h2>
