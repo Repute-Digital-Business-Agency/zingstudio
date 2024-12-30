@@ -13,6 +13,8 @@ import HomeService from "@/components/service/HomeServices";
 import React from "react";
 import Testimonial from "@/components/homes/home-5/Testimonials";
 import Footer13 from "@/components/footers/Footer13";
+import Am_a_Zing from "@/components/service/Am-a-zing";
+import Academy from "@/components/service/Academy";
 
 export const metadata = {
   title: "Home || Zing Studio",
@@ -25,21 +27,27 @@ export default function page() {
         <Header17 />
         <div className="page-content bg-white">
           <Hero />
-          <div className="content-block p-t50 p-b50 bg-gray">
+          {/* <div className="content-block p-t50 p-b50 bg-gray">
             <ClientSlider />
-          </div>
+          </div> */}
 
-          <div className="content-block home-service-section">
+          <div className="content-block home-service-section bg-gray">
             <HomeServiceAnimation />
           </div>
 
           <Projects2 />
 
-          <div className="content-block p-t20 p-b80 home-our-vision-section">
+          {/* <div className="content-block p-t20 p-b80 home-our-vision-section">
             <Testimonials />
-          </div>
+          </div> */}
 
-          <Testimonial />
+          
+
+          <Am_a_Zing/>
+          
+          <Academy/>
+
+          {/* <Testimonial /> */}
         </div>
         <Cta />
         {/* <Footer2 contactSection="false" /> */}

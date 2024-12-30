@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Faq() {
+export default function Faq3() {
   return (
     <div className="section-full bg-gray content-inner">
       <div className="container">

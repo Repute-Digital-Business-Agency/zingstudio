@@ -59,7 +59,7 @@ export default function Projects2() {
   // }, []);
   return (
     <div
-      className="section-full  content-inner-2 wow fadeIn bg-gray home-our-work-section"
+      className="section-full  content-inner-2 wow fadeIn bg-white home-our-work-section"
       data-wow-duration="2s"
       data-wow-delay="0.6s"
     >

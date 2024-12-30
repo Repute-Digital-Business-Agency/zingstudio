@@ -14,67 +14,161 @@ const Card = ({
   activeCard,
   cardRef,
   animation_delay,
+  data
 }) => {
   const isActive = activeCard === `${i + 1}`;
+  const backgroundColor = i % 2 === 0 
   return (
     <div
-      className={`cardContainer `}
+      className={`cardContainer`} // Add scrolled-up class for activeCard
       ref={cardRef}
       data-id={i + 1} // Set the ID to match the index for comparison
     >
       <div
-        className="card dlab-box no-hover wow fadeInUp fly-box-ho"
+        className=" dlab-box no-hover wow fadeInUp "
         // data-wow-delay={animation_delay}
         style={{
-          backgroundColor: color,
-          width: `calc(80% + ${i * 5}%)`, // Combine both the active and calculated widths          // isActive && activeCard === `${i + 1}` // Active card width 100%
+          // backgroundColor: color,
+          width: `calc(90% + ${i * 5}%)`, // Combine both the active and calculated widths          // isActive && activeCard === `${i + 1}` // Active card width 100%
           //   ? "100%"
           //   : activeCard === `${i}` // Previous card (one step before active) width 95%
           //   ? "95%"
           //   : activeCard === `${i - 1}` // Previous card (two steps before active) width 90%
           //   ? "90%"
           //   : "95%", // Default width for inactive cards
-          transition: "width 0.3s ease", // Smooth transition for width change
-          transition: "transform 0.3s ease, width 0.3s ease", // Add transition for both scale and width
-          top: `calc(-5vh + ${i * 25}px)`, // Adjust the top position based on the index
+          // transition: "width 0.3s ease", // Smooth transition for width change
+          // transition: "transform 0.3s ease, width 0.3s ease", // Add transition for both scale and width
+          // top: `calc(-5vh + ${i * 25}px)`, // Adjust the top position based on the index
         }}
       >
-        <div
-          className="body service-box row"
-          style={{
-            color: "white",
-            justifyContent: "space-between",
-            margin: "0px",
-          }}
-        >
-          <div
-            className="description col-md-6 col-sm-12 col-12"
-            style={{ paddingLeft: "30px" }}
-          >
-            <h2 style={{ color: "white" }}>{title}</h2>
-            <p>{description}</p>
-            <h5 className="pricetxt" style={{ color: "white", marginBottom:"25px" }}>Cost: ₹ {price}</h5>
-            <Link
-              href={link}
-              className="site-button outline white outline-2 btnhover11"
-            >
-              View Service
-            </Link>{" "}
-            &nbsp;
-            <Link href={link} className="site-button btn red btnhover11">
-              Buy Now
-            </Link>
-          </div>
 
-          <div className="imageContainer col-md-6 col-sm-12 col-12">
-            <div className="inner">
-              <Image fill src={`/${src}`} alt="image" />
+
+        <div className="row">
+          <div className="col-lg-12" >
+            
+             {/* <div className={`sort-title clearfix text-center ${isActive ? "display-title" : ""}`}>
+              <h4>{data?.service_name}</h4>
+            </div> */}
+            {/* Pricing table-1 Columns 3 with gap */}
+            <div className="section-content box-sort-in button-example m-t80">
+              <div className="pricingtable-row">
+                <div className="row max-w1000 m-auto">
+                  <div className="col-sm-12 col-md-4 col-lg-4 p-lr0">
+                    <div className="pricingtable-wrapper style2 bg-white">
+                      <div className="pricingtable-inner">
+                        <div className="pricingtable-price">
+                          <h4 className="font-weight-800 m-t10 m-b0">
+                            {data?.service[0]?.title}
+                          </h4>
+                          <div className="pricingtable-bx">
+                          Starting @ <span>₹ {data?.service[0]?.price}</span>
+                          </div>
+                        </div>
+                        <ul className="pricingtable-features">
+                        {data?.service[0]?.list.map((item)=>{
+                          return(
+                            <li>
+                                 {item}
+                                
+                              </li>
+                          )
+                        })}
+                              
+                            </ul>
+                        {/* <p>
+                        {data?.service[0]?.list.map((item)=>{
+                          return(
+                            <li>{item}</li>
+                          )
+                        })}
+                        </p> */}
+                        <div className="m-t20">
+                         <a href={data?.service[0]?.link} className="site-button white radius-xl">
+                            <span className="p-lr30">View Service</span>
+                          </a>
+                          <a href={data?.service[0]?.link} className="site-button radius-xl">
+                            <span className="p-lr30">Buy Now</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-12 col-md-4 col-lg-4 p-lr0">
+                    <div className={`pricingtable-wrapper style2 ${backgroundColor ? "bg-primary" : "bg-grey"} text-white active`}>
+                      <div className="pricingtable-inner">
+                        <div className="pricingtable-price">
+                          <h4 className="font-weight-800 m-t10 m-b0">
+                          {data?.service[1]?.title}
+                          </h4>
+                          <div className="pricingtable-bx">
+                          Starting @ <span>₹ {data?.service[1]?.price}</span>
+                          </div>
+                        </div>
+                        <ul className="pricingtable-features">
+                        {data?.service[0]?.list.map((item)=>{
+                          return(
+                            <li>
+                                 {item}
+                                
+                              </li>
+                          )
+                        })}
+                              
+                            </ul>
+                        <div className="m-t20">
+                        <a href={data?.service[1]?.link} className="site-button white radius-xl">
+                            <span className="p-lr30">View Service</span>
+                          </a>
+                          <a href={data?.service[1]?.link} className="site-button white-1 radius-xl">
+                            <span className="p-lr30">Buy Now</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-12 col-md-4 col-lg-4 p-lr0">
+                    <div className="pricingtable-wrapper style2 bg-white">
+                      <div className="pricingtable-inner">
+                        <div className="pricingtable-price">
+                          <h4 className="font-weight-800 m-t10 m-b0">
+                          {data?.service[2]?.title}
+                          </h4>
+                          <div className="pricingtable-bx">
+                          Starting @ <span>₹ {data?.service[2]?.price}</span> 
+                          </div>
+                        </div>
+                        <ul className="pricingtable-features">
+                        {data?.service[0]?.list.map((item)=>{
+                          return(
+                            <li>
+                                 {item}
+                                
+                              </li>
+                          )
+                        })}
+                              
+                            </ul>
+                        <div className="m-t20">
+                          <a href={data?.service[2]?.link} className="site-button white radius-xl">
+                            <span className="p-lr30">View Service</span>
+                          </a>
+                          <a href={data?.service[2]?.link} className="site-button radius-xl">
+                            <span className="p-lr30">Buy Now</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );
 };
 
 export default Card;
+

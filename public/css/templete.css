@@ -424,7 +424,7 @@ h6 {
 }
 
 .inquiry-form.contact-project {
-  margin-top: -50px;
+  margin-top: 0px;
 }
 
 .chosesus-content .list-checked li {
@@ -3379,8 +3379,8 @@ HOME 5 Box Header
   }
 
   .pricingtable-wrapper.style2 .pricingtable-bx {
-    margin-top: 10px;
-    margin-bottom: 15px;
+    /* margin-top: 10px;
+    margin-bottom: 15px; */
   }
 
   .box-about-list .max-w700,

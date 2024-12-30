@@ -2,52 +2,340 @@
 import { useState, useRef, useEffect } from "react";
 import Card from "./ServiceCardAnimation";
 
+// const projects = [
+//   {
+//     id: 1,
+//     price:"45,000",
+//     title: "Static Site",
+//     list:[
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//     ],
+//     description:
+//       "At Zing Studio we design websites with your customer in mind, because modern web design is more than just about creating a visually stunning site.",
+//     src: "images/Home-Page/web-design.jpg",
+//     link: "/web-design",
+//     color: " #1a43bf",
+//     animation_delay: "0.3s",
+//   },
+//   {
+//     id: 2,
+//     title: "E-Commerce",
+//     list:[
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//     ],
+//     description:
+//       "The modern consumer of today looks for a simple and intuitive online shopping experience that responds to their needs. At Zing Studio, our dynamic team...",
+//     price: "85,000",
+//     src: "images/Home-Page/ecommerce.jpg",
+//     link: "/e-commerce",
+//     color: " #1a43bf",
+//     animation_delay: "0.6s",
+//   },
+//   {
+//     id: 3,
+//     title: "Digital Marketing",
+//     list:[
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//     ],
+//     description:
+//       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since...",
+//     price: "65,000",
+//     src: "images/Home-Page/digital-marketing.jpg",
+//     link: "/digital-marketing",
+//     color: " #1a43bf",
+//     animation_delay: "0.9s",
+//   },
+//   {
+//     id: 4,
+//     title: "E-Commerce Management",
+//     list:[
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//       "Lorem ipsum dolor ",
+//     ],
+//     description:
+//       "It can be overwhelming for most businesses to manage inventory, process orders and address customer queries. At Zing Studio, we provide simplified...",
+//     price: "75,000",
+//     src: "images/Home-Page/ecommerce-managment.jpg",
+//     link: "/e-commerce-management",
+//     color: " #1a43bf",
+//     animation_delay: "0.12s",
+//   },
+// ];
+
 const projects = [
   {
     id: 1,
-    title: "Web Design",
-    description:
-      "At Zing Studio we design websites with your customer in mind, because modern web design is more than just about creating a visually stunning site.",
-    price: "45,000",
-    src: "images/Home-Page/web-design.jpg",
-    link: "/web-design",
-    color: " #1a43bf",
-    animation_delay: "0.3s",
+    service_name: "Web Development",
+    service: [
+      {
+        id: 1,
+        price: "8750",
+        title: "Static Web Design",
+        list: [
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+        ],
+        link: "/web-design-pricing-details",
+        color: "#1a43bf",
+        animation_delay: "0.12s",
+        description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+      },
+      {
+        id: 2,
+        price: "8750",
+        title: "Dynamic Web Design",
+        list: [
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+        ],
+        link: "/web-design-pricing-details",
+        color: "#1a43bf",
+        animation_delay: "0.12s",
+         description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+      },
+      {
+        id: 3,
+        price: "25,850",
+        title: "E-commerce Web Design",
+        list: [
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+        ],
+        link: "/web-design-pricing-details",
+        color: "#1a43bf",
+        animation_delay: "0.12s",
+         description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+      },
+    ],
   },
   {
     id: 2,
-    title: "E-Commerce",
-    description:
-      "The modern consumer of today looks for a simple and intuitive online shopping experience that responds to their needs. At Zing Studio, our dynamic team...",
-    price: "85,000",
-    src: "images/Home-Page/ecommerce.jpg",
-    link: "/e-commerce",
-    color: " #1a43bf",
-    animation_delay: "0.6s",
+    service_name: "Digital Marketing",
+    service: [
+      {
+        id: 1,
+        price: "8500",
+        title: "SEO - Digital Marketing",
+        list: [
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+        ],
+        link: "/service/digital-marketing",
+        color: "#1a43bf",
+        animation_delay: "0.12s",
+         description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+      },
+      {
+        id: 2,
+        price: "7299",
+        title: "SMM -Digital Marketing",
+        list: [
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+        ],
+        link: "/service/digital-marketing",
+        color: "#1a43bf",
+        animation_delay: "0.12s",
+         description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+      },
+      {
+        id: 3,
+        price: "10,000",
+        title: "PPC -Digital Marketing",
+        list: [
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+        ],
+        link: "/service/digital-marketing",
+        color: "#1a43bf",
+        animation_delay: "0.12s",
+         description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+      },
+    ],
   },
   {
     id: 3,
-    title: "Digital Marketing",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since...",
-    price: "65,000",
-    src: "images/Home-Page/digital-marketing.jpg",
-    link: "/digital-marketing",
-    color: " #1a43bf",
-    animation_delay: "0.9s",
+    service_name: "Academy",
+    service: [
+      {
+        id: 1,
+        price: "25,999",
+        title: "Digital Marketing - Academy ",
+        list: [
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+        ],
+        link: "/web-design",
+        color: "#1a43bf",
+        animation_delay: "0.12s",
+         description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+      },
+      {
+        id: 2,
+        price: "8500",
+        title: "SEO - Academy",
+        list: [
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+        ],
+        link: "/search-engine-optimization",
+        color: "#1a43bf",
+        animation_delay: "0.12s",
+         description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+      },
+      {
+        id: 3,
+        price: "7299",
+        title: "SMM - Academy",
+        list: [
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+          "Lorem ipsum dolor sit amet",
+        ],
+        link: "/social-media-marketing",
+        color: "#1a43bf",
+        animation_delay: "0.12s",
+         description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+      },
+    ],
   },
-  {
-    id: 4,
-    title: "E-Commerce Management",
-    description:
-      "It can be overwhelming for most businesses to manage inventory, process orders and address customer queries. At Zing Studio, we provide simplified...",
-    price: "75,000",
-    src: "images/Home-Page/ecommerce-managment.jpg",
-    link: "/e-commerce-management",
-    color: " #1a43bf",
-    animation_delay: "0.12s",
-  },
+  // {
+  //   id: 4,
+  //   service_name: "Mobile Development",
+  //   service: [
+  //     {
+  //       id: 1,
+  //       price: "45,000",
+  //       title: "iOS application - Mobile Development",
+  //       list: [
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //       ],
+  //       link: "/web-design",
+  //       color: "#1a43bf",
+  //       animation_delay: "0.12s",
+  //        description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+  //     },
+  //     {
+  //       id: 2,
+  //       price: "50,000",
+  //       title: "Android application - Mobile Development",
+  //       list: [
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //       ],
+  //       link: "/web-design",
+  //       color: "#1a43bf",
+  //       animation_delay: "0.12s",
+  //        description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+  //     },
+  //     {
+  //       id: 3,
+  //       price: "25,000",
+  //       title: "React Native applications - Mobile Development",
+  //       list: [
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //       ],
+  //       link: "/web-design",
+  //       color: "#1a43bf",
+  //       animation_delay: "0.12s",
+  //        description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   service_name: "Integrated Branding Solutions",
+  //   service: [
+  //     {
+  //       id: 1,
+  //       price: "45,000",
+  //       title: "Brand Identity -Integrated Branding Solutions",
+  //       list: [
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //       ],
+  //       link: "/web-design",
+  //       color: "#1a43bf",
+  //       animation_delay: "0.12s",
+  //        description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+  //     },
+  //     {
+  //       id: 2,
+  //       price: "50,000",
+  //       title: "CRM Implementation - Integrated Branding Solutions",
+  //       list: [
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //       ],
+  //       link: "/web-design",
+  //       color: "#1a43bf",
+  //       animation_delay: "0.12s",
+  //        description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+  //     },
+  //     {
+  //       id: 3,
+  //       price: "25,000",
+  //       title: "Brand Promotion Concepts - Integrated Branding Solutions",
+  //       list: [
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //         "Lorem ipsum dolor sit amet",
+  //       ],
+  //       link: "/web-design",
+  //       color: "#1a43bf",
+  //       animation_delay: "0.12s",
+  //        description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
+  //     },
+  //   ],
+  // },
+  
 ];
+
 
 export default function HomeServiceAnimation() {
   const [activeCard, setActiveCard] = useState(null);
@@ -78,6 +366,10 @@ export default function HomeServiceAnimation() {
       observer.disconnect();
     };
   }, []);
+  const groupedSlides = projects.flatMap((project) =>
+    project.service.map((service) => ({ ...service, group: project.service_name }))
+  );
+  
 
   return (
     <>
@@ -95,16 +387,38 @@ export default function HomeServiceAnimation() {
       <main className="main ">
         {" "}
         <div className="container">
-          {projects.map((project, i) => (
-            <Card
-              key={project.id}
-              {...project}
-              i={i}
-              activeCard={activeCard}
-              cardRef={(el) => (cardRefs.current[i] = el)}
-            />
-          ))}
+      
+          {
+            projects.map((projects,i)=>(
+              // projects.service.map((project, i) => { console.log(project);
+              
+                // return  
+                <Card
+                key={projects.id}
+                {...projects}
+                i={i}
+                activeCard={activeCard}
+                data={projects}
+                cardRef={(el) => (cardRefs.current[i] = el)}
+              />
+            // })
+            ))
+          }
         </div>
+      {/* <div className="container">
+  {groupedSlides.map((service, index) => (
+    <div key={service.id} className={`slide slide-group-${Math.floor(index / 3)}`}>
+      <Card
+        {...service}
+        i={index}
+        activeCard={activeCard}
+        cardRef={(el) => (cardRefs.current[index] = el)}
+      />
+    </div>
+  ))}
+</div> */}
+
+
         <div className="home-services-section-2nd-bg"></div>
       </main>
     </>
