@@ -61,20 +61,29 @@ export default function AcademyContent() {
             <h4 className="text-black font-weight-600 m-b15">
               3 Months Paid Internship (Optional)
             </h4>
-            <p className="m-b10">
+            <p className="">
               Fine-tune your digital skills and gain valuable industry
               experience
             </p>
+
+            <h4 className="text-black font-weight-600 m-b15">
+            Exclusive Discount for Female Students:
+            </h4>
+            <p className="m-b10">
+            Women students pursuing our academy courses receive a flat 15% discount to support their career aspirations and skill-building journey. 
+            </p>  
+
+
             <p className="font-weight-600">
               Join us and take the leap toward your successful future!
             </p>
 
-            <h4 className="text-black font-weight-600 m-b15">Courses</h4>
-            {/* <p>
+            {/* <h4 className="text-black font-weight-600 m-b15">Courses</h4>
+            <p>
               Acquire real-world experience by developing campaigns, optimizing
               websites, and creating engaging social media content under the
               guidance of expert mentors.
-            </p> */}
+            </p>
             <div className="row">
               <div className="col-lg-12">
                 <div className="icon-bx-wraper m-b30 left">
@@ -120,7 +129,7 @@ export default function AcademyContent() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="col-lg-6">
             <div className="row">

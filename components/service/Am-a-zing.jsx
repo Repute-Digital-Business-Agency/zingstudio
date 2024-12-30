@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 
 export default function Am_a_Zing() {
   return (
@@ -16,10 +18,10 @@ export default function Am_a_Zing() {
         <div className="col-lg-6 col-md-12 ">
           <div className="max-w700 m-auto p-tb50 p-lr20">
             <div >
-              <h2>
-              <b>Am-A-Zing</b> Program:<br /> Empowering women to lead the future
+             <Link href="/am-a-zing"> <h2>
+              <b>Am-A-Zing</b>&nbsp; Program:<br /> Empowering women to lead the future
                 
-              </h2>
+              </h2></Link>
               <p style={{color:"black"}}>At Zing Studio, we strive to create opportunities to uplift women, enabling them to realize
 their potential and take control of the decisions that shape their lives. We do this through
 leadership capacity building, digital literacy, skills development and employment, ensuring

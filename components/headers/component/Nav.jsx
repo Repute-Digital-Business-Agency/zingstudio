@@ -4,6 +4,7 @@ import Link from "next/link";
 import {
   AboutUsLink,
   AcademyLink,
+  AmazingLink,
   blogItems,
   CareersLink,
   ContactLink,
@@ -361,6 +362,16 @@ export default function Nav() {
           {AcademyLink.label}
         </Link>
       </li>
+      
+      <li className={isMenuActive(AmazingLink) ? "active" : ""}>
+        <Link
+          href={AmazingLink.href}
+          className={isMenuActive(AmazingLink) ? "menuActive" : ""}
+        >
+          {AmazingLink.label}
+        </Link>
+      </li>
+
       <li className={isMenuActive(CareersLink) ? "active" : ""}>
         <Link
           href={CareersLink.href}

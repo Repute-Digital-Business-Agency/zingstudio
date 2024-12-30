@@ -6,6 +6,8 @@ import Header1 from "@/components/headers/Header1";
 import Header17 from "@/components/headers/Header17";
 import Link from "next/link";
 import React from "react";
+import Cta from "@/components/homes/home-13/Cta";
+
 
 export const metadata = {
   title: "Career || Zing Studio",
@@ -42,6 +44,7 @@ export default function page() {
             <Faq1 />
           </div>
         </div>
+        <Cta/>
         {/* <Footer2 contactSection="true" /> */}
         <Footer13 />
       </div>

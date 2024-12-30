@@ -136,7 +136,7 @@ const projects = [
       {
         id: 1,
         price: "10,000",
-        title: "Basic - Digital Marketing",
+        title: "Basic",
         list: [
           "On-Page Optimization - Up to 10 Pages",
           "Competitor Analysis - 1 Competitor",
@@ -151,7 +151,7 @@ const projects = [
       {
         id: 2,
         price: "20,000",
-        title: "Standard - Digital Marketing",
+        title: "<div style=line-height:38px;>Digital <br/> Marketing<div/>",
         list: [
           "On-Page Optimization - Up to 15 Pages",
           "Competitor Analysis - 3 Competitor",
@@ -164,14 +164,14 @@ const projects = [
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
       },
       {
-        id: 3,
-        price: "10,000",
-        title: "Lorem ipsum dolor",
+        id: 2,
+        price: "20,000",
+        title: "Standard",
         list: [
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
+          "On-Page Optimization - Up to 15 Pages",
+          "Competitor Analysis - 3 Competitor",
+          "Keyphrase Optimization - 15 Pages",
+          "Link Building - 50-60",
         ],
         link: "/digital-marketing-service",
         color: "#1a43bf",

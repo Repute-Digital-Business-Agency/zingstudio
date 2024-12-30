@@ -36,7 +36,7 @@ export default function Academy() {
                           
                           <div className="dlab-post-title">
                             <h4 className="post-title">
-                              <a href="#">3 Months On-Job Training</a>
+                              3 Months On-Job Training
                             </h4>
                           </div>
                           <div className="dlab-post-text">
@@ -87,7 +87,7 @@ export default function Academy() {
                           
                           <div className="dlab-post-title">
                             <h4 className="post-title">
-                              <a href="#">Exclusive Discount for Female Students:</a>
+                              Exclusive Discount for Female Students:
                             </h4>
                           </div>
                           <div className="dlab-post-text">
