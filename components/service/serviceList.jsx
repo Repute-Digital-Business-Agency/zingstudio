@@ -35,7 +35,7 @@ const ServiceList = ({data,head}) => {
                                      ))}
                                  </ul>
                                  <div className="pricingtable-footer">
-                                   <a href="#" className="site-button">
+                                   <a href="/contact" className="site-button">
                                      Buy Now
                                    </a>
                                  </div>

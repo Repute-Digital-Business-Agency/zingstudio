@@ -3,10 +3,12 @@ import Link from "next/link";
 
 export default function Am_a_Zing() {
   return (
-    <div className="section-full box-about-list Am_a_Zing bg-gray">
+    <div
+      className="section-full box-about-list Am_a_Zing bg-gray"
+      style={{ backgroundImage: "url(/images/element-4.png)", backgroundRepeat:"no-repeat", }}
+    >
       <div className="row spno">
-        <div className="col-lg-6 col-md-12 wow fadeInUp"
-              data-wow-delay="0.2s">
+        <div className="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.2s">
           <Image
             alt=""
             className="img-cover"
@@ -21,7 +23,7 @@ export default function Am_a_Zing() {
               {" "}
               <h2 className="title text-primary">
                 {" "}
-                <Link href="/am-a-zing" >
+                <Link href="/am-a-zing">
                   <span className=" p-r20">Am-A-Zing</span>
                   Program:
                 </Link>
@@ -36,8 +38,10 @@ export default function Am_a_Zing() {
                 opportunities for women to thrive and succeed.
               </p>
             </div>
-            <div className="icon-bx-wraper m-b30 left wow fadeInUp"
-              data-wow-delay="0.6s">
+            <div
+              className="icon-bx-wraper m-b30 left wow fadeInUp"
+              data-wow-delay="0.6s"
+            >
               <div className="icon-md">
                 <a href="#" className="icon-cell text-white">
                   <i className="flaticon-factory"></i>
@@ -54,8 +58,10 @@ export default function Am_a_Zing() {
                 </p>
               </div>
             </div>
-            <div className="icon-bx-wraper m-b30 left wow fadeInUp"
-              data-wow-delay="0.8s">
+            <div
+              className="icon-bx-wraper m-b30 left wow fadeInUp"
+              data-wow-delay="0.8s"
+            >
               <div className="icon-md">
                 <a href="#" className="icon-cell text-white">
                   <i className="flaticon-settings"></i>
