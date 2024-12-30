@@ -13,11 +13,11 @@ export const metadata = {
   description: "Industry - Factory & Industrial React Nextjs Template",
 };
 export default function page() {
-    const WebDevelopment = [
+    const Academy = [
         {
-         head:"Web Design",
-         title:"Static Web Design",
-         price: "8750",
+         head:"Academy",
+         title:"Digital Marketing - Academy",
+         price: "25,999",
          list:[
              "Administrator Dashboard",
              "Editor Dashboard",
@@ -45,12 +45,13 @@ export default function page() {
              "Revenue Report",
              "Products & Category Performance Report ",
              "Stock & Inventory Report"
-         ]
+         ],
+         link:""
         },
         {
             head:"Web Design",
-         title:"Dynamic Web Design",
-         price: "8750",
+         title:"SEO - Academy",
+         price: "8500",
          list:[
              "Administrator Dashboard",
              "Editor Dashboard",
@@ -78,12 +79,13 @@ export default function page() {
              "Revenue Report",
              "Products & Category Performance Report ",
              "Stock & Inventory Report"
-         ]
+         ],
+         link:""
         },
         {
             head:"Web Design",
-         title:"E-Commerce Web Design",
-         price: "25,850",
+         title:"SMM - Academy",
+         price: "7299",
          list:[
              "Administrator Dashboard",
              "Editor Dashboard",
@@ -111,7 +113,9 @@ export default function page() {
              "Revenue Report",
              "Products & Category Performance Report ",
              "Stock & Inventory Report"
-         ]
+         ],
+
+         link:""
         },
  
      ]
@@ -120,7 +124,7 @@ export default function page() {
       <div className="page-wraper  ">
         <Header17 />
         <HeroSection/>
-        <ServiceList data={WebDevelopment}/>
+        <ServiceList data={Academy} head={"Academy"}/>
         <ServiceCta/>
         <Portfolio/>
         <Faq/>

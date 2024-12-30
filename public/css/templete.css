@@ -2201,7 +2201,7 @@ ol.commentlist li .meta span {
 .box-about-list .icon-bx-wraper .dlab-tilte {
   color: #fff;
   font-weight: 500;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .box-about-list .icon-bx-wraper:hover {

@@ -390,23 +390,26 @@ export const contactsLinks = [
 
 export const ServicesLink = [
   { href: "/services", label: "Overview" },
-  { href: "/web-design", label: "Web Design" },
-  { href: "/e-commerce", label: "E-Commerce" },
-  { href: "/search-engine-optimization", label: "Search Engine Optimization" },
-  { href: "/social-media-marketing", label: "Social Media Marketing" },
-  { href: "/pay-per-click", label: "Pay Per Click" },
-  {
-    href: "/linkedin-marketing",
-    label: "LinkedIn Marketing",
-  },
-  {
-    href: "/lead-generation-compaigns",
-    label: "Lead Generation Campaigns",
-  },
-  {
-    href: "/e-commerce-management",
-    label: "E-commerce Management",
-  },
+  { href: "/web-design-service", label: "Web Design" },
+  { href: "/digital-marketing-service", label: "Digital Marketing" },
+  { href: "/academy-service", label: "Academy" },
+  // { href: "/web-design", label: "Web Design" },
+  // { href: "/e-commerce", label: "E-Commerce" },
+  // { href: "/search-engine-optimization", label: "Search Engine Optimization" },
+  // { href: "/social-media-marketing", label: "Social Media Marketing" },
+  // { href: "/pay-per-click", label: "Pay Per Click" },
+  // {
+  //   href: "/linkedin-marketing",
+  //   label: "LinkedIn Marketing",
+  // },
+  // {
+  //   href: "/lead-generation-compaigns",
+  //   label: "Lead Generation Campaigns",
+  // },
+  // {
+  //   href: "/e-commerce-management",
+  //   label: "E-commerce Management",
+  // },
 ];
 
 export const shopLinks = [

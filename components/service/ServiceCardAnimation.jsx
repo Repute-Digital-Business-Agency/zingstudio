@@ -105,7 +105,7 @@ const Card = ({
                           </div>
                         </div>
                         <ul className="pricingtable-features">
-                        {data?.service[0]?.list.map((item)=>{
+                        {data?.service[1]?.list.map((item)=>{
                           return(
                             <li>
                                  {item}
@@ -138,7 +138,7 @@ const Card = ({
                           </div>
                         </div>
                         <ul className="pricingtable-features">
-                        {data?.service[0]?.list.map((item)=>{
+                        {data?.service[2]?.list.map((item)=>{
                           return(
                             <li>
                                  {item}

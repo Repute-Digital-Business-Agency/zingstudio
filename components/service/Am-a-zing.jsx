@@ -17,7 +17,7 @@ export default function Am_a_Zing() {
           <div className="max-w700 m-auto p-tb50 p-lr20">
             <div >
               <h2>
-              Am-A-Zing Program:<br /> Empowering women to lead the future
+              <b>Am-A-Zing</b> Program:<br /> Empowering women to lead the future
                 
               </h2>
               <p style={{color:"black"}}>At Zing Studio, we strive to create opportunities to uplift women, enabling them to realize

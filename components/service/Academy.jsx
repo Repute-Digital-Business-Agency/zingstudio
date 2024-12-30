@@ -114,7 +114,7 @@ receive a flat 15% discount to support their career aspirations and skill-buildi
                 </div>
           <div className="text-center">
             <button style={{
-              background:"#c21807",
+              background:"#1A43BF",
               color:"white",
               padding:"10px 20px",
               // borderRadius:"5px",

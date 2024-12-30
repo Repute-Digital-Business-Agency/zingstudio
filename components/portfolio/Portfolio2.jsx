@@ -7,7 +7,7 @@ const filters = [
   { filter: ".web-design", text: "Web Design" },
   { filter: ".e-commerce", text: "E-Commerce" },
   { filter: ".digital-marketing", text: "Digital Marketing" },
-  { filter: ".e-commerce-management", text: "E-Commerce Management" },
+  // { filter: ".e-commerce-management", text: "E-Commerce Management" },
   // { filter: ".photography", text: "Plants" },
 ];
 import Image from "next/image";

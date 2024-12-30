@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ServiceList = ({data}) => {
+const ServiceList = ({data,head}) => {
     console.log(data);
     
   return (
@@ -9,7 +9,7 @@ const ServiceList = ({data}) => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="sort-title clearfix text-center">
-                  <h4>Web Design</h4>
+                  <h4>{head}</h4>
                 </div>
                 {/* Pricing table-1 Columns 3 with gap */}
                 <div className="section-content box-sort-in button-example p-tb50">

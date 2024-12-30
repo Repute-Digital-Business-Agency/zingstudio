@@ -92,7 +92,7 @@ const projects = [
           "Lorem ipsum dolor sit amet",
           "Lorem ipsum dolor sit amet",
         ],
-        link: "/web-design-pricing-details",
+        link: "/web-design-service",
         color: "#1a43bf",
         animation_delay: "0.12s",
         description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -107,7 +107,7 @@ const projects = [
           "Lorem ipsum dolor sit amet",
           "Lorem ipsum dolor sit amet",
         ],
-        link: "/web-design-pricing-details",
+        link: "/web-design-service",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -122,7 +122,7 @@ const projects = [
           "Lorem ipsum dolor sit amet",
           "Lorem ipsum dolor sit amet",
         ],
-        link: "/web-design-pricing-details",
+        link: "/web-design-service",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -135,30 +135,30 @@ const projects = [
     service: [
       {
         id: 1,
-        price: "8500",
-        title: "SEO - Digital Marketing",
+        price: "10,000",
+        title: "Basic - Digital Marketing",
         list: [
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
+          "On-Page Optimization - Up to 10 Pages",
+          "Competitor Analysis - 1 Competitor",
+          "Keyphrase Optimization - 10 Pages",
+          "Link Building - 30",
         ],
-        link: "/service/digital-marketing",
+        link: "/digital-marketing-service",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
       },
       {
         id: 2,
-        price: "7299",
-        title: "SMM -Digital Marketing",
+        price: "20,000",
+        title: "Standard - Digital Marketing",
         list: [
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
+          "On-Page Optimization - Up to 15 Pages",
+          "Competitor Analysis - 3 Competitor",
+          "Keyphrase Optimization - 15 Pages",
+          "Link Building - 50-60",
         ],
-        link: "/service/digital-marketing",
+        link: "/digital-marketing-service",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -166,14 +166,14 @@ const projects = [
       {
         id: 3,
         price: "10,000",
-        title: "PPC -Digital Marketing",
+        title: "Lorem ipsum dolor",
         list: [
           "Lorem ipsum dolor sit amet",
           "Lorem ipsum dolor sit amet",
           "Lorem ipsum dolor sit amet",
           "Lorem ipsum dolor sit amet",
         ],
-        link: "/service/digital-marketing",
+        link: "/digital-marketing-service",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -187,14 +187,14 @@ const projects = [
       {
         id: 1,
         price: "25,999",
-        title: "Digital Marketing - Academy ",
+        title: "Digital Marketing - Academy",
         list: [
           "Lorem ipsum dolor sit amet",
           "Lorem ipsum dolor sit amet",
           "Lorem ipsum dolor sit amet",
           "Lorem ipsum dolor sit amet",
         ],
-        link: "/web-design",
+        link: "/academy-service",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -209,7 +209,7 @@ const projects = [
           "Lorem ipsum dolor sit amet",
           "Lorem ipsum dolor sit amet",
         ],
-        link: "/search-engine-optimization",
+        link: "/academy-service",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -224,7 +224,7 @@ const projects = [
           "Lorem ipsum dolor sit amet",
           "Lorem ipsum dolor sit amet",
         ],
-        link: "/social-media-marketing",
+        link: "/academy-service",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"

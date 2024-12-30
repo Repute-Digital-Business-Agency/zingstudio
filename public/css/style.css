@@ -17817,6 +17817,12 @@ color: #ffff;
   color: #1A43BF !important;
   font-weight: 800;
 }
+.Am_a_Zing .bg-primary h2 b{
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 100;
+}
+
 .Am_a_Zing .icon-bx-wraper{
   background: #1A43BF !important;
 }
@@ -17825,10 +17831,10 @@ color: #ffff;
   border: 1px solid grey !important;
 }
 .academy h2{
-  color: #c21807 !important;
+  color: #1A43BF !important;
 }
 .academy .section-content .post-title a{
-  color: #c21807 !important;
+  color: #1A43BF !important;
 }
 
 .pr-service-hero{

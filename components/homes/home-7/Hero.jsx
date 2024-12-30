@@ -13,6 +13,7 @@ const slidesData = [
     description:
       "Empowering your business with seamless eCommerce solutions.From store setup to optimized sales, we’ve got you covered.Grow your online brand and reach customers worldwide.",
     buttonLabel: "BUY & VIEW SERVICES",
+    link:"/web-design-service"
   },
   {
     backgroundImage:
@@ -24,6 +25,7 @@ const slidesData = [
     description:
       "Crafting stunning, user-friendly websites tailored to your needs.From design to launch, we deliver seamless digital experiences.Your online presence, built to captivate and convert.",
     buttonLabel: "BUY & VIEW SERVICES",
+    link:"/digital-marketing-service"
   },
 ];
 
@@ -55,8 +57,8 @@ export default function Hero() {
                   <h1 dangerouslySetInnerHTML={{ __html: slide.title }}></h1>
                   {/* <p>{slide.description}</p> */}
                   <p className="subTitle1">{slide.subTitle}</p>
-                  <Link href={"/#"}>
-                    <button className="text-white">{slide.buttonLabel}</button>
+                  <Link href={slide.link}>
+                    <button className="text-white" >{slide.buttonLabel}</button>
                   </Link>
                 </div>
               </div>
