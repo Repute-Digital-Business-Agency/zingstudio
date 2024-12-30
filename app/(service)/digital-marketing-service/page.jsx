@@ -66,11 +66,16 @@ export default function page() {
         },
  
      ]
+
+     const formOption  =[
+      "Basic",
+      "Standard",
+    ]
   return (
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <HeroSection head={"Digital Marketing"}/>
+        <HeroSection head={"Digital Marketing"} option={formOption}/>
         <ServiceList data={DigitalMarketing} head={"Digital Marketing"}/>
         <ServiceCta/>
         <Portfolio/>

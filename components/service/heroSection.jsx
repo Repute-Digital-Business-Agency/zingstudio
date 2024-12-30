@@ -2,7 +2,7 @@
 
 import React from "react";
 
-export default function HeroSection({head}) {
+export default function HeroSection({head,option}) {
   return (
     <div
       className="section-full overlay-black-dark bg-img-fix pr-service-hero"
@@ -127,9 +127,12 @@ export default function HeroSection({head}) {
                         <i className="ti-check-box text-primary" />
                       </span>
                       <select className="form-select form-select-lg type-3 ml-2">
-                        <option>Static Site</option>
+                        {option.map((option, index) => (
+                          <option key={index}>{option}</option>
+                        ))}
+                        {/* <option>Static Site</option>
                         <option>Dynamic Site</option>
-                        <option>E-commerce site</option>
+                        <option>E-commerce site</option> */}
                        
                       </select>
                     </div>

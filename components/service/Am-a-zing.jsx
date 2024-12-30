@@ -6,7 +6,7 @@ export default function Am_a_Zing() {
   return (
     <div className="section-full box-about-list Am_a_Zing">
       <div className="row spno">
-        <div className="col-lg-6 col-md-12 wow fadeInLeft"
+        <div className="col-lg-6 col-md-12 wow fadeInUp"
               data-wow-delay="0.2s">
           <Image
             alt=""
@@ -16,10 +16,10 @@ export default function Am_a_Zing() {
             height="674"
           />
         </div>
-        <div className="col-lg-6 col-md-12 bg-primary wow fadeInRight"
-              data-wow-delay="0.2s" style={{backgroundColor:"#97989b"}}>
+        <div className="col-lg-6 col-md-12 bg-primary " style={{backgroundColor:"#97989b"}}>
           <div className="max-w700 m-auto p-tb50 p-lr20">
-            <div >
+            <div className="wow fadeInUp"
+              data-wow-delay="0.4s">
              <Link href="/am-a-zing"> <h2>
               <b>Am-A-Zing</b>&nbsp; Program:<br /> Empowering women to lead the future
                 
@@ -29,13 +29,15 @@ their potential and take control of the decisions that shape their lives. We do 
 leadership capacity building, digital literacy, skills development and employment, ensuring
 equal access to opportunities for women to thrive and succeed.</p>
             </div>
-            <div className="icon-bx-wraper m-b30 left">
+            <div className="icon-bx-wraper m-b30 left wow fadeInUp"
+              data-wow-delay="0.6s">
               <div className="icon-md">
                 <a href="#" className="icon-cell text-white">
                   <i className="flaticon-factory"></i>
                 </a>
               </div>
-              <div className="icon-content">
+              <div className="icon-content wow fadeInUp"
+              data-wow-delay="0.6s">
                 <h4 className="dlab-tilte">10% disounted cost for Women Entrepreneurs:</h4>
                 <p className="text-white">
                 We believe in supporting women
@@ -44,7 +46,8 @@ services to help them grow their businesses with ease and confidence.
                 </p>
               </div>
             </div>
-            <div className="icon-bx-wraper m-b30 left">
+            <div className="icon-bx-wraper m-b30 left wow fadeInUp"
+              data-wow-delay="0.8s">
               <div className="icon-md">
                 <a href="#" className="icon-cell text-white">
                   <i className="flaticon-settings"></i>

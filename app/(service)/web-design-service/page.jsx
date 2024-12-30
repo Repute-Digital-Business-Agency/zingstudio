@@ -113,13 +113,25 @@ export default function page() {
              "Stock & Inventory Report"
          ]
         },
- 
      ]
+
+    // const heroContent= [
+    //   {
+    //     head:"Web Design",
+        
+    //   }
+    // ]   
+
+    const formOption  =[
+      "Static Site",
+      "Dynamic Site",
+      "E-Commerce Site"
+    ]
   return (
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <HeroSection head={"Web Design"}/>
+        <HeroSection head={"Web Design"} option={formOption}/>
         <ServiceList data={WebDevelopment} head={"Web Design"}/>
         <ServiceCta/>
         <Portfolio/>
