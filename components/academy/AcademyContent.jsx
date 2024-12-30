@@ -23,7 +23,7 @@ export default function AcademyContent() {
               cutting-edge skills and knowledge, ensuring that you can grow and
               thrive in your career.
             </p>
-            <div className="row widget widget_getintuch widget_getintuch-pro-details m-lr0">
+            {/* <div className="row widget widget_getintuch widget_getintuch-pro-details m-lr0">
               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 p-lr0">
                 <div className="pro-details">
                   <i className="ti ti-user" />
@@ -48,7 +48,7 @@ export default function AcademyContent() {
                   <strong>TYPE</strong>Residential Project
                 </div>
               </div>
-            </div>
+            </div> */}
             <h4 className="text-black font-weight-600 m-b15">
               3 Months On-Job Training
             </h4>
