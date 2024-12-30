@@ -119,11 +119,16 @@ export default function page() {
         },
  
      ]
+     const formOption  =[
+      "Digital Marketing",
+      "SEO",
+      "SMM"
+    ]
   return (
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <HeroSection head={"Academy"}/>
+        <HeroSection head={"Academy"} option={formOption}/>
         <ServiceList data={Academy} head={"Academy"}/>
         <ServiceCta/>
         <Portfolio/>
