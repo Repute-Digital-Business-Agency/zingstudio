@@ -94,38 +94,57 @@ const Card = ({
                     </div>
                   </div>
                   <div className="col-sm-12 col-md-4 col-lg-4 p-lr0">
-                    <div className={`pricingtable-wrapper style2 ${backgroundColor ? "bg-primary" : "bg-grey"} text-white active`}>
-                      <div className="pricingtable-inner">
-                        <div className="pricingtable-price">
-                          <h4 className="font-weight-800 m-t10 m-b0">
-                          {data?.service[1]?.title}
-                          </h4>
-                          <div className="pricingtable-bx">
-                          Starting @ <span>₹ {data?.service[1]?.price}</span>
-                          </div>
-                        </div>
-                        <ul className="pricingtable-features">
-                        {data?.service[1]?.list.map((item)=>{
-                          return(
-                            <li>
-                                 {item}
-                                
-                              </li>
-                          )
-                        })}
-                              
-                            </ul>
-                        <div className="m-t20">
-                        <a href={data?.service[1]?.link} className="site-button white radius-xl">
-                            <span className="p-lr30">View Service</span>
-                          </a>
-                          <a href={data?.service[1]?.link} className="site-button white-1 radius-xl">
-                            <span className="p-lr30">Buy Now</span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+  <div
+    className={`pricingtable-wrapper style2 ${
+      backgroundColor ? "bg-primary" : "bg-grey"
+    } text-white active`}
+  >
+    <div className="pricingtable-inner">
+      {backgroundColor ? (
+        <>
+         
+          <div className="pricingtable-price">
+            <h4 className="font-weight-800 m-t10 m-b0">
+              {data?.service[1]?.title}
+            </h4>
+            <div className="pricingtable-bx">
+              Starting @ <span>₹ {data?.service[1]?.price}</span>
+            </div>
+          </div>
+
+         
+          <ul className="pricingtable-features">
+            {data?.service[1]?.list?.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+
+       
+          <div className="m-t20">
+            <a href={data?.service[1]?.link} className="site-button white radius-xl">
+              <span className="p-lr30">View Service</span>
+            </a>
+            <a href={data?.service[1]?.link} className="site-button white-1 radius-xl">
+              <span className="p-lr30">Buy Now</span>
+            </a>
+          </div>
+        </>
+      ): 
+      <>
+      <div  style={{height:"300px", display:"flex",
+        alignItems:"center",
+        justifyContent:"center",
+      }}>
+      <h4 className="font-weight-800 m-t10 m-b0" style={{fontSize:"30px"}} dangerouslySetInnerHTML={{__html:data?.service[1]?.title}}>
+            </h4>
+      </div>
+      
+
+      </>}
+    </div>
+  </div>
+</div>
+
                   <div className="col-sm-12 col-md-4 col-lg-4 p-lr0">
                     <div className="pricingtable-wrapper style2 bg-white">
                       <div className="pricingtable-inner">

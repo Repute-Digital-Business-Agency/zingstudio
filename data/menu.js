@@ -356,6 +356,11 @@ export const AcademyLink = {
   label: "Academy",
 };
 
+export const AmazingLink = {
+  href: "/am-a-zing",
+  label: "Am-A-Zing",
+};
+
 export const PortfolioLink = {
   href: "/portfolio",
   label: "Portfolio",
