@@ -27,14 +27,14 @@ export default function Academy() {
               <div className="col-md-12 col-lg-12">
                 <div className="blog-post blog-md clearfix border-1 br-col-b1 radius-sm">
                   <div className="dlab-post-media dlab-img-effect zoom-slow">
-                    <a href="#">
+                    {/* <a href="#"> */}
                       <Image
                         alt=""
                         src="/images/blog/grid/pic1.jpg"
                         width="700"
                         height="500"
                       />
-                    </a>
+                    {/* </a> */}
                   </div>
                   <div className="dlab-post-info">
                     <div className="dlab-post-title">
@@ -98,14 +98,14 @@ export default function Academy() {
                     </div>
                   </div>
                   <div className="dlab-post-media dlab-img-effect zoom-slow">
-                    <a href="#">
+                    {/* <a href="#"> */}
                       <Image
                         alt=""
                         src="/images/blog/grid/pic1.jpg"
                         width="700"
                         height="500"
                       />
-                    </a>
+                    {/* </a> */}
                   </div>
                 </div>
               </div>
