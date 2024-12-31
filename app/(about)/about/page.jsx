@@ -27,9 +27,9 @@ export default function page() {
           <About />
           {/* <About2 />
           <Progress /> */}
-          <Team />
+          {/* <Team /> */}
           <Services1 />
-          <Services />
+          {/* <Services /> */}
           <Cta />
         </div>
         {/* <Footer2 contactSection="false" /> */}

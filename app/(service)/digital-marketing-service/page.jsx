@@ -7,6 +7,7 @@ import ServiceList from "@/components/service/serviceList";
 import ServiceCta from "@/components/service/ServiceCta";
 import Portfolio from "@/components/service/Portfolio";
 import Faq from "@/components/faq/Faq3";
+import Projects2 from "@/components/homes/home-5/Projects2";
 
 export const metadata = {
   title: "Web Design || Zing Studio",
@@ -78,8 +79,9 @@ export default function page() {
         <HeroSection head={"Digital Marketing"} option={formOption}/>
         <ServiceList data={DigitalMarketing} head={"Digital Marketing"}/>
         <ServiceCta/>
-        <Portfolio/>
-        <Faq/>
+        {/* <Portfolio/> */}
+        <Projects2/>
+        {/* <Faq/> */}
         
         <Footer13 />
       </div>

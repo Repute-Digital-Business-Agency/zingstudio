@@ -111,7 +111,7 @@ export default function Academy() {
               </div>
             </div>
           </div>
-          <div className="text-center">
+          <div className="text-center viewMore">
             <button
               style={{
                 background: "#1A43BF",

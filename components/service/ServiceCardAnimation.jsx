@@ -167,7 +167,7 @@ const Card = ({
                         })}
                               
                             </ul>
-                        <div className="m-t20">
+                        <div className="">
                           <a href={data?.service[2]?.link} className="site-button white radius-xl">
                             <span className="p-lr30">View Service</span>
                           </a>
