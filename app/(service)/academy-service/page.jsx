@@ -17,59 +17,86 @@ export default function page() {
     const Academy = [
         {
          head:"Academy",
-         title:"Digital Marketing - Academy",
-         price: "25,999",
+         title:"Zing Digital Marketing Mastery",
+         price: "25,000",
          list:[
-          "On-Page Optimization - Up to 10 Pages",
-          "Competitor Analysis - 1 Competitor",
-          "Keyword Research and Analysis",
-          "Keyphrase Optimization - 10 Pages",
-          "Google Analytics Setup",
-          "Google Analytics Configuration",
-          "XML Sitemap Creation and Submission",
-          "Monthly Performance Reports",
-          "Link Building - 30",
+          "3 Months + 3 Months Internship"
+          // "On-Page Optimization - Up to 10 Pages",
+          // "Competitor Analysis - 1 Competitor",
+          // "Keyword Research and Analysis",
+          // "Keyphrase Optimization - 10 Pages",
+          // "Google Analytics Setup",
+          // "Google Analytics Configuration",
+          // "XML Sitemap Creation and Submission",
+          // "Monthly Performance Reports",
+          // "Link Building - 30",
             
          ],
-         link:""
+         link:"",
+         description:"Comprehensive program covering advanced digital marketing strategies, culminating in a hands-on internship for real-world experience."
         },
         {
-            head:"Web Design",
-         title:"SEO - Academy",
-         price: "8500",
+            head:"Academy",
+         title:"Zing Launchpad (Student Internship Program)",
+         price: "3000",
          list:[
-          "On-Page Optimization - Up to 10 Pages",
-          "Competitor Analysis - 1 Competitor",
-          "Keyword Research and Analysis",
-          "Keyphrase Optimization - 10 Pages",
-          "Google Analytics Setup",
-          "Google Analytics Configuration",
-          "XML Sitemap Creation and Submission",
-          "Monthly Performance Reports",
-          "Link Building - 30",
+          "10 Days"
+          // "On-Page Optimization - Up to 10 Pages",
+          // "Competitor Analysis - 1 Competitor",
+          // "Keyword Research and Analysis",
+          // "Keyphrase Optimization - 10 Pages",
+          // "Google Analytics Setup",
+          // "Google Analytics Configuration",
+          // "XML Sitemap Creation and Submission",
+          // "Monthly Performance Reports",
+          // "Link Building - 30",
             
          ],
-         link:""
+         link:"",
+         description:"A dynamic internship designed for college students to gain practical experience in digital marketing."
         },
         {
-            head:"Web Design",
-         title:"SMM - Academy",
-         price: "7299",
+            head:"Academy",
+         title:"Zing Digital Sprint (Essentials of Marketing)",
+         price: "3000",
          list:[
-          "On-Page Optimization - Up to 10 Pages",
-          "Competitor Analysis - 1 Competitor",
-          "Keyword Research and Analysis",
-          "Keyphrase Optimization - 10 Pages",
-          "Google Analytics Setup",
-          "Google Analytics Configuration",
-          "XML Sitemap Creation and Submission",
-          "Monthly Performance Reports",
-          "Link Building - 30",
+          "15 Days"
+          // "On-Page Optimization - Up to 10 Pages",
+          // "Competitor Analysis - 1 Competitor",
+          // "Keyword Research and Analysis",
+          // "Keyphrase Optimization - 10 Pages",
+          // "Google Analytics Setup",
+          // "Google Analytics Configuration",
+          // "XML Sitemap Creation and Submission",
+          // "Monthly Performance Reports",
+          // "Link Building - 30",
             
          ],
 
-         link:""
+         link:"",
+         description:"An intensive course focusing on essential digital marketing skills, perfect for beginners and aspiring marketers."
         },
+        {
+          head:"Academy",
+       title:"ZZing AI in Digital Marketing",
+       price: "7000",
+       list:[
+        "10 Days"
+        // "On-Page Optimization - Up to 10 Pages",
+        // "Competitor Analysis - 1 Competitor",
+        // "Keyword Research and Analysis",
+        // "Keyphrase Optimization - 10 Pages",
+        // "Google Analytics Setup",
+        // "Google Analytics Configuration",
+        // "XML Sitemap Creation and Submission",
+        // "Monthly Performance Reports",
+        // "Link Building - 30",
+          
+       ],
+
+       link:"",
+       description:"An innovative course thatexplores the integration of AItechnologies in digital marketing strategies, enhancing decision-making and campaign effectiveness."
+      },
  
      ]
      const formOption  =[

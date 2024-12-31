@@ -367,7 +367,7 @@ export const PortfolioLink = {
 };
 
 export const ZingfluenceLink = {
-  href: "/#",
+  href: "/zingfluence",
   label: "Zingfluence",
 };
 

@@ -17866,3 +17866,37 @@ color: #ffff;
   padding: 12px;
   border-bottom: 1px solid #e9e9e9;
 }
+
+.zingFluence .section-head {
+  margin-bottom: 0 !important;
+}
+
+
+.zingFluence .dlab-post-media img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.zingFluence .choose-Zf  .icon-bx-wraper {
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 30px;
+  border: 1px solid #1A43BF !important;
+}
+
+.zingFluence .Zf-cta  .icon-bx-wraper {
+ 
+  padding: 40px 30px;
+ 
+}
+
+@media (max-width:990px){
+  .zingFluence .choose-Zf-img{
+    height: 500px !important;
+    object-fit: cover;
+  }
+  .zingFluence .dz-banner-btn{
+    margin-bottom: 30px;
+  }
+}

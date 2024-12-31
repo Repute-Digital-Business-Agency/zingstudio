@@ -6,7 +6,7 @@ import React from "react";
 export default function Academy() {
   return (
     <>
-      <div className="section-full content-inner academy" style={{backgroundImage: "url(/images/element-5.png)", backgroundRepeat:"no-repeat"}}>
+      <div className="section-full content-inner academy" style={{backgroundImage: "url(/images/element-6.png)", backgroundRepeat:"no-repeat"}}>
         <div className="container">
           <div className="section-head text-center">
             <h2 className="title">Zing Academy</h2>

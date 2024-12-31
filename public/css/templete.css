@@ -1370,7 +1370,7 @@ h6 {
 }
 
 .counter-style-5 p {
-  font-size: 18px;
+  font-size: 16px !important;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -7993,7 +7993,7 @@ button.scroltop {
   padding-bottom: 84px;
   font-family: poppins;
   width: 100%;
-  background-color: #ffd658;
+  background-color: #1a43bfd5;
   position: relative;
 }
 
@@ -8033,14 +8033,14 @@ button.scroltop {
   font-size: 65px;
   line-height: 83px;
   font-weight: 600;
-  color: #1f1f1f;
+  color: #fff;
   margin-bottom: 10px;
 }
 
 .dz-industry-zone .banner-contant p {
   font-size: 18px;
   line-height: 27px;
-  color: #666666;
+  color: #d6d6d6;
   font-weight: 400;
   margin-bottom: 43px;
 }
@@ -8049,8 +8049,8 @@ button.scroltop {
   font-weight: 400;
   font-size: 16px;
   padding: 12px 35px;
-  background-color: #222;
-  color: #faf9f8;
+  background-color: #fff;
+  color: #000;
   border-radius: 8px;
 }
 
@@ -8061,7 +8061,7 @@ button.scroltop {
   display: flex;
   align-items: center;
   gap: 16px;
-  color: #1f1f1f;
+  color: #fff;
   text-decoration: underline;
 }
 

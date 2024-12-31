@@ -20,7 +20,7 @@ const ServiceList = ({data,head}) => {
                     <div className="row">
                     
                         {data?.map((data,index)=>(
-                             <div className={`col-sm-12 ${length === 2 ? "col-md-6 col-lg-6" : "col-md-4 col-lg-4"} `}>
+                             <div className={`col-sm-12 ${length === 2 ? "col-md-6 col-lg-6" : "col-md-4 col-lg-4"} ${length === 4 ? "col-md-6 col-lg-6" : "col-md-4 col-lg-4"} mb-4`}>
                              <div className="pricingtable-wrapper">
                                <div className={`pricingtable-inner `}>
                                  <div className="pricingtable-price" style={{padding:"10px"}}>
@@ -37,7 +37,9 @@ const ServiceList = ({data,head}) => {
                                           <i className="fas fa-check" style={{fontSize:"12px"}}/> {item}
                                         </li>
                                      ))}
+                                     <p >{data?.description}</p>
                                  </ul>
+                                 
                                  <div className="pricingtable-footer">
                                    <a href="/contact" className="site-button">
                                      Buy Now

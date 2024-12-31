@@ -9,7 +9,7 @@
   padding-bottom: 10px;
 }
 .event-body .text-yellow {
-  color: #ffe400;
+  color: #1a43bf;
 }
 .event-body .text-black {
   color: #000;
@@ -107,7 +107,7 @@
   border-radius: 50%;
   border-width: 22px;
   border-style: solid;
-  border-color: #ffe400 transparent #ffe400 #ffe400;
+  border-color: #1a43bf transparent #1a43bf #1a43bf;
   transform: rotate(45deg);
 }
 
@@ -147,7 +147,7 @@
   position: absolute;
   right: 0;
   top: -145px;
-  background: #ffe400;
+  background: #1a43bf;
   border-radius: 110px 0 0 0px;
 }
 .event-bnr-media > span:before {
@@ -267,7 +267,7 @@
 
 .ev-aboutus {
   background-blend-mode: lighten;
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
 }
 .ev-aboutus .ev-about-content {
   font-size: 16px;
@@ -346,7 +346,7 @@
   position: absolute;
   right: 15px;
   top: -140px;
-  background: #ffe400;
+  background: #1a43bf;
   border-radius: 110px 0 0 0px;
 }
 .ev-aboutus-media .ev-about1 {
@@ -359,7 +359,7 @@
   content: "";
   width: 60px;
   height: 60px;
-  background: var(--color-secondry);
+  background: #1a43bf;
   position: absolute;
   left: 15px;
   border-radius: 0 0 60px 0;
@@ -388,7 +388,7 @@
   width: auto;
   height: calc(100% - 200px);
   top: 100px;
-  background: #ffe400;
+  background: #1a43bf;
   z-index: -1;
   margin-left: -80px;
   margin-right: -80px;
@@ -503,7 +503,7 @@
 /* Footer */
 .event-page .ev-subscribe {
   padding: 80px;
-  background: #ffe400;
+  background: #1a43bf;
   margin-left: -80px;
   margin-right: -80px;
   border-radius: 18px;

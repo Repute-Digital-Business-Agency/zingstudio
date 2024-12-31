@@ -107,7 +107,7 @@ export default function Footer13() {
             <div className="col-md-6 col-sm-6 text-left">
               <span>
                 Copyright ©{" "}
-                <span className="current-year">{new Date().getFullYear()}</span>
+                <span className="current-year">{new Date().getFullYear()} </span>
                 <a href="#" target="_blank">
                   Zing Studio
                 </a>{" "}
