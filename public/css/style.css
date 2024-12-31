@@ -16561,7 +16561,7 @@ ol.commentlist li .star-rating {
 
 .theme-btn.bt-support-now {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1ebbf0+8,39dfaa+100 */
-  background: #1ebbf0;
+  background: #1A43BF !important;
   /* Old browsers */
   background: -moz-linear-gradient(45deg,
       #1ebbf0 8%,
@@ -16571,9 +16571,9 @@ ol.commentlist li .star-rating {
       #1ebbf0 8%,
       #39dfaa 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg,
-      #1ebbf0 8%,
-      #39dfaa 100%);
+  /* background: linear-gradient(45deg,
+      #1A43BF 8%,
+      #39dfaa 100%); */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1ebbf0', endColorstr='#39dfaa', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
