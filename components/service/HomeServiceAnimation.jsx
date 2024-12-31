@@ -93,6 +93,7 @@ const projects = [
           "Free Website Maintenance",
         ],
         link: "/web-design-service",
+        buyNowLink:"/contact",
         color: "#1a43bf",
         animation_delay: "0.12s",
         description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -108,6 +109,7 @@ const projects = [
              "1 Basic Contact/Enquiry Form"
         ],
         link: "/web-design-service",
+        buyNowLink:"/contact",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -123,6 +125,7 @@ const projects = [
              "Secure Online Payment"
         ],
         link: "/web-design-service",
+        buyNowLink:"/contact",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -144,6 +147,7 @@ const projects = [
           "Link Building - 30",
         ],
         link: "/digital-marketing-service",
+        buyNowLink:"/contact",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -159,6 +163,7 @@ const projects = [
           "Link Building - 50-60",
         ],
         link: "/digital-marketing-service",
+        buyNowLink:"/contact",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -174,6 +179,7 @@ const projects = [
           "Link Building - 50-60",
         ],
         link: "/digital-marketing-service",
+        buyNowLink:"/contact",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -195,6 +201,7 @@ const projects = [
           "Lorem ipsum dolor sit amet",
         ],
         link: "/academy-service",
+        buyNowLink:"/contact",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -210,6 +217,7 @@ const projects = [
           "Lorem ipsum dolor sit amet",
         ],
         link: "/academy-service",
+        buyNowLink:"/contact",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"
@@ -225,6 +233,7 @@ const projects = [
           "Lorem ipsum dolor sit amet",
         ],
         link: "/academy-service",
+        buyNowLink:"/contact",
         color: "#1a43bf",
         animation_delay: "0.12s",
          description:"Lorem ipsum dolor sit amet adipiscing elit sed do eiusmod tempors labore et dolore magna siad enim aliqua"

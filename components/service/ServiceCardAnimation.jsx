@@ -86,7 +86,7 @@ const Card = ({
                          <a href={data?.service[0]?.link} className="site-button white radius-xl">
                             <span className="p-lr30">View Service</span>
                           </a>
-                          <a href={data?.service[0]?.link} className="site-button radius-xl">
+                          <a href={data?.service[0]?.buyNowLink} className="site-button radius-xl">
                             <span className="p-lr30">Buy Now</span>
                           </a>
                         </div>
@@ -124,7 +124,7 @@ const Card = ({
             <a href={data?.service[1]?.link} className="site-button white radius-xl">
               <span className="p-lr30">View Service</span>
             </a>
-            <a href={data?.service[1]?.link} className="site-button white-1 radius-xl">
+            <a href={data?.service[1]?.buyNowLink} className="site-button white-1 radius-xl">
               <span className="p-lr30">Buy Now</span>
             </a>
           </div>
@@ -171,7 +171,7 @@ const Card = ({
                           <a href={data?.service[2]?.link} className="site-button white radius-xl">
                             <span className="p-lr30">View Service</span>
                           </a>
-                          <a href={data?.service[2]?.link} className="site-button radius-xl">
+                          <a href={data?.service[2]?.buyNowLink} className="site-button radius-xl">
                             <span className="p-lr30">Buy Now</span>
                           </a>
                         </div>

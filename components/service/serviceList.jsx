@@ -2,6 +2,9 @@ import React from 'react'
 
 const ServiceList = ({data,head}) => {
     console.log(data);
+    const length = data.length
+    console.log(length);
+    
     
   return (
     <div className="section-full bg-white content-inner pr-service-list">
@@ -15,8 +18,9 @@ const ServiceList = ({data,head}) => {
                 <div className="section-content box-sort-in button-example p-tb50">
                   <div className="pricingtable-row">
                     <div className="row">
+                    
                         {data?.map((data,index)=>(
-                             <div className="col-sm-12 col-md-4 col-lg-4">
+                             <div className={`col-sm-12 ${length === 2 ? "col-md-6 col-lg-6" : "col-md-4 col-lg-4"} `}>
                              <div className="pricingtable-wrapper">
                                <div className={`pricingtable-inner `}>
                                  <div className="pricingtable-price" style={{padding:"10px"}}>

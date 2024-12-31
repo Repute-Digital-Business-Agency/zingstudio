@@ -47,23 +47,23 @@ export default function page() {
           "Link Building - 50-60",  
          ]
         },
-        {
-            head:"Digital Marketing",
-         title:"PPC - Digital Marketing",
-         price: "10,000",
-         list:[
-             "Administrator Dashboard",
-             "Editor Dashboard",
-             "Shop Manager Dashboard",
-             "Categories",
-             "Customers Limit",
-             "Secure Online Payment",
-             "Multiple Payment Options",
-             "Filter Products By Price",
-             "Sort Products By Price",
+        // {
+        //     head:"Digital Marketing",
+        //  title:"PPC - Digital Marketing",
+        //  price: "10,000",
+        //  list:[
+        //      "Administrator Dashboard",
+        //      "Editor Dashboard",
+        //      "Shop Manager Dashboard",
+        //      "Categories",
+        //      "Customers Limit",
+        //      "Secure Online Payment",
+        //      "Multiple Payment Options",
+        //      "Filter Products By Price",
+        //      "Sort Products By Price",
            
-         ]
-        },
+        //  ]
+        // },
  
      ]
 
