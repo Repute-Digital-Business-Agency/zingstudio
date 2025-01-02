@@ -30,7 +30,7 @@ export default function Academy() {
                     {/* <a href="#"> */}
                       <Image
                         alt=""
-                        src="/images/blog/grid/pic1.jpg"
+                        src="/images/Home-Page/3-months-on-job-training.jpg"
                         width="700"
                         height="500"
                       />
@@ -101,7 +101,7 @@ export default function Academy() {
                     {/* <a href="#"> */}
                       <Image
                         alt=""
-                        src="/images/blog/grid/pic1.jpg"
+                        src="/images/Home-Page/exclusive-discount-for-female-students.jpg"
                         width="700"
                         height="500"
                       />

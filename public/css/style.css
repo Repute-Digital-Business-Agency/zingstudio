@@ -17533,6 +17533,12 @@ color: #ffff;
 .card .body .imageContainer img {
   object-fit: cover;
 }
+
+/* .dm-img{
+  border: 1px solid red !important;
+  background: url(/images/Home-Page/our-services-digital\ marketing-bg.jpg);
+
+} */
 @media(max-width: 990px){
   .cardContainer .sort-title h4{
     padding-bottom: 10px;

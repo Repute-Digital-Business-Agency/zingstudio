@@ -12,7 +12,7 @@ export default function Am_a_Zing() {
           <Image
             alt=""
             className="img-cover"
-            src="/images/about-us/img-2.jpg"
+            src="/images/Home-Page/am-a-zingprogram.jpg"
             width="1000"
             height="674"
           />

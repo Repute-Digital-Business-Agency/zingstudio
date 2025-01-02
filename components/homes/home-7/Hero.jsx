@@ -9,7 +9,7 @@ const slidesData = [
     backgroundImage:
       'url("/images/main-slider/slide7-3.jpeg") center center no-repeat',
     subTitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    title: "<span style='color: #c21807'>Web</span><br/> Design",
+    title: "<span style='color: #c21807'>Web Design</span><br/>Lorem Ipsum is simply",
     description:
       "Empowering your business with seamless eCommerce solutions.From store setup to optimized sales, we’ve got you covered.Grow your online brand and reach customers worldwide.",
     buttonLabel: "BUY & VIEW SERVICES",
@@ -19,7 +19,7 @@ const slidesData = [
     backgroundImage:
       'url("/images/main-slider/slide7-3.jpeg") center center no-repeat',
     subTitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    title: "<span style='color: #c21807'>Digital</span><br/> Marketing",
+    title: "<span style='color: #c21807'>Digital Marketing</span><br/> Lorem Ipsum is simply",
     description:
       "Empowering your business with seamless eCommerce solutions.From store setup to optimized sales, we’ve got you covered.Grow your online brand and reach customers worldwide.",
     buttonLabel: "BUY & VIEW SERVICES",
@@ -31,7 +31,7 @@ const slidesData = [
     subTitle:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     title:
-      "<span style='color: #c21807'>Zing</span><br/>Academy",
+      "<span style='color: #c21807'>Zing Academy</span><br/>Lorem Ipsum is simply",
     description:
       "Crafting stunning, user-friendly websites tailored to your needs.From design to launch, we deliver seamless digital experiences.Your online presence, built to captivate and convert.",
     buttonLabel: "BUY & VIEW SERVICES",
