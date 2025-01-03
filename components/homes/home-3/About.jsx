@@ -17,7 +17,7 @@ export default function About() {
               data-wow-delay="0.3s"
             >
               <div className="our-story">
-                <span>OUR STORY</span>
+                <span>OUR STORY.</span>
                 <h2 className="title" style={{fontSize:"35px"}}>
                   Commited to High <br />
                   Quality <span className="text-primary"  style={{fontSize:"50px"}}> Service </span>
