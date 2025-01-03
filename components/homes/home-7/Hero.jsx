@@ -7,7 +7,7 @@ import "swiper/css";
 const slidesData = [
   {
     backgroundImage:
-      'url("/images/Home-Page/zing-banner-2.jpg") center center no-repeat',
+      'url("/images/Home-Page/zing-banner-web-design.jpg") center center no-repeat',
     subTitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     title: "<span style='color: #c21807'>Web Design</span><br/>Lorem Ipsum is simply",
     description:
@@ -17,7 +17,7 @@ const slidesData = [
   },
   {
     backgroundImage:
-      'url("/images/Home-Page/zing-banner-1.jpg") center center no-repeat',
+      'url("/images/Home-Page/zing-banner-digital marketing.jpg") center center no-repeat',
     subTitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     title: "<span style='color: #c21807'>Digital Marketing</span><br/> Lorem Ipsum is simply",
     description:
@@ -27,7 +27,7 @@ const slidesData = [
   },
   {
     backgroundImage:
-      'url("/images/Home-Page/zing-banner-2.jpg") center center no-repeat',
+      'url("/images/Home-Page/zing-banner-acadmy.jpg") center center no-repeat',
     subTitle:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     title:
