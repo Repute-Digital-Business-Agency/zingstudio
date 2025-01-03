@@ -24,8 +24,20 @@ export default function Am_a_Zing() {
               <h2 className="title text-primary">
                 {" "}
                 <Link href="/am-a-zing">
-                  <span className=" p-r20">Am-A-Zing</span>
-                  Program:
+                  <span className=" p-r20">
+                  <img
+                    alt=""
+                  
+                    // src="/images/Home-Page/am-text-blue.png"
+                    src="/images/Home-Page/am-text-with-two-colors.png"
+                    // src="/images/Home-Page/am-text-black.png"
+                    width="320"
+                    height="100" 
+                    // style={{ width: "100px", height: "auto" }}
+                  />
+                    {/* Am-A-Zing */}
+                    </span>
+                  {/* Program: */}
                 </Link>
               </h2>
               <h4 className="title"> Empowering women to lead the future</h4>

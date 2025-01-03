@@ -75,7 +75,7 @@ export default function About() {
             >
               <div className="content-bx1">
                 <div className="our-story">
-                  <h2 className="title text-primary">
+                  <h2 className="title text-primary" style={{fontSize:"40px"}}>
                     {/* <b
                       style={{
                         fontFamily: "Playfair Display, serif",
@@ -83,7 +83,19 @@ export default function About() {
                         fontWeight: "100",
                       }}
                     > */}{" "}
-                    <span className="p-r20"> Am-A-Zing</span>
+                    <span className="p-r20"> 
+                    <img
+                    alt=""
+                  
+                    // src="/images/Home-Page/am-text-blue.png"
+                    // src="/images/Home-Page/am-text-with-two-colors.png"
+                    src="/images/Home-Page/am-text-black.png"
+                    width="250"
+                    height="100" 
+                    // style={{ width: "100px", height: "auto" }}
+                  />
+                      {/* Am-A-Zing */}
+                      </span>
                     {/* </b>{" "} */}
                     Program:
                   </h2>
