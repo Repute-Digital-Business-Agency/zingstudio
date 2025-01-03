@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { footerLinks } from "@/data/footerLinks";
+// import { footerLinks } from "@/data/footerLinks";
 export default function Footer1() {
   return (
     <footer className="site-footer style1">
@@ -75,11 +75,11 @@ export default function Footer1() {
               <div className="widget">
                 <h4 className="footer-title">Usefull Link</h4>
                 <ul className="list-2">
-                  {footerLinks.map((link, index) => (
+                  {/* {footerLinks.map((link, index) => ( */}
                     <li key={index}>
                       <Link href={link.href}>{link.label}</Link>
                     </li>
-                  ))}
+                  {/* ))} */}
                 </ul>
               </div>
             </div>

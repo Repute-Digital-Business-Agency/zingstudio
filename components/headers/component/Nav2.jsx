@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   blogItems,
-  contactLinks,
+  contactsLinks,
   elementItems,
   headerAndFooters,
   homeItems,
@@ -286,7 +286,7 @@ export default function Nav2() {
           </ul>
         </li>
         <li
-          className={` ${isMenuActive(contactLinks) ? "active" : ""} ${
+          className={` ${isMenuActive(contactsLinks) ? "active" : ""} ${
             menuOpen1 == "contact" ? "open" : ""
           }  `}
         >
@@ -299,7 +299,7 @@ export default function Nav2() {
             <i className="fas fa-chevron-down" />
           </a>
           <ul className="sub-menu right">
-            {contactLinks.map((link, index) => (
+            {contactsLinks.map((link, index) => (
               <li key={index}>
                 <Link
                   className={isMenuActive(link) ? "menuActive" : ""}

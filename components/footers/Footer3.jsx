@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { footerLinks, socialLinks } from "@/data/footerLinks";
+// import { footerLinks, socialLinks } from "@/data/footerLinks";
 export default function Footer3() {
   return (
     <footer className="site-footer footer-gray-1">
@@ -18,11 +18,11 @@ export default function Footer3() {
                   Quick Links
                 </h6>
                 <ul className="list-2">
-                  {footerLinks.map((link, index) => (
+                  {/* {footerLinks.map((link, index) => ( */}
                     <li key={index}>
                       <Link href={link.href}>{link.label}</Link>
                     </li>
-                  ))}
+                {/* //  ))} */}
                 </ul>
               </div>
             </div>
