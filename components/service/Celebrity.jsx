@@ -8,7 +8,8 @@ export default function Celebrity() {
   return (
     <div className=" section-full content-inner bg-white">
       <div className="container">
-        <div className="section-head text-center">
+        <div className="section-head text-center wow fadeInUp"   data-wow-duration="2s"
+              data-wow-delay="0.3s">
           <h2 className="title">Our Celebrity Partners</h2>
           <p>
             There are many variations of passages of Lorem Ipsum typesetting

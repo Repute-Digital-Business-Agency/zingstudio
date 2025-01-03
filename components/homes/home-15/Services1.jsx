@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Services1() {
   return (
-    <div className="section-full content-inner bg-white"  style={{backgroundImage: "url(/images/background/event/bg1.png)"}}>
+    <div className="section-full content-inner bg-white"  style={{backgroundImage: "url(/images/about-us/about-bg.png)"}}>
       <div className="container">
         <div className="section-head text-center">
           <h2 className="title">Why Choose Zing?</h2>

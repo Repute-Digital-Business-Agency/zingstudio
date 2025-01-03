@@ -27,7 +27,8 @@ export default function page() {
           "Free Images",
           "World Class Design & Approval",
           "User Friendly Design"
-         ]
+         ],
+           delay:"0.2s"
         },
         {
             head:"Web Design",
@@ -42,7 +43,8 @@ export default function page() {
              "Multiple Payment Options",
              "Maintainance",
              "Responsive Design"       
-         ]
+         ],
+           delay:"0.4s"
         },
         {
             head:"Web Design",
@@ -57,7 +59,8 @@ export default function page() {
              "Products & Inventory Management",
              "Orders & Shipping Management",
              "Stock,Order & Customer Report"
-         ]
+         ],
+           delay:"0.6s"
         },
      ]
 

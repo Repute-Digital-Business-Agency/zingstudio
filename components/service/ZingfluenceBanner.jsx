@@ -9,8 +9,8 @@ export default function ZingFluenceBanner() {
 <div className="container">
   <div className="row align-items-center">
     <div
-      className="col-lg-5 wow fadeIn"
-      data-wow-duration="2s"
+      className="col-lg-5 wow fadeInUp"
+      data-wow-duration="1s"
       data-wow-delay="0.2s"
     >
       <div className="banner-contant">
@@ -58,7 +58,9 @@ export default function ZingFluenceBanner() {
         <div className="row">
           <div className="col-sm-4">
             <div className="row">
-              <div className="col-12 m-b20">
+              <div className="col-12 m-b20 wow fadeInUp"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.2s">
                 <div className="dz-media">
                   <Image
                     alt="#"
@@ -68,7 +70,9 @@ export default function ZingFluenceBanner() {
                   />
                 </div>
               </div>
-              <div className="col-12 m-b20 m-sm-b20">
+              <div className="col-12 m-b20 m-sm-b20 wow fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.3s">
                 <div className="dz-media">
                   <Image
                     alt="#"
@@ -80,7 +84,9 @@ export default function ZingFluenceBanner() {
               </div>
             </div>
           </div>
-          <div className="col-sm-4 m-b20 m-sm-b20">
+          <div className="col-sm-4 m-b20 m-sm-b20 wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="0.8s">
             <div className="dz-media">
               <Image
                 alt="#"
@@ -90,7 +96,9 @@ export default function ZingFluenceBanner() {
               />
             </div>
           </div>
-          <div className="col-sm-4">
+          <div className="col-sm-4 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.5s">
             <div className="row">
               <div className="col-12 m-b20">
                 <div className="dz-media">
@@ -102,7 +110,9 @@ export default function ZingFluenceBanner() {
                   />
                 </div>
               </div>
-              <div className="col-12">
+              <div className="col-12 wow fadeInUp"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.6s">
                 <div className="dz-media">
                   <Image
                     alt="#"
@@ -124,7 +134,9 @@ export default function ZingFluenceBanner() {
 
 <div className="section-full bg-white content-inner">
         <div className="container">
-          <div className="section-head text-center">
+          <div className="section-head text-center wow fadeInUp"
+              data-wow-duration="2s"
+              data-wow-delay="0.3s">
             <h2 className="title">Our Services</h2>
             <div>
                  <p>

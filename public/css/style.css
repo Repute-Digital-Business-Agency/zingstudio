@@ -141,6 +141,9 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
+.parallax::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari */
+}
 
 p {
   font-size: 17px !important;

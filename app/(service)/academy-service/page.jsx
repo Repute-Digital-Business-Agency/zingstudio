@@ -33,7 +33,8 @@ export default function page() {
             
          ],
          link:"",
-         description:"Comprehensive program covering advanced digital marketing strategies, culminating in a hands-on internship for real-world experience."
+         description:"Comprehensive program covering advanced digital marketing strategies, culminating in a hands-on internship for real-world experience.",
+         delay:"0.2s"
         },
         {
             head:"Academy",
@@ -53,7 +54,8 @@ export default function page() {
             
          ],
          link:"",
-         description:"A dynamic internship designed for college students to gain practical experience in digital marketing."
+         description:"A dynamic internship designed for college students to gain practical experience in digital marketing.",
+          delay:"0.4s"
         },
         {
             head:"Academy",
@@ -74,7 +76,8 @@ export default function page() {
          ],
 
          link:"",
-         description:"An intensive course focusing on essential digital marketing skills, perfect for beginners and aspiring marketers."
+         description:"An intensive course focusing on essential digital marketing skills, perfect for beginners and aspiring marketers.",
+          delay:"0.6s"
         },
         {
           head:"Academy",
@@ -95,7 +98,8 @@ export default function page() {
        ],
 
        link:"",
-       description:"An innovative course thatexplores the integration of AItechnologies in digital marketing strategies, enhancing decision-making and campaign effectiveness."
+       description:"An innovative course thatexplores the integration of AItechnologies in digital marketing strategies, enhancing decision-making and campaign effectiveness.",
+        delay:"0.8s"
       },
  
      ]

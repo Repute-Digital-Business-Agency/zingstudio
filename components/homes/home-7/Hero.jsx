@@ -7,7 +7,7 @@ import "swiper/css";
 const slidesData = [
   {
     backgroundImage:
-      'url("/images/main-slider/slide7-3.jpeg") center center no-repeat',
+      'url("/images/Home-Page/zing-banner-2.jpg") center center no-repeat',
     subTitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     title: "<span style='color: #c21807'>Web Design</span><br/>Lorem Ipsum is simply",
     description:
@@ -17,7 +17,7 @@ const slidesData = [
   },
   {
     backgroundImage:
-      'url("/images/main-slider/slide7-3.jpeg") center center no-repeat',
+      'url("/images/Home-Page/zing-banner-1.jpg") center center no-repeat',
     subTitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     title: "<span style='color: #c21807'>Digital Marketing</span><br/> Lorem Ipsum is simply",
     description:
@@ -27,7 +27,7 @@ const slidesData = [
   },
   {
     backgroundImage:
-      'url("/images/main-slider/slide7-3.jpeg") center center no-repeat',
+      'url("/images/Home-Page/zing-banner-2.jpg") center center no-repeat',
     subTitle:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     title:
@@ -41,8 +41,8 @@ const slidesData = [
 
 export default function Hero() {
   return (
-    <div className="hero-sec">
-      <div className="home-slider-7">
+    <div className="hero-sec ">
+      <div className="home-slider-7 wow fadeInUp" data-wow-delay="0.1s">
         <Swiper
           modules={[Navigation, Autoplay]}
           autoplay={{
@@ -53,7 +53,7 @@ export default function Hero() {
           direction={"vertical"}
           navigation={{ prevEl: ".snbph7", nextEl: ".snbnh7" }}
           style={{ height: "70vh" }}
-          className="swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress home-swiper-10 swiper-backface-hidden"
+          className="swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress home-swiper-10 swiper-backface-hidden fadeInUp" data-wow-delay="0.2s"
         >
           {slidesData.map((slide, index) => (
             <SwiperSlide
@@ -64,7 +64,7 @@ export default function Hero() {
               <div className="inner sliderStyle7">
                 <div>
                   {/* <p className="subTitle1">{slide.subTitle}</p> */}
-                  <h1 dangerouslySetInnerHTML={{ __html: slide.title }}></h1>
+                  <h1 dangerouslySetInnerHTML={{ __html: slide.title }} ></h1>
                   {/* <p>{slide.description}</p> */}
                   <p className="subTitle1">{slide.subTitle}</p>
                   <Link href={slide.link}>

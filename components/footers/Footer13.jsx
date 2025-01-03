@@ -5,7 +5,7 @@ import Link from "next/link";
 import { footerLinks2, socialLinks } from "@/data/footerLinks";
 export default function Footer13() {
   return (
-    <footer className="site-footer footer-gray-1">
+    <footer className="site-footer footer-gray-1 ">
       <div className="footer-top">
         <div className="container">
           <div className="row">

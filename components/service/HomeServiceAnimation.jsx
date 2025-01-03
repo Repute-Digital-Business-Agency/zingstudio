@@ -383,7 +383,7 @@ export default function HomeServiceAnimation() {
   return (
     <>
       {" "}
-      <div className="section-head style2 text-center pt-5 mb-3 homeservice-heading">
+      <div className="section-head style2 text-center pt-5 mb-3 homeservice-heading wow fadeInUp" data-wow-delay="0.6s">
         <h2 className="title m-b10">Our Services</h2>
         <p>
           Our team has rich experience and technical mastery to develop

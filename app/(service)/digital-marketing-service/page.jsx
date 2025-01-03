@@ -30,7 +30,8 @@ export default function page() {
           "Monthly Performance Reports",
           "Link Building - 30",
             
-         ]
+         ],
+           delay:"0.2s"
         },
         {
             head:"Digital Marketing",
@@ -46,7 +47,8 @@ export default function page() {
           "XML Sitemap Creation and Submission",
           "Monthly Performance Reports",
           "Link Building - 50-60",  
-         ]
+         ],
+           delay:"0.4s"
         },
         // {
         //     head:"Digital Marketing",

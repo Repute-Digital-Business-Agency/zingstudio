@@ -15,6 +15,7 @@ import Testimonial from "@/components/homes/home-5/Testimonials";
 import Footer13 from "@/components/footers/Footer13";
 import Am_a_Zing from "@/components/service/Am-a-zing";
 import Academy from "@/components/service/Academy";
+import Am_a_ZingPar from "@/components/service/Amazingparallax";
 
 export const metadata = {
   title: "Home || Zing Studio",
@@ -42,8 +43,8 @@ export default function page() {
           </div> */}
 
           
-
           <Am_a_Zing/>
+          {/* <Am_a_ZingPar/> */}
           
           <Academy/>
 

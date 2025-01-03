@@ -10,7 +10,7 @@ const ServiceList = ({data,head}) => {
     <div className="section-full bg-white content-inner pr-service-list">
           <div className="container">
             <div className="row">
-              <div className="col-lg-12">
+              <div className="col-lg-12 ">
                 <div className="sort-title clearfix text-center">
                   <h4>{head}</h4>
                 </div>
@@ -20,24 +20,25 @@ const ServiceList = ({data,head}) => {
                     <div className="row">
                     
                         {data?.map((data,index)=>(
-                             <div className={`col-sm-12 ${length === 2 ? "col-md-6 col-lg-6" : "col-md-4 col-lg-4"} ${length === 4 ? "col-md-6 col-lg-6" : "col-md-4 col-lg-4"} mb-4`}>
+                             <div className={`wow fadeInUp col-sm-12 ${length === 2 ? "col-md-6 col-lg-6" : "col-md-4 col-lg-4"} ${length === 4 ? "col-md-6 col-lg-6" : "col-md-4 col-lg-4"} mb-4`} data-wow-delay={data.delay}>
                              <div className="pricingtable-wrapper">
                                <div className={`pricingtable-inner `}>
-                                 <div className="pricingtable-price" style={{padding:"10px"}}>
+                                 <div className="pricingtable-price" style={{padding:"10px"}} >
                                  <span className="pricingtable-type">Starting @ </span>
                                    <span className="pricingtable-bx">₹{data.price}</span>
                                    
                                  </div>
-                                 <div className="pricingtable-title bg-primary"  style={{padding:"0px"}}>
+                                 <div className="pricingtable-title bg-primary "  style={{padding:"0px"}} >
                                    <h2 style={{fontSize:"20px"}}>{data.title}</h2>
                                  </div>
-                                 <ul className="pricingtable-features">
+                                 <ul className="pricingtable-features " >
                                      {data?.list?.map((item)=>(
                                           <li style={{fontSize:"16px"}}>
                                           <i className="fas fa-check" style={{fontSize:"12px"}}/> {item}
                                         </li>
                                      ))}
-                                     <p >{data?.description}</p>
+                                     {length === 4 && <p >{data?.description}</p>} 
+                                     
                                  </ul>
                                  
                                  <div className="pricingtable-footer">
