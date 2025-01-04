@@ -121,7 +121,7 @@ export default function Am_a_Zing() {
                   <img
                   alt=""
                   className="img-cover img-inner"
-                  src="/images/Home-Page/am-a-zingprogram.jpg"
+                  src="/images/Home-Page/am-a-zingprogram-1.jpg"
                   style={{
                       width:"300px",
                       height:"800px",
@@ -135,7 +135,7 @@ export default function Am_a_Zing() {
                   <img
                   alt=""
                   className="img-cover img-inner"
-                  src="/images/Home-Page/am-a-zingprogram.jpg"
+                  src="/images/Home-Page/am-a-zingprogram-2.jpg"
                   style={{
                       width:"300px",
                       height:"800px",
@@ -149,7 +149,7 @@ export default function Am_a_Zing() {
                   <img
                   alt=""
                   className="img-cover img-inner"
-                  src="/images/Home-Page/am-a-zingprogram.jpg"
+                  src="/images/Home-Page/am-a-zingprogram-3.jpg"
                   style={{
                       width:"300px",
                       height:"800px",

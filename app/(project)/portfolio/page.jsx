@@ -23,7 +23,7 @@ export default function page() {
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
-            style={{ backgroundImage: "url(/images/portfolio/portfolioBanner.jpg)" }}
+            style={{ backgroundImage: "url(/images/portfolio/banner.jpg)" }}
           >
             <div className="container">
               <div className="dlab-bnr-inr-entry">
