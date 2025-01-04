@@ -24,7 +24,7 @@ export default function Academy() {
           </div>
           <div className="section-content box-sort-in button-example p-b0 ">
             <div className="row">
-              <div className="col-md-12 col-lg-12 wow fadeInUp" data-wow-delay="1s">
+              <div className="col-md-12 col-lg-12 wow fadeInUp " data-wow-delay="1s">
                 <div className="blog-post blog-md clearfix border-1 br-col-b1 radius-sm">
                   <div className="dlab-post-media dlab-img-effect zoom-slow">
                     {/* <a href="#"> */}
@@ -36,7 +36,7 @@ export default function Academy() {
                       />
                     {/* </a> */}
                   </div>
-                  <div className="dlab-post-info">
+                  <div className="dlab-post-info" style={{background:"#edebeb57"}}>
                     <div className="dlab-post-title">
                       <h4 className="post-title">3 Months On-Job Training</h4>
                     </div>
@@ -83,7 +83,7 @@ export default function Academy() {
                     </div> */}
               <div className="col-md-12 col-lg-12 wow fadeInUp" data-wow-delay="1.2s">
                 <div className="blog-post blog-md clearfix border-1 br-col-b1 radius-sm">
-                  <div className="dlab-post-info">
+                  <div className="dlab-post-info" style={{background:"#edebeb57"}}>
                     <div className="dlab-post-title">
                       <h4 className="post-title">
                         Exclusive Discount for Female Students:

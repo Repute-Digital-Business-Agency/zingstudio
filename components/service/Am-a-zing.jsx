@@ -101,7 +101,8 @@ export default function Am_a_Zing() {
         style={{
             backgroundImage: "url(/images/element-4.png)",
             backgroundRepeat: "no-repeat",
-            height:"3350px"
+            // height:"3350px"
+            height:"2500px"
         
         }}
         >
@@ -160,7 +161,7 @@ export default function Am_a_Zing() {
                   }}
                   />
 
-                  <img
+                  {/* <img
                   alt=""
                   className="img-cover img-inner"
                   src="/images/Home-Page/am-a-zingprogram.jpg"
@@ -174,7 +175,7 @@ export default function Am_a_Zing() {
                   marginTop:"50px"
                   }}
               
-                  />
+                  /> */}
 
                   
           
@@ -196,7 +197,7 @@ export default function Am_a_Zing() {
                       </span>
                       </Link>
                   </h2>
-                  <h4 className="title">Empowering women to lead the future</h4>
+                  <h4 className="title" style={{ color: "black" , fontWeight:"600"}}>Empowering women to lead the future</h4>
                   <p style={{ color: "black" }}>
                       At Zing Studio, we strive to create opportunities to uplift
                       women, enabling them to realize their potential and take control

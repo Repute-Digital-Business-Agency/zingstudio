@@ -107,7 +107,7 @@ export default function Projects2() {
                   data-wow-delay="0.3s"
                   data-wow-duration="1s"
                 >
-                  <img src="/images/our-works-img-1.jpg" alt="" />
+                  <img src="/images/Home-Page/our-work-img-1.jpg" alt="" />
                   <div className="overlay-bx">
                     <div className="portinner">
                       <div className="port-up">
@@ -126,7 +126,7 @@ export default function Projects2() {
                   data-wow-delay="0.6s"
                   data-wow-duration="1.3s"
                 >
-                  <img src="/images/our-works-img-2.jpg" alt="" />
+                  <img src="/images/Home-Page/our-works-img-2.jpg" alt="" />
                   <div className="overlay-bx">
                     <div className="portinner">
                       <div className="port-up">
@@ -145,7 +145,7 @@ export default function Projects2() {
                   data-wow-delay="0.9s"
                   data-wow-duration="1.6s"
                 >
-                  <img src="/images/our-works-img-3.jpg" alt="" />
+                  <img src="/images/Home-Page/our-works-img-3.jpg" alt="" />
                   <div className="overlay-bx">
                     <div className="portinner">
                       <div className="port-up">
@@ -164,7 +164,7 @@ export default function Projects2() {
                   data-wow-delay="0.3s"
                   data-wow-duration="1.9s"
                 >
-                  <img src="/images/our-works-img-4.jpg" alt="" />
+                  <img src="/images/Home-Page/our-works-img-4.jpg" alt="" />
                   <div className="overlay-bx">
                     <div className="portinner">
                       <div className="port-up">
@@ -183,7 +183,7 @@ export default function Projects2() {
                   data-wow-delay="0.6s"
                   data-wow-duration="1.12s"
                 >
-                  <img src="/images/our-works-img-5.jpg" alt="" />
+                  <img src="/images/Home-Page/our-works-img-5.jpg" alt="" />
                   <div className="overlay-bx">
                     <div className="portinner">
                       <div className="port-up">
@@ -202,7 +202,7 @@ export default function Projects2() {
                   data-wow-delay="0.9s"
                   data-wow-duration="1.15s"
                 >
-                  <img src="/images/our-works-img-6.jpg" alt="" />
+                  <img src="/images/Home-Page/our-work-img-6.jpg" alt="" />
                   <div className="overlay-bx">
                     <div className="portinner">
                       <div className="port-up">
