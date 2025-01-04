@@ -3,10 +3,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import BannerParallax from "@/components/service/BannerParallex";
-import Header17 from "@/components/headers/Header17";
-import Academy from "@/components/service/Academy";
-import Footer13 from "@/components/footers/Footer13";
+// import BannerParallax from "@/components/service/BannerParallex";
+// import Header17 from "@/components/headers/Header17";
+// import Academy from "@/components/service/Academy";
+// import Footer13 from "@/components/footers/Footer13";
 
 export default function Am_a_Zing() {
   return (
