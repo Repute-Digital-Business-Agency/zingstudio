@@ -13997,6 +13997,9 @@ footer .widget_services ul li a:hover {
 .section-full:last-child {
   margin-bottom: -50px;
 }
+.Am_a_Zing.section-full:last-child{
+  margin-bottom: 0;
+}
 
 /*= Section Head Part =*/
 
@@ -17759,8 +17762,10 @@ color: #ffff;
 .home-services-section-2nd-bg {
   background-image: url(/images/element-2.png);
   background-repeat: no-repeat;
-  height: 380px;
-  margin-top: -350px;
+  /* height: 380px;
+  margin-top: -350px; */
+  height: 465px;
+  margin-top: -424px;
 }
 
 .home-our-work-section {
@@ -17908,4 +17913,11 @@ color: #ffff;
   .zingFluence .dz-banner-btn{
     margin-bottom: 30px;
   }
+
+  .Am_a_Zing{
+    height: fit-content !important;
+  }
 }
+
+
+
