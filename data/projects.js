@@ -343,7 +343,7 @@ export const portfolioItems3 = [
   {
     id: 49,
     filter: "web-design",
-    imageSrc: "/images/portfolio/image_1.jpg",
+    imageSrc: "/images/portfolio/Web Design/Mockup-1.jpg",
     title: "Muchen Railway Station",
     category: "System",
     link:"https://irepute.in/"
@@ -351,7 +351,7 @@ export const portfolioItems3 = [
   {
     id: 50,
     filter: "e-commerce",
-    imageSrc: "/images/portfolio/image_2.jpg",
+    imageSrc: "/images/portfolio/Ecommerce/Mockup-1.jpg",
     title: "Mining Plant Set Up",
     category: "Mining / Plants",
     link:"https://irepute.in/"
@@ -359,7 +359,7 @@ export const portfolioItems3 = [
   {
     id: 51,
     filter: "digital-marketing",
-    imageSrc: "/images/portfolio/image_3.jpg",
+    imageSrc: "/images/portfolio/Web Design/Mockup-4.jpg",
     title: "Sanfran Cisco Bridge",
     category: "Engineering",
     link:"https://irepute.in/"
@@ -375,7 +375,7 @@ export const portfolioItems3 = [
   {
     id: 53,
     filter: "web-design",
-    imageSrc: "/images/portfolio/image_5.jpg",
+    imageSrc: "/images/portfolio/Web Design/Mockup-2.jpg",
     title: "Capturing Manila",
     category: "Industry",
     link:"https://irepute.in/"
@@ -383,7 +383,7 @@ export const portfolioItems3 = [
   {
     id: 54,
     filter: "e-commerce",
-    imageSrc: "/images/portfolio/image_6.jpg",
+    imageSrc: "/images/portfolio/Ecommerce/Mockup-2.jpg",
     title: "Berlin Central Bank",
     category: "Bank / Constructions",
     link:"https://irepute.in/"
@@ -391,7 +391,7 @@ export const portfolioItems3 = [
   {
     id: 55,
     filter: "digital-marketing",
-    imageSrc: "/images/portfolio/image_7.jpg",
+    imageSrc: "/images/portfolio/Web Design/Mockup-5.jpg",
     title: "Crop Identity",
     category: "Branding and Identity",
     link:"https://irepute.in/"
@@ -399,7 +399,7 @@ export const portfolioItems3 = [
   {
     id: 56,
     filter: "e-commerce-management",
-    imageSrc: "/images/portfolio/image_8.jpg",
+    imageSrc: "/images/portfolio/Ecommerce/Mockup-3.jpg",
     title: "Hamburg Wind Energy Plant",
     category: "Industry",
     link:"https://irepute.in/"
@@ -407,7 +407,7 @@ export const portfolioItems3 = [
   {
     id: 57,
     filter: "web-design",
-    imageSrc: "/images/portfolio/image_9.jpg",
+    imageSrc: "/images/portfolio/Web Design/Mockup-3.jpg",
     title: "Capturing Manila",
     category: "Industry",
     link:"https://irepute.in/"
@@ -415,7 +415,7 @@ export const portfolioItems3 = [
   {
     id: 58,
     filter: "digital-marketing",
-    imageSrc: "/images/portfolio/image_10.jpg",
+    imageSrc: "/images/portfolio/Web Design/Mockup-1.jpg",
     title: "Berlin Central Bank",
     category: "Bank / Constructions",
     link:"https://irepute.in/"
@@ -423,7 +423,7 @@ export const portfolioItems3 = [
   {
     id: 59,
     filter: "e-commerce",
-    imageSrc: "/images/portfolio/image_11.jpg",
+    imageSrc: "/images/portfolio/Ecommerce/Mockup-3.jpg",
     title: "Sanfran Cisco Bridge",
     category: "Engineering",
     link:"https://irepute.in/"

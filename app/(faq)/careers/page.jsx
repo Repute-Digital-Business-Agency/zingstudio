@@ -20,9 +20,7 @@ export default function page() {
         <Header17 />
         <div className="page-content bg-white">
           <div
-            className="dlab-bnr-inr overlay-black-middle bg-pt"
-            style={{ backgroundImage: "url(/images/Careers/banner.jpg)" }}
-          >
+            className="dlab-bnr-inr overlay-black-middle bg-pt career-ban" style={{backgroundImage: "url(/images/Life at Zing/banner.jpg)" }}>
             <div className="container">
               <div className="dlab-bnr-inr-entry">
                 <h1 className="text-white">Life at Zing</h1>

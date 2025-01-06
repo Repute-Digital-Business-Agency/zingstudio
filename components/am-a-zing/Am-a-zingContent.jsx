@@ -1,5 +1,5 @@
 "use client";
-import { galleryItems } from "@/data/aboutSlides";
+
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { testimonials } from "@/data/testimonials";
@@ -7,6 +7,29 @@ import { testimonials } from "@/data/testimonials";
 import Link from "next/link";
 import Image from "next/image";
 export default function About() {
+   const galleryItems = [
+    {
+      id: 1,
+      imgSrc: "/images/Am a Zing/am-zing-imgae-1.jpg",
+      altText: "Gallery Image 1",
+    },
+    {
+      id: 2,
+      imgSrc: "/images/Am a Zing/am-zing-imgae-2.jpg",
+      altText: "Gallery Image 2",
+    },
+    {
+      id: 3,
+      imgSrc: "/images/Am a Zing/am-zing-imgae-3.jpg",
+      altText: "Gallery Image 3",
+    },
+    {
+      id: 4,
+      imgSrc: "/images/Am a Zing/am-zing-imgae-4.jpg",
+      altText: "Gallery Image 4",
+    },
+  ];
+  
   return (
     <>
       <div className="section-full content-inner exhibition-bx">

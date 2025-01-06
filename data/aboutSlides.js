@@ -84,22 +84,22 @@ export const storyItems = [
 export const galleryItems = [
   {
     id: 1,
-    imgSrc: "/images/gallery/food/pic1.jpg",
+    imgSrc: "/images/Am a Zing/am-zing-imgae-1.jpg",
     altText: "Gallery Image 1",
   },
   {
     id: 2,
-    imgSrc: "/images/gallery/food/pic2.jpg",
+    imgSrc: "/images/Am a Zing/am-zing-imgae-2.jpg",
     altText: "Gallery Image 2",
   },
   {
     id: 3,
-    imgSrc: "/images/gallery/food/pic3.jpg",
+    imgSrc: "/images/Am a Zing/am-zing-imgae-3.jpg",
     altText: "Gallery Image 3",
   },
   {
     id: 4,
-    imgSrc: "/images/gallery/food/pic4.jpg",
+    imgSrc: "/images/Am a Zing/am-zing-imgae-4.jpg",
     altText: "Gallery Image 4",
   },
 ];

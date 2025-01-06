@@ -17923,4 +17923,21 @@ color: #ffff;
   color: #000;
 }
 
+.career-ban{
+  background-image: url(/images/Life-at-Zing/banner.jpg) !important;
+}
+
+@media (max-width:500px) {
+  .home-ban{
+    height:50vh !important;
+  }
+}
+
+@media (max-width:400px) {
+  .home-ban{
+    height:45vh !important;
+  }
+}
+
+
 

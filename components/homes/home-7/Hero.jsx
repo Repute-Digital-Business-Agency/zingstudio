@@ -53,7 +53,7 @@ export default function Hero() {
           direction={"vertical"}
           navigation={{ prevEl: ".snbph7", nextEl: ".snbnh7" }}
           style={{ height: "70vh" }}
-          className="swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress home-swiper-10 swiper-backface-hidden fadeInUp" data-wow-delay="0.2s"
+          className="home-ban swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress home-swiper-10 swiper-backface-hidden fadeInUp" data-wow-delay="0.2s"
         >
           {slidesData.map((slide, index) => (
             <SwiperSlide

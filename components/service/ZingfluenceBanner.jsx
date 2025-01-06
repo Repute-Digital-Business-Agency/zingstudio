@@ -64,7 +64,7 @@ export default function ZingFluenceBanner() {
                 <div className="dz-media">
                   <Image
                     alt="#"
-                    src="/images/banner/pic1.jpg"
+                    src="/images/zing influ/ban-img-1.jpg"
                     width="216"
                     height="231"
                   />
@@ -76,7 +76,7 @@ export default function ZingFluenceBanner() {
                 <div className="dz-media">
                   <Image
                     alt="#"
-                    src="/images/banner/pic2.jpg"
+                    src="/images/zing influ/ban-img-2.jpg"
                     width="216"
                     height="231"
                   />
@@ -90,7 +90,7 @@ export default function ZingFluenceBanner() {
             <div className="dz-media">
               <Image
                 alt="#"
-                src="/images/banner/pic3.jpg"
+                src="/images/zing influ/center-img.jpg"
                 width="216"
                 height="482"
               />
@@ -104,7 +104,7 @@ export default function ZingFluenceBanner() {
                 <div className="dz-media">
                   <Image
                     alt="#"
-                    src="/images/banner/pic4.jpg"
+                    src="/images/zing influ/ban-img-3.jpg"
                     width="216"
                     height="231"
                   />
@@ -116,7 +116,7 @@ export default function ZingFluenceBanner() {
                 <div className="dz-media">
                   <Image
                     alt="#"
-                    src="/images/banner/pic5.jpg"
+                    src="/images/zing influ/ban-img-4.jpg"
                     width="216"
                     height="231"
                   />
