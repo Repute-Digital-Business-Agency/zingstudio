@@ -242,7 +242,8 @@ export default function Faq1() {
         channel="youtube"
         youtube={{ mute: 0, autoplay: 0 }}
         isOpen={isOpen}
-        videoId="_FRZVScwggM"
+        // videoId="_FRZVScwggM"
+        videoId="OPTsoOmpS_s"
         onClose={() => setOpen(false)}
       />{" "}
     </>
