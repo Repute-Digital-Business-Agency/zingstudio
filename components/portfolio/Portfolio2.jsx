@@ -43,6 +43,180 @@ export default function Portfolio2() {
     initIsotop();
   }, []);
 
+  const portfolioItems3 = [
+    {
+      id: 49,
+      filter: "web-design",
+      imageSrc: "/images/portfolio/Web Design/Mockup-6.jpg",
+      title: "Muchen Railway Station",
+      category: "System",
+      link:"https://irepute.in/"
+    },
+    {
+      id: 50,
+      filter: "e-commerce",
+      imageSrc: "/images/portfolio/Ecommerce/Mockup-1.jpg",
+      title: "Mining Plant Set Up",
+      category: "Mining / Plants",
+      link:"https://irepute.in/"
+    },
+    {
+      id: 51,
+      filter: "digital-marketing",
+      imageSrc: "/images/portfolio/Digital Marketing/Mockup-1.jpg",
+      title: "Sanfran Cisco Bridge",
+      category: "Engineering",
+      link:"https://irepute.in/"
+    },
+    // {
+    //   id: 52,
+    //   filter: "e-commerce-management",
+    //   imageSrc: "/images/portfolio/image_4.jpg",
+    //   title: "Hamburg Wind Energy Plant",
+    //   category: "Energy",
+    //   link:"https://irepute.in/"
+    // },
+    {
+      id: 53,
+      filter: "web-design",
+      imageSrc: "/images/portfolio/Web Design/Mockup-7.jpg",
+      title: "Capturing Manila",
+      category: "Industry",
+      link:"https://irepute.in/"
+    },
+    {
+      id: 54,
+      filter: "e-commerce",
+      imageSrc: "/images/portfolio/Ecommerce/Mockup-2.jpg",
+      title: "Berlin Central Bank",
+      category: "Bank / Constructions",
+      link:"https://irepute.in/"
+    },
+    {
+      id: 55,
+      filter: "digital-marketing",
+      imageSrc: "/images/portfolio/Digital Marketing/Mockup-2.jpg",
+      title: "Crop Identity",
+      category: "Branding and Identity",
+      link:"https://irepute.in/"
+    },
+    // {
+    //   id: 56,
+    //   filter: "e-commerce-management",
+    //   imageSrc: "/images/portfolio/Ecommerce/Mockup-3.jpg",
+    //   title: "Hamburg Wind Energy Plant",
+    //   category: "Industry",
+    //   link:"https://irepute.in/"
+    // },
+    {
+      id: 57,
+      filter: "web-design",
+      imageSrc: "/images/portfolio/Web Design/Mockup-8.jpg",
+      title: "Capturing Manila",
+      category: "Industry",
+      link:"https://irepute.in/"
+    },
+    {
+      id: 58,
+      filter: "digital-marketing",
+      imageSrc: "/images/portfolio/Digital Marketing/Mockup-3.jpg",
+      title: "Berlin Central Bank",
+      category: "Bank / Constructions",
+      link:"https://irepute.in/"
+    },
+    {
+      id: 59,
+      filter: "e-commerce",
+      imageSrc: "/images/portfolio/Ecommerce/Mockup-3.jpg",
+      title: "Sanfran Cisco Bridge",
+      category: "Engineering",
+      link:"https://irepute.in/"
+    },
+    {
+      id: 60,
+      filter: "web-design",
+      imageSrc: "/images/portfolio/Web Design/Mockup-9.jpg",
+      title: "Capturing Manila",
+      category: "Industry",
+      link:"https://irepute.in/"
+    },
+    // {
+    //   id: 61,
+    //   filter: "e-commerce-management",
+    //   imageSrc: "/images/portfolio/image_12.jpg",
+    //   title: "Muchen Railway Station",
+    //   category: "System",
+    //   link:"https://irepute.in/"
+    // },
+    {
+      id: 62,
+      filter: "web-design",
+      imageSrc: "/images/portfolio/Web Design/Mockup-10.jpg",
+      title: "Capturing Manila",
+      category: "Industry",
+      link:"https://irepute.in/"
+    },
+    {
+      id: 58,
+      filter: "digital-marketing",
+      imageSrc: "/images/portfolio/Digital Marketing/Mockup-4.jpg",
+      title: "Berlin Central Bank",
+      category: "Bank / Constructions",
+      link:"https://irepute.in/"
+    },
+    {
+      id: 63,
+      filter: "web-design",
+      imageSrc: "/images/portfolio/Web Design/Mockup-11.jpg",
+      title: "Capturing Manila",
+      category: "Industry",
+      link:"https://irepute.in/"
+    },
+    {
+      id: 64,
+      filter: "web-design",
+      imageSrc: "/images/portfolio/Web Design/Mockup-12.jpg",
+      title: "Capturing Manila",
+      category: "Industry",
+      link:"https://irepute.in/"
+    },
+    {
+      id: 65,
+      filter: "web-design",
+      imageSrc: "/images/portfolio/Web Design/Mockup-13.jpg",
+      title: "Capturing Manila",
+      category: "Industry",
+      link:"https://irepute.in/"
+    },
+    {
+      id: 66,
+      filter: "web-design",
+      imageSrc: "/images/portfolio/Web Design/Mockup-14.jpg",
+      title: "Capturing Manila",
+      category: "Industry",
+      link:"https://irepute.in/"
+    },
+    {
+      id: 67,
+      filter: "web-design",
+      imageSrc: "/images/portfolio/Web Design/Mockup-15.jpg",
+      title: "Capturing Manila",
+      category: "Industry",
+      link:"https://irepute.in/"
+    },
+    {
+      id: 58,
+      filter: "digital-marketing",
+      imageSrc: "/images/portfolio/Digital Marketing/Mockup-5.jpg",
+      title: "Berlin Central Bank",
+      category: "Bank / Constructions",
+      link:"https://irepute.in/"
+    },
+  ];
+  
+  console.log(portfolioItems3);
+  
+
   return (
     <div
       className="section-full content-inner-2 portfolio text-uppercase bg-gray"
