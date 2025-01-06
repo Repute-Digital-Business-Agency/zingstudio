@@ -3107,6 +3107,10 @@ HOME 5 Box Header
   background: var(--color-primary);
 }
 
+.amazing-pg .exhibition-carousel .owl-dot.active {
+  background: #646363;
+}
+
 .exhibition-bx .title {
   font-size: 50px;
   line-height: 58px;

@@ -40,7 +40,7 @@ export default function Faq1() {
                 <Image
                   alt=""
                   className="img-cover radius-sm"
-                  src="/images/Life at Zing/image (5).jpg"
+                  src="/images/Life-at-Zing/image (5).jpg"
                   width="1000"
                   height="674"
                 />

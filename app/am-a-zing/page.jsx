@@ -22,10 +22,10 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <div className="page-content bg-white">
+        <div className="page-content bg-white amazing-pg">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
-            style={{ backgroundImage: "url(/images/Academy/banner.jpg)" }}
+            style={{ backgroundImage: "url(/images/Am-a-Zing/banner.jpg)" }}
           >
             <div className="container">
               <div className="dlab-bnr-inr-entry">
