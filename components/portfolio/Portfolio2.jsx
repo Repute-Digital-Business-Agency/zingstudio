@@ -205,6 +205,22 @@ export default function Portfolio2() {
       category: "Web Design",
       link:"https://premeuropa.com/"
     },
+    {
+      id: 68,
+      filter: "e-commerce",
+      imageSrc: "/images/portfolio/Ecommerce/Mockup-4.jpg",
+      title: "Filmode",
+      category: "E-commerce",
+      link:"https://filmodefashion.com/"
+    },
+    {
+      id: 69,
+      filter: "e-commerce",
+      imageSrc: "/images/portfolio/Ecommerce/Mockup-4.jpg",
+      title: "FASO",
+      category: "E-commerce",
+      link:"https://faso.in/"
+    },
   ];
   
   console.log(portfolioItems3);
@@ -221,9 +237,9 @@ export default function Portfolio2() {
             <h2 className="title">
               <span className="text-primary"> Portfolio </span>
             </h2>
-            <h4 className="title" style={{textTransform:"none"}}>
+            <h4 className="title" style={{textTransform:"none", color: "black", fontWeight: "600" }}>
               {" "}
-              Explore our creative solutions We have a proven track record of
+              Explore our creative solutions<br></br> We have a proven track record of
               delivering outstanding outcomes for our customers.
             </h4>
           </div>
