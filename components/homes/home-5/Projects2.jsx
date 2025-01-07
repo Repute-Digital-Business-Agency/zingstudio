@@ -112,7 +112,7 @@ export default function Projects2() {
                     <div className="portinner">
                       <div className="port-up">
                         <h3 className="port-title">
-                          <Link href={`/portfolio`}>Testing</Link>
+                          <Link href={`/portfolio`}>Prade Jewels</Link>
                         </h3>
                       </div>
                     </div>
@@ -131,7 +131,7 @@ export default function Projects2() {
                     <div className="portinner">
                       <div className="port-up">
                         <h3 className="port-title">
-                          <Link href={`/portfolio`}>Testing</Link>
+                          <Link href={`/portfolio`}>KPRMill</Link>
                         </h3>
                       </div>
                     </div>
@@ -150,7 +150,7 @@ export default function Projects2() {
                     <div className="portinner">
                       <div className="port-up">
                         <h3 className="port-title">
-                          <Link href={`/portfolio`}>Testing</Link>
+                          <Link href={`/portfolio`}>OMI Pumps</Link>
                         </h3>
                       </div>
                     </div>
@@ -169,7 +169,7 @@ export default function Projects2() {
                     <div className="portinner">
                       <div className="port-up">
                         <h3 className="port-title">
-                          <Link href={`/portfolio`}>Testing</Link>
+                          <Link href={`/portfolio`}>Tirumalai Textiles</Link>
                         </h3>
                       </div>
                     </div>
@@ -188,7 +188,7 @@ export default function Projects2() {
                     <div className="portinner">
                       <div className="port-up">
                         <h3 className="port-title">
-                          <Link href={`/portfolio`}>Testing</Link>
+                          <Link href={`/portfolio`}>Karpagam College of Engineering</Link>
                         </h3>
                       </div>
                     </div>
@@ -207,7 +207,7 @@ export default function Projects2() {
                     <div className="portinner">
                       <div className="port-up">
                         <h3 className="port-title">
-                          <Link href={`/portfolio`}>Testing</Link>
+                          <Link href={`/portfolio`}>Filmode Fashions</Link>
                         </h3>
                       </div>
                     </div>

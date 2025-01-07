@@ -48,25 +48,25 @@ export default function Portfolio2() {
       id: 49,
       filter: "web-design",
       imageSrc: "/images/portfolio/Web Design/Mockup-6.jpg",
-      title: "Muchen Railway Station",
-      category: "System",
-      link:"https://irepute.in/"
+      title: "G-MAk Fiber Laser",
+      category: "Web Design",
+      link:"https://gmaklaser.com/"
     },
     {
       id: 50,
       filter: "e-commerce",
       imageSrc: "/images/portfolio/Ecommerce/Mockup-1.jpg",
-      title: "Mining Plant Set Up",
-      category: "Mining / Plants",
-      link:"https://irepute.in/"
+      title: "Sree Thangam Jewellery",
+      category: "E-Commerce",
+      link:"https://sreethangamjewellery.com/"
     },
     {
       id: 51,
       filter: "digital-marketing",
       imageSrc: "/images/portfolio/Digital Marketing/Mockup-1.jpg",
-      title: "Sanfran Cisco Bridge",
-      category: "Engineering",
-      link:"https://irepute.in/"
+      title: "Karpagam Academy of Higher Education",
+      category: "Digital Marketing",
+      link:"https://kahedu.edu.in/"
     },
     // {
     //   id: 52,
@@ -80,25 +80,25 @@ export default function Portfolio2() {
       id: 53,
       filter: "web-design",
       imageSrc: "/images/portfolio/Web Design/Mockup-7.jpg",
-      title: "Capturing Manila",
-      category: "Industry",
-      link:"https://irepute.in/"
+      title: "KIT - Varnam",
+      category: "Web Design",
+      link:"https://kitvarnam.in/"
     },
     {
       id: 54,
       filter: "e-commerce",
       imageSrc: "/images/portfolio/Ecommerce/Mockup-2.jpg",
-      title: "Berlin Central Bank",
-      category: "Bank / Constructions",
-      link:"https://irepute.in/"
+      title: "Prade Jewels ",
+      category: "E-commerce",
+      link:"https://prade.in/"
     },
     {
       id: 55,
       filter: "digital-marketing",
       imageSrc: "/images/portfolio/Digital Marketing/Mockup-2.jpg",
-      title: "Crop Identity",
-      category: "Branding and Identity",
-      link:"https://irepute.in/"
+      title: "Vishwankar Public School",
+      category: "Digital Marketing",
+      link:"https://vishwankarschool.com/"
     },
     // {
     //   id: 56,
@@ -112,33 +112,33 @@ export default function Portfolio2() {
       id: 57,
       filter: "web-design",
       imageSrc: "/images/portfolio/Web Design/Mockup-8.jpg",
-      title: "Capturing Manila",
-      category: "Industry",
-      link:"https://irepute.in/"
+      title: "KCE - DHRUVA",
+      category: "Web Design",
+      link:"https://www.kcedhruva.in/"
     },
     {
       id: 58,
       filter: "digital-marketing",
       imageSrc: "/images/portfolio/Digital Marketing/Mockup-3.jpg",
-      title: "Berlin Central Bank",
-      category: "Bank / Constructions",
-      link:"https://irepute.in/"
+      title: "SKD Fine Decor",
+      category: "Web Design",
+      link:"https://skdfinedecor.com/"
     },
     {
       id: 59,
       filter: "e-commerce",
       imageSrc: "/images/portfolio/Ecommerce/Mockup-3.jpg",
-      title: "Sanfran Cisco Bridge",
-      category: "Engineering",
-      link:"https://irepute.in/"
+      title: "Goes Good Fashions",
+      category: "E-commerce",
+      link:"https://goesgood.in/"
     },
     {
       id: 60,
       filter: "web-design",
       imageSrc: "/images/portfolio/Web Design/Mockup-9.jpg",
-      title: "Capturing Manila",
-      category: "Industry",
-      link:"https://irepute.in/"
+      title: "NVM Diet and Lifestyle Clinic",
+      category: "Web Design",
+      link:"https://www.nvmdietandlifestyle.com/"
     },
     // {
     //   id: 61,
@@ -152,65 +152,58 @@ export default function Portfolio2() {
       id: 62,
       filter: "web-design",
       imageSrc: "/images/portfolio/Web Design/Mockup-10.jpg",
-      title: "Capturing Manila",
-      category: "Industry",
-      link:"https://irepute.in/"
+      title: "GSpace Interior",
+      category: "Web Design",
+      link:"https://www.gspaceinterior.com/"
     },
-    {
-      id: 58,
-      filter: "digital-marketing",
-      imageSrc: "/images/portfolio/Digital Marketing/Mockup-4.jpg",
-      title: "Berlin Central Bank",
-      category: "Bank / Constructions",
-      link:"https://irepute.in/"
-    },
+
     {
       id: 63,
       filter: "web-design",
       imageSrc: "/images/portfolio/Web Design/Mockup-11.jpg",
-      title: "Capturing Manila",
-      category: "Industry",
-      link:"https://irepute.in/"
+      title: "Micro Group",
+      category: "Web Design",
+      link:"https://micro-groups.com/"
     },
     {
       id: 64,
       filter: "web-design",
       imageSrc: "/images/portfolio/Web Design/Mockup-12.jpg",
-      title: "Capturing Manila",
-      category: "Industry",
-      link:"https://irepute.in/"
+      title: "Rasi Foods",
+      category: "Web Design",
+      link:"https://rasifoods.in/"
     },
     {
       id: 65,
       filter: "web-design",
       imageSrc: "/images/portfolio/Web Design/Mockup-13.jpg",
-      title: "Capturing Manila",
-      category: "Industry",
-      link:"https://irepute.in/"
+      title: "FREEDOM RUN",
+      category: "Web Design",
+      link:"https://freedomrun.co.in/"
     },
     {
       id: 66,
       filter: "web-design",
       imageSrc: "/images/portfolio/Web Design/Mockup-14.jpg",
-      title: "Capturing Manila",
-      category: "Industry",
-      link:"https://irepute.in/"
+      title: "Tirumalai Textiles",
+      category: "Web Design",
+      link:"https://tirumalaitextiles.com/"
     },
     {
       id: 67,
-      filter: "web-design",
+      filter: "digital-marketing",
       imageSrc: "/images/portfolio/Web Design/Mockup-15.jpg",
-      title: "Capturing Manila",
-      category: "Industry",
-      link:"https://irepute.in/"
+      title: "SKIMT",
+      category: "Digital Marketing",
+      link:"https://skimt.edu.in/"
     },
     {
       id: 58,
-      filter: "digital-marketing",
+      filter: "web-design",
       imageSrc: "/images/portfolio/Digital Marketing/Mockup-5.jpg",
-      title: "Berlin Central Bank",
-      category: "Bank / Constructions",
-      link:"https://irepute.in/"
+      title: "Prem International",
+      category: "Web Design",
+      link:"https://premeuropa.com/"
     },
   ];
   
@@ -222,13 +215,13 @@ export default function Portfolio2() {
       className="section-full content-inner-2 portfolio text-uppercase bg-gray"
       id="portfolio"
     >
-      <div className="container">
+      <div className="container-fluid">
         <div className="site-filters clearfix center m-b40">
           <div className="our-story text-capitalize">
             <h2 className="title">
               <span className="text-primary"> Portfolio </span>
             </h2>
-            <h4 className="title">
+            <h4 className="title" style={{textTransform:"none"}}>
               {" "}
               Explore our creative solutions We have a proven track record of
               delivering outstanding outcomes for our customers.
