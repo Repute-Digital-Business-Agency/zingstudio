@@ -101,7 +101,7 @@ const projects = [
       {
         id: 2,
         price: "8750",
-        title: " Web Design",
+        title: "Web Design",
         list: [
           "Administrator Dashboard",
              "Editor Dashboard",
@@ -109,6 +109,7 @@ const projects = [
              "1 Basic Contact/Enquiry Form"
         ],
         link: "/web-design-service",
+        src: "images/Home-Page/web-design.jpg",
         buyNowLink:"/contact",
         color: "#1a43bf",
         animation_delay: "0.12s",
@@ -156,7 +157,7 @@ const projects = [
       {
         id: 2,
         price: "20,000",
-        title: "<div style=line-height:38px; text-align:center !important;>E-Commerce Websites<div/>",
+        title: "E-Commerce Websites",
         list: [
           "Inventory management",
           "Competitor Analysis - 3 Competitor",
@@ -164,6 +165,7 @@ const projects = [
           "Link Building - 50-60",
         ],
         link: "/digital-marketing-service",
+        src: "images/Home-Page/ecommerce.jpg",
         buyNowLink:"/contact",
         color: "#1a43bf",
         animation_delay: "0.12s",
@@ -218,6 +220,7 @@ const projects = [
           "Keyphrase Optimization - 10 Pages",
         ],
         link: "/academy-service",
+        src: "images/Home-Page/digital-marketing.jpg",
         buyNowLink:"/contact",
         color: "#1a43bf",
         animation_delay: "0.12s",

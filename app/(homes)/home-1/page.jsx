@@ -17,6 +17,7 @@ import Am_a_Zing from "@/components/service/Am-a-zing";
 import Academy from "@/components/service/Academy";
 import Am_a_ZingPar from "@/components/service/Amazingparallax";
 import HomeAbout from "@/components/service/HomeAbout";
+import ZingAcademy from "@/components/service/ZingAcademy";
 
 export const metadata = {
   title: "Home || Zing Studio",
@@ -44,10 +45,12 @@ export default function page() {
           </div> */}
 
           
-          <Am_a_Zing/>
+          <Am_a_Zing/>        
           {/* <Am_a_ZingPar/> */}
           
-          <Academy/>
+          {/* <Academy/> */}
+          <ZingAcademy/>
+
 
           {/* <Testimonial /> */}
         </div>

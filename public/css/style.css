@@ -15852,9 +15852,9 @@ ol.commentlist li .star-rating {
     width: 100%;
   }
 
-  .pricingtable-wrapper {
+  /* .pricingtable-wrapper {
     margin-bottom: 30px;
-  }
+  } */
 
   .pricingtable-highlight {
     margin: 0;
@@ -16687,7 +16687,7 @@ ol.commentlist li .star-rating {
 }
 
 .our-story h4.title {
-  font-size: 26px;
+  font-size: 22px;
   line-height: 40px;
   font-weight: 500;
   color: #999;
@@ -17432,7 +17432,7 @@ input[type="radio"]+label:hover:before {
 
 }
 .pricingtable-wrapper.style2 .pricingtable-features li{
-  font-size: 17px !important;
+  font-size: 16px !important;
   /* padding: 2px; */
   background-color: transparent !important;
   position: relative;
@@ -17480,16 +17480,36 @@ color: #ffff;
   /* margin: 0 3px; */
 }
 
-.pricingtable-wrapper .dm img{
-  position:absolute;
-  top:0;
-    left:0;
+.dm{
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .dm img{
+  
     width:100% !important;
     height:100% !important;
     object-fit:cover
 }
+.dm h4{
+  position: absolute;
 
-.pricingtable-wrapper .dm::after{
+
+}
+ .pricingtable-wrapper.center-card{
+  padding: 0 !important;
+  margin: 0 !important;
+
+ height: 100%;
+ width: 100%;
+  
+ }
+
+.dm::after{
   content: "";
   position: absolute;
   top: 0;
@@ -17497,7 +17517,8 @@ color: #ffff;
   background-color: #000000a3;
   width: 100%;
   height: 100%;
-}
+  z-index: 1000;
+} 
 
 .card {
   display: flex;
@@ -17582,7 +17603,7 @@ color: #ffff;
     padding-bottom: 0;
     font-size: 15px !important;
   }
-  .pricingtable-inner .dm{
+   .dm{
     height: 400px !important;
   }
   .cardContainer .site-button, .site-button-secondry{
@@ -17628,10 +17649,10 @@ color: #ffff;
    
    padding: 0;
    padding-top: 2px;
-   padding-bottom: 5px;
+   /* padding-bottom: 5px; */
   }
-  .pricingtable-inner .dm{
-    height: 230px !important;
+  .dm{
+    height: 200px !important;
   }
   .cardContainer {
     height: 800px;

@@ -198,7 +198,7 @@ export default function Am_a_Zing() {
                       </Link>
                   </h2>
                   <h4 className="title" style={{ color: "black" , fontWeight:"600"}}>Empowering women to lead the future</h4>
-                  <p style={{ color: "black" }}>
+                  <p style={{ color: "#494949" }}>
                       At Zing Studio, we strive to create opportunities to uplift
                       women, enabling them to realize their potential and take control
                       of the decisions that shape their lives. We do this through

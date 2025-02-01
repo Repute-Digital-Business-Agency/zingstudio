@@ -14,7 +14,7 @@ export default function Footer13() {
               data-wow-delay="0.2s"
             >
               <div className="widget border-0">
-                <h6 className="m-b20 font-weight-300 text-uppercase">
+                <h6 className="m-b20 font-weight-300 text-uppercase" style={{color:"#1A43BF"}}>
                   Quick Links
                 </h6>
                 <ul className="list-2">
@@ -31,7 +31,7 @@ export default function Footer13() {
               data-wow-delay="0.4s"
             >
               <div className="widget">
-                <h6 className="m-b20 font-weight-300 text-uppercase">
+                {/* <h6 className="m-b20 font-weight-300 text-uppercase">
                   Newsletter
                 </h6>
                 <div className="subscribe-form form-white m-b20 m-t30">
@@ -60,11 +60,11 @@ export default function Footer13() {
                       </span>
                     </div>
                   </form>
-                </div>
-                <h6 className="m-b10 font-weight-300 text-uppercase">
+                </div> */}
+                <h6 className="m-b10 font-weight-300 text-uppercase" style={{color:"#1A43BF"}}>
                   Connect with us
                 </h6>
-                <ul className="list-inline m-a0">
+                <ul className="list-inline m-a0 mt-3">
                   {socialLinks.map((link, index) => (
                     <React.Fragment key={index}>
                       <li>
@@ -85,7 +85,7 @@ export default function Footer13() {
               data-wow-delay="0.6s"
             >
               <div className="icon-bx-wraper bx-style-1 m-b15 p-a30 radius-sm br-col-w1 bg-tpw1">
-                <h5 className="font-weight-500">
+                <h5 className="font-weight-500" style={{color:"#1A43BF"}}>
                   Business, E-Commerce, Digital Marketing, Ideas or Just a
                   Coffee
                 </h5>

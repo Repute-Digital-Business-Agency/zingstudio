@@ -13,7 +13,7 @@ export default function HomeAbout() {
           >
             <div className="content-bx1">
               {/* <div className="about-year"> */}
-              <h2 className="title"> About Us</h2>
+              <h2 className="title" style={{color:"#1a43bf"}}> About Us</h2>
               {/* </div> */}
               <div className="section-head style2">
                 <h2 className="title">

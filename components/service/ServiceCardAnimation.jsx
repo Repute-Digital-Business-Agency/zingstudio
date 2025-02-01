@@ -143,73 +143,33 @@ const Card = ({
   </div>
 </div> */}
 
-<div className="col-sm-12 col-md-4 col-lg-4 p-lr0">
-  {backgroundColor ? (
+<div className="col-sm-12 col-md-4 col-lg-4 p-lr0 " >
+ 
     <div
-      className={`pricingtable-wrapper style2 ${
-        backgroundColor ? "bg-primary " : "bg-grey"
-      } text-white active `}
-    >
-      <div className="pricingtable-inner">
-        <div className="pricingtable-price" style={{
-          height: "300px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}>
-          
-          <h4 className="font-weight-800 m-t10 m-b0"  style={{ fontSize: "35px", color:"white" }}>
-            {data?.service[1]?.title}
-          </h4>
-          {/* <div className="pricingtable-bx">
-            Starting @ <span>₹ {data?.service[1]?.price}</span>
-          </div> */}
-        </div>
-        {/* <ul className="pricingtable-features">
-          {data?.service[1]?.list?.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul> */}
-        {/* <div className="m-t20">
-          <a
-            href={data?.service[1]?.link}
-            className="site-button radius-xl"
-          >
-            <span className="p-lr30">View Service</span>
-          </a>
-        </div> */}
-      </div>
-    </div>
-  ) : (
-    <div
-      className={`pricingtable-wrapper style2 ${
-        backgroundColor ? "bg-primary" : "bg-grey"
-      } text-white active`}
-      style={{position:"relative"}}
+      className={`pricingtable-wrapper style2 text-white active center-card`}
+      // style={{position:"relative"}}
 
     >
       <div
         className="dm"
-        style={{
-          height: "300px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          
-        }}
+    
       >
-        <img src={data?.service[1]?.src} alt="" />
+        
         <h4
           className="font-weight-800 m-t10 m-b0"
           style={{ fontSize: "35px" ,
-            zIndex:"2000"
+            zIndex:"2000",
+            textAlign:"center",
+            lineHeight:"38px",
+           
           }}
           
           dangerouslySetInnerHTML={{ __html: data?.service[1]?.title }}
         ></h4>
+        <img src={data?.service[1]?.src} alt="" />
       </div>
     </div>
-  )}
+  
 </div>
 
                   <div className="col-sm-12 col-md-4 col-lg-4 p-lr0">
