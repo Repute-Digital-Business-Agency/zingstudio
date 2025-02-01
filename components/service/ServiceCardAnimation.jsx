@@ -83,12 +83,10 @@ const Card = ({
                         })}
                         </p> */}
                         <div className="m-t20">
-                         <a href={data?.service[0]?.link} className="site-button white radius-xl">
+                         <a href={data?.service[0]?.link} className="site-button radius-xl">
                             <span className="p-lr30">View Service</span>
                           </a>
-                          <a href={data?.service[0]?.buyNowLink} className="site-button radius-xl">
-                            <span className="p-lr30">Buy Now</span>
-                          </a>
+                          
                         </div>
                       </div>
                     </div>
@@ -153,33 +151,33 @@ const Card = ({
       } text-white active `}
     >
       <div className="pricingtable-inner">
-        <div className="pricingtable-price">
-          <h4 className="font-weight-800 m-t10 m-b0">
+        <div className="pricingtable-price" style={{
+          height: "300px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}>
+          
+          <h4 className="font-weight-800 m-t10 m-b0"  style={{ fontSize: "35px", color:"white" }}>
             {data?.service[1]?.title}
           </h4>
-          <div className="pricingtable-bx">
+          {/* <div className="pricingtable-bx">
             Starting @ <span>₹ {data?.service[1]?.price}</span>
-          </div>
+          </div> */}
         </div>
-        <ul className="pricingtable-features">
+        {/* <ul className="pricingtable-features">
           {data?.service[1]?.list?.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
-        </ul>
-        <div className="m-t20">
+        </ul> */}
+        {/* <div className="m-t20">
           <a
             href={data?.service[1]?.link}
-            className="site-button white radius-xl"
+            className="site-button radius-xl"
           >
             <span className="p-lr30">View Service</span>
           </a>
-          <a
-            href={data?.service[1]?.buyNowLink}
-            className="site-button white-1 radius-xl"
-          >
-            <span className="p-lr30">Buy Now</span>
-          </a>
-        </div>
+        </div> */}
       </div>
     </div>
   ) : (
@@ -201,7 +199,7 @@ const Card = ({
       >
         <h4
           className="font-weight-800 m-t10 m-b0"
-          style={{ fontSize: "30px" }}
+          style={{ fontSize: "35px" }}
           dangerouslySetInnerHTML={{ __html: data?.service[1]?.title }}
         ></h4>
       </div>
@@ -232,12 +230,10 @@ const Card = ({
                               
                             </ul>
                         <div className="">
-                          <a href={data?.service[2]?.link} className="site-button white radius-xl">
+                          <a href={data?.service[2]?.link} className="site-button radius-xl">
                             <span className="p-lr30">View Service</span>
                           </a>
-                          <a href={data?.service[2]?.buyNowLink} className="site-button radius-xl">
-                            <span className="p-lr30">Buy Now</span>
-                          </a>
+                         
                         </div>
                       </div>
                     </div>
