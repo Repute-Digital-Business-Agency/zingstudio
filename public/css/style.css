@@ -17947,6 +17947,10 @@ color: #ffff;
   padding: 40px 30px;
  
 }
+.zing-academy{
+  position: sticky;
+  top: 150px !important;
+}
 
 @media (max-width:990px){
   .zingFluence .choose-Zf-img{
@@ -17968,6 +17972,10 @@ color: #ffff;
 
 .career-ban{
   background-image: url(/images/Life-at-Zing/banner.jpg) !important;
+}
+.zing-academy{
+  position: sticky;
+  top: 80px !important;
 }
 
 @media (max-width:500px) {

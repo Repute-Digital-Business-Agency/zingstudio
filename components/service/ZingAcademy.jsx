@@ -4,9 +4,11 @@ import Link from "next/link";
 export default function ZingAcademy() {
   return (
     <>
-        <div className="section-head text-center wow fadeInUp mt-5" data-wow-delay="0.8s" style={{position:"sticky",
-            top:"80px"
-        }} >
+        <div className="section-head text-center wow fadeInUp mt-5 " data-wow-delay="0.8s" 
+        // style={{position:"sticky",
+        //     top:"80px"
+        // }} 
+        >
             <h2 className="title">Zing Academy</h2>
             <h4 className="mt-4 mb-0" style={{fontSize:"22px"}}>
               Nurturing an environment that is inclusive and full of
@@ -23,11 +25,8 @@ export default function ZingAcademy() {
 
               <div className="content-block">
       {/* Content Section */}
-      <div className="section-full" style={{position:"relative"}}>
-        <div className="row spno about-industry" style={{
-            position:"sticky",
-            top:"350px"   
-        }} >
+      <div className="section-full" >
+        <div className="row spno about-industry zing-academy" >
           <div
             className="col-lg-8 wow fadeIn "
             data-wow-duration="2s"
@@ -77,11 +76,7 @@ export default function ZingAcademy() {
           
 
         
-        <div className="row spno about-industry" style={{
-            position:"sticky",
-            top:"350px",   
-          
-        }} >
+        <div className="row spno about-industry zing-academy"   >
           <div
             className="col-lg-4 bg-white wow fadeIn"
             data-wow-duration="2s"
