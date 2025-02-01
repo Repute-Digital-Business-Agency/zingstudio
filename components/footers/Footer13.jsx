@@ -14,7 +14,7 @@ export default function Footer13() {
               data-wow-delay="0.2s"
             >
               <div className="widget border-0">
-                <h6 className="m-b20 font-weight-300 text-uppercase" style={{color:"#1A43BF"}}>
+                <h6 className="m-b10 font-weight-300 text-uppercase" style={{color:"#1A43BF"}}>
                   Quick Links
                 </h6>
                 <ul className="list-2">
@@ -111,7 +111,7 @@ export default function Footer13() {
                 <a href="#" target="_blank">
                   Zing Studio
                 </a>{" "}
-                . all rights reserved.
+                . All Rights Reserved.
               </span>
             </div>
             <div className="col-md-6 col-sm-6 text-right">

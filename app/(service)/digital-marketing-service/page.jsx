@@ -8,6 +8,7 @@ import ServiceCta from "@/components/service/ServiceCta";
 import Portfolio from "@/components/service/Portfolio";
 import Faq from "@/components/faq/Faq3";
 import Projects2 from "@/components/homes/home-5/Projects2";
+import Cta from "@/components/homes/home-13/Cta";
 
 export const metadata = {
   title: "Web Design || Zing Studio",
@@ -84,6 +85,7 @@ export default function page() {
         {/* <Portfolio/> */}
         <Projects2/>
         {/* <Faq/> */}
+        <Cta/>
         
         <Footer13 />
       </div>

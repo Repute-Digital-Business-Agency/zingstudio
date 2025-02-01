@@ -11,6 +11,7 @@ import MarketingAgency from "@/components/service/InfluenceMarketingAgency";
 import BestInfluencer from "@/components/service/BestInfluencer";
 import ProcessForInfluencer from "@/components/service/ProcessForInfluencer";
 import ChooseZingFluencer from "@/components/service/ChooseZingfluencer";
+import Cta from "@/components/homes/home-13/Cta";
 
 export const metadata = {
   title: "Academy || Zing Studio",
@@ -35,7 +36,7 @@ export default function page() {
         <MarketingAgency/>
         <ProcessForInfluencer/>
         <ChooseZingFluencer/>
-       
+        <Cta />
         {/* <Footer2 contactSection="true" /> */}
         <Footer13 />
       </div>

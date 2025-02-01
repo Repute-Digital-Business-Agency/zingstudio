@@ -5,9 +5,7 @@ export default function ZingAcademy() {
   return (
     <>
         <div className="section-head text-center wow fadeInUp mt-5 " data-wow-delay="0.8s" 
-        // style={{position:"sticky",
-        //     top:"80px"
-        // }} 
+      
         >
             <h2 className="title">Zing Academy</h2>
             <h4 className="mt-4 mb-0" style={{fontSize:"22px"}}>

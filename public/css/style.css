@@ -134,7 +134,7 @@ body {
   font-family: "Manrope", Sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #6f6f6f;
+  color: #494949;
   padding: 0;
   margin: 0;
   overflow-x: hidden;
@@ -16682,8 +16682,8 @@ ol.commentlist li .star-rating {
 }
 
 .our-story h2.title span {
-  font-family: "Playfair Display", serif;
-  font-style: italic;
+  font-family: "vve-giallo-regulauploadedfile";
+  /* font-style: italic; */
 }
 
 .our-story h4.title {

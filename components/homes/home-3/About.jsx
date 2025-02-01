@@ -19,8 +19,8 @@ export default function About() {
               <div className="our-story">
                 <span>OUR STORY</span>
                 <h2 className="title" style={{fontSize:"35px"}}>
-                  Commited to High <br />
-                  Quality <span className="text-primary"  style={{fontSize:"50px"}}> Service </span>
+                  Commited to High Quality <br />
+                   <span className="text-primary"  style={{fontSize:"50px"}}> Service </span>
                 </h2>
                 <h4 className="title">
                   Zing Studio is a creative & digital marketing agency based in

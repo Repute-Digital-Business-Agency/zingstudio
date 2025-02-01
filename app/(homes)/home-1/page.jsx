@@ -28,7 +28,7 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <div className="page-content bg-white mb-5">
+        <div className="page-content bg-white mb-5" style={{position:"relative"}}>
           <Hero />
           {/* <div className="content-block p-t50 p-b50 bg-gray">
             <ClientSlider />
@@ -49,11 +49,16 @@ export default function page() {
           {/* <Am_a_ZingPar/> */}
           
           {/* <Academy/> */}
+          <div >
           <ZingAcademy/>
+          
+          </div>
+          
 
-
+          <div style={{backgroundImage: "url(/images/element-6.png)", backgroundRepeat:"no-repeat", border:"1px solid red", position:"absolute",bottom:"0"}}></div>
           {/* <Testimonial /> */}
         </div>
+        
         <Cta />
         {/* <Footer2 contactSection="false" /> */}
         <Footer13 />

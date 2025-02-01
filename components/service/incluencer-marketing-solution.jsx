@@ -8,7 +8,7 @@ export default function InfluencerMarketing() {
         <div className="row">
             <div className="text-center mb-2">
             <h2 style={{fontWeight:"800"}}>Our Influencer Marketing Solutions</h2>
-            <p>We manage all your Influencer Marketing requirements</p>
+            <p style={{color:"#494949"}}>We manage all your Influencer Marketing requirements</p>
             </div>
            
           {foodItems.map((item, index) => (
@@ -31,7 +31,7 @@ export default function InfluencerMarketing() {
                 </div>
                 <div className="icon-content">
                   <h4 className="dlab-tilte">{item.title}</h4>
-                  <p>{item.description}</p>
+                  <p style={{color:"#494949"}}>{item.description}</p>
                 </div>
               </div>
             </div>
