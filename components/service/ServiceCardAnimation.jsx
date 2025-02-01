@@ -187,7 +187,7 @@ const Card = ({
       className={`pricingtable-wrapper style2 ${
         backgroundColor ? "bg-primary" : "bg-grey"
       } text-white active`}
-
+      style={{position:"relative"}}
 
     >
       <div
@@ -197,11 +197,15 @@ const Card = ({
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          
         }}
       >
+        <img src={data?.service[1]?.src} alt="" />
         <h4
           className="font-weight-800 m-t10 m-b0"
-          style={{ fontSize: "30px" }}
+          style={{ fontSize: "30px" ,
+            zIndex:"2000"
+          }}
           dangerouslySetInnerHTML={{ __html: data?.service[1]?.title }}
         ></h4>
       </div>

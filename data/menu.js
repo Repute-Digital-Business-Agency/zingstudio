@@ -394,7 +394,7 @@ export const contactsLinks = [
 ];
 
 export const ServicesLink = [
-  { href: "/services", label: "Overview" },
+  // { href: "/services", label: "Overview" },
   { href: "/web-design-service", label: "Web Design" },
   { href: "/digital-marketing-service", label: "Digital Marketing" },
   { href: "/academy-service", label: "Academy" },

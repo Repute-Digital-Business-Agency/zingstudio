@@ -16,6 +16,7 @@ import Footer13 from "@/components/footers/Footer13";
 import Am_a_Zing from "@/components/service/Am-a-zing";
 import Academy from "@/components/service/Academy";
 import Am_a_ZingPar from "@/components/service/Amazingparallax";
+import HomeAbout from "@/components/service/HomeAbout";
 
 export const metadata = {
   title: "Home || Zing Studio",
@@ -31,7 +32,7 @@ export default function page() {
           {/* <div className="content-block p-t50 p-b50 bg-gray">
             <ClientSlider />
           </div> */}
-
+          <HomeAbout/>
           <div className="content-block home-service-section bg-gray">
             <HomeServiceAnimation />
           </div>

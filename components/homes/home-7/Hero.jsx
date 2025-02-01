@@ -52,7 +52,7 @@ export default function Hero() {
           loop
           direction={"vertical"}
           navigation={{ prevEl: ".snbph7", nextEl: ".snbnh7" }}
-          style={{ height: "70vh" }}
+          style={{ height: "95vh" }}
           className="home-ban swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress home-swiper-10 swiper-backface-hidden fadeInUp" data-wow-delay="0.2s"
         >
           {slidesData.map((slide, index) => (
