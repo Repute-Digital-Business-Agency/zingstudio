@@ -17432,12 +17432,12 @@ input[type="radio"]+label:hover:before {
 
 }
 .pricingtable-wrapper.style2 .pricingtable-features li{
-  font-size: 15px !important;
+  font-size: 17px !important;
   /* padding: 2px; */
   background-color: transparent !important;
   position: relative;
   text-align: left;
-  padding-left: 25px;
+  padding-left: 25px; color: #494949;
 }
 /* .pricingtable-wrapper.style2 .pricingtable-features li{
   color: #fff !important;

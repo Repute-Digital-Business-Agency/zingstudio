@@ -85,12 +85,12 @@ const projects = [
       {
         id: 1,
         price: "8750",
-        title: "Static Web Design",
+        title: "Static Websites",
         list: [
-          "Custom Layout",
-          "10 Static Page(HTML/PHP)",
-          "Enquiry Form",
-          "Free Website Maintenance",
+          "1 Home Page Design",
+          "Upto 10 Inner Page Design",
+          "HTML5 / CSS3 Compatible for Mobiles",
+          "JQUERY Banner Slider",
         ],
         link: "/web-design-service",
         buyNowLink:"/contact",
@@ -101,7 +101,7 @@ const projects = [
       {
         id: 2,
         price: "8750",
-        title: "Dynamic Web Design",
+        title: " Web Design",
         list: [
           "Administrator Dashboard",
              "Editor Dashboard",
@@ -117,12 +117,13 @@ const projects = [
       {
         id: 3,
         price: "25,850",
-        title: "E-commerce Web Design",
+        title: "CMS Websites",
         list: [
-         "Administrator Dashboard",
-             "Categories",
-             "Customers Limit",
-             "Secure Online Payment"
+       
+             "1 Home Page Design",
+             "Upto 15 Inner Pages",
+               "HTML5 / CSS3 Compatible for Mobiles",
+             "CMS (Manage Website content)"
         ],
         link: "/web-design-service",
         buyNowLink:"/contact",
@@ -134,19 +135,19 @@ const projects = [
   },
   {
     id: 2,
-    service_name: "Digital Marketing",
+    service_name: "E-Commerce Websites",
     service: [
       {
         id: 1,
         price: "10,000",
         title: "Basic",
         list: [
-          "On-Page Optimization - Up to 10 Pages",
-          "Competitor Analysis - 1 Competitor",
-          "Keyphrase Optimization - 10 Pages",
-          "Link Building - 30",
+          "1 Home Page Design",
+          "Upto 5 Inner Pages",
+          "Upto 15 Products Pages",
+          "Categories",
         ],
-        link: "/digital-marketing-service",
+        link: "/web-design-service",
         buyNowLink:"/contact",
         color: "#1a43bf",
         animation_delay: "0.12s",
@@ -155,9 +156,9 @@ const projects = [
       {
         id: 2,
         price: "20,000",
-        title: "<div style=line-height:38px;>Digital <br/> Marketing<div/>",
+        title: "<div style=line-height:38px; text-align:center !important;>E-Commerce Websites<div/>",
         list: [
-          "On-Page Optimization - Up to 15 Pages",
+          "Inventory management",
           "Competitor Analysis - 3 Competitor",
           "Keyphrase Optimization - 15 Pages",
           "Link Building - 50-60",
@@ -173,10 +174,10 @@ const projects = [
         price: "20,000",
         title: "Standard",
         list: [
-          "On-Page Optimization - Up to 15 Pages",
-          "Competitor Analysis - 3 Competitor",
-          "Keyphrase Optimization - 15 Pages",
-          "Link Building - 50-60",
+          "Inventory management",
+          "CMS (Manage Website content)",
+          "HTML5 / CSS3 Compatible for Mobiles",
+          "General Features With Modern Look",
         ],
         link: "/digital-marketing-service",
         buyNowLink:"/contact",
@@ -188,17 +189,17 @@ const projects = [
   },
   {
     id: 3,
-    service_name: "Academy",
+    service_name: "Digital Marketing",
     service: [
       {
         id: 1,
         price: "25,999",
-        title: "Digital Marketing - Academy",
+        title: "Basic",
         list: [
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
+          " On-Page Optimization - Up to 10 Pages",
+          "Competitor Analysis - 1 Competitor",
+          " Keyword Research and Analysis",
+          "Keyphrase Optimization - 10 Pages"
         ],
         link: "/academy-service",
         buyNowLink:"/contact",
@@ -208,13 +209,13 @@ const projects = [
       },
       {
         id: 2,
-        price: "8500",
-        title: "SEO - Academy",
+        price: "35000",
+        title: "Digital Marketing",
         list: [
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
+          " On-Page Optimization - Up to 10 Pages",
+          "Competitor Analysis - 1 Competitor",
+          " Keyword Research and Analysis",
+          "Keyphrase Optimization - 10 Pages",
         ],
         link: "/academy-service",
         buyNowLink:"/contact",
@@ -224,13 +225,13 @@ const projects = [
       },
       {
         id: 3,
-        price: "7299",
-        title: "SMM - Academy",
+        price: "35,000",
+        title: "Standard",
         list: [
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
-          "Lorem ipsum dolor sit amet",
+          "On-Page Optimization - Up to 15 Pages",
+          " Competitor Analysis - 3 Competitor",
+          "Keyword Research and Analysis",
+          "Keyphrase Optimization - 15 Pages",
         ],
         link: "/academy-service",
         buyNowLink:"/contact",
