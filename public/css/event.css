@@ -680,7 +680,9 @@
     padding: 8px 8px;
     border-radius: 0 10px 10px 0;
   }
+
 }
+
 @media screen and (max-width: 768px) {
   .event-bnr-media {
     width: 100%;
@@ -806,6 +808,8 @@
     font-size: 16px;
   }
 }
+
+
 
 /* Event End */
 

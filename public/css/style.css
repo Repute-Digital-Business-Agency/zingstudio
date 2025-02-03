@@ -17670,6 +17670,12 @@ color: #ffff;
     padding: 1px;
     padding-left: 30px;
   }
+  .ev-aboutus-media{
+    margin-top: -50px !important;
+  }
+.ev-about-content{
+  margin-top: 30px;
+}
 
 }
 
@@ -17922,6 +17928,10 @@ color: #ffff;
   .testimonial-14 {
     margin: 45px 30px 10px !important;
   }
+  .ev-aboutus-media{
+    margin-top: -80px !important;
+  }
+
 }
 
 .Am_a_Zing .bg-primary{
@@ -18019,6 +18029,8 @@ color: #ffff;
   .Am_a_Zing{
     height: fit-content !important;
   }
+ 
+   
 }
 
 .academy .section-content p{

@@ -92,7 +92,7 @@ export default function About() {
               </div>
             </div>
             <div
-              className="col-lg-6 m-b30 wow fadeInRight"
+              className="col-lg-6  wow fadeInRight"
               data-wow-duration="2s"
               data-wow-delay="0.3s"
             >
@@ -155,7 +155,7 @@ export default function About() {
 
       <div className="section-full content-inner exhibition-bx bg-gray">
         <div className="container">
-          <div className="row align-items-center mt-5">
+          <div className="row align-items-center ">
             <div
               className="col-lg-6 item wow fadeInUp "
               data-wow-duration="2s"

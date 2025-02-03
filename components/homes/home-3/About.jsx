@@ -19,7 +19,7 @@ export default function About() {
               <div className="our-story">
                 <span>OUR STORY</span>
                 <h2 className="title" style={{fontSize:"35px"}}>
-                  Commited to High Quality <br />
+                  Commited to High Quality 
                    <span className="text-primary"  > Service </span>
                 </h2>
                 <h4 className="title">
