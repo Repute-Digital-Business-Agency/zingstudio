@@ -21,110 +21,112 @@ export default function ZingAcademy() {
             </p>
           </div>
 
-              <div className="content-block">
+          <div className="content-block">
       {/* Content Section */}
-      <div className="section-full" >
-        <div className="row spno about-industry zing-academy" >
-          <div
-            className="col-lg-8 wow fadeIn "
-            data-wow-duration="2s"
-            data-wow-delay="0.2s"
-            
-            
-          >
-            <div className="dlab-post-media dlab-img-effect zoom" >
-              <Image
-                alt=""
-                className="img-cover"
-                src="/images/services/web-design.jpg"
-                width="900"
-                height="200"
-              />
-            </div>
-          </div>
-          <div
-            className="col-lg-4 bg-white wow fadeIn"
-            data-wow-duration="2s"
-            data-wow-delay="0.4s"
-          >
-            <div className="service-box style2">
-              <div>
-                <h2 className="title ">
-                  <span>3 Months On-Job Training</span> <br />
+            <div className="section-full" >
+              <div className="row spno about-industry zing-academy" >
+                <div
+                  className="col-lg-8 wow fadeIn "
+                  data-wow-duration="2s"
+                  data-wow-delay="0.2s"
+                 
                   
-                </h2>
-                <p style={{color:"#494949"}}>
-                Acquire real-world experience by developing campaigns,
-                        optimizing websites, and creating engaging social media
-                        content under the guidance of expert mentors. 
-                </p>
-                <Link
-                  href={`/web-design-service`}
-                  className="site-button outline outline-2 btnhover11"
                 >
-                  Read More
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-         
-          
-          
-          
-
-        
-        <div className="row spno about-industry zing-academy"   >
-          <div
-            className="col-lg-4 bg-white wow fadeIn"
-            data-wow-duration="2s"
-            data-wow-delay="0.2s"
-          >
-            <div className="service-box style2">
-              <div>
-                <h2 className="title ">
-                  <span> Exclusive Discount for Female Students:</span> 
-                  {/* <br /> Optimization */}
-                </h2>
-                <p style={{color:"#494949"}}>
-                Women students pursuing our academy courses receive a
-                        flat 15% discount to support their career aspirations
-                        and skill-building journey. 
-                </p>
-                <Link
-                  href={`/academy-service`}
-                  className="site-button outline outline-2 btnhover11"
+                  <div className="dlab-post-media dlab-img-effect zoom" >
+                    <Image
+                      alt=""
+                      className="img-cover"
+                      src="/images/services/web-design.jpg"
+                      width="900"
+                      height="200"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="col-lg-4 bg-white wow fadeIn"
+                  data-wow-duration="2s"
+                  data-wow-delay="0.4s"
+                  
                 >
-                  Read More
-                </Link>
+                  <div className="service-box style2">
+                    <div>
+                      <h2 className="title ">
+                        <span>3 Months On-Job Training</span> <br />
+                        
+                      </h2>
+                      <p style={{color:"#494949"}}>
+                      Acquire real-world experience by developing campaigns,
+                              optimizing websites, and creating engaging social media
+                              content under the guidance of expert mentors. 
+                      </p>
+                      <Link
+                        href={`/web-design-service`}
+                        className="site-button outline outline-2 btnhover11"
+                      >
+                        Read More
+                      </Link>
+                    </div>
+                  </div>
+                </div>
               </div>
+              
+                
+                
+                
+
+              
+              <div className="row spno about-industry zing-academy"   >
+                <div
+                  className="col-lg-4 bg-white wow fadeIn"
+                  data-wow-duration="2s"
+                  data-wow-delay="0.2s"
+                  
+                >
+                  <div className="service-box style2">
+                    <div>
+                      <h2 className="title ">
+                        <span> Exclusive Discount for Female Students:</span> 
+                        {/* <br /> Optimization */}
+                      </h2>
+                      <p style={{color:"#494949"}}>
+                      Women students pursuing our academy courses receive a
+                              flat 15% discount to support their career aspirations
+                              and skill-building journey. 
+                      </p>
+                      <Link
+                        href={`/academy-service`}
+                        className="site-button outline outline-2 btnhover11"
+                      >
+                        Read More
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div
+                  className="col-lg-8 wow fadeIn"
+                  data-wow-duration="2s"
+                  data-wow-delay="0.4s"
+                  
+                >
+                  <div className="dlab-post-media dlab-img-effect zoom">
+                    <Image
+                      alt=""
+                      className="img-cover"
+                      src="/images/services/seo.jpg"
+                      width="900"
+                      height="200"
+                    />
+                  </div>
+                </div>
+              </div>
+                
+              
             </div>
-          </div>
-
-
-
-          <div
-            className="col-lg-8 wow fadeIn"
-            data-wow-duration="2s"
-            data-wow-delay="0.4s"
-           
-          >
-            <div className="dlab-post-media dlab-img-effect zoom">
-              <Image
-                alt=""
-                className="img-cover"
-                src="/images/services/seo.jpg"
-                width="900"
-                height="200"
-              />
-            </div>
-          </div>
-        </div>
-          
-        
-      </div>
       {/* Content Section End */}
-    </div>
+          </div>
     </>
     
   );

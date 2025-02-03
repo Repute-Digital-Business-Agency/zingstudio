@@ -16725,6 +16725,14 @@ ol.commentlist li .star-rating {
   overflow: hidden;
 }
 
+
+
+.studio-bg{
+  /* border: 1px solid black; */
+  height: 100px;
+  width: 100%;
+  background-position: bottom;
+}
 /* Responsive */
 @media only screen and (max-width: 1200px) {
   .counter-staus-box .section-head .title {

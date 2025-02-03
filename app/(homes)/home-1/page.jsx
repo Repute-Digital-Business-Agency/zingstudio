@@ -28,7 +28,7 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <div className="page-content bg-white mb-5" style={{position:"relative"}}>
+        <div className="page-content bg-white " >
           <Hero />
           {/* <div className="content-block p-t50 p-b50 bg-gray">
             <ClientSlider />
@@ -55,9 +55,13 @@ export default function page() {
           </div>
           
 
-          <div style={{backgroundImage: "url(/images/element-6.png)", backgroundRepeat:"no-repeat", border:"1px solid red", position:"absolute",bottom:"0"}}></div>
+        
           {/* <Testimonial /> */}
         </div>
+        {/* <div className="container">
+        <div className="studio-bg" style={{backgroundImage: "url(/images/element-6.png)"}}></div>
+        </div> */}
+       
         
         <Cta />
         {/* <Footer2 contactSection="false" /> */}
