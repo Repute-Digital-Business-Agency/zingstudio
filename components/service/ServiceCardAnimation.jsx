@@ -83,7 +83,7 @@ const Card = ({
                         })}
                         </p> */}
                         <div className="m-t20">
-                         <a href={data?.service[0]?.link} className="site-button radius-xl">
+                         <a href={data?.service[0]?.link} className="site-button radius-xl btnhover20">
                             <span className="p-lr30">View Service</span>
                           </a>
                           
@@ -195,8 +195,8 @@ const Card = ({
                               
                             </ul>
                         <div className="">
-                          <a href={data?.service[2]?.link} className="site-button radius-xl">
-                            <span className="p-lr30">View Service</span>
+                          <a href={data?.service[2]?.link} className="site-button radius-xl btnhover20">
+                            <span className="p-lr30 ">View Service</span>
                           </a>
                          
                         </div>

@@ -156,7 +156,12 @@ ul li {
 ul li a {
   font-size: 17px !important;
 }
-
+footer ul li a{
+  font-size: 14px !important;
+}
+footer .list-2 li a{
+  font-size: 17px !important;
+}
 a {
   color: var(--color-primary);
   outline: 0 none;
@@ -6925,6 +6930,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   font-size: 11px;
   left: 0;
   position: absolute;
+  color: #1A43BF;
 }
 
 .list-2 li:hover:before {
@@ -8881,9 +8887,12 @@ a,
 }
 
 .site-button.outline.white:hover {
-  color: #666666;
+  color: #333;
+  background-color: #1a43bf;
 }
-
+.contact-page .site-button.outline.white:hover {
+  background-color: #fff !important;
+}
 /* black */
 
 .site-button.outline.black {
@@ -10416,6 +10425,7 @@ ul[class*="list-"] {
   content: "\e61a";
   font-size: 16px;
   font-family: "themify";
+  color: #1a43bf;
 }
 
 .acod-body {
@@ -11400,6 +11410,9 @@ ul[class*="list-"] {
   padding: 10px 15px;
   top: -30px;
   width: 85%;
+  height: 65px;
+  display: flex;
+  align-items: center;
 }
 
 .testimonial-6 .testimonial-pic {
@@ -13158,6 +13171,9 @@ ul[class*="list-"] {
 .dlab-box-bg.active .icon-bx-wraper {
   background-color: rgba(0, 0, 0, 0.7);
 }
+.dlab-box-bg.active .icon-bx-wraper .icon-content p {
+  color: #d6d6d6 !important;
+}
 
 .dlab-box-bg .text-primary,
 .dlab-box-bg .icon-content .dlab-tilte,
@@ -13498,6 +13514,7 @@ footer p,
 footer li {
   font-size: 13px;
   line-height: 22px;
+  font-size: 16px;
 }
 
 footer#footer {
@@ -13508,6 +13525,7 @@ footer#footer {
 footer p {
   line-height: 24px;
   margin-bottom: 10px;
+  /* font-size: 14px !important; */
 }
 
 footer .widget ul {
@@ -16671,26 +16689,27 @@ ol.commentlist li .star-rating {
 .our-story p {
   font-size: 16px;
   line-height: 32px;
-  color: #000;
+  color: #494949;
 }
 
 .our-story h2.title {
-  font-size: 50px;
+  font-size: 35px;
   line-height: 55px;
-  font-weight: 400;
-  margin-bottom: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .our-story h2.title span {
   font-family: "vve-giallo-regulauploadedfile";
   /* font-style: italic; */
+  font-size: 40px;
 }
 
 .our-story h4.title {
   font-size: 22px;
   line-height: 40px;
   font-weight: 500;
-  color: #999;
+  color: #000;
 }
 
 .section-head .title {
@@ -16733,6 +16752,15 @@ ol.commentlist li .star-rating {
   width: 100%;
   background-position: bottom;
 }
+.pr-service-hero h2{
+  font-size: 35px;
+}
+.acod-content{
+  font-size: 17px;
+}
+/* .flaticon-worker:hover{
+  color: #fff !important;
+} */
 /* Responsive */
 @media only screen and (max-width: 1200px) {
   .counter-staus-box .section-head .title {
@@ -17305,6 +17333,14 @@ input[type="checkbox"].btn-check+label:after {
 .btnhover15::after {
   background-color: var(--color-hover);
 }
+.zingFluence .zing-banner .btnhover13{
+  border: none;
+}
+.zingFluence .zing-banner .btnhover13:hover{
+  border: none !important;
+  color: #fff !important;
+}
+
 
 .ui-state-default,
 .ui-widget-content .ui-state-default,
@@ -17935,6 +17971,8 @@ color: #ffff;
 .zingFluence .section-head {
   margin-bottom: 0 !important;
 }
+
+
 
 
 .zingFluence .dlab-post-media img {

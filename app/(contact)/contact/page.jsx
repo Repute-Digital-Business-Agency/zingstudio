@@ -13,9 +13,9 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <div className="page-wraper  ">
+      <div className="page-wraper contact-page">
         <Header17 />
-        <div className="page-content bg-white">
+        <div className="page-content ">
           <Contact2 />
         </div>
         {/* <Footer2 contactSection="false"/> */}

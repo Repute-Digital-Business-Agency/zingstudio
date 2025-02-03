@@ -67,8 +67,12 @@ export default function Hero() {
                   <h1 dangerouslySetInnerHTML={{ __html: slide.title }} ></h1>
                   {/* <p>{slide.description}</p> */}
                   <p className="subTitle1">{slide.subTitle}</p>
-                  <Link href={slide.link}>
+                  {/* <Link href={slide.link}>
                     <button className="text-white" >{slide.buttonLabel}</button>
+                  </Link> */}
+                  <Link href={slide.link} 
+                  className="site-button btnhover13 white align-self-center outline ms-auto outline-2 py-3">
+                    {slide.buttonLabel}
                   </Link>
                 </div>
               </div>

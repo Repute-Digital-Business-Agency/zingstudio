@@ -6,8 +6,8 @@ export default function InfluencerMarketing() {
     <div className="section-full bg-gray content-inner">
       <div className="container">
         <div className="row">
-            <div className="text-center mb-2">
-            <h2 style={{fontWeight:"800"}}>Our Influencer Marketing Solutions</h2>
+            <div className="section-head text-center mb-2">
+            <h2 className="title" >Our Influencer Marketing Solutions</h2>
             <p style={{color:"#494949"}}>We manage all your Influencer Marketing requirements</p>
             </div>
            

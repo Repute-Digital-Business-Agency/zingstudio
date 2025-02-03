@@ -37,7 +37,8 @@ export default function page() {
                       <Link href={`/`}>Home</Link>
                     </li>
 
-                    <li>Am-A-Zing</li>
+                    <li>
+                    <Link href={`/am-a-zing`}>Am-A-Zing</Link></li>
                   </ul>
                 </div>
                 {/* Breadcrumb row END */}

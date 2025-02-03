@@ -28,7 +28,7 @@ export default function BestInfluencer() {
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
-          <div className="sort-title clearfix text-center">
+          <div className="section-head sort-title clearfix text-center">
           <h2 className="title" style={{fontWeight:"800"}}>Our Exclusive Creators</h2>
           <p style={{color:"#494949"}}>
             There are many variations of passages of Lorem Ipsum typesetting

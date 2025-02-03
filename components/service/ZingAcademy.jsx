@@ -60,7 +60,7 @@ export default function ZingAcademy() {
                               content under the guidance of expert mentors. 
                       </p>
                       <Link
-                        href={`/web-design-service`}
+                        href={`/academy`}
                         className="site-button outline outline-2 btnhover11"
                       >
                         Read More
@@ -94,7 +94,7 @@ export default function ZingAcademy() {
                               and skill-building journey. 
                       </p>
                       <Link
-                        href={`/academy-service`}
+                        href={`/academy`}
                         className="site-button outline outline-2 btnhover11"
                       >
                         Read More

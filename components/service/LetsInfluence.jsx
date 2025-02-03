@@ -25,8 +25,8 @@ export default function Facts() {
                   >
                     <div className="icon-bx-wraper center counter-style-5">
                       <div className="icon-xl m-b20">
-                        <span className="icon-cell">
-                          <i className="flaticon-worker" />
+                        <span className="icon-cell mx-3">
+                          <i className="flaticon-worker"  style={{color:"#1A43BF"}}/>
                         </span>
                       </div>
                       <div className="icon-content">
@@ -47,8 +47,8 @@ export default function Facts() {
                   >
                     <div className="icon-bx-wraper center counter-style-5">
                       <div className="icon-xl m-b20">
-                        <span className="icon-cell">
-                          <i className="flaticon-worker" />
+                        <span className="icon-cell mx-3">
+                          <i className="flaticon-worker" style={{color:"#1A43BF"}}/>
                         </span>
                       </div>
                       <div className="icon-content">
@@ -78,14 +78,14 @@ export default function Facts() {
 
                 <div className="icon-content d-flex flex-start">
                       <h5 className="dlab-tilte">
-                        <span className="icon-sm text-primary">
+                        <span className="icon-sm text-primary" style={{marginLeft:"-10px"}}>
                           <i className="ti-mobile" />
                         </span>
                         Phone Number <br />
                         <a className="text-white" href="tel:04224980307"> +91 (422) 498 0307</a>
                       </h5>
                       <h5 className="dlab-tilte p-lr15">
-                        <span className="icon-sm text-primary">
+                        <span className="icon-sm text-primary" style={{margin:"0 10px 0 -5px"}}>
                           <i className="ti-email" />
                         </span>
                         E-mail <br />

@@ -72,7 +72,7 @@ export default function Footer13() {
                           href={link.href}
                           className={`site-button btnhover13 sharp ${link.className}`}
                         >
-                          <i className={link.iconClass} />
+                          <i  className={`${link.iconClass} text-white`} />
                         </a>
                       </li>{" "}
                     </React.Fragment>
@@ -85,10 +85,10 @@ export default function Footer13() {
               data-wow-delay="0.6s"
             >
               <div className="icon-bx-wraper bx-style-1 m-b15 p-a30 radius-sm br-col-w1 bg-tpw1">
-                <h5 className="font-weight-500" style={{color:"#1A43BF"}}>
+                <h6 className="font-weight-500" style={{color:"#1A43BF"}}>
                   Business, E-Commerce, Digital Marketing, Ideas or Just a
                   Coffee
-                </h5>
+                </h6>
                 <p>
                   Fuel your ambition with expertise in Business, E-Commerce, and
                   Digital Marketing. Spark fresh ideas or simply enjoy a

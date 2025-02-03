@@ -30,7 +30,8 @@ export default function page() {
                     <li>
                       <Link href="/">Home</Link>
                     </li>
-                    <li>Life at Zing</li>
+                    <li>
+                    <Link href="/careers">Life at Zing</Link></li>
                   </ul>
                 </div>
                 {/* Breadcrumb row END */}

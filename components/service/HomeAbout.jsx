@@ -13,7 +13,7 @@ export default function HomeAbout() {
           >
             <div className="content-bx1">
               {/* <div className="about-year"> */}
-              <h2 className="title" style={{color:"#1a43bf"}}> About Us</h2>
+              <h2 className="title" style={{color:"#1a43bf",fontSize:"30px"}}> About Us</h2>
               {/* </div> */}
               <div className="section-head style2">
                 <h2 className="title">
@@ -29,14 +29,14 @@ export default function HomeAbout() {
                 </p>
               </div>
               <Link
-                href={`/portfolio-grid-2`}
+                href={`/portfolio`}
                 className="site-button m-r10 m-b10 btnhover20"
               >
                 View Portfolio
               </Link>
               <Link
-                href={`/about-1`}
-                className="site-button black m-b10 btnhover20"
+                href={`/about`}
+                className="site-button  m-b10 btnhover20"
               >
                 About Us
               </Link>

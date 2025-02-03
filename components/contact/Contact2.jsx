@@ -18,7 +18,8 @@ export default function Contact2() {
                 <li>
                   <Link href={`/`}>Home</Link>
                 </li>
-                <li>Contact Us</li>
+                <li>
+                <Link href={`/contact`}>Contact Us</Link></li>
               </ul>
             </div>
             {/* Breadcrumb row END */}
@@ -36,7 +37,7 @@ export default function Contact2() {
                   <div className="icon-bx-wraper expertise bx-style-1 p-a20 radius-sm">
                     <div className="icon-content">
                       <h5 className="dlab-tilte">
-                        <span className="icon-sm text-primary">
+                        <span className="icon-sm text-primary" style={{margin:"0 0 0 -10px"}}>
                           <i className="ti-location-pin" />
                         </span>
                         Company Address
@@ -57,8 +58,8 @@ export default function Contact2() {
                   <div className="icon-bx-wraper expertise bx-style-1 p-a20 radius-sm">
                     <div className="icon-content">
                       <h5 className="dlab-tilte">
-                        <span className="icon-sm text-primary">
-                          <i className="ti-email" />
+                        <span className="icon-sm text-primary" style={{margin:"0 5px 0 -3px"}}>
+                          <i className="ti-email " />
                         </span>
                         E-mail
                       </h5>
@@ -82,8 +83,8 @@ export default function Contact2() {
                   <div className="icon-bx-wraper expertise bx-style-1 p-a20 radius-sm">
                     <div className="icon-content">
                       <h5 className="dlab-tilte">
-                        <span className="icon-sm text-primary">
-                          <i className="ti-mobile" />
+                        <span className="icon-sm text-primary" style={{margin:"0 0 0 -5px"}}>
+                          <i className="ti-mobile"  />
                         </span>
                         Phone Number
                       </h5>
@@ -217,7 +218,7 @@ export default function Contact2() {
                       name="submit"
                       type="submit"
                       value="Submit"
-                      className="site-button button-md"
+                      className="site-button button-md btnhover20"
                     >
                       <span>Get A Free Quote!</span>
                     </button>

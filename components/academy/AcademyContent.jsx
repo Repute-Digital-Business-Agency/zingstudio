@@ -7,8 +7,8 @@ export default function AcademyContent() {
         <div className="row">
           <div className="col-lg-6 m-b30">
             <div className="our-story">
-              <h2 className="title">
-                <span className="text-primary"> Academy </span>
+              <h2 className="title"> Academy
+                {/* <span className="text-primary">  </span> */}
               </h2>
               <h4 className="title">
                 {" "}
@@ -157,14 +157,14 @@ export default function AcademyContent() {
                   height="357"
                 />
               </div>
-              <div className="col-lg-12 m-b30">
+              {/* <div className="col-lg-12 m-b30">
                 <Image
                   alt=""
                   src="/images/Academy/img-4.jpg"
                   width="700"
                   height="479"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

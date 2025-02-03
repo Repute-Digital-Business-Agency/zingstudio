@@ -29,20 +29,20 @@ const ServiceList = ({data,head}) => {
                                    
                                  </div>
                                  <div className="pricingtable-title bg-primary "  style={{padding:"0px"}} >
-                                   <h2 style={{fontSize:"20px"}}>{data.title}</h2>
+                                   <h2 style={{fontSize:"22px"}}>{data.title}</h2>
                                  </div>
                                  <ul className="pricingtable-features " >
                                      {data?.list?.map((item)=>(
                                           <li style={{fontSize:"16px"}}>
-                                          <i className="fas fa-check" style={{fontSize:"12px"}}/> {item}
+                                          <i className="fas fa-check" style={{fontSize:"12px", color:"#1a43bf"}}/> {item}
                                         </li>
                                      ))}
                                      {length === 4 && <p >{data?.description}</p>} 
                                      
                                  </ul>
                                  
-                                 <div className="pricingtable-footer">
-                                   <a href="/contact" className="site-button">
+                                 <div className="pricingtable-footer ">
+                                   <a href="/contact" className="site-button outline outline-2 btnhover11">
                                      Buy Now
                                    </a>
                                  </div>

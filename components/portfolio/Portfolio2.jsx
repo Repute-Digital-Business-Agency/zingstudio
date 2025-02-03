@@ -234,8 +234,8 @@ export default function Portfolio2() {
       <div className="container-fluid">
         <div className="site-filters clearfix center m-b40">
           <div className="our-story text-capitalize">
-            <h2 className="title">
-              <span className="text-primary"> Portfolio </span>
+            <h2 className="title" style={{color:"#1a43bf"}}>Portfolio
+              {/* <span className="text-primary">  </span> */}
             </h2>
             <h4 className="title" style={{textTransform:"none", color: "black", fontWeight: "600" }}>
               {" "}
@@ -249,7 +249,7 @@ export default function Portfolio2() {
               <React.Fragment key={index}>
                 <li
                   data-filter={item.filter}
-                  className={`btn ${
+                  className={`btn btnhover20 ${
                     currentFilter == item.filter ? "active" : ""
                   }`}
                   onClick={() => updateCategory(item.filter)}
@@ -274,7 +274,7 @@ export default function Portfolio2() {
           >
             {portfolioItems3.map((item, index) => (
               <li
-                className={`${item.filter} card-container col-lg-4 col-md-6 col-sm-6 p-a0`}
+                className={`${item.filter} card-container col-lg-4 col-md-6 col-sm-6 p-a0 `}
                 key={index}
               >
                 <div className="dlab-box dlab-gallery-box">

@@ -61,11 +61,11 @@ export default function ProcessForInfluencer() {
     >
       <div className="container">
         <div className="row">
-            <div className="title text-center mb-2" >
-            <h2 style={{fontWeight:"800"}}>Process for Influencers</h2>
+            <div className="section-head  text-center mb-2" >
+            <h2 className="title" style={{fontWeight:"800"}}>Process for Influencers</h2>
             </div>
           
-          <div className="col-12 ">
+          <div className="col-12 mt-4">
             <div className="row">
             {services9.map((item, index) => (
                 <div

@@ -15,7 +15,8 @@ export default function Banner() {
               <li>
                 <Link href={`/`}>Home</Link>
               </li>
-              <li>About us</li>
+              <li>
+              <Link href={`/about`}>About us</Link></li>
             </ul>
           </div>
           {/* Breadcrumb row END */}

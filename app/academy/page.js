@@ -35,7 +35,8 @@ export default function page() {
                       <Link href={`/`}>Home</Link>
                     </li>
 
-                    <li>Academy</li>
+                    <li>
+                    <Link href={`/academy`}>Academy</Link></li>
                   </ul>
                 </div>
                 {/* Breadcrumb row END */}

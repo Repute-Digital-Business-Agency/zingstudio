@@ -144,7 +144,7 @@ export default function HeroSection({head,option}) {
                     name="submit"
                     type="submit"
                     value="Submit"
-                    className="site-button button-md"
+                    className="site-button button-md btnhover20"
                   >
                     <span>Get A Free Quote!</span>
                   </button>

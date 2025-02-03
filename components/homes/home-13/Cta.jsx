@@ -21,7 +21,7 @@ export default function Cta() {
               href={`/contact`}
               className="site-button btnhover13 white align-self-center outline ms-auto outline-2"
             >
-              Contact Us
+              Contac t Us
             </Link>
           </div>
         </div>
