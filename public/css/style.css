@@ -17647,9 +17647,9 @@ color: #ffff;
     padding-bottom: 0;
     font-size: 15px !important;
   }
-   .dm{
+   /* .dm{
     height: 400px !important;
-  }
+  } */
   .cardContainer .site-button, .site-button-secondry{
     padding: 8px 5px;
     margin-top: 0;
@@ -17695,9 +17695,9 @@ color: #ffff;
    padding-top: 2px;
    /* padding-bottom: 5px; */
   }
-  .dm{
+  /* .dm{
     height: 200px !important;
-  }
+  } */
   .cardContainer {
     height: 800px;
     top: 30px;
@@ -17754,6 +17754,15 @@ color: #ffff;
   padding: 10px 10px;
 }
   
+}
+
+@media(max-width: 767px){
+  .dm{
+    height: 200px !important;
+  }
+  .main{
+    padding-bottom: 0 !important;
+  }
 }
 @media(max-width: 460px){
   .main .row{
