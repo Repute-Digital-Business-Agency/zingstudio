@@ -348,12 +348,12 @@ export const elementItems = [
 
 export const AboutUsLink = {
   href: "/about",
-  label: "Our Story",
+  label: "Our Zing Studio",
 };
 
 export const AcademyLink = {
-  href: "/academy",
-  label: "Academy",
+  href: "/zing-academy",
+  label: "Zing Academy",
 };
 
 export const AmazingLink = {
@@ -397,7 +397,7 @@ export const ServicesLink = [
   // { href: "/services", label: "Overview" },
   { href: "/web-design-service", label: "Web Design" },
   { href: "/digital-marketing-service", label: "Digital Marketing" },
-  { href: "/academy-service", label: "Academy" },
+  // { href: "/academy-service", label: "Academy" },
   // { href: "/web-design", label: "Web Design" },
   // { href: "/e-commerce", label: "E-Commerce" },
   // { href: "/search-engine-optimization", label: "Search Engine Optimization" },

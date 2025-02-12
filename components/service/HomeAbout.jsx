@@ -17,15 +17,12 @@ export default function HomeAbout() {
               {/* </div> */}
               <div className="section-head style2">
                 <h2 className="title">
-                  Architecure is a visual art,
-                  <br />
-                  and The Building
+                Turning businesses like yours into success stories like these.
+                  {/* <br />
+                 success stories like these. */}
                 </h2>
                 <p>
-                  Praesent pharetra orci odio, ut mattis tellus ullamcorper
-                  ornare. Suspendisse ullamcorper metus in erat viverra,
-                  vehicula pharetra dolor accumsan. In arcu ex, rutrum finibus
-                  malesuada vel. Praesent pharetra orci odio, ut mattis tellus
+                Get customized solutions based on your business goals – no matter your size or industry. With successful clients ranging from small businesses to Fortune 1000s, you’re in good company.
                 </p>
               </div>
               <Link

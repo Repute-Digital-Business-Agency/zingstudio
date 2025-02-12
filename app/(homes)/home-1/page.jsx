@@ -34,29 +34,37 @@ export default function page() {
             <ClientSlider />
           </div> */}
           <HomeAbout/>
+          <Projects2 />
           <div className="content-block home-service-section bg-gray">
             <HomeServiceAnimation />
           </div>
 
-          <Projects2 />
+         
 
           {/* <div className="content-block p-t20 p-b80 home-our-vision-section">
             <Testimonials />
           </div> */}
 
           
-          <Am_a_Zing/>        
-          {/* <Am_a_ZingPar/> */}
+          {/* <Am_a_Zing/>         */}
           
+          
+            {/* normal  academy section component */}
           {/* <Academy/> */}
-          <div >
-          <ZingAcademy/>
-          
-          </div>
+          {/* normal  academy section component */}
+
+
+          {/* scroll effect academy section component */}
+
+          {/* <div > */}
+          {/* <ZingAcademy/> */}
+          {/* </div> */}
+
+          {/* scroll effect academy section component */}
           
 
-        
-          {/* <Testimonial /> */}
+        {/* ceo speaks */}
+          <Testimonial />
         </div>
         {/* <div className="container">
         <div className="studio-bg" style={{backgroundImage: "url(/images/element-6.png)"}}></div>

@@ -203,7 +203,7 @@ const projects = [
           " Keyword Research and Analysis",
           "Keyphrase Optimization - 10 Pages"
         ],
-        link: "/academy-service",
+        link: "/digital-marketing-service",
         buyNowLink:"/contact",
         color: "#1a43bf",
         animation_delay: "0.12s",
@@ -219,7 +219,7 @@ const projects = [
           " Keyword Research and Analysis",
           "Keyphrase Optimization - 10 Pages",
         ],
-        link: "/academy-service",
+        link: "/digital-marketing-service",
         src: "images/Home-Page/digital-marketing.jpg",
         buyNowLink:"/contact",
         color: "#1a43bf",

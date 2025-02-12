@@ -1154,7 +1154,8 @@ h6 {
 .date-style-2 .post-date {
   top: 20px;
   border-radius: 5px;
-  width: 65px;
+  width: auto;
+  padding: 5px;
   background-color: var(--color-primary);
   font-family: "Poppins", sans-serif;
 }
