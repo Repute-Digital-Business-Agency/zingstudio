@@ -46,7 +46,7 @@ export default function page() {
           </div> */}
 
           
-          {/* <Am_a_Zing/>         */}
+          <Am_a_Zing/>        
           
           
             {/* normal  academy section component */}
@@ -56,15 +56,15 @@ export default function page() {
 
           {/* scroll effect academy section component */}
 
-          {/* <div > */}
-          {/* <ZingAcademy/> */}
-          {/* </div> */}
+          <div >
+          <ZingAcademy/>
+          </div>
 
           {/* scroll effect academy section component */}
           
 
         {/* ceo speaks */}
-          <Testimonial />
+          {/* <Testimonial /> */}
         </div>
         {/* <div className="container">
         <div className="studio-bg" style={{backgroundImage: "url(/images/element-6.png)"}}></div>

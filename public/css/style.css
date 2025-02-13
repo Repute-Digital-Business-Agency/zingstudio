@@ -18045,6 +18045,11 @@ color: #ffff;
   top: 80px !important;
 }
 
+.zing-academy.course-details{
+  position: sticky;
+  top: 200px !important;
+}
+
 @media (max-width:500px) {
   .home-ban{
     height:50vh !important;
@@ -18055,6 +18060,39 @@ color: #ffff;
   .home-ban{
     height:45vh !important;
   }
+}
+
+.students-journey .icon-bx-wraper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.students-journey .icon-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 150px; /* Adjust based on content */
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  .students-journey .icon-bx-wraper {
+    padding: 20px;
+  }
+}
+
+.whosCourse .item {
+  flex: 1 1 250px; /* Adjust width as needed */
+  height: 250px; /* Ensure consistent height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* border: 1px solid #ddd; */
+  /* padding: 20px; */
+  /* background-color: white; */
 }
 
 
