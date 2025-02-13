@@ -45,7 +45,7 @@ const slides = [
 
 export default function ZingAcademyHero() {
   return (
-    <div className="dz-industry2-zone position-relative">
+    <div className="dz-industry2-zone position-relative courseProgram">
       {/* <Swiper
         modules={[Pagination, Autoplay]}
         autoplay={{

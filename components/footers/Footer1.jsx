@@ -76,9 +76,9 @@ export default function Footer1() {
                 <h4 className="footer-title">Usefull Link</h4>
                 <ul className="list-2">
                   {/* {footerLinks.map((link, index) => ( */}
-                    <li key={index}>
+                    {/* <li key={index}>
                       <Link href={link.href}>{link.label}</Link>
-                    </li>
+                    </li> */}
                   {/* ))} */}
                 </ul>
               </div>

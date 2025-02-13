@@ -3,7 +3,7 @@ import { slides } from "@/data/heroSlides";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
-export default function Hero() {
+export default function HomeHero() {
   const handleProjectHover = (index) => {
     document.querySelectorAll(".swiper-hover .swiper-slide").forEach((el) => {
       el.classList.remove("active");

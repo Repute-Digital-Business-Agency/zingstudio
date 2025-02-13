@@ -8883,6 +8883,11 @@ button.scroltop {
   object-fit: cover;
 }
 
+.courseProgram.dz-industry2-zone .swiper-slide img {
+  height: 500px;
+  object-fit: cover;
+}
+
 .dz-industry2-zone .style-1 .swiper-pagination-bullet {
   background: white;
   opacity: 1;
@@ -8923,6 +8928,10 @@ button.scroltop {
 
   .dz-industry2-zone .swiper-slide img {
     height: 735px;
+  }
+  .courseProgram.dz-industry2-zone .swiper-slide img {
+    height: 500px !important;
+   
   }
 }
 

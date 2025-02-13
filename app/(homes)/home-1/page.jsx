@@ -19,7 +19,9 @@ import Am_a_ZingPar from "@/components/service/Amazingparallax";
 import HomeAbout from "@/components/service/HomeAbout";
 import ZingAcademy from "@/components/service/ZingAcademy";
 import CourseModulesHome from "@/components/service/CourseModulesHome";
-
+import HomeAmazing from "@/components/service/HomeAmazing";
+import Home from "@/app/page";
+import HomeHero from "@/components/homes/home-18/Hero";
 
 export const metadata = {
   title: "Home || Zing Studio",
@@ -35,8 +37,10 @@ export default function page() {
           {/* <div className="content-block p-t50 p-b50 bg-gray">
             <ClientSlider />
           </div> */}
+           
           <HomeAbout/>
-          <Projects2 />
+          <HomeHero/>
+          {/* <Projects2 /> */}
           <div className="content-block home-service-section bg-gray">
             <HomeServiceAnimation />
           </div>
@@ -49,6 +53,7 @@ export default function page() {
 
           
           <Am_a_Zing/>        
+          {/* <HomeAmazing/> */}
           
           
             {/* normal  academy section component */}
@@ -62,6 +67,7 @@ export default function page() {
           {/*<ZingAcademy/>*/}
           
  <CourseModulesHome/>
+
           </div>
 
           {/* scroll effect academy section component */}

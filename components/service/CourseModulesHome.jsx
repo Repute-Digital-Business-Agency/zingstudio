@@ -28,7 +28,7 @@ const images = [
     {
         imgSrc:"/images/Academy/Course-Mod/pic11.jpg",
         title:"Zing Digital Marketing Mastery",
-        mode:"online/offline",
+        mode:"online | Free",
         list:[
           'Lorem ipsum dolor sit amet',
           'Lorem ipsum dolor sit amet',
@@ -43,7 +43,7 @@ const images = [
     {
       imgSrc:"/images/Academy/Course-Mod/pic12.jpg",
       title:" Zing Launchpad – Student Internship Program",
-      mode:"online/offline",
+      mode:"online | Free",
       list:[
         'Lorem ipsum dolor sit amet',
         'Lorem ipsum dolor sit amet',
@@ -59,7 +59,7 @@ const images = [
     {
       imgSrc:"/images/Academy/Course-Mod/pic13.jpg",
       title:"Zing Digital Sprint – Essentials of Marketing",
-      mode:"online/offline",
+      mode:"online | Free",
       list:[
         'Lorem ipsum dolor sit amet',
         'Lorem ipsum dolor sit amet',
@@ -75,7 +75,7 @@ const images = [
   {
     imgSrc:"/images/our-work/pic1.jpg",
     title:"Zing AI in Digital Marketing",
-    mode:"online/offline",
+    mode:"online | Free",
     list:[
       'Lorem ipsum dolor sit amet',
       'Lorem ipsum dolor sit amet',
@@ -92,7 +92,7 @@ const images = [
   {
     imgSrc:"/images/our-work/pic1.jpg",
     title:"Zing Social Media Mastery",
-    mode:"online/offline",
+    mode:"online | Free",
     list:[
       'Lorem ipsum dolor sit amet',
       'Lorem ipsum dolor sit amet',
@@ -108,7 +108,7 @@ const images = [
   {
     imgSrc:"/images/our-work/pic1.jpg",
     title:"Zing SEO Supercharger",
-    mode:"online/offline",
+    mode:"online | Free",
     list:[
       'Lorem ipsum dolor sit amet',
       'Lorem ipsum dolor sit amet',
@@ -124,7 +124,7 @@ const images = [
   {
     imgSrc:"/images/our-work/pic1.jpg",
     title:" Zing AdSense Ace",
-    mode:"online/offline",
+    mode:"online | Free",
     list:[
       'Lorem ipsum dolor sit amet',
       'Lorem ipsum dolor sit amet',
@@ -140,7 +140,7 @@ const images = [
   {
     imgSrc:"/images/our-work/pic1.jpg",
     title:"Zing Copywriting & Content Mastery",
-    mode:"online/offline",
+    mode:"online | Free",
     list:[
       'Lorem ipsum dolor sit amet',
       'Lorem ipsum dolor sit amet',
@@ -159,68 +159,73 @@ export default function CourseModulesHome() {
   return (
  
     
-    <div className="bg-grey lightgallery ZingCourseModule mb-5" id="lightgallery">
-      <div className="section-full bg-white content-inner">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-12 col-lg-10   m-auto">
-              <div className="section-head style2 text-center mb-0">
-                <h2 className="title">Zing Academy</h2>
-                <p>Zing Academy equips individuals with in-demand digital marketing skills through practical, hands-on training. Our programs are designed to be affordable, industry-relevant, and results-driven, helping learners build expertise and advance their careers. Join us and take the next step in your digital journey.
-                </p>
+    <div className="container pt-5">
+    {/* blog grid */}
+    <div id="masonry" className="dlab-blog-grid-3 row">
+    <div className="section-head style2 text-center mb-0">
+                <h2 className="title">Course Modules</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
               </div>
-
-              {/* Course Modules Grid */}
-              <div className="row">
-                {images.map((elm, i) => (
-                  <div key={i} className="col-lg-3 col-md-6 col-sm-12 d-flex mt-5">
-                    <div className="item course-box">
-                      <div className="ow-blog-post date-style-2">
-                        <div className="ow-post-media dlab-img-effect zoom-slow">
-                          <Image alt="" src={elm.imgSrc} width="700" height="500" />
-                        </div>
-                        <div className="ow-post-info">
-                          <div className="ow-post-title">
-                            <h4 className="post-title">
-                              <a href={elm.link} title="Video post">
-                                {elm.title}
-                              </a>
-                            </h4>
-                          </div>
-                          <div className="ow-post-meta">
-                            <ul>
-                              <li className="post-date">{elm.mode}</li>
-                              <li className="post-comment">{elm.duration}</li>
-                            </ul>
-                          </div>
-                          <div className="ow-post-text">{elm.description}</div>
-                          <div className="ow-post-readmore d-flex justify-content-between">
-                            <h4 className="mb-0">{elm.price}</h4>
-                            <a href={elm.link} title="READ MORE" rel="bookmark" className="site-button-link">
-                              READ MORE <i className="fas fa-angle-double-right" />
-                            </a>
-                          </div>
-                          <div className="ow-post-tags clearfix">
-                            <span className="rating-bx">
-                              <i className="fas fa-star" />
-                              <i className="fas fa-star" />
-                              <i className="fas fa-star" />
-                              <i className="fas fa-star" />
-                              <i className="far fa-star" />
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
+      {images.map((elm, i) => (
+        <div
+          key={i}
+          className="post card-container col-xl-3 col-lg-4 col-md-6 col-sm-6"
+        >
+          <div className="blog-post blog-grid blog-rounded blog-effect1">
+            <div className="dlab-post-media dlab-img-effect">
+              <Link href={`/blog-single/${elm.title}`}>
+                <Image alt="" src={elm.imgSrc} width="700" height="500" />
+              </Link>
+            </div>
+            <div className="dlab-info p-a20 border-1">
+              <div className="dlab-post-meta">
+                <ul>
+                  <li className="post-date">
+                    <strong style={{color:"#c21807"}}>
+                      {elm.mode}
+                    </strong>{" "}
+                    {/* <span> </span> */}
+                  </li>
+                  {/* <li className="post-author">
+                    By <a href="#">{elm.author}</a>
+                  </li> */}
+                </ul>
               </div>
-              {/* Course Modules Grid End */}
+              <div className="dlab-post-title">
+                <h4 className="post-title">
+                  <Link href="">{elm.title}</Link>
+                </h4>
+                <p className="mb-0">Duration: {elm.duration}</p>
+                <p className="mb-0">Fees: {elm.price}</p>
+              </div>
+              <div className="dlab-post-text">
+                <p>{elm.text}</p>
+              </div>
+              <div className="dlab-post-readmore">
+                <Link
+                  href=""
+                  title="READ MORE"
+                  rel="bookmark"
+                  className="site-button"
+                >
+                  READ MORE
+                  <i className="ti-arrow-right" />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      ))}
     </div>
+    {/* blog grid END */}
+    {/* Pagination */}
+    {/* <div className="pagination-bx clearfix col-md-12 text-center">
+      <ul className="pagination">
+        <Pagination />
+      </ul>
+    </div> */}
+    {/* Pagination END */}
+  </div>
 
 
   );
