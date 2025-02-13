@@ -76,13 +76,19 @@ export default function zingAcademyHero() {
               <div className="dz-btns d-flex align-items-center">
                 <Link
                   href="/services-1"
-                  className="bg-primary m-0 text-decoration-none text-white"
+                  className=" m-0 text-decoration-none text-white"
+                  style={{
+                    background:"#c83020"
+                  }}
                 >
-                  Read More
+                  Free Career Counselling
                 </Link>
-                {/* <Link href="/about-1" className="text-dark">
-                  About Us
-                </Link> */}
+                <Link href="/about-1" className="text-dark"
+                style={{
+                  border:"1px solid #c83020"
+                }}>
+                Explore Courses
+                </Link>
               </div>
             </div>
           </div>

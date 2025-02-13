@@ -109,10 +109,10 @@ export default function LiveProjects() {
           </div>
 
          <div
-            className="col-lg-4 text-white wow fadeIn bg-primary" 
+            className="col-lg-4 text-white wow fadeIn " 
             data-wow-duration="2s"
             data-wow-delay="0.4s"
-            // style={{ backgroundColor: "#2b2b2b" }}
+            style={{ backgroundColor: "#c41e0e" }}
           >
             <div className="service-box style2">
               <div>
@@ -150,10 +150,10 @@ export default function LiveProjects() {
             </div>
           </div>
           <div
-            className="col-lg-4 text-white wow fadeIn bg-primary"
+            className="col-lg-4 text-white wow fadeIn "
             data-wow-duration="2s"
             data-wow-delay="0.8s"
-            // style={{ backgroundColor: "#2b2b2b" }}
+            style={{ backgroundColor: "#c41e0e" }}
           >
             <div className="service-box style2">
               <div>

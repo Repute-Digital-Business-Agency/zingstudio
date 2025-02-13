@@ -28,9 +28,12 @@ export default function page() {
         <Header17 />
          <ZingAcademyHero/>
          <div
-              className="section-full content-inner-2 bg-primary wow fadeIn"
+              className="section-full content-inner-2  wow fadeIn"
               data-wow-duration="2s"
               data-wow-delay="0.2s"
+              style={{
+                background:"#c83020"
+              }}
               // style={{ backgroundImage: "url(/images/background/map-bg.png)" }}
             >
               <div className="container">
@@ -39,7 +42,7 @@ export default function page() {
                     <h2 className="title text-white">
                       Why Zing Academy ?
                     </h2>
-                    <p>
+                    <p className="text-white">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown

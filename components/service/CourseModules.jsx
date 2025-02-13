@@ -156,172 +156,70 @@ const images = [
 const images2 = ["/images/banner/bnr5.jpg", "/images/banner/bnr4.jpg"];
 export default function Course() {
   return (
-    <>
+ 
     
-      <div className="bg-white lightgallery" id="lightgallery">
-        
-        <div className="section-full bg-white content-inner">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-              <div className="section-head style2 text-center mb-4">
-                    <h2 className="title">Course Modules</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                </div>
-                {/* blog post Carousel with no margin */}
-                <div className="section-content box-sort-in m-b30 button-example">
-                  <Swiper
-                    slidesPerView={3}
-                    spaceBetween={30}
-                    slidesPerGroup={1}
-                    loop
-                    autoplay={{
-                      delay: 4000,
-                    }}
-                    speed={2500}
-                    modules={[Pagination, Autoplay, Navigation]}
-                    navigation={{
-                      prevEl: ".snbp34",
-                      nextEl: ".snbn34",
-                    }}
-                    className="blog-carousel mfp-gallery owl-loaded owl-theme owl-carousel gallery owl-btn-center-lr owl-btn-1 primary"
-                    breakpoints={{
-                      0: {
-                        slidesPerView: 1,
-                      },
-                      768: {
-                        slidesPerView: 2,
-                      },
-                      991: {
-                        slidesPerView: 2,
-                      },
-                      1000: {
-                        slidesPerView: 3,
-                      },
-                    }}
-                  >
-                    {images.map((elm, i) => (
-                      <SwiperSlide key={i}>
-                        <div className="item">
-                          <div className="ow-blog-post date-style-2">
-                            <div className="ow-post-media dlab-img-effect zoom-slow">
-                              <Image
-                                alt=""
-                                src={elm.imgSrc}
-                                width="700"
-                                height="500"
-                              />
-                            </div>
-                            <div className="ow-post-info">
-                              <div className="ow-post-title">
-                                <h4 className="post-title">
-                                  <a href="#" title="Video post">
-                                   {elm.title}
-                                  </a>
-                                </h4>
-                              </div>
-                              <div className="ow-post-meta">
-                                <ul>
-                                  <li className="post-date">
-                                    {elm.mode}
-                                  </li>
-                                  <li className="post-comment">
-                                    {/* <i className="ti-user" /> */}
-                                   
-                                    {elm.duration}
-                                   
-                                  
-                                  </li>
-                                  {/* <li className="post-comment">
-                                    <i className="ti-comment-alt" />
-                                    <a href="#" className="comments-link">
-                                      1 Comment
-                                    </a>
-                                  </li> */}
-                                  
-                                </ul>
-                              </div>
-                              <div className="ow-post-text">
-                                {elm.description}
-                              {/* <ul className="list-check secondry">
-                                {elm?.list?.map((item, index) => (
-                                  <li key={index}>{item}</li>
-                                ))}
-                                 
-                                  
-                                </ul> */}
-                              </div>
-                              {/* <div className="ow-post-text ">
-                                <h4 className="mb-0">
-                                  {elm.price}
-                                </h4>
-                              </div> */}
-                              <div className="ow-post-readmore d-flex justify-content-between">
-                              <h4 className="mb-0">
-                                  {elm.price}
-                                </h4>
-                                <a
-                                  href={elm.link}
-                                  title="READ MORE"
-                                  rel="bookmark"
-                                  className="site-button-link"
-                                >
-                                  READ MORE
-                                  <i className="fas fa-angle-double-right" />
-                                </a>
-                              </div>
-                              <div className="ow-post-tags clearfix">
-                                <div className="post-tags">
-                                  {/* <a href="#">Child </a>
-                                  <a href="#">Eduction </a>
-                                  <a href="#">Money </a>
-                                  <a href="#">Resturent </a> */}
-                                  {/* <div className="shop-item-rating"> */}
-                                <span className="rating-bx">
-                                  <i className="fas fa-star" />
-                                  <i className="fas fa-star" />
-                                  <i className="fas fa-star" />
-                                  <i className="fas fa-star" />
-                                  <i className="far fa-star" />
-                                </span>
-                                {/* <span>4.5 Rating</span> */}
-                              {/* </div> */}
-                                </div>
-                                
-                              </div>
-                            </div>
+    <div className="bg-white lightgallery ZingCourseModule mb-5" id="lightgallery">
+      <div className="section-full bg-white content-inner">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-12 col-lg-10   m-auto">
+              <div className="section-head style2 text-center mb-0">
+                <h2 className="title">Course Modules</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              </div>
+
+              {/* Course Modules Grid */}
+              <div className="row">
+                {images.map((elm, i) => (
+                  <div key={i} className="col-lg-3 col-md-6 col-sm-12 d-flex mt-5">
+                    <div className="item course-box">
+                      <div className="ow-blog-post date-style-2">
+                        <div className="ow-post-media dlab-img-effect zoom-slow">
+                          <Image alt="" src={elm.imgSrc} width="700" height="500" />
+                        </div>
+                        <div className="ow-post-info">
+                          <div className="ow-post-title">
+                            <h4 className="post-title">
+                              <a href="#" title="Video post">
+                                {elm.title}
+                              </a>
+                            </h4>
+                          </div>
+                          {/* <div className="ow-post-meta">
+                            <ul>
+                              <li className="post-date">{elm.mode}</li>
+                              <li className="post-comment">{elm.duration}</li>
+                            </ul>
+                          </div> */}
+                          <div className="ow-post-text">{elm.description}</div>
+                          <div className="ow-post-readmore d-flex justify-content-between">
+                            <h4 className="mb-0">{elm.price}</h4>
+                            <a href={elm.link} title="READ MORE" rel="bookmark" className="site-button-link">
+                              READ MORE <i className="fas fa-angle-double-right" />
+                            </a>
+                          </div>
+                          <div className="ow-post-tags clearfix">
+                            <span className="rating-bx">
+                              <i className="fas fa-star" />
+                              <i className="fas fa-star" />
+                              <i className="fas fa-star" />
+                              <i className="fas fa-star" />
+                              <i className="far fa-star" />
+                            </span>
                           </div>
                         </div>
-                      </SwiperSlide>
-                    ))}
-                    <div className="owl-nav">
-                      <button
-                        type="button"
-                        role="presentation"
-                        className="owl-prev snbp34"
-                        style={{ zIndex: 1 }}
-                      >
-                        <i className="ti-arrow-left" />
-                      </button>
-                      <button
-                        type="button"
-                        role="presentation"
-                        className="owl-next snbn34"
-                        style={{ zIndex: 1 }}
-                      >
-                        <i className="ti-arrow-right" />
-                      </button>
+                      </div>
                     </div>
-                  </Swiper>
-                </div>
+                  </div>
+                ))}
               </div>
+              {/* Course Modules Grid End */}
             </div>
           </div>
-          {/* blog post Carousel with no margin END */}
         </div>
-       
-        {/* content  END */}
       </div>
-    </>
+    </div>
+
+
   );
 }
