@@ -8,9 +8,8 @@ export default function Services1() {
         <div className="section-head text-center">
           <h2 className="title">Why Choose Zing?</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry has been the industry's standard dummy text ever since the
-            been when an unknown printer.
+          Zing Studio offers expert branding, web design, and digital marketing solutions tailored to your business needs. With a strategic approach, creative excellence, and cost-effective services, we help brands establish a strong and impactful digital presence.
+
           </p>
         </div>
         <div className="row">

@@ -1096,17 +1096,9 @@ export const services11 = [
     wowClass: "fadeInLeft",
     wowDelay: "0.3s",
   },
+ 
   {
     id: 153,
-    iconClass: "flaticon-engineer-1",
-    title: "Association of Industries",
-    description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing sed diam nibh euismod..",
-    wowClass: "fadeInUp",
-    wowDelay: "0.3s",
-  },
-  {
-    id: 154,
     iconClass: "flaticon-robot-arm",
     title: "Innovation-Driven",
     description:
@@ -1115,7 +1107,7 @@ export const services11 = [
     wowDelay: "0.3s",
   },
   {
-    id: 155,
+    id: 154,
     iconClass: "flaticon-robot-arm",
     title: "End-to-End Support",
     description:
