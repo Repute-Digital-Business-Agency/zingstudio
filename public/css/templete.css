@@ -987,11 +987,11 @@ h6 {
 
 /* Service Box Style2 */
 .service-box.style2 {
-  padding: 0 80px;
+  padding: 60px 80px;
   align-self: center;
-  align-items: center;
-  flex-wrap: wrap;
-  display: flex;
+  /* /* align-items: center; */
+  flex-wrap: wrap; 
+  /* display: flex; */
   height: 100%;
 }
 
