@@ -390,11 +390,8 @@ export default function HomeServiceAnimation() {
       <div className="section-head style2 text-center pt-5 mb-3 homeservice-heading wow fadeInUp" data-wow-delay="0.6s">
         <h2 className="title m-b10">Our Services</h2>
         <p>
-          Our team has rich experience and technical mastery to develop
-          tailor-made, agile solutions offering the best features with enhanced
-          user experience to meet your brand’s objectives. Repute delivers the
-          best solutions to facilitate your customers to have a joyful and
-          memorable digital experience.
+        Zing Studio offers comprehensive branding solutions, including web design, digital marketing, and brand identity development. We combine creativity with strategy to deliver impactful, cost-effective solutions that help businesses grow. Explore our services to see how we can elevate your brand.
+
         </p>
       </div>
       <main className="main ">

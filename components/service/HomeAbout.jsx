@@ -17,12 +17,13 @@ export default function HomeAbout() {
               {/* </div> */}
               <div className="section-head style2">
                 <h2 className="title">
-                Turning businesses like yours into success stories like these.
+                Delivering cost-effective digital solutions
                   {/* <br />
                  success stories like these. */}
                 </h2>
                 <p>
-                Get customized solutions based on your business goals – no matter your size or industry. With successful clients ranging from small businesses to Fortune 1000s, you’re in good company.
+                Zing Studio is a leading branding firm offering a full spectrum of services, including web design, digital marketing, and specialized digital marketing training through Zing Academy. Dedicated to delivering exceptional services at highly competitive and cost-effective rates, Zing Studio empowers businesses to enhance their online presence while equipping individuals with the skills required to excel in the digital marketing landscape. Our commitment to quality, innovation, and affordability makes Zing Studio a trusted partner for both organizational growth and professional development.
+
                 </p>
               </div>
               <Link
@@ -47,7 +48,7 @@ export default function HomeAbout() {
             <div className="radius-sm m-b30 img-ho1">
               <Image
                 alt=""
-                src="/images/about/pic11.jpg"
+                src="/images/about/slide13-person.png"
                 width="600"
                 height="722"
               />
