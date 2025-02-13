@@ -1063,36 +1063,36 @@ export const services11 = [
   {
     id: 149,
     iconClass: "flaticon-robot-arm",
-    title: "Plastics Institute",
+    title: "Cost-Effective Solutions",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing sed diam nibh euismod..",
+      "Delivering superior services at highly competitive rates, ensuring maximum value without compromising on quality.",
     wowClass: "fadeInLeft",
     wowDelay: "0.3s",
   },
   {
     id: 150,
     iconClass: "flaticon-factory-1",
-    title: "Institute of Packaging",
+    title: "Comprehensive Services",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing sed diam nibh euismod..",
+      "Offering a full spectrum of services, including web design, digital marketing, and branding.",
     wowClass: "fadeInDown",
     wowDelay: "0.3s",
   },
   {
     id: 151,
     iconClass: "flaticon-fuel-station",
-    title: "Merchants Chamber",
+    title: "Expert Team",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing sed diam nibh euismod..",
+      "A team of industry experts employing innovative strategies backed by extensive experience to drive measurable results.",
     wowClass: "fadeInRight",
     wowDelay: "0.3s",
   },
   {
     id: 152,
     iconClass: "flaticon-conveyor-1",
-    title: "Chemical Council",
+    title: "Tailored Strategies",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing sed diam nibh euismod..",
+      "Crafting tailored solutions that align with each client's specific business goals to ensure optimal outcomes.",
     wowClass: "fadeInLeft",
     wowDelay: "0.3s",
   },
@@ -1108,12 +1108,23 @@ export const services11 = [
   {
     id: 154,
     iconClass: "flaticon-robot-arm",
-    title: "Industries Association",
+    title: "Innovation-Driven",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing sed diam nibh euismod..",
+      "Staying at the forefront of digital trends to help clients maintain a competitive edge in a rapidly evolving landscape.",
     wowClass: "fadeInRight",
     wowDelay: "0.3s",
   },
+  {
+    id: 155,
+    iconClass: "flaticon-robot-arm",
+    title: "End-to-End Support",
+    description:
+      "Providing continuous assistance and proactive solutions, ensuring sustained success and long-term growth for clients.",
+    wowClass: "fadeInRight",
+    wowDelay: "0.3s",
+  },
+  
+
 ];
 
 export const services12 = [
