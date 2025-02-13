@@ -129,66 +129,126 @@ export default function StudentsJourney() {
         },
       ]
   return (
+    // <div
+    //   className="section-full content-inner bg-gray scrollSpySection"
+    //   id="services"
+    // >
+    //   <div className="container">
+    //     <div className="section-head text-black text-center">
+    //       <h2 className="title">Student Journey at Zing Studio</h2>
+    //       <p>
+    //         Lorem Ipsum is simply dummy text of the printing and typesetting
+    //         industry has been the industry's standard dummy text ever since the
+    //         been when an unknown printer.
+    //       </p>
+    //     </div>
+    //     <div className="row students-journey">
+    //       {services10.map((service, index) => (
+    //         <div
+    //           key={index}
+    //           className={`col-lg-4 col-md-6 col-sm-12 m-b30 wow ${service.animation} d-flex`}
+    //           data-wow-duration="2s"
+    //           data-wow-delay={service.delay}
+    //         >
+    //           <div className="icon-bx-wraper bx-style-1 p-a30 center fly-box bg-white d-flex flex-column h-100 w-100">
+    //             {/* Icon Section */}
+    //             <div className="icon-lg m-b20">
+    //               <Link href={`/services-details/${service.title}`} className="icon-cell">
+    //                 <Image
+    //                   alt={service.title}
+    //                   src={service.imgSrc}
+    //                   width={70}
+    //                   height={70}
+    //                   style={{ objectFit: "contain" }}
+    //                 />
+    //               </Link>
+    //             </div>
+
+    //             {/* Content Section */}
+    //             <div className="icon-content flex-grow-1 d-flex flex-column">
+    //               <h5
+    //                 className="dlab-tilte text-uppercase"
+    //                 dangerouslySetInnerHTML={{ __html: service.title }}
+    //               ></h5>
+
+    //               <ul className="list-arrow flex-grow-1">
+    //                 {service?.list?.map((item, index) => (
+    //                   <li className="text-left" key={index}>{item}</li>
+    //                 ))}
+    //               </ul>
+
+                 
+    //             </div>
+    //           </div>
+    //         </div>
+    //       ))}
+    //     </div>
+
+
+    //   </div>
+    // </div>
+
     <div
-      className="section-full content-inner bg-gray scrollSpySection"
-      id="services"
-    >
-      <div className="container">
-        <div className="section-head text-black text-center">
-          <h2 className="title">Student Journey at Zing Studio</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry has been the industry's standard dummy text ever since the
-            been when an unknown printer.
-          </p>
-        </div>
-        <div className="row students-journey">
-          {services10.map((service, index) => (
-            <div
-              key={index}
-              className={`col-lg-4 col-md-6 col-sm-12 m-b30 wow ${service.animation} d-flex`}
-              data-wow-duration="2s"
-              data-wow-delay={service.delay}
-            >
-              <div className="icon-bx-wraper bx-style-1 p-a30 center fly-box bg-white d-flex flex-column h-100 w-100">
-                {/* Icon Section */}
-                <div className="icon-lg m-b20">
-                  <Link href={`/services-details/${service.title}`} className="icon-cell">
-                    <Image
-                      alt={service.title}
-                      src={service.imgSrc}
-                      width={70}
-                      height={70}
-                      style={{ objectFit: "contain" }}
-                    />
-                  </Link>
-                </div>
+    className="section-full content-inner bg-gray scrollSpySection"
+    id="services"
+  >
+    <div className="container">
+      <div className="section-head text-black text-center">
+        <h2 className="title">Student Journey at Zing Studio</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry has been the industry's standard dummy text ever since the
+          been when an unknown printer.
+        </p>
+      </div>
+      <div className="row students-journey">
+        {services10.map((service, index) => (
+          <div
+            key={index}
+            className={` m-b30 wow ${service.animation}`}
+            data-wow-duration="2s"
+            data-wow-delay={service.delay}
+          >
+            <div className="icon-bx-wraper bx-style-1 center  h-100 w-100">
+              {/* Icon Section */}
+              <div className="icon-lg m-b20 d-flex gap-3 align-item-center" style={{width:"auto"}}>
+                <Link href={`/services-details/${service.title}`} className="icon-cell">
+                  <Image
+                    alt={service.title}
+                    src={service.imgSrc}
+                    width={70}
+                    height={70}
+                    style={{ objectFit: "contain" }}
+                  />
+                </Link>
+                <h5
+                  className="dlab-tilte text-uppercase text-left pt-3 pb-3"
+                  dangerouslySetInnerHTML={{ __html: service.title }}
+                ></h5>
+              </div>
 
-                {/* Content Section */}
-                <div className="icon-content flex-grow-1 d-flex flex-column">
-                  <h5
-                    className="dlab-tilte text-uppercase"
-                    dangerouslySetInnerHTML={{ __html: service.title }}
-                  ></h5>
+              {/* Content Section */}
+              <div className="icon-content flex-grow-1 d-flex flex-column">
+               
 
-                  <ul className="list-arrow flex-grow-1">
-                    {service?.list?.map((item, index) => (
-                      <li className="text-left" key={index}>{item}</li>
-                    ))}
-                  </ul>
+                <ul className="list-arrow flex-grow-1">
+                  {service?.list?.map((item, index) => (
+                    <li className="text-left" key={index}>{item}</li>
+                  ))}
+                </ul>
 
-                  {/* Button (if needed, placed at bottom) */}
-                  {/* <Link href={`/services-details/${service.title}`} className="site-button btnhover19 mt-auto">
-                    Site Button
-                  </Link> */}
-                </div>
+                {/* Button (if needed, placed at bottom) */}
+                {/* <Link href={`/services-details/${service.title}`} className="site-button btnhover19 mt-auto">
+                  Site Button
+                </Link> */}
               </div>
             </div>
-          ))}
-        </div>
-
-
+          </div>
+        ))}
       </div>
+
+
     </div>
+  </div>
   );
 }

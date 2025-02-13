@@ -51,6 +51,7 @@ const images = [
       ],
       description:"A power-packed internship experience tailored for college students. Work on live projects, apply digital marketing concepts, and build your portfolio.",
       price:"₹3,000",
+      duration:" 10 Days",
        link:"zing-digital-marketing-mastery"
 
       
@@ -185,12 +186,12 @@ export default function Course() {
                               </a>
                             </h4>
                           </div>
-                          {/* <div className="ow-post-meta">
+                          <div className="ow-post-meta">
                             <ul>
                               <li className="post-date">{elm.mode}</li>
                               <li className="post-comment">{elm.duration}</li>
                             </ul>
-                          </div> */}
+                          </div>
                           <div className="ow-post-text">{elm.description}</div>
                           <div className="ow-post-readmore d-flex justify-content-between">
                             <h4 className="mb-0">{elm.price}</h4>
