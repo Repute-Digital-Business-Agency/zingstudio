@@ -3,7 +3,41 @@ import { slides } from "@/data/heroSlides";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
-export default function Hero() {
+export default function HomeHero() {
+    const slides = [
+        {
+          backgroundImage: "/images/Home-Page/our-work-img-1.jpg",
+          content1: "Prade Jewels",
+          content2: "Prade Jewels",
+        },
+        {
+          backgroundImage: "/images/Home-Page/our-works-img-2.jpg",
+          content1: "KPRMill",
+          content2: "KPRMill",
+        },
+        {
+          backgroundImage: "/images/Home-Page/our-works-img-3.jpg",
+          content1: "OMI Pumps ",
+          content2: "OMI Pumps",
+        },
+        {
+          backgroundImage: "/images/Home-Page/our-works-img-4.jpg",
+          content1: "Tirumalai Textiles ",
+          content2: "Tirumalai Textiles",
+        },
+        {
+          backgroundImage: "/images/Home-Page/our-works-img-5.jpg",
+          content1: "Karpagam College of Engineering",
+          content2: "Karpagam College of Engineering",
+        },
+        {
+          backgroundImage: "/images/Home-Page/our-work-img-6.jpg",
+          content1: "Filmode Fashions",
+          content2: "Filmode Fashions",
+        },
+        
+      ];
+      
   const handleProjectHover = (index) => {
     document.querySelectorAll(".swiper-hover .swiper-slide").forEach((el) => {
       el.classList.remove("active");
@@ -22,11 +56,9 @@ export default function Hero() {
               data-wow-duration="2s"
               data-wow-delay="0.2s"
             >
-              <h1 className="dz-title fw-bold position-relative">
-                Result-driven, affordable digital marketing solutions
-                {/* Drive more
-                sales and achieve scalable growth for your business */}
-              </h1>
+             <div className="section-head style2 text-center">
+             <h2 className="title m-b10" style={{textDecoration:"underline", textAlign:"left"}}>Our Works</h2>
+             </div>
             </div>
             <div
               className="col-lg-4 wow fadeIn"
@@ -34,9 +66,7 @@ export default function Hero() {
               data-wow-delay="0.2s"
             >
               <p>
-                In today’s fast-paced digital world, more and more people are
-                turning to online platforms to shop, discover new brands, and
-                tackle their everyday challenges.
+              Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions. Explore our portfolio to see how we elevate brands.
                 {/* A well-planned marketing
                 campaign is what you need to position your online business
                 exactly where you want it to be and distinguish yourself. */}
@@ -48,13 +78,13 @@ export default function Hero() {
                 >
                   Get a Free Consultation
                 </Link>
-                <Link
+                {/* <Link
                   href={`/contact`}
                   className="site-button outline outline-2 text-decoration-none ms-3 "
                   style={{ color: "#1a43bf " }}
                 >
                   Case Study
-                </Link>
+                </Link> */}
                 {/* <a href="#">
                   Learn More
                   <svg

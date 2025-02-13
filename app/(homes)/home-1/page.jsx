@@ -21,7 +21,8 @@ import ZingAcademy from "@/components/service/ZingAcademy";
 import CourseModulesHome from "@/components/service/CourseModulesHome";
 import HomeAmazing from "@/components/service/HomeAmazing";
 import Home from "@/app/page";
-import HomeHero from "@/components/homes/home-18/Hero";
+import HomeHero from "@/components/service/HomeHero";
+
 
 export const metadata = {
   title: "Home || Zing Studio",
