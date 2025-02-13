@@ -18,6 +18,8 @@ import Academy from "@/components/service/Academy";
 import Am_a_ZingPar from "@/components/service/Amazingparallax";
 import HomeAbout from "@/components/service/HomeAbout";
 import ZingAcademy from "@/components/service/ZingAcademy";
+import CourseModulesHome from "@/components/service/CourseModulesHome";
+
 
 export const metadata = {
   title: "Home || Zing Studio",
@@ -57,7 +59,9 @@ export default function page() {
           {/* scroll effect academy section component */}
 
           <div >
-          <ZingAcademy/>
+          {/*<ZingAcademy/>*/}
+          
+ <CourseModulesHome/>
           </div>
 
           {/* scroll effect academy section component */}

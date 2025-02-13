@@ -67,9 +67,8 @@ export default function Projects2() {
         <div className="section-head style2 text-center">
           <h2 className="title m-b10">Our Works</h2>
           <p>
-            There are many variations of passages of Lorem Ipsum typesetting
-            industry has been the industry's standard dummy text ever since the
-            been when an unknown printer.
+          Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions. Explore our portfolio to see how we elevate brands.
+
           </p>
         </div>
         {/* <div className="row">

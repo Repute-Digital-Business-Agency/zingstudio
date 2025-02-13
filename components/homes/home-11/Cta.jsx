@@ -10,10 +10,10 @@ export default function Cta() {
       <div className="container">
         <div className="row">
           <div className="col-lg-9 text-white">
-            <h2 className="title">Amazing things happen to your business</h2>
+            <h2 className="title">Advance Your Digital Marketing Skills            </h2>
             <p className="m-b0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+            Join Zing Academy for industry-focused, hands-on training designed to equip you with the expertise needed to succeed. Enroll today and take the next step in your career.
+
             </p>
           </div>
           <div className="col-lg-3 d-flex">
