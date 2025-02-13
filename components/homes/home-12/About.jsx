@@ -14,8 +14,8 @@ export default function About() {
             <div className="our-story">
               <span>OUR STORY</span>
               <h2 className="title">
-                Running a <br />
-                successful business <br />
+              Delivering cost-effective digital solutions
+              <br />
                 <span className="text-primary">since 1955</span>
               </h2>
               <h4 className="title">
@@ -23,11 +23,8 @@ export default function About() {
                 with the optimization.
               </h4>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                Factory. Lorem Ipsum has been the Factory's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book.Lorem Ipsum
-                is simply dummy text of the printing and typesetting Factory.
+              Zing Studio is a leading branding firm offering a full spectrum of services, including web design, digital marketing, and specialized digital marketing training through Zing Academy. Dedicated to delivering exceptional services at highly competitive and cost-effective rates, Zing Studio empowers businesses to enhance their online presence while equipping individuals with the skills required to excel in the digital marketing landscape. Our commitment to quality, innovation, and affordability makes Zing Studio a trusted partner for both organizational growth and professional development.
+
               </p>
               <Link href={`/about-2`} className="site-button btnhover20">
                 About Us
@@ -49,6 +46,51 @@ export default function About() {
           </div>
         </div>
       </div>
+      <div class="container">
+        <h4>Timeline Style : Demo-5</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="main-timeline5">
+                    <div class="timeline">
+                        <div class="timeline-icon"><span class="year">2018</span></div>
+                        <div class="timeline-content">
+                            <h3 class="title">Web Desginer</h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-icon"><span class="year">2017</span></div>
+                        <div class="timeline-content">
+                            <h3 class="title">Web Developer</h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-icon"><span class="year">2016</span></div>
+                        <div class="timeline-content">
+                            <h3 class="title">Web Desginer</h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-icon"><span class="year">2015</span></div>
+                        <div class="timeline-content">
+                            <h3 class="title">Web Developer</h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi ultrices, luctus nunc ut, commodo enim. Vivamus sem erat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
   );
 }

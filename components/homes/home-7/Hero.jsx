@@ -7,21 +7,31 @@ import "swiper/css";
 const slidesData = [
   {
     backgroundImage:
-      'url("/images/Home-Page/zing-banner-web-design.jpg") center center no-repeat',
-    subTitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    title: "<span style='color: #c21807'>Web Design</span><br/>Lorem Ipsum is simply",
+      'url("/images/Home-Page/banner-img-studio.jpg") center center no-repeat',
+    subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
+    title: "<span style='color: #c21807'>ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact",
     description:
-      "Empowering your business with seamless eCommerce solutions.From store setup to optimized sales, we’ve got you covered.Grow your online brand and reach customers worldwide.",
+      "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
+    buttonLabel: "BUY & VIEW SERVICES",
+    link:"/about"
+  },
+  {
+    backgroundImage:
+      'url("/images/Home-Page/zing-banner-web-design.jpg") center center no-repeat',
+    subTitle: "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
+    title: "<span style='color: #c21807'>WEB DESIGN </span><br/>Smart, sleek, and user-focused",
+    description:
+      "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "BUY & VIEW SERVICES",
     link:"/web-design-service"
   },
   {
     backgroundImage:
       'url("/images/Home-Page/zing-banner-digital marketing.jpg") center center no-repeat',
-    subTitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    title: "<span style='color: #c21807'>Digital Marketing</span><br/> Lorem Ipsum is simply",
+    subTitle: "Empowering brands with data-driven digital marketing strategies for impactful online growth.",
+    title: "<span style='color: #c21807'>DIGITAL MARKETING </span><br/> Fueling brand growth digitally",
     description:
-      "Empowering your business with seamless eCommerce solutions.From store setup to optimized sales, we’ve got you covered.Grow your online brand and reach customers worldwide.",
+      "Empowering brands with data-driven digital marketing strategies for impactful online growth.",
     buttonLabel: "BUY & VIEW SERVICES",
     link:"/web-design-service"
   },
@@ -29,11 +39,11 @@ const slidesData = [
     backgroundImage:
       'url("/images/Home-Page/zing-banner-acadmy.jpg") center center no-repeat',
     subTitle:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Shaping future entrepreneurs and skilled professionals through educational excellence.",
     title:
-      "<span style='color: #c21807'>Zing Academy</span><br/>Lorem Ipsum is simply",
+      "<span style='color: #c21807'>ZING ACADEMY</span><br/>Transforming students into professionals",
     description:
-      "Crafting stunning, user-friendly websites tailored to your needs.From design to launch, we deliver seamless digital experiences.Your online presence, built to captivate and convert.",
+      "Shaping future entrepreneurs and skilled professionals through educational excellence.",
     buttonLabel: "BUY & VIEW SERVICES",
     link:"/digital-marketing-service"
   },
