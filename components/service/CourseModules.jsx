@@ -52,7 +52,7 @@ const images = [
       description:"A power-packed internship experience tailored for college students. Work on live projects, apply digital marketing concepts, and build your portfolio.",
       price:"₹3,000",
       duration:" 10 Days",
-       link:"zing-digital-marketing-mastery"
+       link:"zing-launchpad-student-internship-program"
 
       
     },
@@ -68,7 +68,7 @@ const images = [
       description:"A fast-track, beginner-friendly program covering the core aspects of digital marketing. Perfect for those looking to get a strong foundation in the field.",
       duration:" 15 Days",
       price:"₹7,000",
-       link:"zing-digital-marketing-mastery"
+       link:"zing-digital-sprint-essentials-of-marketing"
 
       
   },
@@ -84,7 +84,7 @@ const images = [
     description:"Discover how AI is revolutionizing digital marketing! Learn to use AI-powered tools for better decision-making, automation, and campaign optimization.",
     duration:"5 Days",
     price:"₹7,000",
-     link:"zing-digital-marketing-mastery"
+     link:"zing-ai-in-digital-marketing"
 
 
   },
@@ -101,7 +101,7 @@ const images = [
     description:"Learn how to turn followers into fans and likes into leads with a strategic social media approach. Master Instagram, LinkedIn, Facebook, and YouTube while uncovering monetization secrets.",
     duration:" 4 Weeks",
     price:"₹10,000",
-     link:"zing-digital-marketing-mastery"
+     link:"zing-social-media-mastery"
 
     
   },
@@ -117,7 +117,7 @@ const images = [
     description:"Unlock the power of SEO and get your content ranking at the top of Google! From keyword research to technical SEO and e-commerce optimization, this course is your ultimate guide to search success.",
     duration:"4 Weeks",
     price:"₹5,000",
-     link:"zing-digital-marketing-mastery"
+     link:"zing-seo-supercharger"
 
     
   },  
@@ -133,7 +133,7 @@ const images = [
     description:"Master the science of paid ads and learn how to maximize ROI from your campaigns. Cover Google, Facebook, Instagram, and LinkedIn ads while mastering conversion tracking and budget optimization.",
     duration:"8 Weeks",
     price:"₹15,000",
-     link:"zing-digital-marketing-mastery"
+     link:"zing-adSense-ace"
 
     
   },
@@ -149,7 +149,7 @@ const images = [
     description:" Create words that sell, stories that engage, and content that converts! Learn content psychology, persuasive writing, SEO blogging, and email marketing to craft compelling narratives.",
     duration:"4 Weeks",
     price:"₹10,000",
-     link:"zing-digital-marketing-mastery"
+     link:"zing-copywriting-&-content-mastery"
 
     
   },
@@ -181,7 +181,7 @@ export default function Course() {
                         <div className="ow-post-info">
                           <div className="ow-post-title">
                             <h4 className="post-title">
-                              <a href="#" title="Video post">
+                              <a href={elm.link} title="Video post">
                                 {elm.title}
                               </a>
                             </h4>
