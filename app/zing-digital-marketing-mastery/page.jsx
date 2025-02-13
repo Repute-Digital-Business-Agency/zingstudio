@@ -28,6 +28,7 @@ import ToolsLearning from "@/components/service/ToolsLearning";
 import SucessStories from "@/components/service/SucessStories";
 import CourseProgramFaq from "@/components/service/CourseProgramFaq";
 import StudentsJourney2 from "@/components/service/StudentsJourney2";
+import StudentsJourney3 from "@/components/service/StudentsJourney3";
 export const metadata = {
   title: "Academy || Zing Studio",
   description: "Industry - Factory & Industrial React Nextjs Template",
@@ -65,12 +66,16 @@ export default function page() {
         <div >
           <CourseDetails/>
           </div>
-        {/* <StudentsJourney/> */}
-        <div  
+        <StudentsJourney/>
+        
+        {/* <div  
         style={{padding:"100px 0 50px 0"}}
         >
         <StudentsJourney2/>
-        </div>
+
+        <StudentsJourney3/>
+
+        </div> */}
       
         
         {/* <div className="section-full content-inner mb-4"> */}
