@@ -13,10 +13,10 @@ import Footer13 from "@/components/footers/Footer13";
 import Cta from "@/components/homes/home-13/Cta";
 import Insights from "@/components/service/Insights";
 import LiveProjects from "@/components/service/liveProjects";
-import ZingAcademyHero from "@/components/service/zingAcademyHero";
 import CourseModules from "@/components/service/CourseModules";
 import BrandCaseStudy from "@/components/service/BrandCaseStudy";
 import ZingAcademyCta from "@/components/service/ZingAcademyCta";
+import ZingAcademyCourseHero from "@/components/service/zingAcademyCourseHero";
 export const metadata = {
   title: "Academy || Zing Studio",
   description: "Industry - Factory & Industrial React Nextjs Template",
@@ -26,7 +26,7 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-         <ZingAcademyHero/>
+         <ZingAcademyCourseHero/>
          <div
               className="section-full content-inner-2  wow fadeIn"
               data-wow-duration="2s"

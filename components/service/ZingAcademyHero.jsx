@@ -43,7 +43,7 @@ const slides = [
   },
 ];
 
-export default function zingAcademyHero() {
+export default function ZingAcademyHero() {
   return (
     <div className="dz-industry2-zone position-relative">
       {/* <Swiper
