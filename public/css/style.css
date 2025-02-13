@@ -18095,5 +18095,23 @@ color: #ffff;
   /* background-color: white; */
 }
 
+.courseLearnig .apply-btn {
+   position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #c21908;
+  color: white;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s; 
+  z-index: 2000;
+}
+
+.courseLearnig .apply-btn:hover {
+  background: #c21908;
+}
+
 
 

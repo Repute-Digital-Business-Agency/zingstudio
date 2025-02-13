@@ -7,13 +7,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 export default function GuestLectures() {
   return (
-    <>
-      
 
-      <div className="bg-white team-box-area">
+      <div className="bg-gray team-box-area pb-5 pt-5">
     
         {/* Team Section Style 3 */}
-        <div className="section-full bg-white content-inner">
+        <div className="section-full content-inner">
           <div className="container">
           <div className="section-head style2 text-center ">
                     <h2 className="title">Celebrity Trainers</h2>
@@ -86,6 +84,6 @@ export default function GuestLectures() {
         {/* Team Section Style 3 End */}
         
       </div>
-    </>
+  
   );
 }

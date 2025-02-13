@@ -23,6 +23,10 @@ import CourseDetails from "@/components/service/CourseDetails";
 import Projects2 from "@/components/homes/home-5/Projects2";
 import GuestLectures from "@/components/service/GuestLectures";
 import WhosThisCourseFor from "@/components/service/Who'sThisCourseFor";
+import CourseLearning from "@/components/service/CourseLearning";
+import ToolsLearning from "@/components/service/ToolsLearning";
+import SucessStories from "@/components/service/SucessStories";
+import CourseProgramFaq from "@/components/service/CourseProgramFaq";
 export const metadata = {
   title: "Academy || Zing Studio",
   description: "Industry - Factory & Industrial React Nextjs Template",
@@ -63,18 +67,30 @@ export default function page() {
         <StudentsJourney/>
         
         {/* <div className="section-full content-inner mb-4"> */}
-        <BrandCaseStudy/>
+        {/* <BrandCaseStudy/> */}
         {/* </div> */}
 
-        <GuestLectures/>
-
+       
+        <CourseLearning/>
         <WhosThisCourseFor/>
+       
 
-      <div className="mb-5">
-      <Projects2 />
-      </div>
-        
-        
+      
+        <LiveProjects/>
+      
+    
+      <GuestLectures/>
+      
+      
+      <ToolsLearning/>
+      
+      
+      <SucessStories/>
+    
+      <div  style={{marginBottom:"100px", marginTop:"50px"}}>
+        <CourseProgramFaq/>
+        </div>
+
         <ZingAcademyCta/>
         {/* <Footer2 contactSection="true" /> */}
         <Footer13 />

@@ -61,9 +61,9 @@ export default function zingAcademyHero() {
       > */}
         {/* {slides.map((slide, index) => ( */}
           <div className="swiper-slide">
-            <div className="silder-img overlay-black-middle">
+            <div className="silder-img ">
               <Image
-                src="/images/main-slider/pic1.jpg"
+                src="/images/Academy/banner/banner-bg-img.jpg"
                 width={1920}
                 height={720}
                 data-swiper-parallax="30%"
@@ -71,8 +71,8 @@ export default function zingAcademyHero() {
               />
             </div>
             <div className="silder-content">
-              <h1 className="title fw-semibold">We Are Industry Factory Solutions</h1>
-              <p className="m-b30">Find the comfiest and most suitable suits for your outdoor activities from head to toe</p>
+              <h1 className="title fw-semibold text-dark">We Are Industry Factory Solutions</h1>
+              <p className="m-b30 text-dark">Find the comfiest and most suitable suits for your outdoor activities from head to toe</p>
               <div className="dz-btns d-flex align-items-center">
                 <Link
                   href="/services-1"
@@ -80,9 +80,9 @@ export default function zingAcademyHero() {
                 >
                   Read More
                 </Link>
-                <Link href="/about-1" className="text-white">
+                {/* <Link href="/about-1" className="text-dark">
                   About Us
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
