@@ -35,7 +35,7 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <div className="page-content bg-white " >
+        <div className="page-content bg-white pb-0" >
           <Hero />
           {/* <div className="content-block p-t50 p-b50 bg-gray">
             <ClientSlider />
@@ -57,8 +57,8 @@ export default function page() {
 
           <CourseModulesHome/>
           
-          {/* <Am_a_Zing/>         */}
-          <HomeAmazing/>
+          <Am_a_Zing/>        
+          {/* <HomeAmazing/> */}
           
           
             {/* normal  academy section component */}
