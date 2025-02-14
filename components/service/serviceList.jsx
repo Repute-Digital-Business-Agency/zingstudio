@@ -12,7 +12,7 @@ const ServiceList = ({data,head}) => {
             <div className="row">
               <div className="col-lg-12 ">
                 <div className="sort-title clearfix text-center">
-                  <h4>{head}</h4>
+                  <h2>{head}</h2>
                 </div>
                 {/* Pricing table-1 Columns 3 with gap */}
                 <div className="section-content box-sort-in button-example p-tb50">
@@ -28,8 +28,8 @@ const ServiceList = ({data,head}) => {
                                    <span className="pricingtable-bx">₹{data.price}</span>
                                    
                                  </div>
-                                 <div className="pricingtable-title bg-primary "  style={{padding:"0px"}} >
-                                   <h2 style={{fontSize:"22px"}}>{data.title}</h2>
+                                 <div className="pricingtable-title service-titlebg"  style={{padding:"0px"}} >
+                                   <h4 className="service-price-cost">{data.title}</h4>
                                  </div>
                                  <ul className="pricingtable-features " >
                                      {data?.list?.map((item)=>(
@@ -42,7 +42,7 @@ const ServiceList = ({data,head}) => {
                                  </ul>
                                  
                                  <div className="pricingtable-footer ">
-                                   <a href="/contact" className="site-button outline outline-2 btnhover11">
+                                   <a href="/contact" className="site-button m-r10 m-b10 btnhover20 btn-danger">
                                      Buy Now
                                    </a>
                                  </div>

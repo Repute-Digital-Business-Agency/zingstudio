@@ -75,7 +75,7 @@ export default function ZingAcademyCourseHero() {
               <p className="m-b30 text-dark">Zing Academy – Master Digital Marketing with Industry Experts! </p>
               <div className="dz-btns d-flex align-items-center">
                 <Link
-                  href="/services-1"
+                  href="/careers/"
                   className=" m-0 text-decoration-none text-white"
                   style={{
                     background:"#c83020"
@@ -83,11 +83,11 @@ export default function ZingAcademyCourseHero() {
                 >
                   Free Career Counselling
                 </Link>
-                <Link href="/about-1" className="text-dark"
+                <Link href="/contact" className="text-dark"
                 style={{
                   border:"1px solid #c83020"
                 }}>
-                Explore Courses
+               Connect Us
                 </Link>
               </div>
             </div>
