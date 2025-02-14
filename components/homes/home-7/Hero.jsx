@@ -33,7 +33,7 @@ const slidesData = [
     description:
       "Empowering brands with data-driven digital marketing strategies for impactful online growth.",
     buttonLabel: "BUY & VIEW SERVICES",
-    link:"/web-design-service"
+    link:"/digital-marketing-service"
   },
   {
     backgroundImage:
@@ -45,7 +45,7 @@ const slidesData = [
     description:
       "Shaping future entrepreneurs and skilled professionals through educational excellence.",
     buttonLabel: "BUY & VIEW SERVICES",
-    link:"/digital-marketing-service"
+    link:"/zing-academy"
   },
 ];
 

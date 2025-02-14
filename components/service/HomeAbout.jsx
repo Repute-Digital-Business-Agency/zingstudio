@@ -111,18 +111,18 @@ export default function HomeAbout() {
                 </p>
               </div>
               <Link
-                href={`/portfolio`}
+                href={`/about`}
                 className="site-button m-r10 m-b10 btnhover20"
                 style={{background:"#e21100"}}
               >
-                View Portfolio
+                Know More
               </Link>
-              <Link
+              {/* <Link
                 href={`/about`}
                 className="site-button black m-b10 btnhover20"
               >
                 About Us
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ html {
 
 body {
   background-color: #fff;
-  font-family: "Manrope", Sans-serif;
+  font-family: "Euclid Circular";
   font-size: 16px;
   font-weight: 400;
   color: #494949;
@@ -33,18 +33,18 @@ body {
 }
 
 p {
-  font-size: 16px !important;  font-family: "Manrope", Sans-serif;
+  font-size: 16px !important;  font-family: "Euclid Circular" ; font-weight: 500;
 }
 div {
-  font-size: 16px !important;  font-family: "Manrope", Sans-serif;
+  font-size: 16px !important;  font-family: "Euclid Circular";
 }
 
 ul li {
-  font-size: 16px !important; font-family: "Manrope", Sans-serif;
+  font-size: 16px !important; font-family: "Euclid Circular";
 }
 
 ul li a {
-  font-size: 16px !important; font-family: "Manrope", Sans-serif;
+  font-size: 16px !important; font-family: "Euclid Circular";
 }
 footer ul li a{
   font-size: 14px !important;
@@ -55,7 +55,7 @@ footer .list-2 li a{
 a {
   color: var(--color-primary);
   outline: 0 none;
-  text-decoration: none; font-family: "Manrope", Sans-serif;
+  text-decoration: none; font-family: "Euclid Circular";
 }
 
 a:hover,
@@ -213,7 +213,7 @@ h5,
 h6 {
   color: #232323;
   /* font-family: "Poppins", sans-serif;*/
-  font-family: 'vve-giallo-regulauploadedfile' !important;
+  font-family: 'Euclid Circular' !important;
 }
 
 
@@ -16587,7 +16587,7 @@ ol.commentlist li .star-rating {
 }
 
 .our-story h2.title span {
-  font-family: "vve-giallo-regulauploadedfile";
+  font-family: "Euclid Circular";
   /* font-style: italic; */
   font-size: 40px;
 }
@@ -17717,7 +17717,7 @@ color: #ffff;
 }
 
 @font-face {
-  font-family: 'vve-giallo-regulauploadedfile';
+  font-family: 'Euclid Circular';
   src: url('/fonts/vve-giallo-regular-webfont.woff2') format('woff2'),
     url('/fonts/vve-giallo-regular-webfont.woff') format('woff');
   font-weight: normal;
@@ -17726,11 +17726,11 @@ color: #ffff;
 }
 
 .slider-content .inner.sliderStyle7 .subTitle1 {
-  font-family: 'vve-giallo-regulauploadedfile' !important;
+  font-family: 'Euclid Circular' !important;
 }
 
 .slider-content .inner.sliderStyle7 button {
-  font-family: 'vve-giallo-regulauploadedfile' !important;
+  font-family: 'Euclid Circular' !important;
   font-weight: 800 !important;
 }
 

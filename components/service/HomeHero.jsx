@@ -6,38 +6,38 @@ import Link from "next/link";
 export default function HomeHero() {
     const slides = [
         {
-          backgroundImage: "/images/Home-Page/our-work-img-1.jpg",
+          backgroundImage: "/images/Home-Page/our-work/prade.jpg",
           content1: "Prade Jewels",
           content2: "Prade Jewels",
           link:"/portfolio"
         },
         {
-          backgroundImage: "/images/Home-Page/our-works-img-2.jpg",
+          backgroundImage: "/images/Home-Page/our-work/kpr-mill.jpg",
           content1: "KPRMill",
           content2: "KPRMill",
           link:"/portfolio"
         },
         {
-          backgroundImage: "/images/Home-Page/our-works-img-3.jpg",
+          backgroundImage: "/images/Home-Page/our-work/omi-pumps.jpg",
           content1: "OMI Pumps ",
           content2: "OMI Pumps",
           link:"/portfolio"
         },
         {
-          backgroundImage: "/images/Home-Page/our-works-img-4.jpg",
+          backgroundImage: "/images/Home-Page/our-work/tirumalai-tex.jpg",
           content1: "Tirumalai Textiles ",
           content2: "Tirumalai Textiles",
           link:"/portfolio"
         },
         {
-          backgroundImage: "/images/Home-Page/our-works-img-5.jpg",
+          backgroundImage: "/images/Home-Page/our-work/img-5.jpg",
           content1: "Karpagam College of Engineering",
           content2: "Karpagam College of Engineering",
           link:"/portfolio",
           
         },
         {
-          backgroundImage: "/images/Home-Page/our-work-img-6.jpg",
+          backgroundImage: "/images/Home-Page/our-work/img-6.jpg",
           content1: "Filmode Fashions",
           content2: "Filmode Fashions",
           link:"/portfolio"
@@ -84,10 +84,10 @@ export default function HomeHero() {
                 campaign is what you need to position your online business
                 exactly where you want it to be and distinguish yourself. */}
               </p>
-              <div className="dz-banner-btn d-flex align-items-center">
+              {/* <div className="dz-banner-btn d-flex align-items-center"> */}
                 <Link
                   href={`/portfolio`}
-                  className="btn btn-lg m-0 text-decoration-none"
+                  className="site-button btnhover20 text-decoration-none text-white"
                   style={{background:"#e21100"}}
                 >
                   View All
@@ -118,7 +118,7 @@ export default function HomeHero() {
                     />
                   </svg>
                 </a> */}
-              </div>
+              {/* </div> */}
             </div>
           </div>
         </div>
@@ -169,7 +169,7 @@ export default function HomeHero() {
               >
                 <div
                   className="dz-banner-media position-relative"
-                  style={{ backgroundImage: `url(${slide.backgroundImage})` }}
+                  style={{ backgroundImage: `url(${slide.backgroundImage})`, backgroundRepeat:"no-repeat", objectFit:"cover", width:"100%", height:"100%" }}
                 >
                   <div className="dz-media-content position-absolute">
                     <h3 className="m-0" style={{fontSize:"22px"}}>{slide.content1}</h3>
