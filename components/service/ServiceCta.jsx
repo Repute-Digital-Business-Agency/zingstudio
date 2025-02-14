@@ -12,12 +12,13 @@ export default function ServiceCta() {
           <div className="col-lg-9 text-white">
             <h2 className="title">Now sure which package is the best for you?</h2>
             <p className="m-b0">
-            Get a free and detailed consultation form and an ABS e-commerce website development expert. This 10-20 minutes phone call or video consultation will give us a better understanding of your requirements and help provide you with the best solution.
+            Get Expert Guidance on Web Design Packages, schedule a consultation with our experts at Zing Studio and find the perfect solution tailored to your business goals.
+
             </p>
           </div>
           <div className="col-lg-3 d-flex">
             <Link
-              href={`/contact-1`}
+              href={`/contact`}
               className="site-button btnhover13 white align-self-center outline ms-auto outline-2"
             >
               Book Free Consultation

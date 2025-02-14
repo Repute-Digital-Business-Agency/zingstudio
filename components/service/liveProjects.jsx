@@ -36,7 +36,7 @@ export default function LiveProjects() {
             <div className="service-box style2">
               <div>
                 <h2 className="title text-black">
-                  <span>Web </span> <br />
+                  <span>Web </span> 
                   Design
                 </h2>
                 <p>
@@ -81,7 +81,7 @@ export default function LiveProjects() {
                   Marketing
                 </h2>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe earum tenetur expedita, consequatur facilis voluptatibus hic sit, cumque assumenda 
+                Digital Marketing, Online Marketing, or Internet Marketing is the process of promoting your products, brand, or services online through one or more forms of electronic media. 
                 </p>
                 <Link
                   href={`/digital-marketing-service`}
@@ -127,7 +127,7 @@ export default function LiveProjects() {
                   around, robust and feature rich e-commerce website.
                 </p>
                 <Link
-                  href={`/e-commerce`}
+                  href={`/web-design-service`}
                   className="site-button outline white outline-2 btnhover11"
                 >
                   Read More
@@ -168,7 +168,7 @@ export default function LiveProjects() {
                   platforms offer a host os flexible and beneficial features...
                 </p>
                 <Link
-                  href={`/e-commerce`}
+                  href={`/web-design-service`}
                   className="site-button outline white outline-2 btnhover11"
                 >
                   Read More
