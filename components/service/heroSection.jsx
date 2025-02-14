@@ -67,13 +67,11 @@ export default function HeroSection({head,option}) {
               
             >
               <h3 className="title-box font-weight-300 m-t0 m-b10">
-                Let's Convert Your Idea into Reality
+              Let’s Bring Your Vision to Life!
                 <span className="bg-primary" />
               </h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the
+              Have questions or need expert help with web design, digital marketing, or branding? We’re here for you! Simply fill out the form below, and one of our team members will reach out to discuss how we can create something amazing together. We can’t wait to connect with you!
               </p>
               <div className="row">
                 <div className="col-lg-6 col-md-6">

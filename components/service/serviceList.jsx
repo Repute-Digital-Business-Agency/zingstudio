@@ -32,9 +32,11 @@ const ServiceList = ({data,head}) => {
                                    <h4 className="service-price-cost">{data.title}</h4>
                                  </div>
                                  <ul className="pricingtable-features " >
+                                  <li> <i className="fas fa-check" style={{fontSize:"18px", color:"#036042"}}/> </li>
+                                
                                      {data?.list?.map((item)=>(
                                           <li style={{fontSize:"16px"}}>
-                                          <i className="fas fa-check" style={{fontSize:"12px", color:"#1a43bf"}}/> {item}
+                                         {item}
                                         </li>
                                      ))}
                                      {length === 4 && <p >{data?.description}</p>} 

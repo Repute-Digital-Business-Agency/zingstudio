@@ -27,7 +27,8 @@ export default function page() {
           "Free Website Maintenance",
           "Free Images",
           "World Class Design & Approval",
-          "User Friendly Design"
+          "User Friendly Design",
+          "Responsive Design"   
          ],
            delay:"0.2s"
         },
