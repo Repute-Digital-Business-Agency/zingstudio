@@ -7,10 +7,11 @@ import Link from "next/link";
 
 export default function HomeService() {
   return (
-    <div className="section-full bg-white content-inner-1 project-area bg-img-fix centeredSlides HomeService" style={{ backgroundImage: "url(/images/elementbg/our-services-bg-element.png)", backgroundRepeat:"no-repeat", }}>
+    <div className="section-full bg-gray content-inner-1 project-area bg-img-fix centeredSlides HomeService pt-0 mb-0" >
+      <div className="container-fluid bg-gray" style={{ backgroundImage: "url(/images/elementbg/our-services-bg-element.png)", backgroundRepeat:"no-repeat"}}>
       <div className="container">
         <div
-          className="section-head text-dark style2 wow fadeInRight"
+          className="section-head text-dark style2 wow fadeInUp"
           data-wow-duration="2s"
           data-wow-delay="0.6s"
         >
@@ -152,7 +153,7 @@ export default function HomeService() {
                     {/* <span>{project.completionDate}</span> */}
                   </li>
                  
-                  <li className="text-whitebtn" >
+                  <li className="text-white btn" >
                     <Link href={`/web-design-service`} className="site-button btnhover20 m-t10" style={{padding:"8px 15px", fontWeight:"400", fontSize:"17px"}}>
                     View Service
                     </Link>
@@ -229,6 +230,8 @@ export default function HomeService() {
           
         </div>
       </div>
+      </div>
+     
     </div>
   );
 }

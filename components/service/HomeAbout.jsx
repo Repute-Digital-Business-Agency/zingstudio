@@ -67,11 +67,11 @@ import Image from "next/image";
 import Link from "next/link";
 export default function HomeAbout() {
   return (
-    <div className="section-full content-inner const-about" style={{ backgroundImage: "url(/images/elementbg/about-us-bg-element.png)", backgroundRepeat:"no-repeat", }}>
+    <div className="section-full content-inner const-about bg-gray" style={{ backgroundImage: "url(/images/elementbg/about-us-bg-element.png)", backgroundRepeat:"no-repeat", }}>
       <div className="container">
         <div className="row align-items-center">
           <div
-            className="col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInLeft"
+            className="col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInUp"
             data-wow-duration="2s"
             data-wow-delay="0.3s"
           >
@@ -85,11 +85,11 @@ export default function HomeAbout() {
             </div>
           </div>
           <div
-            className="col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInRight"
+            className="col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInUp"
             data-wow-duration="2s"
             data-wow-delay="0.6s"
           >
-            <div className="content-bx1">
+            <div className="content-bx1" style={{paddingLeft:"60px"}}>
               <div className="about-year">
                 <span>13</span>
                 <p>

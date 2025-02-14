@@ -159,12 +159,12 @@ const images2 = ["/images/banner/bnr5.jpg", "/images/banner/bnr4.jpg"];
 
 export default function CourseModulesHome() {
   return (
-    <div className="container pt-5" style={{ backgroundImage: "url(/images/elementbg/zing-acd-bg-element.png)", backgroundRepeat:"no-repeat", }}>
-      {/* blog grid */}
+    <div className="container-fluid bg-gray pt-5" style={{ backgroundImage: "url(/images/elementbg/zing-acd-bg-element.png)", backgroundRepeat:"no-repeat", }}>
+      <div className="container">
       <div id="masonry" className="dlab-blog-grid-3 row">
         <div className="section-head style2 text-center mb-0">
           <h2 className="title">Zing Academy</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+          <p>Zing Academy equips individuals with in-demand digital marketing skills through practical, hands-on training. Our programs are designed to be affordable, industry-relevant, and results-driven, helping learners build expertise and advance their careers. Join us and take the next step in your digital journey.</p>
         </div>
         {images.map((elm, i) => (
           <div
@@ -215,6 +215,9 @@ export default function CourseModulesHome() {
           </div>
         ))}
       </div>
+      </div>
+      {/* blog grid */}
+     
     </div>
   );
 }
