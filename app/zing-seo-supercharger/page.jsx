@@ -29,6 +29,7 @@ import SucessStories from "@/components/service/SucessStories";
 import CourseProgramFaq from "@/components/service/CourseProgramFaq";
 import StudentsJourney2 from "@/components/service/StudentsJourney2";
 import StudentsJourney3 from "@/components/service/StudentsJourney3";
+import StudentJourneynew from "@/components/service/StudentJourneynew";
 export const metadata = {
   title: "Academy || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -141,7 +142,8 @@ export default function page() {
         <div >
           <CourseDetails CourseTitle={CourseTitle} CourseDuration={CourseDuration} courseModule={courseModule}/>
           </div>
-        <StudentsJourney/>
+        {/* <StudentsJourney/> */}
+        <StudentJourneynew/>
         
         {/* <div  
         style={{padding:"100px 0 50px 0"}}

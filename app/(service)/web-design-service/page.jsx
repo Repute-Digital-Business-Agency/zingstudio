@@ -78,11 +78,22 @@ export default function page() {
       "Dynamic Site",
       "E-Commerce Site"
     ]
+    const bannerContent = {
+      caption:"High-performance website to strengthen your digital presence.",
+      subTitle:"Custom and scalable web development solutions designed to enhance user experience and drive business growth.",
+      list:[
+        "Navigable and functional websites, optimized to deliver desired results for your business.",
+        "A visually appealing, functional and conversion-focused website.",
+        "Custom-built static or dynamic CMS solutions tailored to your business needs."
+      ]
+    }
+      
+    
   return (
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <HeroSection head={"Web Design"} option={formOption}/>
+        <HeroSection head={"Web Design"} option={formOption} bannerContent={bannerContent}/>
         <ServiceList data={WebDevelopment} head={"Web Design"}/>
         <ServiceCta/>
         {/* <Portfolio/> */}
