@@ -26,7 +26,7 @@ export default function HomeService() {
             View Service
           </Link> */}
         </div>
-        <div className="project-list">
+        <div className="project-list mb-0" >
           {/* {projects2.map((project, index) => ( */}
             <div className="project-info-box mt-5">
               <div className="project-media">
