@@ -18293,3 +18293,9 @@ color: #ffff;
 .main-timeline6 .timeline:nth-child(2n) .icon{top:0;left:0}
 .main-timeline6 .timeline:nth-child(4n) .content-inner:after,.main-timeline6 .timeline:nth-child(4n) .content-inner:before{border-left-color:#92070e}
 }
+
+
+.HomeService .list-arrow li:before{
+  top: 10px;
+  color: white;
+}

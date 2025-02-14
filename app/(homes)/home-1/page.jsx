@@ -9,7 +9,7 @@ import Hero from "@/components/homes/home-7/Hero";
 import Service from "@/components/homes/home-2/Service";
 import Projects2 from "@/components/homes/home-5/Projects2";
 import HomeServiceAnimation from "@/components/service/HomeServiceAnimation";
-import HomeService from "@/components/service/HomeServices";
+// import HomeService from "@/components/service/HomeServices";
 import React from "react";
 import Testimonial from "@/components/homes/home-5/Testimonials";
 import Footer13 from "@/components/footers/Footer13";
@@ -22,6 +22,8 @@ import CourseModulesHome from "@/components/service/CourseModulesHome";
 import HomeAmazing from "@/components/service/HomeAmazing";
 import Home from "@/app/page";
 import HomeHero from "@/components/service/HomeHero";
+import HomeService from "@/components/service/HomeService";
+// import HomeService from "@/components/service/HomeService"
 
 
 export const metadata = {
@@ -42,9 +44,10 @@ export default function page() {
           <HomeAbout/>
           <HomeHero/>
           {/* <Projects2 /> */}
-          <div className="content-block home-service-section bg-gray">
-            <HomeServiceAnimation />
-          </div>
+          {/* <div className="content-block home-service-section bg-gray"> */}
+            {/* <HomeServiceAnimation /> */}
+            <HomeService/>
+          {/* </div> */}
 
          
 
@@ -52,6 +55,7 @@ export default function page() {
             <Testimonials />
           </div> */}
 
+<CourseModulesHome/>
           
           <Am_a_Zing/>        
           {/* <HomeAmazing/> */}
@@ -67,7 +71,7 @@ export default function page() {
           <div >
           {/*<ZingAcademy/>*/}
           
- <CourseModulesHome/>
+
 
           </div>
 
