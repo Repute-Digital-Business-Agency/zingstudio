@@ -43,7 +43,7 @@ export default function HomeService() {
                   <li className="text-white mt-0 pt-0" style={{borderTop:"none"}}>
                     {/* <strong> */}
                     
-                      <ul className="list-arrow mb-0 mt-0">
+                      <ul className="list-hand-point mb-0 mt-0">
                         <li className="text-white px-4" style={{borderTop:"none", color:"white"}}>1 Home Page Design</li>
                         <li className="text-white px-4" style={{borderTop:"none", color:"white"}}>Upto 10 Inner Page Design</li>
                         <li className="text-white px-4" style={{borderTop:"none",color:"white"}}>HTML5 / CSS3 Compatible for Mobiles</li>
@@ -77,7 +77,7 @@ export default function HomeService() {
                   <li className="text-white mt-0 pt-0" style={{borderTop:"none"}}>
                     {/* <strong> */}
                     
-                      <ul className="list-arrow mb-0 mt-0">
+                      <ul className="list-hand-point mb-0 mt-0">
                         <li  className="text-white px-4">1 Home Page Design</li>
                         <li className="text-white px-4" style={{borderTop:"none", color:"white"}}>Upto 15 Inner Pages</li>
                         <li className="text-white px-4" style={{borderTop:"none",color:"white"}}>HTML5 / CSS3 Compatible for Mobiles</li>
@@ -110,7 +110,7 @@ export default function HomeService() {
                   <li className="text-white mt-0 pt-0" style={{borderTop:"none"}}>
                     {/* <strong> */}
                     
-                      <ul className="list-arrow mb-0 mt-0">
+                      <ul className="list-hand-point mb-0 mt-0">
                         <li className="text-white px-4">1 Home Page Design</li>
                         <li className="text-white px-4" style={{borderTop:"none", color:"white"}}>Upto 5 Inner Pages</li>
                         <li className="text-white px-4" style={{borderTop:"none",color:"white"}}>Upto 15 Products Pages</li>
@@ -143,7 +143,7 @@ export default function HomeService() {
                   <li className="text-white mt-0 pt-0" style={{borderTop:"none"}}>
                     {/* <strong> */}
                     
-                      <ul className="list-arrow mb-0 mt-0">
+                      <ul className="list-hand-point mb-0 mt-0">
                         <li className="text-white px-4">Inventory management</li>
                         <li className="text-white px-4" style={{borderTop:"none", color:"white"}}>CMS (Manage Website content)</li>
                         <li className="text-white px-4" style={{borderTop:"none",color:"white"}}>HTML5 / CSS3 Compatible for Mobiles</li>
@@ -176,7 +176,7 @@ export default function HomeService() {
                   <li className="text-white mt-0 pt-0" style={{borderTop:"none"}}>
                     {/* <strong> */}
                     
-                      <ul className="list-arrow mb-0 mt-0">
+                      <ul className="list-hand-point mb-0 mt-0">
                         <li className="text-white px-4">On-Page Optimization - Up to 10 Pages</li>
                         <li className="text-white px-4" style={{borderTop:"none", color:"white"}}>Competitor Analysis - 1 Competitor</li>
                         <li className="text-white px-4" style={{borderTop:"none",color:"white"}}>Keyword Research and Analysis</li>
@@ -209,7 +209,7 @@ export default function HomeService() {
                   <li className="text-white mt-0 pt-0" style={{borderTop:"none"}}>
                     {/* <strong> */}
                     
-                      <ul className="list-arrow mb-0 mt-0">
+                      <ul className="list-hand-point mb-0 mt-0">
                         <li className="text-white px-4">On-Page Optimization - Up to 15 Pages</li>
                         <li className="text-white px-4" style={{borderTop:"none", color:"white"}}>Competitor Analysis - 3 Competitor</li>
                         <li className="text-white px-4" style={{borderTop:"none",color:"white"}}>Keyword Research and Analysis</li>

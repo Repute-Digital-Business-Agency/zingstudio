@@ -72,7 +72,7 @@ export default function BrandCaseStudy() {
                     </div>
                     <div className="col-md-12 col-lg-12">
                       <div className="blog-post blog-md clearfix border-1 br-col-b1 radius-sm  text-white"
-                      style={{ backgroundColor: "#c41e0e" }}>
+                      style={{ backgroundColor: "#e21100" }}>
                         <div className="dlab-post-media dlab-img-effect zoom-slow">
                           <a href="#">
                             <Image
@@ -177,7 +177,7 @@ export default function BrandCaseStudy() {
                     </div>
                     <div className="col-md-12 col-lg-12">
                       <div className="blog-post blog-md clearfix border-1 br-col-b1 radius-sm  text-white"
-                       style={{ backgroundColor: "#c41e0e" }}>
+                       style={{ backgroundColor: "#e21100" }}>
                         <div className="dlab-post-media dlab-img-effect zoom-slow">
                           <a href="#">
                             <Image

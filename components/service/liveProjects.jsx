@@ -17,14 +17,16 @@ export default function LiveProjects() {
             className="col-lg-8 wow fadeIn"
             data-wow-duration="2s"
             data-wow-delay="0.2s"
+            // style={{height:"60%"}}
           >
-            <div className="dlab-post-media dlab-img-effect zoom">
+            <div className="dlab-post-media dlab-img-effect zoom" >
               <Image
                 alt=""
                 className="img-cover"
                 src="/images/Academy/Live-Projects/im-1.jpg"
                 width="900"
-                height="550"
+                height="650"
+                style={{height:"450px",objectFit:"cover"}}
               />
             </div>
           </div>
@@ -59,13 +61,14 @@ export default function LiveProjects() {
             data-wow-duration="2s"
             data-wow-delay="0.6s"
           >
-            <div className="dlab-post-media dlab-img-effect zoom">
+            <div className="dlab-post-media dlab-img-effect zoom" style={{height:"100%"}}>
               <Image
                 alt=""
                 className="img-cover"
                 src="/images/Academy/Live-Projects/im-2.jpg"
                 width="900"
                 height="550"
+                style={{height:"100%",objectFit:"cover"}}
               />
             </div>
           </div>
@@ -98,13 +101,14 @@ export default function LiveProjects() {
             data-wow-duration="2s"
             data-wow-delay="0.2s"
           >
-            <div className="dlab-post-media dlab-img-effect zoom">
+            <div className="dlab-post-media dlab-img-effect zoom" style={{height:"100%"}}>
               <Image
                 alt=""
                 className="img-cover"
                 src="/images/Academy/Live-Projects/im-3.jpg"
                 width="900"
                 height="550"
+                style={{height:"100%",objectFit:"cover"}}
               />
             </div>
           </div>
@@ -113,7 +117,7 @@ export default function LiveProjects() {
             className="col-lg-4 text-white wow fadeIn " 
             data-wow-duration="2s"
             data-wow-delay="0.4s"
-            style={{ backgroundColor: "#c41e0e" }}
+            style={{ backgroundColor: "#e21100" }}
           >
             <div className="service-box style2">
               <div>
@@ -140,13 +144,14 @@ export default function LiveProjects() {
             data-wow-duration="2s"
             data-wow-delay="0.6s"
           >
-            <div className="dlab-post-media dlab-img-effect zoom">
+            <div className="dlab-post-media dlab-img-effect zoom" style={{height:"100%"}}>
               <Image
                 alt=""
                 className="img-cover"
                 src="/images/Academy/Live-Projects/im-4.jpg"
                 width="900"
                 height="550"
+                style={{height:"100%",objectFit:"cover"}}
               />
             </div>
           </div>
@@ -154,7 +159,7 @@ export default function LiveProjects() {
             className="col-lg-4 text-white wow fadeIn "
             data-wow-duration="2s"
             data-wow-delay="0.8s"
-            style={{ backgroundColor: "#c41e0e" }}
+            style={{ backgroundColor: "#e21100" }}
           >
             <div className="service-box style2">
               <div>
