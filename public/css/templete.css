@@ -2484,7 +2484,7 @@ HOME 5 Box Header
 .roboto-condensed h3,
 .roboto-condensed h2,
 .roboto-condensed h1 {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Euclid Circular", sans-serif;
 }
 
 /* Header */
@@ -2546,7 +2546,7 @@ HOME 5 Box Header
 
 .box-header .header-nav .nav>li>a {
   border: 0;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Euclid Circular", sans-serif;
 }
 
 .box-header .extra-nav .site-button {
@@ -2557,7 +2557,7 @@ HOME 5 Box Header
   padding: 0 30px;
   margin-left: 30px;
   position: relative;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Euclid Circular", sans-serif;
 }
 
 .box-header .extra-nav .site-button:after {
@@ -2612,7 +2612,7 @@ HOME 5 Box Header
   font-weight: 600;
   position: relative;
   z-index: 1;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Euclid Circular", sans-serif;
   border: 5px solid;
   width: 120px;
   height: 150px;
@@ -2620,11 +2620,11 @@ HOME 5 Box Header
   display: flex;
   align-items: center;
   justify-content: center;
-  border-color: var(--color-primary) !important;
+  border-color: #e21100;
 }
 
 .about-year p {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Euclid Circular", sans-serif;
   margin-bottom: 0;
   font-size: 18px;
   line-height: 28px;
@@ -2809,7 +2809,7 @@ HOME 5 Box Header
   border-bottom: 3px solid #eee;
   align-items: center;
   justify-content: center;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Euclid Circular", sans-serif;
   position: relative;
 }
 
@@ -3658,7 +3658,7 @@ HOME 5 Box Header
 .frame-box h5,
 .frame-box h6,
 .frame-box .site-footer {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Euclid Circular", sans-serif;
   font-weight: 700;
 }
 
@@ -3740,7 +3740,7 @@ HOME 5 Box Header
   background: var(--color-primary);
   margin: 0 2px;
   border-radius: 4px;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Euclid Circular", sans-serif;
 }
 
 .frame-box .main-bar {
@@ -3840,7 +3840,7 @@ HOME 5 Box Header
 }
 
 .frame-box .slide-content-box p {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Euclid Circular", sans-serif;
   font-size: 21px;
   font-weight: 400;
   color: #fff;
@@ -3967,7 +3967,7 @@ HOME 5 Box Header
 }
 
 .frame-box .service-list li {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Euclid Circular", sans-serif;
   font-size: 18px;
   line-height: 28px;
   color: #000;
@@ -3983,7 +3983,7 @@ HOME 5 Box Header
 
 /* Testimonial Text*/
 .frame-box .testimonial-text p {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Euclid Circular", sans-serif;
   font-size: 24px;
   color: #6c6979;
   line-height: 40px;
@@ -3991,14 +3991,14 @@ HOME 5 Box Header
 
 .frame-box .item .testimonial-1 .testimonial-position {
   color: var(--color-primary);
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Euclid Circular", sans-serif;
   text-transform: capitalize;
   font-size: 16px;
   font-weight: 300;
 }
 
 .frame-box .testimonial-1 .testimonial-name {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Euclid Circular", sans-serif;
   color: #000;
   font-size: 21px;
   margin-top: 5px;
