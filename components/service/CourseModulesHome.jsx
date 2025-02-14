@@ -155,78 +155,67 @@ const images = [
   },
 ]
 const images2 = ["/images/banner/bnr5.jpg", "/images/banner/bnr4.jpg"];
+
+
 export default function CourseModulesHome() {
   return (
- 
-    
-    <div className="container pt-5">
-    {/* blog grid */}
-    <div id="masonry" className="dlab-blog-grid-3 row">
-    <div className="section-head style2 text-center mb-0">
-                <h2 className="title">Course Modules</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+    <div className="container pt-5" style={{ backgroundImage: "url(/images/elementbg/zing-acd-bg-element.png)", backgroundRepeat:"no-repeat", }}>
+      {/* blog grid */}
+      <div id="masonry" className="dlab-blog-grid-3 row">
+        <div className="section-head style2 text-center mb-0">
+          <h2 className="title">Zing Academy</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+        {images.map((elm, i) => (
+          <div
+            key={i}
+            className="post card-container col-xl-3 col-lg-4 col-md-6 col-sm-6 d-flex"
+          >
+            <div className="blog-post blog-grid blog-rounded blog-effect1 d-flex flex-column w-100">
+              <div className="dlab-post-media dlab-img-effect">
+                <Link href={`/blog-single/${elm.title}`}>
+                  <Image alt="" src={elm.imgSrc} width="700" height="500" />
+                </Link>
               </div>
-      {images.map((elm, i) => (
-        <div
-          key={i}
-          className="post card-container col-xl-3 col-lg-4 col-md-6 col-sm-6"
-        >
-          <div className="blog-post blog-grid blog-rounded blog-effect1">
-            <div className="dlab-post-media dlab-img-effect">
-              <Link href={`/blog-single/${elm.title}`}>
-                <Image alt="" src={elm.imgSrc} width="700" height="500" />
-              </Link>
-            </div>
-            <div className="dlab-info p-a20 border-1">
-              <div className="dlab-post-meta">
-                <ul>
-                  <li className="post-date">
-                    <strong style={{color:"#c21807"}}>
-                      {elm.mode}
-                    </strong>{" "}
-                    {/* <span> </span> */}
+              <div className="dlab-info p-a20 border-1 flex-grow-1 d-flex flex-column">
+                <div className="dlab-post-meta">
+                  <ul>
+                    <li className="post-date">
+                      <strong style={{ color: "#e21100" }}>{elm.mode}</strong>
+                  {/* <span> </span> */}
                   </li>
                   {/* <li className="post-author">
                     By <a href="#">{elm.author}</a>
                   </li> */}
-                </ul>
-              </div>
-              <div className="dlab-post-title">
-                <h4 className="post-title">
-                  <Link href="">{elm.title}</Link>
-                </h4>
-                <p className="mb-0">Duration: {elm.duration}</p>
-                <p className="mb-0">Fees: {elm.price}</p>
-              </div>
-              <div className="dlab-post-text">
-                <p>{elm.text}</p>
-              </div>
-              <div className="dlab-post-readmore">
-                <Link
-                  href=""
-                  title="READ MORE"
-                  rel="bookmark"
-                  className="site-button"
-                >
-                  READ MORE
-                  <i className="ti-arrow-right" />
-                </Link>
+                  </ul>
+                </div>
+                <div className="dlab-post-title">
+                  <h4 className="post-title">
+                    <Link href={elm.link} style={{fontSize:"18px"}}>{elm.title}</Link>
+                  </h4>
+                  <p className="mb-0">Duration: {elm.duration}</p>
+                  <p className="mb-0">Fees: {elm.price}</p>
+                </div>
+                <div className="dlab-post-text flex-grow-1">
+                  <p>{elm.text}</p>
+                </div>
+                <div className="dlab-post-readmore mt-auto">
+                  <Link
+                    href={elm.link}
+                    title="READ MORE"
+                    rel="bookmark"
+                    className="site-button"
+                  >
+                    Read More
+                    <i className="ti-arrow-right px-2" />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
-    {/* blog grid END */}
-    {/* Pagination */}
-    {/* <div className="pagination-bx clearfix col-md-12 text-center">
-      <ul className="pagination">
-        <Pagination />
-      </ul>
-    </div> */}
-    {/* Pagination END */}
-  </div>
-
-
   );
 }
+

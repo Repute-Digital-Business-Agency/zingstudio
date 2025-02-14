@@ -4,7 +4,7 @@ export default function Cta() {
   return (
     <div
       className="section-full call-action  "
-      style={{background:"#c52413"}}
+      style={{background:"#e21100"}}
     >
       <div className="container">
         <div className="row">

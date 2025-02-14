@@ -9,31 +9,38 @@ export default function HomeHero() {
           backgroundImage: "/images/Home-Page/our-work-img-1.jpg",
           content1: "Prade Jewels",
           content2: "Prade Jewels",
+          link:"/portfolio"
         },
         {
           backgroundImage: "/images/Home-Page/our-works-img-2.jpg",
           content1: "KPRMill",
           content2: "KPRMill",
+          link:"/portfolio"
         },
         {
           backgroundImage: "/images/Home-Page/our-works-img-3.jpg",
           content1: "OMI Pumps ",
           content2: "OMI Pumps",
+          link:"/portfolio"
         },
         {
           backgroundImage: "/images/Home-Page/our-works-img-4.jpg",
           content1: "Tirumalai Textiles ",
           content2: "Tirumalai Textiles",
+          link:"/portfolio"
         },
         {
           backgroundImage: "/images/Home-Page/our-works-img-5.jpg",
           content1: "Karpagam College of Engineering",
           content2: "Karpagam College of Engineering",
+          link:"/portfolio",
+          
         },
         {
           backgroundImage: "/images/Home-Page/our-work-img-6.jpg",
           content1: "Filmode Fashions",
           content2: "Filmode Fashions",
+          link:"/portfolio"
         },
         
       ];
@@ -47,7 +54,7 @@ export default function HomeHero() {
       [index].classList.add("active");
   };
   return (
-    <div className="dz-oil-industry-zone">
+    <div className="dz-oil-industry-zone" style={{ backgroundImage: "url(/images/elementbg/our-works-bg-element.png)", backgroundRepeat:"no-repeat", }}>
       <div className="container-fluid">
         <div className="dz-banner-top">
           <div className="row justify-content-between">
@@ -56,9 +63,15 @@ export default function HomeHero() {
               data-wow-duration="2s"
               data-wow-delay="0.2s"
             >
-             <div className="section-head style2 text-center">
+
+              <h1 className="dz-title fw-bold position-relative" style={{fontSize:"35px"}}>
+              Our Works
+                {/* Drive more
+                sales and achieve scalable growth for your business */}
+              </h1>
+             {/* <div className="section-head style2 text-center">
              <h2 className="title m-b10" style={{textDecoration:"underline", textAlign:"left"}}>Our Works</h2>
-             </div>
+             </div> */}
             </div>
             <div
               className="col-lg-4 wow fadeIn"
@@ -73,11 +86,11 @@ export default function HomeHero() {
               </p>
               <div className="dz-banner-btn d-flex align-items-center">
                 <Link
-                  href={`/contact`}
+                  href={`/portfolio`}
                   className="btn btn-lg m-0 text-decoration-none"
-                  style={{background:"#c52413"}}
+                  style={{background:"#e21100"}}
                 >
-                  Get a Free Consultation
+                  View All
                 </Link>
                 {/* <Link
                   href={`/contact`}
@@ -159,13 +172,13 @@ export default function HomeHero() {
                   style={{ backgroundImage: `url(${slide.backgroundImage})` }}
                 >
                   <div className="dz-media-content position-absolute">
-                    <h3 className="m-0">{slide.content1}</h3>
+                    <h3 className="m-0" style={{fontSize:"22px"}}>{slide.content1}</h3>
                   </div>
                   <div className="dz-media-content2 d-flex align-items-center justify-content-between position-absolute">
-                    <h2 className="fw-bold m-0">{slide.content2}</h2>
-                    <Link
-                      className="btn mediabtn bg-white text-primary"
-                      href={`/services`}
+                    <h2 className=" m-0" style={{fontSize:"22px"}}>{slide.content2}</h2>
+                    <Link style={{ color:"#e21100 "}}
+                      className="btn mediabtn bg-white"
+                      href={slide.link}
                     >
                       View Details
                     </Link>
@@ -175,11 +188,12 @@ export default function HomeHero() {
             ))}
           </Swiper>
           <div
-            className="swiper-button-next dz-next snbnh1  bg-primary "
+            className="swiper-button-next dz-next snbnh1   "
             style={{
               position: "absolute",
               bottom: "calc( 50% - 10px )",
               zIndex: "2",
+               background:"#e21100"
             }}
             tabIndex="0"
             role="button"
@@ -188,12 +202,13 @@ export default function HomeHero() {
             aria-disabled="false"
           ></div>
           <div
-            className="swiper-button-next dz-next snbph1 bg-primary swiper-p-button"
+            className="swiper-button-next dz-next snbph1  swiper-p-button"
             style={{
               position: "absolute",
               bottom: "calc( 50% - 10px )",
               zIndex: "2",
               left: "calc(0% - 20px)",
+              background:"#e21100"
             }}
             tabIndex="0"
             role="button"
