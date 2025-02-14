@@ -50,11 +50,11 @@ export default function HomeAmazing() {
             {/* </p> */}
             
             <Link
-              href={`/portfolio-grid-2`}
+              href={`/am-a-zing`}
               className="site-button btnhover13 white"
               style={{color:"#1a43bf"}}
             >
-              View Project
+              Read More
             </Link>
           </div>
         </div>

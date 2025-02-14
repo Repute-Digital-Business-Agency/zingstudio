@@ -55,7 +55,7 @@ export default function page() {
             <Testimonials />
           </div> */}
 
-<CourseModulesHome/>
+          <CourseModulesHome/>
           
           {/* <Am_a_Zing/>         */}
           <HomeAmazing/>
@@ -68,12 +68,9 @@ export default function page() {
 
           {/* scroll effect academy section component */}
 
-          <div >
-          {/*<ZingAcademy/>*/}
-          
-
-
-          </div>
+          {/* <div >
+          <ZingAcademy/>
+          </div> */}
 
           {/* scroll effect academy section component */}
           

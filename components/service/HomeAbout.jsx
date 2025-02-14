@@ -67,7 +67,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function HomeAbout() {
   return (
-    <div className="section-full content-inner const-about">
+    <div className="section-full content-inner const-about" style={{ backgroundImage: "url(/images/elementbg/about-us-bg-element.png)", backgroundRepeat:"no-repeat", }}>
       <div className="container">
         <div className="row align-items-center">
           <div
@@ -91,7 +91,7 @@ export default function HomeAbout() {
           >
             <div className="content-bx1">
               <div className="about-year">
-                <span>26</span>
+                <span>13</span>
                 <p>
                   Years
                   <br />
@@ -111,14 +111,14 @@ export default function HomeAbout() {
                 </p>
               </div>
               <Link
-                href={`/portfolio-grid-2`}
+                href={`/portfolio`}
                 className="site-button m-r10 m-b10 btnhover20"
-                style={{background:"#c52413"}}
+                style={{background:"#e21100"}}
               >
                 View Portfolio
               </Link>
               <Link
-                href={`/about-1`}
+                href={`/about`}
                 className="site-button black m-b10 btnhover20"
               >
                 About Us

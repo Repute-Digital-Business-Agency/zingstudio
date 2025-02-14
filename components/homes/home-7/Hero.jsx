@@ -9,7 +9,7 @@ const slidesData = [
     backgroundImage:
       'url("/images/Home-Page/banner-img-studio.jpg") center center no-repeat',
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: "<span style='color: #c21807'>ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact",
+    title: "<span style='color: #e21100'>ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact",
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "BUY & VIEW SERVICES",
@@ -19,7 +19,7 @@ const slidesData = [
     backgroundImage:
       'url("/images/Home-Page/zing-banner-web-design.jpg") center center no-repeat',
     subTitle: "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
-    title: "<span style='color: #c21807'>WEB DESIGN </span><br/>Smart, sleek, and user-focused",
+    title: "<span style='color: #e21100'>WEB DESIGN </span><br/>Smart, sleek, and user-focused",
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "BUY & VIEW SERVICES",
@@ -29,7 +29,7 @@ const slidesData = [
     backgroundImage:
       'url("/images/Home-Page/zing-banner-digital marketing.jpg") center center no-repeat',
     subTitle: "Empowering brands with data-driven digital marketing strategies for impactful online growth.",
-    title: "<span style='color: #c21807'>DIGITAL MARKETING </span><br/> Fueling brand growth digitally",
+    title: "<span style='color: #e21100'>DIGITAL MARKETING </span><br/> Fueling brand growth digitally",
     description:
       "Empowering brands with data-driven digital marketing strategies for impactful online growth.",
     buttonLabel: "BUY & VIEW SERVICES",
@@ -41,7 +41,7 @@ const slidesData = [
     subTitle:
       "Shaping future entrepreneurs and skilled professionals through educational excellence.",
     title:
-      "<span style='color: #c21807'>ZING ACADEMY</span><br/>Transforming students into professionals",
+      "<span style='color: #e21100'>ZING ACADEMY</span><br/>Transforming students into professionals",
     description:
       "Shaping future entrepreneurs and skilled professionals through educational excellence.",
     buttonLabel: "BUY & VIEW SERVICES",

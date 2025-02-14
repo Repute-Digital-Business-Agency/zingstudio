@@ -5250,7 +5250,7 @@ HOME 5 Box Header
 }
 
 .btn.youtube.outline {
-  color: #ce201f;
+  color: #e21100;
 }
 
 .h100 {
@@ -8262,7 +8262,7 @@ button.scroltop {
   position: absolute;
   width: 207px;
   height: 3px;
-  background-color: var(--color-primary);
+  background-color:#e21100;
   left: 0;
   bottom: -25px;
 }
