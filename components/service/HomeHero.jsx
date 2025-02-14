@@ -84,10 +84,10 @@ export default function HomeHero() {
                 campaign is what you need to position your online business
                 exactly where you want it to be and distinguish yourself. */}
               </p>
-              <div className="dz-banner-btn d-flex align-items-center">
+              {/* <div className="dz-banner-btn d-flex align-items-center"> */}
                 <Link
                   href={`/portfolio`}
-                  className="btn btn-lg m-0 text-decoration-none"
+                  className="site-button btnhover20 text-decoration-none text-white"
                   style={{background:"#e21100"}}
                 >
                   View All
@@ -118,7 +118,7 @@ export default function HomeHero() {
                     />
                   </svg>
                 </a> */}
-              </div>
+              {/* </div> */}
             </div>
           </div>
         </div>

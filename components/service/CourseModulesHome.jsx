@@ -204,7 +204,7 @@ export default function CourseModulesHome() {
                     href={elm.link}
                     title="READ MORE"
                     rel="bookmark"
-                    className="site-button"
+                    className="site-button btnhover20 text-decoration-none text-white"
                   >
                     Read More
                     <i className="ti-arrow-right px-2" />
