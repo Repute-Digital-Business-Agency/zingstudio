@@ -71,7 +71,7 @@ export default function HeroSection({head,option}) {
                 <span className="bg-primary" />
               </h3>
               <p>
-              Have questions or need expert help with web design, digital marketing, or branding? We’re here for you! Simply fill out the form below, and one of our team members will reach out to discuss how we can create something amazing together. We can’t wait to connect with you!
+               Have questions or need expert help with web design, digital marketing, or branding? We’re here for you! Simply fill out the form below, and one of our team members will reach out to discuss how we can create something amazing together. We can’t wait to connect with you!
               </p>
               <div className="row">
                 <div className="col-lg-6 col-md-6">
