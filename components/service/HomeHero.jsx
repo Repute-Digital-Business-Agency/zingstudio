@@ -74,7 +74,8 @@ export default function HomeHero() {
               <div className="dz-banner-btn d-flex align-items-center">
                 <Link
                   href={`/contact`}
-                  className="btn btn-lg bg-primary m-0 text-decoration-none"
+                  className="btn btn-lg m-0 text-decoration-none"
+                  style={{background:"#c52413"}}
                 >
                   Get a Free Consultation
                 </Link>

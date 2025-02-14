@@ -26,7 +26,7 @@ import GallaryWrapper from "../common/GallaryWrapper";
 
 const images = [
     {
-        imgSrc:"/images/Academy/Course-Mod/pic11.jpg",
+        imgSrc:"/images/Home-Page/Zing-acd/img-1.jpg",
         title:"Zing Digital Marketing Mastery",
         mode:"online | Free",
         list:[
@@ -41,7 +41,7 @@ const images = [
         
     },
     {
-      imgSrc:"/images/Academy/Course-Mod/pic12.jpg",
+      imgSrc:"/images/Home-Page/Zing-acd/img-2.jpg",
       title:" Zing Launchpad – Student Internship Program",
       mode:"online | Free",
       list:[
@@ -57,7 +57,7 @@ const images = [
       
     },
     {
-      imgSrc:"/images/Academy/Course-Mod/pic13.jpg",
+      imgSrc:"/images/Home-Page/Zing-acd/img-3.jpg",
       title:"Zing Digital Sprint – Essentials of Marketing",
       mode:"online | Free",
       list:[
@@ -73,7 +73,7 @@ const images = [
       
   },
   {
-    imgSrc:"/images/our-work/pic1.jpg",
+    imgSrc:"/images/Home-Page/Zing-acd/img-4.jpg",
     title:"Zing AI in Digital Marketing",
     mode:"online | Free",
     list:[
@@ -90,7 +90,7 @@ const images = [
   },
 
   {
-    imgSrc:"/images/our-work/pic1.jpg",
+    imgSrc:"/images/Home-Page/Zing-acd/img-5.jpg",
     title:"Zing Social Media Mastery",
     mode:"online | Free",
     list:[
@@ -106,7 +106,7 @@ const images = [
     
   },
   {
-    imgSrc:"/images/our-work/pic1.jpg",
+    imgSrc:"/images/Home-Page/Zing-acd/img-6.jpg",
     title:"Zing SEO Supercharger",
     mode:"online | Free",
     list:[
@@ -122,7 +122,7 @@ const images = [
     
   },  
   {
-    imgSrc:"/images/our-work/pic1.jpg",
+    imgSrc:"/images/Home-Page/Zing-acd/img-7.jpg",
     title:" Zing AdSense Ace",
     mode:"online | Free",
     list:[
@@ -138,7 +138,7 @@ const images = [
     
   },
   {
-    imgSrc:"/images/our-work/pic1.jpg",
+    imgSrc:"/images/Home-Page/Zing-acd/img-8.jpg",
     title:"Zing Copywriting & Content Mastery",
     mode:"online | Free",
     list:[

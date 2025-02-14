@@ -57,8 +57,8 @@ export default function page() {
 
 <CourseModulesHome/>
           
-          <Am_a_Zing/>        
-          {/* <HomeAmazing/> */}
+          {/* <Am_a_Zing/>         */}
+          <HomeAmazing/>
           
           
             {/* normal  academy section component */}

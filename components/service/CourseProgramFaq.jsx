@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CourseProgramFaq() {
   return (
-    <div className="section-full bg-gray content-inner">
+    <div className="section-full bg-white content-inner">
       <div className="container">
         <div className="section-head text-black text-left">
           <h3>FAQ</h3>

@@ -29,9 +29,9 @@ export default function HomeService() {
           {/* {projects2.map((project, index) => ( */}
             <div className="project-info-box mt-5">
               <div className="project-media">
-                <Image src="/images/our-services/construct/pic1.jpg" width={1704} height={696} alt="" />
+                <Image src="/images/Home-Page/service/p-1.jpg" width={1704} height={696} alt="" />
               </div>
-              <div className="project-content" style={{ background: "#cc3e30" }}>
+              <div className="project-content" style={{ background: "#c52413" }}>
                 <ul className="list-details">
                   <li className="text-white">
                     <strong>Static Websites</strong>
@@ -58,12 +58,12 @@ export default function HomeService() {
               </div>
             </div>
           {/* ))} */}
-
+          {/* style={{background:"#c52413"}} */}
           <div className="project-info-box mt-5">
               <div className="project-media">
-                <Image src="/images/our-services/construct/pic1.jpg" width={1704} height={696} alt="" />
+                <Image src="/images/Home-Page/service/p-1.jpg" width={1704} height={696} alt="" />
               </div>
-              <div className="project-content" style={{ background: "#cc3e30" }}>
+              <div className="project-content" style={{ background: "#c52413" }}>
                 <ul className="list-details">
                   <li className="text-white">
                     <strong>CMS Websites</strong>
@@ -92,9 +92,9 @@ export default function HomeService() {
 
             <div className="project-info-box mt-5">
               <div className="project-media">
-                <Image src="/images/our-services/construct/pic1.jpg" width={1704} height={696} alt="" />
+                <Image src="/images/Home-Page/service/p-1.jpg" width={1704} height={696} alt="" />
               </div>
-              <div className="project-content" style={{ background: "#cc3e30" }}>
+              <div className="project-content" style={{ background: "#c52413" }}>
                 <ul className="list-details">
                   <li className="text-white">
                     <strong>E-Commerce Websites-Basic</strong>
@@ -123,9 +123,9 @@ export default function HomeService() {
 
             <div className="project-info-box mt-5">
               <div className="project-media">
-                <Image src="/images/our-services/construct/pic1.jpg" width={1704} height={696} alt="" />
+                <Image src="/images/Home-Page/service/p-1.jpg" width={1704} height={696} alt="" />
               </div>
-              <div className="project-content last" style={{ background: "#cc3e30", width:"520px" }}>
+              <div className="project-content last" style={{ background: "#c52413", width:"520px" }}>
                 <ul className="list-details">
                   <li className="text-white">
                     <strong>E-Commerce Websites-Standard</strong>
@@ -154,9 +154,9 @@ export default function HomeService() {
 
             <div className="project-info-box mt-5">
               <div className="project-media">
-                <Image src="/images/our-services/construct/pic1.jpg" width={1704} height={696} alt="" />
+                <Image src="/images/Home-Page/service/p-1.jpg" width={1704} height={696} alt="" />
               </div>
-              <div className="project-content " style={{ background: "#cc3e30" }}>
+              <div className="project-content " style={{ background: "#c52413" }}>
                 <ul className="list-details">
                   <li className="text-white">
                     <strong>Digital Marketing-Basic</strong>
@@ -185,9 +185,9 @@ export default function HomeService() {
 
             <div className="project-info-box mt-5">
               <div className="project-media">
-                <Image src="/images/our-services/construct/pic1.jpg" width={1704} height={696} alt="" />
+                <Image src="/images/Home-Page/service/p-1.jpg" width={1704} height={696} alt="" />
               </div>
-              <div className="project-content" style={{ background: "#cc3e30" }}>
+              <div className="project-content" style={{ background: "#c52413" }}>
                 <ul className="list-details ">
                   <li className="text-white">
                     <strong>Digital Marketing-Standard</strong>

@@ -78,7 +78,7 @@ export default function HomeAbout() {
             <div className="radius-sm m-b30 img-ho1">
               <Image
                 alt=""
-                src="/images/about/pic11.jpg"
+                src="/images/Home-Page/about/pic11.jpg.png"
                 width="600"
                 height="722"
               />
@@ -113,6 +113,7 @@ export default function HomeAbout() {
               <Link
                 href={`/portfolio-grid-2`}
                 className="site-button m-r10 m-b10 btnhover20"
+                style={{background:"#c52413"}}
               >
                 View Portfolio
               </Link>
