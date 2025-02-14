@@ -257,7 +257,7 @@ export default function Portfolio2() {
                   <input type="radio" />
                   <a
                     href="#"
-                    className="site-button-secondry button-sm radius-xl"
+                    className="site-button-secondry  button-sm radius-xl"
                   >
                     <span>{item.text}</span>
                   </a>

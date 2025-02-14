@@ -78,14 +78,14 @@ export default function ZingAcademyHero() {
                   href="/services-1"
                   className=" m-0 text-decoration-none text-white"
                   style={{
-                    background:"#c83020"
+                    background:"#e21100"
                   }}
                 >
                   Free Career Counselling
                 </Link>
                 <Link href="/about-1" className="text-dark"
                 style={{
-                  border:"1px solid #c83020"
+                  border:"1px solid #e21100"
                 }}>
                 Explore Courses
                 </Link>

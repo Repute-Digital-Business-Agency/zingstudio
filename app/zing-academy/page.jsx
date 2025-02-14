@@ -33,7 +33,7 @@ export default function page() {
               data-wow-duration="2s"
               data-wow-delay="0.2s"
               style={{
-                background:"#c83020"
+                background:"#e21100"
               }}
               // style={{ backgroundImage: "url(/images/background/map-bg.png)" }}
             >

@@ -212,7 +212,7 @@ h4,
 h5,
 h6 {
   color: #232323;
-  /* font-family: "Poppins", sans-serif;*/
+  /* font-family: "Euclid Circular", sans-serif;*/
   font-family: 'Euclid Circular' !important;
 }
 
@@ -9748,10 +9748,10 @@ a,
   font-family: "themify";
   position: absolute;
   left: 0;
-  top: 5px;
+  top: 10px;
   display: block;
   font-size: 15px;
-  color: #777;
+  /* color: #777; */
 }
 
 ul[class*="list-"] {
@@ -16596,10 +16596,10 @@ ol.commentlist li .star-rating {
 }
 
 .our-story h4.title {
-  font-size: 22px;
+  font-size: 16px;
   line-height: 40px;
   font-weight: 500;
-  color: #000;
+  color: #494949;
 }
 
 .section-head .title {
@@ -18058,7 +18058,7 @@ color: #ffff;
 .main-timeline5 .timeline-content{width:35%;float:right;background:#e21100;padding:30px 20px;margin:50px 0;z-index:1;position:relative}
 .main-timeline5 .timeline-content:before{content:"";width:20%;height:15px;background:#e21100;position:absolute;top:50%;left:-20%;z-index:-1;transform:translateY(-50%)}
 .main-timeline5 .title{font-size:20px;font-weight:700;color:#fff;margin:0 0 10px}
-.main-timeline5 .description{font-size:16px;color:#fff;line-height:24px;margin:0}
+.main-timeline5 .description{font-size:16px !important;color:#fff;line-height:24px;margin:0}
 /*.main-timeline5 .timeline:nth-child(2n):before{box-shadow:8px 0 5px -5px rgba(0,0,0,.5) inset}*/
 .main-timeline5 .timeline:nth-child(2n) .timeline-icon{transform:rotate(-135deg);border-top-color:#811005;border-right-color:#811005}
 .main-timeline5 .timeline:nth-child(2n) .year{transform:rotate(135deg);color:#811005}

@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function HomeHero() {
     const slides = [
         {
-          backgroundImage: "/images/Home-Page/our-work/prade.jpg",
+          backgroundImage: "/images/Home-Page/our-work-img-1.jpg",
           content1: "Prade Jewels",
           content2: "Prade Jewels",
           link:"/portfolio"

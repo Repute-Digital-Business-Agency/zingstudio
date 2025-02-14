@@ -53,6 +53,9 @@ export default function Insights() {
                   </p>
                 </li>
               </ul>
+
+              
+
             </div>
           </div>
           <div
@@ -63,7 +66,7 @@ export default function Insights() {
           >
             <div className="row spno">
               <div className="col-lg-6 col-md-6 col-sm-6 align-items-center d-flex" style={{
-                backgroundColor:"#c41e0e"
+                backgroundColor:"#e21100"
             }}>
                 <div className="dlab-services-box text-white">
                   {/* <h2 className="service-year">
@@ -119,14 +122,8 @@ export default function Insights() {
             </div>
           </div>
         </div>
-      </div>{" "}
-      <ModalVideo
-        channel="youtube"
-        youtube={{ mute: 0, autoplay: 0 }}
-        isOpen={isOpen}
-        videoId="_FRZVScwggM"
-        onClose={() => setOpen(false)}
-      />{" "}
+      </div>
+    
     </>
   );
 }
