@@ -132,7 +132,7 @@ html {
 body {
   background-color: #fff;
   font-family: "Manrope", Sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   color: #494949;
   padding: 0;
@@ -146,15 +146,15 @@ body {
 }
 
 p {
-  font-size: 17px !important;
+  font-size: 17px !important;  font-family: "Manrope", Sans-serif;
 }
 
 ul li {
-  font-size: 17px !important;
+  font-size: 17px !important; font-family: "Manrope", Sans-serif;
 }
 
 ul li a {
-  font-size: 17px !important;
+  font-size: 17px !important; font-family: "Manrope", Sans-serif;
 }
 footer ul li a{
   font-size: 14px !important;
@@ -165,7 +165,7 @@ footer .list-2 li a{
 a {
   color: var(--color-primary);
   outline: 0 none;
-  text-decoration: none;
+  text-decoration: none; font-family: "Manrope", Sans-serif;
 }
 
 a:hover,
@@ -18299,6 +18299,9 @@ color: #ffff;
   top: 10px;
   color: white;
 }
+.course-month{color:#e21100;}
+.ow-post-meta ul li.post-comment{color:#e21100;}
+.ow-post-readmore h4{color:#e21100;}
 .HomeService .list-arrow li{
   font-size: 15px !important;
 }

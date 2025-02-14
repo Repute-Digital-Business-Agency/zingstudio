@@ -166,7 +166,8 @@ export default function Course() {
             <div className="col-12 col-lg-10   m-auto">
               <div className="section-head style2 text-center mb-0">
                 <h2 className="title">Course Modules</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p>Dive into the Digital World – Master Essential Skills with Our Dynamic Course Modules!
+                </p>
               </div>
 
               {/* Course Modules Grid */}

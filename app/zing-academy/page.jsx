@@ -22,6 +22,7 @@ export const metadata = {
   description: "Industry - Factory & Industrial React Nextjs Template",
 };
 export default function page() {
+
   return (
     <>
       <div className="page-wraper  ">
@@ -43,11 +44,8 @@ export default function page() {
                       Why Zing Academy ?
                     </h2>
                     <p className="text-white">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book.
+                     Gain a competitive edge with expert-led digital marketing training that combines real-world experience and hands-on learning. Unlock the skills to thrive in today’s fast-moving digital landscape and take your career to the next level.
+
                     </p>
                   </div>
                 </div>
