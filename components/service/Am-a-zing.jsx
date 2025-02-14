@@ -135,7 +135,7 @@ export default function Am_a_Zing() {
                   <img
                   alt=""
                   className="img-cover img-inner"
-                  src="/images/Home-Page/amazing/image.jpg"
+                  src="/images/Home-Page/amazing/am-a-zing-img-1.jpg"
                   style={{
                       width:"300px",
                       height:"800px",
@@ -149,7 +149,7 @@ export default function Am_a_Zing() {
                   <img
                   alt=""
                   className="img-cover img-inner"
-                  src="/images/Home-Page/amazing/image.jpg"
+                  src="/images/Home-Page/amazing/am-a-zing-img-2.jpg"
                   style={{
                       width:"300px",
                       height:"800px",
