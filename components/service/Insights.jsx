@@ -66,11 +66,11 @@ export default function Insights() {
                 backgroundColor:"#c41e0e"
             }}>
                 <div className="dlab-services-box text-white">
-                  <h2 className="service-year">
+                  {/* <h2 className="service-year">
                     32<small>year</small>
-                  </h2>
+                  </h2> */}
                   <h3 className="title m-b0">
-                    We are Building the Future and Restoring
+                  Learn, grow, and dominate the digital world—one lesson at a time
                   </h3>
                 </div>
               </div>
@@ -105,18 +105,15 @@ export default function Insights() {
               <div className="col-lg-6 col-md-6 col-sm-6 bg-primary align-items-center d-flex">
                 <div className="dlab-services-box text-white">
                   <h3 className="title text-white m-b15">
-                    Renting Tips &amp; Articles
+                  Boost your skills, own the game!  Zing Academy is where learning meets action. Are you in?
                   </h3>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
-                  </p>
-                  <Link
+                  
+                  {/* <Link
                     href={`/about-1`}
                     className="site-button btnhover19 outline white outline-2"
                   >
                     ABOUT US
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

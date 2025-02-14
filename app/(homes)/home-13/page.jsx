@@ -11,8 +11,8 @@ import Services2 from "@/components/homes/home-13/Services2";
 import Team from "@/components/homes/home-13/Team";
 
 export const metadata = {
-  title: "Home 13 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "Home 13 || Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
+  description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
   return (

@@ -31,7 +31,7 @@ import StudentsJourney2 from "@/components/service/StudentsJourney2";
 import StudentsJourney3 from "@/components/service/StudentsJourney3";
 export const metadata = {
   title: "Academy || Zing Studio",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
   const CourseTitle= "Zing Digital Sprint – Essentials of Marketing"

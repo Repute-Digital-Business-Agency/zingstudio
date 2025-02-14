@@ -7,8 +7,8 @@ import Link from "next/link";
 import Image from "next/image";
 export const metadata = {
   title:
-    "Header Style 2 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+    "Header Style 2 || Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
+  description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
   return (
@@ -75,7 +75,7 @@ import Nav from &quot;.&#x2F;component&#x2F;Nav&quot;;
 import Image from &quot;next&#x2F;image&quot;;
 import Link from &quot;next&#x2F;link&quot;;
 import &lbrace; socialLinks &rbrace; from &quot;@&#x2F;data&#x2F;socials&quot;;
-export const metadata = {title:'Home || Industry - Factory & Industrial React Nextjs Template',description:'Industry - Factory & Industrial React Nextjs Template'}
+export const metadata = {title:'Home || Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.',description:'Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.'}
 export default function Header4() &lbrace;
   return (
     &lt;header className&#x3D;&quot;site-header mo-left header navstyle2&quot;&gt;

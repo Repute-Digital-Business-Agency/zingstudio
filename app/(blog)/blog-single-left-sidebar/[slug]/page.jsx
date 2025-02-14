@@ -9,8 +9,8 @@ import { allBlogs } from "@/data/blogs";
 
 export const metadata = {
   title:
-    "Blog Single Left Sidebar || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+    "Blog Single Left Sidebar || Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
+  description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page({ params }) {
   const slug = params.slug.split("%20").join(" ");
