@@ -19,7 +19,7 @@ import ZingAcademyCta from "@/components/service/ZingAcademyCta";
 import ZingAcademyCourseHero from "@/components/service/zingAcademyCourseHero";
 export const metadata = {
   title: "Academy || Zing Studio",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
 

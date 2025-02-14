@@ -7,8 +7,8 @@ import Link from "next/link";
 import Image from "next/image";
 export const metadata = {
   title:
-    "Header Dark Style 6 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+    "Header Dark Style 6 || Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
+  description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
   return (
@@ -76,7 +76,7 @@ import Nav from &quot;.&#x2F;component&#x2F;Nav&quot;;
 import Link from &quot;next&#x2F;link&quot;;
 import Image from &quot;next&#x2F;image&quot;;
 import &lbrace; socialLinks, socialMediaLinks &rbrace; from &quot;@&#x2F;data&#x2F;socials&quot;;
-export const metadata = {title:'Home || Industry - Factory & Industrial React Nextjs Template',description:'Industry - Factory & Industrial React Nextjs Template'}
+export const metadata = {title:'Home || Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.',description:'Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.'}
 export default function Header11() &lbrace;
   return (
     &lt;header className&#x3D;&quot;site-header mo-left header header-curve ext-header dark&quot;&gt;

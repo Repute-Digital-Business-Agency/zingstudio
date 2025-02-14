@@ -7,8 +7,8 @@ import React from "react";
 import Header22 from "@/components/headers/Header22";
 
 export const metadata = {
-  title: "Shop Cart || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "Shop Cart || Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
+  description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
   return (

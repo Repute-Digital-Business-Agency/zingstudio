@@ -9,8 +9,8 @@ import Header22 from "@/components/headers/Header22";
 
 export const metadata = {
   title:
-    "Shop Details || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+    "Shop Details || Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
+  description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page({ params }) {
   const slug = params.slug.split("%20").join(" ");

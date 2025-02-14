@@ -12,8 +12,8 @@ import React from "react";
 import Hero from "@/components/homes/home-3/Hero";
 
 export const metadata = {
-  title: "Home 3 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "Home 3 || Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
+  description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
   return (
