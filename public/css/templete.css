@@ -402,7 +402,8 @@ h6 {
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.05);
   border-radius: 0;
   margin-top: 0;
-  height: 100%;
+  /*height: 100%;*/
+  height: auto;
   background: #fff;
   padding: 30px;
   border-radius: 4px;

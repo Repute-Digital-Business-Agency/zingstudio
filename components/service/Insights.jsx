@@ -19,37 +19,37 @@ export default function Insights() {
               <div className="section-head text-white">
                 <h2 className="title">Insights</h2>
                 <p>
-                  We’re continually working to change the way people think about
-                  and engage with our products.
+                Ready to level up? Discover what makes Zing Academy the ultimate place to learn digital marketing—from expert trainers to real-world projects, we give you the skills to succeed and stand out!
+
                 </p>
               </div>
               <ul className="list-check white list-2 rounded border">
                 <li>
-                  <h4 className="m-b10">Vehicle Inspection</h4>
+                  <h4 className="m-b10">Expert-Led Training</h4>
                   <p>
-                    We understand you need a building that works for you and
-                    your organisation.
+                  Learn from top industry professionals with years of hands-on experience, offering you practical knowledge and valuable insights to excel in digital marketing.
+
                   </p>
                 </li>
                 <li>
-                  <h4 className="m-b10">Transmission Checkup</h4>
+                  <h4 className="m-b10">Real-World Projects</h4>
                   <p>
-                    We understand you need a building that works for you and
-                    your organisation.
+                  Gain practical experience by working on live projects, applying your skills in real-time scenarios that prepare you for success in the digital world.
                   </p>
                 </li>
                 <li>
-                  <h4 className="m-b10">Auto Repairing</h4>
+                  <h4 className="m-b10">Career-Ready Skills
+                  </h4>
                   <p>
-                    We understand you need a building that works for you and
-                    your organisation.
+                  Our courses are designed to equip you with the skills employers are looking for, from SEO and social media marketing to content strategy and analytics.
+
                   </p>
                 </li>
                 <li>
-                  <h4 className="m-b10">High Performance</h4>
+                  <h4 className="m-b10">Flexible Learning
+                  </h4>
                   <p>
-                    We understand you need a building that works for you and
-                    your organisation.
+                  With online and in-person options, you can learn at your own pace, fitting your education into your busy schedule without compromising on quality.
                   </p>
                 </li>
               </ul>

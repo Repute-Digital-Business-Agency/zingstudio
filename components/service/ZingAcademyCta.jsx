@@ -71,13 +71,13 @@ export default function ZingAcademyCta() {
               style={{marginTop:"-50px"}}
             >
               <h3 className="title-box font-weight-300 m-t0 m-b10">
-                Let's Convert Your Idea into Reality
+              Got Questions? Let’s Chat!
+
                 <span className="bg-primary" />
               </h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the
+              Fill out the form and get all the info you need to kickstart your digital marketing journey. We're here to help you level up and make your mark in the digital world!
+
               </p>
               <div className="row">
                 <div className="col-lg-6 col-sm-6">

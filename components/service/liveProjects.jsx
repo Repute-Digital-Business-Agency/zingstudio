@@ -8,7 +8,8 @@ export default function LiveProjects() {
       <div className="section-full">
       <div className="section-head style2 text-center ">
                     <h2 className="title">Live Projects</h2>
-                    <p className="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <p className="mb-4">Gain hands-on experience with real-world digital marketing projects and enhance your skills in practical scenarios.
+                    </p>
                 </div>
         <div className="row spno about-industry">
           

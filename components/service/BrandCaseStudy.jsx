@@ -13,7 +13,8 @@ export default function BrandCaseStudy() {
               <div className="col-lg-12">
               <div className="section-head style2 text-center ">
                     <h2 className="title">Brand Case Study</h2>
-                    <p className="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <p className="mb-4">Real Brands, Real Impact – Dive into Case Studies and Learn from the Best!
+                    </p>
                 </div>
                 <div className="section-content box-sort-in button-example p-b0">
                   <div className="row">

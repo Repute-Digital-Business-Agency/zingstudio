@@ -71,8 +71,8 @@ export default function ZingAcademyCourseHero() {
               />
             </div>
             <div className="silder-content">
-              <h1 className="title fw-semibold text-dark">We Are Industry Factory Solutions</h1>
-              <p className="m-b30 text-dark">Find the comfiest and most suitable suits for your outdoor activities from head to toe</p>
+              <h1 className="title fw-semibold text-dark">Power Up Your Skills, Power Up Your Career!   </h1>
+              <p className="m-b30 text-dark">Zing Academy – Master Digital Marketing with Industry Experts! </p>
               <div className="dz-btns d-flex align-items-center">
                 <Link
                   href="/services-1"
