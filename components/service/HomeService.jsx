@@ -133,7 +133,7 @@ export default function HomeService() {
               <div className="project-media">
                 <Image src="/images/Home-Page/service/ecommerce-website-Standard.jpg" width={1704} height={696} alt="" />
               </div>
-              <div className="project-content last" style={{ background: "#e21100", width:"520px" }}>
+              <div className="project-content last" style={{ background: "#e21100" }}>
                 <ul className="list-details">
                   <li className="text-white">
                     <strong style={{fontSize:"18px"}}>E-Commerce Websites</strong>
