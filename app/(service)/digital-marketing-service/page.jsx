@@ -75,11 +75,20 @@ export default function page() {
       "Basic",
       "Standard",
     ]
+    const bannerContent = {
+      caption:"High-performance website to strengthen your digital presence.",
+      subTitle:"Custom and scalable web development solutions designed to enhance user experience and drive business growth.",
+      list:[
+        "Navigable and functional websites, optimized to deliver desired results for your business.",
+        "A visually appealing, functional and conversion-focused website.",
+        "Custom-built static or dynamic CMS solutions tailored to your business needs."
+      ]
+    }
   return (
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <HeroSection head={"Digital Marketing"} option={formOption}/>
+        <HeroSection head={"Digital Marketing"} option={formOption} bannerContent={bannerContent}/>
         <ServiceList data={DigitalMarketing} head={"Digital Marketing"}/>
         <ServiceCta/>
         {/* <Portfolio/> */}

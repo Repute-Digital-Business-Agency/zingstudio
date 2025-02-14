@@ -2,7 +2,7 @@
 
 import React from "react";
 
-export default function HeroSection({head,option}) {
+export default function HeroSection({head,option,bannerContent}) {
   return (
     <div
       className="section-full overlay-black-dark bg-img-fix pr-service-hero"
@@ -18,14 +18,16 @@ export default function HeroSection({head,option}) {
               {head} <span className="bg-primary" />
             </h2>
             <p className="font-16 op8 wow fadeInLeft" data-wow-delay="0.4s">
-            High-performance website to strengthen your digital presence.
+            {bannerContent.caption}
 
             </p>
             <h3
               className="font-weight-300 m-b50 op6 wow fadeInLeft"
               data-wow-delay="0.6s"
             >
-              Custom and scalable web development solutions designed to enhance user experience and drive business growth.
+               {bannerContent.subTitle}
+
+
 
             </h3>
             <h4
@@ -38,25 +40,11 @@ export default function HeroSection({head,option}) {
               className="list-checked primary wow fadeInLeft"
               data-wow-delay="1s"
             >
+              {bannerContent.list.map((item, index) => (
+                <li key={index}><span>{item} </span></li>
+              ))}
              
-              <li>
-                <span>
-                Navigable and functional websites, optimized to deliver desired results for your business. 
-
-                </span>
-              </li>
-              <li>
-                <span>
-                A visually appealing, functional and conversion-focused website.
-
-                </span>
-              </li>
-              <li>
-                <span>
-                Custom-built static or dynamic CMS solutions tailored to your business needs.
-
-                </span>
-              </li>
+             
             </ul>
           </div>
           <div className="col-lg-6 col-md-12 m-b30 " >
