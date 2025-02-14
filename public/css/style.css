@@ -7651,8 +7651,8 @@ a,
 ---------------------------------------------------------------*/
 /*==== Shortcode Css ====*/
 .sort-title {
-  margin-bottom: 20px;
-  margin-top: 40px;
+  /*margin-bottom: 20px;
+  margin-top: 40px;*/
   /* display: none; */
 }
 .display-title{
@@ -7771,8 +7771,8 @@ a,
 }
 
 .btn-danger {
-  background-color: #d9534f;
-  border-color: #d9534f;
+  background-color: #e21100;
+  border-color: #e21100;
   color: #ffffff;
 }
 
@@ -7786,8 +7786,8 @@ a,
 .btn-outline-danger {
   background-color: rgba(0, 0, 0, 0);
   background-image: none;
-  border-color: #d9534f;
-  color: #d9534f;
+  border-color: #e21100;
+  color: #e21100;
 }
 
 .btn-outline-primary {
@@ -11583,20 +11583,19 @@ ul[class*="list-"] {
 
 .pricingtable-price {
   padding: 20px 20px;
-  background-color: #fff;
+  background-color: #004cc7;
   border: 1px solid #e9e9e9;
 }
 
 .pricingtable-bx {
-  color: #282a3c;
+  color: #fff;
   font-size: 30px;
   font-weight: 500;
 }
 
 .pricingtable-type {
-  font-size: 20px;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 16px; color: #fff;
 }
 
 /* .pricingtable-type:before {
@@ -11606,14 +11605,12 @@ ul[class*="list-"] {
 
 .pricingtable-title {
   background-color: #fff;
-  padding: 20px;
-  text-transform: uppercase;
+  padding: 20px;color: #fff !important;
 }
 
-.pricingtable-title * {
+.pricingtable-title  {
   margin: 0;
   color: #fff;
-  font-weight: 900;
 }
 
 .pricingtable-features {
@@ -11622,7 +11619,7 @@ ul[class*="list-"] {
   list-style: none;
   /* border: 1px solid #e9e9e9; */
 }
-
+.service-price-cost{color:#fff; padding-top: 10px; padding-bottom: 10px; font-weight: 400;}
 .pricingtable-features li {
   padding: 5px;
   /* border-bottom: 1px solid #e9e9e9; */
@@ -11646,7 +11643,7 @@ ul[class*="list-"] {
   margin-top: -1px;
   padding: 20px 0;
   background-color: #fff;
-  border: 1px solid #e9e9e9;
+  border: 1px solid #b4d0ff ;
 }
 
 .pricingtable-highlight {
@@ -12249,7 +12246,7 @@ ul[class*="list-"] {
 }
 
 .overlay-black-dark:after {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .overlay-gradient-light:after {
@@ -17869,12 +17866,12 @@ color: #ffff;
   height: fit-content;
 }
 .pr-service-list .pricingtable-features {
-  border: 1px solid #e9e9e9 !important;
+  border: 1px solid #b4d0ff !important;
 }
 
 .pr-service-list .pricingtable-features li {
   padding: 12px;
-  border-bottom: 1px solid #e9e9e9;
+  border-bottom: 1px solid #b4d0ff;
 }
 
 .zingFluence .section-head {
@@ -18198,3 +18195,4 @@ color: #ffff;
 .HomeService .project-content .btn a{
   font-size: 15px !important;
 }
+.service-titlebg{background: #e21100;}
