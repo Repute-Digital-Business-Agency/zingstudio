@@ -18,39 +18,43 @@ export default function HeroSection({head,option}) {
               {head} <span className="bg-primary" />
             </h2>
             <p className="font-16 op8 wow fadeInLeft" data-wow-delay="0.4s">
-              Give us a call or drop by anytime, we endeavour to answer all
-              enquiries within 24 hours on business days.
+            High-performance website to strengthen your digital presence.
+
             </p>
             <h3
               className="font-weight-300 m-b50 op6 wow fadeInLeft"
               data-wow-delay="0.6s"
             >
-              By 700+ customers for 3200+ Web and Mobile App development
-              projects.
+              Custom and scalable web development solutions designed to enhance user experience and drive business growth.
+
             </h3>
             <h4
               className="font-weight-300 wow fadeInLeft"
               data-wow-delay="0.8s"
             >
-              &amp; What you will get:
+             What you get
             </h4>
             <ul
               className="list-checked primary wow fadeInLeft"
               data-wow-delay="1s"
             >
+             
               <li>
                 <span>
-                We are a top-rated eCommerce company In Bangalore
+                Navigable and functional websites, optimized to deliver desired results for your business. 
+
                 </span>
               </li>
               <li>
                 <span>
-                   Experienced team of 27+ professional website developers
+                A visually appealing, functional and conversion-focused website.
+
                 </span>
               </li>
               <li>
                 <span>
-                 Get the perfect balance between website design features and your budget.
+                Custom-built static or dynamic CMS solutions tailored to your business needs.
+
                 </span>
               </li>
             </ul>
