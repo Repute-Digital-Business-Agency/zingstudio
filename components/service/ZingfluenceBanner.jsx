@@ -14,7 +14,7 @@ export default function ZingFluenceBanner() {
       data-wow-delay="0.2s"
     >
       <div className="banner-contant">
-        <h1 className="dz-title">Make events even better Make events even better</h1>
+        <h1 className="dz-title">Lorem Ipsum is simply dummy of the printing and typesetting </h1>
         <p>
           Planning to carrying out every event in an organized manner,
           using professional staff is our expertise.   Planning to carrying out every event in an organized manner,
