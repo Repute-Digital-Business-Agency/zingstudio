@@ -323,7 +323,7 @@ export default function Am_a_Zing() {
                     </span>
                   </Link>
                 </h2>
-                <h4 className="title" style={{ color: "black", fontWeight: "600" }}>
+                <h4 className="title" style={{ color: "black", fontWeight: "400" }}>
                   Empowering women to lead the future
                 </h4>
                 <p style={{ color: "black" }}>

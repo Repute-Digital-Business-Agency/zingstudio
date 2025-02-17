@@ -2209,7 +2209,7 @@ ol.commentlist li .meta span {
 
 .box-about-list .icon-bx-wraper .dlab-tilte {
   color: #fff;
-  font-weight: 500;
+  font-weight: 400;
   /* text-decoration: underline; */
 }
 
@@ -8058,9 +8058,9 @@ button.scroltop {
 }
 
 .dz-industry-zone .banner-contant .dz-title {
-  font-size: 65px;
-  line-height: 83px;
-  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 500 !important;
   color: #fff;
   margin-bottom: 10px;
 }
@@ -8250,7 +8250,7 @@ button.scroltop {
 }
 
 .dz-oil-industry-zone .dz-banner-top {
-  padding-bottom: 90px;
+  padding-bottom: 50px;
 }
 
 .dz-oil-industry-zone .dz-banner-top .dz-title {
@@ -8406,9 +8406,6 @@ button.scroltop {
     padding: 0px 100px;
   }
 
-  .dz-oil-industry-zone {
-    padding: 50px 100px;
-  }
 
   .dz-oil-industry-zone .dz-banner-top .dz-title {
     font-size: 35px;
