@@ -23,7 +23,7 @@ export default function Insights() {
 
                 </p>
               </div>
-              <ul className="list-check white list-2 rounded border">
+              <ul className="list-check white list-2 rounded border d-flex flex-wrap">
                 <li>
                   <h4 className="m-b10">Expert-Led Training</h4>
                   <p>

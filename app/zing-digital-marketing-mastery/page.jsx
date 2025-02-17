@@ -116,7 +116,7 @@ export default function page() {
     {
       id: 137,
       imgSrc: "/images/icon/car/icon-1.png",
-      title: "Orientation & Icebreaker <br/> (Day 1-2)",
+      title: "Orientation & Icebreaker <b> (Day 1-2) <b/>" ,
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -131,7 +131,7 @@ export default function page() {
     {
       id: 138,
       imgSrc: "/images/icon/car/icon-2.png",
-      title: "Module-Based Practical Learning <br/> (Week 1 - Ongoing)",
+      title: "Module-Based Practical Learning <b> (Week 1 - Ongoing) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -146,7 +146,7 @@ export default function page() {
     {
       id: 139,
       imgSrc: "/images/icon/car/icon-3.png",
-      title: "Doubt Clearing & Weekly Q&A <br/> (Every Weekend)",
+      title: "Doubt Clearing & Weekly Q&A <b> (Every Weekend)  <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -159,7 +159,7 @@ export default function page() {
     {
       id: 140,
       imgSrc: "/images/icon/car/icon-4.png",
-      title: "Assignments & Case Studies <br/>(Mid-Course)",
+      title: "Assignments & Case Studies <b>(Mid-Course) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -182,7 +182,7 @@ export default function page() {
     {
       id: 142,
       imgSrc: "/images/icon/car/icon-6.png",
-      title: "Group Projects & Presentations <br/> (Final Weeks)",
+      title: "Group Projects & Presentations <b> (Final Weeks) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",

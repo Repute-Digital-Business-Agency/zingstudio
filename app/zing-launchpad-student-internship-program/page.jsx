@@ -85,7 +85,7 @@ export default function page() {
     {
       id: 137,
       imgSrc: "/images/icon/car/icon-1.png",
-      title: " Orientation & Goal Setting <br/> (Day 1)",
+      title: " Orientation & Goal Setting <b> (Day 1) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -99,7 +99,7 @@ export default function page() {
     {
       id: 138,
       imgSrc: "/images/icon/car/icon-2.png",
-      title: "Digital Marketing Basics & Tools <br/> (Days 2-5)",
+      title: "Digital Marketing Basics & Tools <b> (Days 2-5) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -114,7 +114,7 @@ export default function page() {
     {
       id: 139,
       imgSrc: "/images/icon/car/icon-3.png",
-      title: "Project Implementation <br/> (Days 6-8)",
+      title: "Project Implementation <b> (Days 6-8) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -127,7 +127,7 @@ export default function page() {
     {
       id: 140,
       imgSrc: "/images/icon/car/icon-4.png",
-      title: "Evaluation & Networking <br/>(Days 9-10)",
+      title: "Evaluation & Networking <b>(Days 9-10) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",

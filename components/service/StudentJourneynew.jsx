@@ -133,10 +133,11 @@ export default function StudentJourneynew({services10}) {
   }*/}
   
   const [isOpen, setOpen] = useState(false);
+  const [isPlaying, setPlaying] = useState(false);
   return (
     <>
       
-      <div className="bg-white">
+      <div className="bg-white studentJourney">
         
         <div className="section-full bg-white content-inner">
           <div className="container">
@@ -151,7 +152,7 @@ export default function StudentJourneynew({services10}) {
                 </div>
 
                
-                <div className="video-bx radius-no  mb-5">
+                {/* <div className="video-bx radius-no  mb-5">
                   <img
                     className="img-cover"
                     width="500"
@@ -168,7 +169,41 @@ export default function StudentJourneynew({services10}) {
                       <i className="fas fa-play" />
                     </a>
                   </div>
-                </div>
+                </div> */}
+
+<div
+        className="video-bx radius-no mb-5"
+        onClick={() => setPlaying(true)}
+        style={{ cursor: "pointer" }}
+      >
+        {!isPlaying ? (
+          <>
+            <img
+              className="img-cover"
+              width="500"
+              height="100"
+              src="/images/our-work/car/pic4.jpg"
+              alt="Video Thumbnail"
+            />
+            <div className="video-play-icon">
+              <a className="popup-video video" style={{ background: "#e21100" }}>
+                <i className="fas fa-play" />
+              </a>
+            </div>
+          </>
+        ) : (
+          <video
+            className="img-cover"
+            width="500"
+            height="100"
+            src="/video/student-journey.mp4"
+            autoPlay
+            muted
+            playsInline
+            controls
+          />
+        )}
+      </div>
 
    
               
@@ -219,12 +254,12 @@ export default function StudentJourneynew({services10}) {
        
       </div>
 
-      <ModalVideo
+      {/* <ModalVideo
         channel="custom"
         isOpen={isOpen}
         url="/video/student-journey.mp4"
         onClose={() => setOpen(false)}
-      />
+      /> */}
      
     </>
   );

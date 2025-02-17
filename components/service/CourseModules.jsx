@@ -26,7 +26,7 @@ import GallaryWrapper from "../common/GallaryWrapper";
 
 const images = [
     {
-        imgSrc:"/images/Academy/Course-Mod/pic11.jpg",
+        imgSrc:"/images/Home-Page/Zing-acd/zing-digital-marketing-mastery.jpg",
         title:"Zing Digital Marketing Mastery",
         mode:"online/offline",
         list:[
@@ -41,7 +41,7 @@ const images = [
         
     },
     {
-      imgSrc:"/images/Academy/Course-Mod/pic12.jpg",
+      imgSrc:"/images/Home-Page/Zing-acd/student-internship-program.jpg",
       title:" Zing Launchpad – Student Internship Program",
       mode:"online/offline",
       list:[
@@ -57,7 +57,7 @@ const images = [
       
     },
     {
-      imgSrc:"/images/Academy/Course-Mod/pic13.jpg",
+      imgSrc:"/images/Home-Page/Zing-acd/essentials-of-marketing.jpg",
       title:"Zing Digital Sprint – Essentials of Marketing",
       mode:"online/offline",
       list:[
@@ -73,6 +73,7 @@ const images = [
       
   },
   {
+    imgSrc:"/images/Home-Page/Zing-acd/zing-ai-in-digital-marketing.jpg",
     imgSrc:"/images/our-work/pic1.jpg",
     title:"Zing AI in Digital Marketing",
     mode:"online/offline",
@@ -90,7 +91,7 @@ const images = [
   },
 
   {
-    imgSrc:"/images/our-work/pic1.jpg",
+    imgSrc:"/images/Home-Page/Zing-acd/zing-social-media-mastery.jpg",
     title:"Zing Social Media Mastery",
     mode:"online/offline",
     list:[
@@ -106,7 +107,7 @@ const images = [
     
   },
   {
-    imgSrc:"/images/our-work/pic1.jpg",
+    imgSrc:"/images/Home-Page/Zing-acd/zing-seo-spercharger.jpg",
     title:"Zing SEO Supercharger",
     mode:"online/offline",
     list:[
@@ -122,7 +123,7 @@ const images = [
     
   },  
   {
-    imgSrc:"/images/our-work/pic1.jpg",
+    imgSrc:"/images/Home-Page/Zing-acd/zing-adSense-ace.jpg",
     title:" Zing AdSense Ace",
     mode:"online/offline",
     list:[
@@ -138,7 +139,7 @@ const images = [
     
   },
   {
-    imgSrc:"/images/our-work/pic1.jpg",
+    imgSrc:"/images/Home-Page/Zing-acd/zing-copywriting-content-mastery.jpg",
     title:"Zing Copywriting & Content Mastery",
     mode:"online/offline",
     list:[

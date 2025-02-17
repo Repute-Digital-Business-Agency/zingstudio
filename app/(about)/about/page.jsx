@@ -12,6 +12,7 @@ import Services1 from "@/components/homes/home-15/Services1";
 import About from "@/components/homes/home-3/About";
 import React from "react";
 import Footer13 from "@/components/footers/Footer13";
+import AboutCta from "@/components/service/AboutCta";
 
 export const metadata = {
   title: "About || Zing Studio",
@@ -30,7 +31,8 @@ export default function page() {
           {/* <Team /> */}
           <Services1 />
           {/* <Services /> */}
-          <Cta />
+          <AboutCta />
+
         </div>
         {/* <Footer2 contactSection="false" /> */}
         <Footer13 />

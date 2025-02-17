@@ -91,7 +91,7 @@ export default function page() {
     {
       id: 137,
       imgSrc: "/images/icon/car/icon-1.png",
-      title: " Social Media Strategy <br/> (Week 1)",
+      title: " Social Media Strategy <b> (Week 1) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -105,7 +105,7 @@ export default function page() {
     {
       id: 138,
       imgSrc: "/images/icon/car/icon-2.png",
-      title: "Instagram & LinkedIn Mastery <br/> (Week 2)",
+      title: "Instagram & LinkedIn Mastery <b> (Week 2) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -120,7 +120,7 @@ export default function page() {
     {
       id: 139,
       imgSrc: "/images/icon/car/icon-3.png",
-      title: "YouTube & Facebook Growth Q&A <br/> (Week 3)",
+      title: "YouTube & Facebook Growth Q&A <b> (Week 3) <b/>" ,
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -133,7 +133,7 @@ export default function page() {
     {
       id: 140,
       imgSrc: "/images/icon/car/icon-4.png",
-      title: "Monetization & Final Projects <br/>(Week 4)",
+      title: "Monetization & Final Projects <b>(Week 4) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",

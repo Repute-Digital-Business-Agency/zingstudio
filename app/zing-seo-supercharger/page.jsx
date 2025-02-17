@@ -83,7 +83,7 @@ export default function page() {
     {
       id: 137,
       imgSrc: "/images/icon/car/icon-1.png",
-      title: "SEO Foundations <br/> (Week 1)",
+      title: "SEO Foundations <b> (Week 1) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -97,7 +97,7 @@ export default function page() {
     {
       id: 138,
       imgSrc: "/images/icon/car/icon-2.png",
-      title: "On-Page SEO & Speed Optimization <br/> (Week 2)",
+      title: "On-Page SEO & Speed Optimization <b> (Week 2) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -112,7 +112,7 @@ export default function page() {
     {
       id: 139,
       imgSrc: "/images/icon/car/icon-3.png",
-      title: "Link Building & Technical SEO <br/> (Week 3)",
+      title: "Link Building & Technical SEO <b> (Week 3) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -125,7 +125,7 @@ export default function page() {
     {
       id: 140,
       imgSrc: "/images/icon/car/icon-4.png",
-      title: "E-Commerce & Local SEO <br/>(Week 4)",
+      title: "E-Commerce & Local SEO <b>(Week 4) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -141,7 +141,7 @@ export default function page() {
     {
       id: 143,
       imgSrc: "/images/icon/car/icon-6.png",
-      title: "SEO Strategy Showcase <br/>",
+      title: "SEO Strategy Showcase ",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",

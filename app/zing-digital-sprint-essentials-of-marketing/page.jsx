@@ -75,7 +75,7 @@ export default function page() {
     {
       id: 137,
       imgSrc: "/images/icon/car/icon-1.png",
-      title: "Orientation & Icebreaker <br/> (Day 1)",
+      title: "Orientation & Icebreaker <b> (Day 1) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -89,7 +89,7 @@ export default function page() {
     {
       id: 138,
       imgSrc: "/images/icon/car/icon-2.png",
-      title: "Marketing Fundamentals <br/> (Week 1)",
+      title: "Marketing Fundamentals <b> (Week 1) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -105,7 +105,7 @@ export default function page() {
     {
       id: 140,
       imgSrc: "/images/icon/car/icon-4.png",
-      title: "SEO & Social Media Marketing <br/>(Week 2)",
+      title: "SEO & Social Media Marketing <b>(Week 2) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -120,7 +120,7 @@ export default function page() {
     {
       id: 142,
       imgSrc: "/images/icon/car/icon-6.png",
-      title: "Project Presentations <br/> (Final Day)",
+      title: "Project Presentations <b> (Final Day) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",

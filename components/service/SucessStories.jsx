@@ -54,18 +54,23 @@ export default function SucessStories() {
   return (
     <>
    
-      <div className="bg-white">
+      <div className="section-full content-inner-2 bg-img-fix overlay-black-dark wow fadeIn courseLearnig"
+      data-wow-duration="2s"
+      data-wow-delay="0.8s"
+      style={{ backgroundImage: "url(/images/background/cs.jpg)" }}
+       >
         
         {/* Testimonials Style 8 */}
-        <div className="section-full bg-gray  content-inner" >
+        <div className="section-full   content-inner"
+         >
           <div className="container">
             <div className="row">
 
               <div className="col-lg-12">
               <div className="section-head style2 text-center mb-5">
-                    <h2 className="title text-black">Zing Studio Success Stories</h2>
+                    <h2 className="title text-white">Zing Studio Success Stories</h2>
                     {/* <h4 className="text-dark mt-5"> <b style={{color:"#c82e1e"}}> 40+ </b>Free Premium Digital Marketing Tools</h4> */}
-                    <p className="text-black " >100% Satisfaction Guaranteed</p>
+                    <p className="text-white " >100% Satisfaction Guaranteed</p>
                 </div>
                 <div className="section-content">
                   <Swiper
@@ -96,7 +101,7 @@ export default function SucessStories() {
                   >
                     {testimonials.map((elm, i) => (
                       <SwiperSlide key={i} className="item">
-                        <div className="testimonial-15 text-black">
+                        <div className="testimonial-15 text-white">
                           <div className="testimonial-text quote-left quote-right">
                             <p>{elm.text}</p>
                           </div>

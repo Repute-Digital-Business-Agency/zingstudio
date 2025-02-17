@@ -18872,3 +18872,8 @@ input[type="radio"]+label:hover:before {
 .service-titlebg {
   background: #e21100;
 }
+
+.studentJourney .post-title b{
+  color: #e21100;
+  font-weight: normal;
+}

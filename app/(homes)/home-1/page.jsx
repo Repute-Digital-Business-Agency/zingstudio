@@ -23,6 +23,7 @@ import HomeAmazing from "@/components/service/HomeAmazing";
 import Home from "@/app/page";
 import HomeHero from "@/components/service/HomeHero";
 import HomeService from "@/components/service/HomeService";
+import HomeCta from "@/components/service/HomeCta";
 // import HomeService from "@/components/service/HomeService"
 
 
@@ -83,7 +84,7 @@ export default function page() {
         </div> */}
 
 
-        <Cta />
+        <HomeCta />
         {/* <Footer2 contactSection="false" /> */}
         <Footer13 />
       </div>

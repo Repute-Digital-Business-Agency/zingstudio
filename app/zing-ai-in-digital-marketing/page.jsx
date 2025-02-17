@@ -74,7 +74,7 @@ export default function page() {
     {
       id: 137,
       imgSrc: "/images/icon/car/icon-1.png",
-      title: "Orientation & AI Basics <br/> (Day 1)",
+      title: "Orientation & AI Basics <b> (Day 1) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -88,7 +88,7 @@ export default function page() {
     {
       id: 138,
       imgSrc: "/images/icon/car/icon-2.png",
-      title: "AI in SEO & Content <br/> (Day 2)",
+      title: "AI in SEO & Content <b> (Day 2) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -103,7 +103,7 @@ export default function page() {
     {
       id: 139,
       imgSrc: "/images/icon/car/icon-3.png",
-      title: "AI-Powered Campaigns <br/> (Day 3)",
+      title: "AI-Powered Campaigns <b> (Day 3) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -116,7 +116,7 @@ export default function page() {
     {
       id: 140,
       imgSrc: "/images/icon/car/icon-4.png",
-      title: "AI for Analytics <br/>(Day 4)",
+      title: "AI for Analytics <b>(Day 4) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -131,7 +131,7 @@ export default function page() {
     {
       id: 142,
       imgSrc: "/images/icon/car/icon-6.png",
-      title: "Evaluation & Project Showcase <br/> (Day 5)",
+      title: "Evaluation & Project Showcase <b> (Day 5) <b/>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
