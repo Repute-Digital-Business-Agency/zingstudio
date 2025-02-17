@@ -40,28 +40,28 @@ export default function page() {
           {/* <div className="content-block p-t50 p-b50 bg-gray">
             <ClientSlider />
           </div> */}
-           
-          <HomeAbout/>
-          <HomeHero/>
+
+          <HomeAbout />
+          <HomeHero />
           {/* <Projects2 /> */}
           {/* <div className="content-block home-service-section bg-gray"> */}
-            {/* <HomeServiceAnimation /> */}
-            <HomeService/>
+          {/* <HomeServiceAnimation /> */}
+          <HomeService />
           {/* </div> */}
 
-         
+
 
           {/* <div className="content-block p-t20 p-b80 home-our-vision-section">
             <Testimonials />
           </div> */}
 
-          <CourseModulesHome/>
-          
-          <Am_a_Zing/>        
+          <CourseModulesHome />
+
+          <Am_a_Zing />
           {/* <HomeAmazing/> */}
-          
-          
-            {/* normal  academy section component */}
+
+
+          {/* normal  academy section component */}
           {/* <Academy/> */}
           {/* normal  academy section component */}
 
@@ -73,16 +73,16 @@ export default function page() {
           </div> */}
 
           {/* scroll effect academy section component */}
-          
 
-        {/* ceo speaks */}
+
+          {/* ceo speaks */}
           {/* <Testimonial /> */}
         </div>
         {/* <div className="container">
         <div className="studio-bg" style={{backgroundImage: "url(/images/element-6.png)"}}></div>
         </div> */}
-       
-        
+
+
         <Cta />
         {/* <Footer2 contactSection="false" /> */}
         <Footer13 />

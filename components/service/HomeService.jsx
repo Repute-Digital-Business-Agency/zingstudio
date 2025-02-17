@@ -7,9 +7,9 @@ import Link from "next/link";
 
 export default function HomeService() {
   return (
-    <div className="container-fluid  project-area content-inner-1 HomeService " style={{ backgroundImage: "url(/images/elementbg/our-services-bg-element.png)", backgroundRepeat: "no-repeat" }}>
-      <div className="section-full  bg-img-fix centeredSlides" >
-        <div className="container">
+    <div className=" section-full  project-area content-inner-1 HomeService pt-0 pb-0  ">
+      <div className="  bg-img-fix container-fluid centeredSlides bg-gray "  style={{ backgroundImage: "url(/images/elementbg/our-services-bg-element.png)", backgroundRepeat: "no-repeat" }}>
+        <div className="container ">
           <div
             className="section-head text-dark style2 wow fadeInUp mb-0"
             data-wow-duration="2s"
@@ -131,7 +131,7 @@ export default function HomeService() {
 
             <div className="project-info-box mt-5">
               <div className="project-media">
-                <Image src="/images/Home-Page/service/ecommerce-website-Standard.jpg" width={1704} height={696} alt="" />
+                <Image src="/images/Home-Page/service/ecommerce-website-standard.jpg" width={1704} height={696} alt="" />
               </div>
               <div className="project-content last" style={{ background: "#e21100" }}>
                 <ul className="list-details">

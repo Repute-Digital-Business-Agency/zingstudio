@@ -24,13 +24,13 @@ const images = [
   const images2 = ["/images/banner/bnr5.jpg", "/images/banner/bnr4.jpg"];
 export default function BestInfluencer() {
   return (
-    <div className="section-full bg-white content-inner">
+    <div className="section-full content-inner bg-gray">
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
           <div className="section-head sort-title clearfix text-center">
           <h2 className="title" style={{fontWeight:"800"}}>Our Exclusive Creators</h2>
-          <p style={{color:"#494949"}}>
+          <p style={{color:"#282222"}}>
             There are many variations of passages of Lorem Ipsum typesetting
             industry has been the industry's standard dummy 
           </p>

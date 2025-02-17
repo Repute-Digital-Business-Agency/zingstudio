@@ -89,7 +89,7 @@ body {
   font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
   font-size: 16px;
   font-weight: 400;
-  color: #494949;
+  color: #282222;
   padding: 0;
   margin: 0;
   overflow-x: hidden;
@@ -14035,14 +14035,14 @@ footer .widget_services ul li a:hover {
 
 .title-small {
   display: block;
-  color: #494949;
+  color: #282222;
   margin-bottom: 15px;
 }
 
 .section-head p {
   padding-top: 10px;
   font-size: 15px;
-  color: #494949;
+  color: #282222;
 }
 
 .text-center.section-head p {
@@ -16687,7 +16687,7 @@ ol.commentlist li .star-rating {
 .our-story p {
   font-size: 16px;
   line-height: 32px;
-  color: #494949;
+  color: #282222;
 }
 
 .our-story h2.title {
@@ -16700,14 +16700,14 @@ ol.commentlist li .star-rating {
 .our-story h2.title span {
   font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
   /* font-style: italic; */
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .our-story h4.title {
   font-size: 25px;
   line-height: 40px;
   font-weight: 500;
-  color: #494949;
+  color: #282222;
 }
 
 .section-head .title {
@@ -17504,7 +17504,7 @@ input[type="radio"]+label:hover:before {
   position: relative;
   text-align: left;
   padding-left: 25px;
-  color: #494949;
+  color: #282222;
 }
 
 /* .pricingtable-wrapper.style2 .pricingtable-features li{

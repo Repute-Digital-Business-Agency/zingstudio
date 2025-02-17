@@ -6769,7 +6769,7 @@ HOME 5 Box Header
 
 .centeredSlides .swiper-slide.swiper-slide-active .testimonial-13 .testimonial-text {
   background-color: transparent;
-  color: #494949;
+  color: #282222;
 }
 
 .centeredSlides .swiper-slide.swiper-slide-active .testimonial-13 {
@@ -8064,8 +8064,8 @@ button.scroltop {
 }
 
 .dz-industry-zone .banner-contant .dz-title {
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 40px;
+  line-height: 50px;
   font-weight: 500 !important;
   color: #fff;
   margin-bottom: 10px;
@@ -8898,7 +8898,7 @@ button.scroltop {
 }
 
 .dz-industry2-zone .swiper-slide img {
-  height: 790px;
+  height: 700px;
   object-fit: cover;
 }
 

@@ -39,11 +39,11 @@ export default function page() {
             >
               <div className="container">
                 <div className="row">
-                  <div className="col-lg-12 text-center service-info">
+                  <div className="col-lg-12 text-center ">
                     <h2 className="title text-white">
                       Why Zing Academy ?
                     </h2>
-                    <p className="text-white">
+                    <p className="text-white mb-0">
                      Gain a competitive edge with expert-led digital marketing training that combines real-world experience and hands-on learning. Unlock the skills to thrive in today’s fast-moving digital landscape and take your career to the next level.
 
                     </p>

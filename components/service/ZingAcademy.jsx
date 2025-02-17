@@ -54,7 +54,7 @@ export default function ZingAcademy() {
                         <span>3 Months On-Job Training</span> <br />
                         
                       </h2>
-                      <p style={{color:"#494949"}}>
+                      <p style={{color:"#282222"}}>
                       Acquire real-world experience by developing campaigns,
                               optimizing websites, and creating engaging social media
                               content under the guidance of expert mentors. 
@@ -88,7 +88,7 @@ export default function ZingAcademy() {
                         <span> Exclusive Discount for Female Students:</span> 
                         {/* <br /> Optimization */}
                       </h2>
-                      <p style={{color:"#494949"}}>
+                      <p style={{color:"#282222"}}>
                       Women students pursuing our academy courses receive a
                               flat 15% discount to support their career aspirations
                               and skill-building journey. 

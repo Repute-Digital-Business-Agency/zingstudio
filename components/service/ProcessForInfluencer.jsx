@@ -88,7 +88,7 @@ export default function ProcessForInfluencer() {
                       </div>
                       <div className="icon-content">
                         <h5 className="dlab-tilte">{item.title}</h5>
-                        <p style={{color:"#494949"}}>{item.description}</p>
+                        <p style={{color:"#282222"}}>{item.description}</p>
                       </div>
                     </div>
                     {/* <div className="icon-box-btn text-center">

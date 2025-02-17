@@ -14,7 +14,7 @@ export default function ZingFluenceBanner() {
       data-wow-delay="0.2s"
     >
       <div className="banner-contant">
-        <h1 className="dz-title">Make events  even better even better even better</h1>
+        <h1 className="dz-title">Lorem Ipsum is simply dummy of the printing and typesetting </h1>
         <p>
           Planning to carrying out every event in an organized manner,
           using professional staff is our expertise.   Planning to carrying out every event in an organized manner,
@@ -23,7 +23,7 @@ export default function ZingFluenceBanner() {
         </p>
         <div className="dz-banner-btn d-flex align-items-center">
           <Link
-            href="/contact-1"
+            href="/contact"
             className="btn m-0 text-decoration-none btnhover13"
           >
             Book Now
@@ -136,12 +136,12 @@ export default function ZingFluenceBanner() {
 
 <div className="section-full bg-white content-inner">
         <div className="container">
-          <div className="section-head text-center wow fadeInUp"
+          <div className="text-center wow fadeInUp"
               data-wow-duration="2s"
               data-wow-delay="0.3s">
             <h2 className="title">Our Services</h2>
             <div>
-                 <p>
+                 <p className="mb-0">
               There are many variations of passages of Lorem Ipsum typesetting
               industry has been the industry's standard dummy text ever since
               the been when an unknown printer. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, saepe est debitis, excepturi amet officia, maxime harum consequuntur voluptatum expedita neque assumenda quam impedit consectetur quisquam ea molestias! Assumenda, error!

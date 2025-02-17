@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function About() {
   return (
-    <div className="section-full content-inner const-about">
+    <div className="section-full content-inner const-about bg-white">
       <div className="container">
         <div className="row align-items-center">
           <div

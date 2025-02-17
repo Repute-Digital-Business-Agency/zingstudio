@@ -35,7 +35,7 @@ export default function About() {
   
   return (
     <>
-      <div className="section-full content-inner exhibition-bx">
+      <div className="section-full content-inner exhibition-bx bg-white">
         <div className="container">
           <div className="row align-items-center">
             <div
