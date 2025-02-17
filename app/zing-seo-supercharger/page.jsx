@@ -40,75 +40,42 @@ export default function page() {
 
   const courseModule = [
     {
-      title:"Module 1: Digital Marketing Foundations",
+      title:"Module 1: SEO Foundations",
       list:[
-        "Understanding Digital Marketing & Trends",
-        "Marketing Funnels & Customer Journey",
-        "Brand Positioning & Market Research",
-        "Competitor Analysis & Strategy"
-      ],
-      imgSrc:"/images/services/web-design.jpg"
-    },
-    {
-      title:"Module 2: SEO Mastery",
-      list:[
+        "Understanding Search Engines & Algorithms",
         "Keyword Research & Competitive Analysis",
-        "On-Page & Off-Page SEO",
-        "Technical SEO (Schema, Site Speed, Mobile Optimization)",
-        "Local SEO & E-commerce SEO"
+        
       ],
       imgSrc:"/images/services/web-design.jpg"
     },
     {
-      title:"Module 3: Social Media & Community Building",
+      title:"Module 2: On-Page & Off-Page SEO",
       list:[
-        "Instagram & Facebook Growth Strategies",
-        "LinkedIn & Twitter for Personal Branding",
-        "YouTube Marketing & Video SEO",
-        "Social Media Monetization Techniques"
-      ],
-      imgSrc:"/images/services/web-design.jpg"
-    },    {
-      title:"Module 4: Paid Advertising & Google Ads",
-      list:[
-        "Google Ads (Search, Display, Shopping)",
-        "Facebook & Instagram Ads",
-        "LinkedIn & Twitter Ads",
-        "A/B Testing & Performance Analytics",
-        "Retargeting & Budget Optimization"
-      ],
-      imgSrc:"/images/services/web-design.jpg"
-    },
-    {
-      title:"Module 5: Content Marketing & Copywriting",
-      list:[
-        "Crafting High-Converting Sales Copy",
-        "Blogging & SEO Writing",
-        "Storytelling & Brand Voice",
-        "Video Content & Email Marketing"
-      ],
-      imgSrc:"/images/services/web-design.jpg"
-    },
-    {
-      title:"Module 6: AI & Automation in Marketing",
-      list:[
-        "AI-Powered Tools for Marketing",
-        "Chatbots & Email Automation",
-        "Personalization & Predictive Analytics",
+        "Site Optimization & Speed Enhancement",
+        "Link Building & Guest Posting",
        
       ],
       imgSrc:"/images/services/web-design.jpg"
     },
     {
-      title:"Internship",
+      title:"Module 3: Technical SEO & Local SEO",
       list:[
-        "Work on Live Projects",
-        "Develop Digital Strategies for Real Businesses",
-        "Create & Optimize Ad Campaigns",
-        "SEO & Social Media Content Execution"
+        "Website Audits & Fixing Issues",
+        "Local Business SEO & Google My Business",
+       
       ],
       imgSrc:"/images/services/web-design.jpg"
-    }
+    }, 
+       {
+      title:"Module 4: E-commerce SEO & Analytics",
+      list:[
+        "Product Page Optimization",
+        "SEO Tracking & Analytics",
+        
+      ],
+      imgSrc:"/images/services/web-design.jpg"
+    },
+   
   ]
   return (
     <>

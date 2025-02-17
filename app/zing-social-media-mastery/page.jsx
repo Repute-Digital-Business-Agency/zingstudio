@@ -40,75 +40,50 @@ export default function page() {
 
   const courseModule = [
     {
-      title:"Module 1: Digital Marketing Foundations",
+      title:"Module 1: Social Media Strategy",
       list:[
-        "Understanding Digital Marketing & Trends",
-        "Marketing Funnels & Customer Journey",
-        "Brand Positioning & Market Research",
-        "Competitor Analysis & Strategy"
-      ],
-      imgSrc:"/images/services/web-design.jpg"
-    },
-    {
-      title:"Module 2: SEO Mastery",
-      list:[
-        "Keyword Research & Competitive Analysis",
-        "On-Page & Off-Page SEO",
-        "Technical SEO (Schema, Site Speed, Mobile Optimization)",
-        "Local SEO & E-commerce SEO"
-      ],
-      imgSrc:"/images/services/web-design.jpg"
-    },
-    {
-      title:"Module 3: Social Media & Community Building",
-      list:[
-        "Instagram & Facebook Growth Strategies",
-        "LinkedIn & Twitter for Personal Branding",
-        "YouTube Marketing & Video SEO",
-        "Social Media Monetization Techniques"
-      ],
-      imgSrc:"/images/services/web-design.jpg"
-    },    {
-      title:"Module 4: Paid Advertising & Google Ads",
-      list:[
-        "Google Ads (Search, Display, Shopping)",
-        "Facebook & Instagram Ads",
-        "LinkedIn & Twitter Ads",
-        "A/B Testing & Performance Analytics",
-        "Retargeting & Budget Optimization"
-      ],
-      imgSrc:"/images/services/web-design.jpg"
-    },
-    {
-      title:"Module 5: Content Marketing & Copywriting",
-      list:[
-        "Crafting High-Converting Sales Copy",
-        "Blogging & SEO Writing",
-        "Storytelling & Brand Voice",
-        "Video Content & Email Marketing"
-      ],
-      imgSrc:"/images/services/web-design.jpg"
-    },
-    {
-      title:"Module 6: AI & Automation in Marketing",
-      list:[
-        "AI-Powered Tools for Marketing",
-        "Chatbots & Email Automation",
-        "Personalization & Predictive Analytics",
+        "Understanding Social Media Algorithms",
+        "Audience Targeting & Engagement",
        
       ],
       imgSrc:"/images/services/web-design.jpg"
     },
     {
-      title:"Internship",
+      title:"Module 2: Instagram & Reels Mastery",
       list:[
-        "Work on Live Projects",
-        "Develop Digital Strategies for Real Businesses",
-        "Create & Optimize Ad Campaigns",
-        "SEO & Social Media Content Execution"
+        "Creating Viral Reels & Stories",
+        "Growth Hacking & Monetization",
+       
       ],
       imgSrc:"/images/services/web-design.jpg"
-    }
+    },
+    {
+      title:"Module 3: LinkedIn & Twitter Branding",
+      list:[
+        "Personal Branding Strategies",
+        "Twitter Threads & LinkedIn Networking",
+        
+      ],
+      imgSrc:"/images/services/web-design.jpg"
+    },    {
+      title:"Module 4: Facebook & YouTube Growth",
+      list:[
+        "YouTube SEO & Monetization",
+        "Facebook Groups & Ads",
+        
+      ],
+      imgSrc:"/images/services/web-design.jpg"
+    },
+    {
+      title:"Module 5: Monetization Strategies",
+      list:[
+        "Affiliate Marketing & Sponsorships",
+        "Brand Collaborations & Paid Partnerships",
+      
+      ],
+      imgSrc:"/images/services/web-design.jpg"
+    },
+    
   ]
   return (
     <>

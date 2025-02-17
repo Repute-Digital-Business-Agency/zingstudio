@@ -10,20 +10,20 @@ export default function About() {
    const galleryItems = [
     {
       id: 1,
-      // imgSrc: "/images/Am-a-Zing/am-zing-imgae-1.jpg",
-      imgSrc: "/images/Home-Page/amazing/am-a-zing-img-1.jpg",
+      imgSrc: "/images/Am-a-Zing/am-zing-imgae-1.jpg",
+      // imgSrc: "/images/Home-Page/amazing/am-a-zing-img-1.jpg",
       altText: "Gallery Image 1",
     },
     {
       id: 2,
-      // imgSrc: "/images/Am-a-Zing/am-zing-imgae-2.jpg",
-      imgSrc: "/images/Home-Page/amazing/am-a-zing-img-2.jpg",
+      imgSrc: "/images/Am-a-Zing/am-zing-imgae-2.jpg",
+      // imgSrc: "/images/Home-Page/amazing/am-a-zing-img-3.jpg",
       altText: "Gallery Image 2",
     },
     {
       id: 3,
-      // imgSrc: "/images/Am-a-Zing/am-zing-imgae-3.jpg",
-      imgSrc: "/images/Home-Page/amazing/image.jpg",
+      imgSrc: "/images/Am-a-Zing/am-zing-imgae-3.jpg",
+      // imgSrc: "/images/Home-Page/amazing/am-a-zing-img-4.jpg",
       altText: "Gallery Image 3",
     },
     // {
