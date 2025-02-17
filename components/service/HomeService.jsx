@@ -131,7 +131,7 @@ export default function HomeService() {
 
             <div className="project-info-box mt-5">
               <div className="project-media">
-                <Image src="/images/Home-Page/service/ecommerce-website-Standard.jpg" width={1704} height={696} alt="" />
+                <Image src="/images/Home-Page/service/ecommerce-website-standard.jpg" width={1704} height={696} alt="" />
               </div>
               <div className="project-content last" style={{ background: "#e21100" }}>
                 <ul className="list-details">
