@@ -239,8 +239,8 @@ export default function Portfolio2() {
             </h2>
             <h4 className="title" style={{textTransform:"none", color: "black", fontWeight: "600" }}>
               {" "}
-              Explore our creative solutions<br></br> We have a proven track record of
-              delivering outstanding outcomes for our customers.
+              Quickly explore our services and projects by category,<br></br> from web design to digital marketing and more.
+
             </h4>
           </div>
 

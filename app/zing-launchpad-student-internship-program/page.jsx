@@ -41,75 +41,42 @@ export default function page() {
 
   const courseModule = [
     {
-      title:"Module 1: Digital Marketing Foundations",
+      title:"Module 1: Digital Marketing Basics",
       list:[
-        "Understanding Digital Marketing & Trends",
-        "Marketing Funnels & Customer Journey",
-        "Brand Positioning & Market Research",
-        "Competitor Analysis & Strategy"
+        "Introduction to Digital Marketing",
+        "MMarketing Psychology & Consumer Behavior",
+        
       ],
       imgSrc:"/images/services/web-design.jpg"
     },
     {
-      title:"Module 2: SEO Mastery",
+      title:"Module 2: SEO Basics & Social Media Marketing",
       list:[
-        "Keyword Research & Competitive Analysis",
-        "On-Page & Off-Page SEO",
-        "Technical SEO (Schema, Site Speed, Mobile Optimization)",
-        "Local SEO & E-commerce SEO"
-      ],
-      imgSrc:"/images/services/web-design.jpg"
-    },
-    {
-      title:"Module 3: Social Media & Community Building",
-      list:[
+        "Fundamentals of SEO & Google Search",
         "Instagram & Facebook Growth Strategies",
-        "LinkedIn & Twitter for Personal Branding",
-        "YouTube Marketing & Video SEO",
-        "Social Media Monetization Techniques"
+        
+      ],
+      imgSrc:"/images/services/web-design.jpg"
+    },
+    {
+      title:"Module 3: Paid Ads & Campaign Setup",
+      list:[
+        "Running Facebook & Google Ads",
+        "Basics of Retargeting & Ad Optimization",
+        
       ],
       imgSrc:"/images/services/web-design.jpg"
     },    {
-      title:"Module 4: Paid Advertising & Google Ads",
+      title:"Live Internship Projects:",
       list:[
-        "Google Ads (Search, Display, Shopping)",
-        "Facebook & Instagram Ads",
-        "LinkedIn & Twitter Ads",
-        "A/B Testing & Performance Analytics",
-        "Retargeting & Budget Optimization"
-      ],
-      imgSrc:"/images/services/web-design.jpg"
-    },
-    {
-      title:"Module 5: Content Marketing & Copywriting",
-      list:[
-        "Crafting High-Converting Sales Copy",
-        "Blogging & SEO Writing",
-        "Storytelling & Brand Voice",
-        "Video Content & Email Marketing"
-      ],
-      imgSrc:"/images/services/web-design.jpg"
-    },
-    {
-      title:"Module 6: AI & Automation in Marketing",
-      list:[
-        "AI-Powered Tools for Marketing",
-        "Chatbots & Email Automation",
-        "Personalization & Predictive Analytics",
+        "Managing Social Media Pages",
+        "Running Ads & Analyzing Results",
+        "SEO Optimization for Websites",
        
       ],
       imgSrc:"/images/services/web-design.jpg"
     },
-    {
-      title:"Internship",
-      list:[
-        "Work on Live Projects",
-        "Develop Digital Strategies for Real Businesses",
-        "Create & Optimize Ad Campaigns",
-        "SEO & Social Media Content Execution"
-      ],
-      imgSrc:"/images/services/web-design.jpg"
-    }
+    
   ]
   return (
     <>

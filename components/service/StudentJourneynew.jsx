@@ -1,6 +1,8 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import ModalVideo from "react-modal-video";
 export default function StudentJourneynew() {
   const services10 =   [
     {
@@ -127,6 +129,7 @@ export default function StudentJourneynew() {
       ]
     },
   ]
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
       
@@ -143,6 +146,26 @@ export default function StudentJourneynew() {
           been when an unknown printer.
                     </p>
                 </div>
+
+               
+                <div className="video-bx radius-no ">
+                  <Image
+                    alt="Signature"
+                    className="img-cover"
+                    src="/images/our-work/car/pic4.jpg"
+                    width="500"
+                    height="357"
+                  />
+                  <div className="video-play-icon">
+                    <a
+                      onClick={() => setOpen(true)}
+                      className="popup-youtube video bg-primary"
+                    >
+                      <i className="fas fa-play" />
+                    </a>
+                  </div>
+                </div>
+              
                 <div className="section-content box-sort-in button-example p-b0">
                   <div className="row">
                     {services10.map((item)=>(
@@ -189,6 +212,14 @@ export default function StudentJourneynew() {
         
        
       </div>
+
+      <ModalVideo
+        channel="youtube"
+        youtube={{ mute: 0, autoplay: 0 }}
+        isOpen={isOpen}
+        videoId="_FRZVScwggM"
+        onClose={() => setOpen(false)}
+      />{" "}
     </>
   );
 }
