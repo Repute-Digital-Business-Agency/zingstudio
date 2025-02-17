@@ -2,6 +2,8 @@
 
 import React from "react";
 import Link from "next/link";
+import Cta from "../service/Cta";
+import Cta2 from "../homes/home-3/Cta2";
 export default function Contact2() {
   return (
     <>
@@ -229,6 +231,10 @@ export default function Contact2() {
           </div>
         </div>
       </div>
+      <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15664.460467731644!2d76.95759670714209!3d11.029989062678691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85815bb375b37%3A0x2ae31305026b56e8!2sRepute%20Branding%20%7C%20Mobile%20App%20%7C%20Web%20Development%20%7C%20Digital%20Marketing!5e0!3m2!1sen!2sin!4v1739790096596!5m2!1sen!2sin" width="100%" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+       <Cta2/>
       {/* Con
        */}
     </>
