@@ -394,6 +394,8 @@ export const contactsLinks = [
 ];
 
 export const AcademyLink = [
+  { href: "/zing-academy",
+    label: "Overview",},
  { href: "/zing-digital-marketing-mastery",
   label: "Zing Digital Marketing Mastery",},
 

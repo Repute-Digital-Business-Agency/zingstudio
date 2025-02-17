@@ -367,13 +367,14 @@ export default function Nav() {
           menuOpen2 == "services" ? "open" : ""
         }  `}
       >
-        <a href="/zing-academy"
-
+        <a 
+          onClick={() =>
+            setMenuOpen2((pre) => (pre == "services" ? "" : "services"))
+          }
         >
           Zing Academy
           <i className="fas fa-chevron-down" />
         </a>
-        
         <ul className="sub-menu right academy-dd">
           {AcademyLink.map((link, index) => (
             <li key={index}>
