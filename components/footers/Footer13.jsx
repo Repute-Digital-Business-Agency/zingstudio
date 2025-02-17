@@ -14,7 +14,7 @@ export default function Footer13() {
               data-wow-delay="0.2s"
             >
               <div className="widget border-0">
-                <h6 className="m-b10 font-weight-300 text-uppercase" style={{color:"#1A43BF"}}>
+                <h6 className="m-b10 font-weight-300 text-uppercase" style={{ color: "#1A43BF" }}>
                   Quick Links
                 </h6>
                 <ul className="list-2">
@@ -27,7 +27,7 @@ export default function Footer13() {
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-6 col-sm-6 wow fadeIn"
+              className="col-lg-3 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.4s"
             >
               <div className="widget">
@@ -61,7 +61,7 @@ export default function Footer13() {
                     </div>
                   </form>
                 </div> */}
-                <h6 className="m-b10 font-weight-300 text-uppercase" style={{color:"#1A43BF"}}>
+                <h6 className="m-b10 font-weight-300 text-uppercase" style={{ color: "#1A43BF" }}>
                   Connect with us
                 </h6>
                 <ul className="list-inline m-a0 mt-3">
@@ -72,7 +72,7 @@ export default function Footer13() {
                           href={link.href}
                           className={`site-button btnhover13 sharp ${link.className}`}
                         >
-                          <i  className={`${link.iconClass} text-white`} />
+                          <i className={`${link.iconClass} text-white`} />
                         </a>
                       </li>{" "}
                     </React.Fragment>
@@ -81,11 +81,11 @@ export default function Footer13() {
               </div>
             </div>
             <div
-              className="col-lg-5 col-md-12 col-sm-12 wow fadeIn"
+              className="col-lg-4 col-md-12 col-sm-12 wow fadeIn"
               data-wow-delay="0.6s"
             >
               <div className="icon-bx-wraper bx-style-1 m-b15 p-a30 radius-sm br-col-w1 bg-tpw1">
-                <h6 className="font-weight-500" style={{color:"#1A43BF"}}>
+                <h6 className="font-weight-500" style={{ color: "#1A43BF" }}>
                   Business, E-Commerce, Digital Marketing, Ideas or Just a
                   Coffee
                 </h6>
@@ -96,6 +96,13 @@ export default function Footer13() {
                   reality—one idea at a time!
                 </p>
               </div>
+            </div>
+
+            <div
+              className="col-lg-2 col-md-12 col-sm-12 wow fadeIn"
+              data-wow-delay="0.6s"
+            >
+              <img src="/images/Academy/lets-connect/lets-connect-img.png" />
             </div>
           </div>
         </div>
