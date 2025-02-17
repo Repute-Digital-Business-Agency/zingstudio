@@ -4,57 +4,57 @@ import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 export default function HomeHero() {
-    const slides = [
-        {
-          backgroundImage: "/images/Home-Page/our-work-img-1.jpg",
-          content1: "Prade Jewels",
-          content2: "Prade Jewels",
-          link:"/portfolio"
-        },
-        {
-          backgroundImage: "/images/Home-Page/our-work/kpr-mill.jpg",
-          content1: "KPRMill",
-          content2: "KPRMill",
-          link:"/portfolio"
-        },
-        {
-          backgroundImage: "/images/Home-Page/our-work/omi-pumps.jpg",
-          content1: "OMI Pumps ",
-          content2: "OMI Pumps",
-          link:"/portfolio"
-        },
-        {
-          backgroundImage: "/images/Home-Page/our-work/tirumalai-tex.jpg",
-          content1: "Tirumalai Textiles ",
-          content2: "Tirumalai Textiles",
-          link:"/portfolio"
-        },
-        {
-          backgroundImage: "/images/Home-Page/our-work/img-5.jpg",
-          content1: "Karpagam College of Engineering",
-          content2: "Karpagam College of Engineering",
-          link:"/portfolio",
-          
-        },
-        {
-          backgroundImage: "/images/Home-Page/our-work/img-6.jpg",
-          content1: "Filmode Fashions",
-          content2: "Filmode Fashions",
-          link:"/portfolio"
-        },
-        
-      ];
-      
+  const slides = [
+    {
+      backgroundImage: "/images/Home-Page/our-work-img-1.jpg",
+      content1: "Prade Jewels",
+      content2: "Prade Jewels",
+      link: "/portfolio"
+    },
+    {
+      backgroundImage: "/images/Home-Page/our-work/kpr-mill.jpg",
+      content1: "KPRMill",
+      content2: "KPRMill",
+      link: "/portfolio"
+    },
+    {
+      backgroundImage: "/images/Home-Page/our-work/omi-pumps.jpg",
+      content1: "OMI Pumps ",
+      content2: "OMI Pumps",
+      link: "/portfolio"
+    },
+    {
+      backgroundImage: "/images/Home-Page/our-work/tirumalai-tex.jpg",
+      content1: "Tirumalai Textiles ",
+      content2: "Tirumalai Textiles",
+      link: "/portfolio"
+    },
+    {
+      backgroundImage: "/images/Home-Page/our-work/img-5.jpg",
+      content1: "Karpagam College of Engineering",
+      content2: "Karpagam College of Engineering",
+      link: "/portfolio",
+
+    },
+    {
+      backgroundImage: "/images/Home-Page/our-work/img-6.jpg",
+      content1: "Filmode Fashions",
+      content2: "Filmode Fashions",
+      link: "/portfolio"
+    },
+
+  ];
+
   const handleProjectHover = (index) => {
     document.querySelectorAll(".swiper-hover .swiper-slide").forEach((el) => {
       el.classList.remove("active");
     });
     document
       .querySelectorAll(".swiper-hover .swiper-slide")
-      [index].classList.add("active");
+    [index].classList.add("active");
   };
   return (
-    <div className="dz-oil-industry-zone bg-gray" style={{ backgroundImage: "url(/images/elementbg/our-works-bg-element.png)", backgroundRepeat:"no-repeat", }}>
+    <div className="dz-oil-industry-zone bg-gray" style={{ backgroundImage: "url(/images/elementbg/our-works-bg-element.png)", backgroundRepeat: "no-repeat", }}>
       <div className="container-fluid">
         <div className="dz-banner-top">
           <div className="row justify-content-between">
@@ -63,13 +63,15 @@ export default function HomeHero() {
               data-wow-duration="2s"
               data-wow-delay="0.2s"
             >
-
-              <h1 className="dz-title fw-bold position-relative" style={{fontSize:"35px"}}>
-              Our Works
-                {/* Drive more
+              <div className="section-head style2">
+                <h2 className="dz-title title position-relative" >
+                  Our Works
+                  {/* Drive more
                 sales and achieve scalable growth for your business */}
-              </h1>
-             {/* <div className="section-head style2 text-center">
+                </h2>
+              </div>
+
+              {/* <div className="section-head style2 text-center">
              <h2 className="title m-b10" style={{textDecoration:"underline", textAlign:"left"}}>Our Works</h2>
              </div> */}
             </div>
@@ -79,27 +81,27 @@ export default function HomeHero() {
               data-wow-delay="0.2s"
             >
               <p>
-              Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions. Explore our portfolio to see how we elevate brands.
+                Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions. Explore our portfolio to see how we elevate brands.
                 {/* A well-planned marketing
                 campaign is what you need to position your online business
                 exactly where you want it to be and distinguish yourself. */}
               </p>
               {/* <div className="dz-banner-btn d-flex align-items-center"> */}
-                <Link
-                  href={`/portfolio`}
-                  className="site-button btnhover20 text-decoration-none text-white"
-                  style={{background:"#e21100"}}
-                >
-                  View All
-                </Link>
-                {/* <Link
+              <Link
+                href={`/portfolio`}
+                className="site-button btnhover20 text-decoration-none text-white"
+                style={{ background: "#e21100" }}
+              >
+                View All
+              </Link>
+              {/* <Link
                   href={`/contact`}
                   className="site-button outline outline-2 text-decoration-none ms-3 "
                   style={{ color: "#1a43bf " }}
                 >
                   Case Study
                 </Link> */}
-                {/* <a href="#">
+              {/* <a href="#">
                   Learn More
                   <svg
                     width={40}
@@ -162,21 +164,20 @@ export default function HomeHero() {
             {slides.map((slide, index) => (
               <SwiperSlide
                 key={index}
-                className={`swiper-slide ${
-                  index === 0 ? "active" : ""
-                } box-hover`}
+                className={`swiper-slide ${index === 0 ? "active" : ""
+                  } box-hover`}
                 onMouseOver={() => handleProjectHover(index)}
               >
                 <div
                   className="dz-banner-media position-relative"
-                  style={{ backgroundImage: `url(${slide.backgroundImage})`, backgroundRepeat:"no-repeat", objectFit:"cover", width:"100%", height:"100%" }}
+                  style={{ backgroundImage: `url(${slide.backgroundImage})`, backgroundRepeat: "no-repeat", objectFit: "cover", width: "100%", height: "100%" }}
                 >
                   <div className="dz-media-content position-absolute">
-                    <h3 className="m-0" style={{fontSize:"22px"}}>{slide.content1}</h3>
+                    <h3 className="m-0" style={{ fontSize: "22px" }}>{slide.content1}</h3>
                   </div>
                   <div className="dz-media-content2 d-flex align-items-center justify-content-between position-absolute">
-                    <h2 className=" m-0" style={{fontSize:"22px"}}>{slide.content2}</h2>
-                    <Link style={{ color:"#e21100 "}}
+                    <h2 className=" m-0" style={{ fontSize: "22px" }}>{slide.content2}</h2>
+                    <Link style={{ color: "#e21100 " }}
                       className="btn mediabtn bg-white"
                       href={slide.link}
                     >
@@ -193,7 +194,7 @@ export default function HomeHero() {
               position: "absolute",
               bottom: "calc( 50% - 10px )",
               zIndex: "2",
-               background:"#e21100"
+              background: "#e21100"
             }}
             tabIndex="0"
             role="button"
@@ -208,7 +209,7 @@ export default function HomeHero() {
               bottom: "calc( 50% - 10px )",
               zIndex: "2",
               left: "calc(0% - 20px)",
-              background:"#e21100"
+              background: "#e21100"
             }}
             tabIndex="0"
             role="button"

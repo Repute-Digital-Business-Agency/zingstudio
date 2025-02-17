@@ -7,8 +7,8 @@ import Link from "next/link";
 
 export default function HomeService() {
   return (
-    <div className="section-full bg-gray content-inner-1 project-area bg-img-fix centeredSlides HomeService pt-0 mb-0" >
-      <div className="container-fluid bg-gray" style={{ backgroundImage: "url(/images/elementbg/our-services-bg-element.png)", backgroundRepeat:"no-repeat"}}>
+    <div className="section-full  bg-img-fix centeredSlides" >
+      <div className="container-fluid bg-gray project-area content-inner-1 HomeService" style={{ backgroundImage: "url(/images/elementbg/our-services-bg-element.png)", backgroundRepeat:"no-repeat"}}>
       <div className="container">
         <div
           className="section-head text-dark style2 wow fadeInUp"
