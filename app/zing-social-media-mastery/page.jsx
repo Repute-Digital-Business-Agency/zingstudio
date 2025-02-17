@@ -86,6 +86,66 @@ export default function page() {
     },
     
   ]
+
+  const services10 =   [
+    {
+      id: 137,
+      imgSrc: "/images/icon/car/icon-1.png",
+      title: " Social Media Strategy <br/> (Week 1)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.3s",
+      list:[
+        "Understanding social media algorithms",
+        "Growth hacking techniques for platforms",
+      
+      ]
+    },
+    {
+      id: 138,
+      imgSrc: "/images/icon/car/icon-2.png",
+      title: "Instagram & LinkedIn Mastery <br/> (Week 2)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.6s",
+      list:[
+        "Creating viral content",
+        "LinkedIn networking & branding",
+        
+       
+      ]
+    },
+    {
+      id: 139,
+      imgSrc: "/images/icon/car/icon-3.png",
+      title: "YouTube & Facebook Growth Q&A <br/> (Week 3)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "Monetization & platform-specific strategies",
+     
+      ]
+    },
+    {
+      id: 140,
+      imgSrc: "/images/icon/car/icon-4.png",
+      title: "Monetization & Final Projects <br/>(Week 4)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "Crafting collaborations & sponsorships",
+        "Final presentations & certification", 
+       
+      ]
+    },
+    
+  ]
   return (
     <>
       <div className="page-wraper  ">
@@ -119,7 +179,7 @@ export default function page() {
         <CourseDetails CourseTitle={CourseTitle} CourseDuration={CourseDuration} courseModule={courseModule}/>
           </div>
         {/* <StudentsJourney/> */}
-        <StudentJourneynew/>
+        <StudentJourneynew services10={services10}/>
         
         {/* <div  
         style={{padding:"100px 0 50px 0"}}

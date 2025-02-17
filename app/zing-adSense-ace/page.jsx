@@ -78,6 +78,66 @@ export default function page() {
     },
   
   ]
+
+  const services10 =   [
+    {
+      id: 137,
+      imgSrc: "/images/icon/car/icon-1.png",
+      title: "Paid Advertising Foundations <br/> (Week 1-2)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.3s",
+      list:[
+        "Google Ads setup & structure",
+        "Audience targeting essentials",
+        
+      ]
+    },
+    {
+      id: 138,
+      imgSrc: "/images/icon/car/icon-2.png",
+      title: "Facebook & Instagram Ad Optimization <br/> (Week 3-4)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.6s",
+      list:[
+        "Lookalike audiences & conversion tracking",
+        "Budgeting & performance analysis",
+        
+       
+      ]
+    },
+    {
+      id: 139,
+      imgSrc: "/images/icon/car/icon-3.png",
+      title: " Retargeting & Advanced Tactics <br/> (Week 5-6)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "Retargeting strategies",
+        "Split-testing & performance optimization", 
+      ]
+    },
+    {
+      id: 140,
+      imgSrc: "/images/icon/car/icon-4.png",
+      title: "Project Execution & Graduation <br/>(Week 7-8)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "Live ad campaign creation",
+        "Case studies on successful digital campaigns & business strategies", 
+        "Final presentations"
+      ]
+    },
+    
+  ]
   return (
     <>
       <div className="page-wraper  ">
@@ -111,7 +171,7 @@ export default function page() {
         <CourseDetails CourseTitle={CourseTitle} CourseDuration={CourseDuration} courseModule={courseModule}/>
           </div>
         {/* <StudentsJourney/> */}
-        <StudentJourneynew/>
+        <StudentJourneynew services10={services10}/>
         
         {/* <div  
         style={{padding:"100px 0 50px 0"}}

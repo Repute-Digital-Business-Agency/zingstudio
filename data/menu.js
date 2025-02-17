@@ -351,10 +351,10 @@ export const AboutUsLink = {
   label: "Our Zing Studio",
 };
 
-export const AcademyLink = {
-  href: "/zing-academy",
-  label: "Zing Academy",
-};
+// export const AcademyLink = {
+//   href: "/zing-academy",
+//   label: "Zing Academy",
+// };
 
 export const AmazingLink = {
   href: "/am-a-zing",
@@ -391,6 +391,35 @@ export const contactsLinks = [
   { href: "/contact-2", label: "Contact us 2" },
   { href: "/contact-3", label: "Contact us 3" },
   { href: "/contact-4", label: "Contact us 4" },
+];
+
+export const AcademyLink = [
+  { href: "/zing-academy",
+    label: "Overview",},
+ { href: "/zing-digital-marketing-mastery",
+  label: "Zing Digital Marketing Mastery",},
+
+  { href: "/zing-launchpad-student-internship-program",
+    label: "Zing Launchpad – Student Internship Program"},
+
+    { href: "/zing-digital-sprint-essentials-of-marketing",
+      label: "Zing Digital Sprint – Essentials of Marketing",},
+
+      { href: "/zing-ai-in-digital-marketing",
+        label: "Zing AI in Digital Marketing",},
+
+        { href: "/zing-social-media-mastery",
+          label: "Zing Social Media Mastery",},
+
+          { href: "/zing-seo-supercharger",
+            label: "Zing SEO Supercharger",},
+
+            { href: "/zing-adSense-ace",
+              label: "Zing AdSense Ace",},
+
+              { href: "/zing-copywriting-&-content-mastery",
+                label: "Zing Copywriting & Content Mastery",}
+
 ];
 
 export const ServicesLink = [

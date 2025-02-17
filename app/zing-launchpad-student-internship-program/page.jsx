@@ -77,6 +77,67 @@ export default function page() {
       ],
       imgSrc:"/images/services/web-design.jpg"
     },
+
+    
+  ]
+
+  const services10 =   [
+    {
+      id: 137,
+      imgSrc: "/images/icon/car/icon-1.png",
+      title: " Orientation & Goal Setting <br/> (Day 1)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.3s",
+      list:[
+        "Introduction to Zing’s mission & internship expectations",
+        "Personal branding basics & goal-setting workshop",
+      
+      ]
+    },
+    {
+      id: 138,
+      imgSrc: "/images/icon/car/icon-2.png",
+      title: "Digital Marketing Basics & Tools <br/> (Days 2-5)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.6s",
+      list:[
+        "Recap of digital marketing fundamentals",
+        "SEO & Social Media Tools overview",
+        "Building marketing strategies with live examples",
+       
+      ]
+    },
+    {
+      id: 139,
+      imgSrc: "/images/icon/car/icon-3.png",
+      title: "Project Implementation <br/> (Days 6-8)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "Social media page management & content posting",
+        "Creating viral posts and Campaigns", 
+      ]
+    },
+    {
+      id: 140,
+      imgSrc: "/images/icon/car/icon-4.png",
+      title: "Evaluation & Networking <br/>(Days 9-10)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "Final project presentations with feedback",
+        "Networking session & certification ceremony", 
+        
+      ]
+    },
     
   ]
   return (
@@ -112,7 +173,7 @@ export default function page() {
           <CourseDetails CourseTitle={CourseTitle} CourseDuration={CourseDuration} courseModule={courseModule}/>
           </div>
         {/* <StudentsJourney/> */}
-        <StudentJourneynew/>
+        <StudentJourneynew services10={services10}/>
         
         {/* <div  
         style={{padding:"100px 0 50px 0"}}

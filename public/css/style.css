@@ -3786,6 +3786,10 @@ blockquote:before {
   width: 220px;
   z-index: 10;
 }
+.header-nav .nav>li .sub-menu.academy-dd {
+  width: 350px;
+  /* left: -100px; */
+}
 
 .header-nav .nav>li .sub-menu li {
   border-bottom: 0px solid #f4f4f4;
@@ -16388,7 +16392,7 @@ ol.commentlist li .star-rating {
     -moz-transition: all 0.8s;
     -o-transition: all 0.8s;
     margin: 0;
-    width: 280px;
+    width: 400px;
   }
 
   .mo-left .navbar-toggler.open:after {

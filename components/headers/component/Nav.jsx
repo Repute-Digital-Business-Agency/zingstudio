@@ -313,7 +313,7 @@ export default function Nav() {
           Services
           <i className="fas fa-chevron-down" />
         </a>
-        <ul className="sub-menu right">
+        <ul className="sub-menu right ">
           {ServicesLink.map((link, index) => (
             <li key={index}>
               <Link
@@ -354,13 +354,39 @@ export default function Nav() {
         </Link>
       </li>
 
-      <li className={isMenuActive(AcademyLink) ? "active" : ""}>
+      {/* <li className={isMenuActive(AcademyLink) ? "active" : ""}>
         <Link
           href={AcademyLink.href}
           className={isMenuActive(AcademyLink) ? "menuActive" : ""}
         >
           {AcademyLink.label}
         </Link>
+      </li> */}
+      <li
+        className={` ${isMenuActive(AcademyLink) ? "active" : ""} ${
+          menuOpen2 == "services" ? "open" : ""
+        }  `}
+      >
+        <a 
+          onClick={() =>
+            setMenuOpen2((pre) => (pre == "services" ? "" : "services"))
+          }
+        >
+          Zing Academy
+          <i className="fas fa-chevron-down" />
+        </a>
+        <ul className="sub-menu right academy-dd">
+          {AcademyLink.map((link, index) => (
+            <li key={index}>
+              <Link
+                className={isMenuActive(link) ? "menuActive" : ""}
+                href={link.href}
+              >
+                {link.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
       </li>
       
       <li className={isMenuActive(AmazingLink) ? "active" : ""}>
