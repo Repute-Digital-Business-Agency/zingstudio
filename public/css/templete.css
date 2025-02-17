@@ -2073,6 +2073,7 @@ h6 {
 }
 
 .video-bx {
+  height:300px;
   position: relative;
   z-index: 1;
   border-radius: 6px;
@@ -8894,6 +8895,10 @@ button.scroltop {
 .dz-industry2-zone .swiper-slide img {
   height: 790px;
   object-fit: cover;
+}
+
+.zingProgram.dz-industry2-zone .swiper-slide img {
+  height: 550px !important;
 }
 
 .courseProgram.dz-industry2-zone .swiper-slide img {

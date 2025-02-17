@@ -197,7 +197,7 @@ export default function Course() {
                           <div className="ow-post-readmore d-flex justify-content-between">
                             <h4 className="mb-0">{elm.price}</h4>
                             <a href={elm.link} title="READ MORE" rel="bookmark" className="site-button-link">
-                              READ MORE <i className="fas fa-angle-double-right" />
+                              Read More <i className="fas fa-angle-double-right" />
                             </a>
                           </div>
                           <div className="ow-post-tags clearfix">

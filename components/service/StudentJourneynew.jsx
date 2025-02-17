@@ -148,23 +148,26 @@ export default function StudentJourneynew() {
                 </div>
 
                
-                <div className="video-bx radius-no ">
-                  <Image
-                    alt="Signature"
+                <div className="video-bx radius-no  mb-5">
+                  <img
                     className="img-cover"
-                    src="/images/our-work/car/pic4.jpg"
                     width="500"
-                    height="357"
+                    height="100"
+                    src="/images/our-work/car/pic4.jpg"
+                    alt="Video Thumbnail"
                   />
                   <div className="video-play-icon">
                     <a
                       onClick={() => setOpen(true)}
-                      className="popup-youtube video bg-primary"
+                      className="popup-video video "
+                      style={{background:"#e21100"}}
                     >
                       <i className="fas fa-play" />
                     </a>
                   </div>
                 </div>
+
+   
               
                 <div className="section-content box-sort-in button-example p-b0">
                   <div className="row">
@@ -214,12 +217,12 @@ export default function StudentJourneynew() {
       </div>
 
       <ModalVideo
-        channel="youtube"
-        youtube={{ mute: 0, autoplay: 0 }}
+        channel="custom"
         isOpen={isOpen}
-        videoId="_FRZVScwggM"
+        url="/video/student-journey.mp4"
         onClose={() => setOpen(false)}
-      />{" "}
+      />
+     
     </>
   );
 }
