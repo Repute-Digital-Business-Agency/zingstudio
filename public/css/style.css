@@ -12553,7 +12553,7 @@ ul[class*="list-"] {
   border-radius: inherit;
   left: 0;
   top: 0;
-  background: var(--color-primary);
+  background:#e21100;
   z-index: -1;
   transition: all 0.8s;
   -moz-transition: all 0.8s;
@@ -18876,4 +18876,32 @@ input[type="radio"]+label:hover:before {
 .studentJourney .post-title b{
   color: #e21100;
   font-weight: normal;
+}
+@keyframes moveImage {
+  0% {
+    top: 10px;
+    left: 100px;
+  }
+  50% {
+    top: 100px; /* Move it down */
+    left: 200px; /* Move it right */
+  }
+  100% {
+    top: 10px;
+    left: 100px; /* Return to initial position */
+  }
+}
+@keyframes moveImage2 {
+  0% {
+    top: 10px;
+    right: 100px;
+  }
+  50% {
+    top: 100px; /* Move it down */
+    right: 200px; /* Move it right */
+  }
+  100% {
+    top: 10px;
+    right: 100px; /* Return to initial position */
+  }
 }

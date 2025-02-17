@@ -8,7 +8,8 @@ export default function About() {
 
       {/* Service Info Head End */}
       {/* About Us */}
-      <div className="section-full content-inner bg-gray">
+      <div className="section-full content-inner bg-gray relative">
+      
         <div className="container">
           <div className="row align-items-center">
             <div

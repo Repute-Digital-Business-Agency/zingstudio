@@ -31,7 +31,7 @@ export default function ChooseZingFluencer() {
           >
           
 
-            <div className=" m-auto p-tb50">
+            <div className=" m-auto">
             <div className="our-story">
               {" "}
               <h2 className="title text-primary">
