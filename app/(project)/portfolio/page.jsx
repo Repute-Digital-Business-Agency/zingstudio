@@ -20,34 +20,33 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <div className="page-content bg-white">
-          <div
-            className="dlab-bnr-inr overlay-black-middle bg-pt"
-            style={{ backgroundImage: "url(/images/portfolio/banner.jpg)" }}
-          >
-            <div className="container">
-              <div className="dlab-bnr-inr-entry">
-                <h1 className="text-white">Portfolio</h1>
-                {/* Breadcrumb row */}
-                <div className="breadcrumb-row">
-                  <ul className="list-inline">
-                    <li>
-                      <Link href={`/`}>Home</Link>
-                    </li>
-                    <li>
+        <div
+          className="dlab-bnr-inr overlay-black-middle bg-pt"
+          style={{ backgroundImage: "url(/images/portfolio/banner.jpg)" }}
+        >
+          <div className="container">
+            <div className="dlab-bnr-inr-entry">
+              <h1 className="text-white">Portfolio</h1>
+              {/* Breadcrumb row */}
+              <div className="breadcrumb-row">
+                <ul className="list-inline">
+                  <li>
+                    <Link href={`/`}>Home</Link>
+                  </li>
+                  <li>
                     <Link href={`/portfolio`}>Portfolio</Link></li>
-                  </ul>
-                </div>
-                {/* Breadcrumb row END */}
+                </ul>
               </div>
+              {/* Breadcrumb row END */}
             </div>
           </div>
-
-          <div className="content-block">
-            <Portfolio2 />
-          </div>
         </div>
-        <Cta/>
+
+        <div className="content-block">
+          <Portfolio2 />
+        </div>
+
+        <Cta />
         {/* <Footer2  contactSection="true" /> */}
         <Footer13 />
       </div>

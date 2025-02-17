@@ -22,37 +22,36 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <div className="page-content bg-white amazing-pg">
-          <div
-            className="dlab-bnr-inr overlay-black-middle bg-pt"
-            style={{ backgroundImage: "url(/images/Am-a-Zing/banner.jpg)" }}
-          >
-            <div className="container">
-              <div className="dlab-bnr-inr-entry">
-                <h1 className="text-white">Am-A-Zing</h1>
-                {/* Breadcrumb row */}
-                <div className="breadcrumb-row">
-                  <ul className="list-inline">
-                    <li>
-                      <Link href={`/`}>Home</Link>
-                    </li>
+        <div
+          className="dlab-bnr-inr overlay-black-middle bg-pt"
+          style={{ backgroundImage: "url(/images/Am-a-Zing/banner.jpg)" }}
+        >
+          <div className="container">
+            <div className="dlab-bnr-inr-entry">
+              <h1 className="text-white">Am-A-Zing</h1>
+              {/* Breadcrumb row */}
+              <div className="breadcrumb-row">
+                <ul className="list-inline">
+                  <li>
+                    <Link href={`/`}>Home</Link>
+                  </li>
 
-                    <li>
+                  <li>
                     <Link href={`/am-a-zing`}>Am-A-Zing</Link></li>
-                  </ul>
-                </div>
-                {/* Breadcrumb row END */}
+                </ul>
               </div>
+              {/* Breadcrumb row END */}
             </div>
           </div>
-
-          <div className="content-block">
-            <AmazingContent  />
-          </div>
-
-          
         </div>
-        <Cta/>
+
+        <div className="content-block">
+          <AmazingContent />
+        </div>
+
+
+
+        <Cta />
         {/* <Footer2 contactSection="true" /> */}
         <Footer13 />
       </div>

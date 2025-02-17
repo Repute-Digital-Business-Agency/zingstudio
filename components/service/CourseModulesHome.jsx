@@ -159,7 +159,7 @@ const images2 = ["/images/banner/bnr5.jpg", "/images/banner/bnr4.jpg"];
 
 export default function CourseModulesHome() {
   return (
-    <div className="container-fluid bg-gray pt-5" style={{ backgroundImage: "url(/images/elementbg/zing-acd-bg-element.png)", backgroundRepeat:"no-repeat", }}>
+    <div className="container-fluid bg-gray pt-5 pb-5" style={{ backgroundImage: "url(/images/elementbg/zing-acd-bg-element.png)", backgroundRepeat:"no-repeat", }}>
       <div className="container">
       <div id="masonry" className="dlab-blog-grid-3 row">
         <div className="section-head style2 text-center mb-0">

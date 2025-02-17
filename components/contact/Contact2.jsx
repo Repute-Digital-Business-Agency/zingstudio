@@ -28,7 +28,7 @@ export default function Contact2() {
       </div>
       {/* inner page banner END */}
       {/* Contact Form */}
-      <div className="section-full content-inner contact-page-8 bg-white">
+      <div className="section-full content-inner contact-page-8  bg-gray">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-12">

@@ -6,12 +6,12 @@ export default function MeetTheExperts() {
     <>
    
     {/* inner page banner END */}
-    <div className="bg-white team-box-area">
+    <div className="bg-gray team-box-area">
       
   
       {/* Team Section Style 14 */}
       <div
-        className="section-full bg-gray content-inner bg-img-fix overlay-black-dark"
+        className="section-full  content-inner bg-img-fix overlay-black-dark"
         style={{ backgroundImage: "url(/images/background/bg2.jpg)" }}
       >
         <div className="container">

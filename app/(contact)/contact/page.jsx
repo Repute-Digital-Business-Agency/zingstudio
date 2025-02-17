@@ -15,9 +15,7 @@ export default function page() {
     <>
       <div className="page-wraper contact-page">
         <Header17 />
-        <div className="page-content ">
-          <Contact2 />
-        </div>
+        <Contact2 />
         {/* <Footer2 contactSection="false"/> */}
         <Footer13 />
       </div>

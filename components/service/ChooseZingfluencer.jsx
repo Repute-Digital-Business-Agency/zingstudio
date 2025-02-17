@@ -43,7 +43,7 @@ Why Choose Zingfluencer ?
                 </Link>
               </h2>
               {/* <h4 className="title"> Empowering women to lead the future</h4> */}
-              <p style={{ color: "#494949" }}>
+              <p style={{ color: "#282222" }}>
                 At Zing Studio, we strive to create opportunities to uplift
                 women, enabling them to realize their potential and take control
                 of the decisions that shape their lives.
@@ -62,7 +62,7 @@ Why Choose Zingfluencer ?
                 <h4 className="dlab-tilte">
                   10% disounted cost for Women Entrepreneurs:
                 </h4>
-                <p className="" style={{color:"#494949"}}>
+                <p className="" style={{color:"#282222"}}>
                   We believe in supporting women entrepreneurs on their journey
                   to success, that’s why we offer a 10% discount on our services
                   to help them grow their businesses with ease and confidence.
@@ -82,7 +82,7 @@ Why Choose Zingfluencer ?
                 <h4 className="dlab-tilte">
                   Turning Career Breaks into Breakthroughs for Women:
                 </h4>
-                <p className="" style={{color:"#494949"}}>
+                <p className="" style={{color:"#282222"}}>
                   We prioritize hiring and providing a supportive platform for
                   women and encouraging those who have taken a career break to
                   restart and thrive in their professional journey.
@@ -103,7 +103,7 @@ Why Choose Zingfluencer ?
                 <h4 className="dlab-tilte">
                   Turning Career Breaks into Breakthroughs for Women:
                 </h4>
-                <p className="" style={{color:"#494949"}}>
+                <p className="" style={{color:"#282222"}}>
                   We prioritize hiring and providing a supportive platform for
                   women and encouraging those who have taken a career break to
                   restart and thrive in their professional journey.

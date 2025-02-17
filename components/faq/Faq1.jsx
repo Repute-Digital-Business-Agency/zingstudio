@@ -12,61 +12,58 @@ export default function Faq1() {
           <div className="section-head text-black text-center">
             <div className="our-story">
               <h2 className="title">
-              Why Work at 
+                Why Work at
                 <span className="text-primary"> Zing Studio? </span>
               </h2>
-              <h4 className="title">
-                {" "}
+              <p className="mb-0 fw-medium fs-5">
                 At Zing Studio, we believe in fostering a dynamic and innovative work environment where creativity, professionalism, and growth are at the core of everything we do.
-              </h4>
-            </div>
-
-           
-          </div>
-          <div className="row">
-           <div className="col-lg-7 col-md-12 m-b30">
-           <h4> Here’s why you should consider joining our team:</h4>
-    
-           <div className="wow fadeInUp  will-animate" data-wow-duration="2s" data-wow-delay="0.6s" >
-            <p><b>Collaborative Culture: </b>We thrive on teamwork and believe that the best ideas come from collaboration. You'll be part of a supportive, creative team dedicated to delivering outstanding results.
-            </p>
-            </div>
-            <div className="wow fadeInUp  will-animate" data-wow-duration="2.2s" data-wow-delay="0.7s" >
-            <p><b>Professional Growth:</b> At Zing Studio, we are committed to your personal and professional development. You’ll have access to continuous learning opportunities, mentorship, and the chance to expand your skill set in a fast-paced, ever-evolving digital landscape.
-            </p>
-            </div>
-            <div className="wow fadeInUp  will-animate" data-wow-duration="2.4s" data-wow-delay="0.8s" >
-                 
-            <p><b>Innovative Environment: </b>We encourage out-of-the-box thinking and value fresh perspectives. Join us if you’re ready to make a real impact with your innovative ideas and passion for digital solutions.
               </p>
             </div>
-            <div className="wow fadeInUp  will-animate" data-wow-duration="2.6s" data-wow-delay="0.9s" >
-            <p><b>Work-Life Balance: </b>We understand the importance of maintaining a healthy balance. With flexible hours and a focus on employee well-being, Zing Studio ensures you can excel both professionally and personally.
-            </p>
-            </div>
-            <div className="wow fadeInUp  will-animate" data-wow-duration="2.8s" data-wow-delay="0.6s" >
-            <p><b>Empowerment and Autonomy: </b>We trust our employees to take ownership of their projects and encourage autonomy in decision-making, allowing you to make a significant impact on the company's success.
-<br></br>Join Zing Studio and be part of an inspiring, forward-thinking company where your talents will be nurtured, your ideas valued, and your career accelerated.
-</p>
-            </div>
-           
+          </div>
+          <div className="row">
+            <div className="col-lg-7 col-md-12 m-b30">
+              <h4> Here’s why you should consider joining our team:</h4>
+
+              <div className="wow fadeInUp  will-animate" data-wow-duration="2s" data-wow-delay="0.6s" >
+                <p><b>Collaborative Culture: </b>We thrive on teamwork and believe that the best ideas come from collaboration. You'll be part of a supportive, creative team dedicated to delivering outstanding results.
+                </p>
+              </div>
+              <div className="wow fadeInUp  will-animate" data-wow-duration="2.2s" data-wow-delay="0.7s" >
+                <p><b>Professional Growth:</b> At Zing Studio, we are committed to your personal and professional development. You’ll have access to continuous learning opportunities, mentorship, and the chance to expand your skill set in a fast-paced, ever-evolving digital landscape.
+                </p>
+              </div>
+              <div className="wow fadeInUp  will-animate" data-wow-duration="2.4s" data-wow-delay="0.8s" >
+
+                <p><b>Innovative Environment: </b>We encourage out-of-the-box thinking and value fresh perspectives. Join us if you’re ready to make a real impact with your innovative ideas and passion for digital solutions.
+                </p>
+              </div>
+              <div className="wow fadeInUp  will-animate" data-wow-duration="2.6s" data-wow-delay="0.9s" >
+                <p><b>Work-Life Balance: </b>We understand the importance of maintaining a healthy balance. With flexible hours and a focus on employee well-being, Zing Studio ensures you can excel both professionally and personally.
+                </p>
+              </div>
+              <div className="wow fadeInUp  will-animate" data-wow-duration="2.8s" data-wow-delay="0.6s" >
+                <p><b>Empowerment and Autonomy: </b>We trust our employees to take ownership of their projects and encourage autonomy in decision-making, allowing you to make a significant impact on the company's success.
+                  <br></br>Join Zing Studio and be part of an inspiring, forward-thinking company where your talents will be nurtured, your ideas valued, and your career accelerated.
+                </p>
+              </div>
+
 
 
             </div>
             <div className="col-lg-5 col-md-12 m-b30 wow fadeInUp  will-animate" data-wow-duration="2s" data-wow-delay="0.6s" >
-            <img alt=""
-                  className="img-cover radius-sm"
-                  src="/images/Life-at-Zing/zing-life.jpg"                
-                />
+              <img alt=""
+                className="img-cover radius-sm"
+                src="/images/Life-at-Zing/zing-life.jpg"
+              />
             </div>
-            </div>
+          </div>
           <div className="row">
-          <h2 className="title"> Job Openings</h2>
-          <p>At Zing Studio, we’re seeking passionate individuals to join our innovative team. If you’re eager to make an impact in digital marketing, web design, or branding, we offer exciting opportunities for growth and collaboration. Explore our current openings and take the next step in your career with a company that values creativity and professional development.
-          </p>
-          <h4>Internship Opportunities at Zing Studio</h4>
-          <p>Zing Studio offers exceptional internship opportunities designed for students and recent graduates seeking to gain practical experience in digital marketing, web design, and branding. As an intern with us, you will collaborate with seasoned professionals, contributing to high-impact projects while honing your skills in a dynamic, innovative environment.
-          </p>
+            <h2 className="title"> Job Openings</h2>
+            <p>At Zing Studio, we’re seeking passionate individuals to join our innovative team. If you’re eager to make an impact in digital marketing, web design, or branding, we offer exciting opportunities for growth and collaboration. Explore our current openings and take the next step in your career with a company that values creativity and professional development.
+            </p>
+            <h4>Internship Opportunities at Zing Studio</h4>
+            <p>Zing Studio offers exceptional internship opportunities designed for students and recent graduates seeking to gain practical experience in digital marketing, web design, and branding. As an intern with us, you will collaborate with seasoned professionals, contributing to high-impact projects while honing your skills in a dynamic, innovative environment.
+            </p>
 
             <div className="col-lg-6 col-md-12 m-b30">
               <div className="faq-video">
@@ -102,7 +99,7 @@ export default function Faq1() {
                         className="collapsed"
                         aria-expanded="true"
                       >
-                       Mentorship from Experts
+                        Mentorship from Experts
                       </a>
                     </h6>
                   </div>
@@ -112,7 +109,7 @@ export default function Faq1() {
                     data-bs-parent="#accordion1"
                   >
                     <div className="acod-content">
-                    Work closely with industry professionals and gain invaluable insights into the digital marketing and branding sectors.
+                      Work closely with industry professionals and gain invaluable insights into the digital marketing and branding sectors.
                     </div>
                   </div>
                 </div>
@@ -126,7 +123,7 @@ export default function Faq1() {
                         className="collapsed"
                         aria-expanded="false"
                       >
-                       Portfolio Development
+                        Portfolio Development
                       </a>
                     </h6>
                   </div>
@@ -136,7 +133,7 @@ export default function Faq1() {
                     data-bs-parent="#accordion1"
                   >
                     <div className="acod-content">
-                    Contribute to meaningful projects that enhance your portfolio and demonstrate your expertise to future employers.
+                      Contribute to meaningful projects that enhance your portfolio and demonstrate your expertise to future employers.
 
                     </div>
                   </div>
@@ -151,7 +148,7 @@ export default function Faq1() {
                         className="collapsed"
                         aria-expanded="false"
                       >
-                       Skill Advancement
+                        Skill Advancement
                       </a>
                     </h6>
                   </div>
@@ -161,26 +158,31 @@ export default function Faq1() {
                     data-bs-parent="#accordion1"
                   >
                     <div className="acod-content">
-                    Sharpen your abilities in web design, digital marketing strategies, and other key areas, positioning yourself for future career success.
+                      Sharpen your abilities in web design, digital marketing strategies, and other key areas, positioning yourself for future career success.
 
                     </div>
                   </div>
                 </div>
-            
-           
+
+
               </div>
-              If you are looking to accelerate your career in a collaborative and growth-driven environment, we invite you to apply for an internship at Zing Studio. Gain the experience and knowledge that will set you apart in the competitive digital landscape.
+
+            </div>
+            <div>
+              <p>
+                If you are looking to accelerate your career in a collaborative and growth-driven environment, we invite you to apply for an internship at Zing Studio. Gain the experience and knowledge that will set you apart in the competitive digital landscape.
+              </p>
 
             </div>
           </div>
           {/* Faq Info */}
           <div className="row">
-          <h2 className="title">Apply Now</h2>
-          <p>Are you ready to advance your career? At Zing Studio, we’re always seeking passionate, skilled individuals to join our team. Whether you're interested in a full-time role or an internship, we offer a collaborative environment where creativity, innovation, and professional development thrive. Apply today and embark on an exciting journey with Zing Studio.
-          </p>
-     
+            <h2 className="title mb-1">Apply Now</h2>
+            <p className="mb-0">Are you ready to advance your career? At Zing Studio, we’re always seeking passionate, skilled individuals to join our team. Whether you're interested in a full-time role or an internship, we offer a collaborative environment where creativity, innovation, and professional development thrive. Apply today and embark on an exciting journey with Zing Studio.
+            </p>
+
           </div>
-          <div className="row" style={{display:'none'}}>
+          <div className="row" style={{ display: 'none' }}>
             <div className="col-lg-4 col-md-6 m-b30">
               <div className="icon-bx-wraper bx-style-1 bg-white p-a30 left">
                 <div className="icon-md text-primary m-b20">

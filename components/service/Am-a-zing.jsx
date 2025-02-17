@@ -97,7 +97,7 @@ export default function Am_a_Zing() {
 
     <div style={{position:"relative"}}>
         <div
-        className="section-full box-about-list Am_a_Zing bg-gray"
+        className="section-full box-about-list Am_a_Zing bg-white"
         style={{
             backgroundImage: "url(/images/element-4.png)",
             backgroundRepeat: "no-repeat",
@@ -203,7 +203,7 @@ export default function Am_a_Zing() {
                       </Link>
                   </h2>
                   <h4 className="title" style={{ color: "black" , fontWeight:"600"}}>Empowering women to lead the future</h4>
-                  <p style={{ color: "#494949" }}>
+                  <p style={{ color: "#282222" }}>
                       At Zing Studio, we strive to create opportunities to uplift
                       women, enabling them to realize their potential and take control
                       of the decisions that shape their lives. We do this through
