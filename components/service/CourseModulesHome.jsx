@@ -173,7 +173,7 @@ export default function CourseModulesHome() {
           >
             <div className="blog-post blog-grid blog-rounded blog-effect1 d-flex flex-column w-100">
               <div className="dlab-post-media dlab-img-effect">
-                <Link href={`/blog-single/${elm.title}`}>
+                <Link href={elm.link}>
                   <Image alt="" src={elm.imgSrc} width="700" height="500" />
                 </Link>
               </div>
