@@ -51,46 +51,7 @@ export default function About() {
         <h2>Timeline Of Achievements</h2>
         <div class="row">
             <div class="col-md-12">
-                <div class="main-timeline5">
-                    <div class="timeline">
-                        <div class="timeline-icon"><span class="year">01</span></div>
-                        <div class="timeline-content">
-                            <h3 class="title">Foundation Established </h3>
-                            <p class="description">
-                            Zing Studio was founded with a mission to offer cost-effective, high-quality branding and digital marketing services.
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-icon"><span class="year">02</span></div>
-                        <div class="timeline-content">
-                            <h3 class="title">First Major Client Success </h3>
-                            <p class="description">
-                            Delivered impactful web design and digital marketing campaigns, helping clients achieve measurable online growth.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-icon"><span class="year">03</span></div>
-                        <div class="timeline-content">
-                            <h3 class="title">Launch of Zing Academy</h3>
-                            <p class="description">
-                            Introduced Zing Academy to offer professional training in digital marketing, empowering individuals with essential skills.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline">
-                        <div class="timeline-icon"><span class="year">04</span></div>
-                        <div class="timeline-content">
-                            <h3 class="title">Expansion of Service Portfolio</h3>
-                            <p class="description">
-                            Expanded service offerings to include comprehensive branding, digital marketing strategies, and skill development programs.
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
+             <img src="/images/about-us/Zing-Infographics.png"></img>
             </div>
         </div>
     </div>

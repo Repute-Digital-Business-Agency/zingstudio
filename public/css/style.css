@@ -2,6 +2,73 @@
 1. GENERAL
 ---------------------------------------------------------------*/
 /* ===== selection ===== */
+/* Font Added*/
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/Metropolis-Regular.woff2') format('woff2'),
+      url('../fonts/Metropolis-Regular.woff') format('woff'),
+      url('../fonts/Metropolis-Regular.ttf') format('truetype'),
+      url('../fonts/Metropolis-Regular.svg#Metropolis-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/Metropolis-Medium.woff2') format('woff2'),
+      url('../fonts/Metropolis-Medium.woff') format('woff'),
+      url('../fonts/Metropolis-Medium.ttf') format('truetype'),
+      url('../fonts/Metropolis-Medium.svg#Metropolis-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/Metropolis-Thin.woff2') format('woff2'),
+      url('../fonts/Metropolis-Thin.woff') format('woff'),
+      url('../fonts/Metropolis-Thin.ttf') format('truetype'),
+      url('../fonts/Metropolis-Thin.svg#Metropolis-Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis Semi';
+  src: url('../fonts/Metropolis-SemiBold.woff2') format('woff2'),
+      url('../fonts/Metropolis-SemiBold.woff') format('woff'),
+      url('../fonts/Metropolis-SemiBold.ttf') format('truetype'),
+      url('../fonts/Metropolis-SemiBold.svg#Metropolis-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/Metropolis-Bold.woff2') format('woff2'),
+      url('../fonts/Metropolis-Bold.woff') format('woff'),
+      url('../fonts/Metropolis-Bold.ttf') format('truetype'),
+      url('../fonts/Metropolis-Bold.svg#Metropolis-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/Metropolis-Black.woff2') format('woff2'),
+      url('../fonts/Metropolis-Black.woff') format('woff'),
+      url('../fonts/Metropolis-Black.ttf') format('truetype'),
+      url('../fonts/Metropolis-Black.svg#Metropolis-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+/* font end */
 ::-moz-selection {
   /* Code for Firefox */
   background: var(--color-primary) !important;
@@ -18,7 +85,7 @@ html {
 
 body {
   background-color: #fff;
-  font-family: "Euclid Circular";
+   font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
   font-size: 16px;
   font-weight: 400;
   color: #494949;
@@ -36,15 +103,15 @@ p {
   font-size: 16px !important;  font-family: "Euclid Circular" ; font-weight: 500;
 }
 div {
-  font-size: 16px !important;  font-family: "Euclid Circular";
+  font-size: 16px !important;   font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
 }
 
 ul li {
-  font-size: 16px !important; font-family: "Euclid Circular";
+  font-size: 16px !important;  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
 }
 
 ul li a {
-  font-size: 16px !important; font-family: "Euclid Circular";
+  font-size: 16px !important;  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
 }
 footer ul li a{
   font-size: 14px !important;
@@ -55,7 +122,7 @@ footer .list-2 li a{
 a {
   color: var(--color-primary);
   outline: 0 none;
-  text-decoration: none; font-family: "Euclid Circular";
+  text-decoration: none;  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
 }
 
 a:hover,
@@ -193,7 +260,7 @@ table {
 }
 
 .op {
-  font-family: "Open Sans", sans-serif;
+   font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
 }
 
 .dis-block {
@@ -213,7 +280,7 @@ h5,
 h6 {
   color: #232323;
   /* font-family: "Euclid Circular", sans-serif;*/
-  font-family: 'Euclid Circular' !important;
+  font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
 }
 
 
@@ -4221,7 +4288,7 @@ blockquote:before {
     float: none;
     display: block;
     width: 100%;
-    font-family: Roboto;
+     font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
     padding: 0 25px 0 25px;
   }
 
@@ -13098,7 +13165,7 @@ ul[class*="list-"] {
 .content-box-head {
   border-radius: 50px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-  font-family: "Open Sans", sans-serif;
+   font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
   margin-bottom: 20px;
   margin-top: -46px;
   padding: 12px 0;
@@ -16587,7 +16654,7 @@ ol.commentlist li .star-rating {
 }
 
 .our-story h2.title span {
-  font-family: "Euclid Circular";
+   font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
   /* font-style: italic; */
   font-size: 40px;
 }
@@ -17726,11 +17793,11 @@ color: #ffff;
 }
 
 .slider-content .inner.sliderStyle7 .subTitle1 {
-  font-family: 'Euclid Circular' !important;
+   font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
 }
 
 .slider-content .inner.sliderStyle7 button {
-  font-family: 'Euclid Circular' !important;
+   font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
   font-weight: 800 !important;
 }
 
