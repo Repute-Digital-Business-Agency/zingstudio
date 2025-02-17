@@ -89,8 +89,8 @@ export default function HomeHero() {
               {/* <div className="dz-banner-btn d-flex align-items-center"> */}
               <Link
                 href={`/portfolio`}
-                className="site-button btnhover20 text-decoration-none text-white"
-                style={{ background: "#e21100" }}
+                className="site-button btnhover20 text-decoration-none text-white bg-primary"
+                // style={{ background: "#e21100" }}
               >
                 View All
               </Link>

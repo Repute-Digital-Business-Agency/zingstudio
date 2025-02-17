@@ -112,8 +112,8 @@ export default function HomeAbout() {
               </div>
               <Link
                 href={`/about`}
-                className="site-button m-r10 m-b10 btnhover20"
-                style={{background:"#e21100"}}
+                className="site-button m-r10 m-b10 btnhover20 bg-primary"
+                // style={{background:"#e21100"}}
               >
                 Know More
               </Link>
