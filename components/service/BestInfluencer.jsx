@@ -24,7 +24,7 @@ const images = [
   const images2 = ["/images/banner/bnr5.jpg", "/images/banner/bnr4.jpg"];
 export default function BestInfluencer() {
   return (
-    <div className="section-full bg-white content-inner">
+    <div className="section-full content-inner bg-gray">
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
