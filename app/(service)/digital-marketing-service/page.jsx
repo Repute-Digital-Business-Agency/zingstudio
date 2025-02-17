@@ -77,12 +77,12 @@ export default function page() {
       "Standard",
     ]
     const bannerContent = {
-      caption:"High-performance website to strengthen your digital presence.",
-      subTitle:"Custom and scalable web development solutions designed to enhance user experience and drive business growth.",
+      caption:"Result-driven, affordable digital marketing solutions.",
+      subTitle:"Drive more sales and achieve scalable growth for your business.",
       list:[
-        "Navigable and functional websites, optimized to deliver desired results for your business.",
-        "A visually appealing, functional and conversion-focused website.",
-        "Custom-built static or dynamic CMS solutions tailored to your business needs."
+        "Connect with your ideal customers at the exact moment they are searching.",
+        "Achieve measurable results without the high expenses of traditional marketing.",
+        "Result-driven strategies that target potential customers with precision, leading to high-conversion leads and increased sales for your business."
       ]
     }
   return (

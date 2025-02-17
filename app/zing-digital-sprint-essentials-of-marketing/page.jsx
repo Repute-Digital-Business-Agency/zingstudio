@@ -70,6 +70,69 @@ export default function page() {
     },
    
   ]
+
+  const services10 =   [
+    {
+      id: 137,
+      imgSrc: "/images/icon/car/icon-1.png",
+      title: "Orientation & Icebreaker <br/> (Day 1)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.3s",
+      list:[
+        "Welcome session & networking",
+        "Overview of the essentials course structure",
+       
+      ]
+    },
+    {
+      id: 138,
+      imgSrc: "/images/icon/car/icon-2.png",
+      title: "Marketing Fundamentals <br/> (Week 1)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.6s",
+      list:[
+        "Introduction to digital marketing concepts",
+        "Customer journey mapping",
+        "Case study analysis of beginner campaigns",
+       
+      ]
+    },
+   
+    {
+      id: 140,
+      imgSrc: "/images/icon/car/icon-4.png",
+      title: "SEO & Social Media Marketing <br/>(Week 2)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "Basics of SEO & content optimization",
+        "Crafting social media strategies", 
+        "Small social media campaign project"
+      ]
+    },
+  
+    {
+      id: 142,
+      imgSrc: "/images/icon/car/icon-6.png",
+      title: "Project Presentations <br/> (Final Day)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.3s",
+      list:[
+        "Feedback on projects",
+        "Certification distribution", 
+      ]
+    }, 
+    // ------------
+    
+  ]
   return (
     <>
       <div className="page-wraper  ">
@@ -103,7 +166,7 @@ export default function page() {
         <CourseDetails CourseTitle={CourseTitle} CourseDuration={CourseDuration} courseModule={courseModule}/>
           </div>
         {/* <StudentsJourney/> */}
-        <StudentJourneynew/>
+        <StudentJourneynew services10={services10}/>
         
         {/* <div  
         style={{padding:"100px 0 50px 0"}}

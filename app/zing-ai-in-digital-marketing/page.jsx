@@ -69,6 +69,81 @@ export default function page() {
     },  
     
   ]
+
+  const services10 =   [
+    {
+      id: 137,
+      imgSrc: "/images/icon/car/icon-1.png",
+      title: "Orientation & AI Basics <br/> (Day 1)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.3s",
+      list:[
+        "Introduction to AI in marketing",
+        "Overview of AI-driven customer insights",
+       
+      ]
+    },
+    {
+      id: 138,
+      imgSrc: "/images/icon/car/icon-2.png",
+      title: "AI in SEO & Content <br/> (Day 2)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.6s",
+      list:[
+        "Using AI tools for keyword research",
+        "AI-driven content writing tools (hands-on demo)",
+       
+       
+      ]
+    },
+    {
+      id: 139,
+      imgSrc: "/images/icon/car/icon-3.png",
+      title: "AI-Powered Campaigns <br/> (Day 3)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "AI automation in ads & email marketing",
+        "Chatbot setup & personalization demo", 
+      ]
+    },
+    {
+      id: 140,
+      imgSrc: "/images/icon/car/icon-4.png",
+      title: "AI for Analytics <br/>(Day 4)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "Predictive analytics & marketing decision-making",
+        "Case studies on AI-driven campaigns", 
+       
+      ]
+    },
+    
+    {
+      id: 142,
+      imgSrc: "/images/icon/car/icon-6.png",
+      title: "Evaluation & Project Showcase <br/> (Day 5)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.3s",
+      list:[
+        "AI-driven project submission",
+        "Certificate distribution", 
+       
+      ]
+    }, 
+   
+  ]
   return (
     <>
       <div className="page-wraper  ">
@@ -102,7 +177,7 @@ export default function page() {
         <CourseDetails CourseTitle={CourseTitle} CourseDuration={CourseDuration} courseModule={courseModule}/>
           </div>
         {/* <StudentsJourney/> */}
-        <StudentJourneynew/>
+        <StudentJourneynew services10={services10}/>
         
         {/* <div  
         style={{padding:"100px 0 50px 0"}}

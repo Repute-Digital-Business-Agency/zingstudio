@@ -78,6 +78,67 @@ export default function page() {
     },
   
   ]
+
+  const services10 =   [
+    {
+      id: 137,
+      imgSrc: "/images/icon/car/icon-1.png",
+      title: "Copywriting Foundations <br/> (Week 1)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.3s",
+      list:[
+        "Persuasive writing basics",
+        "Content marketing trends",
+        "Overview of the course structure, expectations, and outcomes",
+        "Access to LMS (Learning Management System) and student portal"
+      ]
+    },
+    {
+      id: 138,
+      imgSrc: "/images/icon/car/icon-2.png",
+      title: "Storytelling & Branding <br/> (Week 2)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.6s",
+      list:[
+        "Creating a compelling brand voice",
+        "Crafting narratives for audience engagement",
+       
+       
+      ]
+    },
+    {
+      id: 139,
+      imgSrc: "/images/icon/car/icon-3.png",
+      title: " SEO Writing & Blogging <br/> (Week 3)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "Writing content that ranks on Google",
+        "On-page SEO content techniques", 
+      ]
+    },
+    {
+      id: 140,
+      imgSrc: "/images/icon/car/icon-4.png",
+      title: " Final Project & Graduation <br/>(Week 4)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "Create a complete content strategy",
+        "Present strategy for feedback & certification", 
+       
+      ]
+    },
+  
+  ]
   return (
     <>
       <div className="page-wraper  ">
@@ -111,8 +172,8 @@ export default function page() {
         <CourseDetails CourseTitle={CourseTitle} CourseDuration={CourseDuration} courseModule={courseModule}/>
           </div>
         {/* <StudentsJourney/> */}
-        <StudentJourneynew/>
-        
+        <StudentJourneynew services10={services10}/>
+       
         {/* <div  
         style={{padding:"100px 0 50px 0"}}
         >

@@ -78,6 +78,81 @@ export default function page() {
     },
    
   ]
+
+  const services10 =   [
+    {
+      id: 137,
+      imgSrc: "/images/icon/car/icon-1.png",
+      title: "SEO Foundations <br/> (Week 1)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.3s",
+      list:[
+        "In-depth keyword research & competitive analysis",
+        "SEO tools walkthrough",
+        
+      ]
+    },
+    {
+      id: 138,
+      imgSrc: "/images/icon/car/icon-2.png",
+      title: "On-Page SEO & Speed Optimization <br/> (Week 2)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.6s",
+      list:[
+        "Page structure optimization",
+        "Site speed enhancement techniques",
+        
+       
+      ]
+    },
+    {
+      id: 139,
+      imgSrc: "/images/icon/car/icon-3.png",
+      title: "Link Building & Technical SEO <br/> (Week 3)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "Internal linking strategies",
+        "Fixing common technical SEO errors", 
+      ]
+    },
+    {
+      id: 140,
+      imgSrc: "/images/icon/car/icon-4.png",
+      title: "E-Commerce & Local SEO <br/>(Week 4)",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.9s",
+      list:[
+        "Optimizing product pages for SEO",
+        "Google My Business walkthrough", 
+       
+      ]
+    },
+  
+    // ------------
+    {
+      id: 143,
+      imgSrc: "/images/icon/car/icon-6.png",
+      title: "SEO Strategy Showcase <br/>",
+      description:
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
+      animation: "bounceInUp",
+      delay: "0.3s",
+      list:[
+        "Final Presentation",
+        
+      ]
+    },
+   
+  ]
   return (
     <>
       <div className="page-wraper  ">
@@ -111,7 +186,7 @@ export default function page() {
           <CourseDetails CourseTitle={CourseTitle} CourseDuration={CourseDuration} courseModule={courseModule}/>
           </div>
         {/* <StudentsJourney/> */}
-        <StudentJourneynew/>
+        <StudentJourneynew services10={services10}/>
         
         {/* <div  
         style={{padding:"100px 0 50px 0"}}

@@ -7170,6 +7170,11 @@ HOME 5 Box Header
     left: auto;
   }
 
+  .header-nav .nav>li .sub-menu.academy-dd.right {
+    right: 0;
+    left: auto;
+  }
+
   .portfolio-style1 .portfolio-info {
     padding: 30px;
   }
