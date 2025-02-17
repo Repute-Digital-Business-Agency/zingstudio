@@ -296,6 +296,14 @@ h6 {
   font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-weight: 500 !important;
+}
 
 h1 a,
 h2 a,
@@ -5856,7 +5864,7 @@ blockquote:before {
   padding: 0;
   display: inline-block;
   color: var(--color-primary);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 13px;
   /* text-transform: uppercase; */
 }
@@ -13996,10 +14004,10 @@ footer .widget_services ul li a:hover {
 .section-full {
   position: relative;
 }
-
+/* 
 .section-full:last-child {
   margin-bottom: -50px;
-}
+} */
 
 .Am_a_Zing.section-full:last-child {
   margin-bottom: 0;
@@ -15637,8 +15645,8 @@ ol.commentlist li .star-rating {
 }
 
 .content-inner-1 {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .content-inner-2 {
@@ -15788,9 +15796,9 @@ ol.commentlist li .star-rating {
     margin-bottom: 25px;
   }
 
-  .section-full:last-child {
+  /* .section-full:last-child {
     margin-bottom: -30px;
-  }
+  } */
 
   .content-inner {
     padding-bottom: 20px;
@@ -16680,7 +16688,7 @@ ol.commentlist li .star-rating {
 
 .our-story h2.title {
   font-size: 35px;
-  line-height: 55px;
+  line-height: 45px;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -16692,7 +16700,7 @@ ol.commentlist li .star-rating {
 }
 
 .our-story h4.title {
-  font-size: 16px;
+  font-size: 25px;
   line-height: 40px;
   font-weight: 500;
   color: #494949;

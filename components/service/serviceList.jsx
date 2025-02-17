@@ -15,7 +15,7 @@ const ServiceList = ({data,head}) => {
                   <h2>{head}</h2>
                 </div>
                 {/* Pricing table-1 Columns 3 with gap */}
-                <div className="section-content box-sort-in button-example p-tb50">
+                <div className="section-content box-sort-in button-example">
                   <div className="pricingtable-row">
                     <div className="row">
                     

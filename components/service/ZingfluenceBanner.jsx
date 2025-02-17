@@ -14,9 +14,11 @@ export default function ZingFluenceBanner() {
       data-wow-delay="0.2s"
     >
       <div className="banner-contant">
-        <h1 className="dz-title">Make events even better</h1>
+        <h1 className="dz-title">Make events  even better even better even better</h1>
         <p>
           Planning to carrying out every event in an organized manner,
+          using professional staff is our expertise.   Planning to carrying out every event in an organized manner,
+          using professional staff is our expertise.   Planning to carrying out every event in an organized manner,
           using professional staff is our expertise.
         </p>
         <div className="dz-banner-btn d-flex align-items-center">
@@ -26,7 +28,7 @@ export default function ZingFluenceBanner() {
           >
             Book Now
           </Link>
-          <Link href="/about-1">
+          {/* <Link href="/about-1">
             Learn More
             <svg
               width="40"
@@ -44,7 +46,7 @@ export default function ZingFluenceBanner() {
                 fill="#fff"
               />
             </svg>
-          </Link>
+          </Link> */}
         </div>
   
       </div>
