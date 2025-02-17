@@ -372,7 +372,7 @@ export const ZingfluenceLink = {
 };
 
 export const ExpertsHubLink = {
-  href: "/#",
+  href: "/experts-hub",
   label: "Experts Hub",
 };
 
