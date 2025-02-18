@@ -10,7 +10,7 @@ export default function Banner() {
         <div className="dlab-bnr-inr-entry align-m text-center">
           <h1 className="text-white">About us</h1>
           {/* Breadcrumb row */}
-          <div className="breadcrumb-row">
+          {/* <div className="breadcrumb-row">
             <ul className="list-inline">
               <li>
                 <Link href={`/`}>Home</Link>
@@ -18,7 +18,7 @@ export default function Banner() {
               <li>
               <Link href={`/about`}>About us</Link></li>
             </ul>
-          </div>
+          </div> */}
           {/* Breadcrumb row END */}
         </div>
       </div>

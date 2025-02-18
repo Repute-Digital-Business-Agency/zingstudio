@@ -28,7 +28,7 @@ export default function page() {
             <div className="dlab-bnr-inr-entry">
               <h1 className="text-white">Portfolio</h1>
               {/* Breadcrumb row */}
-              <div className="breadcrumb-row">
+              {/* <div className="breadcrumb-row">
                 <ul className="list-inline">
                   <li>
                     <Link href={`/`}>Home</Link>
@@ -36,7 +36,7 @@ export default function page() {
                   <li>
                     <Link href={`/portfolio`}>Portfolio</Link></li>
                 </ul>
-              </div>
+              </div> */}
               {/* Breadcrumb row END */}
             </div>
           </div>

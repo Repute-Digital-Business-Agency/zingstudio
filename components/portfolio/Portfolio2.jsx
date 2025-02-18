@@ -234,7 +234,7 @@ export default function Portfolio2() {
       <div className="container-fluid">
         <div className="site-filters clearfix center m-b40">
           <div className="our-story text-capitalize">
-            <h2 className="title" style={{color:"#1a43bf"}}>Portfolio
+            <h2 className="title" >Portfolio
               {/* <span className="text-primary">  </span> */}
             </h2>
             <h4 className="title" style={{textTransform:"none", color: "black", fontWeight: "600" }}>

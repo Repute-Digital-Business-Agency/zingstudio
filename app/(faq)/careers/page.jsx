@@ -26,13 +26,13 @@ export default function page() {
               <h1 className="text-white">Life at Zing</h1>
               {/* Breadcrumb row */}
               <div className="breadcrumb-row">
-                <ul className="list-inline">
+                {/* <ul className="list-inline">
                   <li>
                     <Link href="/">Home</Link>
                   </li>
                   <li>
                     <Link href="/careers">Life at Zing</Link></li>
-                </ul>
+                </ul> */}
               </div>
               {/* Breadcrumb row END */}
             </div>

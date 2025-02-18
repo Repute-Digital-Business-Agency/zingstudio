@@ -162,7 +162,7 @@ export default function HomeService() {
               </div>
             </div>
 
-            <div className="project-info-box mt-5">
+            <div className="project-info-box mt-5 res-servicebox">
               <div className="project-media">
                 <Image src="/images/Home-Page/service/digital-marketing-basic.jpg" width={1704} height={696} alt="" />
               </div>
@@ -195,7 +195,7 @@ export default function HomeService() {
               </div>
             </div>
 
-            <div className="project-info-box mt-5">
+            <div className="project-info-box mt-5 res-servicebox">
               <div className="project-media">
                 <Image src="/images/Home-Page/service/digital-marketing-standard.jpg" width={1704} height={696} alt="" />
               </div>

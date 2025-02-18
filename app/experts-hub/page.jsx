@@ -30,13 +30,13 @@ export default function ExpertsHub() {
               <h1 className="text-white">Experts Hub</h1>
               {/* Breadcrumb row */}
               <div className="breadcrumb-row">
-                <ul className="list-inline">
+                {/* <ul className="list-inline">
                   <li>
                     <Link href="/">Home</Link>
                   </li>
                   <li>
                     <Link href="/experts-hub">Experts Hub</Link></li>
-                </ul>
+                </ul> */}
               </div>
               {/* Breadcrumb row END */}
             </div>
