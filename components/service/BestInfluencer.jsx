@@ -31,8 +31,8 @@ export default function BestInfluencer() {
           <div className="section-head sort-title clearfix text-center">
           <h2 className="title" style={{fontWeight:"800"}}>Our Exclusive Creators</h2>
           <p style={{color:"#282222"}}>
-            There are many variations of passages of Lorem Ipsum typesetting
-            industry has been the industry's standard dummy 
+          Our Exclusive Creators bring your brand to life with unique, authentic content that speaks directly to your audience. Get ready for creative, engaging content that sparks conversations and drives real results.
+
           </p>
           </div>
           {/* Image Carousel start */}

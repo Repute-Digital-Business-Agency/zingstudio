@@ -14,12 +14,11 @@ export default function ZingFluenceBanner() {
       data-wow-delay="0.2s"
     >
       <div className="banner-contant">
-        <h1 className="dz-title">Lorem Ipsum is simply dummy of the printing and typesetting </h1>
+        <h1 className="dz-title">Zingfluence – Where Influence Meets Impact!
+        </h1>
         <p>
-          Planning to carrying out every event in an organized manner,
-          using professional staff is our expertise.   Planning to carrying out every event in an organized manner,
-          using professional staff is our expertise.   Planning to carrying out every event in an organized manner,
-          using professional staff is our expertise.
+        Boost your brand with the power of influence! With Zingfluence, we connect you with top influencers to amplify your reach and drive real results. Let’s make your brand the next big thing!
+
         </p>
         <div className="dz-banner-btn d-flex align-items-center">
           <Link
@@ -142,9 +141,7 @@ export default function ZingFluenceBanner() {
             <h2 className="title">Our Services</h2>
             <div>
                  <p className="mb-0">
-              There are many variations of passages of Lorem Ipsum typesetting
-              industry has been the industry's standard dummy text ever since
-              the been when an unknown printer. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, saepe est debitis, excepturi amet officia, maxime harum consequuntur voluptatum expedita neque assumenda quam impedit consectetur quisquam ea molestias! Assumenda, error!
+                 At Zingfluence, we’re all about making your brand stand out in the digital world. From handpicking the perfect influencers to crafting bold campaigns and tracking real-time results, we’ve got it covered. We create authentic, eye-catching content that connects with your audience and delivers big impact. Whether you’re looking to boost brand awareness, skyrocket engagement, or drive sales, Zingfluence has the strategy and tools to make it happen. Let’s get your brand buzzing!
             </p>
             </div>
            

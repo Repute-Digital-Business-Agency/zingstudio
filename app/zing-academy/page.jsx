@@ -17,6 +17,7 @@ import CourseModules from "@/components/service/CourseModules";
 import BrandCaseStudy from "@/components/service/BrandCaseStudy";
 import ZingAcademyCta from "@/components/service/ZingAcademyCta";
 import ZingAcademyCourseHero from "@/components/service/zingAcademyCourseHero";
+import ZingAcademyFaq from "@/components/service/ZingAcademyFaq";
 export const metadata = {
   title: "Academy || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -56,6 +57,9 @@ export default function page() {
         <LiveProjects/>
         <div className="section-full content-inner  bg-white">
         <BrandCaseStudy/>
+        </div>
+        <div className="bg-white"  style={{paddingBottom:"50px"}}>
+        <ZingAcademyFaq/>
         </div>
         
         <ZingAcademyCta/>

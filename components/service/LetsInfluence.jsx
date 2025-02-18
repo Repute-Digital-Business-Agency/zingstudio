@@ -9,7 +9,7 @@ export default function Facts() {
   return (
     <>
       <div
-        className="section-full text-white bg-img-fix content-inner overlay-black-dark counter-staus-box Zf-cta"
+        className="section-full text-white bg-img-fix content-inner overlay-black-dark counter-staus-box Zf-cta letsInfluence"
         style={{ backgroundImage: "url(/images/Careers/banner.jpg)" , marginBottom:"150px"}}
       >
         <div className="container">
@@ -19,12 +19,12 @@ export default function Facts() {
                
                   <div
                     // key={index}
-                    className="col-md-6 col-sm-6 m-b30 wow fadeInUp"
+                    className="col-md-6 col-sm-6 m-b30 wow fadeInUp letsinflu"
                     data-wow-duration="2s"
                     data-wow-delay="0.2s"
                   >
                     <div className="icon-bx-wraper center counter-style-5">
-                      <div className="icon-xl m-b20">
+                      <div className="icon-xl m-b20 d-flex align-item-center justify-content-center" style={{ width:"100%"}}>
                         <span className="icon-cell mx-3">
                           <i className="flaticon-worker"  style={{color:"#1A43BF"}}/>
                         </span>
@@ -41,12 +41,12 @@ export default function Facts() {
                         
                   <div
                     // key={index}
-                    className="col-md-6 col-sm-6 m-b30 wow fadeInUp"
+                    className="col-md-6 col-sm-6 m-b30 wow fadeInUp letsinflu"
                     data-wow-duration="2s"
                     data-wow-delay="0.2s"
                   >
                     <div className="icon-bx-wraper center counter-style-5">
-                      <div className="icon-xl m-b20">
+                      <div className="icon-xl m-b20 d-flex align-item-center justify-content-center" style={{width:"100%"}}>
                         <span className="icon-cell mx-3">
                           <i className="flaticon-worker" style={{color:"#1A43BF"}}/>
                         </span>
@@ -56,13 +56,14 @@ export default function Facts() {
                         {/* <h2 className="dlab-tilte counter">
                           <Counter max="1226" />
                         </h2> */}
-                        <p style={{fontSize:"16px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, suscipit reprehenderit.</p>
+                        <p style={{fontSize:"16px"}}>Ready to make some noise?  Let’s team up and create influencer campaigns that shine, spark engagement, and get your brand buzzing! Let’s do this!
+                        </p>
                       </div>
                     </div>
                   </div>
               </div>
-            </div>
-            <div
+          </div>
+          <div
               className="col-lg-5 col-md-12 col-sm-12 wow fadeInLeft"
               data-wow-duration="2s"
               data-wow-delay="0.2s"
@@ -97,18 +98,12 @@ export default function Facts() {
                 </div>
 
               </div>
-            </div>
+          </div>
           
           </div>
         </div>
-      </div>{" "}
-      <ModalVideo
-        channel="youtube"
-        youtube={{ mute: 0, autoplay: 0 }}
-        isOpen={isOpen}
-        videoId="_FRZVScwggM"
-        onClose={() => setOpen(false)}
-      />{" "}
+      </div>
+     
     </>
   );
 }

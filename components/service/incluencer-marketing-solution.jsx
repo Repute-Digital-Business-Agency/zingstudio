@@ -8,7 +8,8 @@ export default function InfluencerMarketing() {
         <div className="row">
             <div className="section-head text-center mb-2">
             <h2 className="title" >Our Influencer Marketing Solutions</h2>
-            <p style={{color:"#282222"}}>We manage all your Influencer Marketing requirements</p>
+            <p style={{color:"#282222"}}>Amplifying Brands with Influence and Prestige
+            </p>
             </div>
            
           {foodItems.map((item, index) => (

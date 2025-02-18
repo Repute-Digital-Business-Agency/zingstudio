@@ -44,13 +44,11 @@ export default function About() {
                   best influencer marketing services?
                 </h2>
                 <p>
-                  Praesent pharetra orci odio, ut mattis tellus ullamcorper
-                  ornare. Suspendisse ullamcorper metus in erat viverra,
-                  vehicula pharetra dolor accumsan. In arcu ex, rutrum finibus
-                  malesuada vel. Praesent pharetra orci odio, ut mattis tellus
+                At Zingfluence, we provide premium influencer marketing services by integrating strategic planning, creativity, and data-driven insights. Our process begins with carefully selecting influencers who align with your brand values and objectives, ensuring authentic and effective partnerships. We develop customized campaigns that engage your target audience and drive measurable results. 
+
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, aperiam quidem, mollitia, assumenda laborum nesciunt distinctio nisi soluta perferendis repellendus eius. Cumque quis fugiat quibusdam officiis nostrum laboriosam earum sit!
+                Our content creation focuses on producing high-quality, relevant content that resonates with followers, fostering trust and engagement. Additionally, we monitor campaign performance closely, utilizing analytics to optimize strategies and maximize ROI. With Zingfluence, you can trust that every influencer marketing campaign is designed for tangible and sustained success.
                 </p>
               </div>
               {/* <Link

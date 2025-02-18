@@ -7,7 +7,7 @@ export default function BrandCaseStudy() {
       
       <div className="bg-white BrandCaseStudy">
         
-        <div className="section-full bg-white content-inner">
+        <div className="section-full bg-white content-inner pb-0">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">

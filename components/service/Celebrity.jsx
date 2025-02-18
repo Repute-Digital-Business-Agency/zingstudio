@@ -12,9 +12,9 @@ export default function Celebrity() {
               data-wow-delay="0.3s">
           <h2 className="title">Our Celebrity Partners</h2>
           <p>
-            There are many variations of passages of Lorem Ipsum typesetting
-            industry has been the industry's standard dummy text ever since the
-            been when an unknown printer.
+          At Zingfluence, we collaborate with renowned celebrities who bring unmatched influence, credibility, and reach to your brand. Our Celebrity Partners play a key role in elevating your marketing efforts, ensuring your brand gains visibility and resonance with a wider audience. By aligning with these prominent figures, we offer strategic partnerships that deliver measurable, impactful results.
+
+
           </p>
         </div>
         <Swiper
