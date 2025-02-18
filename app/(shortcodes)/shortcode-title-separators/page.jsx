@@ -1,5 +1,5 @@
 
-import Header1 from "@/components/headers/Header1";
+
 import TitleSeparator from "@/components/shortcodes/TitleSeparator";
 import React from "react";
 

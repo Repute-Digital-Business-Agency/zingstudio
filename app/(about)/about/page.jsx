@@ -2,7 +2,7 @@ import About2 from "@/components/about/About2";
 import Banner from "@/components/about/Banner";
 import Progress from "@/components/about/Progress";
 import Cta from "@/components/homes/home-13/Cta";
-import Header1 from "@/components/headers/Header1";
+
 import Header17 from "@/components/headers/Header17";
 import Services from "@/components/homes/home-1/Services";
 import Team from "@/components/homes/home-10/Team";

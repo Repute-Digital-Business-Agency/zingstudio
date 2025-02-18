@@ -1,6 +1,6 @@
 import CopyContainer from "@/components/common/CopyContainer";
 
-import Header1 from "@/components/headers/Header1";
+
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";

@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import Header1 from "@/components/headers/Header1";
+
 import Team from "@/components/homes/home-1/Team";
 import Facts from "@/components/team/Facts";
 import Team2 from "@/components/team/Team2";

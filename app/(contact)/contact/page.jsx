@@ -1,7 +1,7 @@
 import Contact2 from "@/components/contact/Contact2";
 import Footer13 from "@/components/footers/Footer13";
 
-import Header1 from "@/components/headers/Header1";
+
 import Header17 from "@/components/headers/Header17";
 import React from "react";
 

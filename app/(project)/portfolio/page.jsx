@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import Header1 from "@/components/headers/Header1";
+
 
 import Portfolio2 from "@/components/portfolio/Portfolio2";
 import React from "react";

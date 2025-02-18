@@ -1,5 +1,5 @@
 import Footer1 from "@/components/footers/Footer1";
-import Header1 from "@/components/headers/Header1";
+
 import About from "@/components/homes/home-1/About";
 import Blogs from "@/components/homes/home-1/Blogs";
 import Clients from "@/components/homes/home-1/Clients";

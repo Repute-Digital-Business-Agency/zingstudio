@@ -1,5 +1,5 @@
 
-import Header1 from "@/components/headers/Header1";
+
 import Filters from "@/components/shortcodes/Filters";
 import React from "react";
 

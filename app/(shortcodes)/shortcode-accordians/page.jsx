@@ -1,5 +1,5 @@
 
-import Header1 from "@/components/headers/Header1";
+
 import Accordions from "@/components/shortcodes/Accordions";
 import React from "react";
 

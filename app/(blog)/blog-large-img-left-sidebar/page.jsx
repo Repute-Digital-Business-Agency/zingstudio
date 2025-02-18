@@ -2,7 +2,7 @@ import Blogs12 from "@/components/blogs/Blogs12";
 import Link from "next/link";
 import Blogs9 from "@/components/blogs/Blogs9";
 
-import Header1 from "@/components/headers/Header1";
+
 import React from "react";
 
 export const metadata = {

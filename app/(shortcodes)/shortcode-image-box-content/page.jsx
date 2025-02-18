@@ -1,5 +1,5 @@
 
-import Header1 from "@/components/headers/Header1";
+
 import ImageBox from "@/components/shortcodes/ImageBox";
 import React from "react";
 

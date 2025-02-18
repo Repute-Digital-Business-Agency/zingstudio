@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 import Footer16 from "@/components/footers/Footer16";
-import Header1 from "@/components/headers/Header1";
+
 import Checkout from "@/components/shop/Checkout";
 import ShopFeatures from "@/components/shop/ShopFeatures";
 import React from "react";

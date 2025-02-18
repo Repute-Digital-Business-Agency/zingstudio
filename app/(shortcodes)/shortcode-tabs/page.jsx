@@ -1,5 +1,5 @@
 
-import Header1 from "@/components/headers/Header1";
+
 import Tabs from "@/components/shortcodes/Tabs";
 import React from "react";
 

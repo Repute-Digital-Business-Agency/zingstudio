@@ -1,7 +1,7 @@
 import CopyContainer from "@/components/common/CopyContainer";
 
 import Footer17 from "@/components/footers/Footer17";
-import Header1 from "@/components/headers/Header1";
+
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";

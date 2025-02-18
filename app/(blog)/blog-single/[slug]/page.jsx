@@ -2,7 +2,7 @@ import BlogSingle from "@/components/blogs/BlogSingle";
 import Link from "next/link";
 import Comment from "@/components/blogs/Comment";
 
-import Header1 from "@/components/headers/Header1";
+
 import React from "react";
 import { allBlogs } from "@/data/blogs";
 

@@ -1,7 +1,7 @@
 import ClientSlider from "@/components/common/ClientSlider";
 import Link from "next/link";
 
-import Header1 from "@/components/headers/Header1";
+
 import Team1 from "@/components/team/Team1";
 import React from "react";
 

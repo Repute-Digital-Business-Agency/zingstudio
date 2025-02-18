@@ -1,7 +1,7 @@
 import Faq1 from "@/components/faq/Faq1";
 import Footer13 from "@/components/footers/Footer13";
 
-import Header1 from "@/components/headers/Header1";
+
 import Header17 from "@/components/headers/Header17";
 import Link from "next/link";
 import React from "react";

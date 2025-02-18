@@ -1,5 +1,5 @@
 import Blog1 from "@/components/blogs/Blog1";
-import Header1 from "@/components/headers/Header1";
+
 import Link from "next/link";
 import React from "react";
 

@@ -1,5 +1,5 @@
 import Blogs3 from "@/components/blogs/Blogs3";
-import Header1 from "@/components/headers/Header1";
+
 import React from "react";
 import Link from "next/link";
 export const metadata = {

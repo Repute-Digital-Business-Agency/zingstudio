@@ -1,5 +1,5 @@
 
-import Header1 from "@/components/headers/Header1";
+
 import Testimonials from "@/components/shortcodes/Testimonials";
 import React from "react";
 

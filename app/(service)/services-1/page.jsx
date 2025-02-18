@@ -1,6 +1,6 @@
 import Testimonials from "@/components/common/Testimonials2";
 
-import Header1 from "@/components/headers/Header1";
+
 import About from "@/components/service/About";
 import Banner from "@/components/service/Banner";
 import Contact from "@/components/service/Contact";

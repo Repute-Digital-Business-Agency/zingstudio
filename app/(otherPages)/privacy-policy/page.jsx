@@ -1,5 +1,5 @@
 
-import Header1 from "@/components/headers/Header1";
+
 import PrivacyPolicy from "@/components/otherPages/PrivacyPolicy";
 import React from "react";
 

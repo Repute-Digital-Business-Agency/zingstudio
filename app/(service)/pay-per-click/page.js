@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import Header1 from "@/components/headers/Header1";
+
 import ProjectDetails from "@/components/portfolio/ProjectDetails";
 import React from "react";
 import { allProjects } from "@/data/projects";

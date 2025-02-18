@@ -1,6 +1,6 @@
 import Contact3 from "@/components/contact/Contact3";
 
-import Header1 from "@/components/headers/Header1";
+
 import React from "react";
 
 export const metadata = {

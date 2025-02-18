@@ -3,7 +3,7 @@ import Link from "next/link";
 import Comment from "@/components/blogs/Comment";
 import Sidebar from "@/components/blogs/Sidebar";
 
-import Header1 from "@/components/headers/Header1";
+
 import React from "react";
 import { allBlogs } from "@/data/blogs";
 
