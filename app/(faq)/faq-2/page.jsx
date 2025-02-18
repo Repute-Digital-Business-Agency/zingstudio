@@ -1,6 +1,6 @@
 import Faq2 from "@/components/faq/Faq2";
 import Faq3 from "@/components/faq/Faq3";
-import Footer15 from "@/components/footers/Footer15";
+
 import Header1 from "@/components/headers/Header1";
 import React from "react";
 import Link from "next/link";

@@ -1,6 +1,5 @@
 import Footer13 from "@/components/footers/Footer13";
-import Footer15 from "@/components/footers/Footer15";
-import Footer2 from "@/components/footers/Footer2";
+
 import Header1 from "@/components/headers/Header1";
 import Header17 from "@/components/headers/Header17";
 import Service from "@/components/homes/home-2/Service";

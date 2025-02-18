@@ -1,11 +1,10 @@
-import Footer15 from "@/components/footers/Footer15";
+
 import Link from "next/link";
 import Header1 from "@/components/headers/Header1";
 
 import Portfolio2 from "@/components/portfolio/Portfolio2";
 import React from "react";
 import Header17 from "@/components/headers/Header17";
-import Footer2 from "@/components/footers/Footer2";
 import Footer13 from "@/components/footers/Footer13";
 import Cta from "@/components/homes/home-13/Cta";
 

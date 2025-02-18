@@ -1,5 +1,4 @@
 import ClientSlider from "@/components/common/ClientSlider";
-import Footer2 from "@/components/footers/Footer2";
 import Header17 from "@/components/headers/Header17";
 import Cta from "@/components/homes/home-13/Cta";
 import Testimonials from "@/components/homes/home-10/Testimonials";

@@ -1,4 +1,4 @@
-import Footer15 from "@/components/footers/Footer15";
+
 import Link from "next/link";
 import Header1 from "@/components/headers/Header1";
 import ProjectDetails from "@/components/portfolio/ProjectDetails";
@@ -9,7 +9,6 @@ import SeoDetails from "@/components/service/SeoDetails";
 import SmmDetails from "@/components/service/SmmDetails";
 import PpcDetails from "@/components/service/PpcDetails";
 import LinkedInMarketingDetails from "@/components/service/LinkedInMarketingDetails";
-import Footer2 from "@/components/footers/Footer2";
 import Header17 from "@/components/headers/Header17";
 import Footer13 from "@/components/footers/Footer13";
 

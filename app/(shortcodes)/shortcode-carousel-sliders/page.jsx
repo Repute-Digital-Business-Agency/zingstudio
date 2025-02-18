@@ -1,4 +1,4 @@
-import Footer15 from "@/components/footers/Footer15";
+
 import Header1 from "@/components/headers/Header1";
 import Sliders from "@/components/shortcodes/Sliders";
 import React from "react";

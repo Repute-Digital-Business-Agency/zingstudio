@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Blogs7 from "@/components/blogs/Blogs7";
-import Footer15 from "@/components/footers/Footer15";
 import Header1 from "@/components/headers/Header1";
 import React from "react";
 

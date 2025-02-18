@@ -1,4 +1,4 @@
-import Footer15 from "@/components/footers/Footer15";
+
 import Header1 from "@/components/headers/Header1";
 import Pagination from "@/components/shortcodes/Pagination";
 import React from "react";

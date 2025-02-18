@@ -1,4 +1,3 @@
-import Footer2 from "@/components/footers/Footer2";
 import Header19 from "@/components/headers/Header19";
 import Service from "@/components/homes/home-2/Service";
 import Hero from "@/components/homes/home-20/Hero";

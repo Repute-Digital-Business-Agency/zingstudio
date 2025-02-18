@@ -1,4 +1,4 @@
-import Footer15 from "@/components/footers/Footer15";
+
 import Link from "next/link";
 import Header1 from "@/components/headers/Header1";
 import ProjectDetails from "@/components/portfolio/ProjectDetails";
@@ -6,7 +6,6 @@ import React from "react";
 import { allProjects } from "@/data/projects";
 import WebDesignDetails from "@/components/service/WebDesignDetails";
 import ECommerceDetails from "@/components/service/ECommerceDetails";
-import Footer2 from "@/components/footers/Footer2";
 import Header17 from "@/components/headers/Header17";
 import Footer13 from "@/components/footers/Footer13";
 

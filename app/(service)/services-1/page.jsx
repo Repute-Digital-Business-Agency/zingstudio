@@ -1,5 +1,5 @@
 import Testimonials from "@/components/common/Testimonials2";
-import Footer15 from "@/components/footers/Footer15";
+
 import Header1 from "@/components/headers/Header1";
 import About from "@/components/service/About";
 import Banner from "@/components/service/Banner";
