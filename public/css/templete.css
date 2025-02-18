@@ -5779,8 +5779,11 @@ HOME 5 Box Header
   }
 
   .project-info-box .project-media img {
-    height: 300px;
+    height: 500px !important;
     object-fit: cover;
+  }
+  .res-servicebox.project-info-box .project-content{
+    top: 98% !important;
   }
 
   .project-carousel-1 .owl-nav {

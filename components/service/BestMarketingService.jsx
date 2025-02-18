@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function About() {
   return (
-    <div className="section-full content-inner const-about bg-white">
+    <div className="section-full content-inner const-about bg-white zingFluence">
       <div className="container">
         <div className="row align-items-center">
           <div
@@ -21,9 +21,10 @@ export default function About() {
             </div>
           </div>
           <div
-            className="col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInRight"
+            className="col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInRight content-sec"
             data-wow-duration="2s"
             data-wow-delay="0.6s"
+
           >
             <div className="content-bx1">
               {/* <div className="about-year">

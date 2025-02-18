@@ -37,7 +37,7 @@ export default function HeroSection({head,option,bannerContent}) {
              What you get
             </h4>
             <ul
-              className="list-checked primary wow fadeInLeft"
+              className="list-hand-point  wow fadeInLeft"
               data-wow-delay="1s"
             >
               {bannerContent.list.map((item, index) => (

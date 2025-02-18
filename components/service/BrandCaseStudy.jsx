@@ -5,7 +5,7 @@ export default function BrandCaseStudy() {
   return (
     <>
       
-      <div className="bg-white">
+      <div className="bg-white BrandCaseStudy">
         
         <div className="section-full bg-white content-inner">
           <div className="container">
