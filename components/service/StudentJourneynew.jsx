@@ -144,7 +144,7 @@ export default function StudentJourneynew({services10}) {
             <div className="row">
               <div className="col-lg-12">
               <div className="section-head style2 text-center ">
-                    <h2 className="title">Student Journey at Zing Studio</h2>
+                    <h2 className="title">Students Journey at Zing Studio</h2>
                     <p className="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting
           industry has been the industry's standard dummy text ever since the
           been when an unknown printer.

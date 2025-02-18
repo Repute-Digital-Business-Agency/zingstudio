@@ -160,8 +160,11 @@ const images2 = ["/images/banner/bnr5.jpg", "/images/banner/bnr4.jpg"];
 export default function CourseModulesHome() {
   return (
     <div className="container-fluid pt-5 pb-5 relative" style={{ backgroundImage: "url(/images/elementbg/zing-acd-bg-element.png)", backgroundRepeat:"no-repeat", backgroundColor:"#dde3f5" }}>
-      <div style={{ position: "absolute", top: "200px", left: "100px", animation: "moveImage 5s linear infinite" }}>
+      <div style={{ position: "absolute", top: "100px", left: "100px", animation: "moveImage 5s linear infinite",
+        // border:"1px solid red"
+       }}>
         <img
+          // src="/images/Academy/lets-connect/footer-icon.png"
           src="/images/Academy/lets-connect/lets-connect-img.png"
           style={{ width: "40%" }}
         />
