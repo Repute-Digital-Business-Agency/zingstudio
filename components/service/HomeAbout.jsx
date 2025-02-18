@@ -67,7 +67,13 @@ import Image from "next/image";
 import Link from "next/link";
 export default function HomeAbout() {
   return (
-    <div className="section-full content-inner const-about bg-gray" style={{ backgroundImage: "url(/images/elementbg/about-us-bg-element.png)", backgroundRepeat:"no-repeat", }}>
+    <div className="section-full content-inner const-about " style={{ backgroundImage: "url(/images/elementbg/about-us-bg-element.png)",backgroundRepeat:"no-repeat", }}>
+       <div style={{ position: "absolute", bottom: "10px", right: "0", animation: "moveImage2 5s linear infinite" , height:"100%"}}>
+          <img
+            src="/images/Academy/lets-connect/lets-connect-img.png"
+            style={{ width: "40%" }}
+          />
+        </div>
       <div className="container">
         <div className="row align-items-center">
           <div
@@ -127,6 +133,7 @@ export default function HomeAbout() {
           </div>
         </div>
       </div>
+     
     </div>
   );
 }
