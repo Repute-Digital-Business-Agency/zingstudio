@@ -54,8 +54,10 @@ export default function HomeHero() {
     [index].classList.add("active");
   };
   return (
-    <div className="dz-oil-industry-zone bg-white" style={{ backgroundImage: "url(/images/elementbg/our-works-bg-element.png)", backgroundRepeat: "no-repeat", }}>
+    <div className="dz-oil-industry-zone bg-gray relative" style={{ backgroundImage: "url(/images/elementbg/our-works-bg-element.png)", backgroundRepeat: "no-repeat", }}>
+    
       <div className="container-fluid">
+      
         <div className="dz-banner-top">
           <div className="row justify-content-between">
             <div

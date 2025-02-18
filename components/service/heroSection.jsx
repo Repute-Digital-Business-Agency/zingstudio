@@ -5,8 +5,8 @@ import React from "react";
 export default function HeroSection({head,option,bannerContent}) {
   return (
     <div
-      className="section-full overlay-black-dark bg-img-fix pr-service-hero"
-      style={{ backgroundImage: "url(/images/background/bg1.jpg)" }}
+      className="section-full   bg-img-fix pr-service-hero"
+      style={{ backgroundImage: "url(/images/services/serviceBanner.jpg)" }}
     >
       <div className="container">
         <div className="row">

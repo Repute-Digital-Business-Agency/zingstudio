@@ -18048,7 +18048,7 @@ input[type="radio"]+label:hover:before {
 }
 
 .pr-service-hero {
-  background-image: url("/images/about-us/banner.jpg") !important;
+  background-image: url("/images/services/serviceBanner.jpg") !important;
   /* height: 80vh; */
 }
 
@@ -18877,6 +18877,7 @@ input[type="radio"]+label:hover:before {
   color: #e21100;
   font-weight: normal;
 }
+
 @keyframes moveImage {
   0% {
     top: 10px;

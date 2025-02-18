@@ -100,6 +100,7 @@ export default function Am_a_Zing() {
         className="section-full box-about-list Am_a_Zing bg-white"
         style={{
             backgroundImage: "url(/images/element-4.png)",
+            // backgroundImage: "url(/images/elementbg/am-a-zing-element.png)",
             backgroundRepeat: "no-repeat",
             // height:"3350px"
             height:"2500px"

@@ -159,7 +159,13 @@ const images2 = ["/images/banner/bnr5.jpg", "/images/banner/bnr4.jpg"];
 
 export default function CourseModulesHome() {
   return (
-    <div className="container-fluid pt-5 pb-5" style={{ backgroundImage: "url(/images/elementbg/zing-acd-bg-element.png)", backgroundRepeat:"no-repeat", backgroundColor:"#dde3f5" }}>
+    <div className="container-fluid pt-5 pb-5 relative" style={{ backgroundImage: "url(/images/elementbg/zing-acd-bg-element.png)", backgroundRepeat:"no-repeat", backgroundColor:"#dde3f5" }}>
+      <div style={{ position: "absolute", top: "200px", left: "100px", animation: "moveImage 5s linear infinite" }}>
+        <img
+          src="/images/Academy/lets-connect/lets-connect-img.png"
+          style={{ width: "40%" }}
+        />
+      </div>
       <div className="container">
       <div id="masonry" className="dlab-blog-grid-3 row">
         <div className="section-head style2 text-center mb-0">
