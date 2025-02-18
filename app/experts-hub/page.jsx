@@ -15,7 +15,7 @@ import ExpertsCta from "@/components/service/ExpertsCta";
 
 
 export const metadata = {
-  title: "Zing Studio - Career",
+  title: "Zing Studio - Experts Hub",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function ExpertsHub() {
