@@ -185,6 +185,23 @@ a.text-primary:hover {
   color: var(--color-hover) !important;
 }
 
+.text-red {
+  color: #e21100 !important;
+}
+
+a.text-red:hover {
+  color: #e21100 !important;
+}
+.text-redblk {
+  background: #000000;
+  background: linear-gradient(to top, #000000 0%, #222324 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a.text-redblk:hover {
+  color: #e21100 !important;
+}
 section,
 article,
 aside,
