@@ -41,7 +41,7 @@ export default function Faq1() {
                 <p><b>Work-Life Balance: </b>We understand the importance of maintaining a healthy balance. With flexible hours and a focus on employee well-being, Zing Studio ensures you can excel both professionally and personally.
                 </p>
               </div>
-              <div className="wow fadeInUp  will-animate" data-wow-duration="2.8s" data-wow-delay="0.6s" >
+              <div className="wow fadeInUp  will-animate" data-wow-duration="2.8s" data-wow-delay="0.9s" >
                 <p><b>Empowerment and Autonomy: </b>We trust our employees to take ownership of their projects and encourage autonomy in decision-making, allowing you to make a significant impact on the company's success.
                   <br></br>Join Zing Studio and be part of an inspiring, forward-thinking company where your talents will be nurtured, your ideas valued, and your career accelerated.
                 </p>

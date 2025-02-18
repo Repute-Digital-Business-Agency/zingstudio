@@ -8,7 +8,7 @@ export default function Insights() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <div className="section-full scrollSpySection mb-5 " id="choose-us">
+      <div className="section-full scrollSpySection  bg-white " id="choose-us">
         <div className="row m-lr0">
           <div
             className="col-xl-6 col-lg-12 p-lr0 d-flex dis-tbl latest-project-info style1 bg-secondry wow fadeInLeft bg-primary"
@@ -64,11 +64,12 @@ export default function Insights() {
             data-wow-delay="0.3s"
             
           >
-            <div className="row spno">
+            
+            <div className="row spno" style={{height:"100%" }}>
               <div className="col-lg-6 col-md-6 col-sm-6 align-items-center d-flex" style={{
-                backgroundColor:"#e21100"
+                backgroundColor:"#e21100",
             }}>
-                <div className="dlab-services-box text-white">
+                <div className="dlab-services-box text-white" >
                   {/* <h2 className="service-year">
                     32<small>year</small>
                   </h2> */}
@@ -77,7 +78,7 @@ export default function Insights() {
                   </h3>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-6">
+              <div className="col-lg-6 col-md-6 col-sm-6" >
                 <Image
                   className="img-cover"
                   alt=""
@@ -86,8 +87,10 @@ export default function Insights() {
                   height="357"
                 />
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-6">
-                <div className="video-bx radius-no h100">
+
+           
+              <div className="col-lg-6 col-md-6 col-sm-6" >
+                {/* <div className="video-bx radius-no h100"> */}
                   <Image
                     alt="Signature"
                     className="img-cover"
@@ -103,9 +106,9 @@ export default function Insights() {
                       <i className="fas fa-play" />
                     </a>
                   </div> */}
-                </div>
+                {/* </div> */}
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-6 bg-primary align-items-center d-flex">
+              <div className="col-lg-6 col-md-6 col-sm-6 bg-primary align-items-center d-flex" >
                 <div className="dlab-services-box text-white">
                   <h3 className="title text-white m-b15">
                   Boost your skills, own the game!  Zing Academy is where learning meets action. Are you in?
@@ -120,6 +123,8 @@ export default function Insights() {
                 </div>
               </div>
             </div>
+            {/* </div> */}
+          
           </div>
         </div>
       </div>

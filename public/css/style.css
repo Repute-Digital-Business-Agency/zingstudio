@@ -17098,9 +17098,14 @@ ol.commentlist li .star-rating {
 }
 
 /* testimonial-17 */
-@media only screen and (max-width: 991px) {
-  .content-bx1 {
-    padding-left: 0;
+@media only screen and (max-width: 760px) {
+  .homeAbout .content-bx1 {
+  
+    padding-left: 0 !important;
+  }
+  .homeAbout .img-sec{
+    /* width: 80%; */
+    /* margin: ; */
   }
 }
 
@@ -18933,7 +18938,7 @@ input[type="radio"]+label:hover:before {
 
 @keyframes moveImage3 {
   0% {
-    bottom: 10px;
+    bottom: 0px;
     right: 100px;
   }
   50% {
@@ -18941,7 +18946,26 @@ input[type="radio"]+label:hover:before {
     right: 200px; 
   }
   100% {
-    bottom: 10px;
+    bottom:10px;
     right: 100px; 
   }
 }
+
+@keyframes moveImage4 {
+  0% {
+    bottom: 10px;
+    left: 100px;
+  }
+  50% {
+    bottom: 100px; 
+    left: 200px; 
+  }
+  100% {
+    bottom:10px;
+    left: 100px; 
+  }
+}
+
+
+
+/* .homeAbout */
