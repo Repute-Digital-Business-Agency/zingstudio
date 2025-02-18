@@ -11,13 +11,13 @@ export default function Banner() {
           <h1 className="text-white">About us</h1>
           {/* Breadcrumb row */}
           <div className="breadcrumb-row">
-            <ul className="list-inline">
+            {/* <ul className="list-inline">
               <li>
                 <Link href={`/`}>Home</Link>
               </li>
               <li>
               <Link href={`/about`}>About us</Link></li>
-            </ul>
+            </ul> */}
           </div>
           {/* Breadcrumb row END */}
         </div>

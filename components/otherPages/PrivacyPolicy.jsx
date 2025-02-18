@@ -13,12 +13,12 @@ export default function PrivacyPolicy() {
             <h1 className="text-white">Privacy Policy</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
-              <ul className="list-inline">
+              {/* <ul className="list-inline">
                 <li>
                   <a>Home</a>
                 </li>
                 <li>Privacy Policy</li>
-              </ul>
+              </ul> */}
             </div>
             {/* Breadcrumb row END */}
           </div>

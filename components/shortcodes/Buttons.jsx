@@ -13,13 +13,13 @@ export default function Buttons() {
             <h1 className="text-white">Buttons</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
-              <ul className="list-inline">
+              {/* <ul className="list-inline">
                 <li>
                   <Link href={`/`}>Home</Link>
                 </li>
                 <li>Element</li>
                 <li>Buttons</li>
-              </ul>
+              </ul> */}
             </div>
             {/* Breadcrumb row END */}
           </div>

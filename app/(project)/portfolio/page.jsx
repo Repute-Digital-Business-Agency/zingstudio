@@ -22,20 +22,20 @@ export default function page() {
         <Header17 />
         <div
           className="dlab-bnr-inr overlay-black-middle bg-pt"
-          style={{ backgroundImage: "url(/images/portfolio/banner.jpg)" }}
+          style={{ backgroundImage: "url(/images/bg-header.jpg)" }}
         >
           <div className="container">
             <div className="dlab-bnr-inr-entry">
               <h1 className="text-white">Portfolio</h1>
               {/* Breadcrumb row */}
               <div className="breadcrumb-row">
-                <ul className="list-inline">
+                {/* <ul className="list-inline">
                   <li>
                     <Link href={`/`}>Home</Link>
                   </li>
                   <li>
                     <Link href={`/portfolio`}>Portfolio</Link></li>
-                </ul>
+                </ul> */}
               </div>
               {/* Breadcrumb row END */}
             </div>
