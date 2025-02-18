@@ -54,7 +54,7 @@ export default function page() {
         <CourseModules/>
         <Insights/>
         <LiveProjects/>
-        <div className="section-full content-inner mb-4">
+        <div className="section-full content-inner  bg-white">
         <BrandCaseStudy/>
         </div>
         

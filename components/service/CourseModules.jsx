@@ -74,7 +74,6 @@ const images = [
   },
   {
     imgSrc:"/images/Home-Page/Zing-acd/zing-ai-in-digital-marketing.jpg",
-    imgSrc:"/images/our-work/pic1.jpg",
     title:"Zing AI in Digital Marketing",
     mode:"online/offline",
     list:[
@@ -160,7 +159,7 @@ export default function Course() {
   return (
  
     
-    <div className="bg-white lightgallery ZingCourseModule mb-5" id="lightgallery">
+    <div className="bg-white lightgallery ZingCourseModule pb-5" id="lightgallery">
       <div className="section-full bg-white content-inner">
         <div className="container-fluid">
           <div className="row">

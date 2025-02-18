@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function ZingAcademyCta() {
   return (
     <div
-      className="section-full  bg-img-fix"
+      className="section-full  bg-img-fix "
       style={{ backgroundImage: "url(/images/Academy/lets-connect/bg1.jpg)" }}
     >
       <div className="container">

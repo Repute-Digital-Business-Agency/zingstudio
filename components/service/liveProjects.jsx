@@ -3,10 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 export default function LiveProjects() {
   return (
-    <div className="content-block">
+    <div className="content-block pt-3">
       {/* Content Section */}
       <div className="section-full">
-      <div className="section-head style2 text-center mb-3">
+      <div className="section-head style2 text-center mb-5">
                     <h2 className="title">Live Projects</h2>
                     <p className="mb-0">Gain hands-on experience with real-world digital marketing projects and enhance your skills in practical scenarios.
                     </p>
