@@ -4,12 +4,12 @@ import React from "react";
 export default function Services1() {
   return (
     <div className="section-full content-inner bg-white relative" style={{ backgroundImage: "url(/images/about-us/about-bg.png)" }}>
-      <div style={{ position: "absolute", top: "10px", left: "100px", animation: "moveImage 5s linear infinite" }}>
+      {/* <div style={{ position: "absolute", top: "10px", left: "100px", animation: "moveImage 5s linear infinite" }}>
         <img
-          src="/images/Academy/lets-connect/lets-connect-img.png"
-          style={{ width: "40%" }}
+          src="/images/Academy/lets-connect/animation.png"
+          // style={{ width: "40%" }}
         />
-      </div>
+      </div> */}
 
       
       {/* <div style={{ position: "absolute", top: "10px", right: "100px", animation: "moveImage2 5s linear infinite" }}>

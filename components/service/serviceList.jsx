@@ -7,7 +7,16 @@ const ServiceList = ({data,head}) => {
     
     
   return (
-    <div className="section-full bg-white content-inner pr-service-list">
+    <div className="section-full bg-white content-inner pr-service-list relative">
+      <div className="moveAnimation" style={{ position: "absolute", bottom: "0px", left: "100px", animation: "moveImage4 5s linear infinite",
+        // border:"1px solid red"
+       }}>
+        <img
+          src="/images/Academy/lets-connect/animation.png"
+          // src="/images/Academy/lets-connect/lets-connect-img.png"
+          // style={{ width: "40%" }}
+        />
+      </div>
           <div className="container">
             <div className="row">
               <div className="col-lg-12 ">

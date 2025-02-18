@@ -67,19 +67,19 @@ import Image from "next/image";
 import Link from "next/link";
 export default function HomeAbout() {
   return (
-    <div className="section-full content-inner const-about " style={{ backgroundImage: "url(/images/elementbg/about-us-bg-element.png)",backgroundRepeat:"no-repeat", }}>
-       <div style={{ position: "absolute", bottom: "10px", right: "0", animation: "moveImage3 5s linear infinite", 
+    <div className="section-full content-inner const-about homeAbout" style={{ backgroundImage: "url(/images/elementbg/about-us-bg-element.png)",backgroundRepeat:"no-repeat", }}>
+       <div className="moveAnimation" style={{ position: "absolute", bottom: "0px", right: "0", animation: "moveImage3 5s linear infinite", 
         // border:"1px solid red"
          }}>
           <img
-            src="/images/Academy/lets-connect/right-animation.png"
+            src="/images/Academy/lets-connect/animation.png"
            
           />
         </div>
       <div className="container">
         <div className="row align-items-center">
           <div
-            className="col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInUp"
+            className="col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInUp img-sec"
             data-wow-duration="2s"
             data-wow-delay="0.3s"
           >

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function LiveProjects() {
   return (
-    <div className="content-block pt-3">
+    <div className="content-block pt-5 bg-white">
       {/* Content Section */}
       <div className="section-full">
       <div className="section-head style2 text-center mb-5">

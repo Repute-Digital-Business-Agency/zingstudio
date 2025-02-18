@@ -9,7 +9,15 @@ export default function About() {
       {/* Service Info Head End */}
       {/* About Us */}
       <div className="section-full content-inner bg-gray relative">
-      
+      <div  className="moveAnimation" style={{ position: "absolute", bottom: "0px", left: "100px", animation: "moveImage4 5s linear infinite",
+        // border:"1px solid red"
+       }}>
+        <img
+          src="/images/Academy/lets-connect/animation.png"
+          // src="/images/Academy/lets-connect/lets-connect-img.png"
+          // style={{ width: "40%" }}
+        />
+      </div>
         <div className="container">
           <div className="row align-items-center">
             <div
@@ -50,7 +58,7 @@ export default function About() {
         </div>
 
       </div>
-      <div className="section-full content-inner bg-white">
+      <div className="section-full content-inner bg-white relative">
         <div class="container">
           {/* <h2>Timeline Of Achievements</h2> */}
           <div class="row">
@@ -58,6 +66,14 @@ export default function About() {
               <img src="/images/about-us/Zing-Infographics.png"></img>
             </div>
           </div>
+        </div>
+        <div className="moveAnimation" style={{ position: "absolute", bottom: "0px", right: "0", animation: "moveImage3 5s linear infinite", 
+        // border:"1px solid red"
+         }}>
+          <img
+            src="/images/Academy/lets-connect/animation.png"
+           
+          />
         </div>
       </div>
       {/* About Us End */}

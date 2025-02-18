@@ -210,7 +210,7 @@ export default function page() {
       
       <SucessStories/>
     
-      <div  style={{marginBottom:"100px", marginTop:"50px"}}>
+      <div className="bg-white"  style={{paddingBottom:"50px", paddingTop:"50px"}}>
         <CourseProgramFaq/>
         </div>
 

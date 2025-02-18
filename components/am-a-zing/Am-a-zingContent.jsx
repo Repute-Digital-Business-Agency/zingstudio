@@ -35,7 +35,15 @@ export default function About() {
   
   return (
     <>
-      <div className="section-full content-inner exhibition-bx bg-white">
+      <div className="section-full content-inner exhibition-bx bg-white relative">
+      <div className="moveAnimation" style={{ position: "absolute", bottom: "0px", right: "0", animation: "moveImage3 5s linear infinite", 
+        // border:"1px solid red"
+         }}>
+          <img
+            src="/images/Academy/lets-connect/animation.png"
+           
+          />
+        </div>
         <div className="container">
           <div className="row align-items-center">
             <div

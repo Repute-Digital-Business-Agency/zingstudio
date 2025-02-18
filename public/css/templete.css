@@ -2968,6 +2968,12 @@ HOME 5 Box Header
   top: 20px;
 }
 
+@media (max-width:760px){
+  .img-ho1:after {
+    right: 0 !important;
+  }
+}
+
 .img-ho1 img {
   transition: all 0.8s;
   -moz-transition: all 0.8s;
@@ -5783,7 +5789,10 @@ HOME 5 Box Header
   }
 
   .project-info-box .project-content {
-    width: 300px;
+    width: 300px !important;
+  }
+  .project-info-box .project-content.last{
+    width: 300px !important;
   }
 
   .project-carousel-1 .owl-next,
@@ -9074,11 +9083,19 @@ button.scroltop {
     /* height: 300px; */
   }
 
-  .project-info-box .project-content.last {
+  /* .project-info-box .project-content.last {
     padding: 15px 20px 10px;
     width: 390px !important;
-    /* height: 300px; */
-  }
+    height: 300px;
+  } */
 
 
 }
+
+/* @media (max-width: 350px) {
+  .project-info-box .project-content{
+    padding: 15px 20px 10px;
+    width: 350px !important;
+ 
+  }
+} */
