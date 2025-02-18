@@ -137,7 +137,8 @@ export default function RootLayout({ children }) {
         <a
           href="https://wa.me/8248779838"
           target="_blank"
-          className="bt-support-now theme-btn"
+          className="bt-support-now theme-btn whatsapp-icon"
+          
         >
           <i className="fab fa-whatsapp" />
           <span>Whatsapp</span>
