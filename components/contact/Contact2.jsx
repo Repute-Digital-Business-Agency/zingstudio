@@ -39,7 +39,7 @@ export default function Contact2() {
                   <div className="icon-bx-wraper expertise bx-style-1 p-a20 radius-sm">
                     <div className="icon-content">
                       <h5 className="dlab-tilte">
-                        <span className="icon-sm text-primary" style={{margin:"0 0 0 -10px"}}>
+                        <span className="icon-sm text-redblk" style={{margin:"0 0 0 -10px"}}>
                           <i className="ti-location-pin" />
                         </span>
                         Company Address
@@ -60,7 +60,7 @@ export default function Contact2() {
                   <div className="icon-bx-wraper expertise bx-style-1 p-a20 radius-sm">
                     <div className="icon-content">
                       <h5 className="dlab-tilte">
-                        <span className="icon-sm text-primary" style={{margin:"0 5px 0 -3px"}}>
+                        <span className="icon-sm text-redblk" style={{margin:"0 5px 0 -3px"}}>
                           <i className="ti-email " />
                         </span>
                         E-mail
@@ -85,7 +85,7 @@ export default function Contact2() {
                   <div className="icon-bx-wraper expertise bx-style-1 p-a20 radius-sm">
                     <div className="icon-content">
                       <h5 className="dlab-tilte">
-                        <span className="icon-sm text-primary" style={{margin:"0 0 0 -5px"}}>
+                        <span className="icon-sm text-redblk" style={{margin:"0 0 0 -5px"}}>
                           <i className="ti-mobile"  />
                         </span>
                         Phone Number
@@ -122,7 +122,7 @@ export default function Contact2() {
                     <div className="form-group">
                       <div className="input-group">
                         <span className="input-group-addon">
-                          <i className="ti-user text-primary" />
+                          <i className="ti-user text-redblk" />
                         </span>
                         <input
                           name="dzName"
@@ -138,7 +138,7 @@ export default function Contact2() {
                     <div className="form-group">
                       <div className="input-group">
                         <span className="input-group-addon">
-                          <i className="ti-mobile text-primary" />
+                          <i className="ti-mobile text-redblk" />
                         </span>
                         <input
                           name="dzOther[Phone]"
@@ -154,7 +154,7 @@ export default function Contact2() {
                     <div className="form-group">
                       <div className="input-group">
                         <span className="input-group-addon">
-                          <i className="ti-email text-primary" />
+                          <i className="ti-email text-redblk" />
                         </span>
                         <input
                           name="dzEmail"
@@ -170,7 +170,7 @@ export default function Contact2() {
                     <div className="form-group">
                       <div className="input-group">
                         <span className="input-group-addon">
-                          <i className="ti-check-box text-primary" />
+                          <i className="ti-check-box text-redblk" />
                         </span>
                         <input
                           name="dzOther[Subject]"
@@ -186,7 +186,7 @@ export default function Contact2() {
                     <div className="form-group">
                       <div className="input-group">
                         <span className="input-group-addon">
-                          <i className="ti-file text-primary" />
+                          <i className="ti-file text-redblk" />
                         </span>
                         <input
                           name="dzOther[Subject]"
@@ -202,7 +202,7 @@ export default function Contact2() {
                     <div className="form-group">
                       <div className="input-group">
                         <span className="input-group-addon">
-                          <i className="ti-agenda text-primary" />
+                          <i className="ti-agenda text-redblk" />
                         </span>
                         <textarea
                           name="dzMessage"
