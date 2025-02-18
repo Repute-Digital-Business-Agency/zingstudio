@@ -12,12 +12,12 @@ export default function Services1() {
       </div>
 
       
-      <div style={{ position: "absolute", top: "10px", right: "100px", animation: "moveImage2 5s linear infinite" }}>
+      {/* <div style={{ position: "absolute", top: "10px", right: "100px", animation: "moveImage2 5s linear infinite" }}>
           <img
             src="/images/Academy/lets-connect/lets-connect-img.png"
             style={{ width: "40%" }}
           />
-        </div>
+        </div> */}
       <div className="container">
         <div className="section-head text-center">
           <h2 className="title">Why Choose Zing?</h2>
