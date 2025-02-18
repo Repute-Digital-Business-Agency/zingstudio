@@ -28,7 +28,7 @@ export default function page() {
                 <h1 className="text-white">E-commerce Management</h1>
                 {/* Breadcrumb row */}
                 <div className="breadcrumb-row">
-                  <ul className="list-inline">
+                  {/* <ul className="list-inline">
                     <li>
                       <Link href={`/`}>Home</Link>
                     </li>
@@ -37,7 +37,7 @@ export default function page() {
                       <Link href={`/services`}>service</Link>
                     </li>
                     <li>E-commerce Management</li>
-                  </ul>
+                  </ul> */}
                 </div>
                 {/* Breadcrumb row END */}
               </div>

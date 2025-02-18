@@ -14,13 +14,13 @@ export default function Animations() {
             <h1 className="text-white">Animation Effects</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
-              <ul className="list-inline">
+              {/* <ul className="list-inline">
                 <li>
                   <Link href={`/`}>Home</Link>
                 </li>
                 <li>Element</li>
                 <li>Animation Effects</li>
-              </ul>
+              </ul> */}
             </div>
             {/* Breadcrumb row END */}
           </div>

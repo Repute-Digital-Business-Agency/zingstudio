@@ -30,13 +30,13 @@ console.log('✌️params --->', params);
                 <h1 className="text-white">Portfolio Detail</h1>
                 {/* Breadcrumb row */}
                 <div className="breadcrumb-row">
-                  <ul className="list-inline">
+                  {/* <ul className="list-inline">
                     <li>
                       <Link href={`/`}>Home</Link>
                     </li>
                     <li>Portfolio</li>
                     <li>Portfolio Detail</li>
-                  </ul>
+                  </ul> */}
                 </div>
                 {/* Breadcrumb row END */}
               </div>

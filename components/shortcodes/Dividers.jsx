@@ -14,13 +14,13 @@ export default function Dividers() {
             <h1 className="text-white">Devider</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
-              <ul className="list-inline">
+              {/* <ul className="list-inline">
                 <li>
                   <Link href={`/`}>Home</Link>
                 </li>
                 <li>Element</li>
                 <li>Devider</li>
-              </ul>
+              </ul> */}
             </div>
             {/* Breadcrumb row END */}
           </div>

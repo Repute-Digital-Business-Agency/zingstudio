@@ -14,7 +14,7 @@ import ChooseZingFluencer from "@/components/service/ChooseZingfluencer";
 import Cta from "@/components/homes/home-13/Cta";
 
 export const metadata = {
-  title: "Academy || Zing Studio",
+  title: "Zing Studio - Zingfluence",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {

@@ -12,7 +12,7 @@ import Cta from "@/components/homes/home-13/Cta";
 
 export const metadata = {
   title:
-    "Portfolio || Zing Studio",
+    "Zing Studio - Portfolio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
@@ -22,21 +22,21 @@ export default function page() {
         <Header17 />
         <div
           className="dlab-bnr-inr overlay-black-middle bg-pt"
-          style={{ backgroundImage: "url(/images/portfolio/banner.jpg)" }}
+          style={{ backgroundImage: "url(/images/bg-header.jpg)" }}
         >
           <div className="container">
             <div className="dlab-bnr-inr-entry">
               <h1 className="text-white">Portfolio</h1>
               {/* Breadcrumb row */}
-              {/* <div className="breadcrumb-row">
-                <ul className="list-inline">
+              <div className="breadcrumb-row">
+                {/* <ul className="list-inline">
                   <li>
                     <Link href={`/`}>Home</Link>
                   </li>
                   <li>
                     <Link href={`/portfolio`}>Portfolio</Link></li>
-                </ul>
-              </div> */}
+                </ul> */}
+              </div>
               {/* Breadcrumb row END */}
             </div>
           </div>

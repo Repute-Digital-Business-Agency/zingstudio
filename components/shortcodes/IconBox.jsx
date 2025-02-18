@@ -14,13 +14,13 @@ export default function IconBox() {
             <h1 className="text-white">Icon box</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
-              <ul className="list-inline">
+              {/* <ul className="list-inline">
                 <li>
                   <Link href={`/`}>Home</Link>
                 </li>
                 <li>Element</li>
                 <li>Icon box</li>
-              </ul>
+              </ul> */}
             </div>
             {/* Breadcrumb row END */}
           </div>

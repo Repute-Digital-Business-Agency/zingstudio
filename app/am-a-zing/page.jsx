@@ -24,21 +24,14 @@ export default function page() {
         <Header17 />
         <div
           className="dlab-bnr-inr overlay-black-middle bg-pt"
-          style={{ backgroundImage: "url(/images/Am-a-Zing/banner.jpg)" }}
+          style={{ backgroundImage: "url(/images/bg-header.jpg)" }}
         >
           <div className="container">
             <div className="dlab-bnr-inr-entry">
               <h1 className="text-white">Am-A-Zing</h1>
               {/* Breadcrumb row */}
               <div className="breadcrumb-row">
-                {/* <ul className="list-inline">
-                  <li>
-                    <Link href={`/`}>Home</Link>
-                  </li>
-
-                  <li>
-                    <Link href={`/am-a-zing`}>Am-A-Zing</Link></li>
-                </ul> */}
+                
               </div>
               {/* Breadcrumb row END */}
             </div>

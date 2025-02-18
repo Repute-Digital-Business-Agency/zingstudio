@@ -22,7 +22,7 @@ export default function HeroSection({head,option,bannerContent}) {
 
             </p>
             <h3
-              className="font-weight-300 m-b50 op6 wow fadeInLeft"
+              className="font-weight-300 m-b50 op7 wow fadeInLeft"
               data-wow-delay="0.6s"
             >
                {bannerContent.subTitle}

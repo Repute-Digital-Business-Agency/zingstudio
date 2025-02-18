@@ -15,13 +15,13 @@ export default function Counters() {
             <h1 className="text-white">Counters</h1>
             {/* Breadcrumb row */}
             <div className="breadcrumb-row">
-              <ul className="list-inline">
+              {/* <ul className="list-inline">
                 <li>
                   <Link href={`/`}>Home</Link>
                 </li>
                 <li>Element</li>
                 <li>Counters</li>
-              </ul>
+              </ul> */}
             </div>
             {/* Breadcrumb row END */}
           </div>
