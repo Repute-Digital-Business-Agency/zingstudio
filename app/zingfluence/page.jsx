@@ -34,7 +34,7 @@ export default function page() {
 
         {/* ----------- */}
 
-        <InfluencerMarketing/>
+        {/* <InfluencerMarketing/>
 
         <Celebrity/>
         <BestInfluencer/>
@@ -42,7 +42,7 @@ export default function page() {
         <About/>
 
         <Facts/>
-          <ProcessForInfluencer/>
+          <ProcessForInfluencer/> */}
         <Cta />
         {/* <Footer2 contactSection="true" /> */}
         <Footer13 />
