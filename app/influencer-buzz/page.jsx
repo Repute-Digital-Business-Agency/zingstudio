@@ -21,6 +21,7 @@ import Industriesworked from "@/components/service/Industriesworked";
 import InfluencerBuzzFAQ from "@/components/service/InfluencerBuzzFAQ";
 import InfluencerBuzzTestimonial from "@/components/service/InfluencerBuzzTestimonial";
 import BrandsWorkWith from "@/components/service/BrandsWorkWith";
+import InfluencerBuzzCta from "@/components/service/InfluencerBuzzCta";
 
 export const metadata = {
   title: "Zing Studio - Zingfluence",
@@ -233,7 +234,7 @@ export default function page() {
      <InfluencerBuzzTestimonial testimonials={testimonials}/>
      <BrandsWorkWith ToolsContent={ToolsContent} Tools1={Tools1}/>
         <InfluencerBuzzFAQ faqData={faqData}/>
-        <Cta />
+        <InfluencerBuzzCta/>
         {/* <Footer2 contactSection="true" /> */}
         <Footer13 />
       </div>
