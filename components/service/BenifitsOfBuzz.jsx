@@ -11,6 +11,7 @@ export default function BenifitsOfBuzz() {
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInLeft",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
+      bgColor:"#e9e9e9"
     },
     {
       imgSrc: "/images/icon/food/icon2.png",
@@ -20,6 +21,7 @@ export default function BenifitsOfBuzz() {
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInUp",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
+      bgColor:"#1a43bf42"
     },
     {
       imgSrc: "/images/icon/food/icon3.png",
@@ -29,6 +31,7 @@ export default function BenifitsOfBuzz() {
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInRight",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
+      bgColor:"#f7f9fb"
     },
     {
       imgSrc: "/images/icon/food/icon4.png",
@@ -38,6 +41,7 @@ export default function BenifitsOfBuzz() {
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInLeft ",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
+      bgColor:"#e2110026"
     },
    
   ];
@@ -59,7 +63,7 @@ export default function BenifitsOfBuzz() {
               data-wow-duration={item.dataWowDuration}
               data-wow-delay={item.dataWowDelay}
             >
-              <div className="icon-bx-wraper sr-iconbox1 bg-gray">
+              <div className="icon-bx-wraper sr-iconbox1 bg-gray" style={{background:item.bgColor}}>
                 <div className="icon-lg m-b20 icon-up">
                   <a className="icon-cell">
                     <Image

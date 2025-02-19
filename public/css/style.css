@@ -13176,6 +13176,10 @@ ul[class*="list-"] {
   background-color: #fff;
 }
 
+.HowDoesItWork .dlab-box-bg .icon-bx-wraper {
+  background-color: transparent ;
+}
+
 .icon-box-btn .site-button {
   background-color: #ffeae4;
   padding: 15px 20px;
@@ -19076,4 +19080,7 @@ input[type="radio"]+label:hover:before {
   .homeAcademy .section-head{
     padding-top: 20px;
   }
+}
+.influ-banner{
+  background-image: none !important;
 }

@@ -67,15 +67,21 @@ export default function MarketingAgency() {
               </li>
             </ul> */}
             <p className="" style={{color:"#282222"}}>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis laborum inventore corporis voluptate dolorem fuga temporibus, asperiores atque, qui voluptatibus a odit nesciunt libero repudiandae aliquid perspiciatis soluta alias maiores?
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium cupiditate cum ea, obcaecati quidem dolorum perferendis voluptatum mollitia deserunt iusto repellat magni commodi? Modi ipsum deserunt atque, sint rem enim!
             </p>
+
+            <div className="section-head style-2">
+              <h2 className="title">
+              Brand Buzz
+                {/* <br /> */}
+                {/* Marketing agency assists the influencers? */}
+              </h2>
+            </div>
+
             <p className="" style={{color:"#282222"}}>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis laborum inventore corporis voluptate dolorem fuga temporibus, asperiores atque, qui voluptatibus a odit nesciunt libero repudiandae aliquid perspiciatis soluta alias maiores?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium cupiditate cum ea, obcaecati quidem dolorum perferendis voluptatum mollitia deserunt iusto repellat magni commodi? Modi ipsum deserunt atque, sint rem enim!
             </p>
+            
            
             
             <a href="#" className="site-button outline outline-2 btnhover11">

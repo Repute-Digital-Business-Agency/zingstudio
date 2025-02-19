@@ -63,6 +63,7 @@ export default function Nav() {
   const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 991);
   const [menuOpen1, setMenuOpen1] = useState("");
   const [menuOpen2, setMenuOpen2] = useState("");
+  const [menuOpen3, setMenuOpen3] = useState("");
 
   // Function to handle resizing
   const handleResize = () => {
@@ -331,12 +332,12 @@ export default function Nav() {
 
       <li
         className={` ${isMenuActive(ZingfluenceLink) ? "active" : ""} ${
-          menuOpen2 == "services" ? "open" : ""
+          menuOpen3 == "services" ? "open" : ""
         }  `}
       >
         <a 
           onClick={() =>
-            setMenuOpen2((pre) => (pre == "services" ? "" : "services"))
+            setMenuOpen3((pre) => (pre == "services" ? "" : "services"))
           }
         >
           Zingfluence

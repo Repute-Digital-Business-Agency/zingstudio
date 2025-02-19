@@ -90,7 +90,7 @@ export default function DedicatedSupport() {
                 width="600"
                 height="722"
                  style={{
-                    height:"700px",
+                    height:"500px",
                     objectFit:"cover"
                 }}
               />

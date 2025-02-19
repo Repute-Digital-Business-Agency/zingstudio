@@ -32,7 +32,7 @@ export default function ZingFluenceBanner() {
       data-wow-delay="0.3s">
     {/* <h2 className="title">Our Services</h2> */}
     <div>
-         <p className="mb-0">
+         <p className="mb-0 text-black" style={{fontWeight:"600"}}>
          At Zingfluence, we’re all about making your brand stand out in the digital world. From handpicking the perfect influencers to crafting bold campaigns and tracking real-time results, we’ve got it covered. We create authentic, eye-catching content that connects with your audience and delivers big impact. Whether you’re looking to boost brand awareness, skyrocket engagement, or drive sales, Zingfluence has the strategy and tools to make it happen. Let’s get your brand buzzing!
     </p>
     </div>

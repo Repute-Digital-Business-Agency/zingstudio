@@ -8,6 +8,7 @@ export default function HowDoesItWork() {
      const services9 = [
         {
           id: 131,
+          No:"1",
           imgSrc: "/images/gallery/car/pic1.jpg",
           iconClass: "ti-user",
           title: "Largest Dealership",
@@ -18,6 +19,7 @@ export default function HowDoesItWork() {
         },
         {
           id: 132,
+          No:"2",
           imgSrc: "/images/gallery/car/pic2.jpg",
           iconClass: "ti-settings",
           title: "Lower Car Prices",
@@ -28,6 +30,7 @@ export default function HowDoesItWork() {
         },
         {
           id: 133,
+          No:"3",
           imgSrc: "/images/gallery/car/pic3.jpg",
           iconClass: "ti-support",
           title: "Multipoint Safety",
@@ -38,6 +41,7 @@ export default function HowDoesItWork() {
         },
         {
             id: 133,
+            No:"4",
             imgSrc: "/images/gallery/car/pic3.jpg",
             iconClass: "ti-support",
             title: "Multipoint Safety",
@@ -56,7 +60,7 @@ export default function HowDoesItWork() {
   };
   return (
     <div
-      className="section-full content-inner bg-gray scrollSpySection "
+      className="section-full content-inner bg-gray scrollSpySection HowDoesItWork"
       id="about"
     >
       <div className="container">
@@ -77,8 +81,8 @@ export default function HowDoesItWork() {
                   <div
                     ref={(el) => (parentRefs.current[index] = el)}
                     onMouseOver={() => handleHover(index)}
-                    className="dlab-box-bg m-b30 box-hover style3"
-                    style={{ backgroundImage: `url(${item.imgSrc})` }}
+                    className=" m-b30 box-hover style3"
+                    
                   >
                     <div className="icon-bx-wraper center p-lr20 p-tb30">
                       <div className="text-primary m-b20">
@@ -86,8 +90,9 @@ export default function HowDoesItWork() {
                           <i className={item.iconClass} />
                         </span>
                       </div>
-                      <div className="icon-content">
-                        <h5 className="dlab-tilte">{item.title}</h5>
+                      <div className="icon-content d-flex justify-content-evenly">
+                        <b style={{fontSize:"36px"}}>{item.No}</b>
+                        <h5 style={{position:"relative", top:"15px"}} className="dlab-tilte">{item.title}</h5>
                         {/* <p style={{color:"#282222"}}>{item.description}</p> */}
                       </div>
                     </div>

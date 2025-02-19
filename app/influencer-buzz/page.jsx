@@ -233,8 +233,10 @@ export default function page() {
 
      <InfluencerBuzzTestimonial testimonials={testimonials}/>
      <BrandsWorkWith ToolsContent={ToolsContent} Tools1={Tools1}/>
-        <InfluencerBuzzFAQ faqData={faqData}/>
+
         <InfluencerBuzzCta/>
+        <InfluencerBuzzFAQ faqData={faqData}/>
+        <Cta/>
         {/* <Footer2 contactSection="true" /> */}
         <Footer13 />
       </div>

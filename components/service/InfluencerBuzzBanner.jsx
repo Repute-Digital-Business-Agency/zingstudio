@@ -1,16 +1,20 @@
 "use client"
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 export default function InfluencerBuzzBanner({option,bannerContent}) {
   return (
     <>
     <div
-      className="section-full   bg-img-fix pr-service-hero"
-      style={{ backgroundImage: "url(/images/services/serviceBanner.jpg)" }}
+      className="section-full  bg-gray bg-img-fix pr-service-hero influ-banner"
+      
     >
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-6 col-md-12 content-inner chosesus-content text-white">
+        
+        <div className="col-11 m-auto">
+          <div className="row">
+          <div className="col-lg-4 col-md-6 content-inner chosesus-content text-black">
             <h2
               className="title-box font-weight-300  wow fadeInLeft pt-5"
               data-wow-delay="0.2s"
@@ -32,7 +36,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
 
             </h3>
 
-            <a href="#" className="site-button btnhover13 white align-self-center outline ms-auto outline-2 wow fadeInLeft"
+            <a href="#" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInLeft"
               data-wow-delay="0.8s" >
             Join Now and Turn Your Influence into Income!
               <i className="fas fa-angle-double-right ms-2" />
@@ -55,7 +59,25 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
              
             </ul> */}
           </div>
-          <div className="col-lg-6 col-md-12 m-b30 " >
+          <div className="col-lg-4 col-md-6 content-inner chosesus-content text-white d-flex flex-coloumn align-item-end ">
+            
+          <div className="radius-sm  ">
+              <img className="choose-Zf-img"
+                alt=""
+                src="/images/header.png"
+                // width="600"
+                // height="722"
+                 style={{
+                    // height:"700px",
+                    objectFit:"cover",
+                    position:"relative",
+                    bottom:"-50px"
+                }}
+              />
+            </div>
+           
+          </div>
+          <div className="col-lg-4 col-md-12 m-b30 " >
             <form 
               onSubmit={(e) => e.preventDefault()}
               className="inquiry-form wow box-shadow bg-white fadeInUp"
@@ -181,6 +203,8 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
               </div>
             </form>
           </div>
+          </div>
+        </div>
         </div>
       </div>
     </div>
