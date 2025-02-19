@@ -160,7 +160,7 @@ export default function ToolsLearning() {
               <div className="row">
               <div className="section-head style2 text-center mb-4">
                     <h2 className="title text-dark">Tools That you will learn</h2>
-                    <h4 className="text-dark mt-5"> <b style={{color:"#c82e1e"}}> 40+ </b>Free Premium Digital Marketing Tools</h4>
+                    <h4 className="text-dark mt-5"> <b style={{color:"#e21100"}}> 40+ </b>Free Premium Digital Marketing Tools</h4>
                     <p className="text-dark" >Worth Of 6 Lakhs</p>
                 </div>
                 {facts2.map((elm, i) => (
@@ -183,7 +183,7 @@ export default function ToolsLearning() {
 
               <div className="row">
               <div className="section-head style2 text-center mb-4">
-                    <h4 className="text-dark"> <b style={{color:"#c82e1e"}}> 20+ </b>Digital Marketing AI Tools</h4>
+                    <h4 className="text-dark"> <b style={{color:"#e21100"}}> 20+ </b>Digital Marketing AI Tools</h4>
                   
                 </div>
                 {facts3.map((elm, i) => (

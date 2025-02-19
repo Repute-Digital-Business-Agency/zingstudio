@@ -13,7 +13,7 @@ import AmazingContent from "@/components/am-a-zing/Am-a-zingContent";
 import Cta from "@/components/homes/home-13/Cta";
 
 export const metadata = {
-  title: "Academy || Zing Studio",
+  title: "Am-A-Zing || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {

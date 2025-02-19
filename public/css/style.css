@@ -18224,7 +18224,7 @@ input[type="radio"]+label:hover:before {
   position: absolute;
   top: 10px;
   right: 10px;
-  background: #c21908;
+  background: #e21100;
   color: white;
   font-size: 14px;
   padding: 5px 10px;
@@ -18235,7 +18235,7 @@ input[type="radio"]+label:hover:before {
 }
 
 .courseLearnig .apply-btn:hover {
-  background: #c21908;
+  background: #e21100;
 }
 
 .ZingCourseModule .course-box {
@@ -18966,21 +18966,7 @@ input[type="radio"]+label:hover:before {
   }
 }
 
-@media (max-width:500px){
-  .HomeService {
-    position: relative;
-    top: -50px;
-  }
-  .HomeService .section-head{
-    padding-top: 30px;
-  }
-  .homeAcademy{
-    top: -50px;
-  }
-  .homeAcademy .section-head{
-    padding-top: 20px;
-  }
-}
+
 
 .zingFluence .content-sec{
   padding-left: 40px;
@@ -19025,4 +19011,69 @@ input[type="radio"]+label:hover:before {
   /* justify-content: center; */
 }
 
-/* .homeAbout */
+@media (max-width:1024px){
+ /* .moveAnimation{
+  display: none;
+ } */
+
+ .homeWorks{
+  position: relative;
+  top: -40px;
+ }
+ .HomeService{
+  top: -40px;
+ }
+}
+
+@media (max-width:768px){
+  .homeAbout{
+    background-image: none !important;
+  }
+  .homeWorks{
+    position: relative;
+    top: 0px;
+    background-image: none !important;
+   }
+   .HomeService{
+    position: relative;
+    top: 0px;
+    background-image: none !important;
+   }
+   .Am_a_Zing{
+    background-image: none !important;
+   }
+   .homeAcademy{
+    background-image: none !important;
+   }
+}
+
+@media (max-width:500px){
+  .homeAbout{
+    background: url(/images/elementbg/about-us-bg-element.png) !important;
+  }
+  
+   .Am_a_Zing{
+    background-image: url(/images/element-4.png) !important;
+   }
+  
+  .homeWorks{
+    position: relative;
+    top: 0px;
+    background-image: url(/images/elementbg/our-works-bg-element.png) !important;
+   }
+  .HomeService {
+    position: relative;
+    top: -50px;
+    background-image: url(/images/elementbg/our-services-bg-element.png)!important;
+  }
+  .HomeService .section-head{
+    padding-top: 30px;
+  }
+  .homeAcademy{
+    top: -50px;
+    background-image: url(/images/elementbg/zing-acd-bg-element.png) !important;
+  }
+  .homeAcademy .section-head{
+    padding-top: 20px;
+  }
+}

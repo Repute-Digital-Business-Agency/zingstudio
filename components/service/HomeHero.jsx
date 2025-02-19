@@ -54,7 +54,7 @@ export default function HomeHero() {
     [index].classList.add("active");
   };
   return (
-    <div className="dz-oil-industry-zone bg-gray relative" style={{ backgroundImage: "url(/images/elementbg/our-works-bg-element.png)", backgroundRepeat: "no-repeat", }}>
+    <div className="dz-oil-industry-zone bg-gray relative homeWorks" style={{ backgroundImage: "url(/images/elementbg/our-works-bg-element.png)", backgroundRepeat: "no-repeat", }}>
       {/* <div style={{ position: "absolute", bottom: "10px", right: "100px", animation: "moveImage2 5s linear infinite" }}>
           <img
             src="/images/Academy/lets-connect/lets-connect-img.png"

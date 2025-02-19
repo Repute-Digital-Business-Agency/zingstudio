@@ -17,7 +17,7 @@ export default function Footer13() {
                 <h6 className="m-b10 font-weight-300 text-uppercase" style={{ color: "#1A43BF" }}>
                   Quick Links
                 </h6>
-                <ul className="list-2">
+                <ul className="list-2 ">
                   {footerLinks2.map((link, index) => (
                     <li key={index}>
                       <Link href={link.href}>{link.label}</Link>

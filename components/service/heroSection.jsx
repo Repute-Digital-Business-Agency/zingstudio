@@ -66,7 +66,7 @@ export default function HeroSection({head,option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-user text-primary" />
+                        <i className="ti-user text-redblk" />
                       </span>
                       <input
                         name="dzName"
@@ -82,7 +82,7 @@ export default function HeroSection({head,option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-mobile text-primary" />
+                        <i className="ti-mobile text-redblk" />
                       </span>
                       <input
                         name="dzOther[Phone]"
@@ -98,7 +98,7 @@ export default function HeroSection({head,option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-email text-primary" />
+                        <i className="ti-email text-redblk" />
                       </span>
                       <input
                         name="dzEmail"
@@ -114,7 +114,7 @@ export default function HeroSection({head,option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group flex-nowrap">
                       <span className="input-group-addon">
-                        <i className="ti-check-box text-primary" />
+                        <i className="ti-check-box text-redblk" />
                       </span>
                       <select className="form-select form-select-lg type-3 ml-2">
                         {option.map((option, index) => (

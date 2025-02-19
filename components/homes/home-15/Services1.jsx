@@ -36,8 +36,8 @@ export default function Services1() {
             >
               <div className="icon-bx-wraper bx-style-2 m-l40 p-a30 left bg-gray icon-bx-ho">
                 <div className="icon-bx-sm  m-b20" style={{ backgroundColor: "#e21100" }}>
-                  <a href="#" className="icon-cell">
-                    <i className={item.iconClass} />
+                  <a href="#" className="icon-cell ">
+                    <i className={`${item.iconClass} text-white`} />
                   </a>
                 </div>
                 <div className="icon-content p-l40">

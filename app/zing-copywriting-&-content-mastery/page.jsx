@@ -31,7 +31,7 @@ import StudentsJourney3 from "@/components/service/StudentsJourney3";
 import StudentJourneynew from "@/components/service/StudentJourneynew";
 import ZingAcademyProgramHero from "@/components/service/ZingAcademyProgramHero";
 export const metadata = {
-  title: "Academy || Zing Studio",
+  title: "Zing Copywriting & Content Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {

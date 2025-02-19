@@ -6,7 +6,7 @@ import Header17 from "@/components/headers/Header17";
 import React from "react";
 
 export const metadata = {
-  title: "Contact 2 || Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
+  title: "Contact || Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {

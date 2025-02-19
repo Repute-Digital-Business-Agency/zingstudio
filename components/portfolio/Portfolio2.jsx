@@ -47,7 +47,7 @@ export default function Portfolio2() {
     {
       id: 49,
       filter: "web-design",
-      imageSrc: "/images/portfolio/Web Design/Mockup-6.jpg",
+      imageSrc: "/images/portfolio/portfolio/g-mak.jpg",
       title: "G-MAk Fiber Laser",
       category: "Web Design",
       link:"https://gmaklaser.com/"
@@ -55,7 +55,7 @@ export default function Portfolio2() {
     {
       id: 50,
       filter: "e-commerce",
-      imageSrc: "/images/portfolio/Ecommerce/Mockup-1.jpg",
+      imageSrc: "/images/portfolio/portfolio/thangam-jew.jpg",
       title: "Sree Thangam Jewellery",
       category: "E-Commerce",
       link:"https://sreethangamjewellery.com/"
@@ -63,7 +63,7 @@ export default function Portfolio2() {
     {
       id: 51,
       filter: "digital-marketing",
-      imageSrc: "/images/portfolio/Digital Marketing/Mockup-1.jpg",
+      imageSrc: "/images/portfolio/portfolio/karpagam.jpg",
       title: "Karpagam Academy of Higher Education",
       category: "Digital Marketing",
       link:"https://kahedu.edu.in/"
@@ -79,7 +79,7 @@ export default function Portfolio2() {
     {
       id: 53,
       filter: "web-design",
-      imageSrc: "/images/portfolio/Web Design/Mockup-7.jpg",
+      imageSrc: "/images/portfolio/portfolio/kit-varnam.jpg",
       title: "KIT - Varnam",
       category: "Web Design",
       link:"https://kitvarnam.in/"
@@ -87,7 +87,7 @@ export default function Portfolio2() {
     {
       id: 54,
       filter: "e-commerce",
-      imageSrc: "/images/portfolio/Ecommerce/Mockup-2.jpg",
+      imageSrc: "/images/portfolio/portfolio/prade.jpg",
       title: "Prade Jewels ",
       category: "E-commerce",
       link:"https://prade.in/"
@@ -95,7 +95,7 @@ export default function Portfolio2() {
     {
       id: 55,
       filter: "digital-marketing",
-      imageSrc: "/images/portfolio/Digital Marketing/Mockup-2.jpg",
+      imageSrc: "/images/portfolio/portfolio/vishwankar.jpg",
       title: "Vishwankar Public School",
       category: "Digital Marketing",
       link:"https://vishwankarschool.com/"
@@ -111,15 +111,15 @@ export default function Portfolio2() {
     {
       id: 57,
       filter: "web-design",
-      imageSrc: "/images/portfolio/Web Design/Mockup-8.jpg",
+      imageSrc: "/images/portfolio/portfolio/kce-dhurva.jpg",
       title: "KCE - DHRUVA",
       category: "Web Design",
       link:"https://www.kcedhruva.in/"
     },
     {
       id: 58,
-      filter: "digital-marketing",
-      imageSrc: "/images/portfolio/Digital Marketing/Mockup-3.jpg",
+      filter: "web-design",
+      imageSrc: "/images/portfolio/portfolio/skd.jpg",
       title: "SKD Fine Decor",
       category: "Web Design",
       link:"https://skdfinedecor.com/"
@@ -127,7 +127,7 @@ export default function Portfolio2() {
     {
       id: 59,
       filter: "e-commerce",
-      imageSrc: "/images/portfolio/Ecommerce/Mockup-3.jpg",
+      imageSrc: "/images/portfolio/portfolio/goes-good-fashion.jpg",
       title: "Goes Good Fashions",
       category: "E-commerce",
       link:"https://goesgood.in/"
@@ -135,7 +135,7 @@ export default function Portfolio2() {
     {
       id: 60,
       filter: "web-design",
-      imageSrc: "/images/portfolio/Web Design/Mockup-9.jpg",
+      imageSrc: "/images/portfolio/portfolio/nvm.jpg",
       title: "NVM Diet and Lifestyle Clinic",
       category: "Web Design",
       link:"https://www.nvmdietandlifestyle.com/"
@@ -151,7 +151,7 @@ export default function Portfolio2() {
     {
       id: 62,
       filter: "web-design",
-      imageSrc: "/images/portfolio/Web Design/Mockup-10.jpg",
+      imageSrc: "/images/portfolio/portfolio/gspace.jpg",
       title: "GSpace Interior",
       category: "Web Design",
       link:"https://www.gspaceinterior.com/"
@@ -160,7 +160,7 @@ export default function Portfolio2() {
     {
       id: 63,
       filter: "web-design",
-      imageSrc: "/images/portfolio/Web Design/Mockup-11.jpg",
+      imageSrc: "/images/portfolio/portfolio/micro-group.jpg",
       title: "Micro Group",
       category: "Web Design",
       link:"https://micro-groups.com/"
@@ -168,7 +168,7 @@ export default function Portfolio2() {
     {
       id: 64,
       filter: "web-design",
-      imageSrc: "/images/portfolio/Web Design/Mockup-12.jpg",
+      imageSrc: "/images/portfolio/portfolio/rasi-foods.jpg",
       title: "Rasi Foods",
       category: "Web Design",
       link:"https://rasifoods.in/"
@@ -176,7 +176,7 @@ export default function Portfolio2() {
     {
       id: 65,
       filter: "web-design",
-      imageSrc: "/images/portfolio/Web Design/Mockup-13.jpg",
+      imageSrc: "/images/portfolio/portfolio/freedom-run.jpg",
       title: "FREEDOM RUN",
       category: "Web Design",
       link:"https://freedomrun.co.in/"
@@ -184,7 +184,7 @@ export default function Portfolio2() {
     {
       id: 66,
       filter: "web-design",
-      imageSrc: "/images/portfolio/Web Design/Mockup-14.jpg",
+      imageSrc: "/images/portfolio/portfolio/tirumalai.jpg",
       title: "Tirumalai Textiles",
       category: "Web Design",
       link:"https://tirumalaitextiles.com/"
@@ -192,7 +192,7 @@ export default function Portfolio2() {
     {
       id: 67,
       filter: "digital-marketing",
-      imageSrc: "/images/portfolio/Web Design/Mockup-15.jpg",
+      imageSrc: "/images/portfolio/portfolio/skimt.jpg",
       title: "SKIMT",
       category: "Digital Marketing",
       link:"https://skimt.edu.in/"
@@ -200,7 +200,7 @@ export default function Portfolio2() {
     {
       id: 58,
       filter: "web-design",
-      imageSrc: "/images/portfolio/Digital Marketing/Mockup-5.jpg",
+      imageSrc: "/images/portfolio/portfolio/prem.jpg",
       title: "Prem International",
       category: "Web Design",
       link:"https://premeuropa.com/"
@@ -208,7 +208,7 @@ export default function Portfolio2() {
     {
       id: 68,
       filter: "e-commerce",
-      imageSrc: "/images/portfolio/Ecommerce/Mockup-4.jpg",
+      imageSrc: "/images/portfolio/portfolio/filamode.jpg",
       title: "Filmode",
       category: "E-commerce",
       link:"https://filmodefashion.com/"
@@ -216,7 +216,7 @@ export default function Portfolio2() {
     {
       id: 69,
       filter: "e-commerce",
-      imageSrc: "/images/portfolio/Ecommerce/Mockup-4.jpg",
+      imageSrc: "/images/portfolio/portfolio/faso.jpg",
       title: "FASO",
       category: "E-commerce",
       link:"https://faso.in/"

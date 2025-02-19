@@ -26,7 +26,7 @@ export default function About() {
               data-wow-delay="0.3s"
             >
               <div className="our-story">
-                <span>OUR STORY</span>
+                <span>OUR ZING STUDIO</span>
                 <h2 className="title" style={{ fontSize: "35px" }}>
                   Delivering cost-effective digital solutions
 
