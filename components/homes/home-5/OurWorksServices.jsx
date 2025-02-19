@@ -67,7 +67,7 @@ export default function OurWorkServices() {
         <div className="section-head style2 text-center">
           <h2 className="title m-b10">Our Works</h2>
           <p>
-          Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions. Explore our portfolio to see how we elevate brands.
+          Check out how we turn clicks into connections! From buzzworthy social media campaigns to SEO strategies that rank, our digital marketing projects are all about making brands shine and results soar.
 
           </p>
         </div>

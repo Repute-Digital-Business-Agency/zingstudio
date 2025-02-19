@@ -7,9 +7,9 @@ export default function Cta() {
         <div className="row">
           <div className="col-lg-9 text-white wow fadeInUp"
       data-wow-delay="1s">
-            <h2 className="title">Amazing things happen to your business</h2>
+            <h2 className="title">Let’s Build Something Amazing! </h2>
             <p className="m-b0">
-            Get Expert Guidance on Web Design Packages, schedule a consultation with our experts at Zing Studio and find the perfect solution tailored to your business goals.
+            Got big ideas? We’re here to make them happen!  From sleek websites to powerful digital strategies, let’s team up and take your brand to the next level. Let’s go!
 
             </p>
           </div>
