@@ -371,6 +371,39 @@ export default function page() {
           },
         ]
 
+        const faqData = [
+          {
+            id: "faq6",
+            question: "1. Web design aorem apsum dolor sit amet?",
+            answer:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+          },
+          {
+            id: "faq7",
+            question: "2. Graphic design aorem apsum dolor?",
+            answer:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+          },
+          {
+            id: "faq8",
+            question: "3. Development aorem apsum dolor sit amet?",
+            answer:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+          },
+          {
+            id: "faq9",
+            question: "4. True Responsiveness consectetuer adipiscing?",
+            answer:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+          },
+          {
+            id: "faq10",
+            question: "5. Claritas est etiam processus?",
+            answer:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+          },
+        ];
+
   return (
     <>
       <div className="page-wraper  ">
@@ -434,7 +467,7 @@ export default function page() {
       <SucessStories/>
     
       <div  className="bg-white"  style={{paddingBottom:"50px", paddingTop:"50px"}}>
-        <CourseProgramFaq/>
+        <CourseProgramFaq faqData={faqData}/>
         </div>
 
         <ZingAcademyCta/>

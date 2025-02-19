@@ -1,185 +1,86 @@
 import React from "react";
 
-export default function CourseProgramFaq() {
+export default function CourseProgramFaq({faqData}) {
+
+  {/*
+
+  const faqData = [
+    {
+      id: "faq6",
+      question: "1. Web design aorem apsum dolor sit amet?",
+      answer:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+    },
+    {
+      id: "faq7",
+      question: "2. Graphic design aorem apsum dolor?",
+      answer:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+    },
+    {
+      id: "faq8",
+      question: "3. Development aorem apsum dolor sit amet?",
+      answer:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+    },
+    {
+      id: "faq9",
+      question: "4. True Responsiveness consectetuer adipiscing?",
+      answer:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+    },
+    {
+      id: "faq10",
+      question: "5. Claritas est etiam processus?",
+      answer:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+    },
+  ];
+
+  */}
+
+
   return (
-    <div className="section-full bg-white content-inner pb-5">
-      <div className="container">
-        <div className="section-head text-black text-left">
-          <h3>FAQ</h3>
-        </div>
-        <div className="row m-b30">
-          <div className="col-lg-12 col-sm-12">
-            <div className="dlab-accordion faq-2 box-sort-in" id="accordion2">
-              <div className="panel">
-                <div className="acod-head">
-                  <h6 className="acod-title">
-                    <a
-                      href="#"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq6"
-                      className="collapsed"
-                      aria-expanded="true"
-                    >
-                      1. Web design aorem apsum dolor sit amet?
-                    </a>
-                  </h6>
-                </div>
-                <div
-                  id="faq6"
-                  className="acod-body collapse"
-                  data-bs-parent="#accordion2"
-                >
-                  <div className="acod-content">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum.
-                  </div>
-                </div>
-              </div>
-              <div className="panel">
-                <div className="acod-head">
-                  <h6 className="acod-title">
-                    <a
-                      href="#"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq7"
-                      className="collapsed"
-                      aria-expanded="true"
-                    >
-                      2. Graphic design aorem apsum dolor ?
-                    </a>
-                  </h6>
-                </div>
-                <div
-                  id="faq7"
-                  className="acod-body collapse"
-                  data-bs-parent="#accordion2"
-                >
-                  <div className="acod-content">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum.
-                  </div>
-                </div>
-              </div>
-              <div className="panel">
-                <div className="acod-head">
-                  <h6 className="acod-title">
-                    <a
-                      href="#"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq8"
-                      className="collapsed"
-                      aria-expanded="true"
-                    >
-                      3. Developement aorem apsum dolor sit amet ?
-                    </a>
-                  </h6>
-                </div>
-                <div
-                  id="faq8"
-                  className="acod-body collapse"
-                  data-bs-parent="#accordion2"
-                >
-                  <div className="acod-content">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum.
-                  </div>
-                </div>
-              </div>
-              <div className="panel">
-                <div className="acod-head">
-                  <h6 className="acod-title">
-                    <a
-                      href="#"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq9"
-                      className="collapsed"
-                      aria-expanded="true"
-                    >
-                      4. True Responsiveness consectetuer adipiscing ?
-                    </a>
-                  </h6>
-                </div>
-                <div
-                  id="faq9"
-                  className="acod-body collapse"
-                  data-bs-parent="#accordion2"
-                >
-                  <div className="acod-content">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum.
-                  </div>
-                </div>
-              </div>
-              <div className="panel">
-                <div className="acod-head">
-                  <h6 className="acod-title">
-                    <a
-                      href="#"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq10"
-                      className="collapsed"
-                      aria-expanded="true"
-                    >
-                      5. Claritas est etiam processus ?
-                    </a>
-                  </h6>
-                </div>
-                <div
-                  id="faq10"
-                  className="acod-body collapse"
-                  data-bs-parent="#accordion2"
-                >
-                  <div className="acod-content">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum.
-                  </div>
+   
+        <div className="section-full bg-white content-inner pb-5">
+          <div className="container">
+            <div className="section-head text-black text-left">
+              <h3>FAQ</h3>
+            </div>
+            <div className="row m-b30">
+              <div className="col-lg-12 col-sm-12">
+                <div className="dlab-accordion faq-2 box-sort-in" id="accordion2">
+                  {faqData?.map((faq, index) => (
+                    <div className="panel" key={faq.id}>
+                      <div className="acod-head">
+                        <h6 className="acod-title">
+                          <a
+                            href="#"
+                            data-bs-toggle="collapse"
+                            data-bs-target={`#${faq.id}`}
+                            className="collapsed"
+                            aria-expanded="false"
+                          >
+                            {faq.question}
+                          </a>
+                        </h6>
+                      </div>
+                      <div
+                        id={faq.id}
+                        className="acod-body collapse"
+                        data-bs-parent="#accordion2"
+                      >
+                        <div className="acod-content">{faq.answer}</div>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
           </div>
         </div>
-        {/* Faq Info END */}
-      </div>
-    </div>
-  );
-}
+      );
+    };
+    
+   
+
