@@ -366,10 +366,18 @@ export const PortfolioLink = {
   label: "Portfolio",
 };
 
-export const ZingfluenceLink = {
-  href: "/zingfluence",
-  label: "Zingfluence",
-};
+
+export const ZingfluenceLink = [
+  { href: "/zingfluence",
+    label: "Overview",},
+ { href: "/influencer-buzz",
+  label: "Influencer Buzz",},
+
+  { href: "/brand-buzz",
+    label: "Brand Buzz"},
+
+    
+    ]
 
 export const ExpertsHubLink = {
   href: "/experts-hub",

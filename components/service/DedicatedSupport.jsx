@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-export default function ChooseZingFluencer() {
+export default function DedicatedSupport() {
   return (
-    <div className="section-full content-inner const-about choose-Zf bg-white">
+    <div className="section-full content-inner const-about choose-Zf bg-gray">
       <div className="container">
         <div className="row align-items-center">
           
@@ -17,38 +17,23 @@ export default function ChooseZingFluencer() {
             <div className=" m-auto">
             <div className="our-story">
               {" "}
-              <h2 className="title text-primary">
+              <h2 className="title text-primary mb-5">
                
                   
                    
-                Brand Buzz
+                Dedicated Support
              
               </h2>
               {/* <h4 className="title"> Empowering women to lead the future</h4> */}
-              <p style={{ color: "#282222" }}>
+              {/* <p style={{ color: "#282222" }}>
                 At Zing Studio, we strive to create opportunities to uplift
                 women, enabling them to realize their potential and take control
                 of the decisions that shape their lives.
-              </p>
+              </p> */}
 
-              <p style={{ color: "#282222" }}>
-                At Zing Studio, we strive to create opportunities to uplift
-                women, enabling them to realize their potential and take control
-                of the decisions that shape their lives.
-              </p>
-
-              <p style={{ color: "#282222" }}>
-                At Zing Studio, we strive to create opportunities to uplift
-                women, enabling them to realize their potential and take control
-                of the decisions that shape their lives.
-              </p>
-
-              <a href="#" className="site-button outline outline-2 btnhover11">
-              Read More
-              <i className="fas fa-angle-double-right ms-2" />
-            </a>
+             
             </div>
-            {/* <div
+            <div
               className="icon-bx-wraper m-b30 left wow fadeInUp"
               data-wow-delay="0.6s"
             >
@@ -89,26 +74,7 @@ export default function ChooseZingFluencer() {
               </div>
             </div>
 
-            <div
-              className="icon-bx-wraper m-b30 left wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
-              <div className="icon-md">
-                <a href="#" className="icon-cell">
-                  <i className="flaticon-settings"></i>
-                </a>
-              </div>
-              <div className="icon-content">
-                <h4 className="dlab-tilte">
-                  Turning Career Breaks into Breakthroughs for Women:
-                </h4>
-                <p className="" style={{color:"#282222"}}>
-                  We prioritize hiring and providing a supportive platform for
-                  women and encouraging those who have taken a career break to
-                  restart and thrive in their professional journey.
-                </p>
-              </div>
-            </div> */}
+           
           </div>
           </div>
 

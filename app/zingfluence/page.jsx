@@ -2,7 +2,8 @@ import React from "react";
 
 import Header17 from "@/components/headers/Header17";
 import Footer13 from "@/components/footers/Footer13";
-import ZingFluenceBanner from "@/components/service/ZingfluenceBanner";
+import ZingFluenceBanner from "@/components/service/ZingFluenceBanner";
+import ZingfluenceBanner from "@/components/service/ZingfluenceBanner";
 import Celebrity from "@/components/service/Celebrity";
 import InfluencerMarketing from "@/components/service/incluencer-marketing-solution";
 import About from "@/components/service/BestMarketingService";
@@ -23,7 +24,15 @@ export default function page() {
       <div className="page-wraper  zingFluence">
         <Header17 />
 
+        {/* <ZingFluenceBanner/> */}
         <ZingFluenceBanner/>
+
+        
+        <MarketingAgency/>
+      
+        <ChooseZingFluencer/>
+
+        {/* ----------- */}
 
         <InfluencerMarketing/>
 
@@ -33,9 +42,7 @@ export default function page() {
         <About/>
 
         <Facts/>
-        <MarketingAgency/>
-        <ProcessForInfluencer/>
-        <ChooseZingFluencer/>
+          <ProcessForInfluencer/>
         <Cta />
         {/* <Footer2 contactSection="true" /> */}
         <Footer13 />

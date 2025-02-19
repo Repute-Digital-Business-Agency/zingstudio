@@ -327,13 +327,33 @@ export default function Nav() {
         </ul>
       </li>
 
-      <li className={isMenuActive(ZingfluenceLink) ? "active" : ""}>
-        <Link
-          href={ZingfluenceLink.href}
-          className={isMenuActive(ZingfluenceLink) ? "menuActive" : ""}
+     
+
+      <li
+        className={` ${isMenuActive(ZingfluenceLink) ? "active" : ""} ${
+          menuOpen2 == "services" ? "open" : ""
+        }  `}
+      >
+        <a 
+          onClick={() =>
+            setMenuOpen2((pre) => (pre == "services" ? "" : "services"))
+          }
         >
-          {ZingfluenceLink.label}
-        </Link>
+          Zingfluence
+          <i className="fas fa-chevron-down" />
+        </a>
+        <ul className="sub-menu right academy-dd">
+          {ZingfluenceLink?.map((link, index) => (
+            <li key={index}>
+              <Link
+                className={isMenuActive(link) ? "menuActive" : ""}
+                href={link.href}
+              >
+                {link.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
       </li>
 
       <li className={isMenuActive(ExpertsHubLink) ? "active" : ""}>

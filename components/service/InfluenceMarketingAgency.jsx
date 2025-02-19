@@ -7,6 +7,7 @@ export default function MarketingAgency() {
       style={{
         backgroundImage: "",
         backgroundPosition: "center",
+       
       }}
     >
       <div className="container">
@@ -42,9 +43,9 @@ export default function MarketingAgency() {
           <div className="col-lg-6 ev-about-content ">
             <div className="section-head style-2">
               <h2 className="title">
-              How our Influencer 
-                <br />
-                Marketing agency assists the influencers?
+              Influencer Buzz 
+                {/* <br /> */}
+                {/* Marketing agency assists the influencers? */}
               </h2>
             </div>
             {/* <ul className="ev-list mb-4">
@@ -65,15 +66,22 @@ export default function MarketingAgency() {
                 Cryptocurrency
               </li>
             </ul> */}
-            <p className="mb-5" style={{color:"#282222"}}>
+            <p className="" style={{color:"#282222"}}>
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
               point of using Lorem Ipsum is that it has a more-or-less Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis laborum inventore corporis voluptate dolorem fuga temporibus, asperiores atque, qui voluptatibus a odit nesciunt libero repudiandae aliquid perspiciatis soluta alias maiores?
             </p>
-            {/* <a href="#" className="site-button-secondry btnhover20 radius-xl">
-              About Us
+            <p className="" style={{color:"#282222"}}>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis laborum inventore corporis voluptate dolorem fuga temporibus, asperiores atque, qui voluptatibus a odit nesciunt libero repudiandae aliquid perspiciatis soluta alias maiores?
+            </p>
+           
+            
+            <a href="#" className="site-button outline outline-2 btnhover11">
+              Read More
               <i className="fas fa-angle-double-right ms-2" />
-            </a> */}
+            </a>
           </div>
         </div>
       </div>
