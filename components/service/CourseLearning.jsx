@@ -4,75 +4,85 @@ import { projects } from "@/data/projects";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-export default function CourseLearning() {
-    const projects = [
-        {
-          id: 1,
-          imgSrc: "/images/our-work/steelplant/pic10.jpg",
-          title: "Digital Marketing Startegy",
-          link:"zing-digital-marketing-mastery"
-        },
-        {
-          id: 2,
-          imgSrc: "/images/our-work/steelplant/pic9.jpg",
-          title: "Content And Prompt Engineering",
-          link:"zing-digital-marketing-mastery"
-        },
-        {
-          id: 3,
-          imgSrc: "/images/our-work/steelplant/pic8.jpg",
-          title: "Google And Advance web Analytics",
-          link:"zing-digital-marketing-mastery"
-        },
-        {
-          id: 4,
+export default function CourseLearning({courseLearning,courseLearningContent}) {
+  {/*
+   
+     const courseLearningContent = {
+    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.",
+    modules:"50 Sub Modules"
+     }
+
+     const courseLearning = [
+      {
+        id: 1,
+        imgSrc: "/images/our-work/steelplant/pic10.jpg",
+        title: "Digital Marketing Startegy",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 2,
+        imgSrc: "/images/our-work/steelplant/pic9.jpg",
+        title: "Content And Prompt Engineering",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 3,
+        imgSrc: "/images/our-work/steelplant/pic8.jpg",
+        title: "Google And Advance web Analytics",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 4,
+        imgSrc: "/images/our-work/steelplant/pic7.jpg",
+        title: "Social Media Marketing",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 5,
+        imgSrc: "/images/our-work/steelplant/pic10.jpg",
+        title: "Search Engine Optimization",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 6,
+        imgSrc: "/images/our-work/steelplant/pic9.jpg",
+        title: "Funnel Building Lead Gen",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 7,
+        imgSrc: "/images/our-work/steelplant/pic8.jpg",
+        title: "Facebook And Instagram Ads",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 8,
+        imgSrc: "/images/our-work/steelplant/pic7.jpg",
+        title: "Wix",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+          id: 9,
           imgSrc: "/images/our-work/steelplant/pic7.jpg",
-          title: "Social Media Marketing",
+          title: "Whatsapp Marketing",
           link:"zing-digital-marketing-mastery"
         },
         {
-          id: 5,
-          imgSrc: "/images/our-work/steelplant/pic10.jpg",
-          title: "Search Engine Optimization",
-          link:"zing-digital-marketing-mastery"
-        },
-        {
-          id: 6,
-          imgSrc: "/images/our-work/steelplant/pic9.jpg",
-          title: "Funnel Building Lead Gen",
-          link:"zing-digital-marketing-mastery"
-        },
-        {
-          id: 7,
-          imgSrc: "/images/our-work/steelplant/pic8.jpg",
-          title: "Facebook And Instagram Ads",
-          link:"zing-digital-marketing-mastery"
-        },
-        {
-          id: 8,
+          id: 9,
           imgSrc: "/images/our-work/steelplant/pic7.jpg",
-          title: "Wix",
+          title: "Web Technology",
           link:"zing-digital-marketing-mastery"
         },
         {
-            id: 9,
-            imgSrc: "/images/our-work/steelplant/pic7.jpg",
-            title: "Whatsapp Marketing",
-            link:"zing-digital-marketing-mastery"
-          },
-          {
-            id: 9,
-            imgSrc: "/images/our-work/steelplant/pic7.jpg",
-            title: "Web Technology",
-            link:"zing-digital-marketing-mastery"
-          },
-          {
-            id: 10,
-            imgSrc: "/images/our-work/steelplant/pic7.jpg",
-            title: "Projecs",
-            link:"zing-digital-marketing-mastery"
-          },
-      ];
+          id: 10,
+          imgSrc: "/images/our-work/steelplant/pic7.jpg",
+          title: "Projecs",
+          link:"zing-digital-marketing-mastery"
+        },
+    ];
+
+     */}
+ 
 
   return (
     <div
@@ -85,12 +95,10 @@ export default function CourseLearning() {
         <div className="section-head text-white text-center">
           <h2 className="title">What Will You Learn In This Course ?</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry has been the industry's standard dummy text ever since the
-            been when an unknown printer.
+            {courseLearningContent?.description}
           </p>
           <h4 className="mt-4 mb-0" style={{fontSize:"22px"}}>
-              50 Sub Modules
+              {courseLearningContent?.modules}
             </h4>
         </div>
         <div className="row">
@@ -121,7 +129,7 @@ export default function CourseLearning() {
               }}
               className="img-carousel-dots-nav owl-theme owl-dots-none owl-carousel owl-btn-center-lr owl-btn-3 btn-white"
             >
-              {projects.map((item, index) => (
+              {courseLearning?.map((item, index) => (
                 <SwiperSlide className="item" key={index}>
                   <div className="dlab-box project-bx position-relative">
                   <Link href={item?.link} className="apply-btn">

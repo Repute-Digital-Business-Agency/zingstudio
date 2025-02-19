@@ -3,8 +3,18 @@ import React from "react";
 import Counter from "../common/Counter";
 import Link from "next/link";
 
-export default function ToolsLearning() {
-    const facts2 = [
+export default function ToolsLearning({ToolsContent,Tools1,Tools2}) {
+{/*
+
+    const ToolsContent = {
+      tool1Num:"40+",
+      tool1Title :"Free Premium Digital Marketing Tools",
+      tool1worth :"Worth Of 6 Lakhs",
+      tool2Num:"20+",
+      tool2Title :"Digital Marketing AI Tools",
+      tool2worth :"Worth Of 6 Lakhs"
+    }
+    const Tools1 = [
         {
           animation: "fadeInLeft",
           delay: "0.3s",
@@ -110,7 +120,7 @@ export default function ToolsLearning() {
           },
       ];
 
-      const facts3 = [
+      const Tools2 = [
         {
           animation: "fadeInLeft",
           delay: "0.3s",
@@ -146,6 +156,8 @@ export default function ToolsLearning() {
             iconClass: "flaticon-worker",
           },
         ]
+
+    */}
   return (
     <>
     
@@ -160,10 +172,10 @@ export default function ToolsLearning() {
               <div className="row">
               <div className="section-head style2 text-center mb-4">
                     <h2 className="title text-dark">Tools That you will learn</h2>
-                    <h4 className="text-dark mt-5"> <b style={{color:"#e21100"}}> 40+ </b>Free Premium Digital Marketing Tools</h4>
-                    <p className="text-dark" >Worth Of 6 Lakhs</p>
+                    <h4 className="text-dark mt-5"> <b style={{color:"#e21100"}}> {ToolsContent?.tool1Num} </b>{ToolsContent?.tool1Title}</h4>
+                    <p className="text-dark" >{ToolsContent?.tool1worth}</p>
                 </div>
-                {facts2.map((elm, i) => (
+                {Tools1?.map((elm, i) => (
                   <div
                     key={i}
                     className="col-lg-2 col-md-6 col-sm-6 col-6 m-b30"
@@ -181,12 +193,12 @@ export default function ToolsLearning() {
                 ))}
               </div>
 
-              <div className="row">
+             { Tools2.length > 0 && <div className="row">
               <div className="section-head style2 text-center mb-4">
-                    <h4 className="text-dark"> <b style={{color:"#e21100"}}> 20+ </b>Digital Marketing AI Tools</h4>
+                    <h4 className="text-dark"> <b style={{color:"#e21100"}}> {ToolsContent?.tool2Num} </b>{ToolsContent?.tool2Title}</h4>
                   
                 </div>
-                {facts3.map((elm, i) => (
+                {Tools2?.map((elm, i) => (
                   <div
                     key={i}
                     className="col-lg-2 col-md-6 col-sm-6 col-6 m-b30"
@@ -202,7 +214,7 @@ export default function ToolsLearning() {
                     </div>
                   </div>
                 ))}
-              </div>
+              </div>}
             </div>
           </div>
         </div>

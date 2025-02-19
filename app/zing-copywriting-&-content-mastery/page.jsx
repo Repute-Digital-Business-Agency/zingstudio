@@ -138,6 +138,234 @@ export default function page() {
     },
   
   ]
+
+  const courseLearningContent = {
+    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.",
+    modules:"50 Sub Modules"
+     }
+
+     const courseLearning = [
+      {
+        id: 1,
+        imgSrc: "/images/our-work/steelplant/pic10.jpg",
+        title: "Digital Marketing Startegy",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 2,
+        imgSrc: "/images/our-work/steelplant/pic9.jpg",
+        title: "Content And Prompt Engineering",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 3,
+        imgSrc: "/images/our-work/steelplant/pic8.jpg",
+        title: "Google And Advance web Analytics",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 4,
+        imgSrc: "/images/our-work/steelplant/pic7.jpg",
+        title: "Social Media Marketing",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 5,
+        imgSrc: "/images/our-work/steelplant/pic10.jpg",
+        title: "Search Engine Optimization",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 6,
+        imgSrc: "/images/our-work/steelplant/pic9.jpg",
+        title: "Funnel Building Lead Gen",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 7,
+        imgSrc: "/images/our-work/steelplant/pic8.jpg",
+        title: "Facebook And Instagram Ads",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+        id: 8,
+        imgSrc: "/images/our-work/steelplant/pic7.jpg",
+        title: "Wix",
+        link:"zing-digital-marketing-mastery"
+      },
+      {
+          id: 9,
+          imgSrc: "/images/our-work/steelplant/pic7.jpg",
+          title: "Whatsapp Marketing",
+          link:"zing-digital-marketing-mastery"
+        },
+        {
+          id: 9,
+          imgSrc: "/images/our-work/steelplant/pic7.jpg",
+          title: "Web Technology",
+          link:"zing-digital-marketing-mastery"
+        },
+        {
+          id: 10,
+          imgSrc: "/images/our-work/steelplant/pic7.jpg",
+          title: "Projecs",
+          link:"zing-digital-marketing-mastery"
+        },
+    ];
+
+    const ToolsContent = {
+      tool1Num:"40+",
+      tool1Title :"Free Premium Digital Marketing Tools",
+      tool1worth :"Worth Of 6 Lakhs",
+      tool2Num:"20+",
+      tool2Title :"Digital Marketing AI Tools",
+      tool2worth :"Worth Of 6 Lakhs"
+    }
+    const Tools1 = [
+        {
+          animation: "fadeInLeft",
+          delay: "0.3s",
+          iconClass: "flaticon-factory",
+        },
+        {
+         
+          animation: "fadeInDown",
+          delay: "0.3s",
+          iconClass: "flaticon-worker",
+        },
+        {
+          
+          animation: "fadeInUp",
+          delay: "0.3s",
+          iconClass: "flaticon-settings",
+        },
+        {
+         
+          animation: "fadeInRight",
+          delay: "0.3s",
+          iconClass: "flaticon-conveyor",
+        },
+        {
+            animation: "fadeInLeft",
+            delay: "0.3s",
+            iconClass: "flaticon-factory",
+          },
+          {
+           
+            animation: "fadeInDown",
+            delay: "0.3s",
+            iconClass: "flaticon-worker",
+          },
+          {
+            
+            animation: "fadeInUp",
+            delay: "0.3s",
+            iconClass: "flaticon-settings",
+          },
+          {
+           
+            animation: "fadeInRight",
+            delay: "0.3s",
+            iconClass: "flaticon-conveyor",
+          },
+          {
+            animation: "fadeInLeft",
+            delay: "0.3s",
+            iconClass: "flaticon-factory",
+          },
+          {
+           
+            animation: "fadeInDown",
+            delay: "0.3s",
+            iconClass: "flaticon-worker",
+          },
+          {
+            
+            animation: "fadeInUp",
+            delay: "0.3s",
+            iconClass: "flaticon-settings",
+          },
+          {
+           
+            animation: "fadeInRight",
+            delay: "0.3s",
+            iconClass: "flaticon-conveyor",
+          },
+          {
+            animation: "fadeInLeft",
+            delay: "0.3s",
+            iconClass: "flaticon-factory",
+          },
+          {
+           
+            animation: "fadeInDown",
+            delay: "0.3s",
+            iconClass: "flaticon-worker",
+          },
+          {
+            
+            animation: "fadeInUp",
+            delay: "0.3s",
+            iconClass: "flaticon-settings",
+          },
+          {
+           
+            animation: "fadeInRight",
+            delay: "0.3s",
+            iconClass: "flaticon-conveyor",
+          },
+          {
+            animation: "fadeInLeft",
+            delay: "0.3s",
+            iconClass: "flaticon-factory",
+          },
+          {
+           
+            animation: "fadeInDown",
+            delay: "0.3s",
+            iconClass: "flaticon-worker",
+          },
+      ];
+
+      const Tools2 = [
+        {
+          animation: "fadeInLeft",
+          delay: "0.3s",
+          iconClass: "flaticon-factory",
+        },
+        {
+         
+          animation: "fadeInDown",
+          delay: "0.3s",
+          iconClass: "flaticon-worker",
+        },
+        {
+          
+          animation: "fadeInUp",
+          delay: "0.3s",
+          iconClass: "flaticon-settings",
+        },
+        {
+         
+          animation: "fadeInRight",
+          delay: "0.3s",
+          iconClass: "flaticon-conveyor",
+        },
+        {
+            animation: "fadeInLeft",
+            delay: "0.3s",
+            iconClass: "flaticon-factory",
+          },
+          {
+           
+            animation: "fadeInDown",
+            delay: "0.3s",
+            iconClass: "flaticon-worker",
+          },
+        ]
+
+
+
   return (
     <>
       <div className="page-wraper  ">
@@ -184,7 +412,7 @@ export default function page() {
         {/* </div> */}
 
        
-        <CourseLearning/>
+        <CourseLearning courseLearningContent={courseLearningContent} courseLearning={courseLearning}/>
         <WhosThisCourseFor/>
        
 
@@ -195,7 +423,7 @@ export default function page() {
       <GuestLectures/>
       
       
-      <ToolsLearning/>
+      <ToolsLearning ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2}/>
       
       
       <SucessStories/>
