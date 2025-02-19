@@ -7,10 +7,10 @@ export default function HomeCta() {
         <div className="row">
           <div className="col-lg-9 text-white wow fadeInUp"
       data-wow-delay="1s">
-            <h2 className="title">Advance Your Digital Marketing Skills
+            <h2 className="title">Let’s Build Something Amazing! 
             </h2>
             <p className="m-b0">
-            Join Zing Academy for industry-focused, hands-on training designed to equip you with the expertise needed to succeed. Enroll today and take the next step in your career.
+            Got big ideas? We’re here to make them happen!  From sleek websites to powerful digital strategies, let’s team up and take your brand to the next level. Let’s go!
             </p>
           </div>
           <div className="col-lg-3 d-flex wow fadeInUp"

@@ -10,10 +10,10 @@ export default function ExpertsCta() {
         <div className="row">
           <div className="col-lg-9 text-white wow fadeInUp"
       data-wow-delay="1s">
-            <h2 className="title">Book a Session
+            <h2 className="title">Let’s Build Something Amazing!
             </h2>
             <p className="m-b0">
-            Book a session with our experts to receive tailored guidance in web design, digital marketing, or branding, and take your business to the next level with strategic insights and expertise.
+            Got big ideas? We’re here to make them happen!  From sleek websites to powerful digital strategies, let’s team up and take your brand to the next level. Let’s go!
 
             </p>
           </div>

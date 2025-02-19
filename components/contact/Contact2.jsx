@@ -109,11 +109,10 @@ export default function Contact2() {
               >
                 <div className="our-story">
                   <h2 className="title">
-                    Get in touch <span className="text-primary"> with us </span>
+                  Reach <span className="text-primary">Us</span>
                   </h2>
                   <h4 className="title">
-                    for affordable and high-quality internet marketing
-                    solutions:
+                  Let’s create something amazing—top-notch quality, totally budget-friendly!
                   </h4>
                 </div>
 
