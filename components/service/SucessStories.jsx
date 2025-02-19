@@ -9,7 +9,9 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 
-export default function SucessStories() {
+export default function SucessStories({testimonials}) {
+  {/*
+
     const testimonials = [
         {
           text: "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
@@ -32,25 +34,11 @@ export default function SucessStories() {
           name: "David Matin",
           position: "Student",
         },
-        // {
-        //   text: "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-        //   image: "/images/testimonials/pic3.jpg",
-        //   name: "David Matin",
-        //   position: "Student",
-        // },
-        // {
-        //   text: "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-        //   image: "/images/testimonials/pic2.jpg",
-        //   name: "David Matin",
-        //   position: "Student",
-        // },
-        // {
-        //   text: "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-        //   image: "/images/testimonials/pic1.jpg",
-        //   name: "David Matin",
-        //   position: "Student",
-        // },
+      
       ];
+      
+
+      */}
   return (
     <>
    
@@ -99,7 +87,7 @@ export default function SucessStories() {
                     }}
                     className="testimonial-three owl-loaded owl-theme owl-carousel owl-btn-2 primary owl-btn-center-lr"
                   >
-                    {testimonials.map((elm, i) => (
+                    {testimonials?.map((elm, i) => (
                       <SwiperSlide key={i} className="item">
                         <div className="testimonial-15 text-white">
                           <div className="testimonial-text quote-left quote-right">

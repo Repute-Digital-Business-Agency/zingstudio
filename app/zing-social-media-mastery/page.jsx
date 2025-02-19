@@ -404,6 +404,31 @@ export default function page() {
           },
         ];
 
+        const testimonials = [
+          {
+            text: "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
+            image: "/images/testimonials/pic3.jpg",
+        
+            name: "David Matin",
+            position: "Student",
+          },
+          {
+            text:  "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
+            image: "/images/testimonials/pic3.jpg",
+            image: "/images/testimonials/pic2.jpg",
+            name: "David Matin",
+            position: "Student",
+          },
+          {
+            text:  "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
+            image: "/images/testimonials/pic3.jpg",
+            image: "/images/testimonials/pic1.jpg",
+            name: "David Matin",
+            position: "Student",
+          },
+        
+        ];
+
   return (
     <>
       <div className="page-wraper  ">
@@ -464,7 +489,7 @@ export default function page() {
       <ToolsLearning ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2}/>
       
       
-      <SucessStories/>
+      <SucessStories testimonials={testimonials}/>
     
       <div  className="bg-white"  style={{paddingBottom:"50px", paddingTop:"50px"}}>
         <CourseProgramFaq faqData={faqData}/>
