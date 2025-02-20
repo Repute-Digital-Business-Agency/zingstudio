@@ -35,7 +35,7 @@ export default function BusinessWork() {
                                             Lorem ipsum 
                                         </h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, similique quae tempore id repudiandae sed mollitia quis ut recusandae a, perferendis, qui sint nobis eveniet. Ducimus libero blanditiis unde obcaecati!
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, similique quae tempore id repudiandae sed mollitia 
                                         </p>
                                         </div>
                                     </div>
@@ -52,7 +52,7 @@ export default function BusinessWork() {
                                         Lorem ipsum 
                                         </h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, similique quae tempore id repudiandae sed mollitia quis ut recusandae a, perferendis, qui sint nobis eveniet. Ducimus libero blanditiis unde obcaecati!
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, similique quae tempore id repudiandae sed mollitia 
                                         </p>
                                         </div>
                                     </div>
@@ -69,7 +69,7 @@ export default function BusinessWork() {
                                         Lorem ipsum 
                                         </h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, similique quae tempore id repudiandae sed mollitia quis ut recusandae a, perferendis, qui sint nobis eveniet. Ducimus libero blanditiis unde obcaecati!
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, similique quae tempore id repudiandae sed mollitia 
                                         </p>
                                         </div>
                                     </div>
@@ -88,7 +88,7 @@ export default function BusinessWork() {
                                         Lorem ipsum 
                                         </h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, similique quae tempore id repudiandae sed mollitia quis ut recusandae a, perferendis, qui sint nobis eveniet. Ducimus libero blanditiis unde obcaecati!
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, similique quae tempore id repudiandae sed mollitia 
                                         </p>
                                         
                                         </div>
@@ -106,7 +106,7 @@ export default function BusinessWork() {
                                         Lorem ipsum 
                                         </h5>
                                         <p>
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, similique quae tempore id repudiandae sed mollitia quis ut recusandae a, perferendis, qui sint nobis eveniet. Ducimus libero blanditiis unde obcaecati!
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, similique quae tempore id repudiandae sed mollitia 
                                         </p>
                                         </div>
                                     </div>

@@ -48,8 +48,9 @@ export default function BrandBuzzBanner() {
                   width={700}
                   height={800}
                 >
-                  <source src="/video/video4.mp4" type="video/mp4" />
+                  <source src="/images/zing-influ/dm-demo.mp4" type="video/mp4" />
                 </video>
+                {/* <iframe width="700" height="800" src="https://www.youtube.com/embed/xNWF3w9dW9E" title="Short Form Video Marketing #Shorts #Simplilearn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
               </div>
             </div>
           </div>

@@ -36,15 +36,16 @@ export default function NumberToCelebrate() {
     >
           <div className="container">
             <div className="section-content">
-              <div className="row m-auto">
-              <div className="section-head text-center ">
+            <div className="section-head text-center ">
             <h2 className="title mb-5" >Numbers To Celebrate!</h2>
             
             </div>
+              <div className="row m-auto" style={{margin:"auto"}}>
+             
                 {facts2.map((elm, i) => (
                   <div
                     key={i}
-                    className="col-lg-4 col-md-6 col-sm-6 col-6 m-b30 "
+                    className="col-lg-4 col-md-6 col-sm-6 col-6 m-b30 m-auto"
                   >
                     <div className="counter-style-1 text-center">
                       <div className="">

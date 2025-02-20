@@ -37,9 +37,9 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
             </h3>
 
             <a href="#" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInLeft"
-              data-wow-delay="0.8s" >
+              data-wow-delay="0.8s"  style={{textWrap:"wrap"}}>
             Join Now and Turn Your Influence into Income!
-              <i className="fas fa-angle-double-right ms-2" />
+              {/* <i className="fas fa-angle-double-right ms-2" /> */}
             </a>
 
             {/* <h4

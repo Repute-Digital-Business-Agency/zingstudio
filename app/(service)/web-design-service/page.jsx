@@ -88,7 +88,50 @@ export default function page() {
         "Custom-built static or dynamic CMS solutions tailored to your business needs."
       ]
     }
-      
+    const portfolioItems = [
+      {
+        title: "Prade Jewels",
+        image: "/images/services/web-deisgn/mockup-1.jpg",
+        className: "col-lg-6 col-md-6 col-sm-6",
+        delay: "0.3s",
+        duration: "1s",
+      },
+      {
+        title: "KPRMill",
+        image: "/images/services/web-deisgn/mockup-2.jpg",
+        className: "col-lg-3 col-md-3 col-sm-6",
+        delay: "0.6s",
+        duration: "1.3s",
+      },
+      {
+        title: "OMI Pumps",
+        image: "/images/services/web-deisgn/mockup-3.jpg",
+        className: "col-lg-3 col-md-3 col-sm-6",
+        delay: "0.9s",
+        duration: "1.6s",
+      },
+      {
+        title: "Tirumalai Textiles",
+        image: "/images/services/web-deisgn/mockup-4.jpg",
+        className: "col-lg-3 col-md-3 col-sm-6",
+        delay: "0.3s",
+        duration: "1.9s",
+      },
+      {
+        title: "Karpagam College of Engineering",
+        image: "/images/services/web-deisgn/mockup-5.jpg",
+        className: "col-lg-3 col-md-3 col-sm-6",
+        delay: "0.6s",
+        duration: "1.12s",
+      },
+      {
+        title: "Filmode Fashions",
+        image: "/images/services/web-deisgn/mockup-6.jpg",
+        className: "col-lg-6 col-md-6 col-sm-6",
+        delay: "0.9s",
+        duration: "1.15s",
+      },
+    ];
     
   return (
     <>
@@ -98,7 +141,7 @@ export default function page() {
         <ServiceList data={WebDevelopment} head={"Web Design"}/>
         <ServiceCta/>
         {/* <Portfolio/> */}
-        <OurWorkServices/>
+        <OurWorkServices portfolioItems={portfolioItems}/>
         {/* <Faq/> */}
         <Cta />
         <Footer13 />

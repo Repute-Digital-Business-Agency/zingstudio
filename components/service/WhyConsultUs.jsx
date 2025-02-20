@@ -18,7 +18,7 @@ export default function WhyConsultUs() {
                 <div className="icon-bx-wraper m-b30 left">
                   <div className="icon-md">
                     <a href="#" className="icon-cell text-primary">
-                      <i className="flaticon-factory" />
+                    <img src="/images/Experts-Hub/client-centric-approach.png" alt="client-centric-approach" />
                     </a>
                   </div>
                   <div className="icon-content">
@@ -32,7 +32,7 @@ export default function WhyConsultUs() {
                 <div className="icon-bx-wraper m-b30 left">
                   <div className="icon-md">
                     <a href="#" className="icon-cell text-primary">
-                      <i className="flaticon-settings" />
+                     <img src="/images/Experts-Hub/innovative-thinking.png" alt="innovative-thinking" />
                     </a>
                   </div>
                   <div className="icon-content">
@@ -46,7 +46,7 @@ export default function WhyConsultUs() {
                 <div className="icon-bx-wraper m-b30 left">
                   <div className="icon-md">
                     <a href="#" className="icon-cell text-primary">
-                      <i className="flaticon-worker" />
+                    <img src="/images/Experts-Hub/data-driven-decisions.png" alt="data-driven-decisions" />
                     </a>
                   </div>
                   <div className="icon-content">
@@ -61,7 +61,7 @@ export default function WhyConsultUs() {
                 <div className="icon-bx-wraper m-b30 left">
                   <div className="icon-md">
                     <a href="#" className="icon-cell text-primary">
-                      <i className="flaticon-worker" />
+                    <img src="/images/Experts-Hub/collaboration-transparency.png" alt="collaboration-transparency" />
                     </a>
                   </div>
                     <div className="icon-content">
@@ -76,7 +76,7 @@ export default function WhyConsultUs() {
                 <div className="icon-bx-wraper m-b30 left">
                   <div className="icon-md">
                     <a href="#" className="icon-cell text-primary">
-                      <i className="flaticon-worker" />
+                    <img src="/images/Experts-Hub/sustained-results.png" alt="sustained-results" />
                     </a>
                   </div>
                     <div className="icon-content">

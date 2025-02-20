@@ -6,7 +6,7 @@ export default function YoutubersAndInstagramers() {
  <div className="section-full  content-inner socialmedia bg-gray">
           <div className="container">
           <div className="section-head text-center ">
-            <h2 className="title mb-5" >How Does Tring For Business Work?</h2>
+            <h2 className="title mb-5" >Youtubers And Instagrammers Categories</h2>
             
             </div>
             <div className="row">
@@ -18,23 +18,23 @@ export default function YoutubersAndInstagramers() {
                       <li>
                         <a
                           data-bs-toggle="tab"
-                          href="#web-design-3"
+                          href="#youtubers"
                           className="active"
                         >
                           <i className="ti-world" />
-                          <span className="title-head"> Web design</span>
+                          <span className="title-head"> Youtubers</span>
                         </a>
                       </li>
                       <li>
-                        <a data-bs-toggle="tab" href="#graphic-design-3">
+                        <a data-bs-toggle="tab" href="#instagrammers">
                           <i className="ti-image" />
-                          <span className="title-head">Graphic Design</span>
+                          <span className="title-head">Instagrammers</span>
                         </a>
                       </li>
                      
                     </ul>
                     <div className="tab-content mt-5">
-                      <div id="web-design-3" className="tab-pane active">
+                      <div id="youtubers" className="tab-pane active">
                         <div className="section-content box-sort-in button-example p-b0 BestInfluencer">
                    
                                 <div className="row d-flex justify-content-center ">
@@ -316,7 +316,7 @@ export default function YoutubersAndInstagramers() {
                        
                         </div>
                       </div>
-                      <div id="graphic-design-3" className="tab-pane">
+                      <div id="instagrammers" className="tab-pane">
                         <div className="section-content box-sort-in button-example p-b0 BestInfluencer">
                    
                             <div className="row d-flex justify-content-center ">

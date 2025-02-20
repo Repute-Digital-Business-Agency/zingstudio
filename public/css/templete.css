@@ -8695,9 +8695,26 @@ button.scroltop {
   display: flex;
   gap: 14px;
   width: 35%;
-  color: #313131;
+  color: #282222;
   /* border-bottom: 1px solid #313131; */
-  padding: 20px;
+  
+}
+
+.BrandBuzzBanner.dz-ship-industry-zone .banner-content .dz-bannerlist ol li {
+  padding: 5px 25px;
+  width: 45%;
+}
+
+
+
+.BrandBuzzBanner .list-hand-point li:before{
+  top: 5px;
+}
+@media (max-width:500px) {
+  .BrandBuzzBanner.dz-ship-industry-zone .banner-content .dz-bannerlist ol li {
+    padding: 5px 25px;
+    width: 100%;
+  }
 }
 
 .dz-ship-industry-zone .banner-content .dz-bannerlist ol li a {

@@ -85,6 +85,51 @@ export default function page() {
         "Result-driven strategies that target potential customers with precision, leading to high-conversion leads and increased sales for your business."
       ]
     }
+
+    const portfolioItems = [
+      {
+        title: "Prade Jewels",
+        image: "/images/services/digital-marketing/mockup-1.jpg",
+        className: "col-lg-6 col-md-6 col-sm-6",
+        delay: "0.3s",
+        duration: "1s",
+      },
+      {
+        title: "KPRMill",
+        image: "/images/services/digital-marketing/mockup-2.jpg",
+        className: "col-lg-3 col-md-3 col-sm-6",
+        delay: "0.6s",
+        duration: "1.3s",
+      },
+      {
+        title: "OMI Pumps",
+        image: "/images/services/digital-marketing/mockup-3.jpg",
+        className: "col-lg-3 col-md-3 col-sm-6",
+        delay: "0.9s",
+        duration: "1.6s",
+      },
+      {
+        title: "Tirumalai Textiles",
+        image: "/images/services/digital-marketing/mockup-4.jpg",
+        className: "col-lg-3 col-md-3 col-sm-6",
+        delay: "0.3s",
+        duration: "1.9s",
+      },
+      {
+        title: "Karpagam College of Engineering",
+        image: "/images/services/digital-marketing/mockup-5.jpg",
+        className: "col-lg-3 col-md-3 col-sm-6",
+        delay: "0.6s",
+        duration: "1.12s",
+      },
+      {
+        title: "Filmode Fashions",
+        image: "/images/services/digital-marketing/mockup-6.jpg",
+        className: "col-lg-6 col-md-6 col-sm-6",
+        delay: "0.9s",
+        duration: "1.15s",
+      },
+    ];
   return (
     <>
       <div className="page-wraper  ">
@@ -93,7 +138,7 @@ export default function page() {
         <ServiceList data={DigitalMarketing} head={"Digital Marketing"}/>
         <ServiceCta/>
         {/* <Portfolio/> */}
-        <OurWorkServices/>
+        <OurWorkServices portfolioItems={portfolioItems}/>
         {/* <Faq/> */}
         <Cta/>
         
