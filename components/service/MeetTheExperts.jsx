@@ -12,7 +12,7 @@ export default function MeetTheExperts() {
       {/* Team Section Style 14 */}
       <div
         className="section-full  content-inner bg-img-fix overlay-black-dark"
-        style={{ backgroundImage: "url(/images/background/bg2.jpg)" }}
+        style={{ backgroundImage: "url(/images/Experts-Hub/bg2.jpg)" }}
       >
         <div className="container">
           <div className="row">
@@ -32,7 +32,7 @@ export default function MeetTheExperts() {
                             width={358}
                             height={460}
                             alt=""
-                            src="/images/our-team/pic8.jpg"
+                            src="/images/Experts-Hub/meet-the-expert-img-1.jpg"
                           />
                         </a>
                         <div className="dlab-info-has">
@@ -88,7 +88,7 @@ export default function MeetTheExperts() {
                             width={358}
                             height={460}
                             alt=""
-                            src="/images/our-team/pic5.jpg"
+                           src="/images/Experts-Hub/meet-the-expert-img-2.jpg"
                           />
                         </a>
                         <div className="dlab-info-has">
@@ -144,7 +144,7 @@ export default function MeetTheExperts() {
                             width={358}
                             height={460}
                             alt=""
-                            src="/images/our-team/pic1.jpg"
+                            src="/images/Experts-Hub/meet-the-expert-img-3.jpg"
                           />
                         </a>
                         <div className="dlab-info-has">
@@ -200,7 +200,7 @@ export default function MeetTheExperts() {
                             width={358}
                             height={460}
                             alt=""
-                            src="/images/our-team/pic6.jpg"
+                            src="/images/Experts-Hub/meet-the-expert-img-4.jpg"
                           />
                         </a>
                         <div className="dlab-info-has">
