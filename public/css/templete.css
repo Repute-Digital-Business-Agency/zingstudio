@@ -8622,6 +8622,9 @@ button.scroltop {
   padding-top: 190px;
   padding-bottom: 80px;
 }
+.BrandBuzzBanner.dz-ship-industry-zone{
+  padding-top: 50px;
+}
 
 .dz-header {
   padding: 0px 100px;
@@ -8641,13 +8644,18 @@ button.scroltop {
   line-height: 93px;
   margin-bottom: 20px;
 }
-
+.BrandBuzzBanner.dz-ship-industry-zone .banner-content .dz-title {
+  font-size: 40px !important;
+  line-height:1.5;
+  max-width:auto !important;
+}
 .dz-ship-industry-zone .banner-content p {
   font-size: 18px;
   line-height: 27px;
   margin-bottom: 47px;
-  max-width: 513px;
+  /* max-width: 513px; */
 }
+
 
 .dz-ship-industry-zone .banner-content .dz-btn {
   gap: 38px;

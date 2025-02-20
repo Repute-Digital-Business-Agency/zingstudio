@@ -1,6 +1,7 @@
 import { foodItems } from "@/data/foodItems";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 export default function BenifitsOfBuzz() {
    const foodItems = [
     {
@@ -81,6 +82,15 @@ export default function BenifitsOfBuzz() {
               </div>
             </div>
           ))}
+          <div className="text-center">
+          <a href="#" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInLeft"
+              data-wow-delay="0.8s" >
+           Enquiry Now
+              
+            </a>
+          </div>
+
+
         </div>
         </div>
       

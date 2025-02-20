@@ -41,8 +41,8 @@ export default function InfluencerBuzzCta() {
                       What are You waiting For ?
                     </h1>
                   
-                    <Link className="site-button" href="/services-1">
-                      our services
+                    <Link className="site-button mt-3" href="/contact">
+                      Join Now
                     </Link>
                   </div>
                 </div>
