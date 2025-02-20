@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 export default function InfluencerBuzzCta() {
   return (
+  <>
+   
     <div
       className="react-parallax "
       style={{ position: "relative", overflow: "hidden" }}
@@ -41,7 +43,7 @@ export default function InfluencerBuzzCta() {
                       What are You waiting For ?
                     </h1>
                   
-                    <Link className="site-button mt-3" href="/contact">
+                    <Link href="/contact" className="site-button mt-3" style={{ cursor: "pointer", position: "relative", zIndex: 10 }}>
                       Join Now
                     </Link>
                   </div>
@@ -52,5 +54,6 @@ export default function InfluencerBuzzCta() {
         </div>
       </div>
     </div>
+  </>
   );
 }

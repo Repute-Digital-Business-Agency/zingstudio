@@ -70,7 +70,12 @@ export default function MarketingAgency() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium cupiditate cum ea, obcaecati quidem dolorum perferendis voluptatum mollitia deserunt iusto repellat magni commodi? Modi ipsum deserunt atque, sint rem enim!
             </p>
 
-            <div className="section-head style-2">
+            <a href="/influencer-buzz" className="site-button outline outline-2 btnhover11">
+              Read More
+              <i className="fas fa-angle-double-right ms-2" />
+            </a>
+
+            <div className="section-head style-2 mt-5">
               <h2 className="title">
               Brand Buzz
                 {/* <br /> */}
@@ -84,7 +89,7 @@ export default function MarketingAgency() {
             
            
             
-            <a href="#" className="site-button outline outline-2 btnhover11">
+            <a href="/brand-buzz" className="site-button outline outline-2 btnhover11">
               Read More
               <i className="fas fa-angle-double-right ms-2" />
             </a>

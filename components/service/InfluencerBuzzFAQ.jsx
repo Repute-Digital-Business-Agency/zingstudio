@@ -55,7 +55,7 @@ export default function InfluencerBuzzFAQ({faqData}) {
                       <div className="acod-head">
                         <h6 className="acod-title">
                           <a
-                            href="#"
+                           
                             data-bs-toggle="collapse"
                             data-bs-target={`#${faq.id}`}
                             className="collapsed"

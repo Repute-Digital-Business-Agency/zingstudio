@@ -29,7 +29,7 @@ export default function BenifitsOfBuzz() {
       title: "Lorem Ipsum",
       description:
         "I have worked with many companies offering supplemental industrial services, and out of all those companies. I have worked with many companies offering supplemental industrial services, and out of all those companies",
-      classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInRight",
+      classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInDown",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
       bgColor:"#f7f9fb"
@@ -39,7 +39,7 @@ export default function BenifitsOfBuzz() {
       title: "Lorem Ipsum",
       description:
         "I have worked with many companies offering supplemental industrial services, and out of all those companies. I have worked with many companies offering supplemental industrial services, and out of all those companies",
-      classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInLeft ",
+      classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInRight ",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
       bgColor:"#e2110026"
@@ -83,7 +83,7 @@ export default function BenifitsOfBuzz() {
             </div>
           ))}
           <div className="text-center">
-          <a href="#" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInLeft"
+          <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInLeft"
               data-wow-delay="0.8s" >
            Enquiry Now
               

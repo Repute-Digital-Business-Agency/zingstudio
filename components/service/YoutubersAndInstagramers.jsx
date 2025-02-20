@@ -307,7 +307,7 @@ export default function YoutubersAndInstagramers() {
                             </div>
 
                             <div className="text-center">
-                                <a href="#" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInLeft"
+                                <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInLeft"
                                     data-wow-delay="0.8s" >
                                Hire Influencer
                                     
@@ -522,7 +522,7 @@ export default function YoutubersAndInstagramers() {
                             </div>
 
                             <div className="text-center">
-                                <a href="#" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInLeft"
+                                <a href="contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInLeft"
                                     data-wow-delay="0.8s" >
                                Hire Influencer
                                     
