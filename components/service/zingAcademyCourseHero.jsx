@@ -63,7 +63,7 @@ export default function ZingAcademyCourseHero() {
           <div className="swiper-slide">
             <div className="silder-img ">
               <Image
-                src="/images/Academy/banner/banner-bg-img.jpg"
+                src="/images/Academy/banner/banner-img.jpg"
                 width={1920}
                 height={720}
                 data-swiper-parallax="30%"

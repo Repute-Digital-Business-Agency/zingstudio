@@ -9874,6 +9874,10 @@ a,
   font-size: 15px;
   /* color: #777; */
 }
+.list-circle li:before{
+  top: 20px !important;
+  fill:#000
+}
 
 ul[class*="list-"] {
   font-size: 15px;
@@ -10210,9 +10214,21 @@ ul[class*="list-"] {
   margin-right: 2px;
 }
 
+
+
 .dlab-tabs.bg-tabs .nav-tabs>li>a.active {
   border-bottom: 1px solid transparent;
   background-color: #fff;
+}
+
+.socialmedia .dlab-tabs.bg-tabs .nav-tabs>li>a {
+  border: none;
+  background-color: #fff;
+  margin-right: 2px;
+}
+.socialmedia .dlab-tabs.bg-tabs .nav-tabs>li>a.active {
+  border-bottom: 1px solid transparent;
+  background-color: #efefef;
 }
 
 .dlab-tabs.vertical.bg-tabs .nav-tabs>li>a {
@@ -19083,4 +19099,10 @@ input[type="radio"]+label:hover:before {
 }
 .influ-banner{
   background-image: none !important;
+}
+
+.BestInfluencer .box{
+  box-shadow: 1px 1px 5px #fff;
+  background: #fff;
+  border: none;
 }

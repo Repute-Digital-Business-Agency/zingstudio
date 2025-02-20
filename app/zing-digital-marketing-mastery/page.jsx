@@ -47,7 +47,7 @@ export default function page() {
         "Brand Positioning & Market Research",
         "Competitor Analysis & Strategy"
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/zing-digital-marketing-mastery/digital-marketing-foundations.jpg"
     },
     {
       title:"Module 2: SEO Mastery",
@@ -57,7 +57,7 @@ export default function page() {
         "Technical SEO (Schema, Site Speed, Mobile Optimization)",
         "Local SEO & E-commerce SEO"
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/zing-digital-marketing-mastery/module-2.jpg"
     },
     {
       title:"Module 3: Social Media & Community Building",
@@ -67,7 +67,7 @@ export default function page() {
         "YouTube Marketing & Video SEO",
         "Social Media Monetization Techniques"
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/zing-digital-marketing-mastery/module-3.jpg"
     },    {
       title:"Module 4: Paid Advertising & Google Ads",
       list:[
@@ -77,7 +77,7 @@ export default function page() {
         "A/B Testing & Performance Analytics",
         "Retargeting & Budget Optimization"
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/zing-digital-marketing-mastery/module-4.jpg"
     },
     {
       title:"Module 5: Content Marketing & Copywriting",
@@ -87,7 +87,7 @@ export default function page() {
         "Storytelling & Brand Voice",
         "Video Content & Email Marketing"
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/zing-digital-marketing-mastery/module-5.jpg"
     },
     {
       title:"Module 6: AI & Automation in Marketing",
@@ -97,7 +97,7 @@ export default function page() {
         "Personalization & Predictive Analytics",
        
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/zing-digital-marketing-mastery/module-6.jpg"
     },
     {
       title:"Internship",
@@ -107,7 +107,7 @@ export default function page() {
         "Create & Optimize Ad Campaigns",
         "SEO & Social Media Content Execution"
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/zing-digital-marketing-mastery/module-7.jpg"
     }
   ]
 

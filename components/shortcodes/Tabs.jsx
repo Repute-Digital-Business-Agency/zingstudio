@@ -11,7 +11,7 @@ export default function Tabs() {
         <div className="container">
           <div className="dlab-bnr-inr-entry">
             <h1 className="text-white">Tabs</h1>
-            {/* Breadcrumb row */}
+            {/* Breadcrumb row */}tabs with background nav
             <div className="breadcrumb-row">
               <ul className="list-inline">
                 <li>

@@ -24,6 +24,11 @@ import BrandsWorkWith from "@/components/service/BrandsWorkWith";
 import InfluencerBuzzCta from "@/components/service/InfluencerBuzzCta";
 import BrandBuzzBanner from "@/components/service/BrandBuzzBanner";
 import BusinessWork from "@/components/service/BusinessWork";
+import InfluencerMarketingService from "@/components/service/InfluencerMarketingService";
+import BestInfluencerMarketing from "@/components/service/BestInfluencerMarketing";
+import NumberToCelebrate from "@/components/service/NumberToCelebrate";
+import YoutubersAndInstagramers from "@/components/service/YoutubersAndInstagramers";
+import BrandBuzzCta from "@/components/service/BrandBuzzCta";
 
 export const metadata = {
   title: "Zing Studio - Zingfluence",
@@ -104,7 +109,7 @@ export default function page() {
 
       const ToolsContent = {
         tool1Num:"40+",
-        tool1Title :"Free Premium Digital Marketing Tools",
+        tool1Title :"As Featured In",
         tool1worth :"Worth Of 6 Lakhs",
         tool2Num:"20+",
         tool2Title :"Digital Marketing AI Tools",
@@ -227,19 +232,46 @@ export default function page() {
         <BrandBuzzBanner/>
         <BusinessWork/>
 
-       <WhyChooseUs/>
-       <HowDoesItWork/>
+        <InfluencerMarketingService/>
+        <div
+              className="section-full content-inner-2  wow fadeIn"
+              data-wow-duration="2s"
+              data-wow-delay="0.2s"
+              style={{
+                background:"#e21100"
+              }}
+              // style={{ backgroundImage: "url(/images/background/map-bg.png)" }}
+            >
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-12 text-center ">
+                    <h2 className="title text-white">
+                      Why Zingfluence ?
+                    </h2>
+                    <p className="text-white mb-0">
+                    At Zingfluence, we combine the power of technology, creativity, and analytics to craft campaigns that are data-driven and hyper-targeted, ensuring the right message reaches the right audience. From content creation to influencer management and campaign analytics, we handle everything with precision to deliver measurable results.
 
-        <BenifitsOfBuzz/>
-      <DedicatedSupport/>
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        <BestInfluencerMarketing/>
+        <NumberToCelebrate/>
+
+        <YoutubersAndInstagramers/>
       
+       
+       
 
      <InfluencerBuzzTestimonial testimonials={testimonials}/>
      <BrandsWorkWith ToolsContent={ToolsContent} Tools1={Tools1}/>
 
-        <InfluencerBuzzCta/>
+      
         <InfluencerBuzzFAQ faqData={faqData}/>
-        <Cta/>
+        <BrandBuzzCta/>
         {/* <Footer2 contactSection="true" /> */}
         <Footer13 />
       </div>

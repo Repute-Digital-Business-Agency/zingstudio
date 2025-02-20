@@ -171,7 +171,7 @@ export default function BrandsWorkWith({ToolsContent,Tools1}) {
             <div className="section-content">
               <div className="row">
               <div className="section-head style2 text-center mb-4">
-                    <h2 className="title text-dark pb-5">Brands We Work With</h2>
+                    <h2 className="title text-dark pb-5">{ToolsContent?.tool1Title}</h2>
                     {/* <h4 className="text-dark mt-5"> <b style={{color:"#e21100"}}> {ToolsContent?.tool1Num} </b>{ToolsContent?.tool1Title}</h4>
                     <p className="text-dark" >{ToolsContent?.tool1worth}</p> */}
                 </div>

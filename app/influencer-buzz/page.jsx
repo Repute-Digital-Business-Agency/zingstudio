@@ -102,7 +102,7 @@ export default function page() {
 
       const ToolsContent = {
         tool1Num:"40+",
-        tool1Title :"Free Premium Digital Marketing Tools",
+        tool1Title :"Brands We Work With",
         tool1worth :"Worth Of 6 Lakhs",
         tool2Num:"20+",
         tool2Title :"Digital Marketing AI Tools",

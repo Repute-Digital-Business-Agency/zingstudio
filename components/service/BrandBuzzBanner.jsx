@@ -8,14 +8,14 @@ export default function BrandBuzzBanner() {
   return (
     <>
       <div className="dz-ship-industry-zone position-relative BrandBuzzBanner">
-        <div className="dzpattern position-absolute">
+        {/* <div className="dzpattern position-absolute">
           <Image
             alt="#"
             src="/images/pattern/pt13.jpg"
             width="100"
             height="160"
           />
-        </div>
+        </div> */}
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-7">

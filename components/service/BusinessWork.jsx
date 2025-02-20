@@ -11,9 +11,9 @@ export default function BusinessWork() {
         <div className="section-full bg-white content-inner">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-lg-10 m-auto">
+              <div className="col-lg-11 m-auto">
               <div className="section-head text-center ">
-            <h2 className="title mb-5" >Industries We Have Worked In</h2>
+            <h2 className="title mb-5" >How Does Tring For Business Work?</h2>
             
             </div>
                 {/* icon box style 1 aligh center */}
@@ -21,9 +21,9 @@ export default function BusinessWork() {
                     <div className="container-fluid m-auto" >
 
                         <div className="row">
-                           <div className="col-12 m-auto" >
+                           {/* <div className="col-12 m-auto" > */}
                                 <div className="row d-flex justify-content-center ">
-                                        <div className="col-lg-4 col-md-12 col-sm-12 m-b30">
+                                        <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded">
                                         <div className="icon-bx-sm bg-primary m-b20">
                                         <a href="#" className="icon-cell">
@@ -40,7 +40,7 @@ export default function BusinessWork() {
                                         </div>
                                     </div>
                                     </div>
-                                    <div className="col-lg-4 col-md-12 col-sm-12 m-b30">
+                                    <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded">
                                         <div className="icon-bx-sm radius bg-primary m-b20">
                                         <a href="#" className="icon-cell">
@@ -57,7 +57,7 @@ export default function BusinessWork() {
                                         </div>
                                     </div>
                                     </div>
-                                    <div className="col-lg-4 col-md-12 col-sm-12 m-b30">
+                                    <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded">
                                         <div className="icon-bx-sm text-primary bg-white radius border-1 m-b20">
                                         <a href="#" className="icon-cell text-primary">
@@ -74,15 +74,9 @@ export default function BusinessWork() {
                                         </div>
                                     </div>
                                     </div>
-                                   
-                                   
-                                </div>
-                           </div>
-                        </div>
-                        <div className="row">
-                           <div className="col-12 m-auto" >
-                                <div className="row d-flex justify-content-center">
-                                        <div className="col-lg-4 col-md-12 col-sm-12 m-b30">
+
+                                  
+                                        <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded">
                                         <div className="icon-bx-sm bg-primary m-b20">
                                         <a href="#" className="icon-cell">
@@ -100,7 +94,7 @@ export default function BusinessWork() {
                                         </div>
                                     </div>
                                     </div>
-                                    <div className="col-lg-4 col-md-12 col-sm-12 m-b30">
+                                    <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded">
                                         <div className="icon-bx-sm radius bg-primary m-b20">
                                         <a href="#" className="icon-cell">
@@ -117,12 +111,20 @@ export default function BusinessWork() {
                                         </div>
                                     </div>
                                     </div>
+                                   
+                                   
+                                </div>
+                           {/* </div> */}
+                        </div>
+                        {/* <div className="row">
+                           <div className="col-12 m-auto" >
+                                
                                     
                                   
                                    
                                 </div>
                            </div>
-                        </div>
+                        </div> */}
                     </div>
                       
                     
@@ -136,6 +138,170 @@ export default function BusinessWork() {
       
         {/* content END */}
       </div>
+
+
+      <div className="section-full bg-gray content-inner">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-lg-11 m-auto">
+             
+                
+                <div className="section-content box-sort-in p-b0 button-example">
+                  <div className="row">
+                    <div className="col-lg-3 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                        <div className="icon-sm text-primary radius">
+                          <a href="#" className="icon-cell text-red">
+                            <i className="ti-video-clapper" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Lorem ipsum dolor
+                          </h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit, sed diam nonummy nibh euismod.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                        <div className="icon-xs text-primary radius">
+                          <a href="#" className="icon-cell text-orange">
+                            <i className="ti-gift" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Lorem ipsum dolor
+                          </h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit, sed diam nonummy nibh euismod.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                        <div className="icon-sm text-primary radius">
+                          <a href="#" className="icon-cell text-red">
+                            <i className="ti-video-clapper" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Lorem ipsum dolor
+                          </h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit, sed diam nonummy nibh euismod.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                        <div className="icon-xs text-primary radius">
+                          <a href="#" className="icon-cell text-orange">
+                            <i className="ti-gift" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Lorem ipsum dolor
+                          </h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit, sed diam nonummy nibh euismod.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-lg-3 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                        <div className="icon-sm text-primary radius">
+                          <a href="#" className="icon-cell text-red">
+                            <i className="ti-video-clapper" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Lorem ipsum dolor
+                          </h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit, sed diam nonummy nibh euismod.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                        <div className="icon-xs text-primary radius">
+                          <a href="#" className="icon-cell text-orange">
+                            <i className="ti-gift" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Lorem ipsum dolor
+                          </h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit, sed diam nonummy nibh euismod.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                        <div className="icon-sm text-primary radius">
+                          <a href="#" className="icon-cell text-red">
+                            <i className="ti-video-clapper" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Lorem ipsum dolor
+                          </h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit, sed diam nonummy nibh euismod.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                        <div className="icon-xs text-primary radius">
+                          <a href="#" className="icon-cell text-orange">
+                            <i className="ti-gift" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Lorem ipsum dolor
+                          </h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit, sed diam nonummy nibh euismod.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+   
+
     </>
   );
 }

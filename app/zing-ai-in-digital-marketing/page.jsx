@@ -46,7 +46,7 @@ export default function page() {
         "AI-Driven Customer Insights",
         
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/zing-digital-marketing-mastery/digital-marketing-foundations.jpg"
     },
     {
       title:"Module 2: AI in SEO & Content Creation",
