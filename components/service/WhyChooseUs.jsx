@@ -46,7 +46,7 @@ export default function WhyChooseUs() {
           {services11.map((item, index) => (
             <div
               key={index}
-              className={`col-lg-4 col-md-6 col-sm-12 m-b30 wow ${item.wowClass}`}
+              className={`col-lg-4 col-md-6 col-sm-12 mb-5 m-auto wow ${item.wowClass}`}
               data-wow-duration="2s"
               data-wow-delay={item.wowDelay}
             >

@@ -20,8 +20,7 @@ export default function BusinessWork() {
                 <div className="section-content box-sort-in button-example p-b0">
                     <div className="container-fluid m-auto" >
 
-                        <div className="row">
-                           {/* <div className="col-12 m-auto" > */}
+                        
                                 <div className="row d-flex justify-content-center ">
                                         <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded">
@@ -114,17 +113,7 @@ export default function BusinessWork() {
                                    
                                    
                                 </div>
-                           {/* </div> */}
-                        </div>
-                        {/* <div className="row">
-                           <div className="col-12 m-auto" >
-                                
-                                    
-                                  
-                                   
-                                </div>
-                           </div>
-                        </div> */}
+                          
                     </div>
                       
                     

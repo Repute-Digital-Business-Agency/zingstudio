@@ -83,7 +83,7 @@ export default function DedicatedSupport() {
             data-wow-duration="2s"
             data-wow-delay="0.3s"
           >
-            <div className="radius-sm m-b30 ">
+            <div className="radius-sm m-b30 " style={{width:"100%"}}>
               <Image className="choose-Zf-img"
                 alt=""
                 src="/images/about/pic12.jpg"

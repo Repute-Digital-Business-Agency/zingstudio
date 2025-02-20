@@ -18,7 +18,7 @@ export default function Industriesworked() {
             </div>
                 {/* icon box style 1 aligh center */}
                 <div className="section-content box-sort-in button-example p-b0">
-                    <div className="container m-auto" >
+                    <div className="container-fluid m-auto" >
 
                         <div className="row">
                            <div className="col-12 m-auto" >
@@ -98,14 +98,7 @@ export default function Industriesworked() {
                                         </div>
                                     </div>
                                     </div>
-                                   
-                                </div>
-                           </div>
-                        </div>
-                        <div className="row">
-                           <div className="col-12 m-auto" >
-                                <div className="row d-flex justify-content-center">
-                                        <div className="col-lg-2 col-md-6 col-sm-6 m-b30">
+                                    <div className="col-lg-2 col-md-6 col-sm-6 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded">
                                         <div className="icon-bx-sm bg-primary m-b20">
                                         <a href="#" className="icon-cell">
@@ -120,6 +113,13 @@ export default function Industriesworked() {
                                         </div>
                                     </div>
                                     </div>
+                                </div>
+                           </div>
+                        </div>
+                        <div className="row">
+                           <div className="col-12 m-auto" >
+                                <div className="row d-flex justify-content-center">
+                                        
                                     <div className="col-lg-2 col-md-6 col-sm-6 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded">
                                         <div className="icon-bx-sm radius bg-primary m-b20">
