@@ -1,5 +1,5 @@
 import Footer13 from "@/components/footers/Footer13";
-import Header15 from "@/components/headers/Header15";
+
 import Blog1 from "@/components/homes/home-15/Blog1";
 import Blogs2 from "@/components/homes/home-15/Blogs2";
 import Hero from "@/components/homes/home-15/Hero";
@@ -16,7 +16,7 @@ export const metadata = {
 export default function page() {
   return (
     <div className="page-wraper  ">
-      <Header15 />
+   
       <Hero />
       <div className="page-content bg-white">
         <div className="content-block">

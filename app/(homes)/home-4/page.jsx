@@ -1,5 +1,5 @@
-import Footer4 from "@/components/footers/Footer4";
-import Header4 from "@/components/headers/Header4";
+
+
 import About from "@/components/homes/home-4/About";
 import Blogs from "@/components/homes/home-4/Blogs";
 import Clients from "@/components/homes/home-4/Clients";
@@ -19,7 +19,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper ">
-        <Header4 />
+     
         <div className="page-content bg-white">
           <Hero />
           <div className="content-block">
@@ -33,7 +33,7 @@ export default function page() {
             <Clients />
           </div>
         </div>
-        <Footer4 />
+    
       </div>
     </>
   );

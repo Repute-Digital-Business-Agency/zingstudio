@@ -12,7 +12,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        
         <div className="page-content bg-white">
           {" "}
           <div
@@ -39,7 +39,7 @@ export default function page() {
             <Blogs8 />
           </div>
         </div>
-        <Footer15 />
+        
       </div>
     </>
   );

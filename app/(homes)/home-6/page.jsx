@@ -1,5 +1,5 @@
-import Footer6 from "@/components/footers/Footer6";
-import Header6 from "@/components/headers/Header6";
+
+
 import Blogs from "@/components/homes/home-3/Blogs";
 
 import About from "@/components/homes/home-6/About";
@@ -21,7 +21,7 @@ export default function page() {
     <>
       <div className="page-wraper ">
         <Hero />
-        <Header6 />
+        
         <div className="page-content bg-white">
           <div className="content-block">
             <About />
@@ -34,7 +34,7 @@ export default function page() {
             <Blogs />
           </div>
         </div>
-        <Footer6 />
+       
       </div>
     </>
   );

@@ -1,11 +1,11 @@
 
 import Link from "next/link";
-import Footer16 from "@/components/footers/Footer16";
+
 
 import Register from "@/components/shop/Register";
 import ShopFeatures from "@/components/shop/ShopFeatures";
 import React from "react";
-import Header22 from "@/components/headers/Header22";
+
 
 export const metadata = {
   title: "Register || Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -15,7 +15,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header22 />
+        
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
@@ -41,7 +41,7 @@ export default function page() {
 
           <ShopFeatures />
         </div>
-        <Footer16 />
+        
       </div>
     </>
   );

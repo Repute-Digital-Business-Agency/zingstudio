@@ -63,7 +63,7 @@ export default function page() {
           {/* <Testimonial /> */}
         </div>
         <Cta />
-        {/* <Footer2 contactSection="false" /> */}
+        
         <Footer13 />
       </div>
     </>

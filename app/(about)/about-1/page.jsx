@@ -15,7 +15,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        
         <div className="page-content bg-white">
           <Banner />
           <About />
@@ -24,7 +24,7 @@ export default function page() {
           <Pricing />
           <Testimonials />
         </div>
-        <Footer15 />
+        
       </div>
     </>
   );

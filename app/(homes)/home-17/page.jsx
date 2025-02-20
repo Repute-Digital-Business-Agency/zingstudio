@@ -1,4 +1,4 @@
-import Footer1 from "@/components/footers/Footer1";
+
 
 import About from "@/components/homes/home-1/About";
 import Blogs from "@/components/homes/home-1/Blogs";
@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        
         <div className="page-content bg-white">
           <Socials />
           <div className="content-block">
@@ -33,7 +33,7 @@ export default function Home() {
             <Clients />
           </div>
         </div>
-        <Footer1 />
+        
       </div>
     </>
   );

@@ -19,7 +19,7 @@ console.log('✌️params --->', params);
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
@@ -47,7 +47,7 @@ console.log('✌️params --->', params);
             <ProjectDetails projectItem={projectItem} />
           </div>
         </div>
-        <Footer15 />
+        
       </div>
     </>
   );

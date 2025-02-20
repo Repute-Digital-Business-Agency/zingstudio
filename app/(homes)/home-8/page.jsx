@@ -1,5 +1,4 @@
-import Footer8 from "@/components/footers/Footer8";
-import Header8 from "@/components/headers/Header8";
+
 import About from "@/components/homes/home-8/About";
 import Gallery from "@/components/homes/home-8/Gallery";
 import Hero from "@/components/homes/home-8/Hero";
@@ -17,7 +16,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper frame-box  ">
-        <Header8 />
+       
         <div className="page-content">
           <div className="content-block area-frame">
             <div className="container">
@@ -31,7 +30,7 @@ export default function page() {
             </div>
           </div>
         </div>
-        <Footer8 />
+    
       </div>
     </>
   );

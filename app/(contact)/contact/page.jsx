@@ -15,7 +15,7 @@ export default function page() {
       <div className="page-wraper contact-page">
         <Header17 />
         <Contact2 />
-        {/* <Footer2 contactSection="false"/> */}
+       
         <Footer13 />
       </div>
     </>

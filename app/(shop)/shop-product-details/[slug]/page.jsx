@@ -1,11 +1,11 @@
 import Link from "next/link";
-import Footer16 from "@/components/footers/Footer16";
+
 
 import ShopDetails from "@/components/shop/ShopDetails";
 import ShopFeatures from "@/components/shop/ShopFeatures";
 import React from "react";
 import { products } from "@/data/products";
-import Header22 from "@/components/headers/Header22";
+
 
 export const metadata = {
   title:
@@ -19,7 +19,7 @@ export default function page({ params }) {
   return (
     <>
       <div className="page-wraper  ">
-        <Header22 />
+        
         <div className="page-content bg-white">
           <div
             className="dlab-bnr-inr overlay-black-middle bg-pt"
@@ -45,7 +45,7 @@ export default function page({ params }) {
 
           <ShopFeatures />
         </div>
-        <Footer16 />
+        
       </div>
     </>
   );

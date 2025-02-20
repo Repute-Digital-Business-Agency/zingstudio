@@ -50,7 +50,7 @@ export default function page() {
           {/* <Testimonials /> */}
         </div>
         <Cta/>
-        {/* <Footer2 contactSection="true" /> */}
+        
         <Footer13 />
       </div>
     </>

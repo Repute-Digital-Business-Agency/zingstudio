@@ -1,5 +1,4 @@
-import Footer10 from "@/components/footers/Footer10";
-import Header10 from "@/components/headers/Header10";
+
 import About from "@/components/homes/home-10/About";
 import Blogs from "@/components/homes/home-10/Blogs";
 import Facts from "@/components/homes/home-10/Facts";
@@ -18,7 +17,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper roboto-condensed  ">
-        <Header10 />
+    
         <div className="page-content bg-white home-slider-10">
           <Hero />
           <div className="content-block">
@@ -31,7 +30,7 @@ export default function page() {
             <Blogs />
           </div>
         </div>
-        <Footer10 />
+
       </div>
     </>
   );

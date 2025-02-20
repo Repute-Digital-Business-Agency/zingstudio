@@ -11,7 +11,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        
         <div className="page-content bg-white">
           <div className="section-full dz_error-405 content-inner bg-gray">
             <div className="container">
@@ -33,7 +33,7 @@ export default function page() {
             </div>
           </div>
         </div>
-        <Footer15 />
+        
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 import Testimonials from "@/components/common/Testimonials";
 import Footer13 from "@/components/footers/Footer13";
-import Header13 from "@/components/headers/Header13";
+
 import Blogs from "@/components/homes/home-13/Blogs";
 import Cta from "@/components/homes/home-13/Cta";
 import Fact from "@/components/homes/home-13/Fact";
@@ -17,7 +17,7 @@ export const metadata = {
 export default function page() {
   return (
     <div className="page-wraper  ">
-      <Header13 />
+
       <Hero />
       <div className="page-content bg-white">
         <div className="content-block">

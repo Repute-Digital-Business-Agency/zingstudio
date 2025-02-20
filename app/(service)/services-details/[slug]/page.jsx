@@ -18,14 +18,14 @@ export default function page({ params }) {
   return (
     <>
       <div className="page-wraper  ">
-        <Header1 />
+        
         <div className="page-content bg-white">
           <Banner3 />
           <div className="content-block">
             <ServiceDetails serviceItem={serviceItem} />
           </div>
         </div>
-        <Footer15 />
+        
       </div>
     </>
   );

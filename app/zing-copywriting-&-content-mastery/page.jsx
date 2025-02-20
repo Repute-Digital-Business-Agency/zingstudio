@@ -489,7 +489,7 @@ export default function page() {
         </div>
 
         <ZingAcademyCta/>
-        {/* <Footer2 contactSection="true" /> */}
+        
         <Footer13 />
       </div>
     </>

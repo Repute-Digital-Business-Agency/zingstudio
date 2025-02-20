@@ -44,7 +44,7 @@ export default function page() {
         <Facts/>
           <ProcessForInfluencer/> */}
         <Cta />
-        {/* <Footer2 contactSection="true" /> */}
+        
         <Footer13 />
       </div>
     </>

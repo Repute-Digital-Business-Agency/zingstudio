@@ -54,7 +54,7 @@ export default function page() {
             <LinkedInMarketingDetails />
           </div>
         </div>
-        {/* <Footer2  contactSection="true"/> */}
+        
         <Footer13 />
       </div>
     </>

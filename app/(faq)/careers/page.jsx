@@ -42,7 +42,7 @@ export default function page() {
           <Faq1 />
         </div>
         <Cta />
-        {/* <Footer2 contactSection="true" /> */}
+        
         <Footer13 />
       </div>
     </>

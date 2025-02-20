@@ -44,7 +44,7 @@ export default function ExpertsHub() {
         </div>
         <ExpertsCta />
 
-        {/* <Footer2 contactSection="true" /> */}
+        
         <Footer13 />
       </div>
     </>

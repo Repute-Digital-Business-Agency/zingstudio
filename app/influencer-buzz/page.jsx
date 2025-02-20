@@ -237,7 +237,7 @@ export default function page() {
         <InfluencerBuzzCta/>
         <InfluencerBuzzFAQ faqData={faqData}/>
         <Cta/>
-        {/* <Footer2 contactSection="true" /> */}
+        
         <Footer13 />
       </div>
     </>

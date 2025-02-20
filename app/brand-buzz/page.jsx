@@ -272,7 +272,7 @@ export default function page() {
       
         <InfluencerBuzzFAQ faqData={faqData}/>
         <BrandBuzzCta/>
-        {/* <Footer2 contactSection="true" /> */}
+        
         <Footer13 />
       </div>
     </>

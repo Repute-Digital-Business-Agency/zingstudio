@@ -1,5 +1,4 @@
-import Footer7 from "@/components/footers/Footer7";
-import Header7 from "@/components/headers/Header7";
+
 import About from "@/components/homes/home-7/About";
 import Blogs from "@/components/homes/home-7/Blogs";
 import Cta from "@/components/homes/home-7/Cta";
@@ -19,7 +18,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper ">
-        <Header7 />
+
         <div className="page-content bg-white home-slider-7">
           <Hero />
           <div className="content-block">
@@ -33,7 +32,6 @@ export default function page() {
             <Blogs />
           </div>
         </div>
-        <Footer7 />
       </div>
     </>
   );

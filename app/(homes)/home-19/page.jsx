@@ -1,5 +1,5 @@
-import Footer9 from "@/components/footers/Footer9";
-import Header18 from "@/components/headers/Header18";
+
+
 import Hero from "@/components/homes/home-19/Hero";
 import Blog from "@/components/homes/home-9/Blog";
 import Cta from "@/components/homes/home-9/Cta";
@@ -18,7 +18,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper ">
-        <Header18 />
+      
         <div className="page-content bg-white">
           <Hero />
           <div className="content-block">
@@ -31,7 +31,7 @@ export default function page() {
             <Blog />
           </div>
         </div>
-        <Footer9 />
+
       </div>
     </>
   );

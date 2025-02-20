@@ -1,5 +1,5 @@
-import Footer3 from "@/components/footers/Footer3";
-import Header3 from "@/components/headers/Header3";
+
+
 import About from "@/components/homes/home-3/About";
 import Blogs from "@/components/homes/home-3/Blogs";
 import Cta from "@/components/homes/home-3/Cta";
@@ -19,7 +19,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper ">
-        <Header3 />
+   
         <div className="page-content bg-white">
           <Hero />
           <div className="content-block">
@@ -56,7 +56,7 @@ export default function page() {
             <Cta2 />
           </div>
         </div>
-        <Footer3 />
+   
       </div>
     </>
   );

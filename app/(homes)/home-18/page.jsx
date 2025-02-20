@@ -1,4 +1,4 @@
-import Footer1 from "@/components/footers/Footer1";
+
 
 import About from "@/components/homes/home-1/About";
 import Blogs from "@/components/homes/home-1/Blogs";
@@ -18,7 +18,7 @@ export default function Home1() {
   return (
     <>
       <div className="page-wraper ">
-        <Header1 />
+        
         <div className="page-content bg-white">
           <Hero />
           <About />
@@ -30,7 +30,7 @@ export default function Home1() {
           <Blogs />
           <Clients />
         </div>
-        <Footer1 />
+        
       </div>
     </>
   );

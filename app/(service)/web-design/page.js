@@ -49,7 +49,7 @@ export default function page() {
             <WebDesignDetails />
           </div>
         </div>
-        {/* <Footer2 contactSection="true" /> */}
+        
         <Footer13 />
       </div>
     </>

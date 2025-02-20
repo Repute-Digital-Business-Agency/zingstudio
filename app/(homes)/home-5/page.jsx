@@ -1,5 +1,5 @@
-import Footer5 from "@/components/footers/Footer5";
-import Header5 from "@/components/headers/Header5";
+
+
 import About from "@/components/homes/home-5/About";
 import Blogs from "@/components/homes/home-5/Blogs";
 import Hero from "@/components/homes/home-5/Hero";
@@ -19,7 +19,7 @@ export default function page() {
   return (
     <>
       <div className="page-wraper roboto-condensed ">
-        <Header5 />
+       
         <div className="page-content bg-white home-slider-5">
           <Hero />
           <div className="content-block">
@@ -33,7 +33,7 @@ export default function page() {
             <Blogs />
           </div>
         </div>
-        <Footer5 />
+     
       </div>
     </>
   );

@@ -44,7 +44,7 @@ export default function page() {
 
 
         <Cta />
-        {/* <Footer2 contactSection="true" /> */}
+        
         <Footer13 />
       </div>
     </>

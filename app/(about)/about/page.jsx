@@ -32,7 +32,7 @@ export default function page() {
           <AboutCta />
 
         </div>
-        {/* <Footer2 contactSection="false" /> */}
+        
         <Footer13 />
       </div>
     </>

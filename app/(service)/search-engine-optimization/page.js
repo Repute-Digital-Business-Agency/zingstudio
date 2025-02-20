@@ -51,7 +51,7 @@ export default function page() {
             <SeoDetails />
           </div>
         </div>
-        {/* <Footer2 contactSection="true" /> */}
+        
         <Footer13 />
       </div>
     </>
