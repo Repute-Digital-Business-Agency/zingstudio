@@ -86,14 +86,10 @@ export default function Footer13() {
             >
               <div className="icon-bx-wraper bx-style-1 m-b15 p-a30 radius-sm br-col-w1 bg-tpw1">
                 <h6 className="font-weight-500" style={{ color: "#1A43BF" }}>
-                  Business, E-Commerce, Digital Marketing, Ideas or Just a
-                  Coffee
+                Creative Solutions. Impactful Results. Affordable Excellence
                 </h6>
                 <p>
-                  Fuel your ambition with expertise in Business, E-Commerce, and
-                  Digital Marketing. Spark fresh ideas or simply enjoy a
-                  conversation over coffee. Let’s turn your vision into
-                  reality—one idea at a time!
+                Zing Studio delivers exceptional web design, digital marketing, and branding solutions tailored to help businesses grow and succeed. With a focus on creativity, quality, and affordability, we turn ideas into impactful digital experiences that drive results.
                 </p>
               </div>
             </div>

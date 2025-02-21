@@ -430,11 +430,22 @@ export default function page() {
         },
       
       ];
+
+      const HeroBannerContent = {
+        title:"Power Up Your Skills, Power Up Your Career!",
+        description:"Zing Academy – Master Digital Marketing with Industry Experts!",
+        btn1:"Free Career Counselling",
+        btn1Link:"/careers",
+        btn2:"Connect Us",
+        btn2Link:"/contact",
+        img:"/images/Academy/banner/banner-bg-img.jpg"
+        }
+        
   return (
     <>
       <div className="page-wraper  ">
         <Header17 />
-         <ZingAcademyProgramHero/>
+         <ZingAcademyProgramHero HeroBannerContent={HeroBannerContent}/>
          <div
               className="section-full content-inner-2 bg-primary wow fadeIn"
               data-wow-duration="2s"
