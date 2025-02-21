@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-export default function OurWorkServices({portfolioItems}) {
+export default function OurWorkServices({portfolioItems,portfolioContent}) {
 
   
   return (
@@ -18,7 +18,7 @@ export default function OurWorkServices({portfolioItems}) {
         <div className="section-head style2 text-center">
           <h2 className="title m-b10">Our Works</h2>
           <p>
-            Check out how we turn clicks into connections! From buzzworthy social media campaigns to SEO strategies that rank, our digital marketing projects are all about making brands shine and results soar.
+            {portfolioContent?.description}
           </p>
         </div>
         

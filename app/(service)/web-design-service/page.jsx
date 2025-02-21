@@ -88,6 +88,10 @@ export default function page() {
         "Custom-built static or dynamic CMS solutions tailored to your business needs."
       ]
     }
+
+    const portfolioContent ={
+     description: "Check out our lineup of stunning websites that pop, perform, and leave a mark! At Zing Studio, we blend bold designs with smooth vibes to craft digital spaces that turn clicks into customers. From trendy business sites to vibrant online stores, our creations are all about making your brand shine."
+    }
     const portfolioItems = [
       {
         title: "Prade Jewels",
@@ -141,7 +145,7 @@ export default function page() {
         <ServiceList data={WebDevelopment} head={"Web Design"}/>
         <ServiceCta/>
         {/* <Portfolio/> */}
-        <OurWorkServices portfolioItems={portfolioItems}/>
+        <OurWorkServices portfolioItems={portfolioItems} portfolioContent={portfolioContent}/>
         {/* <Faq/> */}
         <Cta />
         <Footer13 />

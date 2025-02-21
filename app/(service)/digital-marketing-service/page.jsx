@@ -86,6 +86,10 @@ export default function page() {
       ]
     }
 
+    const portfolioContent ={
+      description: "Check out how we turn clicks into connections! From buzzworthy social media campaigns to SEO strategies that rank, our digital marketing projects are all about making brands shine and results soar."
+     }
+
     const portfolioItems = [
       {
         title: "Prade Jewels",
@@ -138,7 +142,7 @@ export default function page() {
         <ServiceList data={DigitalMarketing} head={"Digital Marketing"}/>
         <ServiceCta/>
         {/* <Portfolio/> */}
-        <OurWorkServices portfolioItems={portfolioItems}/>
+        <OurWorkServices portfolioItems={portfolioItems} portfolioContent={portfolioContent}/>
         {/* <Faq/> */}
         <Cta/>
         
