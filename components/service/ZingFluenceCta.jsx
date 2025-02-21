@@ -1,15 +1,17 @@
 import React from "react";
 import Link from "next/link";
-export default function BrandBuzzCta() {
+export default function ZingFluenceCta() {
   return (
     <div className="section-full call-action  wow fadeIn"  data-wow-duration="2s" data-wow-delay="0.2s" style={{background:"#e21100"}}>
       <div className="container">
         <div className="row">
           <div className="col-lg-9 text-white wow fadeInUp"
       data-wow-delay="1s">
-            <h2 className="title">Ready to Amplify Your Brand? Let’s Create the Buzz Together! </h2>
+            <h2 className="title">Let’s Influence Together!
+            </h2>
             <p className="m-b0">
-            Partner with Zingfluence to drive growth and engagement with the most influential voices across the digital space.
+            Ready to make some noise?  Let’s team up and create influencer campaigns that shine, spark engagement, and get your brand buzzing! Let’s do this!
+
 
             </p>
           </div>

@@ -44,12 +44,10 @@ export default function DedicatedSupport() {
               </div>
               <div className="icon-content">
                 <h4 className="dlab-tilte">
-                  10% disounted cost for Women Entrepreneurs:
+                We've Got Your Back
                 </h4>
                 <p className="" style={{color:"#282222"}}>
-                  We believe in supporting women entrepreneurs on their journey
-                  to success, that’s why we offer a 10% discount on our services
-                  to help them grow their businesses with ease and confidence.
+                From start to finish, our support squad is here to keep things running smoothly and answer your questions—fast and hassle-free.
                 </p>
               </div>
             </div>
@@ -64,12 +62,10 @@ export default function DedicatedSupport() {
               </div>
               <div className="icon-content">
                 <h4 className="dlab-tilte">
-                  Turning Career Breaks into Breakthroughs for Women:
+                You Create, We Handle the Rest
                 </h4>
                 <p className="" style={{color:"#282222"}}>
-                  We prioritize hiring and providing a supportive platform for
-                  women and encouraging those who have taken a career break to
-                  restart and thrive in their professional journey.
+                Focus on delivering standout content while we take care of the details. Smooth plans, flawless execution—your success, our mission.
                 </p>
               </div>
             </div>

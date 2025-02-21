@@ -38,7 +38,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
 
             <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInLeft"
               data-wow-delay="0.8s"  style={{textWrap:"wrap"}}>
-            Join Now and Turn Your Influence into Income!
+            {bannerContent.button}
               {/* <i className="fas fa-angle-double-right ms-2" /> */}
             </a>
 
@@ -64,7 +64,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
           <div className="radius-sm  ">
               <img className="choose-Zf-img"
                 alt=""
-                src="/images/header.png"
+                src={bannerContent.image}
                 // width="600"
                 // height="722"
                  style={{
@@ -85,7 +85,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
               
             >
               <h3 className="title-box font-weight-300 m-t0 m-b10">
-              Let’s Bring Your Vision to Life!
+              {bannerContent.formTitle}
                 <span className="bg-primary" />
               </h3>
               {/* <p>

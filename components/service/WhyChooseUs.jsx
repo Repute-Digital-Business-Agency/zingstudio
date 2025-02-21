@@ -8,25 +8,25 @@ export default function WhyChooseUs() {
           iconClass: "flaticon-robot-arm",
           title: "Instant Setup",
           description:
-            " Easy onboarding to start earning quickly.",
+            " EWe connect you with reputable brands that align with your personal style and values, ensuring collaborations feel natural and resonate with your audience.",
           wowClass: "fadeInLeft",
           wowDelay: "0.3s",
         },
         {
           id: 150,
           iconClass: "flaticon-factory-1",
-          title: "Diverse Opportunities",
+          title: "Creative Freedom",
           description:
-            "Connect with brands that match your niche and style.",
+            "Your voice matters. We provide the flexibility to express your creativity while offering strategic guidance to deliver impactful campaigns that engage and inspire.",
           wowClass: "fadeInDown",
           wowDelay: "0.3s",
         },
         {
           id: 151,
           iconClass: "flaticon-fuel-station",
-          title: "Transparent Tracking: ",
+          title: "Growth Opportunities",
           description:
-            " Monitor your performance and earnings in real-time.",
+            "Expand your reach through high-visibility campaigns and exclusive collaborations. We help you build your personal brand, offering opportunities that elevate your influence and open doors to future partnerships.",
           wowClass: "fadeInRight",
           wowDelay: "0.3s",
         },

@@ -40,38 +40,59 @@ export default function page() {
           "Connect with your ideal customers at the exact moment they are searching.",
           "Achieve measurable results without the high expenses of traditional marketing.",
           "Result-driven strategies that target potential customers with precision, leading to high-conversion leads and increased sales for your business."
-        ]
+        ],
+        button:"Join Now and Turn Your Influence into Income!",
+        image:"/images/header.png",
+        formTitle:"Let’s Bring Your Vision to Life!"
       }
       const faqData = [
         {
           id: "faq6",
-          question: "1. Web design aorem apsum dolor sit amet?",
+          question: "1. How do I join Influencer Buzz?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "Simply sign up on our platform, complete your profile, and we’ll connect you with brand collaborations that match your style and audience.",
         },
         {
           id: "faq7",
-          question: "2. Graphic design aorem apsum dolor?",
+          question: "2. What types of brands can I collaborate with?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "We partner with a wide range of brands across fashion, beauty, tech, lifestyle, and more—ensuring there’s something for every influencer.",
         },
         {
           id: "faq8",
-          question: "3. Development aorem apsum dolor sit amet?",
+          question: "3. Do I need a minimum number of followers?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "Payment terms vary by campaign, but we ensure secure and timely payments once campaign requirements are met.",
         },
         {
           id: "faq9",
-          question: "4. True Responsiveness consectetuer adipiscing?",
+          question: "4. How do I get paid for collaborations?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "Payment terms vary by campaign, but we ensure secure and timely payments once campaign requirements are met.",
         },
         {
           id: "faq10",
-          question: "5. Claritas est etiam processus?",
+          question: "5. Can I choose the campaigns I want to work on?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "Absolutely! You have complete freedom to choose the campaigns that resonate with your audience and personal brand.",
+        },
+        {
+          id: "faq11",
+          question: "6. What kind of support will I receive?",
+          answer:
+            "Our dedicated support team is available throughout the collaboration process, offering guidance, campaign insights, and troubleshooting whenever needed.",
+        },
+        {
+          id: "faq12",
+          question: "7. How are collaborations managed?",
+          answer:
+            "We handle the logistics, timelines, and brand communication so you can focus on creating engaging content that delivers results.",
+        },
+        {
+          id: "faq13",
+          question: "8. Will I have creative control over my content?",
+          answer:
+            "Yes! We value your unique voice and style, giving you the freedom to create content that feels authentic to you while aligning with brand goals.",
         },
       ];
 
@@ -229,10 +250,11 @@ export default function page() {
 
         <BenifitsOfBuzz/>
       <DedicatedSupport/>
-      <Industriesworked/>
 
-     <InfluencerBuzzTestimonial testimonials={testimonials}/>
-     <BrandsWorkWith ToolsContent={ToolsContent} Tools1={Tools1}/>
+      {/* <Industriesworked/> */}
+
+     {/* <InfluencerBuzzTestimonial testimonials={testimonials}/> */}
+     {/* <BrandsWorkWith ToolsContent={ToolsContent} Tools1={Tools1}/> */}
 
         <InfluencerBuzzCta/>
         <InfluencerBuzzFAQ faqData={faqData}/>

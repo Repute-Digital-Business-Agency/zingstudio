@@ -11,9 +11,8 @@ export default function HowDoesItWork() {
           No:"1",
           imgSrc: "/images/gallery/car/pic1.jpg",
           iconClass: "ti-user",
-          title: "Largest Dealership",
-          description:
-            "Lorem Ipsum is simply dummy text of the printing and type setting industry.Lorem Ipsum is simply dummy text.Our team will contact you for further procedures after completing the sign-up process",
+          title: "Right Brands",
+          description: "We match you with brands that align with your style, values, and audience for authentic collaborations.",
           animation: "fadeInLeft",
           delay: "0.3s",
         },
@@ -22,10 +21,9 @@ export default function HowDoesItWork() {
           No:"2",
           imgSrc: "/images/gallery/car/pic2.jpg",
           iconClass: "ti-settings",
-          title: "Lower Car Prices",
+          title: "Plan & Collaborate",
           description:
-            "Lorem Ipsum is simply dummy text of the printing and type setting industry.Lorem Ipsum is simply dummy text.Our team will contact you for further procedures after completing the sign-up process",
-          animation: "fadeInRight",
+            "Work closely with our team to design creative campaigns that highlight your unique voice.",
           delay: "0.3s",
         },
         {
@@ -33,9 +31,9 @@ export default function HowDoesItWork() {
           No:"3",
           imgSrc: "/images/gallery/car/pic3.jpg",
           iconClass: "ti-support",
-          title: "Multipoint Safety",
+          title: "Create & Share",
           description:
-            "Lorem Ipsum is simply dummy text of the printing and type setting industry.Lorem Ipsum is simply dummy text.Our team will contact you for further procedures after completing the sign-up process",
+            "Bring campaigns to life with engaging content that resonates with your followers across digital platforms.",
           animation: "fadeInDown",
           delay: "0.3s",
         },
@@ -44,9 +42,9 @@ export default function HowDoesItWork() {
             No:"4",
             imgSrc: "/images/gallery/car/pic3.jpg",
             iconClass: "ti-support",
-            title: "Multipoint Safety",
+            title: "Measure & Grow",
             description:
-              "Lorem Ipsum is simply dummy text of the printing and type setting industry.Lorem Ipsum is simply dummy text.Our team will contact you for further procedures after completing the sign-up process",
+              "Track performance, gain insights, and unlock new opportunities to expand your reach and influence.",
             animation: "fadeInUp",
             delay: "0.3s",
           },
@@ -91,10 +89,11 @@ export default function HowDoesItWork() {
                         </span>
                       </div>
                       <div className="icon-content d-flex justify-content-evenly">
-                        <b style={{fontSize:"36px"}}>{item.No}</b>
+                        {/* <b style={{fontSize:"36px"}}>{item.No}</b> */}
                         <h5 style={{position:"relative", top:"15px"}} className="dlab-tilte">{item.title}</h5>
-                        {/* <p style={{color:"#282222"}}>{item.description}</p> */}
+                        
                       </div>
+                      <p className="mt-2" style={{color:"#282222"}}>{item.description}</p>
                     </div>
                     {/* <div className="icon-box-btn text-center">
                       <Link

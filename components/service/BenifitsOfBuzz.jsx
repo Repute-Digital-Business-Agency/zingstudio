@@ -6,9 +6,9 @@ export default function BenifitsOfBuzz() {
    const foodItems = [
     {
       imgSrc: "/images/icon/food/icon1.png",
-      title: "Lorem Ipsum",
+      title: "Brand Collaborations",
       description:
-        "I have worked with many companies offering supplemental industrial services, and out of all those companies I have worked with many companies offering supplemental industrial services, and out of all those companies",
+        "Partner with reputable brands that align with your values, enhancing your credibility and audience engagement.",
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInLeft",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
@@ -16,9 +16,9 @@ export default function BenifitsOfBuzz() {
     },
     {
       imgSrc: "/images/icon/food/icon2.png",
-      title: "Lorem Ipsum",
+      title: "Exclusive Campaigns",
       description:
-        "I have worked with many companies offering supplemental industrial services, and out of all those companies. I have worked with many companies offering supplemental industrial services, and out of all those companies",
+        "Access high-profile campaigns, product launches, and partnerships tailored to showcase your unique voice and expertise.",
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInUp",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
@@ -26,9 +26,9 @@ export default function BenifitsOfBuzz() {
     },
     {
       imgSrc: "/images/icon/food/icon3.png",
-      title: "Lorem Ipsum",
+      title: "Monetize Your Influence",
       description:
-        "I have worked with many companies offering supplemental industrial services, and out of all those companies. I have worked with many companies offering supplemental industrial services, and out of all those companies",
+        "Leverage your platform through paid collaborations, sponsorships, and long-term brand partnerships, turning your influence into sustainable income.",
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInDown",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
@@ -36,13 +36,33 @@ export default function BenifitsOfBuzz() {
     },
     {
       imgSrc: "/images/icon/food/icon4.png",
-      title: "Lorem Ipsum",
+      title: "Expand Your Reach",
       description:
-        "I have worked with many companies offering supplemental industrial services, and out of all those companies. I have worked with many companies offering supplemental industrial services, and out of all those companies",
+        "Grow your audience through strategic partnerships and campaigns designed to connect you with new, relevant followers.",
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInRight ",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
       bgColor:"#e2110026"
+    },
+    {
+      imgSrc: "/images/icon/food/icon4.png",
+      title: "Creative Freedom",
+      description:
+        "Maintain your authentic voice with the freedom to create content that reflects your style, supported by strategic guidance when needed.",
+      classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInRight ",
+      dataWowDuration: "2s",
+      dataWowDelay: "0.3s",
+      bgColor:"#e2110026"
+    },
+    {
+      imgSrc: "/images/icon/food/icon4.png",
+      title: "Insightful Analytics",
+      description:
+        "Receive detailed performance analytics to measure campaign success, optimize content strategy, and strengthen your influence.",
+      classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInLeft",
+      dataWowDuration: "2s",
+      dataWowDelay: "0.3s",
+      bgColor:"#e9e9e9"
     },
    
   ];
@@ -50,9 +70,9 @@ export default function BenifitsOfBuzz() {
     <div className="section-full bg-white content-inner">
       <div className="container-fluid">
         <div className="col-10 m-auto" >
-        <div className="row ">
+        <div className="row m-auto justify-content-center">
             <div className="section-head text-center ">
-            <h2 className="title mb-5" >Benifits of Joining Buzzfame !</h2>
+            <h2 className="title mb-5" >Why join Zingluence Buzz ?</h2>
             {/* <p style={{color:"#282222"}}>Amplifying Brands with Influence and Prestige
             </p> */}
             </div>

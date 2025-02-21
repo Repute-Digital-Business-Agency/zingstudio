@@ -40,45 +40,79 @@ export default function page() {
         "Standard",
       ]
       const bannerContent = {
-        head:"Monetize Your Social Media Influence Today!",
-        caption:"Join a Growing Community of Over 200,000 Influencers and",
-        subTitle:"Get Paid for Every POST, TWEET, REEL, SNAP, VIDEO, REVIEW, STORY, SHOOT",
+        head:"Create the Buzz. Build the Brand.",
+        caption:"Harness the power of influencer marketing to amplify your brand’s voice, connect authentically, and make a lasting impact",
+        subTitle:"Level up your brand with influencer vibes that connect, captivate, and convert.",
         list:[
           "Connect with your ideal customers at the exact moment they are searching.",
           "Achieve measurable results without the high expenses of traditional marketing.",
           "Result-driven strategies that target potential customers with precision, leading to high-conversion leads and increased sales for your business."
-        ]
+        ],
+        button:"Let’s Connect and Spotlight Your Brand!",
+        image:"/images/header.png",
+        formTitle:"Let’s turn your brand into the next big thing!"
       }
+
       const faqData = [
         {
           id: "faq6",
-          question: "1. Web design aorem apsum dolor sit amet?",
+          question: "1. What is influencer marketing, and how can it benefit my brand?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "Influencer marketing involves collaborating with influencers who have a loyal following to promote your brand. It boosts brand visibility, builds trust, and drives engagement by leveraging authentic content.",
         },
         {
           id: "faq7",
-          question: "2. Graphic design aorem apsum dolor?",
+          question: "2. How do you select the right influencers for my brand?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "We analyze your brand's target audience, values, and campaign goals to match you with influencers who align perfectly with your brand identity and can deliver measurable results.",
         },
         {
           id: "faq8",
-          question: "3. Development aorem apsum dolor sit amet?",
+          question: "3. What types of influencer partnerships are available?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "We offer various partnership options, including sponsored posts, product reviews, brand ambassadorships, event collaborations, and affiliate marketing campaigns.",
         },
         {
           id: "faq9",
-          question: "4. True Responsiveness consectetuer adipiscing?",
+          question: "4. How is influencer marketing success measured?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "Success is tracked using key performance indicators (KPIs) such as engagement rates, reach, impressions, click-through rates, and conversion metrics tailored to your campaign objectives.",
         },
         {
           id: "faq10",
-          question: "5. Claritas est etiam processus?",
+          question: "5. Is influencer marketing suitable for small businesses?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "Absolutely. Influencer marketing is scalable and can be tailored to suit businesses of all sizes. Micro-influencers, in particular, offer high engagement rates at cost-effective rates.",
+        },
+        {
+          id: "faq11",
+          question: "6. What is the typical duration of an influencer marketing campaign?",
+          answer:
+            "Campaign duration varies based on objectives. It can range from a single post or event promotion to long-term partnerships spanning several months for sustained impact.",
+        },
+        {
+          id: "faq12",
+          question: "7. How much does an influencer marketing campaign cost?",
+          answer:
+            "Costs depend on factors such as influencer reach, engagement rates, content requirements, and campaign duration. We offer customizable packages to suit various budgets.",
+        },
+        {
+          id: "faq13",
+          question: "8. Can influencer marketing help with brand loyalty?",
+          answer:
+            "Yes. Long-term collaborations with influencers who resonate with your audience foster brand trust and loyalty, leading to sustained customer relationships.",
+        },
+        {
+          id: "faq14",
+          question: "9. What industries benefit most from influencer marketing?",
+          answer:
+            "Influencer marketing is highly versatile and works well across industries, including fashion, beauty, technology, travel, lifestyle, food, and fitness.",
+        },
+        {
+          id: "faq15",
+          question: "10. How do you ensure influencer content aligns with our brand values?",
+          answer:
+            "We work closely with both brands and influencers, providing clear guidelines and approval processes to ensure all content aligns with your brand voice and objectives.",
         },
       ];
 
@@ -229,7 +263,9 @@ export default function page() {
         <Header17 />
 
        
-        <BrandBuzzBanner/>
+        {/* <BrandBuzzBanner/> */}
+        <InfluencerBuzzBanner option= {formOption} bannerContent={bannerContent}/>
+
         <BusinessWork/>
 
         <InfluencerMarketingService/>
@@ -246,10 +282,10 @@ export default function page() {
                 <div className="row">
                   <div className="col-lg-12 text-center ">
                     <h2 className="title text-white">
-                      Why Zingfluence ?
+                    Why Brand Buzz ?
                     </h2>
                     <p className="text-white mb-0">
-                    At Zingfluence, we combine the power of technology, creativity, and analytics to craft campaigns that are data-driven and hyper-targeted, ensuring the right message reaches the right audience. From content creation to influencer management and campaign analytics, we handle everything with precision to deliver measurable results.
+                    Unlock the power of influencer marketing with Brand Buzz. We connect your brand with the right voices, creating authentic stories that captivate audiences and drive results. From boosting visibility to building lasting customer trust, Brand Buzz delivers tailored campaigns designed for maximum impact and measurable growth.
 
 
                     </p>
@@ -259,15 +295,15 @@ export default function page() {
             </div>
 
         <BestInfluencerMarketing/>
-        <NumberToCelebrate/>
+        {/* <NumberToCelebrate/> */}
 
-        <YoutubersAndInstagramers/>
+        {/* <YoutubersAndInstagramers/> */}
       
        
        
 
-     <InfluencerBuzzTestimonial testimonials={testimonials}/>
-     <BrandsWorkWith ToolsContent={ToolsContent} Tools1={Tools1}/>
+     {/* <InfluencerBuzzTestimonial testimonials={testimonials}/> */}
+     {/* <BrandsWorkWith ToolsContent={ToolsContent} Tools1={Tools1}/> */}
 
       
         <InfluencerBuzzFAQ faqData={faqData}/>

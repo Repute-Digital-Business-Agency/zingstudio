@@ -42,7 +42,7 @@ export default function CourseDetails({CourseTitle,CourseDuration,courseModule})
                   />
                 </div>
               </div>
-              <div className="col-lg-6 bg-white " >
+              <div className="col-lg-6 "  style={{background:"#e9e9e9"}}>
                 <div className="service-box style2">
                   <h2 className="title">{module.title}</h2>
                   <ul className="list-check secondry">
@@ -55,7 +55,7 @@ export default function CourseDetails({CourseTitle,CourseDuration,courseModule})
             </>
           ) : (
             <>
-              <div className="col-lg-6 bg-white">
+              <div className="col-lg-6 " style={{background:"#e2110026"}}>
                 <div className="service-box style2">
                   <h2 className="title">{module.title}</h2>
                   <ul className="list-check secondry">

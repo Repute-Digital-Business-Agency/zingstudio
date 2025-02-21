@@ -10,9 +10,9 @@ export default function BestInfluencerMarketing() {
             <div className="section-head text-black text-center pb-5">
             <div className="our-story">
               <h2 className="title">
-              We Are The Best
-                <span className="text-primary"> Influencer Marketing </span>
-                Platform In india
+              Zingfluence: The Best at
+                <span className="text-primary"> Amplifying Your Brand  </span>
+                with Influence That Matters.
               </h2>
               
             </div>
@@ -31,11 +31,12 @@ export default function BestInfluencerMarketing() {
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize">
-                          Lorem ipsum dolor
+                          Maximized Reach
+
                           </h5>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit, sed diam nonummy nibh euismod.
+                          Tap into diverse audiences through strategic influencer collaborations that elevate brand visibility across multiple platforms.
+
                           </p>
                         </div>
                       </div>
@@ -49,11 +50,11 @@ export default function BestInfluencerMarketing() {
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize">
-                          Lorem ipsum dolor
+                          Authentic Connections
                           </h5>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit, sed diam nonummy nibh euismod.
+                          Build trust and credibility with your target audience through genuine endorsements from influencers who resonate with your brand values.
+
                           </p>
                         </div>
                       </div>
@@ -67,11 +68,12 @@ export default function BestInfluencerMarketing() {
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize">
-                          Lorem ipsum dolor
+                          Targeted Marketing
+
                           </h5>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit, sed diam nonummy nibh euismod.
+                          Reach the right audience at the right time with tailored campaigns designed for specific demographics and interests.
+
                           </p>
                         </div>
                       </div>
@@ -85,11 +87,12 @@ export default function BestInfluencerMarketing() {
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize">
-                          Lorem ipsum dolor
+                          Enhanced Engagement
+
                           </h5>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit, sed diam nonummy nibh euismod.
+                          Drive meaningful interactions, conversations, and community building with engaging influencer-led content.
+
                           </p>
                         </div>
                       </div>
@@ -103,11 +106,12 @@ export default function BestInfluencerMarketing() {
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize">
-                          Lorem ipsum dolor
+                          Measurable Results
+
                           </h5>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit, sed diam nonummy nibh euismod.
+                          Benefit from data-driven insights and performance tracking that provide clear ROI and inform future marketing strategies.
+
                           </p>
                         </div>
                       </div>
@@ -121,11 +125,12 @@ export default function BestInfluencerMarketing() {
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize">
-                          Lorem ipsum dolor
+                          Cost-Effective Solutions
+
                           </h5>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit, sed diam nonummy nibh euismod.
+                          Achieve maximum impact with flexible influencer campaigns that deliver results within your budget.
+
                           </p>
                         </div>
                       </div>
@@ -139,11 +144,12 @@ export default function BestInfluencerMarketing() {
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize">
-                          Lorem ipsum dolor
+                          Brand Credibility Boost
+
                           </h5>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit, sed diam nonummy nibh euismod.
+                          Position your brand as trustworthy and relevant by partnering with influencers who carry authority in your niche.
+
                           </p>
                         </div>
                       </div>
@@ -157,11 +163,12 @@ export default function BestInfluencerMarketing() {
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize">
-                          Lorem ipsum dolor
+                          Sustained Brand Impact
+
                           </h5>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing
-                            elit, sed diam nonummy nibh euismod.
+                          Create long-term brand value and loyalty through continuous influencer partnerships and compelling content strategies.
+
                           </p>
                         </div>
                       </div>
