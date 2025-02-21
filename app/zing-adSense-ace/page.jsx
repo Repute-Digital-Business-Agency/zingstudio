@@ -46,7 +46,8 @@ export default function page() {
         "Google Shopping Ads",
         
       ],
-      imgSrc:"/images/Zing-AdSense-Ace/google-ads.jpg"
+      imgSrc:"/images/Zing-AdSense-Ace/google-ads.jpg",
+      bgColor:"#e9e9e9"
     },
  
     {
@@ -56,7 +57,8 @@ export default function page() {
         "LFacebook Pixel & Conversion Tracking",
      
       ],
-      imgSrc:"/images/Zing-AdSense-Ace/facebook-instagram-ads.jpg"
+      imgSrc:"/images/Zing-AdSense-Ace/facebook-instagram-ads.jpg",
+       bgColor:"#fff"
     },    {
       title:"Module 3: LinkedIn & Twitter Ads",
       list:[
@@ -64,7 +66,8 @@ export default function page() {
         "Twitter Trends & Sponsored Tweets",
       
       ],
-      imgSrc:"/images/Zing-AdSense-Ace/linkedIn-twitter-ads.jpg"
+      imgSrc:"/images/Zing-AdSense-Ace/linkedIn-twitter-ads.jpg",
+       bgColor:"#d2dbf6"
     },
     {
       title:"Module 4: Budgeting & Optimization",
@@ -73,7 +76,8 @@ export default function page() {
         "Scaling Ads for Maximum ROI",
        
       ],
-     imgSrc:"/images/Zing-AdSense-Ace/budgeting-optimization.jpg"
+     imgSrc:"/images/Zing-AdSense-Ace/budgeting-optimization.jpg",
+      bgColor:"#e9e9e9"
     },
   
   ]

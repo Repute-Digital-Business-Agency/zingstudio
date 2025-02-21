@@ -46,7 +46,8 @@ export default function page() {
         "AI-Driven Customer Insights",
         
       ],
-      imgSrc:"/images/Zing-AI-in-Digital-Marketing/ai-in-marketing.webp.jpg"
+      imgSrc:"/images/Zing-AI-in-Digital-Marketing/ai-in-marketing.webp.jpg",
+      bgColor:"#e9e9e9"
     },
     {
       title:"Module 2: AI in SEO & Content Creation",
@@ -55,7 +56,8 @@ export default function page() {
         "AI Writing Tools (ChatGPT, Jasper, Copy.ai)",
         
       ],
-      imgSrc:"/images/Zing-AI-in-Digital-Marketing/ai-in-seo-content-creation.jpg"
+      imgSrc:"/images/Zing-AI-in-Digital-Marketing/ai-in-seo-content-creation.jpg",
+      bgColor:"#fff"
     },
     {
       title:"Module 3: AI in Advertising & Automation",
@@ -64,7 +66,8 @@ export default function page() {
         "AI Chatbots & Email Automation",
  
       ],
-      imgSrc:"/images/Zing-AI-in-Digital-Marketing/ai-in-advertising-automation.jpg"
+      imgSrc:"/images/Zing-AI-in-Digital-Marketing/ai-in-advertising-automation.jpg",
+      bgColor:"#d2dbf6"
     },  
     
   ]

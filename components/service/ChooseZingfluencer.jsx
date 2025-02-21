@@ -8,7 +8,7 @@ export default function ChooseZingFluencer() {
         <div className="row align-items-center">
           
           <div
-            className="col-lg-8 col-md-12 col-sm-12 col-12 m-b15 wow bounceInLeft"
+            className="col-lg-8 col-md-12 col-sm-12 col-12 m-b15 wow bounceInUp"
             data-wow-duration="2s"
             data-wow-delay="0.3s"
           >
@@ -21,7 +21,7 @@ export default function ChooseZingFluencer() {
                
                   
                    
-              INFLUENCER BUZZ
+              Influencer Buzz
 
              
               </h2>
@@ -39,7 +39,7 @@ export default function ChooseZingFluencer() {
               
 
               <h2 className="title text-primary mt-5">
-              BRAND BUZZ
+              Brand Buzz
 
               </h2>
 

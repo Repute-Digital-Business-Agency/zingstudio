@@ -64,7 +64,7 @@ export default function HomeHero() {
       <div className="container-fluid">
       
         <div className="dz-banner-top">
-          <div className="row justify-content-between">
+          <div className="row justify-content-between mb-4">
             <div
               className="col-lg-6 wow fadeIn"
               data-wow-duration="2s"
@@ -83,21 +83,19 @@ export default function HomeHero() {
              </div> */}
             </div>
             <div
-              className="col-lg-4 wow fadeIn"
+              className="col-lg-6 wow fadeIn"
               data-wow-duration="2s"
               data-wow-delay="0.2s"
             >
               <p>
                 Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions. Explore our portfolio to see how we elevate brands.
-                {/* A well-planned marketing
-                campaign is what you need to position your online business
-                exactly where you want it to be and distinguish yourself. */}
+                
               </p>
-              {/* <div className="dz-banner-btn d-flex align-items-center"> */}
+              
               <Link
                 href={`/portfolio`}
                 className="site-button btnhover20 text-decoration-none text-white bg-primary"
-                // style={{ background: "#e21100" }}
+                
               >
                 View All
               </Link>
