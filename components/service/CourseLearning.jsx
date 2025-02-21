@@ -4,8 +4,8 @@ import { projects } from "@/data/projects";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-export default function CourseLearning({courseLearning,courseLearningContent}) {
-  {/*
+export default function CourseLearning({courseLearnings,courseLearningContents}) {
+  
    
      const courseLearningContent = {
     description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.",
@@ -15,73 +15,73 @@ export default function CourseLearning({courseLearning,courseLearningContent}) {
      const courseLearning = [
       {
         id: 1,
-        imgSrc: "/images/our-work/steelplant/pic10.jpg",
+        imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/digital-marketing-startegy.jpg",
         title: "Digital Marketing Startegy",
         link:"zing-digital-marketing-mastery"
       },
       {
         id: 2,
-        imgSrc: "/images/our-work/steelplant/pic9.jpg",
+        imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/content-and-prompt-engineerings.jpg",
         title: "Content And Prompt Engineering",
         link:"zing-digital-marketing-mastery"
       },
       {
         id: 3,
-        imgSrc: "/images/our-work/steelplant/pic8.jpg",
+        imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/google-and-advance-web-analytics.jpg",
         title: "Google And Advance web Analytics",
         link:"zing-digital-marketing-mastery"
       },
       {
         id: 4,
-        imgSrc: "/images/our-work/steelplant/pic7.jpg",
+        imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/social-media-marketing.jpg",
         title: "Social Media Marketing",
         link:"zing-digital-marketing-mastery"
       },
       {
         id: 5,
-        imgSrc: "/images/our-work/steelplant/pic10.jpg",
+        imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/search-engine-optimization.jpg",
         title: "Search Engine Optimization",
         link:"zing-digital-marketing-mastery"
       },
       {
         id: 6,
-        imgSrc: "/images/our-work/steelplant/pic9.jpg",
+        imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/funnel-building-lead-gen.jpg",
         title: "Funnel Building Lead Gen",
         link:"zing-digital-marketing-mastery"
       },
       {
         id: 7,
-        imgSrc: "/images/our-work/steelplant/pic8.jpg",
+        imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/facebook-and-instagram-ads.jpg",
         title: "Facebook And Instagram Ads",
         link:"zing-digital-marketing-mastery"
       },
       {
         id: 8,
-        imgSrc: "/images/our-work/steelplant/pic7.jpg",
+        imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/wix.jpg",
         title: "Wix",
         link:"zing-digital-marketing-mastery"
       },
       {
           id: 9,
-          imgSrc: "/images/our-work/steelplant/pic7.jpg",
+          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/whatsapp -marketing.jpg",
           title: "Whatsapp Marketing",
           link:"zing-digital-marketing-mastery"
         },
         {
           id: 9,
-          imgSrc: "/images/our-work/steelplant/pic7.jpg",
+          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/web-technology.jpg",
           title: "Web Technology",
           link:"zing-digital-marketing-mastery"
         },
         {
           id: 10,
-          imgSrc: "/images/our-work/steelplant/pic7.jpg",
+          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/projects.jpg",
           title: "Projecs",
           link:"zing-digital-marketing-mastery"
         },
     ];
 
-     */}
+     
  
 
   return (
@@ -89,7 +89,7 @@ export default function CourseLearning({courseLearning,courseLearningContent}) {
       className="section-full content-inner-2 bg-img-fix overlay-black-dark wow fadeIn courseLearnig"
       data-wow-duration="2s"
       data-wow-delay="0.8s"
-      style={{ backgroundImage: "url(/images/background/cs.jpg)" }}
+      style={{ backgroundImage: "url(/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/bg.jpg)" }}
     >
       <div className="container">
         <div className="section-head text-white text-center">

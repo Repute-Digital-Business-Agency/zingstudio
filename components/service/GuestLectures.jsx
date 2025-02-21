@@ -24,7 +24,7 @@ export default function GuestLectures() {
                     <a href="#">
                       <Image
                         alt=""
-                        src="/images/our-team/pic2.jpg"
+                        src="/images/zing-digital-marketing-mastery/Celebrity-trainers/img-1.jpg"
                         width="500"
                         height="600"
                       />
@@ -44,7 +44,7 @@ export default function GuestLectures() {
                     <a href="#">
                       <Image
                         alt=""
-                        src="/images/our-team/pic3.jpg"
+                        src="/images/zing-digital-marketing-mastery/Celebrity-trainers/img-2.jpg"
                         width="500"
                         height="600"
                       />
@@ -64,7 +64,7 @@ export default function GuestLectures() {
                     <a href="#">
                       <Image
                         alt=""
-                        src="/images/our-team/pic4.jpg"
+                        src="/images/zing-digital-marketing-mastery/Celebrity-trainers/img-3.jpg"
                         width="500"
                         height="600"
                       />

@@ -46,7 +46,7 @@ export default function page() {
         "Audience Targeting & Engagement",
        
       ],
-      imgSrc:"/images/services/web-design.jpg"
+    imgSrc:"/images/Zing-Social-Media-Mastery/social-media-strategy.jpg"
     },
     {
       title:"Module 2: Instagram & Reels Mastery",
@@ -55,7 +55,7 @@ export default function page() {
         "Growth Hacking & Monetization",
        
       ],
-      imgSrc:"/images/services/web-design.jpg"
+     imgSrc:"/images/Zing-Social-Media-Mastery/instagram-reels.jpg"
     },
     {
       title:"Module 3: LinkedIn & Twitter Branding",
@@ -64,15 +64,16 @@ export default function page() {
         "Twitter Threads & LinkedIn Networking",
         
       ],
-      imgSrc:"/images/services/web-design.jpg"
-    },    {
+      imgSrc:"/images/Zing-Social-Media-Mastery/twitter-link.jpg"
+    },   
+     {
       title:"Module 4: Facebook & YouTube Growth",
       list:[
         "YouTube SEO & Monetization",
         "Facebook Groups & Ads",
         
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/Zing-Social-Media-Mastery/facebook-yutube.jpg"
     },
     {
       title:"Module 5: Monetization Strategies",
@@ -81,7 +82,7 @@ export default function page() {
         "Brand Collaborations & Paid Partnerships",
       
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/Zing-Social-Media-Mastery/monetization.jpg"
     },
     
   ]

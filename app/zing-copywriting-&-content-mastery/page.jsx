@@ -46,7 +46,7 @@ export default function page() {
         "Brand Storytelling Techniques",
        
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/Zing-Copywriting-&-Content-Mastery/content-psychology-storytelling.jpg"
     },
     {
       title:"Module 2: Blogging & SEO Writing",
@@ -55,7 +55,7 @@ export default function page() {
         "SEO Copywriting Best Practices",
        
       ],
-      imgSrc:"/images/services/web-design.jpg"
+     imgSrc:"/images/Zing-Copywriting-&-Content-Mastery/blogging-seo-writing.jpg"
     },
     {
       title:"Module 3: Video & Social Media Content",
@@ -64,7 +64,7 @@ export default function page() {
         "FEngaging LinkedIn & Twitter Content",
         
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/Zing-Copywriting-&-Content-Mastery/video-social-media-content.jpg"
     },
     {
       title:"Module 4: Email & Sales Copywriting",
@@ -73,7 +73,7 @@ export default function page() {
         "Persuasive Sales Copy & Landing Pages",
        
       ],
-      imgSrc:"/images/services/web-design.jpg"
+     imgSrc:"/images/Zing-Copywriting-&-Content-Mastery/email-sales-copywriting.jpg"
     },
   
   ]

@@ -144,7 +144,7 @@ export default function ZingAcademyFaq() {
                     <a
                       href="#"
                       data-bs-toggle="collapse"
-                      data-bs-target="#faq10"
+                      data-bs-target="#faq11"
                       className="collapsed"
                       aria-expanded="true"
                     >
@@ -155,7 +155,7 @@ export default function ZingAcademyFaq() {
                   </h6>
                 </div>
                 <div
-                  id="faq10"
+                  id="faq11"
                   className="acod-body collapse"
                   data-bs-parent="#accordion2"
                 >
@@ -172,7 +172,7 @@ export default function ZingAcademyFaq() {
                     <a
                       href="#"
                       data-bs-toggle="collapse"
-                      data-bs-target="#faq10"
+                      data-bs-target="#faq12"
                       className="collapsed"
                       aria-expanded="true"
                     >
@@ -183,7 +183,7 @@ export default function ZingAcademyFaq() {
                   </h6>
                 </div>
                 <div
-                  id="faq10"
+                  id="faq12"
                   className="acod-body collapse"
                   data-bs-parent="#accordion2"
                 >

@@ -46,7 +46,7 @@ export default function page() {
         "Keyword Research & Competitive Analysis",
         
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/Zing-SEO-Supercharger/seo-foundations.jpg"
     },
     {
       title:"Module 2: On-Page & Off-Page SEO",
@@ -55,7 +55,7 @@ export default function page() {
         "Link Building & Guest Posting",
        
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/Zing-SEO-Supercharger/On-Page-seo.jpg"
     },
     {
       title:"Module 3: Technical SEO & Local SEO",
@@ -64,7 +64,7 @@ export default function page() {
         "Local Business SEO & Google My Business",
        
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/Zing-SEO-Supercharger/technical-SEO.jpg"
     }, 
        {
       title:"Module 4: E-commerce SEO & Analytics",
@@ -73,7 +73,7 @@ export default function page() {
         "SEO Tracking & Analytics",
         
       ],
-      imgSrc:"/images/services/web-design.jpg"
+     imgSrc:"/images/Zing-SEO-Supercharger/E-commerce-SEO.jpg"
     },
    
   ]

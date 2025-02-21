@@ -83,21 +83,25 @@ export default function Services() {
       id: 13,
       iconClass: "flaticon-worker",
       title: "Students Studying In College",
+      imgSrc:"/images/zing-digital-marketing-mastery/Who-can-apply-for-this-course/icon-1.png"
     },
     {
       id: 14,
       iconClass: "flaticon-factory",
       title: "Working Proffesionals",
+       imgSrc:"/images/zing-digital-marketing-mastery/Who-can-apply-for-this-course/icon-2.png"
     },
     {
       id: 15,
       iconClass: "flaticon-settings",
       title: "Business <br/> Owners",
+       imgSrc:"/images/zing-digital-marketing-mastery/Who-can-apply-for-this-course/icon-3.png"
     },
     {
       id: 16,
       iconClass: "flaticon-engineer-1",
       title: "Home <br/> Makers",
+       imgSrc:"/images/zing-digital-marketing-mastery/Who-can-apply-for-this-course/icon-4.png"
     },
     
   ];
@@ -119,15 +123,16 @@ export default function Services() {
         <div className="row">
           <div className="col-lg-12">
           <div className="d-flex gap-5 flex-wrap justify-content-center">
-            {services2.map((service, index) => (
+            {services2?.map((service, index) => (
               <div className="item" key={index}>
                 <div className="service-box style1 w-100 h-100">
                   <div className="icon-xl m-b20 text-primary radius">
-                    <Link href={`/services-details/${service.title}`} className="icon-cell">
-                      <i className={service.iconClass} />
+                    <Link href={`/services-details/${service?.title}`} className="icon-cell">
+                      {/* <i className={service.iconClass} /> */}
+                      <img src={service?.imgSrc} alt={service?.title} />
                     </Link>
                   </div>
-                  <h3 className="title" dangerouslySetInnerHTML={{__html:service.title}}></h3>
+                  <h3 className="title" dangerouslySetInnerHTML={{__html:service?.title}}></h3>
                 </div>
               </div>
             ))}

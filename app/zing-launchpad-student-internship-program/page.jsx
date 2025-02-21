@@ -47,7 +47,7 @@ export default function page() {
         "MMarketing Psychology & Consumer Behavior",
         
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/Zing-Launchpad-Student-Internship-Program/digital-marketing-basics.jpg"
     },
     {
       title:"Module 2: SEO Basics & Social Media Marketing",
@@ -56,7 +56,7 @@ export default function page() {
         "Instagram & Facebook Growth Strategies",
         
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/Zing-Launchpad-Student-Internship-Program/socia-media-optimization.jpg"
     },
     {
       title:"Module 3: Paid Ads & Campaign Setup",
@@ -65,7 +65,7 @@ export default function page() {
         "Basics of Retargeting & Ad Optimization",
         
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/Zing-Launchpad-Student-Internship-Program/paid-ads.jpg"
     },    {
       title:"Live Internship Projects:",
       list:[
@@ -74,7 +74,7 @@ export default function page() {
         "SEO Optimization for Websites",
        
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/Zing-Launchpad-Student-Internship-Program/internship-projects.jpg"
     },
 
     

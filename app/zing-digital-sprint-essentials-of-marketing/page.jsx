@@ -46,7 +46,7 @@ export default function page() {
         "Customer Journey & Funnels",
        
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/marketing-fundamentals.jpg"
     },
    
     {
@@ -56,7 +56,7 @@ export default function page() {
         "Writing Content That Ranks on Google",
     
       ],
-      imgSrc:"/images/services/web-design.jpg"
+      imgSrc:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/seo-basics-content-marketing.jpg"
     },   
     {
       title:"Module 3: Social Media Marketing",
@@ -65,7 +65,7 @@ export default function page() {
         "Running Basic Ad Campaigns",
         
       ],
-      imgSrc:"/images/services/web-design.jpg"
+       imgSrc:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/social-media-marketing.jpg"
     },
    
   ]

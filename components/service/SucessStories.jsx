@@ -9,28 +9,28 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 
-export default function SucessStories({testimonials}) {
-  {/*
+export default function SucessStories({testimonialss}) {
+
 
     const testimonials = [
         {
           text: "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-          image: "/images/testimonials/pic3.jpg",
-      
+          // image: "/images/testimonials/pic3.jpg",
+          image: "/images/zing-digital-marketing-mastery/Success-Stories/vector-people-img-1.jpg",
           name: "David Matin",
           position: "Student",
         },
         {
           text:  "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-          image: "/images/testimonials/pic3.jpg",
-          image: "/images/testimonials/pic2.jpg",
+          // image: "/images/testimonials/pic3.jpg",
+          image: "/images/zing-digital-marketing-mastery/Success-Stories/vector-people-img-2.jpg",       
           name: "David Matin",
           position: "Student",
         },
         {
           text:  "Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.Lorem Ipsum has been the industry's standard dummy text ever since the when an printer took a galley of type and scrambled it to make.",
-          image: "/images/testimonials/pic3.jpg",
-          image: "/images/testimonials/pic1.jpg",
+          // image: "/images/testimonials/pic3.jpg",
+          image: "/images/zing-digital-marketing-mastery/Success-Stories/vector-people-img-3.jpg",          
           name: "David Matin",
           position: "Student",
         },
@@ -38,14 +38,14 @@ export default function SucessStories({testimonials}) {
       ];
       
 
-      */}
+   
   return (
     <>
    
       <div className="section-full content-inner-2 bg-img-fix overlay-black-dark wow fadeIn courseLearnig"
       data-wow-duration="2s"
       data-wow-delay="0.8s"
-      style={{ backgroundImage: "url(/images/background/cs.jpg)" }}
+      style={{ backgroundImage: "url(/images/Zing-Launchpad-Student-Internship-Program/Success-Stories/bg.jpg)" }}
        >
         
         {/* Testimonials Style 8 */}

@@ -23,7 +23,7 @@ export default function LiveProjects() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/Academy/Live-Projects/im-1.jpg"
+                src="/images/zing-digital-marketing-mastery/Live-Projects/web-design.jpg"
                 width="900"
                 height="650"
                 style={{height:"450px",objectFit:"cover"}}
@@ -65,7 +65,7 @@ export default function LiveProjects() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/Academy/Live-Projects/im-2.jpg"
+                src="/images/zing-digital-marketing-mastery/Live-Projects/digital-marketing.jpg"
                 width="900"
                 height="550"
                 style={{height:"100%",objectFit:"cover"}}
@@ -105,7 +105,7 @@ export default function LiveProjects() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/Academy/Live-Projects/im-3.jpg"
+                src="/images/zing-digital-marketing-mastery/Live-Projects/saas-platform.jpg"
                 width="900"
                 height="550"
                 style={{height:"100%",objectFit:"cover"}}
@@ -148,7 +148,7 @@ export default function LiveProjects() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/Academy/Live-Projects/im-4.jpg"
+                src="/images/zing-digital-marketing-mastery/Live-Projects/open-source-development.jpg"
                 width="900"
                 height="550"
                 style={{height:"100%",objectFit:"cover"}}
