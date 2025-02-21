@@ -367,7 +367,18 @@ export const PortfolioLink = {
 };
 
 
-export const ZingfluenceLink = [
+export const ZingfluenceDesLink = [
+ 
+ { href: "/influencer-buzz",
+  label: "Influencer Buzz",},
+
+  { href: "/brand-buzz",
+    label: "Brand Buzz"},
+
+    
+    ]
+
+export const ZingfluenceMblLink = [
   { href: "/zingfluence",
     label: "Overview",},
  { href: "/influencer-buzz",
@@ -400,8 +411,35 @@ export const contactsLinks = [
   { href: "/contact-3", label: "Contact us 3" },
   { href: "/contact-4", label: "Contact us 4" },
 ];
+export const AcademyDesLink = [
+  
+ { href: "/zing-digital-marketing-mastery",
+  label: "Zing Digital Marketing Mastery",},
 
-export const AcademyLink = [
+  { href: "/zing-launchpad-student-internship-program",
+    label: "Zing Launchpad – Student Internship Program"},
+
+    { href: "/zing-digital-sprint-essentials-of-marketing",
+      label: "Zing Digital Sprint – Essentials of Marketing",},
+
+      { href: "/zing-ai-in-digital-marketing",
+        label: "Zing AI in Digital Marketing",},
+
+        { href: "/zing-social-media-mastery",
+          label: "Zing Social Media Mastery",},
+
+          { href: "/zing-seo-supercharger",
+            label: "Zing SEO Supercharger",},
+
+            { href: "/zing-adSense-ace",
+              label: "Zing AdSense Ace",},
+
+              { href: "/zing-copywriting-&-content-mastery",
+                label: "Zing Copywriting & Content Mastery",}
+
+];
+
+export const AcademyMblLink = [
   { href: "/zing-academy",
     label: "Overview",},
  { href: "/zing-digital-marketing-mastery",

@@ -3,7 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   AboutUsLink,
+  AcademyDesLink,
   AcademyLink,
+  AcademyMblLink,
   AmazingLink,
   blogItems,
   CareersLink,
@@ -17,7 +19,9 @@ import {
   PortfolioLink,
   ServicesLink,
   shopLinks,
+  ZingfluenceDesLink,
   ZingfluenceLink,
+  ZingfluenceMblLink,
 } from "@/data/menu";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -301,6 +305,8 @@ export default function Nav() {
           ))}
         </ul>
       </li> */}
+
+
       <li
         className={` ${isMenuActive(ServicesLink) ? "active" : ""} ${
           menuOpen1 == "services" ? "open" : ""
@@ -329,9 +335,34 @@ export default function Nav() {
       </li>
 
      
-
       <li
-        className={` ${isMenuActive(ZingfluenceLink) ? "active" : ""} ${
+        className={`d-lg-block d-none  ${isMenuActive(ZingfluenceDesLink) ? "active" : ""} ${
+          menuOpen3 == "services" ? "open" : ""
+        }  `}
+      >
+        <a href="/zingfluence"
+          onClick={() =>
+            setMenuOpen3((pre) => (pre == "services" ? "" : "services"))
+          }
+        >
+          Zingfluence
+          <i className="fas fa-chevron-down" />
+        </a>
+        <ul className="sub-menu right academy-dd">
+          {ZingfluenceDesLink?.map((link, index) => (
+            <li key={index}>
+              <Link
+                className={isMenuActive(link) ? "menuActive" : ""}
+                href={link.href}
+              >
+                {link.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </li>
+      <li
+        className={`d-md-block d-lg-none ${isMenuActive(ZingfluenceMblLink) ? "active" : ""} ${
           menuOpen3 == "services" ? "open" : ""
         }  `}
       >
@@ -344,7 +375,7 @@ export default function Nav() {
           <i className="fas fa-chevron-down" />
         </a>
         <ul className="sub-menu right academy-dd">
-          {ZingfluenceLink?.map((link, index) => (
+          {ZingfluenceMblLink?.map((link, index) => (
             <li key={index}>
               <Link
                 className={isMenuActive(link) ? "menuActive" : ""}
@@ -375,16 +406,36 @@ export default function Nav() {
         </Link>
       </li>
 
-      {/* <li className={isMenuActive(AcademyLink) ? "active" : ""}>
-        <Link
-          href={AcademyLink.href}
-          className={isMenuActive(AcademyLink) ? "menuActive" : ""}
-        >
-          {AcademyLink.label}
-        </Link>
-      </li> */}
       <li
-        className={` ${isMenuActive(AcademyLink) ? "active" : ""} ${
+        className={`d-md-none d-lg-block ${isMenuActive(AcademyDesLink) ? "active" : ""} ${
+          menuOpen2 == "services" ? "open" : ""
+        }  `}
+      >
+        <a href="/zing-academy"
+          onClick={() =>
+            setMenuOpen2((pre) => (pre == "services" ? "" : "services"))
+          }
+        >
+          Zing Academy
+          <i className="fas fa-chevron-down" />
+        </a>
+        <ul className="sub-menu right academy-dd">
+          {AcademyDesLink.map((link, index) => (
+            <li key={index}>
+              <Link
+                className={isMenuActive(link) ? "menuActive" : ""}
+                href={link.href}
+              >
+                {link.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </li>
+      
+
+      <li
+        className={`d-md-block d-lg-none ${isMenuActive(AcademyMblLink) ? "active" : ""} ${
           menuOpen2 == "services" ? "open" : ""
         }  `}
       >
@@ -397,7 +448,7 @@ export default function Nav() {
           <i className="fas fa-chevron-down" />
         </a>
         <ul className="sub-menu right academy-dd">
-          {AcademyLink.map((link, index) => (
+          {AcademyMblLink.map((link, index) => (
             <li key={index}>
               <Link
                 className={isMenuActive(link) ? "menuActive" : ""}
