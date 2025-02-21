@@ -3,11 +3,21 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import ModalVideo from "react-modal-video";
-export default function StudentJourneynew({services10}) {
+export default function StudentJourneynew({services10, studentJourneyContent}) {
   
   
   const [isOpen, setOpen] = useState(false);
   const [isPlaying, setPlaying] = useState(false);
+  {/* 
+
+    const studentJourneyContent = {
+    Title:"Student Journey at Zing Studio",
+    Description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.",
+    image:"/images/Zing-Infographic-Students-Journey.png", 
+    }
+    
+    */}
+  
   return (
     <>
       
@@ -18,12 +28,10 @@ export default function StudentJourneynew({services10}) {
             <div className="row">
               <div className="col-lg-12">
               <div className="section-head style2 text-center ">
-                    <h2 className="title">Student Journey at Zing Studio</h2>
-                    <p className="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry has been the industry's standard dummy text ever since the
-          been when an unknown printer.
+                    <h2 className="title">{studentJourneyContent?.Title}</h2>
+                    <p className="mb-4">{studentJourneyContent?.Description}
                     </p>
-                    <img src="/images/Zing-Infographic-Students-Journey.png"></img>
+                    <img src={studentJourneyContent?.image}></img>
                 </div>
 
                

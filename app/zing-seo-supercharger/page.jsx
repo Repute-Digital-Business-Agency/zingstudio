@@ -153,6 +153,12 @@ export default function page() {
    
   ]
 
+  const studentJourneyContent = {
+    Title:"Student Journey at Zing Studio",
+    Description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.",
+    image:"/images/Zing-SEO-Supercharger/Zing-SEO-Supercharger-01.png", 
+    }
+
   const courseLearningContent = {
     description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.",
     modules:"50 Sub Modules"
@@ -465,7 +471,7 @@ export default function page() {
           <CourseDetails CourseTitle={CourseTitle} CourseDuration={CourseDuration} courseModule={courseModule}/>
           </div>
         {/* <StudentsJourney/> */}
-        <StudentJourneynew services10={services10}/>
+        <StudentJourneynew services10={services10} studentJourneyContent={studentJourneyContent}/>
         
         {/* <div  
         style={{padding:"100px 0 50px 0"}}
