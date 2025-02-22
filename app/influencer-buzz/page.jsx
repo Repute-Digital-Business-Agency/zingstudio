@@ -43,7 +43,7 @@ export default function page() {
           "Result-driven strategies that target potential customers with precision, leading to high-conversion leads and increased sales for your business."
         ],
         button:"Join Now and Turn Your Influence into Income!",
-        image:"/images/Influence-Buzz/header-img.png",
+        image:"/images/Influence-Buzz/Influence-buzz-header-img.png",
         formTitle:"Join the Buzz—Let’s Make Influence Happen!"
       }
       const faqData = [

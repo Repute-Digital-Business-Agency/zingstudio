@@ -59,7 +59,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
              
             </ul> */}
           </div>
-          <div className="col-lg-4 col-md-6 content-inner chosesus-content text-white d-flex flex-coloumn align-item-end ">
+          <div className="col-lg-4 col-md-6 content-inner chosesus-content text-white d-flex flex-coloumn align-item-end wow fadeInUp">
             
           <div className="radius-sm  ">
               <img className="choose-Zf-img"

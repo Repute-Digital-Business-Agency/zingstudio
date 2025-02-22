@@ -49,7 +49,7 @@ export default function page() {
           "Result-driven strategies that target potential customers with precision, leading to high-conversion leads and increased sales for your business."
         ],
         button:"Let’s Connect and Spotlight Your Brand!",
-        image:"/images/brand-buzz/banner-img.jpg",
+        image:"/images/brand-buzz/brand-buzz-header-img.png",
         formTitle:"Let’s turn your brand into the next big thing!"
       }
 
