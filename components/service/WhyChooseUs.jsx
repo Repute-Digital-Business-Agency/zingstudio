@@ -9,7 +9,7 @@ export default function WhyChooseUs() {
           iconimg:"/images/Influence-Buzz/Why-Choose-Us/instant-setup.png",
           title: "Instant Setup",
           description:
-            " EWe connect you with reputable brands that align with your personal style and values, ensuring collaborations feel natural and resonate with your audience.",
+            " We connect you with reputable brands that align with your personal style and values, ensuring collaborations feel natural and resonate with your audience.",
           wowClass: "fadeInLeft",
           wowDelay: "0.3s",
         },

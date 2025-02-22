@@ -27,7 +27,7 @@ export default function Footer13() {
               </div>
             </div>
             <div
-              className="col-lg-3 col-md-6 col-sm-6 wow fadeIn"
+              className="col-lg-3 col-md-6 col-sm-6  wow fadeIn"
               data-wow-delay="0.4s"
             >
               <div className="widget">
@@ -81,7 +81,7 @@ export default function Footer13() {
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-12 col-sm-12 wow fadeIn"
+              className="col-lg-4 col-md-8 col-sm-8  wow fadeIn"
               data-wow-delay="0.6s"
             >
               <div className="icon-bx-wraper bx-style-1 m-b15 p-a30 radius-sm br-col-w1 bg-tpw1">
@@ -95,7 +95,7 @@ export default function Footer13() {
             </div>
 
             <div
-              className="col-lg-2 col-md-12 col-sm-12 wow fadeIn"
+              className="col-lg-2 col-md-4 col-sm-4  wow fadeIn footer-img "
               data-wow-delay="0.6s"
             >
               <img src="/images/Academy/lets-connect/lets-connect-img.png" />

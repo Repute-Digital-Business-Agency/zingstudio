@@ -67,7 +67,7 @@ export default function Header17() {
               <ul className="nav navbar-nav">
                 <Nav />
               </ul>
-              <div className="dlab-social-icon">
+              {/* <div className="dlab-social-icon">
                 <ul>
                   {socialLinks.map((elm, i) => (
                     <React.Fragment key={i}>
@@ -80,7 +80,7 @@ export default function Header17() {
                     </React.Fragment>
                   ))}
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

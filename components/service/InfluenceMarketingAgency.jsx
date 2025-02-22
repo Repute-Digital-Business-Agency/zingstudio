@@ -13,7 +13,7 @@ export default function MarketingAgency() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <div className="ev-aboutus-media">
+            <div className="ev-aboutus-media h-100">
               <span className="ev-about3">
                 <Image
                   alt=""
