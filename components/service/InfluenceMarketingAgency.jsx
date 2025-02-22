@@ -17,7 +17,7 @@ export default function MarketingAgency() {
               <span className="ev-about3">
                 <Image
                   alt=""
-                  src="/images/about/event/about3.jpg"
+                  src="/images/Zingfluence/influencer-img-2.jpg"
                   width="220"
                   height="220"
                 />
@@ -25,7 +25,7 @@ export default function MarketingAgency() {
               <span className="ev-about1">
                 <Image
                   alt=""
-                  src="/images/about/event/about.jpg"
+                   src="/images/Zingfluence/influencer-img-1.jpg"
                   width="500"
                   height="825"
                 />
@@ -33,7 +33,7 @@ export default function MarketingAgency() {
               <span className="ev-about2">
                 <Image
                   alt=""
-                  src="/images/about/event/about2.jpg"
+                   src="/images/Zingfluence/influencer-img-3.jpg"
                   width="170"
                   height="291"
                 />

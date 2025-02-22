@@ -26,7 +26,8 @@ export default function BestInfluencerMarketing() {
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-xl text-primary">
                           <a href="#" className="icon-cell text-yellow">
-                            <i className="ti-apple" />
+                            {/* <i className="ti-apple" /> */}
+                            <img src="/images/brand-buzz/Brand-with-Influence/maximized-reach.png" alt="" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -45,7 +46,8 @@ export default function BestInfluencerMarketing() {
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-lg text-primary radius">
                           <a href="#" className="icon-cell text-blue">
-                            <i className="ti-twitter" />
+                            {/* <i className="ti-twitter" /> */}
+                            <img src="/images/brand-buzz/Brand-with-Influence/authentic-connections.png" alt="" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -63,7 +65,8 @@ export default function BestInfluencerMarketing() {
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-xl text-primary">
                           <a href="#" className="icon-cell text-yellow">
-                            <i className="ti-apple" />
+                            {/* <i className="ti-apple" /> */}
+                            <img src="/images/brand-buzz/Brand-with-Influence/targeted-marketingg.png" alt="" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -82,7 +85,8 @@ export default function BestInfluencerMarketing() {
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-lg text-primary radius">
                           <a href="#" className="icon-cell text-blue">
-                            <i className="ti-twitter" />
+                            {/* <i className="ti-twitter" /> */}
+                            <img src="/images/brand-buzz/Brand-with-Influence/enhanced-engagement.png" alt="" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -101,7 +105,8 @@ export default function BestInfluencerMarketing() {
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-xl text-primary">
                           <a href="#" className="icon-cell text-yellow">
-                            <i className="ti-apple" />
+                            {/* <i className="ti-apple" /> */}
+                            <img src="/images/brand-buzz/Brand-with-Influence/measurable-results.png" alt="" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -120,7 +125,8 @@ export default function BestInfluencerMarketing() {
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-lg text-primary radius">
                           <a href="#" className="icon-cell text-blue">
-                            <i className="ti-twitter" />
+                            {/* <i className="ti-twitter" /> */}
+                            <img src="/images/brand-buzz/Brand-with-Influence/cost-effective-solutions.png" alt="" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -139,7 +145,8 @@ export default function BestInfluencerMarketing() {
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-xl text-primary">
                           <a href="#" className="icon-cell text-yellow">
-                            <i className="ti-apple" />
+                            {/* <i className="ti-apple" /> */}
+                            <img src="/images/brand-buzz/Brand-with-Influence/brand-credibility-boost.png" alt="" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -158,7 +165,8 @@ export default function BestInfluencerMarketing() {
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-lg text-primary radius">
                           <a href="#" className="icon-cell text-blue">
-                            <i className="ti-twitter" />
+                            {/* <i className="ti-twitter" /> */}
+                            <img src="/images/brand-buzz/Brand-with-Influence/sustained-brand-impact.png" alt="" />
                           </a>
                         </div>
                         <div className="icon-content">

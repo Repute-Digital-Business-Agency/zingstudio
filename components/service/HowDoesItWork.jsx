@@ -9,7 +9,7 @@ export default function HowDoesItWork() {
         {
           id: 131,
           No:"1",
-          imgSrc: "/images/gallery/car/pic1.jpg",
+          imgSrc: "/images/Influence-Buzz/How-Does-It-Work/icon-1.png",
           iconClass: "ti-user",
           title: "Right Brands",
           description: "We match you with brands that align with your style, values, and audience for authentic collaborations.",
@@ -19,7 +19,7 @@ export default function HowDoesItWork() {
         {
           id: 132,
           No:"2",
-          imgSrc: "/images/gallery/car/pic2.jpg",
+          imgSrc: "/images/Influence-Buzz/How-Does-It-Work/icon-2.png",
           iconClass: "ti-settings",
           title: "Plan & Collaborate",
           description:
@@ -29,7 +29,7 @@ export default function HowDoesItWork() {
         {
           id: 133,
           No:"3",
-          imgSrc: "/images/gallery/car/pic3.jpg",
+          imgSrc: "/images/Influence-Buzz/How-Does-It-Work/icon-3.png",
           iconClass: "ti-support",
           title: "Create & Share",
           description:
@@ -40,7 +40,7 @@ export default function HowDoesItWork() {
         {
             id: 133,
             No:"4",
-            imgSrc: "/images/gallery/car/pic3.jpg",
+            imgSrc: "/images/Influence-Buzz/How-Does-It-Work/icon-4.png",
             iconClass: "ti-support",
             title: "Measure & Grow",
             description:
@@ -85,7 +85,8 @@ export default function HowDoesItWork() {
                     <div className="icon-bx-wraper center p-lr20 p-tb30">
                       <div className="text-primary m-b20">
                         <span className="icon-cell icon-md">
-                          <i className={item.iconClass} />
+                          {/* <i className={item.iconClass} /> */}
+                          <img src={item.imgSrc} alt="" />
                         </span>
                       </div>
                       <div className="icon-content d-flex justify-content-evenly">

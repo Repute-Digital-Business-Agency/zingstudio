@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function BenifitsOfBuzz() {
    const foodItems = [
     {
-      imgSrc: "/images/icon/food/icon1.png",
+       imgSrc: "/images/Influence-Buzz/Why-join-Zingluence/icon-1.png",
       title: "Brand Collaborations",
       description:
         "Partner with reputable brands that align with your values, enhancing your credibility and audience engagement.",
@@ -15,8 +15,7 @@ export default function BenifitsOfBuzz() {
       bgColor:"#e9e9e9"
     },
     {
-      imgSrc: "/images/icon/food/icon2.png",
-      title: "Exclusive Campaigns",
+      imgSrc: "/images/Influence-Buzz/Why-join-Zingluence/icon-2.png",      title: "Exclusive Campaigns",
       description:
         "Access high-profile campaigns, product launches, and partnerships tailored to showcase your unique voice and expertise.",
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInUp",
@@ -25,8 +24,7 @@ export default function BenifitsOfBuzz() {
       bgColor:"#1a43bf42"
     },
     {
-      imgSrc: "/images/icon/food/icon3.png",
-      title: "Monetize Your Influence",
+      imgSrc: "/images/Influence-Buzz/Why-join-Zingluence/icon-3.png",      title: "Monetize Your Influence",
       description:
         "Leverage your platform through paid collaborations, sponsorships, and long-term brand partnerships, turning your influence into sustainable income.",
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInDown",
@@ -35,8 +33,7 @@ export default function BenifitsOfBuzz() {
       bgColor:"#f7f9fb"
     },
     {
-      imgSrc: "/images/icon/food/icon4.png",
-      title: "Expand Your Reach",
+      imgSrc: "/images/Influence-Buzz/Why-join-Zingluence/icon-4.png",      title: "Expand Your Reach",
       description:
         "Grow your audience through strategic partnerships and campaigns designed to connect you with new, relevant followers.",
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInRight ",
@@ -45,8 +42,7 @@ export default function BenifitsOfBuzz() {
       bgColor:"#e2110026"
     },
     {
-      imgSrc: "/images/icon/food/icon4.png",
-      title: "Creative Freedom",
+      imgSrc: "/images/Influence-Buzz/Why-join-Zingluence/icon-5.png",      title: "Creative Freedom",
       description:
         "Maintain your authentic voice with the freedom to create content that reflects your style, supported by strategic guidance when needed.",
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInRight ",
@@ -55,8 +51,7 @@ export default function BenifitsOfBuzz() {
       bgColor:"#e2110026"
     },
     {
-      imgSrc: "/images/icon/food/icon4.png",
-      title: "Insightful Analytics",
+      imgSrc: "/images/Influence-Buzz/Why-join-Zingluence/icon-6.png",      title: "Insightful Analytics",
       description:
         "Receive detailed performance analytics to measure campaign success, optimize content strategy, and strengthen your influence.",
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInLeft",
@@ -84,7 +79,7 @@ export default function BenifitsOfBuzz() {
               data-wow-duration={item.dataWowDuration}
               data-wow-delay={item.dataWowDelay}
             >
-              <div className="icon-bx-wraper sr-iconbox1 bg-gray" style={{background:item.bgColor}}>
+              <div className="icon-bx-wraper sr-iconbox1 bg-gray h-100" style={{background:item.bgColor}}>
                 <div className="icon-lg m-b20 icon-up">
                   <a className="icon-cell">
                     <Image

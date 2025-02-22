@@ -11,7 +11,7 @@ export default function InfluencerBuzzCta() {
     >
       <Image
         className="react-parallax-bgimage"
-        src="/images/main-slider/slide11-1.jpg"
+        src="/images/Influence-Buzz/what-ar-you-waiting-for/bg-img.jpg"
         alt=""
         width={1920}
         height={1024}
@@ -20,7 +20,7 @@ export default function InfluencerBuzzCta() {
           left: "0%",
           top: "0px",
           width: "100%",
-
+          objectFit:"cover",
           transformStyle: "preserve-3d",
           backfaceVisibility: "hidden",
           height: "100%",
@@ -37,7 +37,7 @@ export default function InfluencerBuzzCta() {
             <div className="row">
               <div className="col-md-12">
                 <div className="content-wrapper height-70">
-                  <div className="hero-content text-center ">
+                  <div className="hero-content  text-center content-center">
                     
                     <h1 className="title text-center style3 pt-5">
                       What are You waiting For ?

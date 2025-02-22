@@ -39,7 +39,9 @@ export default function DedicatedSupport() {
             >
               <div className="icon-md">
                 <a href="#" className="icon-cell ">
-                  <i className="flaticon-factory"></i>
+                  {/* <i className="flaticon-factory"></i> */}
+
+                  <img src="images/Influence-Buzz/Dedicated-Support/icon-1.png" alt="" />
                 </a>
               </div>
               <div className="icon-content">
@@ -57,7 +59,8 @@ export default function DedicatedSupport() {
             >
               <div className="icon-md">
                 <a href="#" className="icon-cell">
-                  <i className="flaticon-settings"></i>
+                  {/* <i className="flaticon-settings"></i> */}
+                  <img src="images/Influence-Buzz/Dedicated-Support/icon-2.png" alt="" />
                 </a>
               </div>
               <div className="icon-content">
@@ -82,7 +85,7 @@ export default function DedicatedSupport() {
             <div className="radius-sm m-b30 " style={{width:"100%"}}>
               <Image className="choose-Zf-img"
                 alt=""
-                src="/images/about/pic12.jpg"
+                src="/images/Influence-Buzz/Dedicated-Support/ds-img.jpg"
                 width="600"
                 height="722"
                  style={{

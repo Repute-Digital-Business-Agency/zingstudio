@@ -23,10 +23,11 @@ export default function BusinessWork() {
                         
                                 <div className="row d-flex justify-content-center ">
                                         <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
-                                    <div className="icon-bx-wraper bx-style-1 p-a30 center rounded">
-                                        <div className="icon-bx-sm bg-primary m-b20">
+                                    <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
+                                        <div className="icon-bx-sm radius bg-primary m-b20">
                                         <a href="#" className="icon-cell">
-                                            <i className="ti-headphone-alt" />
+                                            {/* <i className="ti-headphone-alt" /> */}
+                                            <img src="/images/brand-buzz/How-does-it-work/icon-1.png" alt="" />
                                         </a>
                                         </div>
                                         <div className="icon-content">
@@ -40,10 +41,11 @@ export default function BusinessWork() {
                                     </div>
                                     </div>
                                     <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
-                                    <div className="icon-bx-wraper bx-style-1 p-a30 center rounded">
+                                    <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
                                         <div className="icon-bx-sm radius bg-primary m-b20">
                                         <a href="#" className="icon-cell">
-                                            <i className="ti-ruler-pencil" />
+                                            {/* <i className="ti-ruler-pencil" /> */}
+                                            <img src="/images/brand-buzz/How-does-it-work/icon-2.png" alt="" />
                                         </a>
                                         </div>
                                         <div className="icon-content">
@@ -57,10 +59,11 @@ export default function BusinessWork() {
                                     </div>
                                     </div>
                                     <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
-                                    <div className="icon-bx-wraper bx-style-1 p-a30 center rounded">
-                                        <div className="icon-bx-sm text-primary bg-white radius border-1 m-b20">
-                                        <a href="#" className="icon-cell text-primary">
-                                            <i className="ti-desktop" />
+                                    <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
+                                        <div className="icon-bx-sm   radius bg-primary  m-b20">
+                                        <a href="#" className="icon-cell  text-primary">
+                                            {/* <i className="ti-desktop" /> */}
+                                            <img src="/images/brand-buzz/How-does-it-work/icon-3.png" alt="" />
                                         </a>
                                         </div>
                                         <div className="icon-content">
@@ -76,10 +79,11 @@ export default function BusinessWork() {
 
                                   
                                         <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
-                                    <div className="icon-bx-wraper bx-style-1 p-a30 center rounded">
-                                        <div className="icon-bx-sm bg-primary m-b20">
+                                    <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
+                                        <div className="icon-bx-sm radius bg-primary m-b20">
                                         <a href="#" className="icon-cell">
-                                            <i className="ti-headphone-alt" />
+                                            {/* <i className="ti-headphone-alt" /> */}
+                                            <img src="/images/brand-buzz/How-does-it-work/icon-4.png" alt="" />
                                         </a>
                                         </div>
                                         <div className="icon-content">
@@ -94,10 +98,11 @@ export default function BusinessWork() {
                                     </div>
                                     </div>
                                     <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
-                                    <div className="icon-bx-wraper bx-style-1 p-a30 center rounded">
+                                    <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
                                         <div className="icon-bx-sm radius bg-primary m-b20">
                                         <a href="#" className="icon-cell">
-                                            <i className="ti-ruler-pencil" />
+                                            {/* <i className="ti-ruler-pencil" /> */}
+                                            <img src="/images/brand-buzz/How-does-it-work/icon-5.png" alt="" />
                                         </a>
                                         </div>
                                         <div className="icon-content">
@@ -141,7 +146,8 @@ export default function BusinessWork() {
                       <div className="icon-bx-wraper left">
                         <div className="icon-sm text-primary radius">
                           <a href="#" className="icon-cell text-red">
-                            <i className="ti-video-clapper" />
+                            {/* <i className="ti-video-clapper" /> */}
+                            <img src="/images/brand-buzz/enhanced-brand-visibility-icon.png" alt="" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -156,9 +162,10 @@ export default function BusinessWork() {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12 m-b30">
                       <div className="icon-bx-wraper left">
-                        <div className="icon-xs text-primary radius">
+                        <div className="icon-sm text-primary radius">
                           <a href="#" className="icon-cell text-orange">
-                            <i className="ti-gift" />
+                            {/* <i className="ti-gift" /> */}
+                            <img src="/images/brand-buzz/authentic-audience-engagement-icon.png" alt="" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -175,7 +182,8 @@ export default function BusinessWork() {
                       <div className="icon-bx-wraper left">
                         <div className="icon-sm text-primary radius">
                           <a href="#" className="icon-cell text-red">
-                            <i className="ti-video-clapper" />
+                            {/* <i className="ti-video-clapper" /> */}
+                            <img src="/images/brand-buzz/enhanced-brand-credibility-icon.png" alt="" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -191,13 +199,15 @@ export default function BusinessWork() {
                     </div>
                     
                    
-                  </div>
-                  <div className="row">
+                  {/* </div>
+                  <div className="row"> */}
+                  
                     <div className="col-lg-4 col-md-6 col-sm-12 m-b30">
                       <div className="icon-bx-wraper left">
-                        <div className="icon-xs text-primary radius">
+                        <div className="icon-sm text-primary radius">
                           <a href="#" className="icon-cell text-orange">
-                            <i className="ti-gift" />
+                            {/* <i className="ti-gift" /> */}
+                            <img src="/images/brand-buzz/optimized-conversion-rates-icon.png" alt="" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -214,7 +224,8 @@ export default function BusinessWork() {
                       <div className="icon-bx-wraper left">
                         <div className="icon-sm text-primary radius">
                           <a href="#" className="icon-cell text-red">
-                            <i className="ti-video-clapper" />
+                            {/* <i className="ti-video-clapper" /> */}
+                            <img src="/images/brand-buzz/cost-efficient-marketing-icon.png" alt="" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -229,9 +240,10 @@ export default function BusinessWork() {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-12 m-b30">
                       <div className="icon-bx-wraper left">
-                        <div className="icon-xs text-primary radius">
+                        <div className="icon-sm text-primary radius">
                           <a href="#" className="icon-cell text-orange">
-                            <i className="ti-gift" />
+                            {/* <i className="ti-gift" /> */}
+                            <img src="/images/brand-buzz/data-driven-insights-icon.png" alt="" />
                           </a>
                         </div>
                         <div className="icon-content">
