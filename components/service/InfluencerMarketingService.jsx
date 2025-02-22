@@ -87,13 +87,13 @@ export default function InfluencerMarketingService() {
                         
                     
                     </li>
-                    <li className="fw-bold">
+                    {/* <li className="fw-bold">
                      
                       
                       Long & Short-Form Videos
                         
                      
-                    </li>
+                    </li> */}
                   </ol>
                 </div>
                 
@@ -192,13 +192,13 @@ export default function InfluencerMarketingService() {
                         
                     
                     </li>
-                    <li className="fw-bold">
+                    {/* <li className="fw-bold">
                      
                       
                       Long & Short-Form Videos
                         
                      
-                    </li>
+                    </li> */}
                   </ol>
                 </div>
                 
@@ -369,7 +369,7 @@ export default function InfluencerMarketingService() {
 
                       
                     </li>
-                    <li className="fw-bold">
+                    {/* <li className="fw-bold">
                      
                       
                       Long & Short-Form Videos
@@ -389,7 +389,7 @@ export default function InfluencerMarketingService() {
                       Long & Short-Form Videos
                         
                      
-                    </li>
+                    </li> */}
                   </ol>
                 </div>
                 

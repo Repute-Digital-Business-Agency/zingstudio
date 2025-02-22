@@ -91,7 +91,7 @@ export default function HowDoesItWork() {
                       </div>
                       <div className="icon-content d-flex justify-content-evenly">
                         {/* <b style={{fontSize:"36px"}}>{item.No}</b> */}
-                        <h5 style={{position:"relative", top:"15px"}} className="dlab-tilte">{item.title}</h5>
+                        <h5 style={{position:"relative", top:"10px"}} className="dlab-tilte">{item.title}</h5>
                         
                       </div>
                       <p className="mt-2" style={{color:"#282222"}}>{item.description}</p>

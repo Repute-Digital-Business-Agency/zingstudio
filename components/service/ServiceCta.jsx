@@ -10,7 +10,7 @@ export default function ServiceCta() {
       <div className="container">
         <div className="row">
           <div className="col-lg-9 text-white">
-            <h2 className="title">Now sure which package is the best for you?</h2>
+            <h2 className="title">Not sure which package is the best for you?</h2>
             <p className="m-b0">
             Get Expert Guidance on Web Design Packages, schedule a consultation with our experts at Zing Studio and find the perfect solution tailored to your business goals.
 

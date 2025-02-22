@@ -14098,6 +14098,11 @@ footer .widget_services ul li a:hover {
   max-width: 700px;
 }
 
+.courseLearnig .text-center.section-head p {
+ 
+  max-width: 100% !important;
+}
+
 .text-white {
   color: #fff;
 }

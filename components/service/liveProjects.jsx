@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function LiveProjects() {
   return (
-    <div className="content-block pt-5 bg-white">
+    <div className="content-block pt-5  bg-white">
       {/* Content Section */}
       <div className="section-full">
       <div className="section-head style2 text-center mb-5">
@@ -13,7 +13,7 @@ export default function LiveProjects() {
                 </div>
         <div className="row spno about-industry">
           
-          <div
+          {/* <div
             className="col-lg-8 wow fadeIn"
             data-wow-duration="2s"
             data-wow-delay="0.2s"
@@ -54,7 +54,7 @@ export default function LiveProjects() {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div
             className="col-lg-4 wow fadeIn"
@@ -84,7 +84,7 @@ export default function LiveProjects() {
                   Marketing
                 </h2>
                 <p>
-                Digital Marketing, Online Marketing, or Internet Marketing is the process of promoting your products, brand, or services online through one or more forms of electronic media. 
+                Step into the world of digital marketing and learn how to build brands that stand out online! From viral social media strategies and killer SEO hacks to content that clicks and data that delivers, this course has it all! Perfect for beginners and future marketing pros—learn, create, and crush it online.
                 </p>
                 <Link
                   href={`/digital-marketing-service`}

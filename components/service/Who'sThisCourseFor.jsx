@@ -115,9 +115,7 @@ export default function Services() {
         <div className="section-head text-black text-center">
           <h2 className="title">Who can apply for this course?</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry has been the industry's standard dummy text ever since the
-            been when an unknown printer.
+          Students, professionals, entrepreneurs, or content creators—this course is for anyone ready to boost their digital skills. No experience needed, just a passion to learn and grow!
           </p>
         </div>
         <div className="row">

@@ -22,6 +22,7 @@ import InfluencerBuzzFAQ from "@/components/service/InfluencerBuzzFAQ";
 import InfluencerBuzzTestimonial from "@/components/service/InfluencerBuzzTestimonial";
 import BrandsWorkWith from "@/components/service/BrandsWorkWith";
 import InfluencerBuzzCta from "@/components/service/InfluencerBuzzCta";
+import InfluencerCta from "@/components/service/InfluencerCta";
 
 export const metadata = {
   title: "Zing Studio - Zingfluence",
@@ -43,7 +44,7 @@ export default function page() {
         ],
         button:"Join Now and Turn Your Influence into Income!",
         image:"/images/Influence-Buzz/header-img.png",
-        formTitle:"Let’s Bring Your Vision to Life!"
+        formTitle:"Join the Buzz—Let’s Make Influence Happen!"
       }
       const faqData = [
         {
@@ -258,7 +259,7 @@ export default function page() {
 
         <InfluencerBuzzCta/>
         <InfluencerBuzzFAQ faqData={faqData}/>
-        <Cta/>
+        <InfluencerCta/>
         
         <Footer13 />
       </div>

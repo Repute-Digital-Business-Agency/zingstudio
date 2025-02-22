@@ -8,7 +8,7 @@ export default function CourseLearning({courseLearnings,courseLearningContents})
   
    
      const courseLearningContent = {
-    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.",
+    description:"Master essential skills like SEO for higher rankings, social media strategies to grow audiences, and content creation that converts. Learn to analyze data for smarter campaigns, run high-impact ads, craft engaging email marketing, and leverage influencer partnerships to expand your reach. Turn clicks into customers and become a digital marketing expert!",
     modules:"50 Sub Modules"
      }
 
@@ -91,10 +91,13 @@ export default function CourseLearning({courseLearnings,courseLearningContents})
       data-wow-delay="0.8s"
       style={{ backgroundImage: "url(/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/bg.jpg)" }}
     >
+
+
+      
       <div className="container">
-        <div className="section-head text-white text-center">
+      <div className="section-head text-white text-center">
           <h2 className="title">What Will You Learn In This Course ?</h2>
-          <p>
+          <p style={{width:"100%"}}>
             {courseLearningContent?.description}
           </p>
           <h4 className="mt-4 mb-0" style={{fontSize:"22px"}}>

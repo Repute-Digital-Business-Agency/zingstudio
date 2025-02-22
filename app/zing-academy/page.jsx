@@ -54,10 +54,10 @@ export default function page() {
         <CourseModules/>
         <Insights/>
         <LiveProjects/>
-        <div className="section-full content-inner  bg-white">
+        {/* <div className="section-full content-inner  bg-white">
         <BrandCaseStudy/>
-        </div>
-        <div className="bg-white"  style={{paddingBottom:"50px"}}>
+        </div> */}
+        <div className="bg-white pt-5"  style={{paddingBottom:"50px"}}>
         <ZingAcademyFaq/>
         </div>
         

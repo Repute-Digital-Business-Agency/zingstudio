@@ -30,7 +30,7 @@ export default function BenifitsOfBuzz() {
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInDown",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
-      bgColor:"#f7f9fb"
+      bgColor:"#fff36330"
     },
     {
       imgSrc: "/images/Influence-Buzz/Why-join-Zingluence/icon-4.png",      title: "Expand Your Reach",
