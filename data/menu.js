@@ -468,10 +468,18 @@ export const AcademyMblLink = [
 
 ];
 
-export const ServicesLink = [
-  // { href: "/services", label: "Overview" },
+export const ServicesDesLink = [
+
   { href: "/web-design-service", label: "Web Design" },
   { href: "/digital-marketing-service", label: "Digital Marketing" },
+  { href: "/e-commerce-service", label: "E-Commerce" }
+]
+
+export const ServicesMblLink = [
+  { href: "/services", label: "Overview" },
+  { href: "/web-design-service", label: "Web Design" },
+  { href: "/digital-marketing-service", label: "Digital Marketing" },
+  { href: "/e-commerce-service", label: "E-Commerce" }
   // { href: "/academy-service", label: "Academy" },
   // { href: "/web-design", label: "Web Design" },
   // { href: "/e-commerce", label: "E-Commerce" },

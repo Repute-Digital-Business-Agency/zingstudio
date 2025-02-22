@@ -20,10 +20,10 @@ export default function page() {
         <Header17 />
         <div className="page-content bg-white">
           <Banner2 />
-          <div className="content-block">
+          {/* <div className="content-block">
             <Cta />
             <Service />
-          </div>
+          </div> */}
         </div>
         
         <Footer13 />

@@ -17,7 +17,9 @@ import {
   homeItems,
   pagesItems,
   PortfolioLink,
+  ServicesDesLink,
   ServicesLink,
+  ServicesMblLink,
   shopLinks,
   ZingfluenceDesLink,
   ZingfluenceLink,
@@ -306,9 +308,36 @@ export default function Nav() {
         </ul>
       </li> */}
 
+      <li
+        className={`d-lg-block d-none  ${isMenuActive(ServicesDesLink) ? "active" : ""} ${
+          menuOpen1 == "services" ? "open" : ""
+        }  `}
+      >
+        <a href="/services"
+          onClick={() =>
+            setMenuOpen1((pre) => (pre == "services" ? "" : "services"))
+          }
+        >
+          Services
+          <i className="fas fa-chevron-down" />
+        </a>
+        <ul className="sub-menu right ">
+          {ServicesDesLink.map((link, index) => (
+            <li key={index}>
+              <Link
+                className={isMenuActive(link) ? "menuActive" : ""}
+                href={link.href}
+              >
+                {link.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </li>
+
 
       <li
-        className={` ${isMenuActive(ServicesLink) ? "active" : ""} ${
+        className={`d-lg-none d-block  ${isMenuActive(ServicesMblLink) ? "active" : ""} ${
           menuOpen1 == "services" ? "open" : ""
         }  `}
       >
@@ -321,7 +350,7 @@ export default function Nav() {
           <i className="fas fa-chevron-down" />
         </a>
         <ul className="sub-menu right ">
-          {ServicesLink.map((link, index) => (
+          {ServicesMblLink.map((link, index) => (
             <li key={index}>
               <Link
                 className={isMenuActive(link) ? "menuActive" : ""}

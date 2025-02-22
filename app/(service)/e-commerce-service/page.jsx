@@ -16,55 +16,57 @@ export const metadata = {
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
-    const WebDevelopment = [
+    const EcommerceDevelopment = [
+       
         {
-         head:"Web Design",
-         title:"Static Web Design",
-         price: "8750",
-         list:[
-          "Custom Layout",
-          "10 Static Page(HTML/PHP)",
-          "Enquiry Form",
-          "Free Website Maintenance",
-          "Free Images",
-          "World Class Design & Approval",
-          "User Friendly Design",
-          "Responsive Design"   
-         ],
-           delay:"0.2s"
-        },
-        {
-            head:"Web Design",
-         title:"Dynamic Web Design",
-         price: "8750",
+            head:"E-commerce",
+         title:"E-Commerce Web Design",
+         price: "25,850",
          list:[
              "Administrator Dashboard",
-             "Editor Dashboard",
-             "20 Page Responsive Website",
-             "1 Basic Contact/Enquiry Form",
-             "Designs Related to your Industry",
-             "Multiple Payment Options",
-             "Maintainance",
-             "Responsive Design"       
+             "Categories",
+             "Secure Online Payment",
+             "Product Reviews & Ratings",
+             "Email Notifications",
+             "Products & Inventory Management",
+             "Orders & Shipping Management",
+             "Stock,Order & Customer Report"
          ],
-           delay:"0.4s"
+           delay:"0.6s"
         },
-        // {
-        //     head:"Web Design",
-        //  title:"E-Commerce Web Design",
-        //  price: "25,850",
-        //  list:[
-        //      "Administrator Dashboard",
-        //      "Categories",
-        //      "Secure Online Payment",
-        //      "Product Reviews & Ratings",
-        //      "Email Notifications",
-        //      "Products & Inventory Management",
-        //      "Orders & Shipping Management",
-        //      "Stock,Order & Customer Report"
-        //  ],
-        //    delay:"0.6s"
-        // },
+
+        {
+            head:"E-commerce",
+            title:"Saas Platform",
+            price: "8750",
+            list:[
+             "Custom Layout",
+             "10 Static Page(HTML/PHP)",
+             "Enquiry Form",
+             "Free Website Maintenance",
+             "Free Images",
+             "World Class Design & Approval",
+             "User Friendly Design",
+             "Responsive Design"   
+            ],
+              delay:"0.2s"
+           },
+           {
+               head:"E-commerce",
+            title:"Open-source Development ",
+            price: "8750",
+            list:[
+                "Administrator Dashboard",
+                "Editor Dashboard",
+                "20 Page Responsive Website",
+                "1 Basic Contact/Enquiry Form",
+                "Designs Related to your Industry",
+                "Multiple Payment Options",
+                "Maintainance",
+                "Responsive Design"       
+            ],
+              delay:"0.4s"
+           },
      ]
 
     // const heroContent= [
@@ -80,12 +82,12 @@ export default function page() {
       "E-Commerce Site"
     ]
     const bannerContent = {
-      caption:"High-performance website to strengthen your digital presence.",
-      subTitle:"Custom and scalable web development solutions designed to enhance user experience and drive business growth.",
+      caption:"Scalable solutions to power your online store",
+      subTitle:"Custom-built, high-performance e-commerce platforms designed to enhance user experience and maximize sales.",
       list:[
-        "Navigable and functional websites, optimized to deliver desired results for your business.",
-        "A visually appealing, functional and conversion-focused website.",
-        "Custom-built static or dynamic CMS solutions tailored to your business needs."
+        "Secure, fast and fully optimized online stores for seamless shopping experiences.",
+        "Customizable e-commerce solutions, from simple storefronts to advanced CMS-based platforms.",
+        "Expertise in building user-friendly, mobile-responsive, and conversion-focused e-commerce websites."
       ]
     }
 
@@ -141,8 +143,8 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <HeroSection head={"Web Design"} option={formOption} bannerContent={bannerContent}/>
-        <ServiceList data={WebDevelopment} head={"Web Design"}/>
+        <HeroSection head={"E-commerce Development"} option={formOption} bannerContent={bannerContent}/>
+        <ServiceList data={EcommerceDevelopment} head={"E-commerce Development"}/>
         <ServiceCta/>
         {/* <Portfolio/> */}
         <OurWorkServices portfolioItems={portfolioItems} portfolioContent={portfolioContent}/>
