@@ -6,6 +6,7 @@ import Header17 from "@/components/headers/Header17";
 import Link from "next/link";
 import React from "react";
 import Cta from "@/components/homes/home-13/Cta";
+import CareerForm from "@/components/service/CareerForm";
 
 
 export const metadata = {
@@ -41,7 +42,9 @@ export default function page() {
         <div className="content-block">
           <Faq1 />
         </div>
-        <Cta />
+
+        <CareerForm/>
+        {/* <Cta /> */}
         
         <Footer13 />
       </div>

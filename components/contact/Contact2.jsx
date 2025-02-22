@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import Cta from "../service/Cta";
+import Cta from "../service/ServiceDescription";
 import Cta2 from "../homes/home-3/Cta2";
 export default function Contact2() {
   return (

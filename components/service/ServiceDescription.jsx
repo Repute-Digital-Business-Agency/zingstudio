@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Cta() {
+export default function ServiceDescription() {
   return (
     <div className="section-full content-inner-2 bg-primary overlay-primary-middle">
       <div className="container">

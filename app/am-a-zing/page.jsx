@@ -11,6 +11,7 @@ import Testimonials from "@/components/homes/home-6/Testimonials";
 import Footer13 from "@/components/footers/Footer13";
 import AmazingContent from "@/components/am-a-zing/Am-a-zingContent";
 import Cta from "@/components/homes/home-13/Cta";
+import Form from "@/components/service/Amazingform";
 
 export const metadata = {
   title: "Am-A-Zing || Zing Studio",
@@ -42,8 +43,8 @@ export default function page() {
         </div>
 
 
-
-        <Cta />
+        <Form/>
+        {/* <Cta /> */}
         
         <Footer13 />
       </div>

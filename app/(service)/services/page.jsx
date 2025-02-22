@@ -2,10 +2,13 @@ import Footer13 from "@/components/footers/Footer13";
 
 
 import Header17 from "@/components/headers/Header17";
+
+import Cta from "@/components/homes/home-13/Cta";
 import Service from "@/components/homes/home-2/Service";
 
 import Banner2 from "@/components/service/Banner2";
-import Cta from "@/components/service/Cta";
+import ServiceDescription from "@/components/service/ServiceDescription";
+
 
 import React from "react";
 
@@ -20,11 +23,13 @@ export default function page() {
         <Header17 />
         <div className="page-content bg-white">
           <Banner2 />
-          {/* <div className="content-block">
-            <Cta />
+          <div className="content-block">
+            <ServiceDescription />
             <Service />
-          </div> */}
+          </div>
         </div>
+
+        <Cta/>
         
         <Footer13 />
       </div>

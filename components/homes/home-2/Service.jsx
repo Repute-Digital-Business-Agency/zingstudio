@@ -70,8 +70,8 @@ export default function Service() {
           >
             <div className="service-box style2">
               <div>
-                <h2 className="title">
-                  <span>Digital </span> <br />
+                <h2 className="title text-white">
+                  <span className="">Digital </span> <br />
                   Marketing
                 </h2>
                 <p>
@@ -177,7 +177,7 @@ export default function Service() {
             <div className="service-box style2">
               <div>
                 <h2 className="title text-black">
-                  <span>Academy</span> 
+                  <span>E-Commerce</span> 
                   {/* <br /> Optimization */}
                 </h2>
                 <p>
