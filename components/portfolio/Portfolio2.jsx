@@ -239,7 +239,7 @@ export default function Portfolio2() {
             </h2>
             <h4 className="title" style={{textTransform:"none", color: "black", fontWeight: "600" }}>
               {" "}
-              Quickly explore our services and projects by category,<br></br> from web design to digital marketing and more.
+              Quickly explore our services and projects by category,<br className="d-md-block d-none"/> from web design to digital marketing and more.
 
             </h4>
           </div>

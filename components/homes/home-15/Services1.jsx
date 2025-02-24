@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Services1() {
   return (
-    <div className="section-full content-inner bg-white relative" style={{ backgroundImage: "url(/images/about-us/about-bg.png)" }}>
+    <div className="section-full content-inner bg-white relative" style={{ backgroundImage: "url(/images/about-us/about-bg.png)", backgroundRepeat:"no-repeat", width:"100%", backgroundSize:"cover", backgroundPosition:"left" }}>
       {/* <div style={{ position: "absolute", top: "10px", left: "100px", animation: "moveImage 5s linear infinite" }}>
         <img
           src="/images/Academy/lets-connect/animation.png"
