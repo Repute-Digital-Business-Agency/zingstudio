@@ -45,7 +45,7 @@ const slides = [
 
 export default function ZingAcademyCourseHero() {
   return (
-    <div className="dz-industry2-zone position-relative">
+    <div className="dz-industry2-zone position-relative academy-ban">
       {/* <Swiper
         modules={[Pagination, Autoplay]}
         autoplay={{
@@ -61,11 +61,11 @@ export default function ZingAcademyCourseHero() {
       > */}
         {/* {slides.map((slide, index) => ( */}
           <div className="swiper-slide">
-            <div className="silder-img ">
-              <Image
+            <div className="silder-img " style={{height:"100%"}}>
+              <img
                 src="/images/Academy/banner/banner-img.jpg"
-                width={1920}
-                height={720}
+               style={{width:"100%",height:"100%",objectFit:"", objectPosition:"center"}}
+                // height={720}
                 data-swiper-parallax="30%"
                 alt="Industry Factory Solutions"
               />

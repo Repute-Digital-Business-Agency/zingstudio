@@ -436,7 +436,7 @@ export default function Nav() {
       </li>
 
       <li
-        className={`d-md-none d-lg-block ${isMenuActive(AcademyDesLink) ? "active" : ""} ${
+        className={`d-lg-block d-none  ${isMenuActive(AcademyDesLink) ? "active" : ""} ${
           menuOpen2 == "services" ? "open" : ""
         }  `}
       >

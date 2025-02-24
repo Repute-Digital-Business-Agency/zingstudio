@@ -21,14 +21,13 @@ export default function ZingAcademyProgramHero({HeroBannerContent}) {
     
     */}
   return (
-    <div className="dz-industry2-zone position-relative zingProgram">
+    <div className="dz-industry2-zone position-relative zingProgram academy-ban">
     
           <div className="swiper-slide">
-            <div className="silder-img ">
-              <Image
+            <div className="silder-img " style={{height:"100%"}}>
+              <img
                 src={HeroBannerContent?.img}
-                width={1920}
-                height={520}
+                style={{width:"100%",height:"100%",objectFit:"", objectPosition:"center"}}
                 data-swiper-parallax="30%"
                 alt="Industry Factory Solutions"
               />

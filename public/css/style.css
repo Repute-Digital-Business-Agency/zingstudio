@@ -359,7 +359,7 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 35px;
   line-height: 45px;
   margin-bottom: 25px;
 }
@@ -6928,6 +6928,10 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   padding: 5px 5px 5px 20px;
   width: 50%;
   position: relative;
+}
+footer .list-2 li {
+  padding: 5px 5px 5px 15px;
+  width: 50%;
 }
 
 .list-2 li:before {
@@ -16924,7 +16928,14 @@ ol.commentlist li .star-rating {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
+  .section-head .title {
+    margin-bottom: 5px;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+  }
+
   .ft-contact {
     flex-wrap: wrap;
   }
@@ -18059,7 +18070,7 @@ input[type="radio"]+label:hover:before {
   }
 
   .ev-aboutus-media {
-    margin-top: -80px !important;
+    margin-top: -50px !important;
   }
 
 }
@@ -18196,11 +18207,23 @@ input[type="radio"]+label:hover:before {
   .home-ban {
     height: 50vh !important;
   }
+  .academy-ban{
+    height: 50vh !important;
+    object-position: right;
+  }
 }
 
 @media (max-width:400px) {
   .home-ban {
     height: 45vh !important;
+  }
+  .academy-ban{
+    height: 45vh !important;
+    object-position: right;
+  }
+  .academy-ban img{ 
+ 
+    object-position: left !important;
   }
 }
 
@@ -19182,4 +19205,33 @@ input[type="radio"]+label:hover:before {
     object-fit: contain;
     align-items: center;
   }
+  .section-head .title {
+  
+    font-size: 25px !important;
+    line-height: 35px;
+  }
+  .call-action .title{
+    font-size: 25px !important;
+    line-height: 35px;
+  }
+  .service-box.style2 .title{
+    font-size: 25px !important;
+  }
+  h4{
+    font-size: 18px !important ;
+  }
+  h2{
+    font-size: 25px !important;
+    line-height: 35px;
+  }
+  .our-story h2.title span{
+    font-size: 25px !important;
+  }
+  .pr-service-hero h2{
+    font-size: 30px !important;
+  }
+  h3{
+    font-size: 25px;
+  }
+ 
 }

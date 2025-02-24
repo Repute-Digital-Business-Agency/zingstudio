@@ -3218,7 +3218,7 @@ HOME 5 Box Header
 
 .latest-project-info p {
   color: rgba(255, 255, 255, 0.75);
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .sr-iconbox1 {
@@ -9011,6 +9011,9 @@ button.scroltop {
   .dz-industry2-zone .swiper-slide img {
     height: 570px;
   }
+  .academy-ban .dz-industry2-zone .swiper-slide img {
+    height: 100% !important;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -9034,6 +9037,9 @@ button.scroltop {
   .dz-industry2-zone .swiper-slide img {
     height: 540px;
   }
+  .academy-ban .dz-industry2-zone .swiper-slide img {
+    height: 100% !important;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -9049,6 +9055,9 @@ button.scroltop {
 
   .dz-industry2-zone .swiper-slide img {
     height: 558px;
+  }
+  .academy-ban.dz-industry2-zone .swiper-slide img {
+    height: 100% !important;
   }
 }
 
