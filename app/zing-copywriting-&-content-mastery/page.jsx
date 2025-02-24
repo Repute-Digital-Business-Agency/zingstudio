@@ -441,6 +441,41 @@ export default function page() {
           img:"/images/Academy/banner/banner-bg-img.jpg"
           }
 
+          const projectContent = {
+            title:"Live Projects",
+            description:" Gain hands-on experience with real-world digital marketing projects and enhance your skills in practical scenarios."
+          }
+          
+          const projects = [
+            {
+              title: "<span> Digital </span> <br /> Marketing",
+              description:
+                "Step into the world of digital marketing and learn how to build brands that stand out online! From viral social media strategies and killer SEO hacks to content that clicks and data that delivers, this course has it all! Perfect for beginners and future marketing pros—learn, create, and crush it online.",
+              image: "/images/zing-digital-marketing-mastery/Live-Projects/digital-marketing.jpg",
+              link: "/digital-marketing-service",
+              bgColor: "bg-primary",
+              textColor: "text-white",
+            },
+            {
+              title: "<span> Saas </span> <br />  Platform",
+              description:
+                "We offer to jump start your e-commerce brand online with some of the leading Saas platforms that offer your quicker turn around, robust and feature rich e-commerce website.",
+              image: "/images/zing-digital-marketing-mastery/Live-Projects/saas-platform.jpg",
+              link: "/web-design-service",
+              bgColor: "#e21100",
+              textColor: "text-white",
+            },
+            {
+              title: "<span>  Open-source  </span> <br /> Development",
+              description:
+                "Open-source Development Open Source commerce development is the order of the way in Ecommerce development. The open source platforms offer a host os flexible and beneficial features...",
+              image: "/images/zing-digital-marketing-mastery/Live-Projects/open-source-development.jpg",
+              link: "/web-design-service",
+              bgColor: "#e21100",
+              textColor: "text-white",
+            },
+          ];
+
   return (
     <>
       <div className="page-wraper  ">
@@ -492,7 +527,7 @@ export default function page() {
        
 
       
-        <LiveProjects/>
+        <LiveProjects projectContent={projectContent} projects={projects}/>
       
     
       <GuestLectures/>
