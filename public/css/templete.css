@@ -988,7 +988,7 @@ h6 {
 
 /* Service Box Style2 */
 .service-box.style2 {
-  padding: 60px 80px;
+  padding: 50px 80px;
   align-self: center;
   /* /* align-items: center; */
   flex-wrap: wrap;
@@ -8937,6 +8937,7 @@ button.scroltop {
 .dz-industry2-zone .swiper-slide img {
   height: 700px;
   object-fit: cover;
+  width: 100%;
 }
 
 .zingProgram.dz-industry2-zone .swiper-slide img {

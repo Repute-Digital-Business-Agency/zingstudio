@@ -12,7 +12,7 @@ export default function Service() {
             data-wow-duration="2s"
             data-wow-delay="0.2s"
           >
-            <div className="dlab-post-media dlab-img-effect zoom">
+            <div className="dlab-post-media dlab-img-effect zoom" style={{height:"100%"}}>
               <Image
                 alt=""
                 className="img-cover"
@@ -27,7 +27,7 @@ export default function Service() {
             data-wow-duration="2s"
             data-wow-delay="0.4s"
           >
-            <div className="service-box style2">
+            <div className="service-box style2 h-100">
               <div>
                 <h2 className="title text-black">
                   <span>Web </span> <br />
@@ -53,7 +53,7 @@ export default function Service() {
             data-wow-duration="2s"
             data-wow-delay="0.6s"
           >
-            <div className="dlab-post-media dlab-img-effect zoom">
+            <div className="dlab-post-media dlab-img-effect zoom" style={{height:"100%"}}>
               <Image
                 alt=""
                 className="img-cover"
@@ -68,7 +68,7 @@ export default function Service() {
             data-wow-duration="2s"
             data-wow-delay="0.8s"
           >
-            <div className="service-box style2">
+            <div className="service-box style2 h-100">
               <div>
                 <h2 className="title text-white">
                   <span className="">Digital </span> <br />
@@ -92,7 +92,7 @@ export default function Service() {
             data-wow-duration="2s"
             data-wow-delay="0.2s"
           >
-            <div className="dlab-post-media dlab-img-effect zoom">
+            <div className="dlab-post-media dlab-img-effect zoom " style={{height:"100%"}}>
               <Image
                 alt=""
                 className="img-cover"
@@ -174,7 +174,7 @@ export default function Service() {
             data-wow-duration="2s"
             data-wow-delay="0.2s"
           >
-            <div className="service-box style2">
+            <div className="service-box style2 h-100">
               <div>
                 <h2 className="title text-black">
                   <span>E-Commerce</span> 
@@ -184,7 +184,7 @@ export default function Service() {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe earum tenetur expedita, consequatur facilis voluptatibus hic sit, cumque assumenda 
                 </p>
                 <Link
-                  href={`/academy-service`}
+                  href={`/e-commerce-service`}
                   className="site-button outline outline-2 btnhover11"
                 >
                   Read More
@@ -200,7 +200,7 @@ export default function Service() {
             data-wow-duration="2s"
             data-wow-delay="0.4s"
           >
-            <div className="dlab-post-media dlab-img-effect zoom">
+            <div className="dlab-post-media dlab-img-effect zoom " style={{height:"100%"}}>
               <Image
                 alt=""
                 className="img-cover"

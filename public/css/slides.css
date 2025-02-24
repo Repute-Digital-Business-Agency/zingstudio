@@ -929,9 +929,10 @@
 }
 
 .hero-section.home-slider-11 .title.style3 {
-  font-size: 58px;
-  line-height: 69px;
+  font-size: 35px;
+  /* line-height: 69px; */
   font-weight: 700;
+  letter-spacing: normal;
 }
 
 .hero-section.home-slider-11 .subtitle.fs-16 {
@@ -961,8 +962,8 @@
 
 @media only screen and (max-width: 591px) {
   .hero-section.home-slider-11 .title.style3 {
-    font-size: 36px;
-    line-height: 50px;
+    font-size: 30px;
+    /* line-height: 50px; */
     font-weight: 700;
   }
 

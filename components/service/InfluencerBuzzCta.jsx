@@ -39,9 +39,11 @@ export default function InfluencerBuzzCta() {
                 <div className="content-wrapper height-70">
                   <div className="hero-content  text-center content-center">
                     
-                    <h1 className="title text-center style3 pt-5">
+                    <h2 className="title text-center style3 pt-5">
                       What are You waiting For ?
-                    </h1>
+                    </h2>
+
+                    <p className="text-white m-auto pt-2" style={{width:"75%"}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque mollitia, vero vel modi tenetur numquam. Praesentium nemo sed accusantium unde cupiditate molestiae omnis animi, nulla quisquam nihil exercitationem ut incidunt.</p>
                   
                     <Link href="/contact" className="site-button mt-3" style={{ cursor: "pointer", position: "relative", zIndex: 10 }}>
                       Join Now

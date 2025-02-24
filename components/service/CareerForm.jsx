@@ -3,13 +3,14 @@ import React, { useState } from "react";
 
 
 const CareerForm = () => {
-  const [role, setRole] = useState(" ");
-  const [lookingFor, setLookingFor] = useState("Expertise");
-
+  const [role, setRole] = useState("");
+  const [market, setMarket] = useState("")
+ 
   const handleRoleChange = (event) => {
     const selectedRole = event.target.value;
     setRole(selectedRole);
-    setLookingFor(selectedRole === "Boss Lady" ? "Expertise" : "Job Opportunity");
+
+    
   };
   return (
     <div className="newsletter-container">
@@ -20,7 +21,7 @@ const CareerForm = () => {
        
       <div className="row justify-content-between">
         {/* Form Section */}
-        <div className="col-lg-6 col-md-12">
+        <div className="col-lg-7 col-md-12">
           <div className=" border rounded text-white">
          
            
@@ -43,7 +44,17 @@ const CareerForm = () => {
                       <span className="input-group-addon">
                         <i className="ti-user text-white" />
                       </span>
-                      <input type="text" className="form-control" id="name" required placeholder="Name" />
+                      <input type="text" className="form-control" id="firstname" required placeholder="First Name" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-12">
+                  <div className="form-group">
+                    <div className="input-group">
+                      <span className="input-group-addon">
+                        <i className="ti-user text-white" />
+                      </span>
+                      <input type="text" className="form-control" id="lastname" required placeholder="Last Name" />
                     </div>
                   </div>
                 </div>
@@ -57,7 +68,7 @@ const CareerForm = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-12 col-md-12">
+                <div className="col-lg-6 col-md-12">
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
@@ -68,6 +79,44 @@ const CareerForm = () => {
                   </div>
                 </div>
               
+                <div className="col-lg-6 col-md-12">
+                  <div className="form-group text-white">
+                  <label htmlFor="Interested-In">Interested In ?</label>
+                    <div className="input-group">
+                      
+                      <span className="input-group-addon">
+                        <i className="ti-check-box text-white" />
+                      </span>
+
+                      <select id="role" className="form-select form-select-lg type-3 ml-2" value={role} onChange={handleRoleChange} placeholder="Interested In" style={{borderTop:"none", borderLeft:"none", borderRight:"none"}}>
+                        <option value="Please Choose Option">Please Choose Option</option>
+                        <option value="Web Development & Design">Web Development & Design</option>
+                        <option value="Digital and Social Media Marketing">Digital and Social Media Marketing</option>
+                        <option value="Marketing">Marketing</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-6 col-md-12">
+                  <div className="form-group text-white">
+                  <label htmlFor="Interested-In">Where did you hear about us through ?</label>
+                    <div className="input-group">
+                      
+                      <span className="input-group-addon">
+                        <i className="ti-check-box text-white" />
+                      </span>
+
+                      <select id="market" className="form-select form-select-lg type-3 ml-2" value={market} onChange={(e)=>setMarket(e.target.value)} placeholder="Interested In" style={{borderTop:"none", borderLeft:"none", borderRight:"none"}}>
+                        <option value="Please Choose Option">Please Choose Option</option>
+                        <option value="Referral">Referral</option>
+                        <option value="Internet Search">Internet Search</option>
+                        <option value="Job Fair">Job Fair</option>
+                        <option value="Others">Others</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
                 
                   <div className="col-lg-12 col-md-12">
                     <div className="form-group">
@@ -98,7 +147,7 @@ const CareerForm = () => {
           </div>
         </div>
         {/* Image Section */}
-        <div className="col-lg-4 col-md-12 text-center">
+        <div className="col-lg-5 col-md-12 text-center">
           <img src="/images/header.png" alt="Newsletter" className="img-fluid rounded" style={{position:"relative", bottom:"-58px"}}/>
         </div>
       </div>

@@ -8,6 +8,7 @@ import Service from "@/components/homes/home-2/Service";
 
 import Banner2 from "@/components/service/Banner2";
 import ServiceDescription from "@/components/service/ServiceDescription";
+import ServiceProgress from "@/components/service/ServiceProgress";
 
 
 import React from "react";
@@ -19,13 +20,14 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <div className="page-wraper  ">
+      <div className="page-wraper ">
         <Header17 />
-        <div className="page-content bg-white">
+        <div className="page-content bg-white pb-0">
           <Banner2 />
           <div className="content-block">
             <ServiceDescription />
             <Service />
+            <ServiceProgress/>
           </div>
         </div>
 

@@ -125,7 +125,7 @@ export default function ChooseZingFluencer() {
             <div className="radius-sm m-b30 ">
               <Image className="choose-Zf-img"
                 alt=""
-                src="/images/about/pic12.jpg"
+                src="/images/Zingfluence/influencer-buzz-image.jpg"
                 width="600"
                 height="722"
                  style={{

@@ -112,7 +112,7 @@ export default function ZingAcademyCta() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-12 col-sm-12">
+                <div className="col-lg-6 col-sm-6">
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
@@ -128,7 +128,7 @@ export default function ZingAcademyCta() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6 col-sm-6">
+                {/* <div className="col-lg-6 col-sm-6">
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
@@ -143,7 +143,7 @@ export default function ZingAcademyCta() {
                       />
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="col-lg-6 col-sm-6">
                   <div className="form-group">
                     <div className="input-group">
@@ -152,7 +152,7 @@ export default function ZingAcademyCta() {
                       </span>
                       <input
                         name="dzOther[Subject]"
-                        type="text"
+                        type="file"
                         required
                         className="form-control"
                         placeholder="Upload File"

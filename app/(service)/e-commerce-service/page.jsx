@@ -12,7 +12,7 @@ import Cta from "@/components/homes/home-13/Cta";
 import OurWorkServices from "@/components/homes/home-5/OurWorksServices";
 
 export const metadata = {
-  title: "Web Design || Zing Studio",
+  title: "E-commerce Development || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
@@ -103,35 +103,35 @@ export default function page() {
         duration: "1s",
       },
       {
-        title: "KPRMill",
+        title: "Thangam Jewelry",
         image: "/images/services/web-deisgn/mockup-2.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.6s",
         duration: "1.3s",
       },
       {
-        title: "OMI Pumps",
+        title: "Filmode Fashon",
         image: "/images/services/web-deisgn/mockup-3.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.9s",
         duration: "1.6s",
       },
       {
-        title: "Tirumalai Textiles",
+        title: "Faso",
         image: "/images/services/web-deisgn/mockup-4.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.3s",
         duration: "1.9s",
       },
       {
-        title: "Karpagam College of Engineering",
+        title: "Goes Good",
         image: "/images/services/web-deisgn/mockup-5.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.6s",
         duration: "1.12s",
       },
       {
-        title: "Filmode Fashions",
+        title: "Rhythm Fashion",
         image: "/images/services/web-deisgn/mockup-6.jpg",
         className: "col-lg-6 col-md-6 col-sm-6",
         delay: "0.9s",

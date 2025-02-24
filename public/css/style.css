@@ -104,7 +104,7 @@ body {
 
 p {
   font-size: 16px !important;
-  font-family: "Euclid Circular";
+  font-family: "Metropolis";
   font-weight: 500;
 }
 
@@ -316,7 +316,7 @@ h4,
 h5,
 h6 {
   color: #232323;
-  /* font-family: "Euclid Circular", sans-serif;*/
+  /* font-family: "Metropolis", sans-serif;*/
   font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
 }
 
@@ -17959,7 +17959,7 @@ input[type="radio"]+label:hover:before {
 }
 
 @font-face {
-  font-family: 'Euclid Circular';
+  font-family: 'Metropolis';
   src: url('/fonts/vve-giallo-regular-webfont.woff2') format('woff2'),
     url('/fonts/vve-giallo-regular-webfont.woff') format('woff');
   font-weight: normal;
@@ -19147,10 +19147,10 @@ input[type="radio"]+label:hover:before {
   color: white;
 }
 .newsletter-container textarea:focus{
-  background-color: transparent;
+  background-color: transparent !important;
 }
 .newsletter-container input:focus{
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .input-group .form-control {
