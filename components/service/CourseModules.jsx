@@ -35,7 +35,7 @@ const images = [
           'Lorem ipsum dolor sit amet'
         ],
         description:" A comprehensive, hands-on program covering advanced digital marketing strategies. From SEO to paid ads and content marketing, this course is designed to equip you with real-world expertise.",
-        duration:"3 Months<br/>+ 3 Months Internship",
+        duration:"3 Months +<br/>3 Months Internship",
         price:"₹25,000",
         link:"zing-digital-marketing-mastery"
         

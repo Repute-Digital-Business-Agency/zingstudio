@@ -19177,7 +19177,7 @@ input[type="radio"]+label:hover:before {
 }
 
 .input-group .form-control {
-  border-radius: 30px 0 0 30px;
+  /* border-radius: 30px 0 0 30px; */
   padding: 10px;
 }
 
@@ -19234,4 +19234,66 @@ input[type="radio"]+label:hover:before {
     font-size: 25px;
   }
  
+}
+
+
+.circle-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-gif .center-gif {
+  width: 100px;
+  height: 120px;
+  /* border-radius: 50%; */
+}
+
+.footer-gif .social-icons {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: rotate 8s linear infinite;
+}
+
+.footer-gif .icon {
+  position: absolute;
+  font-size: 15px;
+  color: white;
+  background: #e21100;
+  padding: 5px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-gif .icon:hover {
+  transform: scale(1.2);
+}
+
+.footer-gif .icon1 { top: 5%; left: 50%; transform: translateX(-50%); }
+.footer-gif .icon2 { top: 30%; right: 5%; transform: translateY(-50%); }
+.footer-gif .icon3 { bottom: 25%; left: 85%; transform: translateX(-50%); }
+.footer-gif .icon4 { top: 90%; left: 50%; transform: translateY(-50%); }
+.footer-gif .icon5 { top: 25%; left: 10%; }
+.footer-gif .icon6 { top: 65%; left: 10%; }
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.circle-container:hover .social-icons {
+  animation-play-state: paused;
+}
+
+@media (max-width:1550px){
+  .ZingCourseModule h6{
+    text-align: left !important;
+  }
 }

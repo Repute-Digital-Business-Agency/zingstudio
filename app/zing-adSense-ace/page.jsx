@@ -30,6 +30,7 @@ import StudentsJourney2 from "@/components/service/StudentsJourney2";
 import StudentsJourney3 from "@/components/service/StudentsJourney3";
 import StudentJourneynew from "@/components/service/StudentJourneynew";
 import ZingAcademyProgramHero from "@/components/service/ZingAcademyProgramHero";
+import AcademyCourseBanner from "@/components/service/AcademyCourseBanner";
 export const metadata = {
   title: "Zing AdSense Ace || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -475,12 +476,34 @@ export default function page() {
             textColor: "text-white",
           },
         ];
+
+        const formOption  =[
+          "Basic",
+          "Standard",
+        ]
+        const bannerContent = {
+          head:"Zing AdSense Ace",
+          caption:"Course Highlight",
+          duration:"8 Weeks",
+          subTitle:"Application Closes On 31/05/2025",
+          list:[
+            "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
+            "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
+            "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis"
+          ],
+          button1:"Live",
+          button2:"Online",
+          button3:"Interactive",
+          image:"/images/brand-buzz/brand-buzz-header-img.png",
+          formTitle:"Register Now For free"
+        }
         
   return (
     <>
       <div className="page-wraper  ">
         <Header17 />
-         <ZingAcademyProgramHero HeroBannerContent={HeroBannerContent}/>
+         {/* <ZingAcademyProgramHero HeroBannerContent={HeroBannerContent}/> */}
+         <AcademyCourseBanner option= {formOption} bannerContent={bannerContent}/>
          <div
               className="section-full content-inner-2 bg-primary wow fadeIn"
               data-wow-duration="2s"

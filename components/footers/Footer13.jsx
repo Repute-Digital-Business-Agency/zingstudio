@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { footerLinks2, socialLinks } from "@/data/footerLinks";
+
 export default function Footer13() {
   return (
     <footer className="site-footer footer-gray-1 ">
@@ -30,7 +31,7 @@ export default function Footer13() {
               className="col-lg-3 col-md-6 col-sm-6  wow fadeIn"
               data-wow-delay="0.4s"
             >
-              <div className="widget">
+              <div className="widget d-flex flex-column justify-content-center align-items-center">
                 {/* <h6 className="m-b20 font-weight-300 text-uppercase">
                   Newsletter
                 </h6>
@@ -66,7 +67,7 @@ export default function Footer13() {
                 </h6>
 
                 {/* <img src="/images/GIF/lets-connect-img.gif" alt="lets-connect" style={{width:"150px"}}/> */}
-                <ul className="list-inline m-a0 mt-3">
+                {/* <ul className="list-inline m-a0 mt-3">
                   {socialLinks.map((link, index) => (
                     <React.Fragment key={index}>
                       <li>
@@ -79,7 +80,34 @@ export default function Footer13() {
                       </li>{" "}
                     </React.Fragment>
                   ))}
-                </ul>
+                </ul> */}
+
+              <div className="circle-container footer-gif">
+                <img src="/images/Academy/lets-connect/lets-connect-img.png" alt="Center GIF" className="center-gif" />
+                <div className="social-icons">
+                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="icon icon1" style={{padding:"5px 8px "}}>
+                    <i className="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="icon icon2">
+                    <i className="fab fa-twitter"></i>
+                  </a>
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="icon icon3">
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="icon icon4">
+                    <i className="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="icon icon5">
+                    <i className="fab fa-youtube"></i>
+                  </a>
+                  <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" className="icon icon6">
+                    <i className="fab fa-pinterest"></i>
+                  </a>
+                </div>
+              </div>
+
+
+
               </div>
             </div>
             <div
