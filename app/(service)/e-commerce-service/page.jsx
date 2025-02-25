@@ -97,28 +97,28 @@ export default function page() {
     const portfolioItems = [
       {
         title: "Prade Jewels",
-        image: "/images/services/web-deisgn/mockup-1.jpg",
+        image: "/images/services/E-commerce/mockup-1.jpg",
         className: "col-lg-6 col-md-6 col-sm-6",
         delay: "0.3s",
         duration: "1s",
       },
       {
         title: "Thangam Jewelry",
-        image: "/images/services/web-deisgn/mockup-2.jpg",
+        image: "/images/services/E-commerce/mockup-2.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.6s",
         duration: "1.3s",
       },
       {
         title: "Filmode Fashon",
-        image: "/images/services/web-deisgn/mockup-3.jpg",
+        image: "/images/services/E-commerce/mockup-3.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.9s",
         duration: "1.6s",
       },
       {
         title: "Faso",
-        image: "/images/services/web-deisgn/mockup-4.jpg",
+        image: "/images/services/E-commerce/mockup-4.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.3s",
         duration: "1.9s",
@@ -132,7 +132,7 @@ export default function page() {
       },
       {
         title: "Rhythm Fashion",
-        image: "/images/services/web-deisgn/mockup-6.jpg",
+        image: "/images/services/E-commerce/mockup-6.jpg",
         className: "col-lg-6 col-md-6 col-sm-6",
         delay: "0.9s",
         duration: "1.15s",

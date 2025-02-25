@@ -116,7 +116,7 @@ export default function page() {
       },
       {
         title: "Tirumalai Textiles",
-        image: "/images/services/web-deisgn/mockup-4.jpg",
+        image: "/images/services/web-deisgn/mockup-7.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.3s",
         duration: "1.9s",
