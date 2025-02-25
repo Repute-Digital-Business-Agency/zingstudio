@@ -135,7 +135,7 @@ export default function CourseLearning({courseLearnings,courseLearningContents})
               {courseLearning?.map((item, index) => (
                 <SwiperSlide className="item" key={index}>
                   <div className="dlab-box project-bx position-relative">
-                  <Link href={item?.link} className="apply-btn">
+                  <Link href="#contact-us" className="apply-btn">
                     Apply
                     </Link>
 
