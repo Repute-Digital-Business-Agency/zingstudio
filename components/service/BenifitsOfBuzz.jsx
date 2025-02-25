@@ -15,7 +15,8 @@ export default function BenifitsOfBuzz() {
       bgColor:"#e9e9e9"
     },
     {
-      imgSrc: "/images/Influence-Buzz/Why-join-Zingluence/icon-2.png",      title: "Exclusive Campaigns",
+      imgSrc: "/images/Influence-Buzz/Why-join-Zingluence/icon-2.png",     
+       title: "Exclusive Campaigns",
       description:
         "Access high-profile campaigns, product launches, and partnerships tailored to showcase your unique voice and expertise.",
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInUp",
@@ -24,7 +25,8 @@ export default function BenifitsOfBuzz() {
       bgColor:"#1a43bf42"
     },
     {
-      imgSrc: "/images/Influence-Buzz/Why-join-Zingluence/icon-3.png",      title: "Monetize Your Influence",
+      imgSrc: "/images/Influence-Buzz/Why-join-Zingluence/icon-3.png",      
+      title: "Monetize Your Influence",
       description:
         "Leverage your platform through paid collaborations, sponsorships, and long-term brand partnerships, turning your influence into sustainable income.",
       classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInDown",

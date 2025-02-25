@@ -64,7 +64,9 @@ export default function Footer13() {
                 <h6 className="m-b10 font-weight-300 text-uppercase" style={{ color: "#1A43BF" }}>
                   Connect with us
                 </h6>
-                <ul className="list-inline m-a0 mt-3">
+
+                <img src="/images/GIF/lets-connect-img.gif" alt="lets-connect" style={{width:"150px"}}/>
+                {/* <ul className="list-inline m-a0 mt-3">
                   {socialLinks.map((link, index) => (
                     <React.Fragment key={index}>
                       <li>
@@ -77,7 +79,7 @@ export default function Footer13() {
                       </li>{" "}
                     </React.Fragment>
                   ))}
-                </ul>
+                </ul> */}
               </div>
             </div>
             <div

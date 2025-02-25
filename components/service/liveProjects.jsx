@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-{/* 
 
 const projectContent = {
   title:"Live Projects",
@@ -20,7 +19,7 @@ const projects = [
     textColor: "text-white",
   },
   {
-    title: "<span> Saas </span> <br />  Platform",
+    title: "<span> SEO </span> ",
     description:
       "We offer to jump start your e-commerce brand online with some of the leading Saas platforms that offer your quicker turn around, robust and feature rich e-commerce website.",
     image: "/images/zing-digital-marketing-mastery/Live-Projects/saas-platform.jpg",
@@ -29,7 +28,7 @@ const projects = [
     textColor: "text-white",
   },
   {
-    title: "<span>  Open-source  </span> <br /> Development",
+    title: "<span>  SMM </span>",
     description:
       "Open-source Development Open Source commerce development is the order of the way in Ecommerce development. The open source platforms offer a host os flexible and beneficial features...",
     image: "/images/zing-digital-marketing-mastery/Live-Projects/open-source-development.jpg",
@@ -40,9 +39,7 @@ const projects = [
 ];
 
 
-*/}
-
-export default function LiveProjects({projectContent,projects}) {
+export default function LiveProjects({projectContents,projectss}) {
   return (
     <div className="content-block pt-5 bg-white">
       <div className="section-full">
