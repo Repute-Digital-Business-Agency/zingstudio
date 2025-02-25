@@ -65,8 +65,8 @@ export default function Footer13() {
                   Connect with us
                 </h6>
 
-                <img src="/images/GIF/lets-connect-img.gif" alt="lets-connect" style={{width:"150px"}}/>
-                {/* <ul className="list-inline m-a0 mt-3">
+                {/* <img src="/images/GIF/lets-connect-img.gif" alt="lets-connect" style={{width:"150px"}}/> */}
+                <ul className="list-inline m-a0 mt-3">
                   {socialLinks.map((link, index) => (
                     <React.Fragment key={index}>
                       <li>
@@ -79,7 +79,7 @@ export default function Footer13() {
                       </li>{" "}
                     </React.Fragment>
                   ))}
-                </ul> */}
+                </ul>
               </div>
             </div>
             <div
@@ -100,6 +100,9 @@ export default function Footer13() {
               className="col-lg-2 col-md-4 col-sm-4  wow fadeIn footer-img "
               data-wow-delay="0.6s"
             >
+               {/* <img src="/images/GIF/lets-connect-img.gif" alt="lets-connect" 
+               style={{height:"200px", width:"200px"}} 
+               /> */}
               <img src="/images/Academy/lets-connect/lets-connect-img.png" />
             </div>
           </div>
