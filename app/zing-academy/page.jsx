@@ -53,7 +53,7 @@ export default function page() {
             </div>
         <CourseModules/>
         <Insights/>
-        <LiveProjects/>
+        {/* <LiveProjects/> */}
         {/* <div className="section-full content-inner  bg-white">
         <BrandCaseStudy/>
         </div> */}

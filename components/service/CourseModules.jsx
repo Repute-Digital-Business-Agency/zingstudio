@@ -35,7 +35,7 @@ const images = [
           'Lorem ipsum dolor sit amet'
         ],
         description:" A comprehensive, hands-on program covering advanced digital marketing strategies. From SEO to paid ads and content marketing, this course is designed to equip you with real-world expertise.",
-        duration:"3 Months + 3 Months Internship",
+        duration:"3 Months<br/>+ 3 Months Internship",
         price:"₹25,000",
         link:"zing-digital-marketing-mastery"
         
@@ -190,25 +190,31 @@ export default function Course() {
                           <div className="ow-post-meta">
                             <ul>
                               <li className="post-date">{elm.mode}</li>
-                              <li className="post-comment">{elm.duration}</li>
+                              {/* <li className="post-comment">{elm.duration}</li> */}
                             </ul>
                           </div>
                           <div className="ow-post-text">{elm.description}</div>
-                          <div className="ow-post-readmore d-flex justify-content-between">
+                          <div className="ow-post-readmore d-flex justify-content-between flex-wrap">
                             <h4 className="mb-0">{elm.price}</h4>
-                            <a href={elm.link} title="READ MORE" rel="bookmark" className="site-button-link">
-                              Read More <i className="fas fa-angle-double-right" />
-                            </a>
+                            <h6 dangerouslySetInnerHTML={{__html:elm.duration}} style={{textAlign:"right"}}></h6>
+                           
                           </div>
-                          <div className="ow-post-tags clearfix">
-                            <span className="rating-bx">
+                          <div className="px-0 ow-post-tags  d-flex justify-content-between">
+                            {/* <span className="rating-bx">
                               <i className="fas fa-star" />
                               <i className="fas fa-star" />
                               <i className="fas fa-star" />
                               <i className="fas fa-star" />
                               <i className="far fa-star" />
-                            </span>
+                            </span> */}
+                            <a href={elm.link} title="READ MORE" rel="bookmark" className="site-button-link">
+                              Read More <i className="fas fa-angle-double-right" />
+                            </a>
+                            <a href="#contact-us" title="READ MORE" rel="bookmark" className="site-button-link">
+                              Apply Now <i className="fas fa-angle-double-right" />
+                            </a>
                           </div>
+                          
                         </div>
                       </div>
                     </div>
