@@ -7,9 +7,9 @@ export default function InfluencerCta() {
         <div className="row">
           <div className="col-lg-9 text-white wow fadeInUp"
       data-wow-delay="1s">
-            <h2 className="title"> Join the Buzz. Influence the Future. </h2>
+            <h2 className="title"> Join the Buzz. Influence the Future. Let’s Elevate Brands Together! </h2>
             <p className="m-b0">
-            Let’s Elevate Brands Together!
+           
             Partner with Zingfluence—Elevate Brands, Monetize Your Influence, Make an Impact.
             </p>
           </div>

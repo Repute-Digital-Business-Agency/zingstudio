@@ -17,6 +17,8 @@ export default function InfluencerMarketingService() {
             height="160"
           />
         </div> */}
+
+   
          <div className="section-head container text-left ">
             <div className="row">
                 <div className="col-12 m-auto">
@@ -29,6 +31,174 @@ export default function InfluencerMarketingService() {
                 </div>
             </div>
           </div>
+          <div className="section-full bg-white content-inner">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12 m-auto">
+             
+                
+                <div className="section-content box-sort-in p-b0 button-example">
+                  <div className="row">
+                    <div className="col-lg-6 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                        <div className="icon-lg text-primary radius">
+                          <a href="#" className="icon-cell text-red">
+                            {/* <i className="ti-video-clapper" /> */}
+                            <img src="/images/brand-buzz/arrow-right.png" alt="" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Enhanced Brand Visibility
+                          </h5>
+                          <p>
+                          Amplify your brand’s presence with influencer-driven campaigns that reach wider, targeted audiences.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                      <div className="icon-lg text-primary radius">
+                          <a href="#" className="icon-cell text-red">
+                            {/* <i className="ti-video-clapper" /> */}
+                            <img src="/images/brand-buzz/arrow-right.png" alt="" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Authentic Audience Engagement
+                          </h5>
+                          <p>
+                          Build meaningful connections through trusted influencers who resonate with your target market.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                      <div className="icon-lg text-primary radius">
+                          <a href="#" className="icon-cell text-red">
+                            {/* <i className="ti-video-clapper" /> */}
+                            <img src="/images/brand-buzz/arrow-right.png" alt="" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Enhanced Brand Credibility
+
+                          </h5>
+                          <p>
+                          Gain consumer trust as influencers endorse your brand with authentic, relatable content.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                   
+                  {/* </div>
+                  <div className="row"> */}
+                  
+                    <div className="col-lg-6 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                      <div className="icon-lg text-primary radius">
+                          <a href="#" className="icon-cell text-red">
+                            {/* <i className="ti-video-clapper" /> */}
+                            <img src="/images/brand-buzz/arrow-right.png" alt="" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Optimized Conversion Rates
+                          </h5>
+                          <p>
+                          Drive more leads and sales with influencer collaborations that turn audience engagement into action.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                      <div className="icon-lg text-primary radius">
+                          <a href="#" className="icon-cell text-red">
+                            {/* <i className="ti-video-clapper" /> */}
+                            <img src="/images/brand-buzz/arrow-right.png" alt="" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Cost-Efficient Marketing
+                          </h5>
+                          <p>
+                          Achieve maximum impact with campaigns that deliver results without exceeding your budget.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                      <div className="icon-lg text-primary radius">
+                          <a href="#" className="icon-cell text-red">
+                            {/* <i className="ti-video-clapper" /> */}
+                            <img src="/images/brand-buzz/arrow-right.png" alt="" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Data-Driven Insights
+                          </h5>
+                          <p>
+                          Access real-time analytics to track performance, optimize strategies, and ensure continuous growth.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    {/* <div className="col-lg-3 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                        <div className="icon-sm text-primary radius">
+                          <a href="#" className="icon-cell text-red">
+                            <i className="ti-video-clapper" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Lorem ipsum dolor
+                          </h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit, sed diam nonummy nibh euismod.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 m-b30">
+                      <div className="icon-bx-wraper left">
+                        <div className="icon-xs text-primary radius">
+                          <a href="#" className="icon-cell text-orange">
+                            <i className="ti-gift" />
+                          </a>
+                        </div>
+                        <div className="icon-content">
+                          <h5 className="dlab-tilte text-capitalize">
+                          Lorem ipsum dolor
+                          </h5>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit, sed diam nonummy nibh euismod.
+                          </p>
+                        </div>
+                      </div>
+                    </div> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    
+{/*         
         <div className="col-12 m-auto px-4 rounded mt-4" style={{ background:"#1a43bf42"}}>
           <div className="row align-items-center">
             <div className="col-lg-7">
@@ -87,13 +257,13 @@ export default function InfluencerMarketingService() {
                         
                     
                     </li>
-                    {/* <li className="fw-bold">
+                    <li className="fw-bold">
                      
                       
                       Long & Short-Form Videos
                         
                      
-                    </li> */}
+                    </li>
                   </ol>
                 </div>
                 
@@ -192,13 +362,13 @@ export default function InfluencerMarketingService() {
                         
                     
                     </li>
-                    {/* <li className="fw-bold">
+                    <li className="fw-bold">
                      
                       
                       Long & Short-Form Videos
                         
                      
-                    </li> */}
+                    </li>
                   </ol>
                 </div>
                 
@@ -369,7 +539,7 @@ export default function InfluencerMarketingService() {
 
                       
                     </li>
-                    {/* <li className="fw-bold">
+                    <li className="fw-bold">
                      
                       
                       Long & Short-Form Videos
@@ -389,7 +559,7 @@ export default function InfluencerMarketingService() {
                       Long & Short-Form Videos
                         
                      
-                    </li> */}
+                    </li>
                   </ol>
                 </div>
                 
@@ -397,6 +567,8 @@ export default function InfluencerMarketingService() {
             </div>
           </div>
         </div>
+          */}
+
       </div>
       
     </div>
