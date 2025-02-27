@@ -378,33 +378,63 @@ export default function page() {
         const faqData = [
           {
             id: "faq6",
-            question: "1. Web design aorem apsum dolor sit amet?",
+            question: "1. Who can apply for the internship program?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "The program is open to students pursuing undergraduate or postgraduate degrees in relevant fields, as well as recent graduates seeking practical experience.",
           },
           {
             id: "faq7",
-            question: "2. Graphic design aorem apsum dolor?",
+            question: "2. What skills are required to apply?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "Basic knowledge related to the chosen domain is preferred. However, a willingness to learn, adaptability, and enthusiasm are highly valued.",
           },
           {
             id: "faq8",
-            question: "3. Development aorem apsum dolor sit amet?",
+            question: "3. What are the key benefits of this internship?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "Interns gain hands-on experience, mentorship from industry experts, real-world project exposure, and the opportunity to enhance their professional network.",
           },
           {
             id: "faq9",
-            question: "4. True Responsiveness consectetuer adipiscing?",
+            question: "4. Is this a paid internship?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "The internship structure may vary. Some positions offer stipends based on performance and project requirements.",
           },
           {
             id: "faq10",
-            question: "5. Claritas est etiam processus?",
+            question: "5. How long does the internship last?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "The duration typically ranges from 8 to 12 weeks, depending on the project scope and the intern's availability.",
+          },
+          {
+            id: "faq11",
+            question: "6. Will I receive a certificate after completion?",
+            answer:
+              "Yes. All interns who successfully complete the program will receive a certificate acknowledging their participation and achievements.",
+          },
+          {
+            id: "faq12",
+            question: "7. What kind of projects will I work on?",
+            answer:
+              "Interns will engage in live projects across various domains, providing practical exposure and helping them apply academic knowledge to real-world scenarios.",
+          },
+          {
+            id: "faq13",
+            question: "8. Is there a possibility of full-time employment after the internship?",
+            answer:
+              "High-performing interns may be considered for full-time opportunities, subject to available openings and performance evaluations.",
+          },
+          {
+            id: "faq14",
+            question: "9. How do I apply for the internship?",
+            answer:
+              "Applications can be submitted through our official website by filling out the internship application form and attaching the latest resume.",
+          },
+          {
+            id: "faq15",
+            question: "10. Will there be mentorship during the internship?",
+            answer:
+              "Yes. Interns will work closely with experienced professionals who will guide them throughout the program, ensuring continuous learning and growth.",
           },
         ];
 
@@ -485,13 +515,13 @@ export default function page() {
 
           const bannerContent = {
             head:"Zing Launchpad – Student Internship Program",
-            caption:"Course Highlight",
+            caption:"Course Highlights",
             duration:"10 Days",
             subTitle:"Application Closes On 31/05/2025",
             list:[
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis"
+              "Gain real-world experience on live projects",
+              "Learn under expert mentorship",
+              "In-house placement for top performers"
             ],
             button1:"Live",
             button2:"Online",

@@ -480,33 +480,51 @@ export default function page() {
     const faqData = [
           {
             id: "faq6",
-            question: "1. Web design aorem apsum dolor sit amet?",
+            question: "1. Who is this course suitable for?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "The course is ideal for students, marketing professionals, entrepreneurs, and anyone interested in mastering digital marketing skills.",
           },
           {
             id: "faq7",
-            question: "2. Graphic design aorem apsum dolor?",
+            question: "2. What topics does the course cover?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "The curriculum includes SEO, SEM, social media marketing, content marketing, email marketing, analytics, and paid advertising strategies.",
           },
           {
             id: "faq8",
-            question: "3. Development aorem apsum dolor sit amet?",
+            question: "3. Are there any prerequisites to enroll?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "No prior experience is required. The course is designed for beginners as well as professionals looking to enhance their skills.",
           },
           {
             id: "faq9",
-            question: "4. True Responsiveness consectetuer adipiscing?",
+            question: "4. Will I get hands-on experience?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "Yes. The course offers live projects and real-world case studies to ensure practical learning and application of strategies.",
           },
           {
             id: "faq10",
-            question: "5. Claritas est etiam processus?",
+            question: "5. Is there a certification upon completion?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
+          },
+          {
+            id: "faq11",
+            question: "6. What career opportunities does this course open up?",
+            answer:
+              "Graduates can pursue roles such as digital marketing strategist, SEO specialist, social media manager, content marketer, and more.",
+          },
+          {
+            id: "faq12",
+            question: "7. How long is the course duration?",
+            answer:
+              "The course duration typically ranges from 8 to 12 weeks, depending on the learning mode (full-time or part-time).",
+          },
+          {
+            id: "faq13",
+            question: "8. Does the course provide placement assistance?",
+            answer:
+              "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
           },
         ];
 
@@ -587,13 +605,13 @@ export default function page() {
 
           const bannerContent = {
             head:"Zing Digital Marketing Mastery",
-            caption:"Course Highlight",
+            caption:"Course Highlights",
             duration:"3 Months + 3 Months Internship",
             subTitle:"Application Closes On 31/05/2025",
             list:[
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis"
+              "Master industry-relevant skills with hands-on projects",
+              "Work with top digital marketing tools & strategies",
+              "Guaranteed placement support for top performers"
             ],
             button1:"Live",
             button2:"Online",

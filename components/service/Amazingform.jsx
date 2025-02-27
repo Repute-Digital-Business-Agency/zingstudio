@@ -130,7 +130,7 @@ const Amazingform = () => {
         {/* Image Section */}
         <div className="col-lg-4 col-md-12 text-center">
           
-          <img src="/images/Experts-Hub/meet-the-expert-img-1.jpg" alt="Newsletter" className="img-fluid rounded" style={{position:"relative", bottom:"-58px"}}/>
+          <img src="/images/Am-a-Zing/am-a-zing-image.png" alt="Newsletter" className="img-fluid rounded" style={{position:"relative", bottom:"-58px"}}/>
         </div>
       </div>
     </div>

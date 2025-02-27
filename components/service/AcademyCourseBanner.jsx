@@ -65,7 +65,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
             </ul>
 
             <p className="font-16 op8 wow fadeInLeft" data-wow-delay="0.4s">
-          {bannerContent.duration}
+          Course Duration - {bannerContent.duration}
 
             </p>
             

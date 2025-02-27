@@ -392,33 +392,63 @@ export default function page() {
         const faqData = [
           {
             id: "faq6",
-            question: "1. Web design aorem apsum dolor sit amet?",
+            question: "1. Who should take this course?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "This course is designed for digital marketers, content creators, business owners, web developers, and anyone looking to improve website visibility through effective SEO strategies.",
           },
           {
             id: "faq7",
-            question: "2. Graphic design aorem apsum dolor?",
+            question: "2. What topics does the course cover?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "Key areas include on-page and off-page SEO, keyword research, technical SEO, link building, local SEO, mobile optimization, and SEO analytics tools.",
           },
           {
             id: "faq8",
-            question: "3. Development aorem apsum dolor sit amet?",
+            question: "3. Do I need any prior SEO knowledge?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "No prior experience is needed. The course covers both foundational concepts and advanced SEO techniques, suitable for beginners and professionals alike.",
           },
           {
             id: "faq9",
-            question: "4. True Responsiveness consectetuer adipiscing?",
+            question: "4. What is the duration of the course?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "The course runs for 4–8 weeks, featuring flexible schedules with a combination of live sessions, recorded lectures, and practical assignments.",
           },
           {
             id: "faq10",
-            question: "5. Claritas est etiam processus?",
+            question: "5. Will I receive a certificate upon completion?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "Yes. A certificate of completion will be awarded, showcasing your expertise in SEO and boosting your professional profile.",
+          },
+          {
+            id: "faq11",
+            question: "6. Are there practical exercises included?",
+            answer:
+              "Definitely. The course includes hands-on projects like optimizing website content, conducting keyword research, and running SEO audits.",
+          },
+          {
+            id: "faq12",
+            question: "7. What tools will I learn during the course?",
+            answer:
+              "Gain experience with essential SEO tools like Google Analytics, Google Search Console, SEMrush, Ahrefs, and Yoast SEO.",
+          },
+          {
+            id: "faq13",
+            question: "8. How will this course help my career?",
+            answer:
+              "The course prepares you for roles such as SEO Specialist, Digital Marketing Strategist, or Content Marketing Manager by teaching in-demand SEO skills.",
+          },
+          {
+            id: "faq14",
+            question: "9. Is the course self-paced or instructor-led?",
+            answer:
+              "The course offers a blended learning experience with self-paced modules and live sessions led by industry experts.",
+          },
+          {
+            id: "faq15",
+            question: "10. How can I enroll in the course?",
+            answer:
+              "Simply visit our website, select the SEO Supercharger course, and complete the online registration process to get started.",
           },
         ];
 
@@ -499,13 +529,13 @@ export default function page() {
 
           const bannerContent = {
             head:"Zing SEO Supercharger",
-            caption:"Course Highlight",
+            caption:"Course Highlights",
             duration:"4 Weeks",
             subTitle:"Application Closes On 31/05/2025",
             list:[
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis"
+              "Master advanced SEO & data-driven optimization",
+              "Improve website rankings with proven strategies",
+              "Placement support for top performers"
             ],
             button1:"Live",
             button2:"Online",

@@ -371,33 +371,63 @@ export default function page() {
         const faqData = [
           {
             id: "faq6",
-            question: "1. Web design aorem apsum dolor sit amet?",
+            question: "1. Who can enroll in this course?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "The course is ideal for students, fresh graduates, entrepreneurs, and professionals looking to build foundational skills in digital marketing.",
           },
           {
             id: "faq7",
-            question: "2. Graphic design aorem apsum dolor?",
+            question: "2. What topics does the course cover?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "Key areas include SEO, social media marketing, content creation, email marketing, paid advertising, and analytics essentials.",
           },
           {
             id: "faq8",
-            question: "3. Development aorem apsum dolor sit amet?",
+            question: "3. Is any prior experience required?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "No prior experience is needed. The course is designed to cover fundamental concepts, making it suitable for beginners.",
           },
           {
             id: "faq9",
-            question: "4. True Responsiveness consectetuer adipiscing?",
+            question: "4. How long does the course take to complete?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "The course typically runs for 4–6 weeks, allowing participants to learn at a structured yet flexible pace.",
           },
           {
             id: "faq10",
-            question: "5. Claritas est etiam processus?",
+            question: "5. Will I get a certificate after completion?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "Yes. Participants who successfully complete the course will receive a certificate of completion, validating their digital marketing skills.",
+          },
+          {
+            id: "faq11",
+            question: "6. Does the course include practical projects?",
+            answer:
+              "Absolutely. The course features hands-on projects that enable learners to apply theoretical knowledge in real-world scenarios.",
+          },
+          {
+            id: "faq12",
+            question: "7. Is this course self-paced or instructor-led?",
+            answer:
+              "The course offers a blend of self-paced learning modules and live sessions with industry experts for better understanding.",
+          },
+          {
+            id: "faq13",
+            question: "8. Are there any assessments during the course?",
+            answer:
+              "Yes. Quizzes, assignments, and project evaluations are included to track learning progress and application of concepts.",
+          },
+          {
+            id: "faq14",
+            question: "9. What makes this course unique?",
+            answer:
+              "The course combines essential digital marketing knowledge with practical exposure, ensuring learners gain actionable skills in a short time frame.",
+          },
+          {
+            id: "faq15",
+            question: "10. How do I enroll?",
+            answer:
+              "Enrollment can be done through our official website by filling out the registration form and selecting the preferred batch schedule.",
           },
         ];
 
@@ -478,13 +508,13 @@ export default function page() {
 
           const bannerContent = {
             head:"Zing Digital Sprint – Essentials of Marketing",
-            caption:"Course Highlight",
+            caption:"Course Highlights",
             duration:"15 Days",
             subTitle:"Application Closes On 31/05/2025",
             list:[
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis"
+              "Strong foundation in digital marketing fundamentals",
+              "Hands-on training with essential marketing tools",
+              "Placement support for top performers"
             ],
             button1:"Live",
             button2:"Online",

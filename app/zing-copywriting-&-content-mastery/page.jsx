@@ -378,35 +378,66 @@ export default function page() {
         const faqData = [
           {
             id: "faq6",
-            question: "1. Web design aorem apsum dolor sit amet?",
+            question: "1. Who should enroll in this course?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "This course is perfect for aspiring copywriters, content creators, marketers, entrepreneurs, and anyone interested in mastering the art of persuasive writing.",
           },
           {
             id: "faq7",
-            question: "2. Graphic design aorem apsum dolor?",
+            question: "2. What topics does the course cover?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "The course includes modules on persuasive copywriting techniques, SEO content writing, storytelling, email marketing copy, ad copy, and creating content strategies that convert.",
           },
           {
             id: "faq8",
-            question: "3. Development aorem apsum dolor sit amet?",
+            question: "3. Is any prior writing experience required?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "No prior experience is necessary. The course starts with the fundamentals and gradually advances to expert-level techniques suitable for all learners.",
           },
           {
             id: "faq9",
-            question: "4. True Responsiveness consectetuer adipiscing?",
+            question: "4. How long does the course take to complete?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "The course spans 4–6 weeks, combining interactive sessions, practical assignments, and real-world projects for hands-on learning.",
           },
           {
             id: "faq10",
-            question: "5. Claritas est etiam processus?",
+            question: "5. Will I receive a certificate upon completion?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "Yes. A certificate of completion will be awarded, validating your skills in copywriting and content creation.",
+          },
+          {
+            id: "faq11",
+            question: "6. Does the course include practical projects?",
+            answer:
+              "Absolutely. Learners will work on real-world projects, including writing landing pages, ad copies, blog content, and social media campaigns.",
+          },
+          {
+            id: "faq12",
+            question: "7. How will this course benefit my career?",
+            answer:
+              "The course equips learners with high-demand skills in copywriting and content marketing, opening doors to freelance opportunities, agency roles, and in-house marketing positions.",
+          },
+          {
+            id: "faq13",
+            question: "8. Will I learn SEO-focused writing?",
+            answer:
+              "Yes. The course features a dedicated module on SEO copywriting, ensuring you understand how to write content that ranks and converts.",
+          },
+          {
+            id: "faq14",
+            question: "9.Is the course self-paced or instructor-led?",
+            answer:
+              "The course offers flexible learning options with self-paced modules supported by live sessions and mentorship from industry experts.",
+          },
+          {
+            id: "faq15",
+            question: "10. How can I enroll in the course?",
+            answer:
+              "Enrollment is easy. Simply visit our website, select the Copywriting & Content Mastery course, and complete the online registration process.",
           },
         ];
+  
 
         const testimonials = [
           {
@@ -484,13 +515,13 @@ export default function page() {
 
           const bannerContent = {
             head:"Zing Copywriting & Content Mastery",
-            caption:"Course Highlight",
+            caption:"Course Highlights",
             duration:"4 Weeks",
             subTitle:"Application Closes On 31/05/2025",
             list:[
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis"
+              "Develop persuasive copy & content creation skills",
+              "Learn storytelling, SEO writing & brand messaging",
+              "Placement support for top performers"
             ],
             button1:"Live",
             button2:"Online",

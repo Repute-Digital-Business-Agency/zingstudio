@@ -77,9 +77,9 @@ export default function page() {
     // ]   
 
     const formOption  =[
-      "Static Site",
-      "Dynamic Site",
-      "E-Commerce Site"
+      "E-Commerce",
+      "SaaS Platform",
+      "Open-Source Development"
     ]
     const bannerContent = {
       caption:"Scalable solutions to power your online store",
@@ -88,11 +88,13 @@ export default function page() {
         "Secure, fast and fully optimized online stores for seamless shopping experiences.",
         "Customizable e-commerce solutions, from simple storefronts to advanced CMS-based platforms.",
         "Expertise in building user-friendly, mobile-responsive, and conversion-focused e-commerce websites."
-      ]
+      ],
+        formTitle:"Build. Scale. Succeed. ",
+      formCaption:"From powerful e-commerce platforms to smart SaaS solutions and flexible open-source development, we’ve got the tools to fuel digital growth. Let’s create something extraordinary—connect now! "
     }
 
     const portfolioContent ={
-     description: "Check out our lineup of stunning websites that pop, perform, and leave a mark! At Zing Studio, we blend bold designs with smooth vibes to craft digital spaces that turn clicks into customers. From trendy business sites to vibrant online stores, our creations are all about making your brand shine."
+     description: "Discover a portfolio of e-commerce projects engineered for optimal user experiences, secure transactions, and scalable growth. Each solution is tailored to enhance customer engagement, drive sales, and support sustained digital success."
     }
     const portfolioItems = [
       {
@@ -125,7 +127,7 @@ export default function page() {
       },
       {
         title: "Goes Good",
-        image: "/images/services/web-deisgn/mockup-5.jpg",
+        image: "/images/services/E-commerce/mockup-5.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.6s",
         duration: "1.12s",

@@ -44,7 +44,7 @@ export default function InfluencerMarketingService() {
                         <div className="icon-lg text-primary radius">
                           <a href="#" className="icon-cell text-red">
                             {/* <i className="ti-video-clapper" /> */}
-                            <img src="/images/brand-buzz/arrow-right.png" alt="" />
+                            <img src="/images/brand-buzz/Colored-icons/colored-icon-01.png" alt="colored-icon" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -62,7 +62,7 @@ export default function InfluencerMarketingService() {
                       <div className="icon-lg text-primary radius">
                           <a href="#" className="icon-cell text-red">
                             {/* <i className="ti-video-clapper" /> */}
-                            <img src="/images/brand-buzz/arrow-right.png" alt="" />
+                            <img src="/images/brand-buzz/Colored-icons/colored-icon-05.png" alt="colored-icon" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -80,7 +80,7 @@ export default function InfluencerMarketingService() {
                       <div className="icon-lg text-primary radius">
                           <a href="#" className="icon-cell text-red">
                             {/* <i className="ti-video-clapper" /> */}
-                            <img src="/images/brand-buzz/arrow-right.png" alt="" />
+                            <img src="/images/brand-buzz/Colored-icons/colored-icon-02.png" alt="colored-icon" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -104,7 +104,7 @@ export default function InfluencerMarketingService() {
                       <div className="icon-lg text-primary radius">
                           <a href="#" className="icon-cell text-red">
                             {/* <i className="ti-video-clapper" /> */}
-                            <img src="/images/brand-buzz/arrow-right.png" alt="" />
+                            <img src="/images/brand-buzz/Colored-icons/colored-icon-03.png" alt="colored-icon" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -122,7 +122,7 @@ export default function InfluencerMarketingService() {
                       <div className="icon-lg text-primary radius">
                           <a href="#" className="icon-cell text-red">
                             {/* <i className="ti-video-clapper" /> */}
-                            <img src="/images/brand-buzz/arrow-right.png" alt="" />
+                            <img src="/images/brand-buzz/Colored-icons/colored-icon-04.png" alt="colored-icon" />
                           </a>
                         </div>
                         <div className="icon-content">
@@ -140,7 +140,7 @@ export default function InfluencerMarketingService() {
                       <div className="icon-lg text-primary radius">
                           <a href="#" className="icon-cell text-red">
                             {/* <i className="ti-video-clapper" /> */}
-                            <img src="/images/brand-buzz/arrow-right.png" alt="" />
+                            <img src="/images/brand-buzz/Colored-icons/colored-icon-06.png" alt="colored-icon" />
                           </a>
                         </div>
                         <div className="icon-content">

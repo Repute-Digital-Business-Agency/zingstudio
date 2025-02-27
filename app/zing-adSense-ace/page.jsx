@@ -377,33 +377,63 @@ export default function page() {
       const faqData = [
         {
           id: "faq6",
-          question: "1. Web design aorem apsum dolor sit amet?",
+          question: "1. Who is this course for?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "The AdSense Ace Course is ideal for bloggers, content creators, website owners, digital marketers, and anyone looking to monetize their online platforms with Google AdSense.",
         },
         {
           id: "faq7",
-          question: "2. Graphic design aorem apsum dolor?",
+          question: "2. What will I learn in this course?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "The course covers everything from setting up a Google AdSense account and understanding AdSense policies to optimizing ad placements, increasing earnings, and analyzing performance metrics.",
         },
         {
           id: "faq8",
-          question: "3. Development aorem apsum dolor sit amet?",
+          question: "3. Do I need prior experience with Google AdSense?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "No prior experience is required. The course starts with the basics and progresses to advanced monetization strategies suitable for all skill levels.",
         },
         {
           id: "faq9",
-          question: "4. True Responsiveness consectetuer adipiscing?",
+          question: "4. How long is the course?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "The course duration is 4–6 weeks, featuring interactive live sessions, recorded videos, and practical assignments for hands-on learning.",
         },
         {
           id: "faq10",
-          question: "5. Claritas est etiam processus?",
+          question: "5. Will I receive a certificate after completing the course?",
           answer:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+            "Yes. A certificate of completion will be provided, demonstrating your proficiency in AdSense optimization and monetization strategies.",
+        },
+        {
+          id: "faq11",
+          question: "6. Does the course include practical exercises? ",
+          answer:
+            "Absolutely. Learners will work on real-world projects, including setting up AdSense on demo websites, optimizing ad performance, and implementing best practices.",
+        },
+        {
+          id: "faq12",
+          question: "7. How will this course help me earn revenue?",
+          answer:
+            "The course equips you with the knowledge and strategies to maximize ad revenue through optimized ad placements, increased traffic, and adherence to AdSense policies.",
+        },
+        {
+          id: "faq13",
+          question: "8. What if my AdSense account gets disapproved?",
+          answer:
+            "The course includes a dedicated module on troubleshooting common issues, including tips and strategies for reapplying and ensuring approval.",
+        },
+        {
+          id: "faq14",
+          question: "9. Is the course self-paced or instructor-led?",
+          answer:
+            "The course offers a flexible learning structure with self-paced modules complemented by live sessions conducted by industry experts.",
+        },
+        {
+          id: "faq15",
+          question: "10. How do I enroll in the course?",
+          answer:
+            "Enrollment is simple. Visit our website, select the AdSense Ace Course, and complete the online registration process to start your journey toward monetization success.",
         },
       ];
 
@@ -483,13 +513,13 @@ export default function page() {
         ]
         const bannerContent = {
           head:"Zing AdSense Ace",
-          caption:"Course Highlight",
+          caption:"Course Highlights",
           duration:"8 Weeks",
           subTitle:"Application Closes On 31/05/2025",
           list:[
-            "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-            "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-            "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis"
+            "Learn effective monetization strategies",
+            "Optimize AdSense for higher revenue",
+            "Placement support for top performers"
           ],
           button1:"Live",
           button2:"Online",

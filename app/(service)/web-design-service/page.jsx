@@ -77,7 +77,7 @@ export default function page() {
     const formOption  =[
       "Static Site",
       "Dynamic Site",
-      "E-Commerce Site"
+      
     ]
     const bannerContent = {
       caption:"High-performance website to strengthen your digital presence.",
@@ -86,7 +86,9 @@ export default function page() {
         "Navigable and functional websites, optimized to deliver desired results for your business.",
         "A visually appealing, functional and conversion-focused website.",
         "Custom-built static or dynamic CMS solutions tailored to your business needs."
-      ]
+      ],
+      formTitle:" Designs That Wow, Results That Matter!",
+      formCaption:"Get sleek, responsive websites tailored to elevate brands and captivate audiences. Let’s build something incredible—connect now!"
     }
 
     const portfolioContent ={

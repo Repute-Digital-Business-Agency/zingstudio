@@ -55,11 +55,11 @@ export default function HeroSection({head,option,bannerContent}) {
               
             >
               <h3 className="title-box font-weight-300 m-t0 m-b10">
-              Let’s Bring Your Vision to Life!
+              {bannerContent.formTitle}
                 <span className="bg-primary" />
               </h3>
               <p>
-               Have questions or need expert help with web design, digital marketing, or branding? We’re here for you! Simply fill out the form below, and one of our team members will reach out to discuss how we can create something amazing together. We can’t wait to connect with you!
+               {bannerContent.formCaption}
               </p>
               <div className="row">
                 <div className="col-lg-6 col-md-6">

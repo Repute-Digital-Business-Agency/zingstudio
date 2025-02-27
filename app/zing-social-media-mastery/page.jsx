@@ -387,33 +387,63 @@ export default function page() {
         const faqData = [
           {
             id: "faq6",
-            question: "1. Web design aorem apsum dolor sit amet?",
+            question: "1. Who can enroll in this course?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "This course is ideal for aspiring social media managers, entrepreneurs, content creators, marketing professionals, and anyone looking to master social media strategies.",
           },
           {
             id: "faq7",
-            question: "2. Graphic design aorem apsum dolor?",
+            question: "2. What will I learn in this course?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "Key topics include content creation, platform-specific strategies (Facebook, Instagram, LinkedIn, Twitter, etc.), audience engagement, social media advertising, analytics, and influencer collaborations.",
           },
           {
             id: "faq8",
-            question: "3. Development aorem apsum dolor sit amet?",
+            question: "3. Do I need prior experience?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "No prior experience is required. The course covers fundamental concepts and advanced techniques suitable for all skill levels.",
           },
           {
             id: "faq9",
-            question: "4. True Responsiveness consectetuer adipiscing?",
+            question: "4. What is the duration of the course?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "The course spans 4–6 weeks with flexible schedules, including live sessions, recorded lectures, and hands-on projects.",
           },
           {
             id: "faq10",
-            question: "5. Claritas est etiam processus?",
+            question: "5. Will I receive a certificate after completing the course?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "Yes. Participants will receive a certificate of completion, validating their skills in social media management and strategy.",
+          },
+          {
+            id: "faq11",
+            question: "6. Are there practical projects included?",
+            answer:
+              "Absolutely. Learners will work on real-time projects, including developing social media campaigns, analyzing performance metrics, and running ad campaigns",
+          },
+          {
+            id: "faq12",
+            question: "7. Is this course self-paced or instructor-led?",
+            answer:
+              "The course offers a blend of self-paced learning modules and live interactive sessions with industry experts.",
+          },
+          {
+            id: "faq13",
+            question: "8. What tools will I learn to use?",
+            answer:
+              "You’ll gain hands-on experience with popular social media management tools like Hootsuite, Canva, Meta Business Suite, and Google Analytics.",
+          },
+          {
+            id: "faq14",
+            question: "9. How will this course benefit my career?",
+            answer:
+              "The course equips you with the skills needed to manage professional social media accounts, enhance brand presence, and run successful campaigns, making you job-ready.",
+          },
+          {
+            id: "faq15",
+            question: "10. How do I register for the course?",
+            answer:
+              "Registration is simple—visit our website, choose your preferred batch, and complete the enrollment process online.",
           },
         ];
 
@@ -494,13 +524,13 @@ export default function page() {
 
           const bannerContent = {
             head:"Zing Social Media Mastery",
-            caption:"Course Highlight",
+            caption:"Course Highlights",
             duration:"4 Weeks",
             subTitle:"Application Closes On 31/05/2025",
             list:[
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis"
+              "Build expertise in social media strategy & engagement",
+              "Create high-impact content and run paid campaigns",
+              "Placement support for top performers"
             ],
             button1:"Live",
             button2:"Online",

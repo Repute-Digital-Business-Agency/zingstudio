@@ -382,33 +382,63 @@ export default function page() {
         const faqData = [
           {
             id: "faq6",
-            question: "1. Web design aorem apsum dolor sit amet?",
+            question: "1. Who should take this course?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "This course is perfect for marketers, business owners, digital professionals, and students eager to explore how AI is transforming digital marketing.",
           },
           {
             id: "faq7",
-            question: "2. Graphic design aorem apsum dolor?",
+            question: "2. What will I learn in this course?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "Key topics include AI-powered content creation, predictive analytics, personalized marketing strategies, chatbots, automation tools, and performance optimization using AI.",
           },
           {
             id: "faq8",
-            question: "3. Development aorem apsum dolor sit amet?",
+            question: "3. Is any prior experience required?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "No prior AI knowledge is necessary. A basic understanding of digital marketing concepts will be helpful but not mandatory.",
           },
           {
             id: "faq9",
-            question: "4. True Responsiveness consectetuer adipiscing?",
+            question: "4. How long does the course last?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "The course typically spans 4–8 weeks, depending on the learning path selected, with flexible schedules for self-paced modules.",
           },
           {
             id: "faq10",
-            question: "5. Claritas est etiam processus?",
+            question: "5. Will I receive a certificate upon completion?",
             answer:
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+              "Yes. A certificate of completion will be provided, recognizing your expertise in leveraging AI for digital marketing.",
+          },
+          {
+            id: "faq11",
+            question: "6. Does the course include practical projects?",
+            answer:
+              "Yes. Learners will work on real-world projects, including building AI-driven campaigns and utilizing AI tools for customer engagement.",
+          },
+          {
+            id: "faq12",
+            question: "7. Is the course self-paced or instructor-led?",
+            answer:
+              "The course offers a blend of self-paced lessons and live sessions with AI and digital marketing experts for deeper insights.",
+          },
+          {
+            id: "faq13",
+            question: "8. Are there assessments during the course?",
+            answer:
+              "Absolutely. Regular quizzes, assignments, and final projects ensure learners can apply AI techniques effectively.",
+          },
+          {
+            id: "faq14",
+            question: "9. How does this course stand out?",
+            answer:
+              "It uniquely combines cutting-edge AI applications with practical marketing strategies, empowering learners to stay ahead in the evolving digital landscape.",
+          },
+          {
+            id: "faq15",
+            question: "10. How do I enroll?",
+            answer:
+              "Simply visit our website, complete the registration form, and choose the batch that fits your schedule.",
           },
         ];
 
@@ -489,13 +519,13 @@ export default function page() {
 
           const bannerContent = {
             head:"Zing AI in Digital Marketing",
-            caption:"Course Highlight",
+            caption:"Course Highlights",
             duration:"5 Days",
             subTitle:"Application Closes On 31/05/2025",
             list:[
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis ",
-              "lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut in, rem officiis"
+              "Learn AI-powered marketing strategies",
+              "Work with top AI tools for automation & content creation",
+              "Placement support for top performers"
             ],
             button1:"Live",
             button2:"Online",

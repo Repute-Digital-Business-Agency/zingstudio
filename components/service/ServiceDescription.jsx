@@ -7,8 +7,7 @@ export default function ServiceDescription() {
         <div className="row">
           <div className="col-lg-12 service-main-title text-black text-center">
             <h4 className="title max-w700 m-auto">
-              To others what may appear the impossible, becomes possible with
-              Uncode.
+            Design. Strategy. Impact—Services That Set Your Brand Apart!
             </h4>
           </div>
         </div>

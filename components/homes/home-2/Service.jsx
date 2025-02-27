@@ -34,9 +34,7 @@ export default function Service() {
                   Design
                 </h2>
                 <p>
-                  At Zing Studio we design websites with your customer in mind,
-                  because modern web design is more than just about creating a
-                  visually stunning site.
+                Your website is your brand’s first impression—let’s make it unforgettable! We create sleek, responsive, and user-friendly designs that captivate audiences and drive results. Let’s build a digital presence that turns visitors into loyal customers!
                 </p>
                 <Link
                   href={`/web-design-service`}
@@ -75,7 +73,7 @@ export default function Service() {
                   Marketing
                 </h2>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe earum tenetur expedita, consequatur facilis voluptatibus hic sit, cumque assumenda 
+                Boosting brand visibility and engagement through tailored strategies—SEO, social media, content marketing, and paid campaigns—designed to deliver measurable results.
                 </p>
                 <Link
                   href={`/digital-marketing-service`}
@@ -181,7 +179,7 @@ export default function Service() {
                   {/* <br /> Optimization */}
                 </h2>
                 <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe earum tenetur expedita, consequatur facilis voluptatibus hic sit, cumque assumenda 
+                User-centric e-commerce websites with intuitive navigation and secure payment systems, designed to optimize customer experience and accelerate business growth.
                 </p>
                 <Link
                   href={`/e-commerce-service`}
