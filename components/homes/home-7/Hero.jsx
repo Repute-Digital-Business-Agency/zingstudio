@@ -7,7 +7,7 @@ import "swiper/css";
 const slidesData = [
   {
     backgroundImage:
-      'url("/images/Home-Page/banner-img-studio.jpg") center center no-repeat',
+      'url("/images/Home-Page/banner-zing-studio-1.jpg") center center no-repeat',
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
     title: "<span style='color: #e21100'>ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact",
     description:
@@ -17,7 +17,7 @@ const slidesData = [
   },
   {
     backgroundImage:
-      'url("/images/Home-Page/zing-banner-web-design.jpg") center center no-repeat',
+      'url("/images/Home-Page/banner-zing-web-design--1.jpg") center center no-repeat',
     subTitle: "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     title: "<span style='color: #e21100'>WEB DESIGN </span><br/>Smart, sleek, and user-focused",
     description:
@@ -27,7 +27,7 @@ const slidesData = [
   },
   {
     backgroundImage:
-      'url("/images/Home-Page/zing-banner-digital marketing.jpg") center center no-repeat',
+      'url("/images/Home-Page/banner-zing-digital-marketing-1.jpg") center center no-repeat',
     subTitle: "Empowering brands with data-driven digital marketing strategies for impactful online growth.",
     title: "<span style='color: #e21100'>DIGITAL MARKETING </span><br/> Fueling brand growth digitally",
     description:
@@ -37,7 +37,7 @@ const slidesData = [
   },
   {
     backgroundImage:
-      'url("/images/Home-Page/zing-banner-acadmy.jpg") center center no-repeat',
+      'url("/images/Home-Page/banner-zing-acadmey-1.jpg") center center no-repeat',
     subTitle:
       "Shaping future entrepreneurs and skilled professionals through educational excellence.",
     title:
