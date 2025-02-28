@@ -43,9 +43,10 @@ export default function AcademyCourseBanner({option,bannerContent}) {
           <h2
               className="title-box font-weight-300  wow fadeInUp  "
               data-wow-delay="0.2s"
+              dangerouslySetInnerHTML={{__html:bannerContent.head}}
             > 
-            {bannerContent.head}
-               <span className="bg-primary" />
+            
+               {/* <span className="bg-primary" /> */}
             </h2>
           <h4
               className="font-weight-300 wow fadeInUp"

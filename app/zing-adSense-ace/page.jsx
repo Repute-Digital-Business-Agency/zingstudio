@@ -87,7 +87,7 @@ export default function page() {
     {
       id: 137,
       imgSrc: "/images/icon/car/icon-1.png",
-      title: "Paid Advertising Foundations <b> (Week 1-2) <b/>",
+      title: "Paid Advertising Foundations <b style='font-size: 18px; color: #1a43bf;'> (Week 1-2) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -101,7 +101,7 @@ export default function page() {
     {
       id: 138,
       imgSrc: "/images/icon/car/icon-2.png",
-      title: "Facebook & Instagram Ad Optimization <b> (Week 3-4) <b/>",
+      title: "Facebook & Instagram Ad Optimization <b style='font-size: 18px; color: #1a43bf;'> (Week 3-4) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -116,7 +116,7 @@ export default function page() {
     {
       id: 139,
       imgSrc: "/images/icon/car/icon-3.png",
-      title: " Retargeting & Advanced Tactics <b> (Week 5-6) <b/>",
+      title: " Retargeting & Advanced Tactics <b style='font-size: 18px; color: #1a43bf;'> (Week 5-6) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -129,7 +129,7 @@ export default function page() {
     {
       id: 140,
       imgSrc: "/images/icon/car/icon-4.png",
-      title: "Project Execution & Graduation <b>(Week 7-8)<b/>",
+      title: "Project Execution & Graduation <b style='font-size: 18px; color: #1a43bf;'>(Week 7-8)</b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -589,7 +589,7 @@ export default function page() {
       <ToolsLearning ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2}/>
       
       
-      <SucessStories testimonials={testimonials}/>
+      {/* <SucessStories testimonials={testimonials}/> */}
     
       <div  className="bg-white"  style={{paddingBottom:"50px", paddingTop:"50px"}}>
         <CourseProgramFaq faqData={faqData}/>

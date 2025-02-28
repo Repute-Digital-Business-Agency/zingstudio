@@ -41,7 +41,7 @@ export default function page() {
 
   const courseModule = [
     {
-      title:"Module 1:Content Psychology & Storytelling",
+      title:"Module 1: Content Psychology & Storytelling",
       list:[
         "Understanding Consumer Behavior",
         "Brand Storytelling Techniques",
@@ -87,7 +87,7 @@ export default function page() {
     {
       id: 137,
       imgSrc: "/images/icon/car/icon-1.png",
-      title: "Copywriting Foundations <b> (Week 1) <b/>",
+      title: "Copywriting Foundations <b style='font-size: 18px; color: #1a43bf;'> (Week 1) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -102,7 +102,7 @@ export default function page() {
     {
       id: 138,
       imgSrc: "/images/icon/car/icon-2.png",
-      title: "Storytelling & Branding <b> (Week 2) <b/>",
+      title: "Storytelling & Branding <b style='font-size: 18px; color: #1a43bf;'> (Week 2) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -117,7 +117,7 @@ export default function page() {
     {
       id: 139,
       imgSrc: "/images/icon/car/icon-3.png",
-      title: " SEO Writing & Blogging <b> (Week 3) <b/>",
+      title: " SEO Writing & Blogging <b style='font-size: 18px; color: #1a43bf;'> (Week 3) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -130,7 +130,7 @@ export default function page() {
     {
       id: 140,
       imgSrc: "/images/icon/car/icon-4.png",
-      title: " Final Project & Graduation <b>(Week 4) <b/>",
+      title: " Final Project & Graduation <b style='font-size: 18px; color: #1a43bf;'>(Week 4) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",

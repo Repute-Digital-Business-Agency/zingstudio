@@ -83,11 +83,11 @@ export default function page() {
    
   ]
 
-  const services10 =   [
+  const  services10 =   [
     {
       id: 137,
       imgSrc: "/images/icon/car/icon-1.png",
-      title: "SEO Foundations <b> (Week 1) <b/>",
+      title: "SEO Foundations <b style='font-size: 18px; color: #1a43bf;'> (Week 1) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -101,7 +101,7 @@ export default function page() {
     {
       id: 138,
       imgSrc: "/images/icon/car/icon-2.png",
-      title: "On-Page SEO & Speed Optimization <b> (Week 2) <b/>",
+      title: "On-Page SEO & Speed Optimization <b style='font-size: 18px; color: #1a43bf;'> (Week 2) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -116,7 +116,7 @@ export default function page() {
     {
       id: 139,
       imgSrc: "/images/icon/car/icon-3.png",
-      title: "Link Building & Technical SEO <b> (Week 3) <b/>",
+      title: "Link Building & Technical SEO <b style='font-size: 18px; color: #1a43bf;'> (Week 3) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -129,7 +129,7 @@ export default function page() {
     {
       id: 140,
       imgSrc: "/images/icon/car/icon-4.png",
-      title: "E-Commerce & Local SEO <b>(Week 4) <b/>",
+      title: "E-Commerce & Local SEO <b style='font-size: 18px; color: #1a43bf;'>(Week 4) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -605,7 +605,7 @@ export default function page() {
       <ToolsLearning ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2}/>
       
       
-      <SucessStories testimonials={testimonials}/>
+      {/* <SucessStories testimonials={testimonials}/> */}
     
       <div  className="bg-white"  style={{paddingBottom:"50px", paddingTop:"50px"}}>
         <CourseProgramFaq faqData={faqData}/>

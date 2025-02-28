@@ -17,7 +17,7 @@ export default function HeroSection({head,option,bannerContent}) {
             >
               {head} <span className="bg-primary" />
             </h2>
-            <p className="font-16 op8 wow fadeInUp" data-wow-delay="0.4s">
+            <p className="font-16  wow fadeInUp" data-wow-delay="0.4s">
             {bannerContent.caption}
 
             </p>

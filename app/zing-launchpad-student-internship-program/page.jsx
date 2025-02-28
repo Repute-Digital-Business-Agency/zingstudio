@@ -89,7 +89,7 @@ export default function page() {
     {
       id: 137,
       imgSrc: "/images/icon/car/icon-1.png",
-      title: " Orientation & Goal Setting <b> (Day 1) <b/>",
+      title: " Orientation & Goal Setting <b style='font-size: 18px; color: #1a43bf;'> (Day 1) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -103,7 +103,7 @@ export default function page() {
     {
       id: 138,
       imgSrc: "/images/icon/car/icon-2.png",
-      title: "Digital Marketing Basics & Tools <b> (Days 2-5) <b/>",
+      title: "Digital Marketing Basics & Tools <b style='font-size: 18px; color: #1a43bf;'> (Days 2-5) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -118,7 +118,7 @@ export default function page() {
     {
       id: 139,
       imgSrc: "/images/icon/car/icon-3.png",
-      title: "Project Implementation <b> (Days 6-8) <b/>",
+      title: "Project Implementation <b style='font-size: 18px; color: #1a43bf;'> (Days 6-8) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -131,7 +131,7 @@ export default function page() {
     {
       id: 140,
       imgSrc: "/images/icon/car/icon-4.png",
-      title: "Evaluation & Networking <b>(Days 9-10) <b/>",
+      title: "Evaluation & Networking <b style='font-size: 18px; color: #1a43bf;'>(Days 9-10) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -514,7 +514,7 @@ export default function page() {
           ]
 
           const bannerContent = {
-            head:"Zing Launchpad – Student Internship Program",
+            head:"Zing Launchpad – <br/> Student Internship Program",
             caption:"Course Highlights",
             duration:"10 Days",
             subTitle:"Application Closes On 31/05/2025",
@@ -591,7 +591,7 @@ export default function page() {
       <ToolsLearning ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2}/>
       
       
-      <SucessStories testimonials={testimonials}/>
+      {/* <SucessStories testimonials={testimonials}/> */}
     
       <div  className="bg-white"  style={{paddingBottom:"50px", paddingTop:"50px"}}>
         <CourseProgramFaq faqData={faqData}/>
