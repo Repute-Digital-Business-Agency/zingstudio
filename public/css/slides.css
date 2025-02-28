@@ -596,18 +596,19 @@
 .slider-content .inner.sliderStyle7 .subTitle1 {
   font-size: 24px;
   line-height: 35px;
-  font-weight: 400;
+  font-weight: 500;
   color: white;
   margin-bottom: 10px;
 }
 
 .slider-content .inner.sliderStyle7 h1 {
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   font-size: 45px;
   line-height: 55px;
-  font-weight: 500;
+  font-weight: 600 !important;
   color: white;
   margin-bottom: 10px;
+  letter-spacing: normal;
 }
 
 .slider-content .inner.sliderStyle7 p {
@@ -619,14 +620,15 @@
   color: white;
 }
 
-.slider-content .inner.sliderStyle7 button {
+.slider-content .inner.sliderStyle7 .site-button {
   font-size: 15px;
-  line-height: 50px;
+  /* line-height: 50px; */
   font-weight: 500;
-  background-color: transparent;
-  border: 2px solid;
-  padding: 0px 25px;
+  background-color: #fbbf2b;
+  border: none;
+  padding: 12px 30px;
   box-shadow: none;
+  color: #000;
 }
 
 .home-slider-7 .nextButton,

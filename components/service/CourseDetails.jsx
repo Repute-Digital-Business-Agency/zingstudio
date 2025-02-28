@@ -8,9 +8,9 @@ export default function CourseDetails({CourseTitle,CourseDuration,courseModule})
       
         >
             <h2 className="title">{CourseTitle}</h2>
-            <h4 className="mt-4 mb-0" style={{fontSize:"22px"}}>
-            {CourseDuration}
-            </h4>
+            <p className="mt-0 mb-0 pt-0" >
+            Course Duration : {CourseDuration}
+            </p>
             {/* <p>
               At Zing Studio, we are committed to empowering the next generation
               of digital experts through our immersive training programs. Our

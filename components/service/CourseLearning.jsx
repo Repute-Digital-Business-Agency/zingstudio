@@ -149,7 +149,7 @@ export default function CourseLearning({courseLearnings,courseLearningContents})
                         />
                       </Link>
                     </div>
-                    <div className="dlab-info">
+                    <div className="dlab-info text-center">
                       <h5 className="dlab-title">
                         <Link href={`/portfolio-details/${item.title}`}>
                           {item.title}

@@ -64,21 +64,21 @@ export default function AcademyCourseBanner({option,bannerContent}) {
              
             </ul>
 
-            <p className="font-16 op8 wow fadeInUp" data-wow-delay="1s">
+            <p className="font-16  wow fadeInUp" data-wow-delay="1s">
           Course Duration : {bannerContent.duration}
 
             </p>
             
 
-            <h3
-              className="font-weight-300 m-b50 op7 wow fadeInUp"
+            <h4
+              className="font-weight-300 m-b50  wow fadeInUp"
               data-wow-delay="1.2s"
             >
               {bannerContent.subTitle}
 
 
 
-            </h3>
+            </h4>
 
             <div >
             <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp py-2 px-4 bg-white "
