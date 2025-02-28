@@ -34,18 +34,12 @@ export default function page() {
         "Standard",
       ]
       const bannerContent = {
-        head:"Monetize Your Social Media Influence Today!",
-        caption:"Join a Growing Community of Over 200,000 Influencers and",
-        subTitle:"Get Paid for Every POST, TWEET, REEL, SNAP, VIDEO, REVIEW, STORY, SHOOT",
-        list:[
-          "Connect with your ideal customers at the exact moment they are searching.",
-          "Achieve measurable results without the high expenses of traditional marketing.",
-          "Result-driven strategies that target potential customers with precision, leading to high-conversion leads and increased sales for your business."
-        ],
-        button:"Join Now and Turn Your Influence into Income!",
-        image:"/images/Influence-Buzz/Influence-buzz-header-img.png",
-        formTitle:"Join the Buzz—Let’s Make Influence Happen!"
-      }
+        head: "Monetize Your Social Media Influence Today!",
+        caption: "Join a Growing Community of Over 200,000 Influencers and",
+        subTitle: "Get Paid for Every",
+        button: "Join Now",
+        words: ["POST", "TWEET", "REEL", "SNAP", "VIDEO", "REVIEW", "STORY", "SHOOT"],
+      };
       const faqData = [
         {
           id: "faq6",
