@@ -12,17 +12,17 @@ export default function HeroSection({head,option,bannerContent}) {
         <div className="row">
           <div className="col-lg-6 col-md-12 content-inner chosesus-content text-white">
             <h2
-              className="title-box font-weight-300 m-b15 wow fadeInLeft"
+              className="title-box font-weight-300 m-b15 wow fadeInUp"
               data-wow-delay="0.2s"
             >
               {head} <span className="bg-primary" />
             </h2>
-            <p className="font-16 op8 wow fadeInLeft" data-wow-delay="0.4s">
+            <p className="font-16 op8 wow fadeInUp" data-wow-delay="0.4s">
             {bannerContent.caption}
 
             </p>
             <h3
-              className="font-weight-300 m-b50 op7 wow fadeInLeft"
+              className="font-weight-300 m-b50  wow fadeInUp"
               data-wow-delay="0.6s"
             >
                {bannerContent.subTitle}
@@ -31,13 +31,13 @@ export default function HeroSection({head,option,bannerContent}) {
 
             </h3>
             <h4
-              className="font-weight-300 wow fadeInLeft"
+              className="font-weight-300 wow fadeInUp"
               data-wow-delay="0.8s"
             >
              What you get
             </h4>
             <ul
-              className="list-hand-point  wow fadeInLeft"
+              className="list-hand-point  wow fadeInUp"
               data-wow-delay="1s"
             >
               {bannerContent.list.map((item, index) => (

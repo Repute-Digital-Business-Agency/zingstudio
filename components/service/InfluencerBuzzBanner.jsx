@@ -16,18 +16,18 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
           <div className="row">
           <div className="col-lg-4 col-md-6 content-inner chosesus-content text-black">
             <h2
-              className="title-box font-weight-300  wow fadeInLeft pt-5"
+              className="title-box font-weight-300  wow fadeInUp pt-5"
               data-wow-delay="0.2s"
             > 
             {bannerContent.head}
                <span className="bg-primary" />
             </h2>
-            <p className="font-16 op8 wow fadeInLeft" data-wow-delay="0.4s">
+            <p className="font-16 op8 wow fadeInUp" data-wow-delay="0.4s">
             {bannerContent.caption}
 
             </p>
             <h3
-              className="font-weight-300 m-b50 op7 wow fadeInLeft"
+              className="font-weight-300 m-b50 op7 wow fadeInUp"
               data-wow-delay="0.6s"
             >
                {bannerContent.subTitle}
@@ -36,20 +36,20 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
 
             </h3>
 
-            <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInLeft"
+            <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp"
               data-wow-delay="0.8s"  style={{textWrap:"wrap"}}>
             {bannerContent.button}
               {/* <i className="fas fa-angle-double-right ms-2" /> */}
             </a>
 
             {/* <h4
-              className="font-weight-300 wow fadeInLeft"
+              className="font-weight-300 wow fadeInUp"
               data-wow-delay="0.8s"
             >
              What you get
             </h4>
             <ul
-              className="list-hand-point  wow fadeInLeft"
+              className="list-hand-point  wow fadeInUp"
               data-wow-delay="1s"
             >
               {bannerContent.list.map((item, index) => (

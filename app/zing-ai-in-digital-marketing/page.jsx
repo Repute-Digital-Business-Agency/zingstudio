@@ -540,7 +540,7 @@ export default function page() {
         <Header17 />
          {/* <ZingAcademyProgramHero HeroBannerContent={HeroBannerContent}/> */}
          <AcademyCourseBanner option= {formOption} bannerContent={bannerContent}/>
-         <div
+         {/* <div
               className="section-full content-inner-2 bg-primary wow fadeIn"
               data-wow-duration="2s"
               data-wow-delay="0.2s"
@@ -558,7 +558,7 @@ export default function page() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
  
         <div >
         <CourseDetails CourseTitle={CourseTitle} CourseDuration={CourseDuration} courseModule={courseModule}/>

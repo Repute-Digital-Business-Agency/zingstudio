@@ -8892,6 +8892,12 @@ a,
   border-radius: 100px;
 }
 
+.course-banner .site-button.outline{
+  color:black;
+  background-color: white;
+  border: black;
+}
+
 /* white */
 
 .site-button.outline.white {
@@ -19132,6 +19138,9 @@ input[type="radio"]+label:hover:before {
 }
 .influ-banner{
   background-image: none !important;
+}
+.course-banner{
+  background-image: url(/images/services/serviceBanner.jpg) !important;
 }
 
 .BestInfluencer .box{

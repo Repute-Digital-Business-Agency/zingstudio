@@ -30,7 +30,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
   return (
     <>
     <div
-      className="section-full  bg-gray bg-img-fix pr-service-hero influ-banner"
+      className="section-full  text-white bg-img-fix pr-service-hero influ-banner course-banner"
       
     >
       <div className="container">
@@ -41,21 +41,21 @@ export default function AcademyCourseBanner({option,bannerContent}) {
          
           <div className="col-lg-7 col-md-12 content-inner chosesus-content text-black ">
           <h2
-              className="title-box font-weight-300  wow fadeInLeft  "
+              className="title-box font-weight-300  wow fadeInUp  "
               data-wow-delay="0.2s"
             > 
             {bannerContent.head}
                <span className="bg-primary" />
             </h2>
           <h4
-              className="font-weight-300 wow fadeInLeft"
-              data-wow-delay="0.8s"
+              className="font-weight-300 wow fadeInUp"
+              data-wow-delay="0.4s"
             >
             {bannerContent.caption}
             </h4>
             <ul
-              className="list-hand-point  wow fadeInLeft"
-              data-wow-delay="1s"
+              className="list-check  wow fadeInUp text-white"
+              data-wow-delay="0.6s"
             >
               {bannerContent.list.map((item, index) => (
                 <li key={index}><span>{item} </span></li>
@@ -64,15 +64,15 @@ export default function AcademyCourseBanner({option,bannerContent}) {
              
             </ul>
 
-            <p className="font-16 op8 wow fadeInLeft" data-wow-delay="0.4s">
-          Course Duration - {bannerContent.duration}
+            <p className="font-16 op8 wow fadeInUp" data-wow-delay="1s">
+          Course Duration : {bannerContent.duration}
 
             </p>
             
 
             <h3
-              className="font-weight-300 m-b50 op7 wow fadeInLeft"
-              data-wow-delay="0.6s"
+              className="font-weight-300 m-b50 op7 wow fadeInUp"
+              data-wow-delay="1.2s"
             >
               {bannerContent.subTitle}
 
@@ -81,18 +81,18 @@ export default function AcademyCourseBanner({option,bannerContent}) {
             </h3>
 
             <div >
-            <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInLeft py-2 px-4"
-              data-wow-delay="0.8s"  style={{textWrap:"wrap", marginRight:"10px"}}>
+            <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp py-2 px-4 bg-white "
+              data-wow-delay="1.4s"  style={{textWrap:"wrap", marginRight:"10px",}}>
                     {bannerContent.button1}
              
             </a>
-            <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInLeft py-2 px-4"
-              data-wow-delay="0.8s"  style={{textWrap:"wrap",marginRight:"10px"}}>
+            <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp py-2 px-4"
+              data-wow-delay="1.4s"  style={{textWrap:"wrap",marginRight:"10px"}}>
                      {bannerContent.button2}
              
             </a>
-            <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInLeft py-2 px-4"
-              data-wow-delay="0.8s"  style={{textWrap:"wrap",marginRight:"10px", }}>
+            <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp py-2 px-4"
+              data-wow-delay="1.4s"  style={{textWrap:"wrap",marginRight:"10px", }}>
                      {bannerContent.button3}
              
             </a>
@@ -125,7 +125,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
               data-wow-delay="0.2s"
               
             >
-              <h3 className="title-box font-weight-300 m-t0 m-b10">
+              <h3 className="title-box font-weight-300 m-t0 m-b10 text-dark">
               Register Now For Free
                
               </h3>

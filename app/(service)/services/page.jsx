@@ -27,7 +27,7 @@ export default function page() {
           <div className="content-block">
             <ServiceDescription />
             <Service />
-            <ServiceProgress/>
+            {/* <ServiceProgress/> */}
           </div>
         </div>
 

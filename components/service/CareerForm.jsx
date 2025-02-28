@@ -32,9 +32,10 @@ const CareerForm = () => {
               className="inquiry-form wow box-shadow  fadeInUp p-0" style={{backgroundColor:"transparent", boxShadow:"none"}}
               data-wow-delay="0.2s"
             >
-              <h2 className="fw-bold pt-4">  Lorem ipsum dolor sit amet  </h2>
+              <h2 className="fw-bold pt-4">  Join Our Team & Shine! 
+              </h2>
               <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta dolorem pariatur ullam 
+              Got the skills? We’ve got the opportunities! Fill out the form and step into an exciting career with Zing Studio!
               </p>
               <div className="row">
                 
