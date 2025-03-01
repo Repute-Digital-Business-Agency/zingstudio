@@ -97,7 +97,7 @@ export default function page() {
     {
       id: 137,
       imgSrc: "/images/icon/car/icon-1.png",
-      title: " Social Media Strategy <b style='font-size: 18px; color: #1a43bf;'> (Week 1) </b>",
+      title: " Social Media Strategy <b style='font-size: 18px; color: #1a43bf; font-weight:500'> (Week 1) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -111,7 +111,7 @@ export default function page() {
     {
       id: 138,
       imgSrc: "/images/icon/car/icon-2.png",
-      title: "Instagram & LinkedIn Mastery <b style='font-size: 18px; color: #1a43bf;'> (Week 2) </b>",
+      title: "Instagram & LinkedIn Mastery <b style='font-size: 18px; color: #1a43bf; font-weight:500'> (Week 2) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -126,7 +126,7 @@ export default function page() {
     {
       id: 139,
       imgSrc: "/images/icon/car/icon-3.png",
-      title: "YouTube & Facebook Growth Q&A <b style='font-size: 18px; color: #1a43bf;'> (Week 3) </b>" ,
+      title: "YouTube & Facebook Growth Q&A <b style='font-size: 18px; color: #1a43bf; font-weight:500'> (Week 3) </b>" ,
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -139,7 +139,7 @@ export default function page() {
     {
       id: 140,
       imgSrc: "/images/icon/car/icon-4.png",
-      title: "Monetization & Final Projects <b style='font-size: 18px; color: #1a43bf;'>(Week 4) </b>",
+      title: "Monetization & Final Projects <b style='font-size: 18px; color: #1a43bf; font-weight:500'>(Week 4) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",

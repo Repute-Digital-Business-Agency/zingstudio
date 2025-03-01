@@ -123,7 +123,7 @@ export default function page() {
     {
       id: 137,
       imgSrc: "/images/icon/car/icon-1.png",
-      title: "Orientation & Icebreaker <b style='font-size: 18px; color: #1a43bf;'> (Day 1-2) </b>",
+      title: "Orientation & Icebreaker <b style='font-size: 18px; color: #1a43bf; font-weight:500'> (Day 1-2) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -138,7 +138,7 @@ export default function page() {
     {
       id: 138,
       imgSrc: "/images/icon/car/icon-2.png",
-      title: "Module-Based Practical Learning <b style='font-size: 18px; color: #1a43bf;'> (Week 1 - Ongoing) </b>",
+      title: "Module-Based Practical Learning <b style='font-size: 18px; color: #1a43bf; font-weight:500'> (Week 1 - Ongoing) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -153,7 +153,7 @@ export default function page() {
     {
       id: 139,
       imgSrc: "/images/icon/car/icon-3.png",
-      title: "Doubt Clearing & Weekly Q&A <b style='font-size: 18px; color: #1a43bf;'> (Every Weekend)  </b>",
+      title: "Doubt Clearing & Weekly Q&A <b style='font-size: 18px; color: #1a43bf; font-weight:500'> (Every Weekend)  </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -166,7 +166,7 @@ export default function page() {
     {
       id: 140,
       imgSrc: "/images/icon/car/icon-4.png",
-      title: "Assignments & Case Studies <b style='font-size: 18px; color: #1a43bf;'>(Mid-Course) </b>",
+      title: "Assignments & Case Studies <b style='font-size: 18px; color: #1a43bf; font-weight:500'>(Mid-Course) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -189,7 +189,7 @@ export default function page() {
     {
       id: 142,
       imgSrc: "/images/icon/car/icon-6.png",
-      title: "Group Projects & Presentations <b style='font-size: 18px; color: #1a43bf;'> (Final Weeks) </b>",
+      title: "Group Projects & Presentations <b style='font-size: 18px; color: #1a43bf; font-weight:500'> (Final Weeks) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",

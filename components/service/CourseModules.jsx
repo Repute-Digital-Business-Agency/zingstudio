@@ -166,8 +166,8 @@ export default function Course() {
             <div className="col-12 col-lg-10   m-auto">
               <div className="section-head style2 text-center mb-0">
                 <h2 className="title">Courses</h2>
-                <p>Dive into the Digital World – Master Essential Skills with Our Dynamic Courses!
-                </p>
+                <h5>Dive into the Digital World – Master Essential Skills with Our Dynamic Courses!
+                </h5>
               </div>
 
               {/* Course Modules Grid */}
@@ -179,10 +179,10 @@ export default function Course() {
                         <div className="ow-post-media dlab-img-effect zoom-slow">
                           <Image alt="" src={elm.imgSrc} width="700" height="500" />
                         </div>
-                        <div className="ow-post-info">
+                        <div className="ow-post-info flex-grow-1 d-flex flex-column">
                           <div className="ow-post-title">
-                            <h4 className="post-title">
-                              <a href={elm.link} title="Video post">
+                            <h4 className="post-title" >
+                              <a href={elm.link} title="Video post" >
                                 {elm.title}
                               </a>
                             </h4>
@@ -193,7 +193,7 @@ export default function Course() {
                               {/* <li className="post-comment">{elm.duration}</li> */}
                             </ul>
                           </div>
-                          <div className="ow-post-text">{elm.description}</div>
+                          <div className="ow-post-text" style={{fontWeight:500}}>{elm.description}</div>
                           <div className="ow-post-readmore d-flex justify-content-between flex-wrap">
                             <h4 className="mb-0">{elm.price}</h4>
                             <h6 dangerouslySetInnerHTML={{__html:elm.duration}} style={{textAlign:"right"}}></h6>
@@ -207,10 +207,10 @@ export default function Course() {
                               <i className="fas fa-star" />
                               <i className="far fa-star" />
                             </span> */}
-                            <a href={elm.link} title="READ MORE" rel="bookmark" className="site-button-link">
+                            <a href={elm.link} title="READ MORE" rel="bookmark" className="site-button-link" style={{fontWeight:500, color:"#e21100"}}>
                               Read More <i className="fas fa-angle-double-right" />
                             </a>
-                            <a href="#contact-us" title="READ MORE" rel="bookmark" className="site-button-link">
+                            <a href="#contact-us" title="READ MORE" rel="bookmark" className="site-button-link " style={{fontWeight:500}}>
                               Apply Now <i className="fas fa-angle-double-right" />
                             </a>
                           </div>

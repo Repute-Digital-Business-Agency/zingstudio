@@ -37,7 +37,7 @@ export const footerLinks2 = [
   { href: "/portfolio", label: "Portfolio" },
   // { href: "/team-1", label: "Team" },
   { href: "/academy", label: "Zing Academy" },
-  { href: "/academy", label: "Am-A-Zing" },
+  { href: "/am-a-zing", label: "Am-A-Zing" },
   // { href: "/team-1", label: "Team" },
   { href: "/careers", label: "Life at Zing" },
   // { href: "/team-1", label: "Team" },

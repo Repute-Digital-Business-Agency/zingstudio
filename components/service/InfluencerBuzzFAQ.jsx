@@ -42,7 +42,7 @@ export default function InfluencerBuzzFAQ({faqData}) {
 
   return (
    
-        <div className="section-full bg-gray content-inner pb-5">
+        <div className="section-full bg-white content-inner pb-5">
           <div className="container">
             <div className="section-head text-black text-left">
               <h3>FAQ</h3>

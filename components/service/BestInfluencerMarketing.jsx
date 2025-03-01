@@ -31,7 +31,7 @@ export default function BestInfluencerMarketing() {
                           </a>
                         </div>
                         <div className="icon-content">
-                          <h5 className="dlab-tilte text-capitalize">
+                          <h5 className="dlab-tilte text-capitalize fw-bold">
                           Maximized Reach
 
                           </h5>
@@ -51,7 +51,7 @@ export default function BestInfluencerMarketing() {
                           </a>
                         </div>
                         <div className="icon-content">
-                          <h5 className="dlab-tilte text-capitalize">
+                          <h5 className="dlab-tilte text-capitalize fw-bold">
                           Authentic Connections
                           </h5>
                           <p>
@@ -70,7 +70,7 @@ export default function BestInfluencerMarketing() {
                           </a>
                         </div>
                         <div className="icon-content">
-                          <h5 className="dlab-tilte text-capitalize">
+                          <h5 className="dlab-tilte text-capitalize fw-bold">
                           Targeted Marketing
 
                           </h5>
@@ -90,7 +90,7 @@ export default function BestInfluencerMarketing() {
                           </a>
                         </div>
                         <div className="icon-content">
-                          <h5 className="dlab-tilte text-capitalize">
+                          <h5 className="dlab-tilte text-capitalize fw-bold">
                           Enhanced Engagement
 
                           </h5>
@@ -110,7 +110,7 @@ export default function BestInfluencerMarketing() {
                           </a>
                         </div>
                         <div className="icon-content">
-                          <h5 className="dlab-tilte text-capitalize">
+                          <h5 className="dlab-tilte text-capitalize fw-bold">
                           Measurable Results
 
                           </h5>
@@ -130,7 +130,7 @@ export default function BestInfluencerMarketing() {
                           </a>
                         </div>
                         <div className="icon-content">
-                          <h5 className="dlab-tilte text-capitalize">
+                          <h5 className="dlab-tilte text-capitalize fw-bold">
                           Cost-Effective Solutions
 
                           </h5>
@@ -150,7 +150,7 @@ export default function BestInfluencerMarketing() {
                           </a>
                         </div>
                         <div className="icon-content">
-                          <h5 className="dlab-tilte text-capitalize">
+                          <h5 className="dlab-tilte text-capitalize fw-bold">
                           Brand Credibility Boost
 
                           </h5>
@@ -170,7 +170,7 @@ export default function BestInfluencerMarketing() {
                           </a>
                         </div>
                         <div className="icon-content">
-                          <h5 className="dlab-tilte text-capitalize">
+                          <h5 className="dlab-tilte text-capitalize fw-bold">
                           Sustained Brand Impact
 
                           </h5>

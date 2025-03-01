@@ -627,7 +627,7 @@
   /* background-color: #fbbf2b; */
   background-color: #fff;
   border: none;
-  padding: 12px 30px;
+  padding: 10px 25px;
   box-shadow: none;
   color: #000;
   margin-top: 20px;
@@ -950,7 +950,7 @@
 .hero-section.home-slider-11 .site-button {
   border: 0;
   border-radius: 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 13px;
    font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
   padding: 0 30px;

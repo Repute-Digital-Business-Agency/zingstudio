@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function GuestLectures() {
   return (
 
-      <div className="bg-gray team-box-area pb-5 pt-5">
+      <div className="bg-gray team-box-area ">
     
         {/* Team Section Style 3 */}
         <div className="section-full content-inner">

@@ -41,7 +41,8 @@ export default function DedicatedSupport() {
                 <a href="#" className="icon-cell ">
                   {/* <i className="flaticon-factory"></i> */}
 
-                  <img src="images/Influence-Buzz/Dedicated-Support/icon-1.png" alt="" />
+                  {/* <img src="images/Influence-Buzz/Dedicated-Support/icon-1.png" alt="" /> */}
+                  <img src="/images/brand-buzz/Colored-icons/colored-icon-02.png" alt="colored-icon" />
                 </a>
               </div>
               <div className="icon-content">
@@ -60,7 +61,8 @@ export default function DedicatedSupport() {
               <div className="icon-md">
                 <a href="#" className="icon-cell">
                   {/* <i className="flaticon-settings"></i> */}
-                  <img src="images/Influence-Buzz/Dedicated-Support/icon-2.png" alt="" />
+                  {/* <img src="images/Influence-Buzz/Dedicated-Support/icon-2.png" alt="" /> */}
+                  <img src="/images/brand-buzz/Colored-icons/colored-icon-01.png" alt="colored-icon" />
                 </a>
               </div>
               <div className="icon-content">

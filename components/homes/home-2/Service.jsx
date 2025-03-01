@@ -12,20 +12,22 @@ export default function Service() {
             data-wow-duration="2s"
             data-wow-delay="0.2s"
           >
-            <div className="dlab-post-media dlab-img-effect zoom" style={{height:"100%"}}>
+            <div className="dlab-post-media dlab-img-effect zoom height-sec" style={{height:"400px"}}>
               <Image
                 alt=""
                 className="img-cover"
                 src="/images/services/web-design.jpg"
                 width="900"
                 height="550"
+                style={{ height: "100%", objectFit: "cover" }}
               />
             </div>
           </div>
           <div
-            className="col-lg-4 bg-white wow fadeIn"
+            className="col-lg-4 bg-white wow fadeIn height-sec"
             data-wow-duration="2s"
             data-wow-delay="0.4s"
+            style={{height:"400px"}}
           >
             <div className="service-box style2 h-100">
               <div>
@@ -58,6 +60,7 @@ export default function Service() {
                 src="/images/services/saas-platform.jpg"
                 width="900"
                 height="550"
+                style={{ height: "100%", objectFit: "cover" }}
               />
             </div>
           </div>
@@ -97,6 +100,7 @@ export default function Service() {
                 src="/images/services/open-source-development.jpg"
                 width="900"
                 height="550"
+                style={{ height: "100%", objectFit: "cover" }}
               />
             </div>
           </div>
@@ -205,6 +209,7 @@ export default function Service() {
                 src="/images/services/seo.jpg"
                 width="900"
                 height="550"
+                // style={{ height: "100%", objectFit: "cover" }}
               />
             </div>
           </div>

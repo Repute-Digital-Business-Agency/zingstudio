@@ -12,30 +12,31 @@ export default function HeroSection({head,option,bannerContent}) {
         <div className="row">
           <div className="col-lg-6 col-md-12 content-inner chosesus-content text-white">
             <h2
-              className="title-box font-weight-300 m-b15 wow fadeInUp"
+              className="title-box font-weight-300 mb-2 wow fadeInUp"
               data-wow-delay="0.2s"
             >
               {head} <span className="bg-primary" />
             </h2>
-            <p className="font-16  wow fadeInUp" data-wow-delay="0.4s">
+            <p className="font-16  wow fadeInUp " data-wow-delay="0.4s">
             {bannerContent.caption}
 
             </p>
             <h3
-              className="font-weight-300 m-b50  wow fadeInUp"
+              className="font-weight-300   wow fadeInUp"
               data-wow-delay="0.6s"
+              style={{fontSize:"25px"}}
             >
                {bannerContent.subTitle}
 
 
 
             </h3>
-            <h4
+            <h5
               className="font-weight-300 wow fadeInUp"
               data-wow-delay="0.8s"
             >
              What you get
-            </h4>
+            </h5>
             <ul
               className="list-hand-point  wow fadeInUp"
               data-wow-delay="1s"

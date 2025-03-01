@@ -78,7 +78,7 @@ export default function page() {
     {
       id: 137,
       imgSrc: "/images/icon/car/icon-1.png",
-      title: "Orientation & Icebreaker <b style='font-size: 18px; color: #1a43bf;'> (Day 1) </b>",
+      title: "Orientation & Icebreaker <b style='font-size: 18px; color: #1a43bf; font-weight:500'> (Day 1) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -92,7 +92,7 @@ export default function page() {
     {
       id: 138,
       imgSrc: "/images/icon/car/icon-2.png",
-      title: "Marketing Fundamentals <b style='font-size: 18px; color: #1a43bf;'> (Week 1) </b>",
+      title: "Marketing Fundamentals <b style='font-size: 18px; color: #1a43bf; font-weight:500'> (Week 1) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -108,7 +108,7 @@ export default function page() {
     {
       id: 140,
       imgSrc: "/images/icon/car/icon-4.png",
-      title: "SEO & Social Media Marketing <b style='font-size: 18px; color: #1a43bf;'>(Week 2) </b>",
+      title: "SEO & Social Media Marketing <b style='font-size: 18px; color: #1a43bf; font-weight:500'>(Week 2) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",
@@ -123,7 +123,7 @@ export default function page() {
     {
       id: 142,
       imgSrc: "/images/icon/car/icon-6.png",
-      title: "Project Presentations <b style='font-size: 18px; color: #1a43bf;'> (Final Day) </b>",
+      title: "Project Presentations <b style='font-size: 18px; color: #1a43bf; font-weight:500'> (Final Day) </b>",
       description:
         "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.",
       animation: "bounceInUp",

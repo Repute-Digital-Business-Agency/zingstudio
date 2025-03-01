@@ -87,7 +87,7 @@ export default function page() {
         "A visually appealing, functional and conversion-focused website.",
         "Custom-built static or dynamic CMS solutions tailored to your business needs."
       ],
-      formTitle:" Designs That Wow, Results That Matter!",
+      formTitle:" Designs that wow, results that matter!",
       formCaption:"Get sleek, responsive websites tailored to elevate brands and captivate audiences. Let’s build something incredible—connect now!"
     }
 

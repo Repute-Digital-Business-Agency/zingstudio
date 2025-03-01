@@ -24,7 +24,7 @@ export default function BusinessWork() {
                                 <div className="row d-flex justify-content-center ">
                                         <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
-                                        <div className="icon-bx-sm radius bg-primary m-b20">
+                                        <div className="icon-bx-sm radius m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell">
                                             {/* <i className="ti-headphone-alt" /> */}
                                             <img src="/images/brand-buzz/How-does-it-work/icon-1.png" alt="" />
@@ -42,7 +42,7 @@ export default function BusinessWork() {
                                     </div>
                                     <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
-                                        <div className="icon-bx-sm radius bg-primary m-b20">
+                                        <div className="icon-bx-sm radius  m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell">
                                             {/* <i className="ti-ruler-pencil" /> */}
                                             <img src="/images/brand-buzz/How-does-it-work/icon-2.png" alt="" />
@@ -60,7 +60,7 @@ export default function BusinessWork() {
                                     </div>
                                     <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
-                                        <div className="icon-bx-sm   radius bg-primary  m-b20">
+                                        <div className="icon-bx-sm   radius   m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell  text-primary">
                                             {/* <i className="ti-desktop" /> */}
                                             <img src="/images/brand-buzz/How-does-it-work/icon-3.png" alt="" />
@@ -80,7 +80,7 @@ export default function BusinessWork() {
                                   
                                         <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
-                                        <div className="icon-bx-sm radius bg-primary m-b20">
+                                        <div className="icon-bx-sm radius  m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell">
                                             {/* <i className="ti-headphone-alt" /> */}
                                             <img src="/images/brand-buzz/How-does-it-work/icon-4.png" alt="" />
@@ -99,7 +99,7 @@ export default function BusinessWork() {
                                     </div>
                                     <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
-                                        <div className="icon-bx-sm radius bg-primary m-b20">
+                                        <div className="icon-bx-sm radius  m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell">
                                             {/* <i className="ti-ruler-pencil" /> */}
                                             <img src="/images/brand-buzz/How-does-it-work/icon-5.png" alt="" />

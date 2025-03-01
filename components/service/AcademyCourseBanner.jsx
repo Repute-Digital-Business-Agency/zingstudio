@@ -82,8 +82,8 @@ export default function AcademyCourseBanner({option,bannerContent}) {
             </h4>
 
             <div >
-            <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp py-2 px-4 bg-white "
-              data-wow-delay="1.4s"  style={{textWrap:"wrap", marginRight:"10px",}}>
+            <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp py-2 px-4 text-white "
+              data-wow-delay="1.4s"  style={{textWrap:"wrap", marginRight:"10px", background:"#1a43bf"}}>
                     {bannerContent.button1}
              
             </a>
@@ -92,8 +92,8 @@ export default function AcademyCourseBanner({option,bannerContent}) {
                      {bannerContent.button2}
              
             </a>
-            <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp py-2 px-4"
-              data-wow-delay="1.4s"  style={{textWrap:"wrap",marginRight:"10px", }}>
+            <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp py-2 px-4 text-white"
+              data-wow-delay="1.4s"  style={{textWrap:"wrap",marginRight:"10px", background:"#1a43bf"}}>
                      {bannerContent.button3}
              
             </a>

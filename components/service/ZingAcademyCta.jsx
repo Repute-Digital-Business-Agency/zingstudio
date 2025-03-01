@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ZingAcademyCta() {
   return (
@@ -178,14 +179,27 @@ export default function ZingAcademyCta() {
                   </div>
                 </div>
                 <div className="col-lg-12 col-sm-12">
-                  <button
+                <div className="dz-btns d-flex align-items-center banner-btn">
+
+                <Link
+                  href="/careers/"
+                  className=" m-0 text-decoration-none text-white bg-primary"
+                  
+                >
+                                  
+                 Get A Free Quote!
+                
+                </Link>
+                
+                </div>
+                  {/* <button
                     name="submit"
                     type="submit"
                     value="Submit"
                     className="site-button button-lg"
                   >
                     <span>Get A Free Quote!</span>
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </form>

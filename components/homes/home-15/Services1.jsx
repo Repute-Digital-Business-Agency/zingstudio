@@ -30,17 +30,17 @@ export default function Services1() {
           {services11.map((item, index) => (
             <div
               key={index}
-              className={`col-lg-4 col-md-6 col-sm-12 m-b30 wow ${item.wowClass}`}
+              className={`col-lg-4 col-md-6 col-sm-12 m-b30 d-flex align-items-stretch wow ${item.wowClass}`}
               data-wow-duration="2s"
               data-wow-delay={item.wowDelay}
             >
-              <div className="icon-bx-wraper bx-style-2 m-l40 p-a30 left bg-gray icon-bx-ho">
+              <div className="icon-bx-wraper bx-style-2 m-l40 p-a30 left bg-gray icon-bx-ho d-flex flex-column w-100">
                 <div className="icon-bx-sm  m-b20" style={{ backgroundColor: "#e21100" }}>
                   <a href="#" className="icon-cell ">
                     <i className={`${item.iconClass} text-white`} />
                   </a>
                 </div>
-                <div className="icon-content p-l40">
+                <div className="icon-content p-l40 flex-grow-1">
                   <h5 className="dlab-tilte">{item.title}</h5>
                   <p>{item.description}</p>
                 </div>

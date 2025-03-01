@@ -9009,7 +9009,7 @@ a,
 }
 
 .site-button-link i {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 /* white */
@@ -19041,6 +19041,10 @@ input[type="radio"]+label:hover:before {
   .pr-service-hero .content-inner{
     padding: 30px 20px;
   }
+  .influ-banner .content-inner{
+    padding: 10px !important;
+  }
+
   .zingFluence .content-sec{
     padding-left: 0px;
   }
@@ -19339,4 +19343,11 @@ input[type="radio"]+label:hover:before {
     color: transparent;
     -webkit-text-stroke: 2px #fff;
     letter-spacing: 2px;
+}
+
+.banner-btn a{
+  font-size: 16px;
+  padding: 12px 31px;
+  font-weight: 600;
+  border: 1px solid white;
 }

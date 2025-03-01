@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function MarketingAgency() {
   return (
     <section
-      className="content-inner-4 ev-aboutus pb-5"
+      className="content-inner-4 ev-aboutus pb-5 pt-5"
       style={{
         backgroundImage: "",
         backgroundPosition: "center",

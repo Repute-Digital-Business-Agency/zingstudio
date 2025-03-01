@@ -988,7 +988,7 @@ h6 {
 
 /* Service Box Style2 */
 .service-box.style2 {
-  padding: 50px 80px;
+  padding: 30px 50px;
   align-self: center;
   /* /* align-items: center; */
   flex-wrap: wrap;
@@ -1014,6 +1014,21 @@ h6 {
 .about-industry .img-cover {
   height: 400px;
 }
+
+
+@media (max-width:1280px){
+  .about-industry .height-sec{
+    height: 500px !important;
+  }
+}
+
+@media (max-width:990px){
+  .about-industry .height-sec{
+    height: fit-content !important;
+  }
+}
+
+
 
 /* Service Box Style3 */
 .service-box.style3 .icon-bx-wraper {
@@ -3218,7 +3233,7 @@ HOME 5 Box Header
 
 .latest-project-info p {
   color: rgba(255, 255, 255, 0.75);
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .sr-iconbox1 {
@@ -7832,6 +7847,12 @@ HOME 5 Box Header
     height: 300px;
   }
 
+    .about-industry .height-sec{
+      height: fit-content !important;
+    
+  }
+  
+
   .counter-staus-box .play-btn {
     margin-top: 0;
   }
@@ -8625,6 +8646,7 @@ button.scroltop {
 }
 .BrandBuzzBanner.dz-ship-industry-zone{
   padding-top: 50px;
+  padding-bottom: 50px !important;
 }
 
 .dz-header {
@@ -8904,7 +8926,7 @@ button.scroltop {
 
 .dz-industry2-zone .silder-content p {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 27px;
   color: #fff;
   margin-top: 19px;
@@ -8931,7 +8953,7 @@ button.scroltop {
 .dz-industry2-zone .silder-content .dz-btns a {
   font-size: 16px;
   padding: 12px 31px;
-  font-weight: 400;
+  font-weight: 600;
   border: 1px solid white;
 }
 

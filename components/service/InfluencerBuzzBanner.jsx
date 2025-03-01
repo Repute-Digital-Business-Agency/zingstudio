@@ -15,11 +15,11 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
   return (
     <>
     <div
-      className="section-full  bg-gray bg-img-fix pr-service-hero influ-banner"
-      
+      className="section-full   bg-img-fix pr-service-hero influ-banner"
+      style={{background:"#e9e9e9"}}
     >
       <div className="container-fluid">
-        <div className="row">
+        <div className="row ">
         
         <div className="col-11 m-auto">
           <div className="row">
@@ -42,7 +42,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
               </h3>
               <a
                 href="/contact"
-                className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp"
+                className="site-button btnhover13 bg-primary align-self-center outline ms-auto outline-2 wow fadeInUp text-white"
                 data-wow-delay="0.8s"
                 style={{ textWrap: "wrap" }}
               >

@@ -42,7 +42,8 @@ export default function page() {
       const bannerContent = {
         head:"Create the Buzz. Build the Brand.",
         caption:"Harness the power of influencer marketing to amplify your brand’s voice, connect authentically, and make a lasting impact",
-        subTitle:"Level up your brand with influencer vibes that connect, captivate, and convert.",
+        subTitle:"Level up your brand with influencer vibes that",
+        words: ["Connect", "Captivate", "Convert"],
         list:[
           "Connect with your ideal customers at the exact moment they are searching.",
           "Achieve measurable results without the high expenses of traditional marketing.",

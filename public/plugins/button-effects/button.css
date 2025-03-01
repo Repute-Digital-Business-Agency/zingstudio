@@ -571,6 +571,19 @@
 	-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
+
+.call-action .btnhover13::after{
+	background-color: white !important;
+	color: black !important;
+	/* border: 1px solid black; */
+}
+.call-action .btnhover13:hover{
+	color: black !important;
+}
+.call-action .site-button.outline.white:hover{
+	background-color: white !important;
+}
+
 .btnhover13::after{
 	-webkit-transition-delay: 0.2s; /* Safari */
     transition-delay: 0.2s;

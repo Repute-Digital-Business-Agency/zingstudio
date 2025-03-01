@@ -39,6 +39,8 @@ export default function page() {
         subTitle: "Get Paid for Every",
         button: "Join Now",
         words: ["POST", "TWEET", "REEL", "SNAP", "VIDEO", "REVIEW", "STORY", "SHOOT"],
+         image:"/images/Influence-Buzz/Influence-buzz-header-img.png",
+        formTitle:"Join the Buzz—Let’s Make Influence Happen!"
       };
       const faqData = [
         {

@@ -6,7 +6,7 @@ import ModalVideo from "react-modal-video";
 export default function InfluencerMarketingService() {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className="bg-white">
+    <div className="bg-gray">
     
       <div className="dz-ship-industry-zone position-relative  BrandBuzzBanner container " >
         {/* <div className="dzpattern position-absolute">
@@ -31,7 +31,7 @@ export default function InfluencerMarketingService() {
                 </div>
             </div>
           </div>
-          <div className="section-full bg-white content-inner">
+          <div className="section-full bg-gray content-inner pb-0">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 m-auto">
@@ -48,7 +48,7 @@ export default function InfluencerMarketingService() {
                           </a>
                         </div>
                         <div className="icon-content">
-                          <h5 className="dlab-tilte text-capitalize">
+                          <h5 className="dlab-tilte text-capitalize fw-bold">
                           Enhanced Brand Visibility
                           </h5>
                           <p>
@@ -66,7 +66,7 @@ export default function InfluencerMarketingService() {
                           </a>
                         </div>
                         <div className="icon-content">
-                          <h5 className="dlab-tilte text-capitalize">
+                          <h5 className="dlab-tilte text-capitalize fw-bold">
                           Authentic Audience Engagement
                           </h5>
                           <p>
@@ -84,7 +84,7 @@ export default function InfluencerMarketingService() {
                           </a>
                         </div>
                         <div className="icon-content">
-                          <h5 className="dlab-tilte text-capitalize">
+                          <h5 className="dlab-tilte text-capitalize fw-bold">
                           Enhanced Brand Credibility
 
                           </h5>
@@ -108,7 +108,7 @@ export default function InfluencerMarketingService() {
                           </a>
                         </div>
                         <div className="icon-content">
-                          <h5 className="dlab-tilte text-capitalize">
+                          <h5 className="dlab-tilte text-capitalize fw-bold">
                           Optimized Conversion Rates
                           </h5>
                           <p>
@@ -126,7 +126,7 @@ export default function InfluencerMarketingService() {
                           </a>
                         </div>
                         <div className="icon-content">
-                          <h5 className="dlab-tilte text-capitalize">
+                          <h5 className="dlab-tilte text-capitalize fw-bold">
                           Cost-Efficient Marketing
                           </h5>
                           <p>
@@ -144,7 +144,7 @@ export default function InfluencerMarketingService() {
                           </a>
                         </div>
                         <div className="icon-content">
-                          <h5 className="dlab-tilte text-capitalize">
+                          <h5 className="dlab-tilte text-capitalize fw-bold">
                           Data-Driven Insights
                           </h5>
                           <p>
