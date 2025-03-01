@@ -1,5 +1,7 @@
 
 
+import Footer13 from "@/components/footers/Footer13";
+import Header17 from "@/components/headers/Header17";
 import PrivacyPolicy from "@/components/otherPages/PrivacyPolicy";
 import React from "react";
 
@@ -12,11 +14,11 @@ export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        
+      <Header17 />
         <div className="page-content bg-white">
           <PrivacyPolicy />
         </div>
-        
+        <Footer13 />
       </div>
     </>
   );

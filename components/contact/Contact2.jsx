@@ -99,6 +99,15 @@ export default function Contact2() {
                     </div>
                   </div>
                 </div>
+
+                {/* <div className="col-lg-12 col-md-6 mx-auto">
+                  
+                   
+                    <img src="/images/GIF/lets-connect-img.gif" alt="lets-connect"  
+                                   style={{height:"150px", width:"150px"}} ></img>
+                   
+                  
+                </div> */}
               </div>
             </div>
             <div className="col-lg-8 col-md-12 m-b30">

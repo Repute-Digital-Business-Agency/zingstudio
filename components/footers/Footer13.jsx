@@ -23,6 +23,7 @@ export default function Footer13() {
                     <li key={index}>
                       <Link href={link.href}>{link.label}</Link>
                     </li>
+                     
                   ))}
                 </ul>
               </div>
@@ -85,23 +86,31 @@ export default function Footer13() {
               <div className="circle-container footer-gif">
                 <img src="/images/Academy/lets-connect/lets-connect-img.png" alt="Center GIF" className="center-gif" />
                 <div className="social-icons">
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="icon icon1" style={{padding:"5px 8px "}}>
+                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="icon icon1" 
+                  style={{padding:"5px 8px "}}
+                  >
                     <i className="fab fa-facebook-f"></i>
+                    {/* <img src="/images/footer/icon-1.png" alt="" /> */}
                   </a>
                   <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="icon icon2">
                     <i className="fab fa-twitter"></i>
+                    {/* <img src="/images/footer/icon-2.png" alt="" /> */}
                   </a>
                   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="icon icon3">
                     <i className="fab fa-instagram"></i>
+                    {/* <img src="/images/footer/icon-3.png" alt="" /> */}
                   </a>
                   <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="icon icon4">
                     <i className="fab fa-linkedin-in"></i>
+                    {/* <img src="/images/footer/icon-4.png" alt="" /> */}
                   </a>
                   <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="icon icon5">
                     <i className="fab fa-youtube"></i>
+                    {/* <img src="/images/footer/icon-5.png" alt="" /> */}
                   </a>
                   <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" className="icon icon6">
                     <i className="fab fa-pinterest"></i>
+                    {/* <img src="/images/footer/icon-6.png" alt="" /> */}
                   </a>
                 </div>
               </div>

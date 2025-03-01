@@ -12,7 +12,7 @@ export const footerLinks_1 = [
 ];
 
 export const footerLinks_2 = [
-  { href: "/web-design", label: "Web Design" },
+  { href: "/web-design", label: "Web Design"},
   { href: "/e-commerce", label: "E-Commerce" },
   { href: "/search-engine-optimization", label: "Search Engine Optimization" },
   { href: "/social-media-marketing", label: "Social Media Marketing" },

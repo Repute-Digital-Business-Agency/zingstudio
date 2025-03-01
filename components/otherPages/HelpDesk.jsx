@@ -7,7 +7,7 @@ export default function HelpDesk() {
       {/* inner page banner */}
       <div
         className="dlab-bnr-inr overlay-black-middle bg-pt"
-        style={{ backgroundImage: "url(images/banner/bnr1.jpg)" }}
+        style={{ backgroundImage: "url(/images/about-us/banner.jpg)" }}
       >
         <div className="container">
           <div className="dlab-bnr-inr-entry">
@@ -152,7 +152,7 @@ export default function HelpDesk() {
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                       sed diam.
                     </p>
-                    <a className="site-button">View More</a>
+                    <a href="/contact" className="site-button">View More</a>
                   </div>
                 </div>
                 <div className="icon-bx-wraper bx-style-1 p-a30 center fly-box m-b30 bg-white">
@@ -169,7 +169,7 @@ export default function HelpDesk() {
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                       sed diam.
                     </p>
-                    <a className="site-button">View More</a>
+                    <a href="/contact" className="site-button">View More</a>
                   </div>
                 </div>
                 <div className="icon-bx-wraper bx-style-1 p-a30 center fly-box bg-white">
@@ -186,7 +186,7 @@ export default function HelpDesk() {
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                       sed diam.
                     </p>
-                    <a className="site-button">View More</a>
+                    <a href="/contact" className="site-button">View More</a>
                   </div>
                 </div>
               </div>

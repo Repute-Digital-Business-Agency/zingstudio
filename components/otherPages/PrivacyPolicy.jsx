@@ -5,10 +5,10 @@ export default function PrivacyPolicy() {
     <>
       {/* inner page banner */}
       <div
-        className="dlab-bnr-inr overlay-black-middle bg-pt"
-        style={{ backgroundImage: "url(images/banner/bnr1.jpg)" }}
+        className="dlab-bnr-inr overlay-black-middle "
+        style={{ backgroundImage: "url(/images/about-us/banner.jpg)" }}
       >
-        <div className="container">
+        <div className="container ">
           <div className="dlab-bnr-inr-entry">
             <h1 className="text-white">Privacy Policy</h1>
             {/* Breadcrumb row */}
@@ -26,9 +26,9 @@ export default function PrivacyPolicy() {
       </div>
       {/* inner page banner END */}
       {/* contact area */}
-      <div className="content-block">
+      <div className="content-block ">
         {/* Privacy Policy */}
-        <div className="section-full content-inner inner-text">
+        <div className="section-full content-inner inner-text bg-gray">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
