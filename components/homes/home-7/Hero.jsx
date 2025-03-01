@@ -15,38 +15,115 @@ const slidesData = [
     buttonLabel: "BUY & VIEW SERVICES",
     link:"/about"
   },
+
+  // ---demo start-----
+
   {
     backgroundImage:
-      'url("/images/Home-Page/banner-zing-web-design--1.jpg") center center no-repeat',
-    subTitle: "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
-    title: "<span class='home-banner-title'>WEB DESIGN </span><br/>Smart, sleek, and user-focused",
+      'url("/images/Home-Page/banner-opt-2.jpg") center center no-repeat',
+    subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "BUY & VIEW SERVICES",
-    link:"/web-design-service"
+    link:"/about"
   },
   {
     backgroundImage:
-      'url("/images/Home-Page/banner-zing-digital-marketing-1.jpg") center center no-repeat',
-    subTitle: "Empowering brands with data-driven digital marketing strategies for impactful online growth.",
-    title: "<span class='home-banner-title'>DIGITAL MARKETING </span><br/> Fueling brand growth digitally",
+      'url("/images/Home-Page/banner-opt-3.jpg") center center no-repeat',
+    subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
     description:
-      "Empowering brands with data-driven digital marketing strategies for impactful online growth.",
+      "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "BUY & VIEW SERVICES",
-    link:"/digital-marketing-service"
+    link:"/about"
   },
   {
     backgroundImage:
-      'url("/images/Home-Page/banner-zing-acadmey-1.jpg") center center no-repeat',
-    subTitle:
-      "Shaping future entrepreneurs and skilled professionals through educational excellence.",
-    title:
-      "<span class='home-banner-title'>ZING ACADEMY</span><br/>Transforming students into professionals",
+      'url("/images/Home-Page/banner-opt-4.jpg") center center no-repeat',
+    subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
     description:
-      "Shaping future entrepreneurs and skilled professionals through educational excellence.",
+      "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "BUY & VIEW SERVICES",
-    link:"/zing-academy"
+    link:"/about"
   },
+  {
+    backgroundImage:
+      'url("/images/Home-Page/banner-opt-5.jpg") center center no-repeat',
+    subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
+    description:
+      "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
+    buttonLabel: "BUY & VIEW SERVICES",
+    link:"/about"
+  },
+  {
+    backgroundImage:
+      'url("/images/Home-Page/banner-opt-6.jpg") center center no-repeat',
+    subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
+    description:
+      "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
+    buttonLabel: "BUY & VIEW SERVICES",
+    link:"/about"
+  },
+  {
+    backgroundImage:
+      'url("/images/Home-Page/banner-opt-7.jpg") center center no-repeat',
+    subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
+    description:
+      "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
+    buttonLabel: "BUY & VIEW SERVICES",
+    link:"/about"
+  },
+  {
+    backgroundImage:
+      'url("/images/Home-Page/banner-opt-1.jpg") center center no-repeat',
+    subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
+    description:
+      "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
+    buttonLabel: "BUY & VIEW SERVICES",
+    link:"/about"
+  },
+
+  // ----------demo end
+
+  
+  // {
+  //   backgroundImage:
+  //     'url("/images/Home-Page/banner-zing-web-design--1.jpg") center center no-repeat',
+  //   subTitle: "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
+  //   title: "<span class='home-banner-title'>WEB DESIGN </span><br/>Smart, sleek, and user-focused",
+  //   description:
+  //     "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
+  //   buttonLabel: "BUY & VIEW SERVICES",
+  //   link:"/web-design-service"
+  // },
+  // {
+  //   backgroundImage:
+  //     'url("/images/Home-Page/banner-zing-digital-marketing-1.jpg") center center no-repeat',
+  //   subTitle: "Empowering brands with data-driven digital marketing strategies for impactful online growth.",
+  //   title: "<span class='home-banner-title'>DIGITAL MARKETING </span><br/> Fueling brand growth digitally",
+  //   description:
+  //     "Empowering brands with data-driven digital marketing strategies for impactful online growth.",
+  //   buttonLabel: "BUY & VIEW SERVICES",
+  //   link:"/digital-marketing-service"
+  // },
+  // {
+  //   backgroundImage:
+  //     'url("/images/Home-Page/banner-zing-acadmey-1.jpg") center center no-repeat',
+  //   subTitle:
+  //     "Shaping future entrepreneurs and skilled professionals through educational excellence.",
+  //   title:
+  //     "<span class='home-banner-title'>ZING ACADEMY</span><br/>Transforming students into professionals",
+  //   description:
+  //     "Shaping future entrepreneurs and skilled professionals through educational excellence.",
+  //   buttonLabel: "BUY & VIEW SERVICES",
+  //   link:"/zing-academy"
+  // },
 ];
 
 export default function Hero() {

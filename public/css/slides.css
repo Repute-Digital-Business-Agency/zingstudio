@@ -624,7 +624,8 @@
   font-size: 15px;
   /* line-height: 50px; */
   font-weight: 500;
-  background-color: #fbbf2b;
+  /* background-color: #fbbf2b; */
+  background-color: #fff;
   border: none;
   padding: 12px 30px;
   box-shadow: none;

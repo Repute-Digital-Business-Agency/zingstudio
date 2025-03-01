@@ -23,7 +23,7 @@
     from(transparent),
     to(rgba(0, 0, 0, 0.9))
   );
-  background: rgba(0, 0, 0, 0.4);
+  /* background: rgba(0, 0, 0, 0.4); */
   bottom: 0;
   left: 0;
 }
