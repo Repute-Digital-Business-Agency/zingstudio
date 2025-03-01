@@ -15,7 +15,7 @@ export default function Footer13() {
               data-wow-delay="0.2s"
             >
               <div className="widget border-0">
-                <h6 className="m-b10 font-weight-300 text-uppercase" style={{ color: "#1A43BF" }}>
+                <h6 className="m-b10 font-weight-300 " style={{ color: "#1A43BF" }}>
                   Quick Links
                 </h6>
                 <ul className="list-2 ">
@@ -63,7 +63,7 @@ export default function Footer13() {
                     </div>
                   </form>
                 </div> */}
-                <h6 className="m-b10 font-weight-300 text-uppercase" style={{ color: "#1A43BF" }}>
+                <h6 className="m-b10 font-weight-300 " style={{ color: "#1A43BF" }}>
                   Connect with us
                 </h6>
 

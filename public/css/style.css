@@ -131,7 +131,7 @@ footer ul li a {
 }
 
 footer .list-2 li a {
-  font-size: 17px !important;
+  font-size: 13px !important;
 }
 
 a {
@@ -6571,6 +6571,9 @@ blockquote:before {
 .side-bar .widget {
   margin-bottom: 30px;
 }
+.site-footer .widget{
+  margin-bottom: 20px !important;
+}
 
 @media only screen and (max-width: 991px) {
   .side-bar {
@@ -6933,6 +6936,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   position: relative;
 }
 footer .list-2 li {
+  line-height: 1;
   padding: 5px 5px 5px 15px;
   width: 50%;
 }
@@ -13583,6 +13587,7 @@ footer#footer {
 }
 
 footer p {
+  font-size: 13px !important;
   line-height: 24px;
   margin-bottom: 10px;
   /* font-size: 14px !important; */
@@ -13611,7 +13616,7 @@ footer .widget_services ul li {
   background: white;
   background-size: cover;
   background-position: center;
-  padding: 80px 0 20px;
+  padding: 50px 0 0px;
 }
 
 .footer-bottom {
@@ -19276,8 +19281,8 @@ input[type="radio"]+label:hover:before {
 }
 
 .footer-gif .center-gif {
-  width: 100px;
-  height: 120px;
+  width: 80px;
+  height: 100px;
   /* border-radius: 50%; */
 }
 
