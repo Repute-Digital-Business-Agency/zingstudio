@@ -23,80 +23,84 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
         
         <div className="col-11 m-auto">
           <div className="row">
-          <div className="col-lg-4 col-md-6 content-inner chosesus-content text-black">
-      <h2 className="title-box font-weight-300 wow fadeInUp pt-5" data-wow-delay="0.2s">
-        {bannerContent.head} <span className="bg-primary" />
-      </h2>
-      <p className="font-16 op8 wow fadeInUp" data-wow-delay="0.4s">
-        {bannerContent.caption}
-      </p>
-      <h3 className={`font-weight-300 m-b50 op7 wow fadeInUp ${!bannerContent.words && "m-b50" }`} data-wow-delay="0.6s">
-        {bannerContent.subTitle}{" "}
-        {bannerContent.words && <span className="dropping-texts">
-          {bannerContent.words?.map((word, index) => (
-            <div key={index} className={index === currentIndex ? "visible" : ""}>
-              {word}
+            <div className="col-lg-4 col-md-6 content-inner chosesus-content text-black">
+              <h2 className="title-box font-weight-300 wow fadeInUp pt-5" data-wow-delay="0.2s">
+                {bannerContent.head} <span className="bg-primary" />
+              </h2>
+              <p className="font-16 op8 wow fadeInUp" data-wow-delay="0.4s">
+                {bannerContent.caption}
+              </p>
+              <h3 className={`font-weight-300 m-b50 op7 wow fadeInUp ${!bannerContent.words && "m-b50" }`} data-wow-delay="0.6s">
+                {bannerContent.subTitle}{" "}
+                {bannerContent.words && <span className="dropping-texts">
+                  {bannerContent.words?.map((word, index) => (
+                    <div key={index} className={index === currentIndex ? "visible" : ""}>
+                      {word}
+                    </div>
+                  ))}
+                </span>}
+              </h3>
+              <a
+                href="/contact"
+                className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp"
+                data-wow-delay="0.8s"
+                style={{ textWrap: "wrap" }}
+              >
+                {bannerContent.button}
+              </a>
+
+              <style>{`
+                .dropping-texts {
+                  display: inline-block;
+                  width: 180px;
+                  text-align: left;
+                  height: 36px;
+                  vertical-align: -2px;
+                  position: relative;
+                }
+
+                .dropping-texts > div {
+                  font-size: 0px;
+                  opacity: 0;
+                  margin-left: -10px;
+                  position: absolute;
+                  font-weight: 600;
+                  box-shadow: 0px 60px 25px -20px rgba(0, 0, 0, 0.5);
+                 
+                  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, margin-left 0.3s ease-in-out,margin-left 0.3s ease-in-out;
+                 
+                }
+
+                .dropping-texts > div.visible {
+                  font-size: 30px !important;
+                  opacity: 1;
+                  margin-left: 5px;
+                  margin-top: 10px;
+                  transform: rotate(0deg);
+                  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+                  
+                }
+              `}</style>
             </div>
-          ))}
-        </span>}
-      </h3>
-      <a
-        href="/contact"
-        className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp"
-        data-wow-delay="0.8s"
-        style={{ textWrap: "wrap" }}
-      >
-        {bannerContent.button}
-      </a>
 
-      <style>{`
-        .dropping-texts {
-          display: inline-block;
-          width: 180px;
-          text-align: left;
-          height: 36px;
-          vertical-align: -2px;
-          position: relative;
-        }
-
-        .dropping-texts > div {
-          font-size: 0px;
-          opacity: 0;
-          margin-left: -10px;
-          position: absolute;
-          font-weight: 600;
-          box-shadow: 0px 60px 25px -20px rgba(0, 0, 0, 0.5);
-          transition: all 0.5s ease-in-out;
-        }
-
-        .dropping-texts > div.visible {
-          font-size: 30px !important;
-          opacity: 1;
-          margin-left: 5px;
-          margin-top: 10px;
-          transform: rotate(0deg);
-          transition: all 0.5s ease-in-out;
-        }
-      `}</style>
-    </div>
-          <div className="col-lg-4 col-md-6 content-inner chosesus-content text-white d-flex flex-coloumn align-item-end wow fadeInUp">
+            <div className="col-lg-4 col-md-6 content-inner chosesus-content text-white d-flex flex-coloumn align-item-end wow fadeInUp">
+              
+            <div className="radius-sm  ">
+                <img className="choose-Zf-img"
+                  alt=""
+                  src={bannerContent.image}
+                  // width="600"
+                  // height="722"
+                  style={{
+                      // height:"700px",
+                      objectFit:"cover",
+                      position:"relative",
+                      bottom:"-50px"
+                  }}
+                />
+              </div>
             
-          <div className="radius-sm  ">
-              <img className="choose-Zf-img"
-                alt=""
-                src={bannerContent.image}
-                // width="600"
-                // height="722"
-                 style={{
-                    // height:"700px",
-                    objectFit:"cover",
-                    position:"relative",
-                    bottom:"-50px"
-                }}
-              />
             </div>
-           
-          </div>
           <div className="col-lg-4 col-md-12 m-b30 " >
             <form 
               onSubmit={(e) => e.preventDefault()}
