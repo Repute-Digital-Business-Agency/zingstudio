@@ -194,8 +194,8 @@ export default function CourseModulesHome() {
                   <h4 className="post-title">
                     <Link href={elm.link} style={{fontSize:"18px"}}>{elm.title}</Link>
                   </h4>
-                  <p className="mb-0">Duration: {elm.duration}</p>
-                  <p className="mb-0">Fees: {elm.price}</p>
+                  <p className="mb-0"> <b>Duration:</b> {elm.duration}</p>
+                  <p className="mb-0"><b>Fees:</b> {elm.price}</p>
                 </div>
                 <div className="dlab-post-text flex-grow-1">
                   <p>{elm.text}</p>

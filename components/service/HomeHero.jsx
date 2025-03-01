@@ -182,7 +182,7 @@ export default function HomeHero() {
                   </div>
                   <div className="dz-media-content2 d-flex align-items-center justify-content-between position-absolute">
                     <h2 className=" m-0" style={{ fontSize: "22px" }}>{slide.content2}</h2>
-                    <Link style={{ color: "#e21100 " }}
+                    <Link style={{ color: "#000 " }}
                       className="btn mediabtn bg-white"
                       href={slide.link}
                     >

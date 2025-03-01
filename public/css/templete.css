@@ -2628,7 +2628,7 @@ HOME 5 Box Header
 .about-year p {
   font-family: 'Metropolis', Arial, Helvetica, sans-serif !important;
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 18px !important;
   line-height: 28px;
   margin-left: 20px;
   color: #000;
@@ -8264,7 +8264,7 @@ button.scroltop {
 }
 
 .dz-oil-industry-zone {
-  padding: 70px 160px;
+  padding: 50px 160px;
 }
 
 .dz-oil-industry-zone .dz-banner-top {
@@ -8367,8 +8367,9 @@ button.scroltop {
 
 .dz-oil-industry-zone .dz-banner-bottom .dz-banner-media .dz-media-content2 .btn {
   padding: 12px 26px;
-  font-size: 15px;
+  font-size: 13px;
   border-radius: 5px;
+  font-weight: 600;
 }
 
 .dz-oil-industry-zone .dz-banner-bottom .swiper-slide {

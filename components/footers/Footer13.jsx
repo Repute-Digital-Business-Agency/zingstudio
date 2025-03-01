@@ -11,7 +11,7 @@ export default function Footer13() {
         <div className="container">
           <div className="row">
             <div
-              className="col-lg-3 col-md-6 col-sm-6 wow fadeIn"
+              className="col-lg-4 col-md-6 col-sm-6 wow fadeIn"
               data-wow-delay="0.2s"
             >
               <div className="widget border-0">
@@ -28,7 +28,7 @@ export default function Footer13() {
               </div>
             </div>
             <div
-              className="col-lg-3 col-md-6 col-sm-6  wow fadeIn"
+              className="col-lg-2 col-md-6 col-sm-6  wow fadeIn"
               data-wow-delay="0.4s"
             >
               <div className="widget d-flex flex-column justify-content-center align-items-center">
@@ -111,28 +111,35 @@ export default function Footer13() {
               </div>
             </div>
             <div
-              className="col-lg-4 col-md-8 col-sm-8  wow fadeIn"
+              className="col-lg-6 col-md-12 col-sm-12  wow fadeIn"
               data-wow-delay="0.6s"
             >
-              <div className="icon-bx-wraper bx-style-1 m-b15 p-a30 radius-sm br-col-w1 bg-tpw1">
+              <div className="icon-bx-wraper bx-style-1 m-b15  radius-sm br-col-w1 bg-tpw1 d-flex footer-img-content">
+                <div className="py-3 px-3">
                 <h6 className="font-weight-500" style={{ color: "#1A43BF" }}>
                 Creative Solutions. Impactful Results. Affordable Excellence
                 </h6>
                 <p>
                 Zing Studio delivers exceptional web design, digital marketing, and branding solutions tailored to help businesses grow and succeed. With a focus on creativity, quality, and affordability, we turn ideas into impactful digital experiences that drive results.
                 </p>
+                </div>
+                <div className="footer-img " style={{height:"contentFit"}}>
+                <img style={{paddingBottom:"0"}} src="/images/Academy/lets-connect/lets-connect-img.png" />
+                </div>
+                
               </div>
+              
             </div>
 
-            <div
+            {/* <div
               className="col-lg-2 col-md-4 col-sm-4  wow fadeIn footer-img "
               data-wow-delay="0.6s"
             >
-               {/* <img src="/images/GIF/lets-connect-img.gif" alt="lets-connect" 
+               <img src="/images/GIF/lets-connect-img.gif" alt="lets-connect" 
                style={{height:"200px", width:"200px"}} 
-               /> */}
+               />
               <img src="/images/Academy/lets-connect/lets-connect-img.png" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

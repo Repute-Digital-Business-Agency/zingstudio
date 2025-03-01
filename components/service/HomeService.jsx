@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function HomeService() {
   return (
-    <div className=" section-full  project-area content-inner-1 HomeService pt-0 pb-0" style={{ backgroundImage: "url(/images/elementbg/our-services-bg-element.png)", backgroundRepeat: "no-repeat" }}>
+    <div className=" section-full  project-area content-inner-1 HomeService pt-5 pb-5" style={{ backgroundImage: "url(/images/elementbg/our-services-bg-element.png)", backgroundRepeat: "no-repeat" }}>
       <div className="  bg-img-fix container-fluid centeredSlides  "  >
         <div className="container ">
           <div
@@ -54,7 +54,7 @@ export default function HomeService() {
                   </li>
 
                   <li className="text-white btn" >
-                    <Link href={`/web-design-service`} className="site-button btnhover20 m-t10" style={{ padding: "8px 15px", fontWeight: "400", fontSize: "17px" }}>
+                    <Link href={`/web-design-service`} className="site-button btnhover20 m-t10" style={{ padding: "8px 15px", fontWeight: "600", fontSize: "17px" }}>
                       View Service
                     </Link>
                   </li>
@@ -88,7 +88,7 @@ export default function HomeService() {
                   </li>
 
                   <li className="text-white btn" >
-                    <Link href={`/web-design-service`} className="site-button btnhover20 m-t10" style={{ padding: "8px 15px", fontWeight: "400", fontSize: "15px" }}>
+                    <Link href={`/web-design-service`} className="site-button btnhover20 m-t10" style={{ padding: "8px 15px", fontWeight: "600", fontSize: "15px" }}>
                       View Service
                     </Link>
                   </li>
@@ -121,7 +121,7 @@ export default function HomeService() {
                   </li>
 
                   <li className="text-white btn" >
-                    <Link href={`/web-design-service`} className="site-button btnhover20 m-t10" style={{ padding: "8px 15px", fontWeight: "400", fontSize: "17px" }}>
+                    <Link href={`/web-design-service`} className="site-button btnhover20 m-t10" style={{ padding: "8px 15px", fontWeight: "600", fontSize: "17px" }}>
                       View Service
                     </Link>
                   </li>
@@ -154,7 +154,7 @@ export default function HomeService() {
                   </li>
 
                   <li className="text-white btn" >
-                    <Link href={`/web-design-service`} className="site-button btnhover20 m-t10" style={{ padding: "8px 15px", fontWeight: "400", fontSize: "17px" }}>
+                    <Link href={`/web-design-service`} className="site-button btnhover20 m-t10" style={{ padding: "8px 15px", fontWeight: "600", fontSize: "17px" }}>
                       View Service
                     </Link>
                   </li>
@@ -187,7 +187,7 @@ export default function HomeService() {
                   </li>
 
                   <li className="text-white btn" >
-                    <Link href={`/digital-marketing-service`} className="site-button btnhover20 m-t10" style={{ padding: "8px 15px", fontWeight: "400", fontSize: "17px" }}>
+                    <Link href={`/digital-marketing-service`} className="site-button btnhover20 m-t10" style={{ padding: "8px 15px", fontWeight: "600", fontSize: "17px" }}>
                       View Service
                     </Link>
                   </li>
@@ -220,7 +220,7 @@ export default function HomeService() {
                   </li>
 
                   <li className="text-white btn" >
-                    <Link href={`/digital-marketing-service`} className="site-button btnhover20 m-t10" style={{ padding: "8px 15px", fontWeight: "400", fontSize: "17px" }}>
+                    <Link href={`/digital-marketing-service`} className="site-button btnhover20 m-t10" style={{ padding: "8px 15px", fontWeight: "600", fontSize: "17px" }}>
                       View Service
                     </Link>
                   </li>

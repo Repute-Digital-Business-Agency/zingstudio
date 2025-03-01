@@ -595,7 +595,7 @@
 
 .slider-content .inner.sliderStyle7 .subTitle1 {
   font-size: 24px;
-  line-height: 35px;
+  line-height: 25px;
   font-weight: 500;
   color: white;
   margin-bottom: 10px;
@@ -623,13 +623,14 @@
 .slider-content .inner.sliderStyle7 .site-button {
   font-size: 15px;
   /* line-height: 50px; */
-  font-weight: 500;
+  font-weight: 600;
   /* background-color: #fbbf2b; */
   background-color: #fff;
   border: none;
   padding: 12px 30px;
   box-shadow: none;
   color: #000;
+  margin-top: 20px;
 }
 
 .home-slider-7 .nextButton,

@@ -95,9 +95,9 @@ export default function Am_a_Zing() {
     //   </div>
     // </div>
 
-    <div style={{position:"relative"}}>
+    <div  style={{position:"relative"}}>
         <div
-        className="section-full box-about-list Am_a_Zing bg-white"
+        className="section-full box-about-list Am_a_Zing bg-white "
         style={{
             backgroundImage: "url(/images/element-4.png)",
             // backgroundImage: "url(/images/elementbg/am-a-zing-element.png)",

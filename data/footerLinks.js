@@ -23,21 +23,26 @@ export const footerLinks_2 = [
 ];
 
 export const footerLinks2 = [
-  { href: "/about", label: "Our Story" },
+  { href: "/about", label: "Our Zing Studio" },
   // { href: "/blog-grid-2", label: "Blog" },
   { href: "/services", label: "Services" },
   // { href: "/privacy-policy", label: "Privacy Policy" },
+  { href: "/web-design-service", label: "Web Design" },
+  { href: "/digital-marketing-service", label: "Digital Marketing" },
+  { href: "/e-commerce-service", label: "E-Commerce" },
   { href: "/zingfluence", label: "Zingfluence" },
   // { href: "/help-desk", label: "Help Desk" },
   { href: "/experts-hub", label: "Experts Hub" },
   // { href: "/team-1", label: "Team" },
   { href: "/portfolio", label: "Portfolio" },
   // { href: "/team-1", label: "Team" },
-  { href: "/academy", label: "Academy" },
+  { href: "/academy", label: "Zing Academy" },
+  { href: "/academy", label: "Am-A-Zing" },
   // { href: "/team-1", label: "Team" },
   { href: "/careers", label: "Life at Zing" },
   // { href: "/team-1", label: "Team" },
   { href: "/contact", label: "Let's Zing" },
+  
 ];
 
 export const socialLinks = [

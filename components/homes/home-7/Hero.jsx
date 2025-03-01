@@ -9,10 +9,10 @@ const slidesData = [
     backgroundImage:
       'url("/images/Home-Page/banner-zing-studio-1.jpg") center center no-repeat',
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, Amplify Your  <b style='font-size:48px; color:#fff'> Impact <b/>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
-    buttonLabel: "BUY & VIEW SERVICES",
+    buttonLabel: "View Services",
     link:"/about"
   },
 
@@ -22,70 +22,70 @@ const slidesData = [
     backgroundImage:
       'url("/images/Home-Page/banner-opt-2.jpg") center center no-repeat',
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
-    buttonLabel: "BUY & VIEW SERVICES",
+    buttonLabel: "View Services",
     link:"/about"
   },
   {
     backgroundImage:
       'url("/images/Home-Page/banner-opt-3.jpg") center center no-repeat',
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your <b style='font-size:48px; color:#fff'> Brand </b>, Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
-    buttonLabel: "BUY & VIEW SERVICES",
+    buttonLabel: "View Services",
     link:"/about"
   },
   {
     backgroundImage:
       'url("/images/Home-Page/banner-opt-4.jpg") center center no-repeat',
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
-    buttonLabel: "BUY & VIEW SERVICES",
+    buttonLabel: "View Services",
     link:"/about"
   },
   {
     backgroundImage:
       'url("/images/Home-Page/banner-opt-5.jpg") center center no-repeat',
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
-    buttonLabel: "BUY & VIEW SERVICES",
+    buttonLabel: "View Services",
     link:"/about"
   },
   {
     backgroundImage:
       'url("/images/Home-Page/banner-opt-6.jpg") center center no-repeat',
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
-    buttonLabel: "BUY & VIEW SERVICES",
+    buttonLabel: "View Services",
     link:"/about"
   },
   {
     backgroundImage:
       'url("/images/Home-Page/banner-opt-7.jpg") center center no-repeat',
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
-    buttonLabel: "BUY & VIEW SERVICES",
+    buttonLabel: "View Services",
     link:"/about"
   },
   {
     backgroundImage:
       'url("/images/Home-Page/banner-opt-1.jpg") center center no-repeat',
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your Brand, Amplify Your Impact`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
-    buttonLabel: "BUY & VIEW SERVICES",
+    buttonLabel: "View Services",
     link:"/about"
   },
 
@@ -99,17 +99,17 @@ const slidesData = [
   //   title: "<span class='home-banner-title'>WEB DESIGN </span><br/>Smart, sleek, and user-focused",
   //   description:
   //     "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
-  //   buttonLabel: "BUY & VIEW SERVICES",
+  //   buttonLabel: "View Services",
   //   link:"/web-design-service"
   // },
   // {
   //   backgroundImage:
   //     'url("/images/Home-Page/banner-zing-digital-marketing-1.jpg") center center no-repeat',
   //   subTitle: "Empowering brands with data-driven digital marketing strategies for impactful online growth.",
-  //   title: "<span class='home-banner-title'>DIGITAL MARKETING </span><br/> Fueling brand growth digitally",
+  //   title: "<span class='home-banner-title'>DIGITAL MARKETING </span><br/> Fueling  <b style='font-size:48px; color:#fff'> brand </b> growth  <b style='font-size:48px; color:#fff'> digitally </b>",
   //   description:
   //     "Empowering brands with data-driven digital marketing strategies for impactful online growth.",
-  //   buttonLabel: "BUY & VIEW SERVICES",
+  //   buttonLabel: "View Services",
   //   link:"/digital-marketing-service"
   // },
   // {
@@ -118,10 +118,10 @@ const slidesData = [
   //   subTitle:
   //     "Shaping future entrepreneurs and skilled professionals through educational excellence.",
   //   title:
-  //     "<span class='home-banner-title'>ZING ACADEMY</span><br/>Transforming students into professionals",
+  //     "<span class='home-banner-title'>ZING ACADEMY</span><br/>Transforming  <b style='font-size:48px; color:#fff'> students </b> into  <b style='font-size:48px; color:#fff'> professionals </b>",
   //   description:
   //     "Shaping future entrepreneurs and skilled professionals through educational excellence.",
-  //   buttonLabel: "BUY & VIEW SERVICES",
+  //   buttonLabel: "View Services",
   //   link:"/zing-academy"
   // },
 ];
