@@ -9,39 +9,40 @@ export default function HomeHero() {
       backgroundImage: "/images/Home-Page/our-work-img-1.jpg",
       content1: "Prade Jewels",
       content2: "Prade Jewels",
-      link: "/portfolio"
+      link: "https://prade.in/files/"
     },
     {
       backgroundImage: "/images/Home-Page/our-work/kpr-mill.jpg",
       content1: "KPRMill",
       content2: "KPRMill",
-      link: "/portfolio"
+      link: "https://kprmilllimited.com/"
     },
     {
       backgroundImage: "/images/Home-Page/our-work/omi-pumps.jpg",
       content1: "OMI Pumps ",
       content2: "OMI Pumps",
-      link: "/portfolio"
+      link: "https://omipumps.com/"
     },
     {
       backgroundImage: "/images/Home-Page/our-work/tirumalai-tex.jpg",
       content1: "Tirumalai Textiles ",
       content2: "Tirumalai Textiles",
-      link: "/portfolio"
+      link: "https://tirumalaitextiles.com/"
     },
     {
       backgroundImage: "/images/Home-Page/our-work/img-5.jpg",
       content1: "Karpagam College of Engineering",
       content2: "Karpagam College of Engineering",
-      link: "/portfolio",
+      link: "https://kce.ac.in/",
 
     },
     {
       backgroundImage: "/images/Home-Page/our-work/img-6.jpg",
       content1: "Filmode Fashions",
       content2: "Filmode Fashions",
-      link: "/portfolio"
+      link: "https://filmodefashion.com/"
     },
+   
 
   ];
 
@@ -185,6 +186,7 @@ export default function HomeHero() {
                     <Link style={{ color: "#000 " }}
                       className="btn mediabtn bg-white"
                       href={slide.link}
+                      target="blank"
                     >
                       View Details
                     </Link>

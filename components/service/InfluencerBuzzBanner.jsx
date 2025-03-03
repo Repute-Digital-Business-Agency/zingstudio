@@ -130,13 +130,13 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                   height: 100%;
                   object-fit: cover;
                   opacity: 1;
-                
+                  animation: fadeIn 0.5s ease-in-out;
                   
                 }
                 .fade-image.active {
                   opacity: 1;
                   transition: opacity 0.1s ease-in;
-}
+                }
               }`
               }
                </style>
