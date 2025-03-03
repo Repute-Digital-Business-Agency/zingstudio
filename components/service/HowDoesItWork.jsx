@@ -84,7 +84,7 @@ export default function HowDoesItWork() {
                   >
                     <div className="icon-bx-wraper center p-lr20 p-tb30">
                       <div className="text-primary m-b20">
-                        <span className="icon-cell icon-md">
+                        <span className="icon-cell icon-lg">
                           {/* <i className={item.iconClass} /> */}
                           <img src={item.imgSrc} alt="" />
                         </span>

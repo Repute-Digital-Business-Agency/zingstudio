@@ -56,7 +56,7 @@ export default function WhyChooseUs() {
               <div className="icon-bx-wraper bx-style-2 m-l40 p-a30 left bg-gray icon-bx-ho d-flex flex-column w-100">
                 <div className="icon-bx-sm m-b20" style={{ backgroundColor: "#e21100" }}>
                   <a href="#" className="icon-cell">
-                    <img src={item.iconimg} alt="" />
+                    <img src={item.iconimg} alt="" style={{height:"40px"}}/>
                   </a>
                 </div>
                 <div className="icon-content p-l40 flex-grow-1">

@@ -27,7 +27,7 @@ export default function BusinessWork() {
                                         <div className="icon-bx-sm radius m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell">
                                             {/* <i className="ti-headphone-alt" /> */}
-                                            <img src="/images/brand-buzz/How-does-it-work/icon-1.png" alt="" />
+                                            <img src="/images/brand-buzz/How-does-it-work/icon-1.png" alt=""  style={{height:"40px"}}/>
                                         </a>
                                         </div>
                                         <div className="icon-content">
@@ -45,7 +45,7 @@ export default function BusinessWork() {
                                         <div className="icon-bx-sm radius  m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell">
                                             {/* <i className="ti-ruler-pencil" /> */}
-                                            <img src="/images/brand-buzz/How-does-it-work/icon-2.png" alt="" />
+                                            <img src="/images/brand-buzz/How-does-it-work/icon-2.png" alt=""  style={{height:"40px"}}/>
                                         </a>
                                         </div>
                                         <div className="icon-content">
@@ -63,7 +63,7 @@ export default function BusinessWork() {
                                         <div className="icon-bx-sm   radius   m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell  text-primary">
                                             {/* <i className="ti-desktop" /> */}
-                                            <img src="/images/brand-buzz/How-does-it-work/icon-3.png" alt="" />
+                                            <img src="/images/brand-buzz/How-does-it-work/icon-3.png" alt="" style={{height:"40px"}}/>
                                         </a>
                                         </div>
                                         <div className="icon-content">
@@ -83,7 +83,7 @@ export default function BusinessWork() {
                                         <div className="icon-bx-sm radius  m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell">
                                             {/* <i className="ti-headphone-alt" /> */}
-                                            <img src="/images/brand-buzz/How-does-it-work/icon-4.png" alt="" />
+                                            <img src="/images/brand-buzz/How-does-it-work/icon-4.png" alt="" style={{height:"40px"}} />
                                         </a>
                                         </div>
                                         <div className="icon-content">
@@ -102,7 +102,7 @@ export default function BusinessWork() {
                                         <div className="icon-bx-sm radius  m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell">
                                             {/* <i className="ti-ruler-pencil" /> */}
-                                            <img src="/images/brand-buzz/How-does-it-work/icon-5.png" alt="" />
+                                            <img src="/images/brand-buzz/How-does-it-work/icon-5.png" alt=""  style={{height:"40px"}}/>
                                         </a>
                                         </div>
                                         <div className="icon-content">

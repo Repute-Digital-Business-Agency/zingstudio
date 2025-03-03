@@ -19151,9 +19151,9 @@ input[type="radio"]+label:hover:before {
     padding-top: 20px;
   }
 }
-.influ-banner{
+/* .influ-banner{
   background-image: none !important;
-}
+} */
 .course-banner{
   background-image: url(/images/services/serviceBanner.jpg) !important;
 }

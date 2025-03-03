@@ -16,21 +16,22 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
     <>
     <div
       className="section-full   bg-img-fix pr-service-hero influ-banner"
-      style={{background:"#e9e9e9"}}
+      // style={{background:"#e9e9e9"}}
+      style={{ backgroundImage: "url(/images/services/serviceBanner.jpg)" }}
     >
       <div className="container-fluid">
         <div className="row ">
         
         <div className="col-11 m-auto">
           <div className="row">
-            <div className="col-lg-4 col-md-6 content-inner chosesus-content text-black">
+            <div className="col-lg-4 col-md-6 content-inner chosesus-content text-white">
               <h2 className="title-box font-weight-300 wow fadeInUp pt-5" data-wow-delay="0.2s">
                 {bannerContent.head} <span className="bg-primary" />
               </h2>
-              <p className="font-16 op8 wow fadeInUp" data-wow-delay="0.4s">
+              <p className="font-16  wow fadeInUp" data-wow-delay="0.4s">
                 {bannerContent.caption}
               </p>
-              <h3 className={`font-weight-300 m-b50 op7 wow fadeInUp ${!bannerContent.words && "m-b50" }`} data-wow-delay="0.6s">
+              <h3 className={`font-weight-300 m-b50  wow fadeInUp ${!bannerContent.words && "m-b50" }`} data-wow-delay="0.6s">
                 {bannerContent.subTitle}{" "}
                 {bannerContent.words && <span className="dropping-texts">
                   {bannerContent.words?.map((word, index) => (
