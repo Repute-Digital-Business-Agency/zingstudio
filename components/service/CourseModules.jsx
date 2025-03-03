@@ -207,10 +207,10 @@ export default function Course() {
                               <i className="fas fa-star" />
                               <i className="far fa-star" />
                             </span> */}
-                            <a href={elm.link} title="READ MORE" rel="bookmark" className="site-button-link" style={{fontWeight:500, color:"#e21100"}}>
+                            <a href={elm.link} title="READ MORE" rel="bookmark" className="site-button-link py-0" style={{fontWeight:500, color:"#e21100", padding:"0"}}>
                               Read More <i className="fas fa-angle-double-right" />
                             </a>
-                            <a href="#contact-us" title="READ MORE" rel="bookmark" className="site-button-link " style={{fontWeight:500}}>
+                            <a href="#contact-us" title="READ MORE" rel="bookmark" className="site-button-link py-0" style={{fontWeight:500}}>
                               Apply Now <i className="fas fa-angle-double-right" />
                             </a>
                           </div>
