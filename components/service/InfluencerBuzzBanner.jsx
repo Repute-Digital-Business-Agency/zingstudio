@@ -22,9 +22,9 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
       <div className="container-fluid">
         <div className="row ">
         
-        <div className=" col-l2 col-lg-11 m-auto">
+        <div className="col-11 m-auto">
           <div className="row">
-            <div className="col-lg-4 col-md-6 content-inner chosesus-content text-white">
+            <div className="col-xl-4 col-lg-6 col-md-6 content-inner chosesus-content text-white">
               <h2 className="title-box wow fadeInUp pt-5" data-wow-delay="0.2s">
                 {bannerContent.head} <span className="bg-primary" />
               </h2>
@@ -58,7 +58,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                   height: 36px;
                   vertical-align: -2px;
                   position: relative;
-                 -webkit-text-stroke: 2px #fff;
+                 -webkit-text-stroke: 2px #000;
                  color:transparent;
                  font-weight:800;
                  letter-spacing:2px
@@ -88,7 +88,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
               `}</style>
             </div>
 
-            <div className="col-lg-4 col-md-6 content-inner chosesus-content text-white d-flex flex-coloumn align-item-end wow fadeInUp">
+            <div className="col-xl-4 col-lg-6 col-md-6 content-inner chosesus-content text-white d-flex flex-coloumn align-item-end justify-content-center wow fadeInUp md-pt-0">
               
             <div className="radius-sm  ">
                 {/* <img className="choose-Zf-img fade-image"
@@ -103,20 +103,23 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                       bottom:"-50px"
                   }}
                 /> */}
-
-              <Image
-                className="choose-Zf-img fade-image"
-                alt="Influencer Banner"
-                src={bannerContent.image[currentIndex]}
-                width={600} // Adjust dimensions
-                height={722}
-                style={{
-                  objectFit: "cover",
-                  position: "relative",
-                  bottom: "-50px",
-                  transition: "opacity 1s ease-in-out",
-                }}
-              />
+              
+                  
+                    <Image
+                  className={`choose-Zf-img fade-image`}
+                  alt="Influencer Banner"
+                  src={bannerContent.image[currentIndex]}
+                  width={600} // Adjust dimensions
+                  height={722}
+                  style={{
+                    objectFit: "cover",
+                    position: "relative",
+                    bottom: "-50px",
+                    
+                  }}
+                />
+                  
+              
 
               
               </div>
@@ -127,18 +130,19 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                   height: 100%;
                   object-fit: cover;
                   opacity: 1;
-                 
+                
                   
                 }
                 .fade-image.active {
                   opacity: 1;
-                  transition: opacity 1s ease-in;
+                  transition: opacity 0.1s ease-in;
 }
-              }`}
+              }`
+              }
                </style>
               
             </div>
-          <div className="col-lg-4 col-md-12 m-b30 " >
+          <div className="col-xl-4 col-lg-12 col-md-12 m-b30 " >
             <form 
               onSubmit={(e) => e.preventDefault()}
               className="inquiry-form wow box-shadow bg-white fadeInUp"

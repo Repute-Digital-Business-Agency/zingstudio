@@ -9640,8 +9640,8 @@ a,
 }
 
 .site-filters .button-sm {
-  font-size: 13px;
-  padding: 5px 20px;
+  font-size: 13px !important;
+  padding: 5px 20px !important;
 }
 
 @media only screen and (max-width: 480px) {
@@ -18200,6 +18200,7 @@ input[type="radio"]+label:hover:before {
   }
 
 
+
 }
 
 .academy .section-content p {
@@ -19050,6 +19051,10 @@ input[type="radio"]+label:hover:before {
     padding: 10px !important;
   }
 
+  .course-banner .content-inner{
+    padding-top: 30px !important;
+  }
+
   .zingFluence .content-sec{
     padding-left: 0px;
   }
@@ -19373,3 +19378,10 @@ input[type="radio"]+label:hover:before {
     display: none !important;
   }
 }
+
+/* @media (max-width:990px){
+  .acdemy-cta .chosesus-content .acdemy-img{
+    height: 500px !important;
+    width: 300px !important;
+  }
+} */

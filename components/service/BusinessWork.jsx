@@ -22,7 +22,7 @@ export default function BusinessWork() {
 
                         
                                 <div className="row d-flex justify-content-center ">
-                                        <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
+                                        <div className="col-xl-2 col-lg-4 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
                                         <div className="icon-bx-sm radius m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell">
@@ -40,7 +40,7 @@ export default function BusinessWork() {
                                         </div>
                                     </div>
                                     </div>
-                                    <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
+                                    <div className="col-xl-2 col-lg-4 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
                                         <div className="icon-bx-sm radius  m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell">
@@ -58,7 +58,7 @@ export default function BusinessWork() {
                                         </div>
                                     </div>
                                     </div>
-                                    <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
+                                    <div className=" col-xl-2 col-lg-4 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
                                         <div className="icon-bx-sm   radius   m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell  text-primary">
@@ -78,7 +78,7 @@ export default function BusinessWork() {
                                     </div>
 
                                   
-                                        <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
+                                        <div className="col-xl-2 col-lg-4 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
                                         <div className="icon-bx-sm radius  m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell">
@@ -97,7 +97,7 @@ export default function BusinessWork() {
                                         </div>
                                     </div>
                                     </div>
-                                    <div className="col-lg-2 col-md-12 col-sm-12 m-b30">
+                                    <div className="col-xl-2 col-lg-4 col-md-12 col-sm-12 m-b30">
                                     <div className="icon-bx-wraper bx-style-1 p-a30 center rounded h-100">
                                         <div className="icon-bx-sm radius  m-b20" style={{background:"#e21100"}}>
                                         <a href="#" className="icon-cell">

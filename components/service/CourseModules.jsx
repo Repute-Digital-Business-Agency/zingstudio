@@ -173,7 +173,7 @@ export default function Course() {
               {/* Course Modules Grid */}
               <div className="row">
                 {images.map((elm, i) => (
-                  <div key={i} className="col-lg-3 col-md-6 col-sm-12 d-flex mt-5">
+                  <div key={i} className="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex mt-5">
                     <div className="item course-box">
                       <div className="ow-blog-post date-style-2">
                         <div className="ow-post-media dlab-img-effect zoom-slow">

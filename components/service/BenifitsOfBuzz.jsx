@@ -9,7 +9,7 @@ export default function BenifitsOfBuzz() {
       title: "Brand Collaborations",
       description:
         "Partner with reputable brands that align with your values, enhancing your credibility and audience engagement.",
-      classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInLeft",
+      classes: "col-xl-3 col-lg-4 col-md-6 col-sm-6 m-b30 wow bounceInLeft",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
       bgColor:"#e9e9e9"
@@ -19,7 +19,7 @@ export default function BenifitsOfBuzz() {
        title: "Exclusive Campaigns",
       description:
         "Access high-profile campaigns, product launches, and partnerships tailored to showcase your unique voice and expertise.",
-      classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInUp",
+      classes: "col-xl-3 col-lg-4 col-md-6 col-sm-6 m-b30 wow bounceInUp",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
       bgColor:"#1a43bf42"
@@ -29,7 +29,7 @@ export default function BenifitsOfBuzz() {
       title: "Monetize Your Influence",
       description:
         "Leverage your platform through paid collaborations, sponsorships, and long-term brand partnerships, turning your influence into sustainable income.",
-      classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInDown",
+      classes: "col-xl-3 col-lg-4 col-md-6 col-sm-6 m-b30 wow bounceInDown",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
       bgColor:"#fff36330"
@@ -38,7 +38,7 @@ export default function BenifitsOfBuzz() {
       imgSrc: "/images/Influence-Buzz/Why-join-Zingluence/icon-4.png",      title: "Expand Your Reach",
       description:
         "Grow your audience through strategic partnerships and campaigns designed to connect you with new, relevant followers.",
-      classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInRight ",
+      classes: "col-xl-3 col-lg-4 col-md-6 col-sm-6 m-b30 wow bounceInRight ",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
       bgColor:"#e2110026"
@@ -47,7 +47,7 @@ export default function BenifitsOfBuzz() {
       imgSrc: "/images/Influence-Buzz/Why-join-Zingluence/icon-5.png",      title: "Creative Freedom",
       description:
         "Maintain your authentic voice with the freedom to create content that reflects your style, supported by strategic guidance when needed.",
-      classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInRight ",
+      classes: "col-xl-3 col-lg-4 col-md-6 col-sm-6 m-b30 wow bounceInRight ",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
       bgColor:"#e2110026"
@@ -56,7 +56,7 @@ export default function BenifitsOfBuzz() {
       imgSrc: "/images/Influence-Buzz/Why-join-Zingluence/icon-6.png",      title: "Insightful Analytics",
       description:
         "Receive detailed performance analytics to measure campaign success, optimize content strategy, and strengthen your influence.",
-      classes: "col-lg-3 col-md-6 col-sm-6 m-b30 wow bounceInLeft",
+      classes: "col-xl-3 col-lg-4 col-md-6 col-sm-6 m-b30 wow bounceInLeft",
       dataWowDuration: "2s",
       dataWowDelay: "0.3s",
       bgColor:"#e9e9e9"

@@ -45,11 +45,11 @@ export default function WhyChooseUs() {
           <h2 className="title">Why Choose Us?</h2>
          
         </div>
-        <div className="row pt-5">
+        <div className="row pt-5 justify-content-center" >
           {services11.map((item, index) => (
             <div
               key={index}
-              className={`col-lg-4 col-md-6 col-sm-12 mb-5 d-flex align-items-stretch ${item.wowClass}`}              
+              className={`col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-5 d-flex align-items-stretch ${item.wowClass}`}              
               data-wow-duration="2s"
               data-wow-delay={item.wowDelay}
             >
