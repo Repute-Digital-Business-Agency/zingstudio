@@ -19,8 +19,6 @@ export default function DedicatedSupport() {
               {" "}
               <h2 className="title text-primary mb-5">
                
-                  
-                   
                 Dedicated Support
              
               </h2>
@@ -37,7 +35,7 @@ export default function DedicatedSupport() {
               className="icon-bx-wraper m-b30 left wow fadeInUp"
               data-wow-delay="0.6s"
             >
-              <div className="icon-md">
+              <div className="icon-lg">
                 <a href="#" className="icon-cell ">
                   {/* <i className="flaticon-factory"></i> */}
 
@@ -46,7 +44,7 @@ export default function DedicatedSupport() {
                 </a>
               </div>
               <div className="icon-content">
-                <h4 className="dlab-tilte">
+                <h4 className="dlab-tilte mb-2">
                 We've Got Your Back
                 </h4>
                 <p className="" style={{color:"#282222"}}>
@@ -58,7 +56,7 @@ export default function DedicatedSupport() {
               className="icon-bx-wraper m-b30 left wow fadeInUp"
               data-wow-delay="0.8s"
             >
-              <div className="icon-md">
+              <div className="icon-lg">
                 <a href="#" className="icon-cell">
                   {/* <i className="flaticon-settings"></i> */}
                   {/* <img src="images/Influence-Buzz/Dedicated-Support/icon-2.png" alt="" /> */}
@@ -66,7 +64,7 @@ export default function DedicatedSupport() {
                 </a>
               </div>
               <div className="icon-content">
-                <h4 className="dlab-tilte">
+                <h4 className="dlab-tilte mb-2">
                 You Create, We Handle the Rest
                 </h4>
                 <p className="" style={{color:"#282222"}}>

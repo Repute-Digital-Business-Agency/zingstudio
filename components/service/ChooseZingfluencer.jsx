@@ -30,11 +30,12 @@ export default function ChooseZingFluencer() {
                {/* <h4 className="title"> Empowering women to lead the future</h4> */}
                <p className="mb-2" style={{ color: "#282222" }}>
                Ready to collaborate and create impact? Join forces with top brands and showcase products that align with your style and audience. Let’s work together to craft authentic stories, drive engagement, and deliver campaigns that stand out. Your influence, their brand—let’s make it happen!
+               
+               </p>
                <a href="/influencer-buzz" className="text-primary">
-               &nbsp; read more...
+               Read More...
                {/* <i className="fas fa-angle-double-right ms-2" /> */}
              </a>
-               </p>
  
               
             </div>
@@ -50,13 +51,13 @@ export default function ChooseZingFluencer() {
               </h2>
 
               <p className="mb-2" style={{ color: "#282222" }}>
-              Partner with the right influencers to amplify your brand’s story. We collaborate with creators who align with your brand values, using their authentic voice and reach to promote your products, engage target audiences, and drive impactful brand awareness. Let’s turn influence into lasting impressions
-              &nbsp; <a href="/brand-buzz" className="text-primary">
-              read more...
+              Partner with the right influencers to amplify your brand’s story. We collaborate with creators who align with your brand values, using their authentic voice and reach to promote your products, engage target audiences, and drive impactful brand awareness. Let’s turn influence into lasting impressions.
+              
+              </p>
+              <a href="/brand-buzz" className="text-primary">
+              Read More...
               {/* <i className="fas fa-angle-double-right ms-2" /> */}
             </a>
-              </p>
-
              
             </div>
           
