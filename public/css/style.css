@@ -19095,7 +19095,7 @@ input[type="radio"]+label:hover:before {
   top: -40px;
  }
  .HomeService{
-  top: -40px;
+  top: -60px;
  }
 }
 
@@ -19366,4 +19366,10 @@ input[type="radio"]+label:hover:before {
   padding: 12px 31px;
   font-weight: 600;
   border: 1px solid white;
+}
+
+@media (max-width:1024px){
+  .moveAnimation{
+    display: none !important;
+  }
 }

@@ -22,10 +22,10 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
       <div className="container-fluid">
         <div className="row ">
         
-        <div className="col-11 m-auto">
+        <div className=" col-l2 col-lg-11 m-auto">
           <div className="row">
             <div className="col-lg-4 col-md-6 content-inner chosesus-content text-white">
-              <h2 className="title-box font-weight-300 wow fadeInUp pt-5" data-wow-delay="0.2s">
+              <h2 className="title-box wow fadeInUp pt-5" data-wow-delay="0.2s">
                 {bannerContent.head} <span className="bg-primary" />
               </h2>
               <p className="font-16  wow fadeInUp" data-wow-delay="0.4s">
@@ -58,6 +58,10 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                   height: 36px;
                   vertical-align: -2px;
                   position: relative;
+                 -webkit-text-stroke: 2px #fff;
+                 color:transparent;
+                 font-weight:800;
+                 letter-spacing:2px
                 }
 
                 .dropping-texts > div {
@@ -65,7 +69,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                   opacity: 0;
                   margin-left: -10px;
                   position: absolute;
-                  font-weight: 600;
+                  font-weight: 800;
                   box-shadow: 0px 60px 25px -20px rgba(0, 0, 0, 0.5);
                  
                   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, margin-left 0.3s ease-in-out,margin-left 0.3s ease-in-out;
@@ -73,13 +77,13 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                 }
 
                 .dropping-texts > div.visible {
-                  font-size: 30px !important;
+                  font-size: 32px !important;
                   opacity: 1;
                   margin-left: 5px;
                   margin-top: 10px;
                   transform: rotate(0deg);
                   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
-                  
+                   font-weight: 800 !important;
                 }
               `}</style>
             </div>
@@ -87,9 +91,9 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
             <div className="col-lg-4 col-md-6 content-inner chosesus-content text-white d-flex flex-coloumn align-item-end wow fadeInUp">
               
             <div className="radius-sm  ">
-                <img className="choose-Zf-img"
+                {/* <img className="choose-Zf-img fade-image"
                   alt=""
-                  src={bannerContent.image}
+                  src={`/images/Influence-Buzz/banner-img-${currentIndex + 1}.png`}
                   // width="600"
                   // height="722"
                   style={{
@@ -98,9 +102,41 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                       position:"relative",
                       bottom:"-50px"
                   }}
-                />
+                /> */}
+
+              <Image
+                className="choose-Zf-img fade-image"
+                alt="Influencer Banner"
+                src={bannerContent.image[currentIndex]}
+                width={600} // Adjust dimensions
+                height={722}
+                style={{
+                  objectFit: "cover",
+                  position: "relative",
+                  bottom: "-50px",
+                  transition: "opacity 1s ease-in-out",
+                }}
+              />
+
+              
               </div>
-            
+               <style>{`
+               .fade-image {
+                  position: absolute;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  opacity: 1;
+                 
+                  
+                }
+                .fade-image.active {
+                  opacity: 1;
+                  transition: opacity 1s ease-in;
+}
+              }`}
+               </style>
+              
             </div>
           <div className="col-lg-4 col-md-12 m-b30 " >
             <form 
@@ -109,7 +145,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
               data-wow-delay="0.2s"
               
             >
-              <h3 className="title-box font-weight-300 m-t0 m-b10">
+              <h3 className="title-box  m-t0 m-b10">
               {bannerContent.formTitle}
                 <span className="bg-primary" />
               </h3>

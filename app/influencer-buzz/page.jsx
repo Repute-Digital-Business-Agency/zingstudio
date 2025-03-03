@@ -39,7 +39,16 @@ export default function page() {
         subTitle: "Get Paid for Every",
         button: "Join Now",
         words: ["POST", "TWEET", "REEL", "SNAP", "VIDEO", "REVIEW", "STORY", "SHOOT"],
-         image:"/images/Influence-Buzz/banner-img.png",
+         image:[
+          "/images/Influence-Buzz/banner-img-1.png",
+          "/images/Influence-Buzz/banner-img-2.png",
+          "/images/Influence-Buzz/banner-img-3.png",
+          "/images/Influence-Buzz/banner-img-4.png",
+          "/images/Influence-Buzz/banner-img-5.png",
+          "/images/Influence-Buzz/banner-img-6.png",
+          "/images/Influence-Buzz/banner-img-7.png",
+           "/images/Influence-Buzz/banner-img-8.png"
+         ],
         formTitle:"Join the Buzz—Let’s Make Influence Happen!"
       };
       const faqData = [
