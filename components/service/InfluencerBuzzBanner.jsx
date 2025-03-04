@@ -4,14 +4,22 @@ import Link from "next/link";
 import Image from "next/image";
 export default function InfluencerBuzzBanner({option,bannerContent}) {
 
-    const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [fade, setFade] = useState(true);
   
-    useEffect(() => {
-      const interval = setInterval(() => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % bannerContent.words?.length);
-      }, 2000);
-      return () => clearInterval(interval);
-    }, []);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setFade(false); // Start fading out
+
+      setTimeout(() => {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % bannerContent.words.length);
+        setFade(true); // Start fading in
+      }, 500); // Duration should match the CSS transition
+
+    }, 3000); // Overall interval time
+
+    return () => clearInterval(interval);
+  }, []);
   return (
     <>
     <div
@@ -105,47 +113,38 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                 /> */}
               
                   
-                    <Image
-                  className={`choose-Zf-img fade-image`}
-                  alt="Influencer Banner"
-                  src={bannerContent.image[currentIndex]}
-                  width={600} // Adjust dimensions
-                  height={722}
-                  style={{
-                    objectFit: "contain",
-                    position: "relative",
-                    bottom: "-50px",
-                    
-                  }}
-                />
+              <Image
+                className={`choose-Zf-img fade-image ${fade ? "fade-in" : "fade-out"}`}
+                alt="Influencer Banner"
+                src={bannerContent.image[currentIndex]}
+                width={600}
+                height={722}
+                style={{ objectFit: "contain", position: "relative", bottom: "-50px" , width:"100%", height:"100%"}}
+              />
                   
               
 
               
               </div>
-               <style>{`
-               .fade-image {
-                  position: absolute;
-                  width: 100%;
-                  height: 100%;
-                  object-fit: cover;
-                  opacity: 1;
-                  animation: fadeIn 0.5s ease-in-out;
-                  
-                }
-                .fade-image.active {
-                  opacity: 1;
-                  transition: opacity 0.1s ease-in;
-                }
-              }`
+              <style>{`
+              .fade-image {
+                transition: opacity 0.5s ease-in-out;
               }
-               </style>
+              .fade-in {
+                opacity: 1;
+                 
+              }
+              .fade-out {
+                opacity: 0;
+                 
+              }
+            `}</style>
               
             </div>
           <div className="col-xl-4 col-lg-12 col-md-12 m-b30 " >
             <form 
               onSubmit={(e) => e.preventDefault()}
-              className="inquiry-form wow box-shadow bg-white fadeInUp mt-sm-0"
+              className="inquiry-form wow box-shadow bg-white fadeInUp "
               data-wow-delay="0.2s"
               
             >

@@ -12,14 +12,17 @@ export default function ZingAcademyCta() {
     >
       <div className="container">
         <div className="row">
-          <div className="col-lg-5 col-md-12 content-inner chosesus-content text-white">
-          <Image
+          <div className="col-lg-5 col-md-12 content-inner chosesus-content text-white ">
+            <div className="d-flex justify-content-center">
+            <Image
           className="acdemy-img"
                               alt=""
                               src="/images/Academy/lets-connect/lets-connect-img.png"
-                              width="700"
-                              height="500"
+                              width="350"
+                              height="300"
                             />
+            </div>
+          
             {/* <h2
               className="title-box font-weight-300 m-b15 wow fadeInLeft"
               data-wow-delay="0.2s"
