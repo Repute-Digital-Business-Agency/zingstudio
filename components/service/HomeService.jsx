@@ -35,8 +35,8 @@ export default function HomeService() {
               <div className="project-content" style={{ background: "#e21100" }}>
                 <ul className="list-details">
                   <li className="text-white" >
-                    <strong style={{ fontSize: "18px" }}>Web Design</strong>
-                    <span style={{ fontSize: "18px" }}>Starting @ ₹ 8750</span>
+                    <span style={{ fontSize: "18px" }}>Web Design</span>
+                    <span style={{ fontSize: "18px", fontWeight:"600" }}>Starting @ ₹ 8750</span>
                   </li>
                   {/* <h6>Static Websites</h6> */}
                   <li className="pt-3 pb-0 text-white" style={{ fontWeight: "600" }}>Static Websites</li>
@@ -70,8 +70,8 @@ export default function HomeService() {
               <div className="project-content" style={{ background: "#e21100" }}>
                 <ul className="list-details">
                   <li className="text-white">
-                    <strong style={{ fontSize: "18px" }}>Web Design</strong>
-                    <span style={{ fontSize: "18px" }}>Starting @ ₹ 25,850</span>
+                    <span style={{ fontSize: "18px" }}>Web Design</span>
+                    <span style={{ fontSize: "18px", fontWeight: "600" }}>Starting @ ₹ 25,850</span>
                   </li>
                   <li className="pt-3 pb-0 text-white" style={{ fontWeight: "600" }}>CMS Websites</li>
                   <li className="text-white mt-0 pt-0" style={{ borderTop: "none" }}>
@@ -103,8 +103,8 @@ export default function HomeService() {
               <div className="project-content" style={{ background: "#e21100" }}>
                 <ul className="list-details">
                   <li className="text-white">
-                    <strong style={{ fontSize: "18px" }}>E-Commerce Websites</strong>
-                    <span style={{ fontSize: "18px" }}>Starting @ ₹ 10,000</span>
+                    <span style={{ fontSize: "18px" }}>E-Commerce Websites</span>
+                    <span style={{ fontSize: "18px" ,  fontWeight: "600" }}>Starting @ ₹ 10,000</span>
                   </li>
                   <li className="pt-3 pb-0 text-white" style={{ fontWeight: "600" }}>Basic</li>
                   <li className="text-white mt-0 pt-0" style={{ borderTop: "none" }}>
@@ -136,8 +136,8 @@ export default function HomeService() {
               <div className="project-content last" style={{ background: "#e21100" }}>
                 <ul className="list-details">
                   <li className="text-white">
-                    <strong style={{ fontSize: "18px" }}>E-Commerce Websites</strong>
-                    <span style={{ fontSize: "18px" }}>Starting @ ₹ 20,000</span>
+                    <span style={{ fontSize: "18px" }}>E-Commerce Websites</span>
+                    <span style={{ fontSize: "18px" ,  fontWeight: "600"}}>Starting @ ₹ 20,000</span>
                   </li>
                   <li className="pt-3 pb-0 text-white" style={{ fontWeight: "600" }}>Standard</li>
                   <li className="text-white mt-0 pt-0" style={{ borderTop: "none" }}>
@@ -169,8 +169,8 @@ export default function HomeService() {
               <div className="project-content " style={{ background: "#e21100" }}>
                 <ul className="list-details">
                   <li className="text-white">
-                    <strong style={{ fontSize: "18px" }}>Digital Marketing</strong>
-                    <span style={{ fontSize: "18px" }}>Starting @ ₹ 25,999</span>
+                    <span style={{ fontSize: "18px" }}>Digital Marketing</span>
+                    <span style={{ fontSize: "18px", fontWeight: "600" }}>Starting @ ₹ 25,999</span>
                   </li>
                   <li className="pt-3 pb-0 text-white" style={{ fontWeight: "600" }}>Basic</li>
                   <li className="text-white mt-0 pt-0" style={{ borderTop: "none" }}>
@@ -202,8 +202,8 @@ export default function HomeService() {
               <div className="project-content" style={{ background: "#e21100" }}>
                 <ul className="list-details ">
                   <li className="text-white">
-                    <strong style={{ fontSize: "18px" }}>Digital Marketing</strong>
-                    <span style={{ fontSize: "18px" }}>Starting @ ₹ 35,000</span>
+                    <span style={{ fontSize: "18px" }}>Digital Marketing</span>
+                    <span style={{ fontSize: "18px", fontWeight: "600"  }}>Starting @ ₹ 35,000</span>
                   </li>
                   <li className="pt-3 pb-0 text-white" style={{ fontWeight: "600" }}>Standard</li>
                   <li className="text-white mt-0 pt-0" style={{ borderTop: "none" }}>

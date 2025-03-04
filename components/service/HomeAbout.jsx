@@ -79,7 +79,7 @@ export default function HomeAbout() {
       <div className="container">
         <div className="row align-items-center">
           <div
-            className="col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInUp img-sec"
+            className="col-lg-6 col-md-5 col-sm-12 col-12 wow fadeInUp img-sec mx-auto"
             data-wow-duration="2s"
             data-wow-delay="0.3s"
           >
@@ -93,7 +93,7 @@ export default function HomeAbout() {
             </div>
           </div>
           <div
-            className="col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInUp"
+            className="col-lg-6 col-md-12 col-sm-12 col-12 wow fadeInUp pt-md-4"
             data-wow-duration="2s"
             data-wow-delay="0.6s"
           >

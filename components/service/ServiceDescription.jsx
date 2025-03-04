@@ -6,13 +6,13 @@ export default function ServiceDescription() {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 service-main-title text-black text-center">
-            {/* <h4 className="title max-w700 m-auto">
+            <h4 className="title max-w700 m-auto">
             Design. Strategy. Impact—Services That Set Your Brand Apart!
-            </h4> */}
-            <img src="/images/services/text.png" alt="text" 
+            </h4>
+            {/* <img src="/images/services/text.png" alt="text" 
              width="auto"
              height="100"
-             />
+             /> */}
           </div>
         </div>
       </div>

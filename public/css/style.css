@@ -5374,7 +5374,10 @@ blockquote:before {
   transition: 0.5s ease-in-out;
   cursor: pointer;
   box-shadow: none !important;
+  
 }
+
+
 
 .navicon span {
   display: block;
@@ -19283,6 +19286,9 @@ input[type="radio"]+label:hover:before {
     margin-top: 10px !important;
     padding: 12px 25px !important;
     font-size: 13px;
+  }
+  .influ-banner .inquiry-form{
+    margin-top: 0 !important;
   }
 }
 

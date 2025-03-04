@@ -10,7 +10,7 @@ export default function HeroSection({head,option,bannerContent}) {
     >
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-12 content-inner chosesus-content text-white">
+          <div className="col-lg-6 col-md-12 content-inner chosesus-content text-white pb-md-0">
             <h2
               className="title-box font-weight-300 mb-2 wow fadeInUp"
               data-wow-delay="0.2s"
@@ -48,10 +48,10 @@ export default function HeroSection({head,option,bannerContent}) {
              
             </ul>
           </div>
-          <div className="col-lg-6 col-md-12 m-b30 " >
+          <div className="col-lg-6 col-md-12 m-b30 pt-md-0" >
             <form 
               onSubmit={(e) => e.preventDefault()}
-              className="inquiry-form wow box-shadow bg-white fadeInUp"
+              className="inquiry-form wow box-shadow bg-white fadeInUp "
               data-wow-delay="0.2s"
               
             >
