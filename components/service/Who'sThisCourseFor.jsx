@@ -125,10 +125,10 @@ export default function Services() {
               <div className="item" key={index}>
                 <div className="service-box style1 w-100 h-100">
                   <div className="icon-xl m-b20 text-primary radius">
-                    <Link href={`/services-details/${service?.title}`} className="icon-cell">
+                    {/* <Link href={`/services-details/${service?.title}`} className="icon-cell"> */}
                       {/* <i className={service.iconClass} /> */}
                       <img src={service?.imgSrc} alt={service?.title} />
-                    </Link>
+                    {/* </Link> */}
                   </div>
                   <h3 className="title" dangerouslySetInnerHTML={{__html:service?.title}}></h3>
                 </div>

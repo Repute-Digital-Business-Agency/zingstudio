@@ -135,25 +135,25 @@ export default function CourseLearning({courseLearnings,courseLearningContents})
               {courseLearning?.map((item, index) => (
                 <SwiperSlide className="item" key={index}>
                   <div className="dlab-box project-bx position-relative">
-                  <Link href="#contact-us" className="apply-btn">
+                  <Link href="#contact" className="apply-btn">
                     Apply
                     </Link>
 
                     <div className="dlab-media radius-sm dlab-img-overlay1 dlab-img-effect zoom">
-                      <Link href={`/portfolio-details/${item.title}`}>
+                      {/* <Link href={`/portfolio-details/${item.title}`}> */}
                         <Image
                           src={item.imgSrc}
                           width={500}
                           height={700}
                           alt={item.title}
                         />
-                      </Link>
+                      {/* </Link> */}
                     </div>
                     <div className="dlab-info text-center">
                       <h5 className="dlab-title">
-                        <Link href={`/portfolio-details/${item.title}`}>
+                        {/* <Link href={`/portfolio-details/${item.title}`}> */}
                           {item.title}
-                        </Link>
+                        {/* </Link> */}
                       </h5>
                     </div>
                   </div>

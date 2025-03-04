@@ -31,7 +31,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
     <>
     <div
       className="section-full  text-white bg-img-fix pr-service-hero influ-banner course-banner"
-      
+      id="contact"
     >
       <div className="container">
         <div className="row">
@@ -124,7 +124,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
               onSubmit={(e) => e.preventDefault()}
               className="inquiry-form wow box-shadow bg-white fadeInUp "
               data-wow-delay="0.2s"
-              
+              // id="contact"
             >
               <h3 className="title-box font-weight-300 m-t0 m-b10 text-dark">
               Register Now For Free

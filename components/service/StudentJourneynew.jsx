@@ -99,8 +99,8 @@ export default function StudentJourneynew({services10, studentJourneyContent}) {
                          <div className="dlab-post-info">
                            
                            <div className="dlab-post-title">
-                             <h4 className="post-title pt-3">
-                               <a href="#"  dangerouslySetInnerHTML={{ __html: item.title }}></a>
+                             <h4 className="post-title pt-3" dangerouslySetInnerHTML={{ __html: item.title }} style={{cursor:"default"}}>
+                               {/* <a href="#"  ></a> */}
                              </h4>
                            </div>
                            <div className="dlab-post-text">

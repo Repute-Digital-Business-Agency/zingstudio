@@ -32,8 +32,8 @@ export default function Service() {
             <div className="service-box style2 h-100">
               <div>
                 <h2 className="title text-black">
-                  <span>Web </span> <br />
-                  Design
+                  {/* <span ></span> <br /> */}
+                  Web Design
                 </h2>
                 <p>
                 Your website is your brand’s first impression—let’s make it unforgettable! We create sleek, responsive, and user-friendly designs that captivate audiences and drive results. Let’s build a digital presence that turns visitors into loyal customers!
@@ -72,8 +72,8 @@ export default function Service() {
             <div className="service-box style2 h-100">
               <div>
                 <h2 className="title text-white">
-                  <span className="">Digital </span> <br />
-                  Marketing
+                  {/* <span className=""> </span> <br /> */}
+                  Digital Marketing
                 </h2>
                 <p>
                 Boosting brand visibility and engagement through tailored strategies—SEO, social media, content marketing, and paid campaigns—designed to deliver measurable results.
@@ -179,8 +179,9 @@ export default function Service() {
             <div className="service-box style2 h-100">
               <div>
                 <h2 className="title text-black">
-                  <span>E-Commerce</span> 
-                  {/* <br /> Optimization */}
+                  {/* <span></span> 
+                  <br />  */}
+                  E-Commerce
                 </h2>
                 <p>
                 User-centric e-commerce websites with intuitive navigation and secure payment systems, designed to optimize customer experience and accelerate business growth.

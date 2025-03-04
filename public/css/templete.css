@@ -9082,6 +9082,10 @@ button.scroltop {
   .academy-ban.dz-industry2-zone .swiper-slide img {
     height: 100% !important;
   }
+  .dz-industry2-zone .silder-content .dz-btns a {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
 }
 
 .form-white .form-control::placeholder,

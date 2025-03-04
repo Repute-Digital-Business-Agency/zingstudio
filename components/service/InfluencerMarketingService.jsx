@@ -42,10 +42,10 @@ export default function InfluencerMarketingService() {
                     <div className="col-lg-6 col-md-6 col-sm-12 m-b30">
                       <div className="icon-bx-wraper left">
                         <div className="icon-lg text-primary radius">
-                          <a href="#" className="icon-cell text-red">
+                          {/* <a href="#" className="icon-cell text-red"> */}
                             {/* <i className="ti-video-clapper" /> */}
                             <img src="/images/brand-buzz/Colored-icons/colored-icon-01.png" alt="colored-icon" />
-                          </a>
+                          {/* </a> */}
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize fw-bold">
@@ -60,10 +60,10 @@ export default function InfluencerMarketingService() {
                     <div className="col-lg-6 col-md-6 col-sm-12 m-b30">
                       <div className="icon-bx-wraper left">
                       <div className="icon-lg text-primary radius">
-                          <a href="#" className="icon-cell text-red">
+                          {/* <a href="#" className="icon-cell text-red"> */}
                             {/* <i className="ti-video-clapper" /> */}
                             <img src="/images/brand-buzz/Colored-icons/colored-icon-05.png" alt="colored-icon" />
-                          </a>
+                          {/* </a> */}
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize fw-bold">
@@ -78,10 +78,10 @@ export default function InfluencerMarketingService() {
                     <div className="col-lg-6 col-md-6 col-sm-12 m-b30">
                       <div className="icon-bx-wraper left">
                       <div className="icon-lg text-primary radius">
-                          <a href="#" className="icon-cell text-red">
+                          {/* <a href="#" className="icon-cell text-red"> */}
                             {/* <i className="ti-video-clapper" /> */}
                             <img src="/images/brand-buzz/Colored-icons/colored-icon-02.png" alt="colored-icon" />
-                          </a>
+                          {/* </a> */}
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize fw-bold">
@@ -102,10 +102,10 @@ export default function InfluencerMarketingService() {
                     <div className="col-lg-6 col-md-6 col-sm-12 m-b30">
                       <div className="icon-bx-wraper left">
                       <div className="icon-lg text-primary radius">
-                          <a href="#" className="icon-cell text-red">
+                          {/* <a href="#" className="icon-cell text-red"> */}
                             {/* <i className="ti-video-clapper" /> */}
                             <img src="/images/brand-buzz/Colored-icons/colored-icon-03.png" alt="colored-icon" />
-                          </a>
+                          {/* </a> */}
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize fw-bold">
@@ -120,10 +120,10 @@ export default function InfluencerMarketingService() {
                     <div className="col-lg-6 col-md-6 col-sm-12 m-b30">
                       <div className="icon-bx-wraper left">
                       <div className="icon-lg text-primary radius">
-                          <a href="#" className="icon-cell text-red">
+                          {/* <a href="#" className="icon-cell text-red"> */}
                             {/* <i className="ti-video-clapper" /> */}
                             <img src="/images/brand-buzz/Colored-icons/colored-icon-04.png" alt="colored-icon" />
-                          </a>
+                          {/* </a> */}
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize fw-bold">
@@ -138,10 +138,10 @@ export default function InfluencerMarketingService() {
                     <div className="col-lg-6 col-md-6 col-sm-12 m-b30">
                       <div className="icon-bx-wraper left">
                       <div className="icon-lg text-primary radius">
-                          <a href="#" className="icon-cell text-red">
+                          {/* <a href="#" className="icon-cell text-red"> */}
                             {/* <i className="ti-video-clapper" /> */}
                             <img src="/images/brand-buzz/Colored-icons/colored-icon-06.png" alt="colored-icon" />
-                          </a>
+                          {/* </a> */}
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize fw-bold">

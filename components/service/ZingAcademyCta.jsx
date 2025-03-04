@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function ZingAcademyCta() {
   return (
-    <div id="contact-us acdemy-cta"
+    <div id="contact-us"
       className="section-full  bg-img-fix "
       style={{ backgroundImage: "url(/images/Academy/lets-connect/bg1.jpg)" }}
     >

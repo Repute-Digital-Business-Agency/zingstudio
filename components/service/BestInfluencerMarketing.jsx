@@ -25,10 +25,10 @@ export default function BestInfluencerMarketing() {
                     <div className="col-lg-6 col-md-12 col-sm-12 m-b30  " >
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-xl text-primary">
-                          <a href="#" className="icon-cell text-yellow">
+                          {/* <a href="#" className="icon-cell text-yellow"> */}
                             {/* <i className="ti-apple" /> */}
                             <img src="/images/brand-buzz/Brand-with-Influence/maximized-reach.png" alt="" />
-                          </a>
+                          {/* </a> */}
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize fw-bold">
@@ -45,10 +45,10 @@ export default function BestInfluencerMarketing() {
                     <div className="col-lg-6 col-md-12 col-sm-12 m-b30 ">
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-lg text-primary radius">
-                          <a href="#" className="icon-cell text-blue">
+                          {/* <a href="#" className="icon-cell text-blue"> */}
                             {/* <i className="ti-twitter" /> */}
                             <img src="/images/brand-buzz/Brand-with-Influence/authentic-connections.png" alt="" />
-                          </a>
+                          {/* </a> */}
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize fw-bold">
@@ -64,10 +64,10 @@ export default function BestInfluencerMarketing() {
                     <div className="col-lg-6 col-md-12 col-sm-12 m-b30 ">
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-xl text-primary">
-                          <a href="#" className="icon-cell text-yellow">
+                          {/* <a href="#" className="icon-cell text-yellow"> */}
                             {/* <i className="ti-apple" /> */}
                             <img src="/images/brand-buzz/Brand-with-Influence/targeted-marketingg.png" alt="" />
-                          </a>
+                          {/* </a> */}
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize fw-bold">
@@ -84,10 +84,10 @@ export default function BestInfluencerMarketing() {
                     <div className="col-lg-6 col-md-12 col-sm-12 m-b30 ">
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-lg text-primary radius">
-                          <a href="#" className="icon-cell text-blue">
+                          {/* <a href="#" className="icon-cell text-blue"> */}
                             {/* <i className="ti-twitter" /> */}
                             <img src="/images/brand-buzz/Brand-with-Influence/enhanced-engagement.png" alt="" />
-                          </a>
+                          {/* </a> */}
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize fw-bold">
@@ -104,10 +104,10 @@ export default function BestInfluencerMarketing() {
                     <div className="col-lg-6 col-md-12 col-sm-12 m-b30 ">
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-xl text-primary">
-                          <a href="#" className="icon-cell text-yellow">
+                          {/* <a href="#" className="icon-cell text-yellow"> */}
                             {/* <i className="ti-apple" /> */}
                             <img src="/images/brand-buzz/Brand-with-Influence/measurable-results.png" alt="" />
-                          </a>
+                          {/* </a> */}
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize fw-bold">
@@ -124,10 +124,10 @@ export default function BestInfluencerMarketing() {
                     <div className="col-lg-6 col-md-12 col-sm-12 m-b30 ">
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-lg text-primary radius">
-                          <a href="#" className="icon-cell text-blue">
+                          {/* <a href="#" className="icon-cell text-blue"> */}
                             {/* <i className="ti-twitter" /> */}
                             <img src="/images/brand-buzz/Brand-with-Influence/cost-effective-solutions.png" alt="" />
-                          </a>
+                          {/* </a> */}
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize fw-bold">
@@ -144,10 +144,10 @@ export default function BestInfluencerMarketing() {
                     <div className="col-lg-6 col-md-12 col-sm-12 m-b30 ">
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-xl text-primary">
-                          <a href="#" className="icon-cell text-yellow">
+                          {/* <a href="#" className="icon-cell text-yellow"> */}
                             {/* <i className="ti-apple" /> */}
                             <img src="/images/brand-buzz/Brand-with-Influence/brand-credibility-boost.png" alt="" />
-                          </a>
+                          {/* </a> */}
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize fw-bold">
@@ -164,10 +164,10 @@ export default function BestInfluencerMarketing() {
                     <div className="col-lg-6 col-md-12 col-sm-12 m-b30 ">
                       <div className="icon-bx-wraper left px-5 py-3 box rounded">
                         <div className="icon-lg text-primary radius">
-                          <a href="#" className="icon-cell text-blue">
+                          {/* <a href="#" className="icon-cell text-blue"> */}
                             {/* <i className="ti-twitter" /> */}
                             <img src="/images/brand-buzz/Brand-with-Influence/sustained-brand-impact.png" alt="" />
-                          </a>
+                          {/* </a> */}
                         </div>
                         <div className="icon-content">
                           <h5 className="dlab-tilte text-capitalize fw-bold">
