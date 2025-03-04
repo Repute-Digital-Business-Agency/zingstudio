@@ -5,7 +5,7 @@ import React from "react";
 export default function HeroSection({head,option,bannerContent}) {
   return (
     <div
-      className="section-full   bg-img-fix pr-service-hero"
+      className="section-full   bg-img-fix pr-service-hero trans"
       style={{ backgroundImage: "url(/images/services/serviceBanner.jpg)" }}
     >
       <div className="container">
@@ -55,7 +55,7 @@ export default function HeroSection({head,option,bannerContent}) {
               data-wow-delay="0.2s"
               
             >
-              <h3 className="title-box font-weight-300 m-t0 m-b10">
+              <h3 className="title-box font-weight-300 m-t0 m-b10 text-white">
               {bannerContent.formTitle}
                 <span className="bg-primary" />
               </h3>
@@ -67,7 +67,7 @@ export default function HeroSection({head,option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-user text-redblk" />
+                        <i className="ti-user " />
                       </span>
                       <input
                         name="dzName"
@@ -83,7 +83,7 @@ export default function HeroSection({head,option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-mobile text-redblk" />
+                        <i className="ti-mobile " />
                       </span>
                       <input
                         name="dzOther[Phone]"
@@ -99,7 +99,7 @@ export default function HeroSection({head,option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-email text-redblk" />
+                        <i className="ti-email " />
                       </span>
                       <input
                         name="dzEmail"
@@ -115,7 +115,7 @@ export default function HeroSection({head,option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group flex-nowrap">
                       <span className="input-group-addon">
-                        <i className="ti-check-box text-redblk" />
+                        <i className="ti-check-box " />
                       </span>
                       <select className="form-select form-select-lg type-3 ml-2">
                         {option.map((option, index) => (

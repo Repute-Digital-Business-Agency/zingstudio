@@ -30,7 +30,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
   return (
     <>
     <div
-      className="section-full  text-white bg-img-fix pr-service-hero influ-banner course-banner"
+      className="section-full  text-white bg-img-fix pr-service-hero influ-banner course-banner trans"
       id="contact"
     >
       <div className="container">
@@ -39,7 +39,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
         <div className="col-12 m-auto">
           <div className="row">
          
-          <div className="col-lg-7 col-md-12 content-inner chosesus-content text-black ">
+          <div className="col-lg-7 col-md-12 content-inner chosesus-content text-black pb-md-0">
           <h2
               className="title-box font-weight-300  wow fadeInUp  "
               data-wow-delay="0.2s"
@@ -119,14 +119,14 @@ export default function AcademyCourseBanner({option,bannerContent}) {
             </ul> */}
           </div>
          
-          <div className="col-lg-5 col-md-12 m-b30 " >
+          <div className="col-lg-5 col-md-12 m-b30 pt-5 pt-sm-0" >
             <form 
               onSubmit={(e) => e.preventDefault()}
-              className="inquiry-form wow box-shadow bg-white fadeInUp "
+              className="inquiry-form wow box-shadow  fadeInUp "
               data-wow-delay="0.2s"
               // id="contact"
             >
-              <h3 className="title-box font-weight-300 m-t0 m-b10 text-dark">
+              <h3 className="title-box font-weight-300 m-t0 m-b10 text-white">
               Register Now For Free
                
               </h3>
@@ -136,7 +136,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-user text-redblk" />
+                        <i className="ti-user " />
                       </span>
                       <input
                         name="dzName"
@@ -154,7 +154,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-user text-redblk" />
+                        <i className="ti-user " />
                       </span>
                       <input
                         name="name"
@@ -171,7 +171,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-email text-redblk" />
+                        <i className="ti-email " />
                       </span>
                       <input
                         name="dzEmail"
@@ -188,7 +188,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-lock text-redblk" />
+                        <i className="ti-lock " />
                       </span>
                       <input
                         name="password"
@@ -204,7 +204,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-mobile text-redblk" />
+                        <i className="ti-mobile " />
                       </span>
                       <input
                         name="dzOther[Phone]"

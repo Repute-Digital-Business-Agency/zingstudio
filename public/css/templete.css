@@ -395,7 +395,7 @@ h6 {
   font-size: 18px;
   padding: 9px 0 3px;
   vertical-align: top;
-  border-bottom: 1px solid #e1e6eb;
+  border-bottom: 1px solid #fff !important;
 }
 
 .inquiry-form {

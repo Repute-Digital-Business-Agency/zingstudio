@@ -23,7 +23,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
   return (
     <>
     <div
-      className="section-full   bg-img-fix pr-service-hero influ-banner"
+      className="section-full   bg-img-fix pr-service-hero influ-banner trans"
       // style={{background:"#e9e9e9"}}
       style={{ backgroundImage: "url(/images/services/serviceBanner.jpg)" }}
     >
@@ -144,11 +144,11 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
           <div className="col-xl-4 col-lg-12 col-md-12 m-b30 " >
             <form 
               onSubmit={(e) => e.preventDefault()}
-              className="inquiry-form wow box-shadow bg-white fadeInUp "
+              className="inquiry-form wow box-shadow  fadeInUp "
               data-wow-delay="0.2s"
               
             >
-              <h3 className="title-box  m-t0 m-b10">
+              <h3 className="title-box text-white m-t0 m-b10">
               {bannerContent.formTitle}
                 <span className="bg-primary" />
               </h3>
@@ -160,7 +160,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-user text-redblk" />
+                        <i className="ti-user " />
                       </span>
                       <input
                         name="dzName"
@@ -176,7 +176,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-mobile text-redblk" />
+                        <i className="ti-mobile " />
                       </span>
                       <input
                         name="dzOther[Phone]"
@@ -192,7 +192,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-email text-redblk" />
+                        <i className="ti-email " />
                       </span>
                       <input
                         name="dzEmail"
@@ -208,7 +208,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                   <div className="form-group">
                     <div className="input-group">
                       <span className="input-group-addon">
-                        <i className="ti-link text-redblk" />
+                        <i className="ti-link " />
                       </span>
                       <input
                         name="profileLink"

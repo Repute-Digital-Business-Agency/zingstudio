@@ -19220,6 +19220,41 @@ input[type="radio"]+label:hover:before {
   border: none;
   color: white;
 }
+.trans .inquiry-form{
+  background-color: #ffffff36 !important;
+  color: #fff;
+}
+.trans .form-group{
+  border-radius: 40px !important;
+  /* background: #fff  !important; */
+}
+.trans .input-group .input-group-addon{
+  background: transparent !important;
+
+}
+.trans .input-group .form-control{
+  background: transparent !important;
+}
+.trans .input-group select{
+  background: transparent !important;
+}
+.trans .form-group input{
+  color: #000;
+}
+.trans .form-group input::placeholder{
+  color: #fff;
+}
+/* .influ-banner .form-group .input-group input:active{
+  background: transparent !important;
+} */
+ input:-webkit-autofill,
+ input:-webkit-autofill:hover,
+ input:-webkit-autofill:focus,
+ input:-webkit-autofill:active {
+  background-color: transparent !important;
+  transition: background-color 9999s ease-in-out 0s;
+  -webkit-text-fill-color: #000 !important; /* Ensures text is visible */
+}
 
 @media (max-width:778px){
   .newsletter-container img {
