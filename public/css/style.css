@@ -16468,7 +16468,7 @@ ol.commentlist li .star-rating {
     -moz-transition: all 0.8s;
     -o-transition: all 0.8s;
     margin: 0;
-    width: 400px;
+    width: 300px;
   }
 
   .mo-left .navbar-toggler.open:after {
