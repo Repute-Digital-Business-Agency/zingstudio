@@ -89,7 +89,7 @@ export default function Insights() {
               </div>
 
            
-              <div className="col-lg-6 col-md-6 col-sm-6" >
+              <div className="col-lg-6 col-md-6 col-sm-6 order-3 order-sm-2" >
                 {/* <div className="video-bx radius-no h100"> */}
                   <Image
                     alt="Signature"
@@ -108,7 +108,8 @@ export default function Insights() {
                   </div> */}
                 {/* </div> */}
               </div>
-              <div className="col-lg-6 col-md-6 col-sm-6 bg-primary align-items-center d-flex" >
+
+              <div className="col-lg-6 col-md-6 col-sm-6 bg-primary align-items-center d-flex order-2 order-sm-3" >
                 <div className="dlab-services-box text-white">
                   <h3 className="title text-white m-b15">
                   Boost your skills, own the game!  Zing Academy is where learning meets action. Are you in?

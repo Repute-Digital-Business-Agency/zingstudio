@@ -10,7 +10,8 @@ const slidesData = [
     // backgroundImage:
     //   'url("/images/Home-Page/banner-zing-studio-1.jpg") center center no-repeat',
     backgroundImage:
-      "/images/Home-Page/banner-zing-studio-1.jpg",
+      "/images/Home-Page/banner-bg-img-4.jpg",
+    charImg:"/images/Home-Page/character-img-4.png",
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
     title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, <br/> Amplify Your  <b style='font-size:48px; color:#fff'> Impact <b/>`,
     description:
@@ -25,7 +26,8 @@ const slidesData = [
     // backgroundImage:
     //   'url("/images/Home-Page/banner-opt-2.jpg") center center no-repeat',
     backgroundImage:
-      "/images/Home-Page/banner-opt-2.jpg",
+      "/images/Home-Page/banner-bg-img-1.jpg",
+      charImg:"/images/Home-Page/character-img-1.png",
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
     title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, <br/> Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
     description:
@@ -37,7 +39,8 @@ const slidesData = [
     // backgroundImage:
     //   'url("/images/Home-Page/banner-opt-3.jpg") center center no-repeat',
     backgroundImage:
-      "/images/Home-Page/banner-opt-3.jpg",
+      "/images/Home-Page/banner-bg-img-2.jpg",
+      charImg:"/images/Home-Page/character-img-2.png",
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
     title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your <b style='font-size:48px; color:#fff'> Brand </b>, <br/> Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
     description:
@@ -49,7 +52,8 @@ const slidesData = [
     // backgroundImage:
     //   'url("/images/Home-Page/banner-opt-4.jpg") center center no-repeat',
     backgroundImage:
-      "/images/Home-Page/banner-opt-4.jpg",
+      "/images/Home-Page/banner-bg-img-3.jpg",
+      charImg:"/images/Home-Page/character-img-3.png",
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
     title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, <br/> Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
     description:
@@ -176,10 +180,14 @@ export default function HomeMobileBanner() {
                         </div>
                         <div className="col-lg-6 col-md-12">
                         <Image
+                        className="char-img"
                             alt=""
-                            src="/images/main-slider/slide7-main.png"
+                            src={slide.charImg}
                             width="965"
                             height="894"
+                            style={{width:"100%",
+                              objectFit:"contain"
+                            }}
                         />
                         </div>
                     </div>

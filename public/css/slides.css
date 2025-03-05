@@ -60,6 +60,9 @@
     color: #000 !important;
     border-color: #fff !important;
   }
+  .home-bnr1 .char-img{
+    width: 50% !important;
+  }
 }
 
 
@@ -68,6 +71,9 @@
 .home-bnr1 h1{
 font-size: 30px;
 line-height: 40px;
+}
+.home-bnr1 .char-img{
+  width: 100% !important;
 }
 }
 
