@@ -23,6 +23,8 @@ import Home from "@/app/page";
 import HomeHero from "@/components/service/HomeHero";
 import HomeService from "@/components/service/HomeService";
 import HomeCta from "@/components/service/HomeCta";
+import DemoHero from "@/components/homes/home-7/MobileBanner";
+import ResponsiveHomeBanner from "@/components/service/ResponsiveHomeBanner";
 // import HomeService from "@/components/service/HomeService"
 
 
@@ -30,13 +32,14 @@ export const metadata = {
   title: "Home || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
-export default function page() {
+export default function Home1() {
+ 
   return (
     <>
       <div className="page-wraper  ">
         <Header17 />
         <div className="page-content bg-white pb-0" >
-          <Hero />
+        <ResponsiveHomeBanner/>
           {/* <div className="content-block p-t50 p-b50 bg-gray">
             <ClientSlider />
           </div> */}

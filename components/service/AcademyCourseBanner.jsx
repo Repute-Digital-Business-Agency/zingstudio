@@ -39,7 +39,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
         <div className="col-12 m-auto">
           <div className="row">
          
-          <div className="col-lg-7 col-md-12 content-inner chosesus-content text-black pb-md-0">
+          <div className="col-lg-7 col-md-12 content-inner chosesus-content text-black  pb-5">
           <h2
               className="title-box font-weight-300  wow fadeInUp  "
               data-wow-delay="0.2s"
