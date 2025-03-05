@@ -39,7 +39,11 @@ export default function Home1() {
       <div className="page-wraper  ">
         <Header17 />
         <div className="page-content bg-white pb-0" >
-        <ResponsiveHomeBanner/>
+          <Hero/>
+        {/* <ResponsiveHomeBanner/> */}
+
+
+
           {/* <div className="content-block p-t50 p-b50 bg-gray">
             <ClientSlider />
           </div> */}
