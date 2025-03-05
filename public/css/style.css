@@ -4095,7 +4095,7 @@ blockquote:before {
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1024px) {
   .middle-bar {
     display: none;
   }
@@ -4321,7 +4321,7 @@ blockquote:before {
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1024px) {
   .header-nav {
     clear: both;
     margin: 0 -15px;
@@ -4604,7 +4604,7 @@ blockquote:before {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1024px) {
   .nav-dark.header-nav .nav>li>a {
     color: #9d9d9d;
   }
@@ -16431,7 +16431,7 @@ ol.commentlist li .star-rating {
 }
 
 /* Google Recaptcha */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
   .mo-left .header-nav.nav-dark {
     background-color: #202020;
   }

@@ -10,7 +10,7 @@ export default function Header17() {
   return (
     <header className="site-header mo-left header">
       {/* main header */}
-      <div className="sticky-header main-bar-wraper navbar-expand-lg">
+      <div className="sticky-header main-bar-wraper navbar-expand-xl">
         <div className="main-bar clearfix dz-header">
           <div className="container-fluid clearfix">
             {/* website logo */}
@@ -59,7 +59,7 @@ export default function Header17() {
               className="header-nav navbar-collapse collapse justify-content-around"
               id="navbarNavDropdown"
             >
-              <div className="logo-header d-md-block d-lg-none">
+              <div className="logo-header d-lg-block d-xl-none">
                 <Link href={`/`}>
                   <img alt="" src="/images/logo.png" width="258" height="75" />
                 </Link>

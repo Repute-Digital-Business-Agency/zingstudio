@@ -309,7 +309,7 @@ export default function Nav() {
       </li> */}
 
       <li
-        className={`d-lg-block d-none  ${isMenuActive(ServicesDesLink) ? "active" : ""} ${
+        className={`d-xl-block d-none  ${isMenuActive(ServicesDesLink) ? "active" : ""} ${
           menuOpen1 == "services" ? "open" : ""
         }  `}
       >
@@ -337,7 +337,7 @@ export default function Nav() {
 
 
       <li
-        className={`d-lg-none d-block  ${isMenuActive(ServicesMblLink) ? "active" : ""} ${
+        className={`d-xl-none d-block  ${isMenuActive(ServicesMblLink) ? "active" : ""} ${
           menuOpen1 == "services" ? "open" : ""
         }  `}
       >
@@ -365,7 +365,7 @@ export default function Nav() {
 
      
       <li
-        className={`d-lg-block d-none  ${isMenuActive(ZingfluenceDesLink) ? "active" : ""} ${
+        className={`d-xl-block d-none  ${isMenuActive(ZingfluenceDesLink) ? "active" : ""} ${
           menuOpen3 == "services" ? "open" : ""
         }  `}
       >
@@ -391,7 +391,7 @@ export default function Nav() {
         </ul>
       </li>
       <li
-        className={`d-md-block d-lg-none ${isMenuActive(ZingfluenceMblLink) ? "active" : ""} ${
+        className={`d-lg-block d-xl-none ${isMenuActive(ZingfluenceMblLink) ? "active" : ""} ${
           menuOpen3 == "services" ? "open" : ""
         }  `}
       >
@@ -436,7 +436,7 @@ export default function Nav() {
       </li>
 
       <li
-        className={`d-lg-block d-none  ${isMenuActive(AcademyDesLink) ? "active" : ""} ${
+        className={`d-xl-block d-none  ${isMenuActive(AcademyDesLink) ? "active" : ""} ${
           menuOpen2 == "services" ? "open" : ""
         }  `}
       >
@@ -464,7 +464,7 @@ export default function Nav() {
       
 
       <li
-        className={`d-md-block d-lg-none ${isMenuActive(AcademyMblLink) ? "active" : ""} ${
+        className={`d-lg-block d-xl-none ${isMenuActive(AcademyMblLink) ? "active" : ""} ${
           menuOpen2 == "services" ? "open" : ""
         }  `}
       >
