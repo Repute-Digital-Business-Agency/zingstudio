@@ -68,7 +68,7 @@ import Link from "next/link";
 export default function HomeAbout() {
   return (
     <div className="section-full content-inner const-about homeAbout" style={{ backgroundImage: "url(/images/elementbg/about-us-bg-element.png)",backgroundRepeat:"no-repeat", }}>
-       <div className="moveAnimation" style={{ position: "absolute", bottom: "0px", right: "0", animation: "moveImage3 5s linear infinite", 
+       <div className="moveAnimation" style={{ position: "absolute", bottom: "0px", right: "0", animation: "moveImage3 5s linear infinite", opacity:"0.7"
         // border:"1px solid red"
          }}>
           <img
