@@ -1,10 +1,10 @@
 "use client"
 
 import React, { useEffect, useState } from 'react'
-import Hero from "@/components/homes/home-7/Hero";
-import HomeMobileBanner from '../homes/home-7/HomeMobileBanner';
+import MblZingAcademyCourseHero from './MblZingAcademyCourseHero';
+import ZingAcademyCourseHero from './zingAcademyCourseHero';
 
-export default function ResponsiveHomeBanner(){
+export default function ResponsiveAcademyBanner(){
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
     useEffect(() => {
@@ -14,7 +14,7 @@ export default function ResponsiveHomeBanner(){
     }, []);
   return (
     <>
-    {isMobile ? <HomeMobileBanner /> : <Hero />}
+    {isMobile ? <MblZingAcademyCourseHero /> : <ZingAcademyCourseHero />}
     </>
   )
 }

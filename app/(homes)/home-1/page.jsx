@@ -23,7 +23,7 @@ import Home from "@/app/page";
 import HomeHero from "@/components/service/HomeHero";
 import HomeService from "@/components/service/HomeService";
 import HomeCta from "@/components/service/HomeCta";
-import DemoHero from "@/components/homes/home-7/MobileBanner";
+import DemoHero from "@/components/homes/home-7/HomeMobileBanner";
 import ResponsiveHomeBanner from "@/components/service/ResponsiveHomeBanner";
 // import HomeService from "@/components/service/HomeService"
 
@@ -39,8 +39,8 @@ export default function Home1() {
       <div className="page-wraper  ">
         <Header17 />
         <div className="page-content bg-white pb-0" >
-          <Hero/>
-        {/* <ResponsiveHomeBanner/> */}
+          {/* <Hero/> */}
+        <ResponsiveHomeBanner/>
 
 
 

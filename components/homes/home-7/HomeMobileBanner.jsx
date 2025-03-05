@@ -12,7 +12,7 @@ const slidesData = [
     backgroundImage:
       "/images/Home-Page/banner-zing-studio-1.jpg",
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, Amplify Your  <b style='font-size:48px; color:#fff'> Impact <b/>`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, <br/> Amplify Your  <b style='font-size:48px; color:#fff'> Impact <b/>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "View Services",
@@ -27,7 +27,7 @@ const slidesData = [
     backgroundImage:
       "/images/Home-Page/banner-opt-2.jpg",
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, <br/> Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "View Services",
@@ -39,7 +39,7 @@ const slidesData = [
     backgroundImage:
       "/images/Home-Page/banner-opt-3.jpg",
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your <b style='font-size:48px; color:#fff'> Brand </b>, Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your <b style='font-size:48px; color:#fff'> Brand </b>, <br/> Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "View Services",
@@ -51,7 +51,7 @@ const slidesData = [
     backgroundImage:
       "/images/Home-Page/banner-opt-4.jpg",
     subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, <br/> Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "View Services",
@@ -96,7 +96,7 @@ const slidesData = [
   // },
 ];
 
-export default function MobileBanner() {
+export default function HomeMobileBanner() {
  
 
 
@@ -115,7 +115,7 @@ export default function MobileBanner() {
           direction={"vertical"}
           navigation={{ prevEl: ".snbph7", nextEl: ".snbnh7" }}
           style={{ height: "95vh" }}
-          // className=" swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress home-swiper-10 swiper-backface-hidden fadeInUp" data-wow-delay="0.2s"
+          className="home-ban swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress home-swiper-10 swiper-backface-hidden fadeInUp" data-wow-delay="0.2s"
         >
 
          {slidesData.map((slide, index) => ( 
@@ -133,7 +133,7 @@ export default function MobileBanner() {
                     left: "0%",
                     top: 0,
                     width: "100%",
-
+                    objectFit:"cover",
                     transformStyle: "preserve-3d",
                     backfaceVisibility: "hidden",
                     height: 898,
@@ -146,11 +146,11 @@ export default function MobileBanner() {
                 priority
                 />
                 <div className="react-parallax-content" style={{ position: "relative" }}>
-                <div className="hero-section pt-50 home-bnr1">
+                <div className=" pt-50 home-bnr1">
                     <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">
-                        <div className="hero-content tex-left ">
+                        <div className="hero-content  ">
 
                         <h1  dangerouslySetInnerHTML={{ __html: slide.title }} ></h1>
                   {/* <p>{slide.description}</p> */}
@@ -159,7 +159,7 @@ export default function MobileBanner() {
                     <button className="text-white" >{slide.buttonLabel}</button>
                   </Link> */}
                   <Link href={slide.link} 
-                  className="site-button btnhover13 white align-self-center outline ms-auto outline-2">
+                  className="site-button btnhover13 white align-self-center outline ms-auto outline-2 mt-3">
                     {slide.buttonLabel}
                   </Link>
                             {/* <h1 className="title">We are industry Factory solution</h1>

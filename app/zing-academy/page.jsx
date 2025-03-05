@@ -17,6 +17,7 @@ import BrandCaseStudy from "@/components/service/BrandCaseStudy";
 import ZingAcademyCta from "@/components/service/ZingAcademyCta";
 import ZingAcademyCourseHero from "@/components/service/zingAcademyCourseHero";
 import ZingAcademyFaq from "@/components/service/ZingAcademyFaq";
+import ResponsiveAcademyBanner from "@/components/service/ResponsiveAcademyBanner";
 export const metadata = {
   title: "Academy || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -27,7 +28,8 @@ export default function page() {
     <>
       <div className="page-wraper  ">
         <Header17 />
-         <ZingAcademyCourseHero/>
+         {/* <ZingAcademyCourseHero/> */}
+         <ResponsiveAcademyBanner/>
          <div
               className="section-full content-inner-2  wow fadeIn"
               data-wow-duration="2s"
