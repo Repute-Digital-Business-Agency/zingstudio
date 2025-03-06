@@ -5328,9 +5328,16 @@ blockquote:before {
 
   .dlab-bnr-inr h1 {
     line-height: 32px;
-    font-size: 24px;
+    font-size: 30px;
     text-align: center;
   }
+  .careerss .our-story h2{
+    font-size: 22px !important;
+  } 
+
+  .careerss .our-story p{
+    font-size: 18px !important;
+  } 
 
   .dlab-bnr-inr.dlab-bnr-inr-lg .dlab-bnr-inr-entry,
   .dlab-bnr-inr.dlab-bnr-inr-lg {
@@ -10466,12 +10473,13 @@ ul[class*="list-"] {
   font-size: 16px;
   letter-spacing: -2px;
   position: absolute;
-  right: 20px;
+  right: 0px;
   top: 50%;
   transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   -o-transform: translateY(-50%);
+  font-weight: 600;
 }
 
 .acod-head a.collapsed:after {

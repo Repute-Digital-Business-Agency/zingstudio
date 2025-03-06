@@ -49,9 +49,10 @@ export default function InfluencerBuzzFAQ({faqData}) {
             </div>
             <div className="row m-b30">
               <div className="col-lg-12 col-sm-12">
-                <div className="dlab-accordion faq-2 box-sort-in" id="accordion2">
+                <div className="dlab-accordion faq-1 box-sort-in" id="accordion2">
                   {faqData?.map((faq, index) => (
-                    <div className="panel" key={faq.id}>
+                    <div className="panel" key={faq.id}
+                    style={{ background: index % 2 !== 0 ? "white" : "#f4f2f2" }}>
                       <div className="acod-head">
                         <h6 className="acod-title">
                           <a

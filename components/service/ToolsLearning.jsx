@@ -164,7 +164,7 @@ export default function ToolsLearning({ToolsContent,Tools1,Tools2}) {
       <div className="content">
         
         <div
-          className="section-full bg-white bg-img-fix text-white content-inner "
+          className="section-full bg-white bg-img-fix text-white content-inner pb-0"
         //   style={{ backgroundImage: "url(/images/background/bg1.jpg)" }}
         >
           <div className="container">

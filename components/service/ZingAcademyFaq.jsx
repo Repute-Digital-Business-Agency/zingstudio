@@ -9,8 +9,8 @@ export default function ZingAcademyFaq() {
         </div>
         <div className="row m-b30">
           <div className="col-lg-12 col-sm-12">
-            <div className="dlab-accordion faq-2 box-sort-in" id="accordion2">
-              <div className="panel px-2" style={{background:"#f4f2f2"}}>
+            <div className="dlab-accordion faq-1 box-sort-in" id="accordion2">
+              <div className="panel px-0" style={{background:"#f4f2f2"}}>
                 <div className="acod-head ">
                   <h6 className="acod-title">
                     <a
@@ -36,7 +36,7 @@ export default function ZingAcademyFaq() {
                   </div>
                 </div>
               </div>
-              <div className="panel px-2" >
+              <div className="panel px-0" >
                 <div className="acod-head">
                   <h6 className="acod-title">
                     <a
@@ -61,7 +61,7 @@ export default function ZingAcademyFaq() {
                   </div>
                 </div>
               </div>
-              <div className="panel px-2" style={{background:"#f4f2f2"}}>
+              <div className="panel px-0" style={{background:"#f4f2f2"}}>
                 <div className="acod-head">
                   <h6 className="acod-title">
                     <a
@@ -87,7 +87,7 @@ export default function ZingAcademyFaq() {
                   </div>
                 </div>
               </div>
-              <div className="panel  px-2" >
+              <div className="panel  px-0" >
                 <div className="acod-head">
                   <h6 className="acod-title">
                     <a
@@ -112,7 +112,7 @@ export default function ZingAcademyFaq() {
                   </div>
                 </div>
               </div>
-              <div className="panel px-2" style={{background:"#f4f2f2"}}>
+              <div className="panel px-0" style={{background:"#f4f2f2"}}>
                 <div className="acod-head">
                   <h6 className="acod-title">
                     <a
@@ -138,7 +138,7 @@ export default function ZingAcademyFaq() {
                   </div>
                 </div>
               </div>
-              <div className="panel px-2" >
+              <div className="panel px-0" >
                 <div className="acod-head">
                   <h6 className="acod-title">
                     <a
@@ -166,7 +166,7 @@ export default function ZingAcademyFaq() {
                   </div>
                 </div>
               </div>
-              <div className="panel px-2" style={{background:"#f4f2f2"}}>
+              <div className="panel px-0" style={{background:"#f4f2f2"}}>
                 <div className="acod-head">
                   <h6 className="acod-title">
                     <a

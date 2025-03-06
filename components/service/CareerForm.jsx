@@ -149,7 +149,7 @@ const CareerForm = () => {
         </div>
         {/* Image Section */}
         <div className="col-lg-5 col-md-12 text-center">
-          <img src="/images/Experts-Hub/meet-the-expert-img-1.jpg" alt="Newsletter" className="img-fluid rounded" />
+          <img src="/images/Am-a-Zing/am-a-zing-image.png" alt="Newsletter" className="img-fluid rounded" />
         </div>
       </div>
     </div>

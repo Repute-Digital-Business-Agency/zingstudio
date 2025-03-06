@@ -61,7 +61,7 @@ export default function WhyConsultUs() {
                     {/* </a> */}
                   </div>
                   <div className="icon-content">
-                    <h5 className="dlab-tilte">Client-Centric Approach:</h5>
+                    <h5 className="dlab-tilte mb-2 mb-sm-1">Client-Centric Approach:</h5>
                     <p>
                     We place your business objectives at the heart of every decision, ensuring our solutions are aligned with your unique goals and challenges.
                     </p>
@@ -76,7 +76,7 @@ export default function WhyConsultUs() {
                     {/* </a> */}
                   </div>
                   <div className="icon-content">
-                    <h5 className="dlab-tilte">Innovative Thinking: </h5>
+                    <h5 className="dlab-tilte mb-2 mb-sm-1">Innovative Thinking: </h5>
                     <p>
                     Our team continuously explores new ideas and approaches, leveraging the latest trends and technologies to deliver forward-thinking solutions.
 
@@ -92,7 +92,7 @@ export default function WhyConsultUs() {
                     {/* </a> */}
                   </div>
                   <div className="icon-content">
-                    <h5 className="dlab-tilte">Data-Driven Decisions:</h5>
+                    <h5 className="dlab-tilte mb-2 mb-sm-1">Data-Driven Decisions:</h5>
                     <p>
                     We rely on detailed analytics and data insights to inform our strategies, ensuring every recommendation is based on concrete, measurable results.
                     </p>
@@ -108,7 +108,7 @@ export default function WhyConsultUs() {
                     {/* </a> */}
                   </div>
                     <div className="icon-content">
-                        <h5 className="dlab-tilte">Collaboration and Transparency: </h5>
+                        <h5 className="dlab-tilte mb-2 mb-sm-1">Collaboration and Transparency: </h5>
                         <p>
                         We maintain open lines of communication, involving you in every step of the process to ensure our strategies reflect your vision.
 
@@ -124,7 +124,7 @@ export default function WhyConsultUs() {
                     {/* </a> */}
                   </div>
                     <div className="icon-content">
-                        <h5 className="dlab-tilte">Sustained Results:  </h5>
+                        <h5 className="dlab-tilte mb-2 mb-sm-1">Sustained Results:  </h5>
                         <p>
                         We focus not just on immediate outcomes but also on long-term success, continually refining our approach to adapt to evolving market conditions.
 

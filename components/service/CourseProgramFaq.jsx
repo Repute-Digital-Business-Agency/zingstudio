@@ -42,16 +42,16 @@ export default function CourseProgramFaq({faqData}) {
 
   return (
    
-        <div className="section-full bg-white content-inner pb-5">
+        <div className="section-full bg-white content-inner pb-0 pb-md-5">
           <div className="container">
             <div className="section-head text-black text-left">
               <h3>FAQ</h3>
             </div>
             <div className="row m-b30">
               <div className="col-lg-12 col-sm-12">
-                <div className="dlab-accordion faq-2 box-sort-in" id="accordion2">
+                <div className="dlab-accordion faq-1 box-sort-in" id="accordion2">
                   {faqData?.map((faq, index) => (
-                    <div className="panel px-2" key={faq.id}
+                    <div className="panel px-0" key={faq.id}
                     style={{ background: index % 2 !== 0 ? "white" : "#f4f2f2" }}>
                       <div className="acod-head">
                         <h6 className="acod-title">

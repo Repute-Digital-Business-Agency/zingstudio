@@ -93,7 +93,7 @@ export default function HomeAbout() {
             </div>
           </div>
           <div
-            className="col-lg-6 col-md-12 col-sm-12 col-12 wow fadeInUp pt-md-4"
+            className="col-lg-6 col-md-12 col-sm-12 col-12 wow fadeInUp pt-4"
             data-wow-duration="2s"
             data-wow-delay="0.6s"
           >

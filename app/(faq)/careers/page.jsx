@@ -16,7 +16,7 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <div className="page-wraper  ">
+      <div className="page-wraper careerss ">
         <Header17 />
 
         <div

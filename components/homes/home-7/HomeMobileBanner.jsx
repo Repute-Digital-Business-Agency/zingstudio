@@ -116,7 +116,7 @@ export default function HomeMobileBanner() {
           }}
           speed={2500}
           loop
-          direction={"vertical"}
+          direction={"horizontal"}
           navigation={{ prevEl: ".snbph7", nextEl: ".snbnh7" }}
           style={{ height: "95vh" }}
           className="home-ban swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress home-swiper-10 swiper-backface-hidden fadeInUp" data-wow-delay="0.2s"
