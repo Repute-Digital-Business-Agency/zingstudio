@@ -15,7 +15,7 @@ export default function GuestLectures() {
           <div className="container">
           <div className="section-head style2 text-center ">
                     <h2 className="title">Celebrity Trainers</h2>
-                    <p className="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <p className="mb-4">Our trainers are seasoned professionals with extensive experience in digital marketing, offering valuable insights and practical knowledge. With their guidance, you’ll gain the skills needed to excel in the digital marketing field.</p>
                 </div>
             <div className="row">
               <div className="col-lg-4 col-md-4 col-sm-6">

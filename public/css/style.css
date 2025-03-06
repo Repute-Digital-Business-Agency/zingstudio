@@ -18970,6 +18970,12 @@ input[type="radio"]+label:hover:before {
   top: 10px;
   color: white;
 }
+.studentJourney .list-arrow li:before{
+  top: 5px !important;
+}
+.pr-service-hero  .list-arrow li:before{
+  top: 7px !important;
+}
 
 .course-month {
   color: #e21100;

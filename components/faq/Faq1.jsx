@@ -3,13 +3,19 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import ModalVideo from "react-modal-video";
+import CareerForm from "../service/CareerForm";
+import Link from "next/link";
 export default function Faq1() {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
       <div className="section-full overlay-white-middle content-inner">
-        <div className="container">
-          <div className="section-head text-black text-center">
+        <div className="container-fluid p-0">
+
+          <div className="row ">
+            <div className="col-12 col-lg-8  mx-auto" >
+
+            <div className="section-head text-black text-center">
             <div className="our-story">
               <h2 className="title">
                 Why Work at
@@ -57,16 +63,31 @@ export default function Faq1() {
               />
             </div>
           </div>
-          <div className="row">
-            <h2 className="title"> Job Openings</h2>
+
+            </div>
+          </div>
+          
+          <div className="row ">
+          <div className="col-12 col-lg-8  mx-auto">
+          <h2 className="title"> Job Openings</h2>
             <p>At Zing Studio, we’re seeking passionate individuals to join our innovative team. If you’re eager to make an impact in digital marketing, web design, or branding, we offer exciting opportunities for growth and collaboration. Explore our current openings and take the next step in your career with a company that values creativity and professional development.
             </p>
-            <h4>Internship Opportunities at Zing Studio</h4>
+          </div>
+          </div>
+        
+            <CareerForm/>
+
+
+            <div className="row ">
+            <div className="col-12 col-lg-8  mx-auto" >
+            <div className="row">
+            
+            <h2>Internship Opportunities at Zing Studio</h2>
             <p>Zing Studio offers exceptional internship opportunities designed for students and recent graduates seeking to gain practical experience in digital marketing, web design, and branding. As an intern with us, you will collaborate with seasoned professionals, contributing to high-impact projects while honing your skills in a dynamic, innovative environment.
             </p>
 
             <div className="col-lg-6 col-md-12 m-b30">
-              <div className="faq-video">
+              <div className="faq-video h-100">
                 <a
                   className="play-btn popup-youtube"
                   onClick={() => setOpen(true)}
@@ -166,72 +187,46 @@ export default function Faq1() {
 
 
               </div>
-
-            </div>
-            <div>
+              <div>
               <p>
                 If you are looking to accelerate your career in a collaborative and growth-driven environment, we invite you to apply for an internship at Zing Studio. Gain the experience and knowledge that will set you apart in the competitive digital landscape.
               </p>
 
             </div>
+            </div>
+           
           </div>
           {/* Faq Info */}
-          <div className="row">
+        
+
+
+         
+            </div>
+            </div>
+
+            <div className="row py-5 text-white" style={{background:"#e21100"}}>
+            <div className="col-12 col-lg-8  mx-auto" >
+            <div className="row">
             <h2 className="title mb-1">Apply Now</h2>
             <p className="mb-0">Are you ready to advance your career? At Zing Studio, we’re always seeking passionate, skilled individuals to join our team. Whether you're interested in a full-time role or an internship, we offer a collaborative environment where creativity, innovation, and professional development thrive. Apply today and embark on an exciting journey with Zing Studio.
             </p>
+            <div className="dz-btns d-flex align-items-center banner-btn  call-action px-0 py-0">
 
+                <Link
+                  href="#careers"
+                  className=" site-button btnhover13 white align-self-center outline  outline-2 mt-4 mx-2"
+                  style={{width:"auto",}}
+                >
+                                  
+                 Apply Now
+                
+                </Link>
+                
+                </div>
           </div>
-          <div className="row" style={{ display: 'none' }}>
-            <div className="col-lg-4 col-md-6 m-b30">
-              <div className="icon-bx-wraper bx-style-1 bg-white p-a30 left">
-                <div className="icon-md text-primary m-b20">
-                  <a href="#" className="icon-cell">
-                    <i className="flaticon-factory" />
-                  </a>
-                </div>
-                <div className="icon-content">
-                  <h5 className="dlab-tilte">Make it Simple</h5>
-                  <p>
-                    Web design aorem apsum dolor dolore magna aliquam erat
-                    volutpat.Claritas est etiam processus.
-                  </p>
-                </div>
-              </div>
             </div>
-            <div className="col-lg-4 col-md-6 m-b30">
-              <div className="icon-bx-wraper bx-style-1 bg-white p-a30 left">
-                <div className="icon-md text-primary m-b20">
-                  <a href="#" className="icon-cell">
-                    <i className="flaticon-worker" />
-                  </a>
-                </div>
-                <div className="icon-content">
-                  <h5 className="dlab-tilte">Unique design</h5>
-                  <p>
-                    Web design aorem apsum dolor dolore magna aliquam erat
-                    volutpat.Claritas est etiam processus.
-                  </p>
-                </div>
-              </div>
             </div>
-            <div className="col-lg-4 col-md-12 m-b30">
-              <div className="icon-bx-wraper bx-style-1 bg-white p-a30 left">
-                <div className="icon-md text-primary m-b20">
-                  <a href="#" className="icon-cell">
-                    <i className="flaticon-settings" />
-                  </a>
-                </div>
-                <div className="icon-content">
-                  <h5 className="dlab-tilte">True Responsiveness</h5>
-                  <p>
-                    Web design aorem apsum dolor dolore magna aliquam erat
-                    volutpat.Claritas est etiam processus.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           {/* Faq Info END */}
         </div>
       </div>{" "}

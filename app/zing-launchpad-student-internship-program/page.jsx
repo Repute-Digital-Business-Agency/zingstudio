@@ -146,8 +146,8 @@ export default function page() {
   ]
   const studentJourneyContent = {
     Title:"Student Journey at Zing Studio",
-    Description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.",
-    image:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-01.png", 
+    Description:"From newbie to digital pro—your journey starts here! With expert mentors, hands-on projects, and real-world skills, we’ll help you level up and make your mark in the digital world.",
+    image:"/imag es/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-01.png", 
     }
 
   const courseLearningContent = {

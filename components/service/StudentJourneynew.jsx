@@ -107,7 +107,7 @@ export default function StudentJourneynew({services10, studentJourneyContent}) {
 
                
 
-                                <ul className="list-hand-point flex-grow-1">
+                                <ul className="list-arrow flex-grow-1">
                                   {item?.list?.map((item, index) => (
                                     <li className="text-left" key={index}>{item}</li>
                                   ))}

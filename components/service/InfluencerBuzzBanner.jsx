@@ -66,7 +66,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                   height: 36px;
                   vertical-align: -2px;
                   position: relative;
-                 -webkit-text-stroke: 2px #000;
+                 -webkit-text-stroke: 2px #fff;
                  color:transparent;
                  font-weight:800;
                  letter-spacing:2px

@@ -92,8 +92,12 @@ export default function Footer13() {
                     <i className="fab fa-facebook-f"></i>
                     {/* <img src="/images/footer/icon-1.png" alt="" /> */}
                   </a>
-                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="icon icon2">
-                    <i className="fab fa-twitter"></i>
+                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="icon icon2" style={{padding:"1px 7px", fontWeight:"500" }}>
+                    <i style={{position:"relative", bottom:"-1px", left:"-1px", fontWeight:"600"}}>
+                    𝕏
+                    </i>
+                    
+
                     {/* <img src="/images/footer/icon-2.png" alt="" /> */}
                   </a>
                   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="icon icon3">

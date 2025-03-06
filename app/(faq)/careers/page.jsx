@@ -43,7 +43,7 @@ export default function page() {
           <Faq1 />
         </div>
 
-        <CareerForm/>
+      
         {/* <Cta /> */}
         
         <Footer13 />

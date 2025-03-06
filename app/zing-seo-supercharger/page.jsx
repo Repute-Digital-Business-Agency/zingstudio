@@ -160,7 +160,7 @@ export default function page() {
 
   const studentJourneyContent = {
     Title:"Student Journey at Zing Studio",
-    Description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer.",
+    Description:"From newbie to digital pro—your journey starts here! With expert mentors, hands-on projects, and real-world skills, we’ll help you level up and make your mark in the digital world.",
     image:"/images/Zing-SEO-Supercharger/Zing-SEO-Supercharger-01.png", 
     }
 

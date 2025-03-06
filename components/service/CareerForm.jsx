@@ -13,7 +13,7 @@ const CareerForm = () => {
     
   };
   return (
-    <div className="newsletter-container">
+    <div className="newsletter-container pt-4 pb-5" id="careers">
       <div className="newsletter-box mx-auto p-4 ">
         
         <div className="container">

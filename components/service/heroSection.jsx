@@ -38,7 +38,7 @@ export default function HeroSection({head,option,bannerContent}) {
              What you get
             </h5>
             <ul
-              className="list-hand-point  wow fadeInUp"
+              className="list-arrow  wow fadeInUp"
               data-wow-delay="1s"
             >
               {bannerContent.list.map((item, index) => (

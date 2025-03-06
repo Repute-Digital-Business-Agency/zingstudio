@@ -43,7 +43,8 @@ export default function InfluencerBuzzCta() {
                       What are You waiting For ?
                     </h2>
 
-                    <p className="text-white m-auto pt-2" style={{width:"55%"}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque mollitia, vero vel modi tenetur numquam. Praesentium nemo sed accusantium unde cupiditate molestiae omnis animi, nulla quisquam nihil exercitationem ut incidunt.</p>
+                    <p className="text-white m-auto pt-2" style={{width:"55%"}}>
+                    The spotlight is yours! Turn influence into impact, connect with top brands, and unlock exciting opportunities. Join the buzz and start earning today!</p>
                   
                     <Link href="/contact" className="site-button mt-3" style={{ cursor: "pointer", position: "relative", zIndex: 10}}>
                       Join Now
