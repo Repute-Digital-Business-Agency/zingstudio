@@ -94,32 +94,36 @@ export default function page() {
 
     const portfolioItems = [
       {
-        title: "Prade Jewels",
+        title: "Karpagam Academy of Higher Education",
         image: "/images/services/digital-marketing/mockup-1.jpg",
         className: "col-lg-6 col-md-6 col-sm-6",
         delay: "0.3s",
         duration: "1s",
+        link:"/portfolio"
       },
       {
-        title: "KPRMill",
+        title: "Karpagam Hospital",
         image: "/images/services/digital-marketing/mockup-2.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.6s",
         duration: "1.3s",
+        link:"/portfolio"
       },
       {
-        title: "OMI Pumps",
+        title: "Kumar's Houston",
         image: "/images/services/digital-marketing/mockup-3.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.9s",
         duration: "1.6s",
+      link:"/portfolio"
       },
       {
-        title: "Tirumalai Textiles",
+        title: "Karpagam Innovation & Incubation Council",
         image: "/images/services/digital-marketing/mockup-4.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.3s",
         duration: "1.9s",
+        link:"/portfolio"
       },
       {
         title: "Karpagam College of Engineering",
@@ -127,13 +131,15 @@ export default function page() {
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.6s",
         duration: "1.12s",
+       link:"/portfolio"
       },
       {
-        title: "Filmode Fashions",
+        title: "Karpagam Academy of Higher Education",
         image: "/images/services/digital-marketing/mockup-6.jpg",
         className: "col-lg-6 col-md-6 col-sm-6",
         delay: "0.9s",
         duration: "1.15s",
+       link:"/portfolio"
       },
     ];
   return (

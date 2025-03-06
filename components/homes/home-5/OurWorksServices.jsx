@@ -40,7 +40,7 @@ export default function OurWorkServices({portfolioItems,portfolioContent}) {
                       <div className="portinner">
                         <div className="port-up">
                           <h3 className="port-title">
-                            <Link href={`/portfolio`}>{item.title}</Link>
+                            <Link href={item?.link}>{item.title}</Link>
                           </h3>
                         </div>
                       </div>

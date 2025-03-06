@@ -307,7 +307,7 @@ export default function Portfolio2() {
                   </div>
                   <div className="dez-info p-a30 bg-white">
                     <p className="dez-title m-t0">
-                      <Link href={`/portfolio-details/${item.title}`}>
+                      <Link href={item.link}>
                         {item.title}
                       </Link>
                     </p>

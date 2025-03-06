@@ -96,46 +96,52 @@ export default function page() {
     }
     const portfolioItems = [
       {
-        title: "Prade Jewels",
+        title: "BKS Textiles ",
         image: "/images/services/web-deisgn/mockup-1.jpg",
         className: "col-lg-6 col-md-6 col-sm-6",
         delay: "0.3s",
         duration: "1s",
+        link:" https://bksfabrics.in/"
       },
       {
-        title: "KPRMill",
+        title: "GMAK Fiber Lase",
         image: "/images/services/web-deisgn/mockup-2.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.6s",
         duration: "1.3s",
+        link:"https://gmaklaser.com/"
       },
       {
-        title: "OMI Pumps",
+        title: "GSpace Interior ",
         image: "/images/services/web-deisgn/mockup-3.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.9s",
         duration: "1.6s",
+        link:" https://www.gspaceinterior.com/"
       },
       {
-        title: "Tirumalai Textiles",
+        title: "Gyanodhayam",
         image: "/images/services/web-deisgn/mockup-7.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.3s",
         duration: "1.9s",
+        link:"https://gyanodhayam.org"
       },
       {
-        title: "Karpagam College of Engineering",
+        title: "KIT - Varnam",
         image: "/images/services/web-deisgn/mockup-5.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.6s",
         duration: "1.12s",
+        link:"https://kitvarnam.in/"
       },
       {
-        title: "Filmode Fashions",
+        title: "NVM Diet & Lifestyle Clinic",
         image: "/images/services/web-deisgn/mockup-6.jpg",
         className: "col-lg-6 col-md-6 col-sm-6",
         delay: "0.9s",
         duration: "1.15s",
+        link:" https://nvmlifestyleclinic.com/"
       },
     ];
     
