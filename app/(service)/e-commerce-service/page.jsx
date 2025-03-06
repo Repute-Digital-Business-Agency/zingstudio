@@ -114,12 +114,12 @@ export default function page() {
         link:"https://sreethangamjewellery.com/"
       },
       {
-        title: "Filmode Fashon",
+        title: "Goes Good",
         image: "/images/services/E-commerce/mockup-3.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.9s",
         duration: "1.6s",
-        link:"https://filmodefashion.com/"
+        link:"https://goesgood.in/"
       },
       {
         title: "Faso",
@@ -130,12 +130,12 @@ export default function page() {
         link:"https://faso.in/"
       },
       {
-        title: "Goes Good",
+        title: "Rhythm Fashion",
         image: "/images/services/E-commerce/mockup-5.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.6s",
         duration: "1.12s",
-        link:"https://goesgood.in/"
+        link:"https://rhythmfashion.com/"
       },
       {
         title: "Prade Jewels",

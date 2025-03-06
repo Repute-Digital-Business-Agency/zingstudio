@@ -138,7 +138,7 @@ export default function Portfolio2() {
       imageSrc: "/images/portfolio/portfolio/nvm.jpg",
       title: "NVM Diet and Lifestyle Clinic",
       category: "Web Design",
-      link:"https://www.nvmdietandlifestyle.com/"
+      link:"https://nvmlifestyleclinic.com/"
     },
     // {
     //   id: 61,
@@ -307,7 +307,7 @@ export default function Portfolio2() {
                   </div>
                   <div className="dez-info p-a30 bg-white">
                     <p className="dez-title m-t0">
-                      <Link href={item.link}>
+                      <Link href={item.link} target="_blank">
                         {item.title}
                       </Link>
                     </p>
