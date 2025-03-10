@@ -423,17 +423,18 @@ export default function page() {
             iconClass: "flaticon-factory",
             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-13.png"
           },
+          {
+           
+            animation: "fadeInDown",
+            delay: "0.3s",
+            iconClass: "flaticon-worker",
+            img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-14.png"
+          },
         
         ];
 
     const Tools2 = [
-      {
-           
-        animation: "fadeInDown",
-        delay: "0.3s",
-        iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-14.png"
-      },
+     
       {
         
         animation: "fadeInUp",

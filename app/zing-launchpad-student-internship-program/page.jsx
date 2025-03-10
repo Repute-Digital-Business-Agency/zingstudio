@@ -389,12 +389,7 @@ export default function page() {
 
 
   const Tools3 = [
-    {
-      animation: "fadeInLeft",
-      delay: "0.3s",
-      iconClass: "flaticon-factory",
-       img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/AI-tools/tool-1.png"
-    },
+   
     {
      
       animation: "fadeInDown",
@@ -402,13 +397,7 @@ export default function page() {
       iconClass: "flaticon-worker",
       img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/AI-tools/tool-2.png"
     },
-    {
-      
-      animation: "fadeInUp",
-      delay: "0.3s",
-      iconClass: "flaticon-settings",
-      img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/AI-tools/tool-3.png"
-    },
+   
     {
      
       animation: "fadeInRight",

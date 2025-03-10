@@ -126,8 +126,10 @@ export default function ZinglaunchpadTools({
                   
                 </div>
 
-
-            <Swiper
+                <div className="container-fluid bg-white">
+            <div className="row">
+              <div className="col-10 mx-auto">
+              <Swiper
             // slidesPerView={5}
             spaceBetween={60}
             slidesPerGroup={2}
@@ -149,10 +151,10 @@ export default function ZinglaunchpadTools({
             },
     
             767: {
-                slidesPerView: 5,
+                slidesPerView: 4,
             },
             1000: {
-                slidesPerView: 6,
+                slidesPerView: 4,
             },
             }}
             modules={[Autoplay]}
@@ -172,6 +174,10 @@ export default function ZinglaunchpadTools({
     
             
         </Swiper>
+              </div>
+            </div>
+          </div>
+          
         
         </>
     }
