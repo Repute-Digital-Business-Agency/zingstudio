@@ -31,6 +31,7 @@ import StudentsJourney3 from "@/components/service/StudentsJourney3";
 import StudentJourneynew from "@/components/service/StudentJourneynew";
 import ZingAcademyProgramHero from "@/components/service/ZingAcademyProgramHero";
 import AcademyCourseBanner from "@/components/service/AcademyCourseBanner";
+import ToolsSlider from "@/components/service/ToolsSlider";
 export const metadata = {
   title: "Zing AI in Digital Marketing || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -230,7 +231,7 @@ export default function page() {
 
     const ToolsContent = {
       tool1Num:"40+",
-      tool1Title :"Free Premium Digital Marketing Tools",
+      tool1Title :"Free Essential Digital Marketing Tools",
       tool1worth :"Worth Of 6 Lakhs",
       tool2Num:"20+",
       tool2Title :"Digital Marketing AI Tools",
@@ -593,6 +594,7 @@ export default function page() {
       
       
       <ToolsLearning ToolsContent={ToolsContent}Tools1={Tools1} Tools2={Tools2}/>
+
       
       
       {/* <SucessStories testimonials={testimonials}/> */}

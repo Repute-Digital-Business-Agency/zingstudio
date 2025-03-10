@@ -31,6 +31,7 @@ import StudentsJourney3 from "@/components/service/StudentsJourney3";
 import StudentJourneynew from "@/components/service/StudentJourneynew";
 import ZingAcademyProgramHero from "@/components/service/ZingAcademyProgramHero";
 import AcademyCourseBanner from "@/components/service/AcademyCourseBanner";
+import ToolsSlider from "@/components/service/ToolsSlider";
 export const metadata = {
   title: "Zing Digital Marketing Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -327,8 +328,8 @@ export default function page() {
     ];
 
     const ToolsContent = {
-      tool1Num:"40+",
-      tool1Title :"Free Premium Digital Marketing Tools",
+      tool1Num:"20+",
+      tool1Title :"Free Essential Digital Marketing Tools",
       tool1worth :"Worth Of 6 Lakhs",
       tool2Num:"20+",
       tool2Title :"Digital Marketing AI Tools",
@@ -339,194 +340,321 @@ export default function page() {
           animation: "fadeInLeft",
           delay: "0.3s",
           iconClass: "flaticon-factory",
+          img:"/images/zing-digital-marketing-mastery/essential-tools/tool-1.png"
         },
         {
          
           animation: "fadeInDown",
           delay: "0.3s",
           iconClass: "flaticon-worker",
+          img:"/images/zing-digital-marketing-mastery/essential-tools/tool-2.png"
         },
         {
           
           animation: "fadeInUp",
           delay: "0.3s",
           iconClass: "flaticon-settings",
+          img:"/images/zing-digital-marketing-mastery/essential-tools/tool-3.png"
         },
         {
          
           animation: "fadeInRight",
           delay: "0.3s",
           iconClass: "flaticon-conveyor",
+           img:"/images/zing-digital-marketing-mastery/essential-tools/tool-4.png"
         },
         {
             animation: "fadeInLeft",
             delay: "0.3s",
             iconClass: "flaticon-factory",
+             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-5.png"
           },
           {
            
             animation: "fadeInDown",
             delay: "0.3s",
             iconClass: "flaticon-worker",
+             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-6.png"
           },
           {
             
             animation: "fadeInUp",
             delay: "0.3s",
             iconClass: "flaticon-settings",
+             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-7.png"
           },
           {
            
             animation: "fadeInRight",
             delay: "0.3s",
             iconClass: "flaticon-conveyor",
+             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-8.png"
           },
           {
             animation: "fadeInLeft",
             delay: "0.3s",
             iconClass: "flaticon-factory",
+             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-9.png"
           },
           {
            
             animation: "fadeInDown",
             delay: "0.3s",
             iconClass: "flaticon-worker",
+             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-10.png"
           },
           {
             
             animation: "fadeInUp",
             delay: "0.3s",
             iconClass: "flaticon-settings",
+             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-11.png"
           },
           {
            
             animation: "fadeInRight",
             delay: "0.3s",
             iconClass: "flaticon-conveyor",
+             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-12.png"
           },
           {
             animation: "fadeInLeft",
             delay: "0.3s",
             iconClass: "flaticon-factory",
+            img:"/images/zing-digital-marketing-mastery/essential-tools/tool-13.png"
           },
-          {
-           
-            animation: "fadeInDown",
-            delay: "0.3s",
-            iconClass: "flaticon-worker",
-          },
-          {
-            
-            animation: "fadeInUp",
-            delay: "0.3s",
-            iconClass: "flaticon-settings",
-          },
-          {
-           
-            animation: "fadeInRight",
-            delay: "0.3s",
-            iconClass: "flaticon-conveyor",
-          },
-          {
-            animation: "fadeInLeft",
-            delay: "0.3s",
-            iconClass: "flaticon-factory",
-          },
-          {
-           
-            animation: "fadeInDown",
-            delay: "0.3s",
-            iconClass: "flaticon-worker",
-          },
-      ];
+        
+        ];
 
     const Tools2 = [
-        {
-          animation: "fadeInLeft",
-          delay: "0.3s",
-          iconClass: "flaticon-factory",
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-        },
-        {
-          
-          animation: "fadeInUp",
-          delay: "0.3s",
-          iconClass: "flaticon-settings",
-        },
-        {
-         
-          animation: "fadeInRight",
-          delay: "0.3s",
-          iconClass: "flaticon-conveyor",
-        },
-        {
-            animation: "fadeInLeft",
-            delay: "0.3s",
-            iconClass: "flaticon-factory",
-          },
-          {
+      {
            
-            animation: "fadeInDown",
-            delay: "0.3s",
-            iconClass: "flaticon-worker",
-          },
-        ]
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-14.png"
+      },
+      {
+        
+        animation: "fadeInUp",
+        delay: "0.3s",
+        iconClass: "flaticon-settings",
+        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-15.png"
+      },
+      {
+       
+        animation: "fadeInRight",
+        delay: "0.3s",
+        iconClass: "flaticon-conveyor",
+        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-16.png"
+      },
+      {
+        animation: "fadeInLeft",
+        delay: "0.3s",
+        iconClass: "flaticon-factory",
+        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-17.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-18.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-19.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-20.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-21.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-22.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-23.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-24.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-25.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-26.png"
+      },
+  ];
 
-    const faqData = [
-          {
-            id: "faq6",
-            question: "1. Who is this course suitable for?",
-            answer:
-              "The course is ideal for students, marketing professionals, entrepreneurs, and anyone interested in mastering digital marketing skills.",
-          },
-          {
-            id: "faq7",
-            question: "2. What topics does the course cover?",
-            answer:
-              "The curriculum includes SEO, SEM, social media marketing, content marketing, email marketing, analytics, and paid advertising strategies.",
-          },
-          {
-            id: "faq8",
-            question: "3. Are there any prerequisites to enroll?",
-            answer:
-              "No prior experience is required. The course is designed for beginners as well as professionals looking to enhance their skills.",
-          },
-          {
-            id: "faq9",
-            question: "4. Will I get hands-on experience?",
-            answer:
-              "Yes. The course offers live projects and real-world case studies to ensure practical learning and application of strategies.",
-          },
-          {
-            id: "faq10",
-            question: "5. Is there a certification upon completion?",
-            answer:
-              "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
-          },
-          {
-            id: "faq11",
-            question: "6. What career opportunities does this course open up?",
-            answer:
-              "Graduates can pursue roles such as digital marketing strategist, SEO specialist, social media manager, content marketer, and more.",
-          },
-          {
-            id: "faq12",
-            question: "7. How long is the course duration?",
-            answer:
-              "The course duration typically ranges from 8 to 12 weeks, depending on the learning mode (full-time or part-time).",
-          },
-          {
-            id: "faq13",
-            question: "8. Does the course provide placement assistance?",
-            answer:
-              "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
-          },
-        ];
+    const Tools3 = [
+    {
+      animation: "fadeInLeft",
+      delay: "0.3s",
+      iconClass: "flaticon-factory",
+       img:"/images/zing-digital-marketing-mastery/AI-tools/tool-1.png"
+    },
+    {
+     
+      animation: "fadeInDown",
+      delay: "0.3s",
+      iconClass: "flaticon-worker",
+      img:"/images/zing-digital-marketing-mastery/AI-tools/tool-2.png"
+    },
+    {
+      
+      animation: "fadeInUp",
+      delay: "0.3s",
+      iconClass: "flaticon-settings",
+      img:"/images/zing-digital-marketing-mastery/AI-tools/tool-3.png"
+    },
+    {
+     
+      animation: "fadeInRight",
+      delay: "0.3s",
+      iconClass: "flaticon-conveyor",
+      img:"/images/zing-digital-marketing-mastery/AI-tools/tool-4.png"
+    },
+    {
+        animation: "fadeInLeft",
+        delay: "0.3s",
+        iconClass: "flaticon-factory",
+        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-5.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-6.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-7.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-8.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-9.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-10.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-11.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-12.png"
+      },
+     
+    ]
+
+const faqData = [
+      {
+        id: "faq6",
+        question: "1. Who is this course suitable for?",
+        answer:
+          "The course is ideal for students, marketing professionals, entrepreneurs, and anyone interested in mastering digital marketing skills.",
+      },
+      {
+        id: "faq7",
+        question: "2. What topics does the course cover?",
+        answer:
+          "The curriculum includes SEO, SEM, social media marketing, content marketing, email marketing, analytics, and paid advertising strategies.",
+      },
+      {
+        id: "faq8",
+        question: "3. Are there any prerequisites to enroll?",
+        answer:
+          "No prior experience is required. The course is designed for beginners as well as professionals looking to enhance their skills.",
+      },
+      {
+        id: "faq9",
+        question: "4. Will I get hands-on experience?",
+        answer:
+          "Yes. The course offers live projects and real-world case studies to ensure practical learning and application of strategies.",
+      },
+      {
+        id: "faq10",
+        question: "5. Is there a certification upon completion?",
+        answer:
+          "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
+      },
+      {
+        id: "faq11",
+        question: "6. What career opportunities does this course open up?",
+        answer:
+          "Graduates can pursue roles such as digital marketing strategist, SEO specialist, social media manager, content marketer, and more.",
+      },
+      {
+        id: "faq12",
+        question: "7. How long is the course duration?",
+        answer:
+          "The course duration typically ranges from 8 to 12 weeks, depending on the learning mode (full-time or part-time).",
+      },
+      {
+        id: "faq13",
+        question: "8. Does the course provide placement assistance?",
+        answer:
+          "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
+      },
+    ]
 
         const testimonials = [
           {
@@ -678,7 +806,8 @@ export default function page() {
       <GuestLectures/>
       
       
-      <ToolsLearning ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2}/>
+      {/* <ToolsLearning ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2}/> */}
+      <ToolsSlider ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2} Tools3={Tools3}/>
       
       
       {/* <SucessStories testimonials={testimonials}/> */}
