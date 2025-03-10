@@ -240,15 +240,9 @@ export default function page() {
           animation: "fadeInLeft",
           delay: "0.3s",
           iconClass: "flaticon-factory",
-          img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-1.jpeg"
+          img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-1.png"
         },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-          img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-2.png"
-        },
+        
         {
           
           animation: "fadeInUp",

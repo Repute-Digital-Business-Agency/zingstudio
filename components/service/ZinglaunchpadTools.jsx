@@ -13,6 +13,8 @@ export default function ZinglaunchpadTools({
   Tools3
 }) {
 
+  console.log(Tools1);
+  
   return (
     <>
       {/* <div className="sort-title clearfix text-center m-b20">
