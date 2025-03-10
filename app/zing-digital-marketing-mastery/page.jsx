@@ -340,88 +340,88 @@ export default function page() {
           animation: "fadeInLeft",
           delay: "0.3s",
           iconClass: "flaticon-factory",
-          img:"/images/zing-digital-marketing-mastery/essential-tools/tool-1.png"
+          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-1.png"
         },
         {
          
           animation: "fadeInDown",
           delay: "0.3s",
           iconClass: "flaticon-worker",
-          img:"/images/zing-digital-marketing-mastery/essential-tools/tool-2.png"
+          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-2.png"
         },
         {
           
           animation: "fadeInUp",
           delay: "0.3s",
           iconClass: "flaticon-settings",
-          img:"/images/zing-digital-marketing-mastery/essential-tools/tool-3.png"
+          img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-3.png"
         },
         {
          
           animation: "fadeInRight",
           delay: "0.3s",
           iconClass: "flaticon-conveyor",
-           img:"/images/zing-digital-marketing-mastery/essential-tools/tool-4.png"
+           img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-4.png"
         },
         {
             animation: "fadeInLeft",
             delay: "0.3s",
             iconClass: "flaticon-factory",
-             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-5.png"
+             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-5.png"
           },
           {
            
             animation: "fadeInDown",
             delay: "0.3s",
             iconClass: "flaticon-worker",
-             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-6.png"
+             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-6.png"
           },
           {
             
             animation: "fadeInUp",
             delay: "0.3s",
             iconClass: "flaticon-settings",
-             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-7.png"
+             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-7.png"
           },
           {
            
             animation: "fadeInRight",
             delay: "0.3s",
             iconClass: "flaticon-conveyor",
-             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-8.png"
+             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-8.png"
           },
           {
             animation: "fadeInLeft",
             delay: "0.3s",
             iconClass: "flaticon-factory",
-             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-9.png"
+             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-9.png"
           },
           {
            
             animation: "fadeInDown",
             delay: "0.3s",
             iconClass: "flaticon-worker",
-             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-10.png"
+             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-10.png"
           },
           {
             
             animation: "fadeInUp",
             delay: "0.3s",
             iconClass: "flaticon-settings",
-             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-11.png"
+             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-11.png"
           },
           {
            
             animation: "fadeInRight",
             delay: "0.3s",
             iconClass: "flaticon-conveyor",
-             img:"/images/zing-digital-marketing-mastery/essential-tools/tool-12.png"
+             img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-12.png"
           },
           {
             animation: "fadeInLeft",
             delay: "0.3s",
             iconClass: "flaticon-factory",
-            img:"/images/zing-digital-marketing-mastery/essential-tools/tool-13.png"
+            img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-13.png"
           },
         
         ];
@@ -432,90 +432,90 @@ export default function page() {
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-14.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-14.png"
       },
       {
         
         animation: "fadeInUp",
         delay: "0.3s",
         iconClass: "flaticon-settings",
-        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-15.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-15.png"
       },
       {
        
         animation: "fadeInRight",
         delay: "0.3s",
         iconClass: "flaticon-conveyor",
-        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-16.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-16.png"
       },
       {
         animation: "fadeInLeft",
         delay: "0.3s",
         iconClass: "flaticon-factory",
-        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-17.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-17.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-18.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-18.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-19.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-19.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-20.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-20.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-21.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-21.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-22.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-22.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-23.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-23.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-24.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-24.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-25.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-25.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/essential-tools/tool-26.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/essential-tools/tool-26.png"
       },
   ];
 
@@ -524,83 +524,83 @@ export default function page() {
       animation: "fadeInLeft",
       delay: "0.3s",
       iconClass: "flaticon-factory",
-       img:"/images/zing-digital-marketing-mastery/AI-tools/tool-1.png"
+       img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-1.png"
     },
     {
      
       animation: "fadeInDown",
       delay: "0.3s",
       iconClass: "flaticon-worker",
-      img:"/images/zing-digital-marketing-mastery/AI-tools/tool-2.png"
+      img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-2.png"
     },
     {
       
       animation: "fadeInUp",
       delay: "0.3s",
       iconClass: "flaticon-settings",
-      img:"/images/zing-digital-marketing-mastery/AI-tools/tool-3.png"
+      img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-3.png"
     },
     {
      
       animation: "fadeInRight",
       delay: "0.3s",
       iconClass: "flaticon-conveyor",
-      img:"/images/zing-digital-marketing-mastery/AI-tools/tool-4.png"
+      img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-4.png"
     },
     {
         animation: "fadeInLeft",
         delay: "0.3s",
         iconClass: "flaticon-factory",
-        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-5.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-5.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-6.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-6.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-7.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-7.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-8.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-8.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-9.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-9.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-10.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-10.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-11.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-11.png"
       },
       {
        
         animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-worker",
-        img:"/images/zing-digital-marketing-mastery/AI-tools/tool-12.png"
+        img:"/images/zing-digital-marketing-mastery/zing-digital-marketing-mastery-Tools/AI-tools/tool-12.png"
       },
      
     ]

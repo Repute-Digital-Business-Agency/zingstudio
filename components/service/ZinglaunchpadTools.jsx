@@ -4,7 +4,7 @@ import { clientLogos } from "@/data/clients";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-export default function ToolsSlider({
+export default function ZinglaunchpadTools({
   parentClass = "client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-white py-5",
   border = false,
   ToolsContent,
@@ -49,7 +49,7 @@ export default function ToolsSlider({
             slidesPerView: 5,
           },
           1000: {
-            slidesPerView: 7,
+            slidesPerView: 6,
           },
         }}
         modules={[Autoplay]}
@@ -136,7 +136,7 @@ export default function ToolsSlider({
             
             autoplay={{
             delay: 100,
-            
+            reverseDirection:true
             }}
             speed={2500}
             breakpoints={{
@@ -152,7 +152,7 @@ export default function ToolsSlider({
                 slidesPerView: 5,
             },
             1000: {
-                slidesPerView: 7,
+                slidesPerView: 6,
             },
             }}
             modules={[Autoplay]}
