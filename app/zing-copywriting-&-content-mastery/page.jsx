@@ -31,6 +31,7 @@ import StudentsJourney3 from "@/components/service/StudentsJourney3";
 import StudentJourneynew from "@/components/service/StudentJourneynew";
 import ZingAcademyProgramHero from "@/components/service/ZingAcademyProgramHero";
 import AcademyCourseBanner from "@/components/service/AcademyCourseBanner";
+import ZingCopyWritingTools from "@/components/service/ZingCopyWritingTools";
 export const metadata = {
   title: "Zing Copywriting & Content Mastery || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
@@ -225,8 +226,8 @@ export default function page() {
     ];
 
     const ToolsContent = {
-      tool1Num:"40+",
-      tool1Title :"Free Premium Digital Marketing Tools",
+      tool1Num:"20+",
+      tool1Title :"Free Essential Digital Marketing Tools",
       tool1worth :"Worth Of 6 Lakhs",
       tool2Num:"20+",
       tool2Title :"Digital Marketing AI Tools",
@@ -237,143 +238,207 @@ export default function page() {
           animation: "fadeInLeft",
           delay: "0.3s",
           iconClass: "flaticon-factory",
+          img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-1.png"
         },
         {
          
           animation: "fadeInDown",
           delay: "0.3s",
           iconClass: "flaticon-worker",
+          img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-2.png"
         },
         {
           
           animation: "fadeInUp",
           delay: "0.3s",
           iconClass: "flaticon-settings",
+          img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-3.png"
         },
         {
          
           animation: "fadeInRight",
           delay: "0.3s",
           iconClass: "flaticon-conveyor",
+           img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-4.png"
         },
         {
             animation: "fadeInLeft",
             delay: "0.3s",
             iconClass: "flaticon-factory",
+             img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-5.png"
           },
           {
            
             animation: "fadeInDown",
             delay: "0.3s",
             iconClass: "flaticon-worker",
+             img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-6.png"
           },
           {
             
             animation: "fadeInUp",
             delay: "0.3s",
             iconClass: "flaticon-settings",
-          },
-          {
-           
-            animation: "fadeInRight",
-            delay: "0.3s",
-            iconClass: "flaticon-conveyor",
-          },
-          {
-            animation: "fadeInLeft",
-            delay: "0.3s",
-            iconClass: "flaticon-factory",
-          },
-          {
-           
-            animation: "fadeInDown",
-            delay: "0.3s",
-            iconClass: "flaticon-worker",
+             img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-7.png"
           },
           {
             
             animation: "fadeInUp",
             delay: "0.3s",
             iconClass: "flaticon-settings",
-          },
-          {
-           
-            animation: "fadeInRight",
-            delay: "0.3s",
-            iconClass: "flaticon-conveyor",
-          },
-          {
-            animation: "fadeInLeft",
-            delay: "0.3s",
-            iconClass: "flaticon-factory",
-          },
-          {
-           
-            animation: "fadeInDown",
-            delay: "0.3s",
-            iconClass: "flaticon-worker",
+             img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-8.png"
           },
           {
             
             animation: "fadeInUp",
             delay: "0.3s",
             iconClass: "flaticon-settings",
+             img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-9.png"
           },
-          {
-           
-            animation: "fadeInRight",
-            delay: "0.3s",
-            iconClass: "flaticon-conveyor",
-          },
-          {
-            animation: "fadeInLeft",
-            delay: "0.3s",
-            iconClass: "flaticon-factory",
-          },
-          {
-           
-            animation: "fadeInDown",
-            delay: "0.3s",
-            iconClass: "flaticon-worker",
-          },
-      ];
-
-      const Tools2 = [
-        {
-          animation: "fadeInLeft",
-          delay: "0.3s",
-          iconClass: "flaticon-factory",
-        },
-        {
-         
-          animation: "fadeInDown",
-          delay: "0.3s",
-          iconClass: "flaticon-worker",
-        },
-        {
           
-          animation: "fadeInUp",
-          delay: "0.3s",
-          iconClass: "flaticon-settings",
-        },
-        {
-         
-          animation: "fadeInRight",
-          delay: "0.3s",
-          iconClass: "flaticon-conveyor",
-        },
-        {
-            animation: "fadeInLeft",
-            delay: "0.3s",
-            iconClass: "flaticon-factory",
-          },
-          {
+        
+        
+        ];
+  
+    const Tools2 = [
+      {
            
-            animation: "fadeInDown",
-            delay: "0.3s",
-            iconClass: "flaticon-worker",
-          },
-        ]
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-14.png"
+      },
+      {
+        
+        animation: "fadeInUp",
+        delay: "0.3s",
+        iconClass: "flaticon-settings",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-15.png"
+      },
+      {
+       
+        animation: "fadeInRight",
+        delay: "0.3s",
+        iconClass: "flaticon-conveyor",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-16.png"
+      },
+      {
+        animation: "fadeInLeft",
+        delay: "0.3s",
+        iconClass: "flaticon-factory",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-17.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-18.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-19.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-20.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-21.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-22.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-23.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-24.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-25.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-26.png"
+      },
+  ];
+  
+    const Tools3 = [
+    {
+      animation: "fadeInLeft",
+      delay: "0.3s",
+      iconClass: "flaticon-factory",
+       img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/AI-tools/tool-1.png"
+    },
+    {
+     
+      animation: "fadeInDown",
+      delay: "0.3s",
+      iconClass: "flaticon-worker",
+      img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/AI-tools/tool-2.png"
+    },
+    {
+      
+      animation: "fadeInUp",
+      delay: "0.3s",
+      iconClass: "flaticon-settings",
+      img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/AI-tools/tool-3.png"
+    },
+    {
+     
+      animation: "fadeInRight",
+      delay: "0.3s",
+      iconClass: "flaticon-conveyor",
+      img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/AI-tools/tool-4.png"
+    },
+    {
+        animation: "fadeInLeft",
+        delay: "0.3s",
+        iconClass: "flaticon-factory",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/AI-tools/tool-5.png"
+      },
+      {
+       
+        animation: "fadeInDown",
+        delay: "0.3s",
+        iconClass: "flaticon-worker",
+        img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/AI-tools/tool-6.png"
+      },
+      
+     
+      
+     
+    ]
 
         const faqData = [
           {
@@ -589,8 +654,8 @@ export default function page() {
       <GuestLectures/>
       
       
-      <ToolsLearning ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2}/>
-      
+      {/* <ToolsLearning ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2}/> */}
+      <ZingCopyWritingTools ToolsContent={ToolsContent} Tools1={Tools1} Tools3={Tools3}/>
       
       <SucessStories testimonials={testimonials}/>
     
