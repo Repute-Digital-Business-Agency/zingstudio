@@ -8,7 +8,7 @@ export default function CourseLearning({courseLearnings,courseLearningContents})
   
    
      const courseLearningContent = {
-    description:"Master essential skills like SEO for higher rankings, social media strategies to grow audiences, and content creation that converts. Learn to analyze data for smarter campaigns, run high-impact ads, craft engaging email marketing, and leverage influencer partnerships to expand your reach. Turn clicks into customers and become a digital marketing expert!",
+    description:"At Zing Academy, we don’t just teach digital marketing—we shape industry leaders. Our hands-on, practical approach ensures that you don’t just learn concepts but also apply them in real-world scenarios. Whether you're a student, entrepreneur, freelancer, or job seeker, our courses are designed to equip you with the most in-demand skills in digital marketing.",
     modules:"50 Sub Modules"
      }
 
@@ -16,67 +16,85 @@ export default function CourseLearning({courseLearnings,courseLearningContents})
       {
         id: 1,
         imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/digital-marketing-startegy.jpg",
-        title: "Digital Marketing Startegy",
+        title: "10+ Industry-Recognized Certificates",
         link:"zing-digital-marketing-mastery"
       },
       {
         id: 2,
         imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/content-and-prompt-engineerings.jpg",
-        title: "Content And Prompt Engineering",
+        title: "Weekend & Flexible Batches",
         link:"zing-digital-marketing-mastery"
       },
       {
         id: 3,
         imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/google-and-advance-web-analytics.jpg",
-        title: "Google And Advance web Analytics",
+        title: "Gamified Learning with Scoreboards",
         link:"zing-digital-marketing-mastery"
       },
       {
         id: 4,
         imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/social-media-marketing.jpg",
-        title: "Social Media Marketing",
+        title: "100% Practical Learning",
         link:"zing-digital-marketing-mastery"
       },
       {
         id: 5,
         imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/search-engine-optimization.jpg",
-        title: "Search Engine Optimization",
+        title: "Community & Mentorship",
         link:"zing-digital-marketing-mastery"
       },
       {
         id: 6,
         imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/funnel-building-lead-gen.jpg",
-        title: "Funnel Building Lead Gen",
+        title: "Weekly Quizzes & Monthly Assignments",
         link:"zing-digital-marketing-mastery"
       },
       {
         id: 7,
         imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/facebook-and-instagram-ads.jpg",
-        title: "Facebook And Instagram Ads",
+        title: "Weekly Student Presentations",
         link:"zing-digital-marketing-mastery"
       },
       {
         id: 8,
         imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/wix.jpg",
         title: "Wix",
-        link:"zing-digital-marketing-mastery"
+        link:"Final Capstone Project"
       },
       {
           id: 9,
           imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/whatsapp -marketing.jpg",
-          title: "Whatsapp Marketing",
+          title: "Certification on Completion",
           link:"zing-digital-marketing-mastery"
         },
         {
           id: 9,
           imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/web-technology.jpg",
-          title: "Web Technology",
+          title: "Zingers Alumni Community ",
           link:"zing-digital-marketing-mastery"
         },
         {
           id: 10,
           imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/projects.jpg",
-          title: "Projecs",
+          title: "AI & Automation in Digital Marketing",
+          link:"zing-digital-marketing-mastery"
+        },
+        {
+          id: 11,
+          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/projects.jpg",
+          title: "Job & Freelancing Support",
+          link:"zing-digital-marketing-mastery"
+        },
+        {
+          id: 12,
+          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/projects.jpg",
+          title: "Exclusive Industry Webinars & Expert Sessions",
+          link:"zing-digital-marketing-mastery"
+        },
+        {
+          id: 13,
+          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/projects.jpg",
+          title: "10% Scholarship for Women from Underprivileged Backgrounds",
           link:"zing-digital-marketing-mastery"
         },
     ];
@@ -96,13 +114,13 @@ export default function CourseLearning({courseLearnings,courseLearningContents})
       
       <div className="container">
       <div className="section-head text-white text-center">
-          <h2 className="title">What Will You Learn In This Course ?</h2>
+          <h2 className="title">Why Choose Zing Academy?</h2>
           <p style={{width:"100%"}}>
             {courseLearningContent?.description}
           </p>
-          <h4 className="mt-4 mb-0" style={{fontSize:"22px"}}>
+          {/* <h4 className="mt-4 mb-0" style={{fontSize:"22px"}}>
               {courseLearningContent?.modules}
-            </h4>
+            </h4> */}
         </div>
         <div className="row">
           <div className="col-lg-12 col-md-12">
