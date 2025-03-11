@@ -16,7 +16,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/services/web-design.jpg"
+                src="/images/services/web-design-image.jpg"
                 width="900"
                 height="550"
                 style={{ height: "100%", objectFit: "cover" }}
@@ -57,7 +57,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/services/saas-platform.jpg"
+                src="/images/services/digital-marketing-img-1.jpg"
                 width="900"
                 height="550"
                 style={{ height: "100%", objectFit: "cover" }}
@@ -97,7 +97,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/services/open-source-development.jpg"
+                src="/images/services/digital-marketing-img-2.jpg"
                 width="900"
                 height="550"
                 style={{ height: "100%", objectFit: "cover" }}
@@ -207,7 +207,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/services/seo.jpg"
+                src="/images/services/e-commerece-img.jpg"
                 width="900"
                 height="550"
                 // style={{ height: "100%", objectFit: "cover" }}

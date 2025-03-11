@@ -28,7 +28,7 @@ export default function ZinglaunchpadTools({
                     <p className="text-dark mb-0" >{ToolsContent?.tool1worth}</p>
       </div>
 
-      <Swiper
+      {/* <Swiper
         // slidesPerView={5}
         spaceBetween={60}
         slidesPerGroup={2}
@@ -56,56 +56,63 @@ export default function ZinglaunchpadTools({
         }}
         modules={[Autoplay]}
         className={parentClass}
-      >
+      > */}
+
+        <div className="d-flex flex-wrap justify-content-center gap-5  bg-white py-5">
         {Tools1?.map((item, index) => (
-          <SwiperSlide className="item" key={index}>
-            <div className="ow-client-logo wow fadeInUp will-animate bg-white">
-              <div className={`client-logo bg-white ${border ? "border" : ""}`}>
+          // <SwiperSlide className="item" key={index}>
+            <div className={` wow ${item.animation} ${item.delay}  bg-white`}>
+              <div className={` bg-white ${border ? "border" : ""}`}>
                 <a href="#">
-                  <Image width={100} height={150} src={item.img} alt="" />
+                  <Image width={100} height={150} src={item.img} alt="" style={{height:"70px", width:"auto"}} />
                 </a>
               </div>
             </div>
-          </SwiperSlide>
+          // </SwiperSlide>
         ))}
+        </div>
+      
 
         
-      </Swiper>
+      {/* </Swiper> */}
+
+
 
       {Tools2 &&
-         <Swiper
-         // slidesPerView={5}
-         spaceBetween={60}
-         slidesPerGroup={2}
-         style={{ maxWidth: "100vw", overflow: "hidden" }}
-         loop
+      //    <Swiper
+      //    // slidesPerView={5}
+      //    spaceBetween={60}
+      //    slidesPerGroup={2}
+      //    style={{ maxWidth: "100vw", overflow: "hidden" }}
+      //    loop
          
-         autoplay={{
-           delay: 100,
-           reverseDirection:true
-         }}
-         speed={2500}
-         breakpoints={{
-           0: {
-             slidesPerView: 2,
-           },
+      //    autoplay={{
+      //      delay: 100,
+      //      reverseDirection:true
+      //    }}
+      //    speed={2500}
+      //    breakpoints={{
+      //      0: {
+      //        slidesPerView: 2,
+      //      },
  
-           480: {
-             slidesPerView: 3,
-           },
+      //      480: {
+      //        slidesPerView: 3,
+      //      },
  
-           767: {
-             slidesPerView: 5,
-           },
-           1000: {
-             slidesPerView: 7,
-           },
-         }}
-         modules={[Autoplay]}
-         className={parentClass}
-       >
-         {Tools2?.map((item, index) => (
-           <SwiperSlide className="item" key={index}>
+      //      767: {
+      //        slidesPerView: 5,
+      //      },
+      //      1000: {
+      //        slidesPerView: 7,
+      //      },
+      //    }}
+      //    modules={[Autoplay]}
+      //    className={parentClass}
+      //  >
+      <div className="d-flex gap-5 client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-white py-5">
+        {Tools2?.map((item, index) => (
+          //  <SwiperSlide className="item" key={index}>
              <div className="ow-client-logo wow fadeInUp will-animate bg-white">
                <div className={`client-logo bg-white ${border ? "border" : ""}`}>
                  <a href="#">
@@ -113,12 +120,16 @@ export default function ZinglaunchpadTools({
                  </a>
                </div>
              </div>
-           </SwiperSlide>
+          //  </SwiperSlide>
          ))}
+      </div>
+         
  
          
-       </Swiper>
+      //  </Swiper>
       }
+
+
 
     {Tools3 &&
         <>
@@ -131,7 +142,7 @@ export default function ZinglaunchpadTools({
                 <div className="container-fluid bg-white">
             <div className="row">
               <div className="col-10 mx-auto">
-              <Swiper
+              {/* <Swiper
             // slidesPerView={5}
             spaceBetween={60}
             slidesPerGroup={2}
@@ -161,21 +172,24 @@ export default function ZinglaunchpadTools({
             }}
             modules={[Autoplay]}
             className={parentClass}
-        >
-            {Tools3?.map((item, index) => (
-            <SwiperSlide className="item" key={index}>
-                <div className="ow-client-logo wow fadeInUp will-animate bg-white">
-                <div className={`client-logo bg-white ${border ? "border" : ""}`}>
+        > */}
+           <div className="d-flex flex-wrap justify-content-center gap-5  bg-white py-5">
+          {Tools3?.map((item, index) => (
+            // <SwiperSlide className="item" key={index}>
+                <div className={`wow ${item.animation} ${item.delay}  will-animate bg-white`}>
+                <div className={` bg-white ${border ? "border" : ""}`}>
                     <a href="#">
-                    <Image width={100} height={150} src={item.img} alt="" />
+                    <Image width={100} height={150} src={item.img} alt=""  style={{height:"70px", width:"auto"}} />
                     </a>
                 </div>
                 </div>
-            </SwiperSlide>
+            // </SwiperSlide>
             ))}
     
+          </div>
+           
             
-        </Swiper>
+        {/* </Swiper> */}
               </div>
             </div>
           </div>

@@ -75,25 +75,25 @@ export default function CourseLearning({courseLearnings,courseLearningContents})
         },
         {
           id: 10,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/projects.jpg",
+          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/ai-automation-in-digital-marketing.jpg",
           title: "AI & Automation in Digital Marketing",
           link:"zing-digital-marketing-mastery"
         },
         {
           id: 11,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/projects.jpg",
+          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/job-freelancing-support.jpg",
           title: "Job & Freelancing Support",
           link:"zing-digital-marketing-mastery"
         },
         {
           id: 12,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/projects.jpg",
+          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/exclusive-industry-webinars-expert-sessions.jpg",
           title: "Exclusive Industry Webinars & Expert Sessions",
           link:"zing-digital-marketing-mastery"
         },
         {
           id: 13,
-          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/projects.jpg",
+          imgSrc: "/images/zing-digital-marketing-mastery/What-Will-You-Learn-In-This-Course/scholarship-for-women-from-underprivileged-backgrounds.jpg",
           title: "10% Scholarship for Women from Underprivileged Backgrounds",
           link:"zing-digital-marketing-mastery"
         },

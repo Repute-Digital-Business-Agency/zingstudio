@@ -288,13 +288,13 @@ export default function page() {
             iconClass: "flaticon-settings",
              img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-8.png"
           },
-          {
+          // {
             
-            animation: "fadeInUp",
-            delay: "0.3s",
-            iconClass: "flaticon-settings",
-             img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-9.png"
-          },
+          //   animation: "fadeInUp",
+          //   delay: "0.3s",
+          //   iconClass: "flaticon-settings",
+          //    img:"/images/Zing-Copywriting-&-Content-Mastery/Zing-Copywriting-&-Content-Mastery-Tools/essential-tools/tool-9.png"
+          // },
           
         
         
@@ -657,9 +657,9 @@ export default function page() {
       {/* <ToolsLearning ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2}/> */}
       <ZingCopyWritingTools ToolsContent={ToolsContent} Tools1={Tools1} Tools3={Tools3}/>
       
-      <SucessStories testimonials={testimonials}/>
+      {/* <SucessStories testimonials={testimonials}/> */}
     
-      <div  className="bg-white pb-0 pb-sm-5"  >
+      <div  className="bg-gray pb-0 pb-sm-5"  >
         <CourseProgramFaq faqData={faqData}/>
         </div>
 

@@ -813,7 +813,7 @@ const faqData = [
       
       {/* <SucessStories testimonials={testimonials}/> */}
     
-      <div className="bg-white pb-0 pb-sm-5"  >
+      <div className="bg-gray pb-0 pb-sm-5"  >
         <CourseProgramFaq faqData={faqData}/>
         </div>
 

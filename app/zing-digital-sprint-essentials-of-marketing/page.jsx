@@ -232,7 +232,8 @@ export default function page() {
           animation: "fadeInLeft",
           delay: "0.3s",
           iconClass: "flaticon-factory",
-          img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/essential-tools/tool-1.png"
+          // img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/essential-tools/tool-1.png",
+          img:"/images/logo.png"
         },
         {
          
@@ -630,7 +631,7 @@ export default function page() {
       
       {/* <SucessStories testimonials={testimonials}/> */}
     
-      <div  className="bg-white pb-0 pb-sm-5" >
+      <div  className="bg-gray pb-0 pb-sm-5" >
         <CourseProgramFaq faqData={faqData}/>
         </div>
 

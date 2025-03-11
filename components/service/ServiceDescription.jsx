@@ -9,9 +9,8 @@ export default function ServiceDescription() {
             {/* <h4 className="title max-w700 m-auto">
             Design. Strategy. Impact—Services That Set Your Brand Apart!
             </h4> */}
-            <img src="/images/services/Text-effect.png" alt="text" 
-             width="300"
-             height="100"
+            <img src="/images/services/Text-effect.jpg" alt="text" 
+             
              />
           </div>
         </div>

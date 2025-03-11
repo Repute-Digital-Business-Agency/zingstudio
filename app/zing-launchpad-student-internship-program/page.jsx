@@ -237,7 +237,7 @@ export default function page() {
 
     const Tools1 = [
         {
-          animation: "fadeInLeft",
+          animation: "fadeInUp",
           delay: "0.3s",
           iconClass: "flaticon-factory",
           img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-1.png"
@@ -252,27 +252,27 @@ export default function page() {
         },
         {
          
-          animation: "fadeInRight",
+          animation: "fadeInLeft",
           delay: "0.3s",
           iconClass: "flaticon-conveyor",
            img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-4.png"
         },
         {
-            animation: "fadeInLeft",
+            animation: "fadeInDown",
             delay: "0.3s",
             iconClass: "flaticon-factory",
              img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-5.png"
           },
           {
            
-            animation: "fadeInDown",
+            animation: "fadeInLeft",
             delay: "0.3s",
             iconClass: "flaticon-worker",
              img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-6.png"
           },
           {
             
-            animation: "fadeInUp",
+            animation: "fadeInLeft",
             delay: "0.3s",
             iconClass: "flaticon-settings",
              img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/essential-tools/tool-7.png"
@@ -386,7 +386,7 @@ export default function page() {
    
     {
      
-      animation: "fadeInDown",
+      animation: "fadeInUp",
       delay: "0.3s",
       iconClass: "flaticon-worker",
       img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/AI-tools/tool-2.png"
@@ -394,20 +394,20 @@ export default function page() {
    
     {
      
-      animation: "fadeInRight",
+      animation: "fadeInLeft",
       delay: "0.3s",
       iconClass: "flaticon-conveyor",
       img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/AI-tools/tool-4.png"
     },
     {
-        animation: "fadeInLeft",
+        animation: "fadeInDown",
         delay: "0.3s",
         iconClass: "flaticon-factory",
         img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/AI-tools/tool-5.png"
       },
       {
        
-        animation: "fadeInDown",
+        animation: "fadeInRight",
         delay: "0.3s",
         iconClass: "flaticon-worker",
         img:"/images/Zing-Launchpad-Student-Internship-Program/Zing-Launchpad-Student-Internship-Program-Tools/AI-tools/tool-6.png"
@@ -643,7 +643,7 @@ export default function page() {
       
       {/* <SucessStories testimonials={testimonials}/> */}
     
-      <div  className="bg-white pb-0 pb-sm-5"  >
+      <div  className="bg-gray pb-0 pb-sm-5"  >
         <CourseProgramFaq faqData={faqData}/>
         </div>
 

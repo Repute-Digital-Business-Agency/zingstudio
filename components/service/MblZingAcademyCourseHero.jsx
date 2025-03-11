@@ -24,7 +24,7 @@ export default function MblZingAcademyCourseHero() {
           width: "100%",
           filter: "none",
         }}
-        src="/images/Academy/banner/banner-img.jpg"
+        src="/images/Academy/banner/banner-img-bg.jpg"
         width={1920}
         height={1024}
         priority
@@ -62,7 +62,7 @@ export default function MblZingAcademyCourseHero() {
               <div className="col-lg-6 col-md-12 pt-5">
                 <Image
                   alt=""
-                  src="/images/main-slider/slide7-main.png"
+                  src="/images/Academy/banner/banner-vector-img.png"
                   width="965"
                   height="894"
                 />
