@@ -35,7 +35,7 @@ export default function Contact2() {
           <div className="row">
             <div className="col-lg-4 col-md-12">
               <div className="row">
-                <div className="col-lg-12 col-md-12 m-b30">
+                <div className="col-lg-12 col-md-12 mb-5">
                   <div className="icon-bx-wraper expertise bx-style-1 p-a20 radius-sm">
                     <div className="icon-content">
                       <h5 className="dlab-tilte">
@@ -45,8 +45,8 @@ export default function Contact2() {
                         Company Address
                       </h5>
                       <p>
-                        5A-1, 4th Street, Chinthamani Nagar, K.K.Pudur, Saibaba
-                        Colony, Coimbatore – 641 038. Tamil Nadu, India.
+                        5A-1, 4th Street, <br /> Chinthamani Nagar, K.K.Pudur, <br /> Saibaba
+                        Colony, <br /> Coimbatore – 641 038. <br /> Tamil Nadu, India.
                       </p>
                       {/* <h6 className="m-b15 text-black font-weight-400">
                         <i className="ti-alarm-clock" /> Office Hours
@@ -56,7 +56,7 @@ export default function Contact2() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-12 col-md-6 m-b30">
+                <div className="col-lg-12 col-md-6 mb-5">
                   <div className="icon-bx-wraper expertise bx-style-1 p-a20 radius-sm">
                     <div className="icon-content">
                       <h5 className="dlab-tilte">
@@ -81,7 +81,7 @@ export default function Contact2() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-12 col-md-6 m-b30">
+                <div className="col-lg-12 col-md-6">
                   <div className="icon-bx-wraper expertise bx-style-1 p-a20 radius-sm">
                     <div className="icon-content">
                       <h5 className="dlab-tilte">
@@ -113,7 +113,7 @@ export default function Contact2() {
             <div className="col-lg-8 col-md-12 m-b30">
               <form
                 onSubmit={(e) => e.preventDefault()}
-                className="inquiry-form wow fadeInUp"
+                className="inquiry-form wow fadeInUp py-3"
                 data-wow-delay="0.2s"
               >
                 <div className="our-story">

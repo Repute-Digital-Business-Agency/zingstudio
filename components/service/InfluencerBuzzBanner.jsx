@@ -96,7 +96,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
               `}</style>
             </div>
 
-            <div className="col-xl-4 col-lg-6 col-md-6 content-inner chosesus-content text-white d-flex flex-coloumn align-item-end justify-content-center wow fadeInUp md-pt-0 pb-md-0">
+            <div className="col-xl-4 col-lg-6 col-md-6 content-inner chosesus-content text-white d-flex flex-coloumn align-item-end justify-content-center wow fadeInUp md-pt-0 pb-md-0 ">
               
             <div className="radius-sm  ">
                 {/* <img className="choose-Zf-img fade-image"
@@ -119,7 +119,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                 src={bannerContent.image[currentIndex]}
                 width={600}
                 height={722}
-                style={{ objectFit: "contain", position: "relative", bottom: "-50px" , width:"100%", height:"100%"}}
+                style={{ objectFit: "contain" , position: "relative", bottom: "0px", width:"100%", height:"100%"}}
               />
                   
               
@@ -141,12 +141,12 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
             `}</style>
               
             </div>
-          <div className="col-xl-4 col-lg-12 col-md-12 m-b30 " >
+          <div className="col-xl-4 col-lg-12 col-md-12 " >
             <form 
               onSubmit={(e) => e.preventDefault()}
               className="inquiry-form wow box-shadow  fadeInUp "
               data-wow-delay="0.2s"
-              
+            
             >
               <h3 className="title-box text-white m-t0 m-b10">
               {bannerContent.formTitle}

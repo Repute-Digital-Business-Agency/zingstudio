@@ -27,7 +27,7 @@ export default function MarketingAgency() {
                   alt=""
                    src="/images/Zingfluence/influencer-img-1.jpg"
                   width="500"
-                  height="825"
+                  height="400"
                 />
               </span>
               <span className="ev-about2">

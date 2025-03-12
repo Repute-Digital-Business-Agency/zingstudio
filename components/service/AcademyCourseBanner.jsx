@@ -41,7 +41,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
          
           <div className="col-lg-7 col-md-12 content-inner chosesus-content text-black  pb-5">
           <h2
-              className="title-box font-weight-300  wow fadeInUp  "
+              className="title-box font-weight-300  wow fadeInUp mb-0 pb-3 "
               data-wow-delay="0.2s"
               dangerouslySetInnerHTML={{__html:bannerContent.head}}
             > 
@@ -49,13 +49,13 @@ export default function AcademyCourseBanner({option,bannerContent}) {
                {/* <span className="bg-primary" /> */}
             </h2>
           <h4
-              className="font-weight-300 wow fadeInUp"
+              className="font-weight-300 wow fadeInUp pb-2 mb-0"
               data-wow-delay="0.4s"
             >
             {bannerContent.caption}
             </h4>
             <ul
-              className="list-check  wow fadeInUp text-white"
+              className="list-check  wow fadeInUp text-white mb-0 pb-2"
               data-wow-delay="0.6s"
             >
               {bannerContent.list.map((item, index) => (
@@ -65,14 +65,14 @@ export default function AcademyCourseBanner({option,bannerContent}) {
              
             </ul>
 
-            <p className="font-16  wow fadeInUp" data-wow-delay="1s">
+            <p className="font-16  wow fadeInUp mb-0 pb-2" data-wow-delay="1s">
           Course Duration : {bannerContent.duration}
 
             </p>
             
 
             <h4
-              className="font-weight-300 m-b50  wow fadeInUp"
+              className="font-weight-300   wow fadeInUp "
               data-wow-delay="1.2s"
             >
               {bannerContent.subTitle}
@@ -119,10 +119,10 @@ export default function AcademyCourseBanner({option,bannerContent}) {
             </ul> */}
           </div>
          
-          <div className="col-lg-5 col-md-12 m-b30 pt-5 pt-sm-0" >
+          <div className="col-lg-5 col-md-12 m-b30  pt-sm-0" >
             <form 
               onSubmit={(e) => e.preventDefault()}
-              className="inquiry-form wow box-shadow  fadeInUp "
+              className="inquiry-form wow box-shadow  fadeInUp mb-3"
               data-wow-delay="0.2s"
               // id="contact"
             >

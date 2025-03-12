@@ -5,7 +5,7 @@ export default function WhyConsultUs() {
     <div className="section-full content-inner bg-white">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 m-b30">
+          <div className="col-lg-12 m-b30">
             
             <h2 className="text-black font-weight-600 m-b15 pt-lg-5">Why Consult with Us
             </h2>
@@ -15,7 +15,7 @@ export default function WhyConsultUs() {
             </p>
            
           </div>
-          <div className="col-lg-6">
+          {/* <div className="col-lg-6">
             <div className="row">
               <div className="col-lg-12 m-b30">
                 <Image
@@ -25,7 +25,7 @@ export default function WhyConsultUs() {
                   height="400"
                 />
               </div>
-              {/* <div className="col-lg-6 col-md-6 col-sm-6 m-b30">
+               <div className="col-lg-6 col-md-6 col-sm-6 m-b30">
                 <Image
                   alt=""
                   src="/images/Experts-Hub/img-2.jpg"
@@ -48,9 +48,9 @@ export default function WhyConsultUs() {
                   width="700"
                   height="479"
                 />
-              </div> */}
+              </div> 
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="row">
               <div className="col-lg-6">
@@ -133,7 +133,7 @@ export default function WhyConsultUs() {
                 </div>
               </div>
                 <div>
-                    <p>Choose Zing Studio for a process-driven, results-oriented consulting experience that is focused on your business’s success.
+                    <p>Choose Zing Studio for a process-driven, results-oriented consulting experience that prioritizes your business’s success. Our expert team combines strategic insights, innovative solutions, and data-driven methodologies to enhance brand growth, optimize performance, and deliver measurable impact. From crafting compelling digital strategies to streamlining operations, we ensure every step is aligned with your goals. With a commitment to quality, creativity, and efficiency, we help brands stay ahead in a competitive landscape. Partner with us for tailored solutions that drive long-term success.
                     </p>
                 </div>
 

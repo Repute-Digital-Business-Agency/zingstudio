@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { projects } from "@/data/projects";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 export default function CourseLearning({courseLearnings,courseLearningContents}) {
@@ -132,8 +132,12 @@ export default function CourseLearning({courseLearnings,courseLearningContents})
               autoplay={{
                 delay: 4000,
               }}
+              navigation={{
+                prevEl: ".snbp35",
+                nextEl: ".snbn35",
+              }}
               speed={2500}
-              modules={[Autoplay]}
+              modules={[Autoplay, Navigation]}
               breakpoints={{
                 0: {
                   slidesPerView: 1,
@@ -167,7 +171,7 @@ export default function CourseLearning({courseLearnings,courseLearningContents})
                         />
                       {/* </Link> */}
                     </div>
-                    <div className="dlab-info text-center">
+                    <div className="dlab-info text-center ">
                       <h5 className="dlab-title">
                         {/* <Link href={`/portfolio-details/${item.title}`}> */}
                           {item.title}
@@ -178,6 +182,24 @@ export default function CourseLearning({courseLearnings,courseLearningContents})
                 </SwiperSlide>
               ))}
             </Swiper>
+            <div className="owl-nav">
+                      <button
+                        type="button"
+                        role="presentation"
+                        className="owl-prev snbp35 p-2"
+                        style={{ zIndex: 1, position:"absolute", top:"60%", left:"-45px", background:"#e21100", color:"#fff" }}
+                      >
+                        <i className="ti-arrow-left" />
+                      </button>
+                      <button
+                        type="button"
+                        role="presentation"
+                        className="owl-next snbn35"
+                        style={{ zIndex: 1 ,  position:"absolute", top:"60%", right:"-45px", background:"#e21100", color:"#fff" }}
+                      >
+                        <i className="ti-arrow-right" />
+                      </button>
+              </div>
           </div>
         </div>
       </div>

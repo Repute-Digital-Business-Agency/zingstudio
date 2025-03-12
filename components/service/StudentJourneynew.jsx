@@ -93,10 +93,10 @@ export default function StudentJourneynew({services10, studentJourneyContent}) {
                 <div className="section-content box-sort-in button-example p-b0">
                   <div className="row">
                     {services10.map((item)=>(
-                       <div className="col-md-12 col-lg-12  pb-2 wow fadeInUp" >
-                       <div className="blog-post blog-md clearfix border-1 br-col-b1 radius-sm">
+                       <div className="col-md-12 col-lg-6  pb-2 wow fadeInUp mb-4" >
+                       <div className="blog-post blog-md clearfix border-1 br-col-b1 radius-sm h-100">
                         
-                         <div className="dlab-post-info">
+                         <div className="dlab-post-info pt-3 ">
                            
                            <div className="dlab-post-title">
                              <h4 className="post-title pt-3" dangerouslySetInnerHTML={{ __html: item.title }} style={{cursor:"default"}}>
@@ -107,7 +107,7 @@ export default function StudentJourneynew({services10, studentJourneyContent}) {
 
                
 
-                                <ul className="list-arrow flex-grow-1">
+                                <ul className="list-arrow flex-grow-1 pb-0 mb-0">
                                   {item?.list?.map((item, index) => (
                                     <li className="text-left" key={index}>{item}</li>
                                   ))}

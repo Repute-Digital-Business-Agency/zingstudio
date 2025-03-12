@@ -12,7 +12,7 @@ export default function BestInfluencerMarketing() {
               <h2 className="title">
               Zingfluence: The Best at
                 <span className="text-primary"> Amplifying Your Brand  </span>
-                with Influence That Matters.
+                <br className="d-none d-lg-block" /> with Influence That Matters.
               </h2>
               
             </div>

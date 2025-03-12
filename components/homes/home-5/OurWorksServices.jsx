@@ -10,14 +10,14 @@ export default function OurWorkServices({portfolioItems,portfolioContent}) {
   
   return (
     <div
-      className="section-full content-inner-2 wow fadeIn bg-white"
+      className="section-full content-inner-2 wow fadeIn bg-white  works"
       data-wow-duration="2s"
       data-wow-delay="0.6s"
     >
       <div className="container-fluid">
         <div className="section-head style2 text-center">
           <h2 className="title m-b10">Our Works</h2>
-          <p>
+          <p style={{width:"80%"}}>
             {portfolioContent?.description}
           </p>
         </div>

@@ -14127,7 +14127,18 @@ footer .widget_services ul li a:hover {
 .text-center.section-head p {
   margin-left: auto;
   margin-right: auto;
+
   max-width: 700px;
+}
+
+.works .text-center.section-head p{
+  max-width: 65% !important;
+}
+
+@media (max-width:768px){
+  .works .text-center.section-head p{
+    max-width: 90% !important;
+  }
 }
 
 .courseLearnig .text-center.section-head p {
@@ -16808,7 +16819,9 @@ ol.commentlist li .star-rating {
 .project-bx .dlab-info {
   position: absolute;
   bottom: 15px;
-  background: #fff;
+  color: #e21100;
+  background: #e0d6d6;
+  /* background: #ffffff99; */
   width: calc(100% - 30px);
   left: 15px;
   padding: 15px;
@@ -16820,6 +16833,7 @@ ol.commentlist li .star-rating {
   margin-bottom: 0;
   font-size: 16px;
   font-weight: 600;
+  color: #000;
 }
 
 .about-carousel-ser {

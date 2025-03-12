@@ -196,7 +196,7 @@ export default function HomeHero() {
             ))}
           </Swiper>
           <div
-            className="swiper-button-next dz-next snbnh1   "
+            className="swiper-button-next dz-next snbph1   "
             style={{
               position: "absolute",
               bottom: "calc( 50% - 10px )",
@@ -210,7 +210,7 @@ export default function HomeHero() {
             aria-disabled="false"
           ></div>
           <div
-            className="swiper-button-next dz-next snbph1  swiper-p-button"
+            className="swiper-button-next dz-next snbnh1  swiper-p-button"
             style={{
               position: "absolute",
               bottom: "calc( 50% - 10px )",
