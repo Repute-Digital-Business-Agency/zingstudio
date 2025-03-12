@@ -348,7 +348,7 @@ export const elementItems = [
 
 export const AboutUsLink = {
   href: "/about",
-  label: "Our Zing",
+  label: "About Zing",
 };
 
 // export const AcademyLink = {
