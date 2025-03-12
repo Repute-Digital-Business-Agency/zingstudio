@@ -25,6 +25,7 @@ import HomeService from "@/components/service/HomeService";
 import HomeCta from "@/components/service/HomeCta";
 import DemoHero from "@/components/homes/home-7/HomeMobileBanner";
 import ResponsiveHomeBanner from "@/components/service/ResponsiveHomeBanner";
+import HomeServiceStatic from "@/components/service/HomeServiceStatic";
 // import HomeService from "@/components/service/HomeService"
 
 
@@ -53,8 +54,9 @@ export default function Home1() {
           {/* <Projects2 /> */}
           {/* <div className="content-block home-service-section bg-gray"> */}
           {/* <HomeServiceAnimation /> */}
-          <HomeService />
+          {/* <HomeService /> */}
           {/* </div> */}
+          <HomeServiceStatic/>
 
 
 

@@ -2884,6 +2884,15 @@ HOME 5 Box Header
   -o-transition: all 0.8s;
 }
 
+.staticCard .project-content {
+  background: #fff;
+
+  padding: 40px 50px 30px 50px;
+  width: 100%;
+  height: 100%;
+  
+}
+
 .centeredSlides .swiper-slide.swiper-slide-active.item .project-info-box .project-content {
   opacity: 1;
   transform: translateY(-50%);
@@ -8345,7 +8354,7 @@ button.scroltop {
   width: 60px;
   height: 274px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   z-index: 1;
 }
@@ -8353,7 +8362,7 @@ button.scroltop {
 .dz-oil-industry-zone .dz-banner-bottom .dz-banner-media .dz-media-content h3 {
   font-size: 24px;
   color: #fff;
-  line-height: 36px;
+  line-height: 1.2;
   font-weight: 400;
   writing-mode: vertical-rl;
   transform: rotate(180deg);

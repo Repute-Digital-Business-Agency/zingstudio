@@ -179,7 +179,7 @@ export default function HomeHero() {
                   style={{ backgroundImage: `url(${slide.backgroundImage})`, backgroundRepeat: "no-repeat", objectFit: "cover", width: "100%", height: "100%" }}
                 >
                   <div className="dz-media-content position-absolute">
-                    <h3 className="m-0" style={{ fontSize: "22px" }}>{slide.content1}</h3>
+                    <h3 className="m-0 py-3" style={{ fontSize: "20px" }}>{slide.content1}</h3>
                   </div>
                   <div className="dz-media-content2 d-flex align-items-center justify-content-between position-absolute">
                     <h2 className=" m-0" style={{ fontSize: "22px" }}>{slide.content2}</h2>

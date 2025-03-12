@@ -17762,6 +17762,223 @@ input[type="radio"]+label:hover:before {
 } */
 
 
+/* --------static service------------ */
+
+
+
+.homeservice-static .staticCard {
+  height: 500px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+ 
+
+}
+
+.staticCard.scrolled-up {
+  transform: scale(0.9);
+  /* Zoom out */
+  opacity: 0.8;
+}
+
+.staticCard.scrolled-down {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.staticCard .sort-title {
+  opacity: 0;
+  /* Initially invisible */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.staticCard .display-title {
+  opacity: 1;
+  /* Visible when active */
+}
+
+/* .staticCard .site-button,
+.site-button-secondry {
+  padding: 8px 5px;
+  margin-top: 0;
+} */
+
+.staticCard .m-t20 {
+  margin-top: 10px;
+}
+
+/* .staticCard .site-button,
+.site-button-secondry span {
+  font-size: 12px;
+} */
+
+/* .staticCard .site-button,
+.site-button-secondry .p-lr30 {
+  padding: 8px 2px !important;
+} */
+
+.pricingtable-wrapper.style2 .pricingtable-features {
+  padding: 10px 0;
+
+}
+
+/* .pricingtable-wrapper.style2 .pricingtable-features li i {
+  border: 2px solid;
+  border-radius: 20px;
+  display: block;
+  float: right;
+  font-size: 8px;
+  height: 18px;
+  line-height: 16px;
+  text-align: center;
+  width: 18px;
+
+} */
+
+.staticCard .bg-grey {
+  background-color: grey !important;
+}
+
+.staticCard .site-button,
+.site-button-secondry.white {
+  border: 1px solid #1A43BF;
+
+}
+
+.staticCard .site-button-secondry.white span {
+  color: #1A43BF;
+}
+
+.staticCard .site-button.white-1 {
+  border: 1px solid #fff;
+}
+
+.staticCard .bg-grey .site-button.white {
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: grey;
+
+}
+
+.staticCard .bg-grey .site-button.white-1 {
+  border: 1px solid #fff;
+  background-color: grey;
+  color: #fff;
+
+}
+
+.pricingtable-wrapper.style2 .pricingtable-features li {
+  font-size: 16px !important;
+  /* padding: 2px; */
+  background-color: transparent !important;
+  position: relative;
+  text-align: left;
+  padding-left: 25px;
+  color: #282222;
+}
+
+/* .pricingtable-wrapper.style2 .pricingtable-features li{
+  color: #fff !important;
+} */
+
+
+.pricingtable-wrapper.style2 .pricingtable-features li:before {
+  font-family: "themify";
+  position: absolute;
+  content: "\e64d";
+  left: 0px;
+  top: 5px;
+  display: block;
+  font-size: 15px;
+  color: #1A43BF;
+}
+
+.staticCard .pricingtable-wrapper.style2.active .pricingtable-price h4 {
+  color: #cbcaca;
+}
+
+.pricingtable-wrapper.style2.active .pricingtable-features li {
+  color: #cbcaca;
+}
+
+.staticCard .pricingtable-wrapper.style2.bg-grey.active .pricingtable-price h4 {
+  color: #fff;
+}
+
+.pricingtable-wrapper.style2.bg-grey.active .pricingtable-features li {
+  color: #fff;
+}
+
+.pricingtable-wrapper.style2.bg-grey.active .pricingtable-bx {
+  color: #000;
+}
+
+.pricingtable-wrapper.style2.bg-grey.active .pricingtable-bx span {
+  color: #000;
+}
+
+.pricingtable-wrapper.style2.active .pricingtable-features li:before {
+  color: #ffff;
+}
+
+.pricingtable-features li i {
+  /* margin: 0 3px; */
+}
+
+.dm {
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dm img {
+
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover
+}
+
+.dm h4 {
+  position: absolute;
+
+
+}
+
+.pricingtable-wrapper.center-card {
+  padding: 0 !important;
+  margin: 0 !important;
+
+  height: 100%;
+  width: 100%;
+
+}
+
+.dm::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000000a3;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -25%;
+  height: 350px;
+  width: 100%;
+  border-radius: 25px;
+  transform-origin: top;
+}
+
 @media(max-width: 990px) {
   .cardContainer .sort-title h4 {
     padding-bottom: 10px;
@@ -18996,6 +19213,9 @@ input[type="radio"]+label:hover:before {
 .HomeService .project-content .btn a {
   font-size: 13px !important;
 }
+.staticCard .project-content .btn a{
+  font-size: 13px !important;
+}
 
 .service-titlebg {
   background: #e21100;
@@ -19117,6 +19337,31 @@ input[type="radio"]+label:hover:before {
   flex-direction: column;
   /* justify-content: center; */
 }
+@media (max-width:1830px){
+  .staticservice{
+    position: relative;
+    top: -28px !important;
+   }
+   .homeAcademy{
+    position: relative;
+    top: -28px !important;
+   }
+   .Am_a_Zing{
+    position: relative;
+    top: -28px !important;
+   }
+}
+
+@media (max-width:1480px){
+  
+  .staticservice{
+    position: relative;
+    top: 0px !important;
+    
+   }
+  
+}
+
 
 @media (max-width:1024px){
  /* .moveAnimation{
@@ -19130,6 +19375,10 @@ input[type="radio"]+label:hover:before {
  .HomeService{
   top: -60px;
  }
+ .staticservice{
+  position: relative;
+  top: -60px !important;
+ }
 }
 
 @media (max-width:768px){
@@ -19142,6 +19391,11 @@ input[type="radio"]+label:hover:before {
     background-image: none !important;
    }
    .HomeService{
+    position: relative;
+    top: 0px;
+    background-image: none !important;
+   }
+   .staticservice{
     position: relative;
     top: 0px;
     background-image: none !important;
