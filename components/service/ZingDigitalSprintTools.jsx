@@ -62,19 +62,25 @@ export default function ZingDigitalSprintTools({
         modules={[Autoplay]}
         className={parentClass}
       > */}
-       <div className="d-flex flex-wrap justify-content-center gap-5  bg-white py-5">
+      <div className="container-fluid bg-white">
+        <div className="row">
+          <div className="col-10 mx-auto">
+          <div className="d-flex flex-wrap justify-content-center gap-5  bg-white py-5">
         {Tools1?.map((item, index) => (
           // <SwiperSlide className="item" key={index}>
             <div className=" wow fadeInUp bg-white">
               <div className={` bg-white ${border ? "border" : ""}`}>
                 <a href="#">
-                  <Image width={100} height={150} src={item.img} alt="" style={{height:"80px", width:"auto"}} />
+                  <Image width={100} height={150} src={item.img} alt="" style={{height:"70px", width:"auto"}} />
                 </a>
               </div>
             </div>
           // </SwiperSlide>
         ))}
         </div>
+          </div>
+        </div>
+      </div>
       {/* </div> */}
 
         
@@ -136,7 +142,7 @@ export default function ZingDigitalSprintTools({
                     <div className={` wow ${item.animation} ${item.delay}  bg-white`}>
                         <div className={` bg-white ${border ? "border" : ""}`}>
                             <a href="#">
-                            <Image width={100} height={150} src={item.img} alt="" style={{height:"80px", width:"auto"}}/>
+                            <Image width={100} height={150} src={item.img} alt="" style={{height:"70px", width:"auto"}}/>
                             </a>
                         </div>
                         </div>

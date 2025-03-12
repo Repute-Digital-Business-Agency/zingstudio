@@ -57,7 +57,9 @@ export default function ZinglaunchpadTools({
         modules={[Autoplay]}
         className={parentClass}
       > */}
-
+<div className="container-fluid bg-white">
+        <div className="row">
+          <div className="col-10 mx-auto">
         <div className="d-flex flex-wrap justify-content-center gap-5  bg-white py-5">
         {Tools1?.map((item, index) => (
           // <SwiperSlide className="item" key={index}>
@@ -71,6 +73,9 @@ export default function ZinglaunchpadTools({
           // </SwiperSlide>
         ))}
         </div>
+        </div>
+        </div>
+      </div>
       
 
         
@@ -110,18 +115,24 @@ export default function ZinglaunchpadTools({
       //    modules={[Autoplay]}
       //    className={parentClass}
       //  >
-      <div className="d-flex gap-5 client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-white py-5">
+      <div className="container-fluid bg-white">
+        <div className="row">
+          <div className="col-10 mx-auto">
+          <div className="d-flex gap-5 client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-white py-5">
         {Tools2?.map((item, index) => (
           //  <SwiperSlide className="item" key={index}>
              <div className="ow-client-logo wow fadeInUp will-animate bg-white">
                <div className={`client-logo bg-white ${border ? "border" : ""}`}>
                  <a href="#">
-                   <Image width={100} height={150} src={item.img} alt="" />
+                   <Image width={100} height={150} src={item.img} alt="" style={{height:"70px", width:"auto"}} />
                  </a>
                </div>
              </div>
           //  </SwiperSlide>
          ))}
+      </div>
+          </div>
+        </div>
       </div>
          
  

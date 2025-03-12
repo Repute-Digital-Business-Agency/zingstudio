@@ -232,8 +232,8 @@ export default function page() {
           animation: "fadeInLeft",
           delay: "0.3s",
           iconClass: "flaticon-factory",
-          // img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/essential-tools/tool-1.png",
-          img:"/images/logo.png"
+          img:"/images/Zing-Digital-Sprint-Essentials-of-Marketing/Zing-Digital-Sprint-Essentials-of-Marketing-Tools/essential-tools/tool-1.png",
+          // img:"/images/logo.png"
         },
         {
          
