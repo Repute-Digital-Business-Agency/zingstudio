@@ -253,13 +253,13 @@ export default function page() {
         iconClass: "flaticon-settings",
         img:"/images/Zing-AdSense-Ace/Zing-AdSense-Ace-Tools/essential-tools/tool-3.png"
       },
-      {
+      // {
        
-        animation: "fadeInRight",
-        delay: "0.3s",
-        iconClass: "flaticon-conveyor",
-         img:"/images/Zing-AdSense-Ace/Zing-AdSense-Ace-Tools/essential-tools/tool-4.png"
-      },
+      //   animation: "fadeInRight",
+      //   delay: "0.3s",
+      //   iconClass: "flaticon-conveyor",
+      //    img:"/images/Zing-AdSense-Ace/Zing-AdSense-Ace-Tools/essential-tools/tool-4.png"
+      // },
       {
           animation: "fadeInLeft",
           delay: "0.3s",
