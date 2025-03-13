@@ -67,7 +67,7 @@ export default function ZingAiDigitalTools({
                         <div className="ow-client-logo   bg-white">
                         <div className={`client-logo bg-white ${border ? "border" : ""}`}>
                             <a href="#">
-                            <Image width={100} height={150} src={item.img} alt=""/>
+                            <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}}/>
                             </a>
                         </div>
                         </div>
@@ -112,7 +112,7 @@ export default function ZingAiDigitalTools({
                         <div className="ow-client-logo wow fadeInUp will-animate bg-white">
                         <div className={`client-logo bg-white ${border ? "border" : ""}`}>
                             <a href="#">
-                            <Image width={100} height={150} src={item.img} alt="" />
+                            <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}} />
                             </a>
                         </div>
                         </div>
