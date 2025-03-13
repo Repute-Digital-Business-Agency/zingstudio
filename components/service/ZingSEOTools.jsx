@@ -70,7 +70,7 @@ export default function ZingSEOTools({
           <div className={` wow ${item.animation} ${item.delay}  bg-white`}>
               <div className={` bg-white ${border ? "border" : ""}`}>
                 <a href="#">
-                  <Image width={100} height={150} src={item.img} alt="" style={{height:"70px", width:"auto"}} />
+                  <Image width={100} height={150} src={item.img} alt="" style={{height:"100px", width:"auto"}} />
                 </a>
               </div>
             </div>
@@ -143,7 +143,7 @@ export default function ZingSEOTools({
                     <div className={`wow ${item.animation} ${item.delay}  will-animate bg-white`}>
                         <div className={` bg-white ${border ? "border" : ""}`}>
                             <a href="#">
-                            <Image width={100} height={150} src={item.img} alt=""  style={{height:"70px", width:"auto"}}/>
+                            <Image width={100} height={150} src={item.img} alt=""  style={{height:"100px", width:"auto"}}/>
                             </a>
                         </div>
                         </div>
