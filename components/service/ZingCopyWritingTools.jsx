@@ -104,6 +104,7 @@ export default function ZingCopyWritingTools({
                  slidesPerView: 4,
                },
              }}
+             
              modules={[Autoplay]}
              className={parentClass}
            >
