@@ -63,7 +63,7 @@ export default function About() {
           {/* <h2>Timeline Of Achievements</h2> */}
           <div class="row">
             <div class="col-md-12">
-              <img src="/images/about-us/Zing-Infographics.png"></img>
+              <img src="/images/about-us/Zing-Infographics.jpg"></img>
             </div>
           </div>
         </div>

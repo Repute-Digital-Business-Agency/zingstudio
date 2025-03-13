@@ -5,7 +5,7 @@ export default function DedicatedSupport() {
   return (
     <div className="section-full content-inner const-about choose-Zf bg-gray">
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row">
           
           <div
             className="col-lg-8 col-md-12 col-sm-12 col-12 m-b15 wow bounceInLeft"
@@ -78,18 +78,18 @@ export default function DedicatedSupport() {
           </div>
 
           <div
-            className="col-lg-4 col-md-12 col-sm-12 col-12 wow  bounceInRight"
+            className="col-lg-4 col-md-12 col-sm-12 col-12 wow  bounceInRight "
             data-wow-duration="2s"
             data-wow-delay="0.3s"
           >
-            <div className="radius-sm m-b30 " style={{width:"100%"}}>
-              <Image className="choose-Zf-img"
+            <div className="radius-sm m-b30 h-100" >
+              <img className=""
                 alt=""
                 src="/images/Influence-Buzz/Dedicated-Support/ds-img.jpg"
-                width="600"
-                height="722"
+               
                  style={{
-                    height:"500px",
+                    height:"100%",
+                    width:"100%",
                     objectFit:"cover"
                 }}
               />

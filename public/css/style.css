@@ -18070,6 +18070,12 @@ input[type="radio"]+label:hover:before {
     /* padding-top: 0; */
   }
 
+  .staticservice .main .row {
+
+    margin-top: 0px;
+ 
+  }
+
   .pricingtable-wrapper.style2 {
     padding: 0;
   }

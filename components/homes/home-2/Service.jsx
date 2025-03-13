@@ -16,7 +16,7 @@ export default function Service() {
               <Image
                 alt=""
                 className="img-cover"
-                src="/images/services/web-design-image.jpg"
+                src="/images/services/web-design-image.png"
                 width="900"
                 height="550"
                 style={{ height: "100%", objectFit: "cover" }}

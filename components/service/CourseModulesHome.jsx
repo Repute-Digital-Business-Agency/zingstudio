@@ -161,61 +161,61 @@ export default function CourseModulesHome() {
   return (
     <div className="container-fluid pt-5 pb-5 relative homeAcademy" style={{ backgroundImage: "url(/images/elementbg/zing-acd-bg-element.png)", backgroundRepeat:"no-repeat", backgroundColor:"#dde3f5" }}>
       
-      <div className="container">
-      <div id="masonry" className="dlab-blog-grid-3 row">
-        <div className="section-head style2 text-center mb-0">
-          <h2 className="title">Zing Academy</h2>
-          <p>Zing Academy equips individuals with in-demand digital marketing skills through practical, hands-on training. Our programs are designed to be affordable, industry-relevant, and results-driven, helping learners build expertise and advance their careers. Join us and take the next step in your digital journey.</p>
-        </div>
-        {images.map((elm, i) => (
-          <div
-            key={i}
-            className="post card-container col-xl-3 col-lg-4 col-md-6 col-sm-6 d-flex"
-          >
-            <div className="blog-post blog-grid blog-rounded blog-effect1 d-flex flex-column w-100">
-              <div className="dlab-post-media dlab-img-effect">
-                <Link href={elm.link}>
-                  <Image alt="" src={elm.imgSrc} width="700" height="500" />
-                </Link>
-              </div>
-              <div className="dlab-info p-a20 border-1 flex-grow-1 d-flex flex-column">
-                <div className="dlab-post-meta">
-                  <ul>
-                    <li className="post-date">
-                      <strong style={{ color: "#e21100" }}>{elm.mode}</strong>
-                  {/* <span> </span> */}
-                  </li>
-                  {/* <li className="post-author">
-                    By <a href="#">{elm.author}</a>
-                  </li> */}
-                  </ul>
-                </div>
-                <div className="dlab-post-title">
-                  <h4 className="post-title">
-                    <Link href={elm.link} style={{fontSize:"18px"}}>{elm.title}</Link>
-                  </h4>
-                  <p className="mb-0"> <b>Duration:</b> {elm.duration}</p>
-                  <p className="mb-0"><b>Fees:</b> {elm.price}</p>
-                </div>
-                <div className="dlab-post-text flex-grow-1">
-                  <p>{elm.text}</p>
-                </div>
-                <div className="dlab-post-readmore mt-auto">
-                  <Link
-                    href={elm.link}
-                    title="READ MORE"
-                    rel="bookmark"
-                    className="site-button btnhover20 text-decoration-none text-white"
-                  >
-                    Read More
-                    <i className="ti-arrow-right px-2" />
-                  </Link>
-                </div>
-              </div>
+      <div className="col-lg-10 mx-auto">
+          <div id="masonry" className="dlab-blog-grid-3 row">
+            <div className="section-head style2 text-center mb-0">
+              <h2 className="title">Zing Academy</h2>
+              <p>Zing Academy equips individuals with in-demand digital marketing skills through practical, hands-on training. Our programs are designed to be affordable, industry-relevant, and results-driven, helping learners build expertise and advance their careers. Join us and take the next step in your digital journey.</p>
             </div>
+            {images.map((elm, i) => (
+              <div
+                key={i}
+                className="post card-container col-xl-3 col-lg-4 col-md-6 col-sm-6 d-flex"
+              >
+                <div className="blog-post blog-grid blog-rounded blog-effect1 d-flex flex-column w-100">
+                  <div className="dlab-post-media dlab-img-effect">
+                    <Link href={elm.link}>
+                      <Image alt="" src={elm.imgSrc} width="700" height="500" />
+                    </Link>
+                  </div>
+                  <div className="dlab-info p-a20 border-1 flex-grow-1 d-flex flex-column">
+                    <div className="dlab-post-meta">
+                      <ul>
+                        <li className="post-date">
+                          <strong style={{ color: "#e21100" }}>{elm.mode}</strong>
+                      {/* <span> </span> */}
+                      </li>
+                      {/* <li className="post-author">
+                        By <a href="#">{elm.author}</a>
+                      </li> */}
+                      </ul>
+                    </div>
+                    <div className="dlab-post-title">
+                      <h4 className="post-title">
+                        <Link href={elm.link} style={{fontSize:"18px"}}>{elm.title}</Link>
+                      </h4>
+                      <p className="mb-0"> <b>Duration:</b> {elm.duration}</p>
+                      <p className="mb-0"><b>Fees:</b> {elm.price}</p>
+                    </div>
+                    <div className="dlab-post-text flex-grow-1">
+                      <p>{elm.text}</p>
+                    </div>
+                    <div className="dlab-post-readmore mt-auto">
+                      <Link
+                        href={elm.link}
+                        title="READ MORE"
+                        rel="bookmark"
+                        className="site-button btnhover20 text-decoration-none text-white"
+                      >
+                        Read More
+                        <i className="ti-arrow-right px-2" />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
       </div>
       {/* blog grid */}
       <div className="moveAnimation" style={{ position: "absolute", bottom: "0px", left: "100px", animation: "moveImage4 5s linear infinite",

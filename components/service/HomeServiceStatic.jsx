@@ -2,6 +2,7 @@
 import { useState, useRef, useEffect } from "react";
 import Card from "./ServiceCardAnimation";
 import ServiceStaticCard from "./ServiceStaticCard";
+import LightVersion from "./LightVersion";
 
 // const projects = [
 //   {
@@ -386,11 +387,11 @@ export default function HomeServiceStatic() {
   
 
   return (
-    <div className="staticservice" style={{ backgroundImage: "url(/images/elementbg/our-services-bg-element.png)", backgroundRepeat: "no-repeat" }}>
+    <div className="staticservice works" style={{ backgroundImage: "url(/images/elementbg/our-services-bg-element.png)", backgroundRepeat: "no-repeat" }}>
       {" "}
       <div className="section-head style2 text-center pt-5 mb-3 homeservice-static wow fadeInUp" data-wow-delay="0.6s" >
         <h2 className="title m-b10">Our Services</h2>
-        <p>
+        <p style={{width:"80%"}}>
         Zing Studio offers comprehensive branding solutions, including web design, digital marketing, and brand identity development. We combine creativity with strategy to deliver impactful, cost-effective solutions that help businesses grow. Explore our services to see how we can elevate your brand.
 
         </p>
@@ -400,14 +401,17 @@ export default function HomeServiceStatic() {
         <div className="container-fluid">
       
           <div className="row">
-            <div className="col-11 col-xl-10 mx-auto ">
+            <div className="col-11 col-md-10 col-lg-12 mx-auto ">
             
-                <ServiceStaticCard
+                {/* <ServiceStaticCard
                 
                 activeCard={activeCard}
                 data={projects}
                 
-              />
+              /> */}
+
+              <LightVersion  activeCard={activeCard}
+                data={projects}/>
            
             </div>
           </div>

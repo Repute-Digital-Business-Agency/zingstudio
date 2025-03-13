@@ -5,18 +5,18 @@ export default function ChooseZingFluencer() {
   return (
     <div className="section-full content-inner const-about choose-Zf bg-white">
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row ">
 
           
           
           <div
-            className="col-lg-8 col-md-12 col-sm-12 col-12 m-b15 wow bounceInUp"
+            className="col-lg-8 col-md-12 col-sm-12 col-12 m-b15 wow bounceInUp d-flex flex-column align-items-center"
             data-wow-duration="2s"
             data-wow-delay="0.3s"
           >
 
             <div
-              className="icon-bx-wraper m-b30 left wow fadeInUp"
+              className="icon-bx-wraper m-b30 left wow fadeInUp mt-2"
               data-wow-delay="0.6s"
             >
               <h2 className="title text-primary">
@@ -42,7 +42,7 @@ export default function ChooseZingFluencer() {
 
             
             <div
-              className="icon-bx-wraper m-b30 left wow fadeInUp"
+              className="icon-bx-wraper  left wow fadeInUp"
               data-wow-delay="0.8s"
             >
               <h2 className="title text-primary">
@@ -108,18 +108,19 @@ export default function ChooseZingFluencer() {
           </div>
 
           <div
-            className="col-lg-4 col-md-12 col-sm-12 col-12 wow  bounceInRight"
+            className="col-lg-4 col-md-12 col-sm-12 col-12  wow  bounceInRight"
             data-wow-duration="2s"
             data-wow-delay="0.3s"
           >
-            <div className="radius-sm m-b30 ">
-              <Image className="choose-Zf-img"
+            <div className="radius-sm m-b30 h-100">
+              <img className=""
                 alt=""
                 src="/images/Zingfluence/influencer-buzz-image.jpg"
                 width="600"
                 height="722"
                  style={{
-                    height:"700px",
+                    height:"100%",
+                    width:"100%",
                     objectFit:"cover"
                 }}
               />

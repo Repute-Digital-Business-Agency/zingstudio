@@ -57,6 +57,7 @@ export default function Home1() {
           {/* <HomeService /> */}
           {/* </div> */}
           <HomeServiceStatic/>
+       
 
 
 
