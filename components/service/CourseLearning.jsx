@@ -182,7 +182,7 @@ export default function CourseLearning({courseLearnings,courseLearningContents})
                 </SwiperSlide>
               ))}
             </Swiper>
-            <div className="owl-nav">
+            <div className="owl-nav d-none d-xl-block">
                       <button
                         type="button"
                         role="presentation"
