@@ -107,7 +107,7 @@ export default function Services() {
   ];
   return (
     <div
-      className="section-full content-inner bg-white wow fadeIn whosCourse"
+      className="section-full content-inner bg-gray wow fadeIn whosCourse"
       data-wow-duration="2s"
       data-wow-delay="0.6s"
     >

@@ -5,7 +5,7 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function ZingAiDigitalTools({
-  parentClass = "client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-white py-5 tools",
+  parentClass = "client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-gray py-5 tools",
   border = false,
   ToolsContent,
   Tools1,
@@ -20,14 +20,14 @@ export default function ZingAiDigitalTools({
         <p style={{ marginBottom: "0px" }}>Dummy Text</p>
       </div> */}
 
-      <div className="section-head style2 text-center bg-white mb-0">
+      <div className="section-head style2 text-center bg-gray mb-0">
         <h2 className="title pt-5">Tools That you will learn</h2>
         <h4 className="text-dark mb-0"> <b style={{color:"#e21100"}}> {ToolsContent?.tool2Num} </b>{ToolsContent?.tool2Title}</h4>
       </div>
 
      
 
-                <div className="bg-white">
+                <div className="bg-gray">
                 <div className="container-fluid ">
                 <div className="row">
                     <div className="col-10 mx-auto">
@@ -64,8 +64,8 @@ export default function ZingAiDigitalTools({
                 >
                     {Tools1?.map((item, index) => (
                     <SwiperSlide className="item" key={index}>
-                        <div className="ow-client-logo   bg-white">
-                        <div className={`client-logo bg-white ${border ? "border" : ""}`}>
+                        <div className="ow-client-logo   bg-gray">
+                        <div className={`client-logo bg-gray ${border ? "border" : ""}`}>
                             <a href="#">
                             <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}}/>
                             </a>
@@ -109,8 +109,8 @@ export default function ZingAiDigitalTools({
                 >
                     {Tools2?.map((item, index) => (
                     <SwiperSlide className="item" key={index}>
-                        <div className="ow-client-logo wow fadeInUp will-animate bg-white">
-                        <div className={`client-logo bg-white ${border ? "border" : ""}`}>
+                        <div className="ow-client-logo wow fadeInUp will-animate bg-gray">
+                        <div className={`client-logo bg-gray ${border ? "border" : ""}`}>
                             <a href="#">
                             <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}} />
                             </a>

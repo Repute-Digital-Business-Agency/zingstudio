@@ -5,7 +5,7 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function ZingCopyWritingTools({
-  parentClass = "client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-white py-5 tools",
+  parentClass = "client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-gray py-5 tools",
   border = false,
   ToolsContent,
   Tools1,
@@ -14,13 +14,13 @@ export default function ZingCopyWritingTools({
 }) {
 
   return (
-    <div className="pb-3 bg-white">
+    <div className="pb-3 bg-gray">
       {/* <div className="sort-title clearfix text-center m-b20">
         <h4>Our Clients</h4>
         <p style={{ marginBottom: "0px" }}>Dummy Text</p>
       </div> */}
 
-      <div className="section-head style2 text-center bg-white mb-0">
+      <div className="section-head style2 text-center bg-gray mb-0">
         <h2 className="title pt-5">Tools That you will learn</h2>
         <h4 className="text-dark mt-5"> <b style={{color:"#e21100"}}> {ToolsContent?.tool1Num} </b>{ToolsContent?.tool1Title}</h4>
                     <p className="text-dark mb-0" >{ToolsContent?.tool1worth}</p>
@@ -59,8 +59,8 @@ export default function ZingCopyWritingTools({
       >
         {Tools1?.map((item, index) => (
           <SwiperSlide className="item" key={index}>
-            <div className="ow-client-logo wow fadeInUp will-animate bg-white">
-              <div className={`client-logo bg-white ${border ? "border" : ""}`}>
+            <div className="ow-client-logo wow fadeInUp will-animate bg-gray">
+              <div className={`client-logo bg-gray ${border ? "border" : ""}`}>
                 <a href="#">
                   <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}}/>
                 </a>
@@ -110,8 +110,8 @@ export default function ZingCopyWritingTools({
            >
              {Tools2?.map((item, index) => (
                <SwiperSlide className="item" key={index}>
-                 <div className="ow-client-logo wow fadeInUp will-animate bg-white">
-                   <div className={`client-logo bg-white ${border ? "border" : ""}`}>
+                 <div className="ow-client-logo wow fadeInUp will-animate bg-gray">
+                   <div className={`client-logo bg-gray ${border ? "border" : ""}`}>
                      <a href="#">
                        <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}}/>
                      </a>
@@ -130,7 +130,7 @@ export default function ZingCopyWritingTools({
     {Tools3 &&
         <>
           
-              <div className="section-head style2 text-center pt-5 mb-0 bg-white">
+              <div className="section-head style2 text-center pt-5 mb-0 bg-gray">
                     <h4 className="text-dark mb-0"> <b style={{color:"#e21100"}}> {ToolsContent?.tool2Num} </b>{ToolsContent?.tool2Title}</h4>
                   
                 </div>
@@ -169,8 +169,8 @@ export default function ZingCopyWritingTools({
                 >
                     {Tools3?.map((item, index) => (
                     <SwiperSlide className="item" key={index}>
-                        <div className="ow-client-logo wow fadeInUp will-animate bg-white">
-                        <div className={`client-logo bg-white ${border ? "border" : ""}`}>
+                        <div className="ow-client-logo wow fadeInUp will-animate bg-gray">
+                        <div className={`client-logo bg-gray ${border ? "border" : ""}`}>
                             <a href="#">
                             <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}}/>
                             </a>

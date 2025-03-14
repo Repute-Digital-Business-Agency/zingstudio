@@ -22,7 +22,7 @@ export default function CourseDetails({CourseTitle,CourseDuration,courseModule})
 
           <div className="container content-block">
       {/* Content Section */}
-      <div className="section-full">
+      <div className="section-full pb-4">
       {courseModule?.map((module, index) => (
         <div
           key={index}

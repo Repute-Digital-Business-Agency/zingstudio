@@ -5,7 +5,7 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function ZinglaunchpadTools({
-  parentClass = "client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-white py-5",
+  parentClass = "client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-gray py-5",
   border = false,
   ToolsContent,
   Tools1,
@@ -22,7 +22,7 @@ export default function ZinglaunchpadTools({
         <p style={{ marginBottom: "0px" }}>Dummy Text</p>
       </div> */}
 
-      <div className="section-head style2 text-center bg-white mb-0">
+      <div className="section-head style2 text-center bg-gray mb-0">
         <h2 className="title pt-5">Tools That you will learn</h2>
         <h4 className="text-dark mt-5"> <b style={{color:"#e21100"}}> {ToolsContent?.tool1Num} </b>{ToolsContent?.tool1Title}</h4>
                     <p className="text-dark mb-0" >{ToolsContent?.tool1worth}</p>
@@ -57,14 +57,14 @@ export default function ZinglaunchpadTools({
         modules={[Autoplay]}
         className={parentClass}
       > */}
-<div className="container-fluid bg-white">
+<div className="container-fluid bg-gray">
         <div className="row">
           <div className="col-10 mx-auto">
-        <div className="d-flex flex-wrap justify-content-center gap-5  bg-white py-5">
+        <div className="d-flex flex-wrap justify-content-center gap-5  bg-gray py-5">
         {Tools1?.map((item, index) => (
           // <SwiperSlide className="item" key={index}>
-            <div className={` wow ${item.animation} ${item.delay}  bg-white`}>
-              <div className={` bg-white ${border ? "border" : ""}`}>
+            <div className={` wow ${item.animation} ${item.delay}  bg-gray`}>
+              <div className={` bg-gray ${border ? "border" : ""}`}>
                 <a href="#">
                   <Image width={70} height={150} src={item.img} alt="" style={{height:"100px", width:"auto"}} />
                 </a>
@@ -115,14 +115,14 @@ export default function ZinglaunchpadTools({
       //    modules={[Autoplay]}
       //    className={parentClass}
       //  >
-      <div className="container-fluid bg-white">
+      <div className="container-fluid bg-gray">
         <div className="row">
           <div className="col-10 mx-auto">
-          <div className="d-flex gap-5 client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-white py-5">
+          <div className="d-flex gap-5 client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-gray py-5">
         {Tools2?.map((item, index) => (
           //  <SwiperSlide className="item" key={index}>
-             <div className="ow-client-logo wow fadeInUp will-animate bg-white">
-               <div className={`client-logo bg-white ${border ? "border" : ""}`}>
+             <div className="ow-client-logo wow fadeInUp will-animate bg-gray">
+               <div className={`client-logo bg-gray ${border ? "border" : ""}`}>
                  <a href="#">
                    <Image width={100} height={150} src={item.img} alt="" style={{height:"100px", width:"auto"}} />
                  </a>
@@ -145,12 +145,12 @@ export default function ZinglaunchpadTools({
     {Tools3 &&
         <>
           
-              <div className="section-head style2 text-center pt-5 mb-0 bg-white">
+              <div className="section-head style2 text-center pt-5 mb-0 bg-gray">
                     <h4 className="text-dark mb-0"> <b style={{color:"#e21100"}}> {ToolsContent?.tool2Num} </b>{ToolsContent?.tool2Title}</h4>
                   
                 </div>
 
-                <div className="container-fluid bg-white">
+                <div className="container-fluid bg-gray">
             <div className="row">
               <div className="col-10 mx-auto">
               {/* <Swiper
@@ -184,11 +184,11 @@ export default function ZinglaunchpadTools({
             modules={[Autoplay]}
             className={parentClass}
         > */}
-           <div className="d-flex flex-wrap justify-content-center gap-5  bg-white py-5">
+           <div className="d-flex flex-wrap justify-content-center gap-5  bg-gray py-5">
           {Tools3?.map((item, index) => (
             // <SwiperSlide className="item" key={index}>
-                <div className={`wow ${item.animation} ${item.delay}  will-animate bg-white`}>
-                <div className={` bg-white ${border ? "border" : ""}`}>
+                <div className={`wow ${item.animation} ${item.delay}  will-animate bg-gray`}>
+                <div className={` bg-gray ${border ? "border" : ""}`}>
                     <a href="#">
                     <Image width={100} height={150} src={item.img} alt=""  style={{height:"100px", width:"auto"}} />
                     </a>
