@@ -16824,7 +16824,7 @@ ol.commentlist li .star-rating {
   position: absolute;
   bottom: 15px;
   color: #e21100;
-  background: #e0d6d6;
+  background: #e0d6d6bf;
   /* background: #ffffff99; */
   width: calc(100% - 30px);
   left: 15px;
