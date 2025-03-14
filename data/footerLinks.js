@@ -23,7 +23,7 @@ export const footerLinks_2 = [
 ];
 
 export const footerLinks2 = [
-  { href: "/about", label: "Our Zing Studio" },
+  { href: "/about", label: "About Zing" },
   // { href: "/blog-grid-2", label: "Blog" },
   { href: "/services", label: "Services" },
   // { href: "/privacy-policy", label: "Privacy Policy" },

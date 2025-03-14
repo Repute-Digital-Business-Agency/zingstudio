@@ -26,10 +26,8 @@ export default function ZingCopyWritingTools({
                     <p className="text-dark mb-0" >{ToolsContent?.tool1worth}</p>
       </div>
 
-      <div className="container-fluid bg-gray">
-         <div className="row">
-         <div className="col-10 col-xl-8 mx-auto">
-        <Swiper
+      
+        {/* <Swiper
         // slidesPerView={5}
         spaceBetween={30}
         slidesPerGroup={2}
@@ -59,81 +57,29 @@ export default function ZingCopyWritingTools({
         }}
         modules={[Autoplay]}
         className={parentClass}
-      >
+      > */}
+      <div className="container-fluid bg-gray">
+         <div className="row">
+         <div className="col-12  col-xl-8  mx-auto">
+      <div className="d-flex flex-wrap justify-content-center gap-5  bg-gray py-5">
         {Tools1?.map((item, index) => (
-          <SwiperSlide className="item" key={index}>
-            <div className="ow-client-logo wow fadeInUp will-animate bg-gray">
-              <div className={`client-logo bg-gray ${border ? "border" : ""}`}>
+          // <SwiperSlide className="item" key={index}>
+          <div className={` wow ${item.animation} ${item.delay}  bg-gray`}>
+              <div className={` bg-gray ${border ? "border" : ""}`}>
                 <a href="#">
                   <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}}/>
                 </a>
               </div>
             </div>
-          </SwiperSlide>
+          // {/* </SwiperSlide> */}
         ))}
-
+    </div>
         
-      </Swiper>
+      {/* </Swiper> */}
       </div>
       </div>
      </div>
       
-
-      {Tools2 &&
-         <div className="container-fluid bg-gray">
-         <div className="row">
-         <div className="col-10 col-xl-8 mx-auto">
-              <Swiper
-                  // slidesPerView={5}
-                  spaceBetween={60}
-                  slidesPerGroup={2}
-                  style={{ maxWidth: "100vw", overflow: "hidden" }}
-                  loop
-                  
-                  autoplay={{
-                    delay: 100,
-                    reverseDirection:true
-                  }}
-                  speed={2500}
-                  breakpoints={{
-                    0: {
-                      slidesPerView: 2,
-                    },
-          
-                    480: {
-                      slidesPerView: 3,
-                    },
-          
-                    767: {
-                      slidesPerView: 4,
-                    },
-                    1000: {
-                      slidesPerView: 4,
-                    },
-                  }}
-                  
-                  modules={[Autoplay]}
-                  className={parentClass}
-                >
-                  {Tools2?.map((item, index) => (
-                    <SwiperSlide className="item" key={index}>
-                      <div className="ow-client-logo wow fadeInUp will-animate bg-gray">
-                        <div className={`client-logo bg-gray ${border ? "border" : ""}`}>
-                          <a href="#">
-                            <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}}/>
-                          </a>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                  ))}
-          
-                  
-                </Swiper>
-           </div>
-        </div>
-    </div>
-        
-      }
 
     {Tools3 &&
         <>
@@ -143,10 +89,8 @@ export default function ZingCopyWritingTools({
                   
                 </div>
 
-        <div className="container-fluid bg-gray">
-         <div className="row">
-         <div className="col-10 col-xl-8 mx-auto">
-                    <Swiper
+       
+                    {/* <Swiper
                     // slidesPerView={5}
                     spaceBetween={30}
                     slidesPerGroup={2}
@@ -171,26 +115,30 @@ export default function ZingCopyWritingTools({
                         slidesPerView: 4,
                     },
                     1000: {
-                        slidesPerView: 5,
+                        slidesPerView: 6,
                     },
                     }}
                     modules={[Autoplay]}
                     className={parentClass}
-                >
+                > */}
+                 <div className="container-fluid bg-gray">
+         <div className="row">
+         <div className="col-12 col-xl-8 mx-auto">
+         <div className="d-flex flex-wrap justify-content-center gap-5  bg-gray py-5">
                     {Tools3?.map((item, index) => (
-                    <SwiperSlide className="item" key={index}>
-                        <div className="ow-client-logo wow fadeInUp will-animate bg-gray">
-                        <div className={`client-logo bg-gray ${border ? "border" : ""}`}>
+                    // <SwiperSlide className="item" key={index}>
+                    <div className={`wow ${item.animation} ${item.delay}  will-animate bg-gray`}>
+                        <div className={` bg-gray ${border ? "border" : ""}`}>
                             <a href="#">
                             <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}}/>
                             </a>
                         </div>
                         </div>
-                    </SwiperSlide>
+                    // </SwiperSlide>
                     ))}
-            
+             </div>
                     
-                    </Swiper>
+                    {/* </Swiper> */}
                     </div>
                 </div>
             </div>
