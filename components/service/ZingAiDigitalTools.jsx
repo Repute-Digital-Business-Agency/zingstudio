@@ -30,10 +30,10 @@ export default function ZingAiDigitalTools({
                 <div className="bg-gray">
                 <div className="container-fluid ">
                 <div className="row">
-                    <div className="col-10 mx-auto">
+                    <div className="col-10 col-xl-8 mx-auto">
                     <Swiper
                     // slidesPerView={5}
-                    spaceBetween={60}
+                    spaceBetween={30}
                     slidesPerGroup={2}
                     style={{ maxWidth: "100vw", overflow: "hidden" }}
                     loop
@@ -78,7 +78,7 @@ export default function ZingAiDigitalTools({
                     </Swiper>
                     <Swiper
                     // slidesPerView={5}
-                    spaceBetween={60}
+                    spaceBetween={30}
                     slidesPerGroup={2}
                     style={{ maxWidth: "100vw", overflow: "hidden" }}
                     loop
@@ -109,7 +109,7 @@ export default function ZingAiDigitalTools({
                 >
                     {Tools2?.map((item, index) => (
                     <SwiperSlide className="item" key={index}>
-                        <div className="ow-client-logo wow fadeInUp will-animate bg-gray">
+                        <div className="ow-client-logo bg-gray">
                         <div className={`client-logo bg-gray ${border ? "border" : ""}`}>
                             <a href="#">
                             <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}} />

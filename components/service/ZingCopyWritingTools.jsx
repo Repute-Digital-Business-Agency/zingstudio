@@ -26,9 +26,12 @@ export default function ZingCopyWritingTools({
                     <p className="text-dark mb-0" >{ToolsContent?.tool1worth}</p>
       </div>
 
+      <div className="container-fluid bg-gray">
+         <div className="row">
+         <div className="col-10 col-xl-8 mx-auto">
         <Swiper
         // slidesPerView={5}
-        spaceBetween={60}
+        spaceBetween={30}
         slidesPerGroup={2}
         style={{ maxWidth: "100vw", overflow: "hidden" }}
         loop
@@ -71,57 +74,62 @@ export default function ZingCopyWritingTools({
 
         
       </Swiper>
+      </div>
+      </div>
+     </div>
       
 
       {Tools2 &&
-        <div className="container">
-        <div className="row">
-        <Swiper
-             // slidesPerView={5}
-             spaceBetween={60}
-             slidesPerGroup={2}
-             style={{ maxWidth: "100vw", overflow: "hidden" }}
-             loop
-             
-             autoplay={{
-               delay: 100,
-               reverseDirection:true
-             }}
-             speed={2500}
-             breakpoints={{
-               0: {
-                 slidesPerView: 2,
-               },
-     
-               480: {
-                 slidesPerView: 3,
-               },
-     
-               767: {
-                 slidesPerView: 4,
-               },
-               1000: {
-                 slidesPerView: 4,
-               },
-             }}
-             
-             modules={[Autoplay]}
-             className={parentClass}
-           >
-             {Tools2?.map((item, index) => (
-               <SwiperSlide className="item" key={index}>
-                 <div className="ow-client-logo wow fadeInUp will-animate bg-gray">
-                   <div className={`client-logo bg-gray ${border ? "border" : ""}`}>
-                     <a href="#">
-                       <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}}/>
-                     </a>
-                   </div>
-                 </div>
-               </SwiperSlide>
-             ))}
-     
-             
-           </Swiper>
+         <div className="container-fluid bg-gray">
+         <div className="row">
+         <div className="col-10 col-xl-8 mx-auto">
+              <Swiper
+                  // slidesPerView={5}
+                  spaceBetween={60}
+                  slidesPerGroup={2}
+                  style={{ maxWidth: "100vw", overflow: "hidden" }}
+                  loop
+                  
+                  autoplay={{
+                    delay: 100,
+                    reverseDirection:true
+                  }}
+                  speed={2500}
+                  breakpoints={{
+                    0: {
+                      slidesPerView: 2,
+                    },
+          
+                    480: {
+                      slidesPerView: 3,
+                    },
+          
+                    767: {
+                      slidesPerView: 4,
+                    },
+                    1000: {
+                      slidesPerView: 4,
+                    },
+                  }}
+                  
+                  modules={[Autoplay]}
+                  className={parentClass}
+                >
+                  {Tools2?.map((item, index) => (
+                    <SwiperSlide className="item" key={index}>
+                      <div className="ow-client-logo wow fadeInUp will-animate bg-gray">
+                        <div className={`client-logo bg-gray ${border ? "border" : ""}`}>
+                          <a href="#">
+                            <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}}/>
+                          </a>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                  ))}
+          
+                  
+                </Swiper>
+           </div>
         </div>
     </div>
         
@@ -135,10 +143,12 @@ export default function ZingCopyWritingTools({
                   
                 </div>
 
-
+        <div className="container-fluid bg-gray">
+         <div className="row">
+         <div className="col-10 col-xl-8 mx-auto">
                     <Swiper
                     // slidesPerView={5}
-                    spaceBetween={60}
+                    spaceBetween={30}
                     slidesPerGroup={2}
                     style={{ maxWidth: "100vw", overflow: "hidden" }}
                     loop
@@ -181,7 +191,9 @@ export default function ZingCopyWritingTools({
             
                     
                     </Swiper>
-               
+                    </div>
+                </div>
+            </div>
 
                
         </>

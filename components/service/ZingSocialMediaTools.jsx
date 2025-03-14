@@ -27,12 +27,12 @@ export default function ZingSocialMediaTools({
       </div>
 
         <div className="bg-gray">
-        <div className="container ">
+        <div className="container-fluid">
       <div className="row">
-      
+      <div className="col-10 col-xl-8 mx-auto">
         <Swiper
         // slidesPerView={5}
-        spaceBetween={60}
+        spaceBetween={30}
         slidesPerGroup={2}
         style={{ maxWidth: "100vw", overflow: "hidden" }}
         loop
@@ -54,7 +54,7 @@ export default function ZingSocialMediaTools({
           },
           
           1024:{
-            slidesPerView: 4,
+            slidesPerView: 6,
           },
          
         }}
@@ -63,7 +63,7 @@ export default function ZingSocialMediaTools({
       >
         {Tools1?.map((item, index) => (
           <SwiperSlide className="item" key={index}>
-            <div className="ow-client-logo wow fadeInUp will-animate bg-gray">
+            <div className="ow-client-logo bg-gray">
               <div className={`client-logo bg-gray ${border ? "border" : ""}`}>
                 <a href="#">
                   <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}}/>
@@ -78,6 +78,7 @@ export default function ZingSocialMediaTools({
       
     
       </div>
+      </div>
     </div>
         </div>
      
@@ -86,9 +87,11 @@ export default function ZingSocialMediaTools({
       {Tools2 &&
         <div className="container">
         <div className="row">
+        <div className="col-10 col-xl-8 mx-auto">
+          
         <Swiper
              // slidesPerView={5}
-             spaceBetween={60}
+             spaceBetween={30}
              slidesPerGroup={2}
              style={{ maxWidth: "100vw", overflow: "hidden" }}
              loop
@@ -111,7 +114,7 @@ export default function ZingSocialMediaTools({
                  slidesPerView: 5,
                },
                1000: {
-                 slidesPerView: 7,
+                 slidesPerView: 6,
                },
              }}
              modules={[Autoplay]}
@@ -131,6 +134,7 @@ export default function ZingSocialMediaTools({
      
              
            </Swiper>
+           </div>
         </div>
     </div>
         
@@ -149,7 +153,7 @@ export default function ZingSocialMediaTools({
                 <div className="row">
                     <Swiper
                     // slidesPerView={5}
-                    spaceBetween={60}
+                    spaceBetween={30}
                     slidesPerGroup={2}
                     style={{ maxWidth: "100vw", overflow: "hidden" }}
                     loop
@@ -172,7 +176,7 @@ export default function ZingSocialMediaTools({
                         slidesPerView: 4,
                     },
                     1000: {
-                        slidesPerView: 4,
+                        slidesPerView: 6,
                     },
                     }}
                     modules={[Autoplay]}
@@ -180,7 +184,7 @@ export default function ZingSocialMediaTools({
                 >
                     {Tools3?.map((item, index) => (
                     <SwiperSlide className="item" key={index}>
-                        <div className="ow-client-logo wow fadeInUp will-animate bg-gray">
+                        <div className="ow-client-logo bg-gray">
                         <div className={`client-logo bg-gray ${border ? "border" : ""}`}>
                             <a href="#">
                             <Image width={100} height={150} src={item.img} alt="" style={{height:"100px"}}/>

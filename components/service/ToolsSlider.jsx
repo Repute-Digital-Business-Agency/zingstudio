@@ -28,7 +28,7 @@ export default function ToolsSlider({
 
       <Swiper
         // slidesPerView={5}
-        spaceBetween={60}
+        spaceBetween={30}
         slidesPerGroup={2}
         style={{ maxWidth: "100vw", overflow: "hidden" }}
         loop
@@ -49,7 +49,7 @@ export default function ToolsSlider({
             slidesPerView: 5,
           },
           1000: {
-            slidesPerView: 7,
+            slidesPerView: 10,
           },
         }}
         modules={[Autoplay]}
@@ -73,7 +73,7 @@ export default function ToolsSlider({
       {Tools2 &&
          <Swiper
          // slidesPerView={5}
-         spaceBetween={60}
+         spaceBetween={30}
          slidesPerGroup={2}
          style={{ maxWidth: "100vw", overflow: "hidden" }}
          loop
@@ -96,7 +96,7 @@ export default function ToolsSlider({
              slidesPerView: 5,
            },
            1000: {
-             slidesPerView: 7,
+             slidesPerView: 10,
            },
          }}
          modules={[Autoplay]}
@@ -129,7 +129,7 @@ export default function ToolsSlider({
 
             <Swiper
             // slidesPerView={5}
-            spaceBetween={60}
+            spaceBetween={30}
             slidesPerGroup={2}
             style={{ maxWidth: "100vw", overflow: "hidden" }}
             loop
@@ -152,7 +152,7 @@ export default function ToolsSlider({
                 slidesPerView: 5,
             },
             1000: {
-                slidesPerView: 7,
+                slidesPerView: 10,
             },
             }}
             modules={[Autoplay]}
