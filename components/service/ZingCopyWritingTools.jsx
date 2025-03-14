@@ -5,7 +5,7 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function ZingCopyWritingTools({
-  parentClass = "client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-white py-5",
+  parentClass = "client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-white py-5 tools",
   border = false,
   ToolsContent,
   Tools1,
@@ -50,7 +50,7 @@ export default function ZingCopyWritingTools({
           },
           
           1024:{
-            slidesPerView: 5,
+            slidesPerView: 6,
           },
          
         }}

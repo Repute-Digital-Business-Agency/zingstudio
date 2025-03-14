@@ -11042,6 +11042,10 @@ ul[class*="list-"] {
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
 }
 
+.tools .ow-client-logo:hover {
+  box-shadow:none;
+}
+
 .client-logo-carousel .owl-stage-outer {
   padding: 10px 0;
 }

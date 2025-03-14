@@ -5,7 +5,7 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function ToolsSlider({
-  parentClass = "client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-white py-5",
+  parentClass = "client-logo-carousel owl-loaded owl-theme owl-carousel owl-dots-none owl-btn-center-lr owl-btn-3 bg-white py-5 tools",
   border = false,
   ToolsContent,
   Tools1,
@@ -32,9 +32,9 @@ export default function ToolsSlider({
         slidesPerGroup={2}
         style={{ maxWidth: "100vw", overflow: "hidden" }}
         loop
-        autoplay={{
-          delay: 100,
-        }}
+        // autoplay={{
+        //   delay: 100,
+        // }}
         speed={2500}
         breakpoints={{
           0: {
@@ -56,7 +56,7 @@ export default function ToolsSlider({
         className={parentClass}
       >
         {Tools1?.map((item, index) => (
-          <SwiperSlide className="item" key={index}>
+          <SwiperSlide className="item " key={index}>
             <div className="ow-client-logo   bg-white">
               <div className={`client-logo bg-white ${border ? "border" : ""}`}>
                 <a href="#">
