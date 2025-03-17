@@ -19446,7 +19446,7 @@ input[type="radio"]+label:hover:before {
    }
    .staticservice{
     position: relative;
-    top: 0px;
+    top: 0px !important;
     background-image: none !important;
    }
    .Am_a_Zing{
@@ -19476,11 +19476,17 @@ input[type="radio"]+label:hover:before {
     top: -50px;
     background-image: url(/images/elementbg/our-services-bg-element.png)!important;
   }
+  .staticservice{
+    position: relative;
+    top: -60px !important;
+    background-image: url(/images/elementbg/our-services-bg-element.png)!important;
+  }
   .HomeService .section-head{
     padding-top: 30px;
   }
   .homeAcademy{
-    top: -50px;
+    /* margin-top: 0; */
+    top: -60px !important;
     background-image: url(/images/elementbg/zing-acd-bg-element.png) !important;
   }
   .homeAcademy .section-head{
