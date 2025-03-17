@@ -26,7 +26,7 @@ export default function page() {
 
   return (
     <>
-      <div className="page-wraper  ">
+      <div className="page-wraper  " style={{background:"#fff"}}>
         <Header17 />
          {/* <ZingAcademyCourseHero/> */}
          <ResponsiveAcademyBanner/>
@@ -59,7 +59,7 @@ export default function page() {
         {/* <div className="section-full content-inner  bg-white">
         <BrandCaseStudy/>
         </div> */}
-        <div className="bg-white pt-5"  style={{paddingBottom:"50px"}}>
+        <div className="bg-white pt-5 pb-0 pb-sm-5" >
         <ZingAcademyFaq/>
         </div>
         

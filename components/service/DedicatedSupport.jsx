@@ -32,7 +32,7 @@ export default function DedicatedSupport() {
              
             </div>
             <div
-              className="icon-bx-wraper m-b30 left wow fadeInUp"
+              className="icon-bx-wraper m-b30 left wow fadeInUp px-0 "
               data-wow-delay="0.6s"
             >
               <div className="icon-lg">
@@ -53,7 +53,7 @@ export default function DedicatedSupport() {
               </div>
             </div>
             <div
-              className="icon-bx-wraper m-b30 left wow fadeInUp"
+              className="icon-bx-wraper m-b30 left wow fadeInUp px-0"
               data-wow-delay="0.8s"
             >
               <div className="icon-lg">

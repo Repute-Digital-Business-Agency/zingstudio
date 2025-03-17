@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ZingAcademyFaq() {
   return (
-    <div className="section-full bg-white content-inner pb-5 pt-4">
+    <div className="section-full bg-white content-inner pb-0 pb-sm-5  pt-4">
       <div className="container">
         <div className="section-head text-black text-left">
           <h3>FAQ</h3>

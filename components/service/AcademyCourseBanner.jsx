@@ -119,7 +119,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
             </ul> */}
           </div>
          
-          <div className="col-lg-5 col-md-12 m-b30  pt-sm-0" >
+          <div className="col-lg-5 col-md-12 m-b30  pt-sm-0 pt-3" >
             <form 
               onSubmit={(e) => e.preventDefault()}
               className="inquiry-form wow box-shadow  fadeInUp mb-3"

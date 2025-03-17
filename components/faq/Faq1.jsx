@@ -12,8 +12,8 @@ export default function Faq1() {
       <div className="section-full overlay-white-middle content-inner">
         <div className="container-fluid p-0">
 
-          <div className="row ">
-            <div className="col-12 col-lg-8  mx-auto" >
+          <div className="row m-0">
+            <div className="col-12 col-lg-11 col-xl-8  mx-auto" >
 
             <div className="section-head text-black text-center">
             <div className="our-story">
@@ -67,8 +67,8 @@ export default function Faq1() {
             </div>
           </div>
           
-          <div className="row ">
-          <div className="col-12 col-lg-8  mx-auto">
+          <div className="row m-0">
+          <div className="col-12 col-lg-11 col-xl-8  mx-auto">
           <h2 className="title"> Job Openings</h2>
             <p>At Zing Studio, we’re seeking passionate individuals to join our innovative team. If you’re eager to make an impact in digital marketing, web design, or branding, we offer exciting opportunities for growth and collaboration. Explore our current openings and take the next step in your career with a company that values creativity and professional development.
             </p>
@@ -78,133 +78,129 @@ export default function Faq1() {
             <CareerForm/>
 
 
-            <div className="row ">
-            <div className="col-12 col-lg-8  mx-auto" >
-            <div className="row">
-            
-            <h2>Internship Opportunities at Zing Studio</h2>
-            <p>Zing Studio offers exceptional internship opportunities designed for students and recent graduates seeking to gain practical experience in digital marketing, web design, and branding. As an intern with us, you will collaborate with seasoned professionals, contributing to high-impact projects while honing your skills in a dynamic, innovative environment.
-            </p>
+            <div className="row m-0">
+              <div className="col-12 col-lg-11 col-xl-8  mx-auto" >
+                <div className="row"> 
+                  
+                      <h2>Internship Opportunities at Zing Studio</h2>
+                      <p>Zing Studio offers exceptional internship opportunities designed for students and recent graduates seeking to gain practical experience in digital marketing, web design, and branding. As an intern with us, you will collaborate with seasoned professionals, contributing to high-impact projects while honing your skills in a dynamic, innovative environment.
+                      </p>
 
-            <div className="col-lg-6 col-md-12 m-b30">
-              <div className="faq-video h-100">
-                <a
-                  className="play-btn popup-youtube"
-                  onClick={() => setOpen(true)}
-                >
-                  <i className="flaticon-play-button text-white" />
-                </a>
-                <Image
-                  alt=""
-                  className="img-cover radius-sm"
-                  src="/images/Life-at-Zing/image (5).jpg"
-                  width="1000"
-                  height="674"
-                />
+                      <div className="col-lg-6 col-md-12 m-b30">
+                        <div className="faq-video h-100">
+                          <a
+                            className="play-btn popup-youtube"
+                            onClick={() => setOpen(true)}
+                          >
+                            <i className="flaticon-play-button text-white" />
+                          </a>
+                          <Image
+                            alt=""
+                            className="img-cover radius-sm"
+                            src="/images/Life-at-Zing/image (5).jpg"
+                            width="1000"
+                            height="674"
+                          />
+                        </div>
+                      </div>
+
+                      <div className="col-lg-6 col-md-12 m-b30">
+                        <h4>Benefits of Internship @ Zing Studio:
+                        </h4>
+                        <div
+                          className="dlab-accordion faq-1 box-sort-in m-b30"
+                          id="accordion1"
+                        >
+                          <div className="panel">
+                            <div className="acod-head">
+                              <h6 className="acod-title">
+                                <a
+                                  href="#"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#faq1"
+                                  className="collapsed"
+                                  aria-expanded="true"
+                                >
+                                  Mentorship from Experts
+                                </a>
+                              </h6>
+                            </div>
+                            <div
+                              id="faq1"
+                              className="acod-body collapse"
+                              data-bs-parent="#accordion1"
+                            >
+                              <div className="acod-content">
+                                Work closely with industry professionals and gain invaluable insights into the digital marketing and branding sectors.
+                              </div>
+                            </div>
+                          </div>
+                          <div className="panel">
+                            <div className="acod-head">
+                              <h6 className="acod-title">
+                                <a
+                                  href="#"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#faq2"
+                                  className="collapsed"
+                                  aria-expanded="false"
+                                >
+                                  Portfolio Development
+                                </a>
+                              </h6>
+                            </div>
+                            <div
+                              id="faq2"
+                              className="acod-body collapse"
+                              data-bs-parent="#accordion1"
+                            >
+                              <div className="acod-content">
+                                Contribute to meaningful projects that enhance your portfolio and demonstrate your expertise to future employers.
+
+                              </div>
+                            </div>
+                          </div>
+                          <div className="panel">
+                            <div className="acod-head">
+                              <h6 className="acod-title">
+                                <a
+                                  href="#"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#faq3"
+                                  className="collapsed"
+                                  aria-expanded="false"
+                                >
+                                  Skill Advancement
+                                </a>
+                              </h6>
+                            </div>
+                            <div
+                              id="faq3"
+                              className="acod-body collapse"
+                              data-bs-parent="#accordion1"
+                            >
+                              <div className="acod-content">
+                                Sharpen your abilities in web design, digital marketing strategies, and other key areas, positioning yourself for future career success.
+
+                              </div>
+                            </div>
+                          </div>
+
+
+                        </div>
+                        <div>
+                        <p>
+                          If you are looking to accelerate your career in a collaborative and growth-driven environment, we invite you to apply for an internship at Zing Studio. Gain the experience and knowledge that will set you apart in the competitive digital landscape.
+                        </p>
+
+                      </div>
+                      </div>
+                    </div>                
+      
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 m-b30">
-              <h4>Benefits of Internship @ Zing Studio:
-              </h4>
-              <div
-                className="dlab-accordion faq-1 box-sort-in m-b30"
-                id="accordion1"
-              >
-                <div className="panel">
-                  <div className="acod-head">
-                    <h6 className="acod-title">
-                      <a
-                        href="#"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq1"
-                        className="collapsed"
-                        aria-expanded="true"
-                      >
-                        Mentorship from Experts
-                      </a>
-                    </h6>
-                  </div>
-                  <div
-                    id="faq1"
-                    className="acod-body collapse"
-                    data-bs-parent="#accordion1"
-                  >
-                    <div className="acod-content">
-                      Work closely with industry professionals and gain invaluable insights into the digital marketing and branding sectors.
-                    </div>
-                  </div>
-                </div>
-                <div className="panel">
-                  <div className="acod-head">
-                    <h6 className="acod-title">
-                      <a
-                        href="#"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq2"
-                        className="collapsed"
-                        aria-expanded="false"
-                      >
-                        Portfolio Development
-                      </a>
-                    </h6>
-                  </div>
-                  <div
-                    id="faq2"
-                    className="acod-body collapse"
-                    data-bs-parent="#accordion1"
-                  >
-                    <div className="acod-content">
-                      Contribute to meaningful projects that enhance your portfolio and demonstrate your expertise to future employers.
 
-                    </div>
-                  </div>
-                </div>
-                <div className="panel">
-                  <div className="acod-head">
-                    <h6 className="acod-title">
-                      <a
-                        href="#"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq3"
-                        className="collapsed"
-                        aria-expanded="false"
-                      >
-                        Skill Advancement
-                      </a>
-                    </h6>
-                  </div>
-                  <div
-                    id="faq3"
-                    className="acod-body collapse"
-                    data-bs-parent="#accordion1"
-                  >
-                    <div className="acod-content">
-                      Sharpen your abilities in web design, digital marketing strategies, and other key areas, positioning yourself for future career success.
-
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-              <div>
-              <p>
-                If you are looking to accelerate your career in a collaborative and growth-driven environment, we invite you to apply for an internship at Zing Studio. Gain the experience and knowledge that will set you apart in the competitive digital landscape.
-              </p>
-
-            </div>
-            </div>
-           
-          </div>
-          {/* Faq Info */}
-        
-
-
-         
-            </div>
-            </div>
-
-            <div className="row py-5 text-white" style={{background:"#e21100"}}>
+            <div className="row py-5 px-2 text-white m-0" style={{background:"#e21100"}}>
             <div className="col-12 col-lg-8  mx-auto" >
             <div className="row">
             <h2 className="title mb-1">Apply Now</h2>

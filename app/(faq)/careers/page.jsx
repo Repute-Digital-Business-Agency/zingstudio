@@ -39,9 +39,9 @@ export default function page() {
           </div>
         </div>
 
-        <div className="content-block">
+        {/* <div className="content-block"> */}
           <Faq1 />
-        </div>
+        {/* </div> */}
 
       
         {/* <Cta /> */}

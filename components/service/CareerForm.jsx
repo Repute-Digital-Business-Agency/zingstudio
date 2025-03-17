@@ -13,13 +13,13 @@ const CareerForm = () => {
     
   };
   return (
-    <div className="newsletter-container pt-4 pb-5" id="careers">
-      <div className="newsletter-box mx-auto p-4 ">
+    <div className="newsletter-container pt-4 pb-5 m-0" id="careers">
+      <div className="newsletter-box mx-auto  py-4 px-2 px-md-2">
         
-        <div className="container">
+        <div className="container px-0">
         {/* <h6 className="text-uppercase text-primary">Subscribe to Newsletter</h6> */}
        
-      <div className="row justify-content-between">
+      <div className="row justify-content-between m-0">
         {/* Form Section */}
         <div className="col-lg-7 col-md-12">
           <div className=" border rounded text-white">
