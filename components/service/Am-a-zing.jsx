@@ -119,7 +119,7 @@ export default function Am_a_Zing() {
               }}
               >
               
-                  <img
+                  {/* <img
                   alt=""
                   className="img-cover img-inner"
                 //   src="/images/Home-Page/amazing/am-a-zing-img-1.jpg"
@@ -134,7 +134,7 @@ export default function Am_a_Zing() {
                   zIndex:"1000",
                   
                   }}
-                  />
+                  /> */}
                   {/* <img
                   alt=""
                   className="img-cover img-inner"

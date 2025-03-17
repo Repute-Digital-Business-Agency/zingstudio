@@ -72,18 +72,19 @@ const LightVersion = ({
                         <ul className="list-details">
                         <li className="text-black">
                             <span style={{ fontSize: "18px" }}>Web Design</span>
-                            <span style={{ fontSize: "18px", fontWeight: "600" }}>Starting @ ₹ 10,000</span>
+                            <span style={{ fontSize: "18px", fontWeight: "600" }}>Starting @ ₹ 25,850</span>
                         </li>
-                        <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600" , borderTop:"1px solid black"}}>E-Commerce Websites</li>
+                        <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600" , borderTop:"1px solid black"}}>CMS Websites</li>
                         <ul className="list-arrow mb-0 mt-0">
-                      <li className="text-black px-4">Inventory management</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>CMS (Manage Website content)</li>
+                        <li className="text-black px-4">1 Home Page Design</li>
+                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>Upto 15 Inner Pages</li>
                       <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>General Features With Modern Look</li>
+                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>CMS (Manage Website content)</li>
+                      
                     </ul>
 
                         <li className="text-black btn py-0 pt-2 mb-0" style={{borderTop:"1px solid black"}} >
-                            <Link href={`/e-commerce-service`} className="site-button btnhover20 mt-3 " style={{ padding: "8px 15px", fontWeight: "600", fontSize: "15px"}}>
+                            <Link href={`/web-design-service`} className="site-button btnhover20 mt-3 " style={{ padding: "8px 15px", fontWeight: "600", fontSize: "15px"}}>
                             View Service
                             </Link>
                         </li>
@@ -97,23 +98,23 @@ const LightVersion = ({
                         <ul className="list-details">
                         <li className="text-black">
                             <span style={{ fontSize: "18px" }}>Web Design</span>
-                            <span style={{ fontSize: "18px" ,  fontWeight: "600" }}>Starting @ ₹ 25,850</span>
+                            <span style={{ fontSize: "18px" ,  fontWeight: "600" }}>Starting @ ₹ 10,000</span>
                         </li>
-                        <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600", borderTop:"1px solid black" }}>CMS Websites</li>
+                        <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600", borderTop:"1px solid black" }}>E-Commerce Websites</li>
                         <li className="text-black mt-0 pt-0" style={{ borderTop: "none" }}>
                             {/* <strong> */}
                             <ul className="list-arrow mb-0 mt-0">
-                      <li className="text-black px-4">1 Home Page Design</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>Upto 15 Inner Pages</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
+                            <li className="text-black px-4">Inventory management</li>
                       <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>CMS (Manage Website content)</li>
+                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
+                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>General Features With Modern Look</li>
                     </ul>
                             {/* </strong> */}
                             {/* <span>{project.completionDate}</span> */}
                         </li>
 
                         <li className="text-black btn py-0 pt-2 mb-0" style={{borderTop:"1px solid black"}}>
-                            <Link href={`/web-design-service`} className="site-button btnhover20 mt-3" style={{ padding: "8px 15px", fontWeight: "600", fontSize: "15px" }}>
+                            <Link href={`/e-commerce-service`} className="site-button btnhover20 mt-3" style={{ padding: "8px 15px", fontWeight: "600", fontSize: "15px" }}>
                             View Service
                             </Link>
                         </li>
