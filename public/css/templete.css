@@ -2987,10 +2987,18 @@ HOME 5 Box Header
   -webkit-transition: all 0.8s;
 }
 
-.img-ho1:hover:after {
+.extra .img-ho1:after{
+  display: none !important;
+}
+.extra .img-ho1:hover:after {
+  right: 0 !important;
+  top: 0 !important;
+}
+
+/* .img-ho1:hover:after {
   right: -15px;
   top: 20px;
-}
+} */
 
 @media (max-width:760px){
   .img-ho1:after {

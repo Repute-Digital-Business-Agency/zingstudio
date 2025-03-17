@@ -50,12 +50,18 @@ export default function Home1() {
           </div> */}
 
           <HomeAbout />
+         
+
+
           <HomeHero />
+
+
           {/* <Projects2 /> */}
           {/* <div className="content-block home-service-section bg-gray"> */}
           {/* <HomeServiceAnimation /> */}
           {/* <HomeService /> */}
           {/* </div> */}
+
           <HomeServiceStatic/>
        
 

@@ -17784,6 +17784,7 @@ input[type="radio"]+label:hover:before {
 
 
 
+
 .homeservice-static .staticCard {
   height: 500px;
   display: flex;
@@ -19208,8 +19209,12 @@ input[type="radio"]+label:hover:before {
 
 
 .HomeService .list-arrow li:before {
-  top: 10px;
+  top: 11px;
   color: white;
+}
+.staticservice .list-arrow li:before {
+  top: 11px;
+  color: black;
 }
 .studentJourney .list-arrow li:before{
   top: 5px !important;
@@ -19249,6 +19254,22 @@ input[type="radio"]+label:hover:before {
   color: #e21100;
   font-weight: normal;
 }
+
+@media (min-width: 576px) {
+  .unset-sm {
+    display: unset !important;
+    flex-direction: unset !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .staticCard .project-content {
+    
+    padding: 20px 20px !important;
+    
+}
+}
+
 
 @keyframes moveImage {
   0% {

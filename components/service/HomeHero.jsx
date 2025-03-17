@@ -201,6 +201,7 @@ export default function HomeHero() {
               position: "absolute",
               bottom: "calc( 50% - 10px )",
               zIndex: "2",
+              right: "calc(0% - 20px)",
               background: "#e21100"
             }}
             tabIndex="0"
@@ -213,7 +214,7 @@ export default function HomeHero() {
             className="swiper-button-next dz-next snbnh1  swiper-p-button"
             style={{
               position: "absolute",
-              bottom: "calc( 50% - 10px )",
+              bottom: "calc( 50% - 40px )",
               zIndex: "2",
               left: "calc(0% - 20px)",
               background: "#e21100"

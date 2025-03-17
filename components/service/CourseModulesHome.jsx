@@ -181,8 +181,8 @@ export default function CourseModulesHome() {
                   <div className="dlab-info p-a20 border-1 flex-grow-1 d-flex flex-column">
                     <div className="dlab-post-meta">
                       <ul>
-                        <li className="post-date">
-                          <strong style={{ color: "#e21100" }}>{elm.mode}</strong>
+                        <li className="post-date text-uppercase">
+                          <strong style={{ color: "#e21100", fontSize:"15px" }}>{elm.mode}</strong>
                       {/* <span> </span> */}
                       </li>
                       {/* <li className="post-author">
