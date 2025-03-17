@@ -637,7 +637,7 @@ export default function page() {
 
   return (
     <>
-      <div className="page-wraper  ">
+      <div className="page-wraper  " style={{background:"#fff"}}>
         <Header17 />
          {/* <ZingAcademyProgramHero HeroBannerContent={HeroBannerContent}/> */}
          <AcademyCourseBanner option= {formOption} bannerContent={bannerContent}/>
