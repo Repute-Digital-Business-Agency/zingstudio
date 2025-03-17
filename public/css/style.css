@@ -6960,6 +6960,10 @@ footer .list-2 li {
   color: #1A43BF;
 }
 
+footer .list-2 li:before {
+  top: 8px;
+}
+
 .list-2 li:hover:before {
   color: var(--color-primary);
 }
