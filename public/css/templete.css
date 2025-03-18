@@ -308,6 +308,11 @@ h6 {
   transition: all 0.5s;
 }
 
+.ecomFAQ .faq-1 .panel {
+  margin-bottom: 0px;
+ 
+}
+
 .faq-1 .acod-title a {
   padding: 20px 40px 20px 20px;
   color: #000;

@@ -10457,6 +10457,11 @@ ul[class*="list-"] {
   border: 1px solid #dddddd;
   border-radius: 4px;
 }
+.ecomFAQ .acod-head a {
+  border: none;
+  border-top: 1px solid #dddddd;
+ 
+}
 
 .acod-head a,
 .acod-head a:hover,
@@ -11755,6 +11760,136 @@ ul[class*="list-"] {
 }
 
 /*== >Pricing table  ===*/
+
+/* .ecom .pricingtable-wrapper{
+  border: 1px solid black;
+} */
+
+.ecom .pricing-card {
+    /* max-width: 400px; */
+    border-radius: 10px;
+    background: white;
+    padding: 20px;
+    border: 1px solid #dcd7d7;
+  }
+  
+  .ecom  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600 !important;
+    color: #1a43bf;
+  }
+  
+  .ecom .discount-text {
+    font-size: 0.9rem;
+    color: #000;
+    font-weight: normal;
+  }
+  
+  .ecom .original-price {
+    text-decoration: line-through;
+    color: black;
+    margin-left: 5px;
+    font-weight: 500;
+  }
+  
+  .ecom .price {
+    font-size: 2.5rem;
+    font-weight: 600 !important;
+    color: black;
+  }
+  .ecom .text-muted{
+    font-size: 14px;
+    position: relative;
+    left: -10px;
+  }
+  .ecom .feature-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ecom .feature-list li {
+    font-size: 0.95rem;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .ecom .feature-list i {
+    color: #1a43bf;
+    margin-right: 8px;
+    border: 1px solid #dcd7d7;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  .ecom .pricingtable-inner {
+    text-align: start;
+  }
+  .ecom .site-button{
+    border-radius: 10px;
+    font-size: 16px;
+    padding:14px 30px ;
+  }
+  .ecom p.small{
+    font-size: 12px !important;
+    line-height: 1.5;
+  }
+  .ecom .discount-text span{
+    background: #e2110026;
+  }
+  .ecom .discount-text .original-price{
+    background: none;
+  }
+
+  .web-hosting-container {
+    /* max-width: 1200px; */
+    margin: auto;
+  }
+  
+  .hosting-titles {
+    font-weight: 600 !important;
+    font-size: 40px;
+  }
+  .hosting-title{
+    font-weight: 600 !important;
+    font-size: 40px;
+    margin-top: 70px;
+  }
+  .hosting-description {
+    color: #000;
+  }
+  
+  .security-card,
+  .resources-card,
+  .guarantee-card {
+    /* background: #f8f9fa; */
+    border-radius: 10px;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    /* text-align: center; */
+  }
+  
+  .security-img,
+  .resources-img,
+  .guarantee-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .security-title,
+  .resources-title,
+  .guarantee-title {
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+  
+  .security-text,
+  .resources-text,
+  .guarantee-text {
+    color: #666;
+  }
+  
+  
+  
+
 
 .pricingtable-inner {
   text-align: center;
@@ -18392,6 +18527,9 @@ input[type="radio"]+label:hover:before {
 .pr-service-hero {
   background-image: url("/images/services/serviceBanner.jpg") !important;
   /* height: 80vh; */
+}
+.pr-service-hero.no-bg{
+  background:#fff !important;
 }
 
 .pr-service-hero form {
