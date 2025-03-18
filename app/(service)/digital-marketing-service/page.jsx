@@ -20,7 +20,7 @@ export default function page() {
         {
          head:"Digital Marketing",
          title:"Basic - Digital Marketing",
-         price: "8500",
+         price: "10,000",
          list:[
           "On-Page Optimization - Up to 10 Pages",
           "Competitor Analysis - 1 Competitor",
@@ -37,8 +37,8 @@ export default function page() {
         },
         {
             head:"Digital Marketing",
-         title:"Standard -Digital Marketing",
-         price: "7299",
+         title:"Enterprise -Digital Marketing",
+         price: "20,000",
          list:[
           "On-Page Optimization - Up to 15 Pages",
           "Competitor Analysis - 3 Competitor",

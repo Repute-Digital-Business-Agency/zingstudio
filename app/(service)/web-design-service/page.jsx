@@ -20,7 +20,7 @@ export default function page() {
         {
          head:"Web Design",
          title:"Static Web Design",
-         price: "8750",
+         price: "15,000",
          list:[
           "Custom Layout",
           "10 Static Page(HTML/PHP)",
@@ -35,8 +35,8 @@ export default function page() {
         },
         {
             head:"Web Design",
-         title:"Dynamic Web Design",
-         price: "8750",
+         title:"CMS Web Design",
+         price: "30,000",
          list:[
              "Administrator Dashboard",
              "Editor Dashboard",

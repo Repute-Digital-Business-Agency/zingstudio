@@ -21,7 +21,7 @@ export default function page() {
         {
             head:"E-commerce",
          title:"E-Commerce Web Design",
-         price: "25,850",
+         price: "50,000",
          list:[
              "Administrator Dashboard",
              "Categories",
@@ -38,7 +38,7 @@ export default function page() {
         {
             head:"E-commerce",
             title:"Saas Platform",
-            price: "8750",
+            price: "50,00",
             list:[
              "Custom Layout",
              "10 Static Page(HTML/PHP)",
@@ -51,22 +51,22 @@ export default function page() {
             ],
               delay:"0.2s"
            },
-           {
-               head:"E-commerce",
-            title:"Open-source Development ",
-            price: "8750",
-            list:[
-                "Administrator Dashboard",
-                "Editor Dashboard",
-                "20 Page Responsive Website",
-                "1 Basic Contact/Enquiry Form",
-                "Designs Related to your Industry",
-                "Multiple Payment Options",
-                "Maintainance",
-                "Responsive Design"       
-            ],
-              delay:"0.4s"
-           },
+          //  {
+          //      head:"E-commerce",
+          //   title:"Open-source Development ",
+          //   price: "8750",
+          //   list:[
+          //       "Administrator Dashboard",
+          //       "Editor Dashboard",
+          //       "20 Page Responsive Website",
+          //       "1 Basic Contact/Enquiry Form",
+          //       "Designs Related to your Industry",
+          //       "Multiple Payment Options",
+          //       "Maintainance",
+          //       "Responsive Design"       
+          //   ],
+          //     delay:"0.4s"
+          //  },
      ]
 
     // const heroContent= [

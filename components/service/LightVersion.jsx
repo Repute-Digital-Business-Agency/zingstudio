@@ -47,19 +47,19 @@ const LightVersion = ({
                         <ul className="list-details">
                         <li className="text-black d-flex flex-sm-row justify-content-sm-between flex-column justify-content-start ">
                             <span   style={{ fontSize: "18px" , fontWeight: "600" }}>Web Design</span>
-                            <span className="pt-1 pt-sm-0" style={{  fontWeight: "500", fontSize:"17px", color:"#e21100" }}>Starting @ ₹ 8750</span>
+                            <span className="pt-1 pt-sm-0" style={{  fontWeight: "500", fontSize:"17px", color:"#e21100" }}>Starting @ ₹ 15,000</span>
                         </li>
                         <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600",borderTop:"1px solid black"}}>Static Websites</li>
                         <ul className="list-arrow mb-0 mt-0">
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>1 Home Page Design</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>Upto 10 Inner Page Design</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>JQUERY Banner Slider</li>
+                      <li className="text-black px-4 " style={{ borderTop: "none", color: "white" }}>1 Home Page Design</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Upto 10 Inner Page Design</li>
+                      <li className="text-black px-4 pt-0"  style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>JQUERY Banner Slider</li>
                     </ul>
 
                         <li className="text-black btn py-0 pt-2  mb-0" style={{borderTop:"1px solid black"}}>
                             <Link href={`/web-design-service`} className="site-button btnhover20 mt-3" style={{ padding: "8px 15px", fontWeight: "600", fontSize: "15px" }}>
-                            View Service
+                            Read More
                             </Link>
                         </li>
                         </ul>
@@ -72,20 +72,20 @@ const LightVersion = ({
                         <ul className="list-details">
                         <li className="text-black d-flex flex-sm-row justify-content-sm-between flex-column justify-content-start ">
                             <span style={{ fontSize: "18px" , fontWeight: "600" }}>Web Design</span>
-                            <span  className="pt-1 pt-sm-0" style={{  fontWeight: "500", fontSize:"17px", color:"#e21100" }}>Starting @ ₹ 25,850</span>
+                            <span  className="pt-1 pt-sm-0" style={{  fontWeight: "500", fontSize:"17px", color:"#e21100" }}>Starting @ ₹ 30,000</span>
                         </li>
                         <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600" , borderTop:"1px solid black"}}>CMS Websites</li>
                         <ul className="list-arrow mb-0 mt-0">
                         <li className="text-black px-4">1 Home Page Design</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>Upto 15 Inner Pages</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>CMS (Manage Website content)</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Upto 15 Inner Pages</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>CMS (Manage Website content)</li>
                       
                     </ul>
 
                         <li className="text-black btn py-0 pt-2 mb-0" style={{borderTop:"1px solid black"}} >
                             <Link href={`/web-design-service`} className="site-button btnhover20 mt-3 " style={{ padding: "8px 15px", fontWeight: "600", fontSize: "15px"}}>
-                            View Service
+                            Read More
                             </Link>
                         </li>
                         </ul>
@@ -98,16 +98,16 @@ const LightVersion = ({
                         <ul className="list-details">
                         <li className="text-black d-flex flex-sm-row justify-content-sm-between flex-column justify-content-start ">
                             <span style={{ fontSize: "18px", fontWeight: "600"  }}>Web Design</span>
-                            <span  className="pt-1 pt-sm-0" style={{  fontWeight: "500", fontSize:"17px", color:"#e21100" }}>Starting @ ₹ 10,000</span>
+                            <span  className="pt-1 pt-sm-0" style={{  fontWeight: "500", fontSize:"17px", color:"#e21100" }}>Starting @ ₹ 50,000</span>
                         </li>
                         <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600", borderTop:"1px solid black" }}>E-Commerce Websites</li>
                         <li className="text-black mt-0 pt-0" style={{ borderTop: "none" }}>
                             {/* <strong> */}
                             <ul className="list-arrow mb-0 mt-0">
                             <li className="text-black px-4">Inventory management</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>CMS (Manage Website content)</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>General Features With Modern Look</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>CMS (Manage Website content)</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>General Features With Modern Look</li>
                     </ul>
                             {/* </strong> */}
                             {/* <span>{project.completionDate}</span> */}
@@ -115,7 +115,7 @@ const LightVersion = ({
 
                         <li className="text-black btn py-0 pt-2 mb-0" style={{borderTop:"1px solid black"}}>
                             <Link href={`/e-commerce-service`} className="site-button btnhover20 mt-3" style={{ padding: "8px 15px", fontWeight: "600", fontSize: "15px" }}>
-                            View Service
+                            Read More
                             </Link>
                         </li>
                         </ul>
@@ -132,14 +132,14 @@ const LightVersion = ({
                         <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600",borderTop:"1px solid black" }}>Basic</li>
                         <ul className="list-arrow mb-0 mt-0">
                       <li className="text-black px-4">On-Page Optimization - Up to 10 Pages</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>Competitor Analysis - 1 Competitor</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>Keyword Research and Analysis</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>Keyphrase Optimization - 10 Pages</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Competitor Analysis - 1 Competitor</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Keyword Research and Analysis</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Keyphrase Optimization - 10 Pages</li>
                     </ul>
 
                         <li className="text-black btn py-0 pt-2  mb-0" style={{borderTop:"1px solid black"}}>
                             <Link href={`/digital-marketing-service`} className="site-button btnhover20 mt-3" style={{ padding: "8px 15px", fontWeight: "600", fontSize: "15px" }}>
-                            View Service
+                            Read More
                             </Link>
                         </li>
                         </ul>
@@ -157,14 +157,14 @@ const LightVersion = ({
                         <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600",borderTop:"1px solid black" }}>Standard</li>
                         <ul className="list-arrow mb-0 mt-0">
                       <li className="text-black px-4">On-Page Optimization - Up to 15 Pages</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>Competitor Analysis - 3 Competitor</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>Keyword Research and Analysis</li>
-                      <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>Keyphrase Optimization - 15 Pages</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Competitor Analysis - 3 Competitor</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Keyword Research and Analysis</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Keyphrase Optimization - 15 Pages</li>
                     </ul>
 
                         <li className="text-black btn py-0 pt-2 mb-0" style={{borderTop:"1px solid black"}} >
                             <Link href={`/digital-marketing-service`} className="site-button btnhover20 mt-3 " style={{ padding: "8px 15px", fontWeight: "600", fontSize: "15px"}}>
-                            View Service
+                            Read More
                             </Link>
                         </li>
                         </ul>
@@ -184,9 +184,9 @@ const LightVersion = ({
                             {/* <strong> */}
                             <ul className="list-arrow mb-0 mt-0">
                             <li className="text-black px-4">On-Page Optimization - Up to 15 Pages</li>
-                            <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>Competitor Analysis - 3 Competitor</li>
-                            <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>Keyword Research and Analysis</li>
-                            <li className="text-black px-4" style={{ borderTop: "none", color: "white" }}>Keyphrase Optimization - 10 Pages</li>
+                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Competitor Analysis - 3 Competitor</li>
+                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Keyword Research and Analysis</li>
+                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Keyphrase Optimization - 10 Pages</li>
                     </ul>
                             {/* </strong> */}
                             {/* <span>{project.completionDate}</span> */}
@@ -194,7 +194,7 @@ const LightVersion = ({
 
                         <li className="text-black btn py-0 pt-2 mb-0" style={{borderTop:"1px solid black"}}>
                             <Link href={`/digital-marketing-service`} className="site-button btnhover20 mt-3" style={{ padding: "8px 15px", fontWeight: "600", fontSize: "15px" }}>
-                            View Service
+                            Read More
                             </Link>
                         </li>
                         </ul>

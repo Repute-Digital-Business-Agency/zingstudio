@@ -19217,8 +19217,13 @@ input[type="radio"]+label:hover:before {
   color: white;
 }
 .staticservice .list-arrow li:before {
-  top: 11px;
-  color: black;
+  top: 12.5px !important;
+  color: #e21100;
+  font-size: 12px !important;
+}
+.staticservice .list-arrow li.pt-0:before {
+  top: 3px !important;
+  
 }
 .studentJourney .list-arrow li:before{
   top: 5px !important;
