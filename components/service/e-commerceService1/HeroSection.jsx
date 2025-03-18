@@ -18,7 +18,7 @@ export default function HeroSection({head,option,bannerContent,offers}) {
                             <img className="rounded" src={bannerContent.src} alt="" style={{height:"100%", objectFit:"cover"}}/>
                         </div>
 
-                        <div className="col-xl-6 col-md-12 content-inner chosesus-content text-black pb-md-0 px-5 pt-5">
+                        <div className="col-xl-6 col-md-12 content-inner chosesus-content text-black pb-md-0 px-2 px-xl-5 pt-5">
                         <p className="font-16  wow fadeInUp text-black mb-3" data-wow-delay="0.4s">
                             {bannerContent.caption}
 
@@ -62,12 +62,12 @@ export default function HeroSection({head,option,bannerContent,offers}) {
                             </ul>
 
                             <div className="col-lg-12 col-md-12">
-                                <button
-                                    
+                                <a
+                                    href="#pricing"
                                     className="site-button btnhover20 "
                                 >
                                     <span>See Plans And Pricing</span>
-                                </button>
+                                </a>
                             </div>
 
                             <h5

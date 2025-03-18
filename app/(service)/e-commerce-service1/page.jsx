@@ -105,8 +105,8 @@ export default function page() {
     ]
     const bannerContent = {
       src:"https://img1.wsimg.com/cdnassets/transform/c50e55dd-152b-45c6-815a-f7164b2a87aa/FOSMO-98392-WH-SLP-New-Marquee-Image-without-cPanel",
-        head:"Web Hosting that's fast and reliable.",
-      caption:"Web Hosting",
+        head:"E-Commerce Development that's fast and reliable.",
+      caption:"E-Commerce",
       subTitle:"From personal sites to high-performance sites, get hosting you can trust.",
       description:"Our Web Hosting experts are happy to help you.",
       rating:"4.6 out of 5 stars ",
@@ -250,13 +250,13 @@ export default function page() {
                 <div className="col-lg-11 ">
                 
                   <div className="section-content box-sort-in py-5 button-example bg-gray" style={{borderRadius:"10px"}}>
-                    <div className="row justify-content-center">
-                    <div className="col-lg-3 col-md-4 col-sm-12 ">
+                    <div className="row justify-content-start justify-content-sm-center m-0">
+                    <div className="col-lg-3 col-md-4 col-sm-12 px-4 px-sm-3">
                       <h6 className='text-uppercase p-1' style={{background:"#e2110026", display:"inline"}}>High Performance</h6>
-                      <h3 className='mt-4 fw-bold'>Every Web Hosting plan includes: 
+                      <h3 className='mt-4 fw-bold'>Every E-Commerce plan includes: 
                       </h3>
                     </div>
-                      <div className="col-lg-2 col-md-3 col-sm-12 ">
+                      <div className="col-lg-2 col-md-3 col-sm-12 col-sm-12 px-4 px-sm-3">
                         <div className="icon-bx-wraper" style={{textAlign:"left"}}>
                           <div className="icon-sm text-orange m-b20">
                             <a href="#" className="icon-cell text-orange" >
@@ -273,7 +273,7 @@ export default function page() {
                           </div>
                         </div>
                       </div>
-                      <div className="col-lg-2 col-md-3 col-sm-12 ">
+                      <div className="col-lg-2 col-md-3 col-sm-12 col-sm-12 px-4 px-sm-3">
                         <div className="icon-bx-wraper" style={{textAlign:"left"}}>
                           <div className="icon-sm text-orange m-b20">
                             <a href="#" className="icon-cell text-orange" >
@@ -290,7 +290,7 @@ export default function page() {
                           </div>
                         </div>
                       </div>
-                      <div className="col-lg-2 col-md-3 col-sm-12 ">
+                      <div className="col-lg-2 col-md-3 col-sm-12 col-sm-12 px-4 px-sm-3">
                         <div className="icon-bx-wraper" style={{textAlign:"left"}}>
                           <div className="icon-sm text-orange m-b20">
                             <a href="#" className="icon-cell text-orange" >
@@ -307,7 +307,7 @@ export default function page() {
                           </div>
                         </div>
                       </div>
-                      <div className="col-lg-2 col-md-3 col-sm-12 ">
+                      <div className="col-lg-2 col-md-3 col-sm-12 col-sm-12 px-4 px-sm-3">
                         <div className="icon-bx-wraper" style={{textAlign:"left"}}>
                           <div className="icon-sm text-orange m-b20">
                             <a href="#" className="icon-cell text-orange" >

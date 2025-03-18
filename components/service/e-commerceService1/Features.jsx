@@ -10,7 +10,7 @@ const Features = () => {
                 <div className=" d-flex flex-column">
                     <div className="item-1 " style={{paddingBottom:"100px"}}>
                         <p className="mb-2 fw-bold">Lorem ipsum dolor sit </p>
-                    <h2 className="hosting-titles">Our web hosting delivers.</h2>
+                    <h2 className="hosting-titles">Our E-Commerce delivers.</h2>
                     <p className="hosting-description ">
                         You get speedier page-load times, tools to help grow your business, and essential security measures to build trust and help protect user data. Plus, you get peace of mind with a money-back guarantee.
                     </p>

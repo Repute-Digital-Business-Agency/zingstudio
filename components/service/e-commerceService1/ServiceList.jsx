@@ -10,7 +10,7 @@ const ServiceList = ({data,head,WebDesignfeatures}) => {
   return (
     <>
    
-    <div className="section-full bg-white content-inner pr-service-list relative ecom">
+    <div className="section-full bg-white content-inner pr-service-list relative ecom" id='pricing'>
       <div className="moveAnimation" style={{ position: "absolute", bottom: "0px", left: "100px", animation: "moveImage4 5s linear infinite", 
         // border:"1px solid red"
        }}>
