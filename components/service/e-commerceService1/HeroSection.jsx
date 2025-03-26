@@ -48,7 +48,7 @@ export default function HeroSection({head,option,bannerContent,offers}) {
                             
                             <ul
                                 className=" wow fadeInUp"
-                                data-wow-delay="1s"
+                                data-wow-delay="0.6s"
                                 >
                                      {bannerContent.list.map((item, index) => (
                                      <li className="d-flex justify-content-start mb-2" key={index} style={{listStyle:"none",}}>
@@ -61,7 +61,7 @@ export default function HeroSection({head,option,bannerContent,offers}) {
                                         
                             </ul>
 
-                            <div className="col-lg-12 col-md-12">
+                            <div className="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.6s">
                                 <a
                                     href="#pricing"
                                     className="site-button btnhover20 "

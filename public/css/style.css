@@ -799,6 +799,13 @@ dl dd {
   padding-bottom: 100px;
 }
 
+@media ( min-width:570px){
+  .p-sm-b100 {
+    padding-bottom: 100px !important;
+  }
+}
+
+
 /*== >Padding (left) ==*/
 
 .p-l0 {
@@ -10463,6 +10470,11 @@ ul[class*="list-"] {
  
 }
 
+.ecomFAQ .acod-body {
+  border-right: none;
+  border-left: none;
+}
+
 .acod-head a,
 .acod-head a:hover,
 .acod-head a.collapsed:hover {
@@ -11838,6 +11850,13 @@ ul[class*="list-"] {
   }
   .ecom .discount-text .original-price{
     background: none;
+  }
+
+
+  @media (max-width:990px){
+    .ecom p.small{
+      padding-bottom: 20px !important;
+    }
   }
 
   .web-hosting-container {

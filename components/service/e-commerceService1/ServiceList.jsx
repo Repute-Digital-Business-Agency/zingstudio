@@ -28,15 +28,15 @@ const ServiceList = ({data,head,WebDesignfeatures}) => {
                 </div>
                 {/* Pricing table-1 Columns 3 with gap */}
                 <div className="section-content box-sort-in button-example">
-                  <div className="pricingtable-row">
+                  <div className="pricingtable-row ">
                     <div className="row justify-content-center">
                     
                         {data?.map((data,index)=>(
-                             <div className={`wow fadeInUp col-sm-12 ${length === 2 ? "col-md-6 col-lg-6 col-xl-5 h-100" : "col-md-4 col-lg-4 h-100"} ${length === 4 ? "col-md-6 col-lg-6 h-100" : "col-md-4 col-lg-4 h-100"} mb-4`} data-wow-delay={data.delay}>
-                             <div className="pricingtable-wrapper"  >
-                               <div className={`pricingtable-inner `}>
-                                <div className="pricing-card  ">
-                                  <div className="card-body">
+                             <div className={`wow fadeInUp col-sm-12 ${length === 2 ? "col-md-6 col-lg-6 col-xl-5 " : "col-md-4 col-lg-4"} ${length === 4 ? "col-md-6 col-lg-6 " : "col-md-4 col-lg-4 "} mb-4 d-flex `} data-wow-delay={data.delay}>
+                             <div className="pricingtable-wrapper d-flex flex-column"  >
+                               <div className={`pricingtable-inner flex-grow-1`}>
+                                <div className="pricing-card h-100 d-flex flex-column ">
+                                  <div className="card-body flex-grow-1">
                                     <h2 className="card-title">{data.title}</h2>
                                     <p className="discount-text mb-3 mt-2">
                                       <span>{data.save} </span><span className="original-price ">₹  {data.strike}
@@ -55,7 +55,7 @@ const ServiceList = ({data,head,WebDesignfeatures}) => {
                            
                                     {/* <button className="btn btn-dark w-100 mt-3">Buy Now</button> */}
                                     <ul className="feature-list mt-3">
-                                      {WebDesignfeatures.map((feature, index) => (
+                                      {data.list.map((feature, index) => (
                                         <li key={index}>
                                           <i className={feature.icon} /> {feature.text}
                                         </li>

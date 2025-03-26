@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-export default function ServiceCta() {
+export default function ServiceCta({cta}) {
   return (
     <div
       className="section-full call-action  wow fadeIn"
@@ -11,9 +11,9 @@ export default function ServiceCta() {
       <div className="container">
         <div className="row">
           <div className="col-lg-9 text-white">
-            <h2 className="title">Not sure which package is the best for you?</h2>
+            <h2 className="title">{cta.title}</h2>
             <p className="m-b0">
-            Get Expert Guidance on Web Design Packages, schedule a consultation with our experts at Zing Studio and find the perfect solution tailored to your business goals.
+            {cta.description}
 
             </p>
           </div>
@@ -22,7 +22,7 @@ export default function ServiceCta() {
               href={`/contact`}
               className="site-button btnhover13 white align-self-center outline ms-auto outline-2"
             >
-              Book Free Consultation
+             {cta.button}
             </Link>
           </div>
         </div>

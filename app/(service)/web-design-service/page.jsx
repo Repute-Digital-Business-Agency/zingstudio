@@ -2,57 +2,57 @@ import React from "react";
 
 import Header17 from "@/components/headers/Header17";
 import Footer13 from "@/components/footers/Footer13";
-import HeroSection from "@/components/service/heroSection";
-import ServiceList from "@/components/service/serviceList";
 import ServiceCta from "@/components/service/ServiceCta";
 import Portfolio from "@/components/service/Portfolio";
 import Faq from "@/components/faq/Faq3";
 import Projects2 from "@/components/homes/home-5/Projects2";
 import Cta from "@/components/homes/home-13/Cta";
 import OurWorkServices from "@/components/homes/home-5/OurWorksServices";
+import HeroSection from "@/components/service/e-commerceService1/HeroSection";
+import ServiceList from "@/components/service/e-commerceService1/ServiceList";
+import Features from "@/components/service/e-commerceService1/EComFeatures";
+import FAQ from "@/components/service/FAQ";
+import Guarantee from "@/components/service/e-commerceService1/Guarantee";
+import WebFeatures from "@/components/service/e-commerceService1/WebFeatures";
 
 export const metadata = {
-  title: "Web Design || Zing Studio",
+  title: "E-commerce Development || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
-    const WebDevelopment = [
-        {
-         head:"Web Design",
-         title:"Static Web Design",
-         price: "15,000",
-         list:[
-          "Custom Layout",
-          "10 Static Page(HTML/PHP)",
-          "Enquiry Form",
-          "Free Website Maintenance",
-          "Free Images",
-          "World Class Design & Approval",
-          "User Friendly Design",
-          "Responsive Design"   
-         ],
-           delay:"0.2s"
-        },
+  
+  const WebDesignfeatures = [
+    { icon: "ti-world", text: "50 websites" },
+    { icon: "ti-server", text: "Unlimited databases" },
+    { icon: "ti-time", text: "100 GB NVMe storage" },
+    { icon: "ti-panel", text: "cPanel control panel" },
+    { icon: "ti-dashboard", text: "4 GB RAM, 2 vCPUs" },
+    { icon: "ti-lock", text: "Free dedicated IP" },
+    { icon: "ti-gift", text: "Free domain" },
+    { icon: "ti-shield", text: "Free, unlimited SSL for all your websites" },
+    { icon: "ti-reload", text: "30-day, money-back guarantee" },
+  ];
+    const EcommerceDevelopment = [
+       
         {
             head:"Web Design",
-         title:"CMS Web Design",
-         price: "30,000",
-         list:[
-             "Administrator Dashboard",
-             "Editor Dashboard",
-             "20 Page Responsive Website",
-             "1 Basic Contact/Enquiry Form",
-             "Designs Related to your Industry",
-             "Multiple Payment Options",
-             "Maintainance",
-             "Responsive Design"       
-         ],
-           delay:"0.4s"
-        },
-        // {
-        //     head:"Web Design",
-        //  title:"E-Commerce Web Design",
-        //  price: "25,850",
+         title:"Static Web Design",
+         price: "15,000",
+         save:"Save 22%",
+         strike:"1,919.00",
+         condition:" With a 3-yr term. You pay ₹ 53,424.00 today. <br />Renews at  ₹ 69,084.00.",
+         
+         list: [
+          { icon: "ti-world", text: "Administrator Dashboard" },
+          { icon: "ti-server", text:  "Categories" },
+          { icon: "ti-time", text: "Secure Online Payment" },
+          { icon: "ti-panel", text: "Product Reviews & Ratings" },
+          { icon: "ti-dashboard", text: "Email Notifications" },
+          { icon: "ti-lock", text: "Products & Inventory Management" },
+          { icon: "ti-gift", text: "Orders & Shipping Management" },
+          { icon: "ti-shield", text: "Stock,Order & Customer Report" },
+          
+        ],
         //  list:[
         //      "Administrator Dashboard",
         //      "Categories",
@@ -63,99 +63,228 @@ export default function page() {
         //      "Orders & Shipping Management",
         //      "Stock,Order & Customer Report"
         //  ],
-        //    delay:"0.6s"
-        // },
+           delay:"0.6s"
+        },
+        
+
+        {
+            head:"Web Design",
+            title:"CMS Web Design",
+            price: "30,000",
+            save:"Save 23%",
+            strike:"1,919.00",
+            condition:" With a 3-yr term. You pay ₹ 53,424.00 today. <br />Renews at  ₹ 69,084.00.",
+            
+            list: [
+              { icon: "ti-world", text: "Custom Layout" },
+              { icon: "ti-server", text: "10 Static Page(HTML/PHP)" },
+              { icon: "ti-time", text:  "Enquiry Form"},
+              { icon: "ti-dashboard", text: "Free Website Maintenance"},
+              { icon: "ti-lock", text: "Free Images" },
+              { icon: "ti-gift", text:   "World Class Design & Approval" },
+              { icon: "ti-shield", text: "User Friendly Design"},
+              { icon: "ti-reload", text: "Responsive Design" }
+            ],
+              delay:"0.2s"
+           },
+
+         
+          
      ]
 
-    // const heroContent= [
-    //   {
-    //     head:"Web Design",
-        
-    //   }
-    // ]   
+    
 
     const formOption  =[
-      "Static Site",
-      "Dynamic Site",
-      
+      "E-Commerce",
+      "SaaS Platform",
+      "Open-Source Development"
     ]
     const bannerContent = {
-      caption:"High-performance website to strengthen your digital presence.",
-      subTitle:"Custom and scalable web development solutions designed to enhance user experience and drive business growth.",
-      list:[
-        "Navigable and functional websites, optimized to deliver desired results for your business.",
-        "A visually appealing, functional and conversion-focused website.",
-        "Custom-built static or dynamic CMS solutions tailored to your business needs."
-      ],
-      formTitle:" Designs that wow, results that matter!",
-      formCaption:"Get sleek, responsive websites tailored to elevate brands and captivate audiences. Let’s build something incredible—connect now!"
+      src:"https://img1.wsimg.com/cdnassets/transform/c50e55dd-152b-45c6-815a-f7164b2a87aa/FOSMO-98392-WH-SLP-New-Marquee-Image-without-cPanel",
+        head:"Web Design Development that's fast and reliable.",
+      caption:"Web Design",
+      subTitle:"From personal sites to high-performance sites, get hosting you can trust.",
+      description:"Our Web Hosting experts are happy to help you.",
+      rating:"4.6 out of 5 stars ",
+      
+        icon:[
+          <i className="ti-time " />,
+          <i className="ti-time " />,
+          <i className="ti-time " />
+        ],
+        list:[
+            "99.9% uptime — guaranteed.",
+        "Free SSL certificate for all your sites. ",
+        "Optimized high-performance hosting. "
+        ],
+      
+        formTitle:"Build. Scale. Succeed. ",
+      formCaption:"From powerful e-commerce platforms to smart SaaS solutions and flexible open-source development, we’ve got the tools to fuel digital growth. Let’s create something extraordinary—connect now! "
     }
+    const offers={
+      head:"Special offer for new customers.",
+      caption:"Pay only ₹199.00 /mo (1-year term) for a Web Hosting Economy plan. ",
+      code:"Promo code: HOSTING25"
+}
 
     const portfolioContent ={
-     description: "Check out our lineup of stunning websites that pop, perform, and leave a mark! At Zing Studio, we blend bold designs with smooth vibes to craft digital spaces that turn clicks into customers. From trendy business sites to vibrant online stores, our creations are all about making your brand shine."
+     description: "Discover a portfolio of e-commerce projects engineered for optimal user experiences, secure transactions, and scalable growth. Each solution is tailored to enhance customer engagement, drive sales, and support sustained digital success."
     }
     const portfolioItems = [
       {
-        title: "BKS Textiles ",
-        image: "/images/services/web-deisgn/mockup-1.jpg",
+        title: "Filmode Fashon",
+        image: "/images/services/E-commerce/mockup-1.jpg",
         className: "col-lg-6 col-md-6 col-sm-6",
         delay: "0.3s",
         duration: "1s",
-        link:" https://bksfabrics.in/"
+        link:"https://filmodefashion.com/"
       },
       {
-        title: "GMAK Fiber Lase",
-        image: "/images/services/web-deisgn/mockup-2.jpg",
+        title: "Thangam Jewelry",
+        image: "/images/services/E-commerce/mockup-2.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.6s",
         duration: "1.3s",
-        link:"https://gmaklaser.com/"
+        link:"https://sreethangamjewellery.com/"
       },
       {
-        title: "GSpace Interior ",
-        image: "/images/services/web-deisgn/mockup-3.jpg",
+        title: "Goes Good",
+        image: "/images/services/E-commerce/mockup-3.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.9s",
         duration: "1.6s",
-        link:" https://www.gspaceinterior.com/"
+        link:"https://goesgood.in/"
       },
       {
-        title: "Gyanodhayam",
-        image: "/images/services/web-deisgn/mockup-7.jpg",
+        title: "Faso",
+        image: "/images/services/E-commerce/mockup-4.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.3s",
         duration: "1.9s",
-        link:"https://gyanodhayam.org"
+        link:"https://faso.in/"
       },
       {
-        title: "KIT - Varnam",
-        image: "/images/services/web-deisgn/mockup-5.jpg",
+        title: "Rhythm Fashion",
+        image: "/images/services/E-commerce/mockup-5.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.6s",
         duration: "1.12s",
-        link:"https://kitvarnam.in/"
+        link:"https://rhythmfashion.com/"
       },
       {
-        title: "NVM Diet & Lifestyle Clinic",
-        image: "/images/services/web-deisgn/mockup-6.jpg",
+        title: "Prade Jewels",
+        image: "/images/services/E-commerce/mockup-6.jpg",
         className: "col-lg-6 col-md-6 col-sm-6",
         delay: "0.9s",
         duration: "1.15s",
-        link:" https://nvmlifestyleclinic.com/"
+        link:"https://prade.in/"
       },
     ];
+  
+    const faqData = [
+      {
+        id: "faq6",
+        question: "1. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        answer:
+          "The course is ideal for students, marketing professionals, entrepreneurs, and anyone interested in mastering digital marketing skills.",
+      },
+      {
+        id: "faq7",
+        question: "2.Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        answer:
+          "The curriculum includes SEO, SEM, social media marketing, content marketing, email marketing, analytics, and paid advertising strategies.",
+      },
+      {
+        id: "faq8",
+        question: "3. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        answer:
+          "No prior experience is required. The course is designed for beginners as well as professionals looking to enhance their skills.",
+      },
+      {
+        id: "faq9",
+        question: "4. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        answer:
+          "Yes. The course offers live projects and real-world case studies to ensure practical learning and application of strategies.",
+      },
+      {
+        id: "faq10",
+        question: "5. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        answer:
+          "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
+      },
+      {
+        id: "faq11",
+        question: "6. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        answer:
+          "Graduates can pursue roles such as digital marketing strategist, SEO specialist, social media manager, content marketer, and more.",
+      },
+      {
+        id: "faq12",
+        question: "7. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        answer:
+          "The course duration typically ranges from 8 to 12 weeks, depending on the learning mode (full-time or part-time).",
+      },
+      {
+        id: "faq13",
+        question: "8. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        answer:
+          "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
+      },
+    ]
+
+    const Performance={
+      head:"High Performance",
+      description:"Every Web Design Development plan includes:",
+      cta:"For ASP.NET apps, we offer Windows VPS plans with Plesk Obsidian.",
+      guarantee:[
+        {
+          icon:"ti-ruler-pencil",
+          title:" 99.9% uptime guarantee.", 
+          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+        },
+        {
+          icon:"ti-ruler-pencil",
+          title:" 99.9% uptime guarantee.", 
+          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+        },
+        {
+          icon:"ti-ruler-pencil",
+          title:" 99.9% uptime guarantee.", 
+          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+        },
+        {
+          icon:"ti-ruler-pencil",
+          title:" 99.9% uptime guarantee.", 
+          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+        }
+      ],
+    
+    }
+    const Cta={
+      title:"Not sure which package is the best for you?",
+      description:"Get Expert Guidance on Web Design Packages, schedule a consultation with our experts at Zing Studio and find the perfect solution tailored to your business goals.",
+      button:"Book Free Consultation"
+    }
     
   return (
     <>
       <div className="page-wraper  ">
         <Header17 />
-        <HeroSection head={"Web Design"} option={formOption} bannerContent={bannerContent}/>
-        <ServiceList data={WebDevelopment} head={"Web Design"}/>
-        <ServiceCta/>
-        {/* <Portfolio/> */}
-        <OurWorkServices portfolioItems={portfolioItems} portfolioContent={portfolioContent}/>
-        {/* <Faq/> */}
-        <Cta />
+        <HeroSection  option={formOption} bannerContent={bannerContent} offers={offers}/>
+        
+        <ServiceList data={EcommerceDevelopment} head={"Web Design Development"} WebDesignfeatures={WebDesignfeatures}/>
+
+       <Guarantee Performance={Performance}/>
+
+
+        <WebFeatures/>
+
+        <FAQ faqData={faqData}/>
+
+        
+     
+        
+        <ServiceCta cta={Cta}/>
         <Footer13 />
       </div>
     </>

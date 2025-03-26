@@ -473,7 +473,7 @@ export const ServicesDesLink = [
   { href: "/web-design-service", label: "Web Design" },
   { href: "/digital-marketing-service", label: "Digital Marketing" },
   // { href: "/e-commerce-service", label: "E-Commerce" }
-  { href: "/e-commerce-service1", label: "E-Commerce" }
+  { href: "/e-commerce-service", label: "E-Commerce" }
 ]
 
 export const ServicesMblLink = [
@@ -481,7 +481,7 @@ export const ServicesMblLink = [
   { href: "/web-design-service", label: "Web Design" },
   { href: "/digital-marketing-service", label: "Digital Marketing" },
   // { href: "/e-commerce-service", label: "E-Commerce" },
-  { href: "/e-commerce-service1", label: "E-Commerce" }
+  { href: "/e-commerce-service", label: "E-Commerce" }
   // { href: "/academy-service", label: "Academy" },
   // { href: "/web-design", label: "Web Design" },
   // { href: "/e-commerce", label: "E-Commerce" },
