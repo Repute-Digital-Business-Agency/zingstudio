@@ -16,6 +16,7 @@ import Guarantee from "@/components/service/e-commerceService1/Guarantee";
 import EComFeatures from "@/components/service/e-commerceService1/EComFeatures";
 import WebFeatures from "@/components/service/e-commerceService1/WebFeatures";
 import DigitalFeatures from "@/components/service/e-commerceService1/DigitalFeatures";
+import ServicesCta from "@/components/service/e-commerceService1/ServicesCta";
 
 export const metadata = {
   title: "E-commerce Development || Zing Studio",
@@ -294,7 +295,7 @@ export default function page() {
         
      
         
-        <ServiceCta cta={Cta}/>
+        <ServicesCta cta={Cta}/>
         <Footer13 />
       </div>
     </>
