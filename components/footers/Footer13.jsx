@@ -86,13 +86,13 @@ export default function Footer13() {
               <div className="circle-container footer-gif">
                 <img src="/images/Academy/lets-connect/lets-connect-img.png" alt="Center GIF" className="center-gif" />
                 <div className="social-icons">
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="icon icon1" 
+                  <a href="https://www.facebook.com/irepute.agency" target="_blank" rel="noopener noreferrer" className="icon icon1" 
                   style={{padding:"5px 8px "}}
                   >
                     <i className="fab fa-facebook-f"></i>
                     {/* <img src="/images/footer/icon-1.png" alt="" /> */}
                   </a>
-                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="icon icon2" style={{padding:"1px 7px", fontWeight:"500" }}>
+                  <a href="https://x.com/ireputeagency" target="_blank" rel="noopener noreferrer" className="icon icon2" style={{padding:"1px 7px", fontWeight:"500" }}>
                     <i style={{position:"relative", bottom:"-1px", left:"-1px", fontWeight:"600"}}>
                     𝕏
                     </i>
@@ -100,19 +100,19 @@ export default function Footer13() {
 
                     {/* <img src="/images/footer/icon-2.png" alt="" /> */}
                   </a>
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="icon icon3">
+                  <a href="https://www.instagram.com/ireputeagency/" target="_blank" rel="noopener noreferrer" className="icon icon3">
                     <i className="fab fa-instagram"></i>
                     {/* <img src="/images/footer/icon-3.png" alt="" /> */}
                   </a>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="icon icon4">
+                  <a href="https://www.linkedin.com/company/irepute-agency" target="_blank" rel="noopener noreferrer" className="icon icon4">
                     <i className="fab fa-linkedin-in"></i>
                     {/* <img src="/images/footer/icon-4.png" alt="" /> */}
                   </a>
-                  <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="icon icon5">
+                  <a href="https://www.youtube.com/@ireputeagency" target="_blank" rel="noopener noreferrer" className="icon icon5">
                     <i className="fab fa-youtube"></i>
                     {/* <img src="/images/footer/icon-5.png" alt="" /> */}
                   </a>
-                  <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" className="icon icon6">
+                  <a href="https://in.pinterest.com/ireputeagency/" target="_blank" rel="noopener noreferrer" className="icon icon6">
                     <i className="fab fa-pinterest"></i>
                     {/* <img src="/images/footer/icon-6.png" alt="" /> */}
                   </a>
@@ -174,7 +174,7 @@ export default function Footer13() {
               <div className="widget-link">
                 <ul>
                   <li>
-                    <Link href={`/help-desk`}> Help Desk</Link>
+                    <Link href={`#`}> Help Desk</Link>
                   </li>
                   <li>
                     <Link href={`/privacy-policy`}> Privacy Policy</Link>

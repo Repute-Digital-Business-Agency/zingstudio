@@ -11,7 +11,7 @@ const WebFeatures = () => {
                     <div className="item-1 wow fadeInUp pb-2 p-sm-b100"
                                 data-wow-delay="0.6s" >
                         <p className="mb-2 fw-bold">Lorem ipsum dolor sit </p>
-                    <h2 className="hosting-titles">web design process for delivering exceptional websites:
+                    <h2 className="hosting-titles">Web design process for delivering exceptional websites:
                     </h2>
                     <p className="hosting-description ">
                         You get speedier page-load times, tools to help grow your business, and essential security measures to build trust and help protect user data. Plus, you get peace of mind with a money-back guarantee.
