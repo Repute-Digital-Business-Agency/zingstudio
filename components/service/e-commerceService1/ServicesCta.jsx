@@ -6,7 +6,7 @@ export default function ServicesCta({cta}) {
       className="section-full call-action  wow fadeIn"
       data-wow-duration="2s"
       data-wow-delay="0.3s"
-      style={{background:"#e21100"}}
+      style={{background:"rgb(210 53 48)"}}
     >
       <div className="container">
         <div className="row">

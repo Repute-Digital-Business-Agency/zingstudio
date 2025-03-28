@@ -17,6 +17,7 @@ import EComFeatures from "@/components/service/e-commerceService1/EComFeatures";
 import WebFeatures from "@/components/service/e-commerceService1/WebFeatures";
 import DigitalFeatures from "@/components/service/e-commerceService1/DigitalFeatures";
 import ServicesCta from "@/components/service/e-commerceService1/ServicesCta";
+import ServicePortfolio from "@/components/service/e-commerceService1/portfolio";
 
 export const metadata = {
   title: "E-commerce Development || Zing Studio",
@@ -145,12 +146,12 @@ export default function page() {
     }
     const portfolioItems = [
       {
-        title: "Filmode Fashon",
-        image: "/images/services/E-commerce/mockup-1.jpg",
-        className: "col-lg-6 col-md-6 col-sm-6",
-        delay: "0.3s",
-        duration: "1s",
-        link:"https://filmodefashion.com/"
+        title: "Rhythm Fashion",
+        image: "/images/services/E-commerce/mockup-5.jpg",
+        className: "col-lg-3 col-md-3 col-sm-6",
+        delay: "0.6s",
+        duration: "1.12s",
+        link:"https://rhythmfashion.com/"
       },
       {
         title: "Thangam Jewelry",
@@ -176,22 +177,23 @@ export default function page() {
         duration: "1.9s",
         link:"https://faso.in/"
       },
-      {
-        title: "Rhythm Fashion",
-        image: "/images/services/E-commerce/mockup-5.jpg",
-        className: "col-lg-3 col-md-3 col-sm-6",
-        delay: "0.6s",
-        duration: "1.12s",
-        link:"https://rhythmfashion.com/"
-      },
-      {
-        title: "Prade Jewels",
-        image: "/images/services/E-commerce/mockup-6.jpg",
-        className: "col-lg-6 col-md-6 col-sm-6",
-        delay: "0.9s",
-        duration: "1.15s",
-        link:"https://prade.in/"
-      },
+     
+      // {
+      //   title: "Prade Jewels",
+      //   image: "/images/services/E-commerce/mockup-6.jpg",
+      //   className: "col-lg-6 col-md-6 col-sm-6",
+      //   delay: "0.9s",
+      //   duration: "1.15s",
+      //   link:"https://prade.in/"
+      // },
+      // {
+      //   title: "Filmode Fashon",
+      //   image: "/images/services/E-commerce/mockup-1.jpg",
+      //   className: "col-lg-6 col-md-6 col-sm-6",
+      //   delay: "0.3s",
+      //   duration: "1s",
+      //   link:"https://filmodefashion.com/"
+      // },
     ];
   
     const faqData = [
@@ -221,19 +223,19 @@ export default function page() {
       },
       {
         id: "faq10",
-        question: "5.How long will it take to see results?",
+        question: "5. How long will it take to see results?",
         answer:
           "Results vary depending on the service and strategy applied. While paid advertising campaigns may show immediate results, SEO and organic marketing typically take 3 to 6 months to yield noticeable outcomes.",
       },
       {
         id: "faq11",
-        question: "6.What platforms do you specialize in?",
+        question: "6. What platforms do you specialize in?",
         answer:
           "We work on various platforms including Google, Facebook, Instagram, LinkedIn, Twitter, YouTube, and more, ensuring a well-rounded digital presence.",
       },
       {
         id: "faq12",
-        question: "7.Can you help with branding and website development?",
+        question: "7. Can you help with branding and website development?",
         answer:
           "Yes! We offer branding services, website design, and development to create a visually appealing and functional online presence for your business.",
       },
@@ -251,7 +253,7 @@ export default function page() {
       },
       {
         id: "faq15",
-        question: "8.How can I get started?",
+        question: "10. How can I get started?",
         answer:
           "Contact us today for a free consultation. Our team will guide you through the best digital marketing strategies to grow your business!",
       },
@@ -303,6 +305,8 @@ export default function page() {
 
 
         <DigitalFeatures/>
+
+        <ServicePortfolio portfolioItems={portfolioItems} portfolioContent={portfolioContent}/>
 
         <FAQ faqData={faqData}/>
 

@@ -200,7 +200,7 @@ export default function Faq1() {
               </div>
             </div>
 
-            <div className="row py-5 px-2 text-white m-0" style={{background:"#e21100"}}>
+            <div className="row py-5 px-2 text-white m-0" style={{background:"#d23530"}}>
             <div className="col-12 col-lg-8  mx-auto" >
             <div className="row">
             <h2 className="title mb-1">Apply Now</h2>

@@ -5,7 +5,7 @@ const WebFeatures = () => {
   return (
    <div className="container-fluid py-5 bg-white">
      <div className="web-hosting-container container ">
-        <div className="row">
+        <div className="row relative">
             <div className="col-12 col-sm-6">
                 <div className=" d-flex flex-column">
                     <div className="item-1 wow fadeInUp pb-2 p-sm-b100"
@@ -102,7 +102,17 @@ const WebFeatures = () => {
                     </div>
                     </div>
             </div>
-         </div>
+           </div>
+
+           <div className="moveAnimation" style={{ position: "absolute", bottom: "0px", right: "0px", width:"auto", animation: "moveImage5 5s linear infinite",
+                                                // border:"1px solid red"
+                                        }}>
+                                                <img
+                                                src="/images/Academy/lets-connect/animation.png"
+                                                // src="/images/Academy/lets-connect/lets-connect-img.png"
+                                                // style={{ width: "40%" }}
+                                                />
+                                        </div>
         </div>
 
 

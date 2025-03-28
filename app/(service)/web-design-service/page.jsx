@@ -15,6 +15,7 @@ import FAQ from "@/components/service/FAQ";
 import Guarantee from "@/components/service/e-commerceService1/Guarantee";
 import WebFeatures from "@/components/service/e-commerceService1/WebFeatures";
 import ServicesCta from "@/components/service/e-commerceService1/ServicesCta";
+import ServicePortfolio from "@/components/service/e-commerceService1/portfolio";
 
 export const metadata = {
   title: "E-commerce Development || Zing Studio",
@@ -135,8 +136,8 @@ export default function page() {
     const portfolioItems = [
       {
         title: "Filmode Fashon",
-        image: "/images/services/E-commerce/mockup-1.jpg",
-        className: "col-lg-6 col-md-6 col-sm-6",
+        image: "/images/services/E-commerce/mockup-5.jpg",
+        className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.3s",
         duration: "1s",
         link:"https://filmodefashion.com/"
@@ -165,22 +166,22 @@ export default function page() {
         duration: "1.9s",
         link:"https://faso.in/"
       },
-      {
-        title: "Rhythm Fashion",
-        image: "/images/services/E-commerce/mockup-5.jpg",
-        className: "col-lg-3 col-md-3 col-sm-6",
-        delay: "0.6s",
-        duration: "1.12s",
-        link:"https://rhythmfashion.com/"
-      },
-      {
-        title: "Prade Jewels",
-        image: "/images/services/E-commerce/mockup-6.jpg",
-        className: "col-lg-6 col-md-6 col-sm-6",
-        delay: "0.9s",
-        duration: "1.15s",
-        link:"https://prade.in/"
-      },
+      // {
+      //   title: "Rhythm Fashion",
+      //   image: "/images/services/E-commerce/mockup-5.jpg",
+      //   className: "col-lg-3 col-md-3 col-sm-6",
+      //   delay: "0.6s",
+      //   duration: "1.12s",
+      //   link:"https://rhythmfashion.com/"
+      // },
+      // {
+      //   title: "Prade Jewels",
+      //   image: "/images/services/E-commerce/mockup-6.jpg",
+      //   className: "col-lg-6 col-md-6 col-sm-6",
+      //   delay: "0.9s",
+      //   duration: "1.15s",
+      //   link:"https://prade.in/"
+      // },
     ];
   
     const faqData = [
@@ -192,19 +193,19 @@ export default function page() {
       },
       {
         id: "faq7",
-        question: "2.How involved will I be in the design process?",
+        question: "2. How involved will I be in the design process?",
         answer:
           "We encourage collaboration and will involve you at every major milestone, from concept approval to design review and final testing.",
       },
       {
         id: "faq8",
-        question: "3.Will my website be mobile-friendly?",
+        question: "3. Will my website be mobile-friendly?",
         answer:
           "Absolutely! All our designs are responsive and optimized to work seamlessly across all devices, including smartphones and tablets.",
       },
       {
         id: "faq9",
-        question: "4.Can I request changes once the design is complete?",
+        question: "4. Can I request changes once the design is complete?",
         answer:
           "Yes, we offer revision rounds during the design phase to ensure your satisfaction before proceeding to development.",
       },
@@ -228,13 +229,13 @@ export default function page() {
       },
       {
         id: "faq13",
-        question: "8.Will my website be SEO-friendly?",
+        question: "8. Will my website be SEO-friendly?",
         answer:
           "Definitely! We follow best practices for SEO during the design and development stages to enhance your website’s visibility.",
       },
       {
         id: "faq14",
-        question: "9.How much will the web design project cost?",
+        question: "9. How much will the web design project cost?",
         answer:
           "The cost depends on the features and complexity of the website. We offer customized quotes based on your requirements.",
       },
@@ -292,6 +293,8 @@ export default function page() {
 
 
         <WebFeatures/>
+
+        <ServicePortfolio portfolioItems={portfolioItems} portfolioContent={portfolioContent}/>
 
         <FAQ faqData={faqData}/>
 

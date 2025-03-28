@@ -33,7 +33,7 @@ const ServiceList = ({data,head,WebDesignfeatures}) => {
                     
                         {data?.map((data,index)=>(
                              <div className={`wow fadeInUp col-sm-12 ${length === 2 ? "col-md-6 col-lg-6 col-xl-5 " : "col-md-4 col-lg-4"} ${length === 4 ? "col-md-6 col-lg-6 " : "col-md-4 col-lg-4 "} mb-4 d-flex `} data-wow-delay={data.delay}>
-                             <div className="pricingtable-wrapper d-flex flex-column"  >
+                             <div className="pricingtable-wrapper d-flex flex-column w-100"  >
                                <div className={`pricingtable-inner flex-grow-1`}>
                                 <div className="pricing-card h-100 d-flex flex-column ">
                                   <div className="card-body flex-grow-1">
@@ -43,8 +43,11 @@ const ServiceList = ({data,head,WebDesignfeatures}) => {
                                       </span>
                                     </p>
                                     <h1 className="price mb-0">₹ {data.price} <span className="text-muted">/mo</span></h1>
-                                    <p className="small text-black">
+                                    {/* <p className="small text-black">
                                     {data.condition}
+                                    </p> */}
+                                    <p className="small text-black" dangerouslySetInnerHTML={{__html:data.condition}}>
+                                    
                                     </p>
                                    
                                     <a href="/contact"

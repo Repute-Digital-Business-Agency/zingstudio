@@ -63,7 +63,7 @@ export default function HeroSection({head,option,bannerContent,offers}) {
 
                             <div className="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.6s">
                                 <a
-                                    href="#pricing"
+                                    href="/contact"
                                     className="site-button btnhover20 "
                                 >
                                     <span>Get a quote</span>

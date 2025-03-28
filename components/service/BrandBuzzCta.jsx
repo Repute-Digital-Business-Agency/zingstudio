@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 export default function BrandBuzzCta() {
   return (
-    <div className="section-full call-action  wow fadeIn"  data-wow-duration="2s" data-wow-delay="0.2s" style={{background:"#e21100"}}>
+    <div className="section-full call-action  wow fadeIn"  data-wow-duration="2s" data-wow-delay="0.2s" style={{background:"#d23530"}}>
       <div className="container">
         <div className="row">
           <div className="col-lg-9 text-white wow fadeInUp"
