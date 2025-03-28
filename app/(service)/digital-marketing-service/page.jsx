@@ -112,10 +112,10 @@ export default function page() {
     ]
     const bannerContent = {
       src:"https://img1.wsimg.com/cdnassets/transform/c50e55dd-152b-45c6-815a-f7164b2a87aa/FOSMO-98392-WH-SLP-New-Marquee-Image-without-cPanel",
-        head:"Digital Marketing Development that's fast and reliable.",
+        head:"Boost Visibility, Engage Audiences, and Drive Results with Our Digital Marketing Expertise!",
       caption:"Digital Marketing",
-      subTitle:"From personal sites to high-performance sites, get hosting you can trust.",
-      description:"Our Web Hosting experts are happy to help you.",
+      subTitle:"Drive growth with targeted digital strategies that maximize impact.",
+      description:"Our Digital Marketing pros are here to boost your brand!",
       rating:"4.6 out of 5 stars ",
       
         icon:[
@@ -124,17 +124,19 @@ export default function page() {
           <i className="ti-time " />
         ],
         list:[
-            "99.9% uptime — guaranteed.",
-        "Free SSL certificate for all your sites. ",
-        "Optimized high-performance hosting. "
+            "Data-Driven Campaigns",
+        "Multi-Channel Strategies",
+        "Performance Tracking"
         ],
       
         formTitle:"Build. Scale. Succeed. ",
-      formCaption:"From powerful e-commerce platforms to smart SaaS solutions and flexible open-source development, we’ve got the tools to fuel digital growth. Let’s create something extraordinary—connect now! "
+      formCaption:"From powerful e-commerce platforms to smart SaaS solutions and flexible open-source development, we’ve got the tools to fuel digital growth. Let’s create something extraordinary—connect now! ",
+
+      about:"Drive measurable growth with our result-oriented digital marketing services. From data-driven strategies to optimized campaigns, we enhance your online visibility and ensure meaningful engagement. Partner with us to build a stronger digital presence and achieve your business goals efficiently."
     }
     const offers={
-      head:"Special offer for new customers.",
-      caption:"Pay only ₹199.00 /mo (1-year term) for a Web Hosting Economy plan. ",
+      head:"Establish Your Brand Digitally with Expert Digital Marketing Solutions",
+      caption:"Drive measurable growth with our result-oriented digital marketing services. From data-driven strategies to optimized campaigns, we enhance your online visibility and ensure meaningful engagement. Partner with us to build a stronger digital presence and achieve your business goals efficiently.",
       code:"Promo code: HOSTING25"
 }
 
@@ -195,78 +197,90 @@ export default function page() {
     const faqData = [
       {
         id: "faq6",
-        question: "1. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "1. What is digital marketing?",
         answer:
-          "The course is ideal for students, marketing professionals, entrepreneurs, and anyone interested in mastering digital marketing skills.",
+          " Digital marketing involves promoting products, services, or brands using online platforms such as search engines, social media, email, and websites. It’s a powerful way to reach and engage your target audience.",
       },
       {
         id: "faq7",
-        question: "2.Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "2. Why is digital marketing important for my business? ",
         answer:
-          "The curriculum includes SEO, SEM, social media marketing, content marketing, email marketing, analytics, and paid advertising strategies.",
+          "Digital marketing helps businesses reach a broader audience, increase brand visibility, generate leads, and boost sales. It’s cost-effective and provides measurable results.",
       },
       {
         id: "faq8",
-        question: "3. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "3. What services do you offer under digital marketing?",
         answer:
-          "No prior experience is required. The course is designed for beginners as well as professionals looking to enhance their skills.",
+          "We offer a comprehensive range of services including:  <br/> <ul class='px-3 mt-2'><li >Search Engine Optimization (SEO)</li> <li >Social Media Marketing (SMM)</li><li >Pay-Per-Click Advertising (PPC)</li><li>Content Marketing </li><li>Email Marketing</li><li>Influencer Marketing</li><li>Web Design & Development</li><li>Analytics & Reporting</li></ul>",
       },
       {
         id: "faq9",
-        question: "4. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "4. How do I know which digital marketing service is right for my business? ",
         answer:
-          "Yes. The course offers live projects and real-world case studies to ensure practical learning and application of strategies.",
+          "We conduct a detailed analysis of your business, industry, and target audience to recommend a customized digital marketing strategy that aligns with your goals.",
       },
       {
         id: "faq10",
-        question: "5. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "5.How long will it take to see results?",
         answer:
-          "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
+          "Results vary depending on the service and strategy applied. While paid advertising campaigns may show immediate results, SEO and organic marketing typically take 3 to 6 months to yield noticeable outcomes.",
       },
       {
         id: "faq11",
-        question: "6. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "6.What platforms do you specialize in?",
         answer:
-          "Graduates can pursue roles such as digital marketing strategist, SEO specialist, social media manager, content marketer, and more.",
+          "We work on various platforms including Google, Facebook, Instagram, LinkedIn, Twitter, YouTube, and more, ensuring a well-rounded digital presence.",
       },
       {
         id: "faq12",
-        question: "7. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "7.Can you help with branding and website development?",
         answer:
-          "The course duration typically ranges from 8 to 12 weeks, depending on the learning mode (full-time or part-time).",
+          "Yes! We offer branding services, website design, and development to create a visually appealing and functional online presence for your business.",
       },
       {
         id: "faq13",
-        question: "8. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "8. How much does digital marketing cost? ",
         answer:
-          "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
+          "The cost depends on the scope of services, the size of your business, and your goals. We offer flexible packages to suit different budgets.",
+      },
+      {
+        id: "faq14",
+        question: "9. How will I track the progress of my digital marketing campaigns?",
+        answer:
+          "We provide regular reports with key performance indicators (KPIs) and analytics to measure the effectiveness of your campaigns.",
+      },
+      {
+        id: "faq15",
+        question: "8.How can I get started?",
+        answer:
+          "Contact us today for a free consultation. Our team will guide you through the best digital marketing strategies to grow your business!",
       },
     ]
 
     const Performance={
       head:"High Performance",
       description:"Every Digital Marketing plan includes:",
-      cta:"For ASP.NET apps, we offer Windows VPS plans with Plesk Obsidian.",
+      cta:"From goal-setting and market analysis to campaign execution and performance tracking, we ensure measurable growth. Enhance Your Digital Presence with Confidence. Connect with us today!",
       guarantee:[
         {
           icon:"ti-ruler-pencil",
-          title:" 99.9% uptime guarantee.", 
-          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+          title:" Tailored Strategies:", 
+          caption:" Personalized plans aligned with business goals."
         },
         {
           icon:"ti-ruler-pencil",
-          title:" 99.9% uptime guarantee.", 
-          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+          title:"Targeted Reach:", 
+          caption:" Effective audience engagement through data insights."
         },
         {
           icon:"ti-ruler-pencil",
-          title:" 99.9% uptime guarantee.", 
-          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+          title:"Performance Tracking:", 
+          caption:"Real-time analytics for measurable growth."
         },
         {
           icon:"ti-ruler-pencil",
-          title:" 99.9% uptime guarantee.", 
-          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+          title:"Multi-Channel Approach:", 
+          caption:"Integrated campaigns across platforms for maximum impact."
         }
       ],
     

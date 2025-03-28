@@ -66,7 +66,7 @@ export default function HeroSection({head,option,bannerContent,offers}) {
                                     href="#pricing"
                                     className="site-button btnhover20 "
                                 >
-                                    <span>See Plans And Pricing</span>
+                                    <span>Get a quote</span>
                                 </a>
                             </div>
 
@@ -79,7 +79,7 @@ export default function HeroSection({head,option,bannerContent,offers}) {
 
                             </h5>
 
-                            <h3
+                            {/* <h3
                             className="font-weight-400 mt-3  wow fadeInUp"
                             data-wow-delay="0.6s"
                             style={{fontSize:"15px"}}
@@ -93,7 +93,7 @@ export default function HeroSection({head,option,bannerContent,offers}) {
                                 </span>
                             {bannerContent.rating}
 
-                            </h3>
+                            </h3> */}
 
 
                                         
@@ -101,8 +101,15 @@ export default function HeroSection({head,option,bannerContent,offers}) {
                             
                             {/* </ul> */}
                         </div>
+
+
                         
                     </div>
+                    {/* <div className="row m-0">
+                        <p>
+                        {bannerContent?.about}
+                        </p>
+                    </div> */}
                 </div>
             </div>
         
@@ -118,16 +125,16 @@ export default function HeroSection({head,option,bannerContent,offers}) {
     >
     <div className="container">
     <div className="row">
-        <div className="col-lg-12 text-center service-info">
+        <div className="col-lg-12 text-center ">
         <h2 className="title text-white mb-3">
         {offers.head}
         </h2>
         <p>
         {offers.caption}
         </p>
-        <p className="mt-3">
+        {/* <p className="mt-3">
         {offers.code}
-        </p>
+        </p> */}
         </div>
     </div>
     </div>

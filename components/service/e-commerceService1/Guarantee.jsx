@@ -64,8 +64,8 @@ const Guarantee = ({Performance}) => {
           <div className="row">
               <div className="col-lg-12 text-center service-info">
 
-              <p>
-              {Performance.cta}
+              <p dangerouslySetInnerHTML={{__html: Performance.cta}}>
+             
               </p>
            
               

@@ -19496,6 +19496,21 @@ input[type="radio"]+label:hover:before {
   }
 }
 
+@keyframes moveImage5 {
+  0% {
+    bottom: 180px;
+    right: 280px;
+  }
+  50% {
+    bottom: 100px; 
+    right: 280px; 
+  }
+  100% {
+    bottom:180px;
+    right: 280px; 
+  }
+}
+
 
 
 .zingFluence .content-sec{

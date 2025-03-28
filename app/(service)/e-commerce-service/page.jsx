@@ -117,10 +117,10 @@ export default function page() {
     ]
     const bannerContent = {
       src:"https://img1.wsimg.com/cdnassets/transform/c50e55dd-152b-45c6-815a-f7164b2a87aa/FOSMO-98392-WH-SLP-New-Marquee-Image-without-cPanel",
-        head:"E-Commerce Development that's fast and reliable.",
+        head:"Scalable and Seamless E-Commerce Solutions for Business Growth.",
       caption:"E-Commerce",
-      subTitle:"From personal sites to high-performance sites, get hosting you can trust.",
-      description:"Our Web Hosting experts are happy to help you.",
+      subTitle:"Custom E-Commerce solutions for smooth operations, better user experiences, and faster growth.",
+      description:"Our Web Development experts are ready to assist you!",
       rating:"4.6 out of 5 stars ",
       
         icon:[
@@ -129,17 +129,18 @@ export default function page() {
           <i className="ti-time " />
         ],
         list:[
-            "99.9% uptime — guaranteed.",
-        "Free SSL certificate for all your sites. ",
-        "Optimized high-performance hosting. "
+            "Seamless Integration",
+        "User-Centric Design ",
+        "Scalable Growth "
         ],
       
         formTitle:"Build. Scale. Succeed. ",
-      formCaption:"From powerful e-commerce platforms to smart SaaS solutions and flexible open-source development, we’ve got the tools to fuel digital growth. Let’s create something extraordinary—connect now! "
+      formCaption:"From powerful e-commerce platforms to smart SaaS solutions and flexible open-source development, we’ve got the tools to fuel digital growth. Let’s create something extraordinary—connect now! ",
+       about:"Zing Studio provides comprehensive E-Commerce solutions designed to meet the unique needs of your business. Our platforms offer seamless integration with payment gateways, logistics,and inventory management systems, ensuring operational efficiency. With a focus on user- friendly design, we deliver engaging shopping experiences that drive customer satisfaction and sales. Our scalable solutions adapt to your business growth, while our dedicated support team ensures continuous performance and optimization. Partner with us to build a robust online presence and achieve long-term success."
     }
     const offers={
       head:"Special offer for new customers.",
-      caption:"Pay only ₹199.00 /mo (1-year term) for a Web Hosting Economy plan. ",
+      caption:"Zing Studio provides comprehensive E-Commerce solutions designed to meet the unique needs of your business. Our platforms offer seamless integration with payment gateways, logistics,and inventory management systems, ensuring operational efficiency. With a focus on user- friendly design, we deliver engaging shopping experiences that drive customer satisfaction and sales. Our scalable solutions adapt to your business growth, while our dedicated support team ensures continuous performance and optimization. Partner with us to build a robust online presence and achieve long-term success. ",
       code:"Promo code: HOSTING25"
 }
 
@@ -200,77 +201,77 @@ export default function page() {
     const faqData = [
       {
         id: "faq6",
-        question: "1. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "1. What types of E-Commerce solutions do you offer?",
         answer:
-          "The course is ideal for students, marketing professionals, entrepreneurs, and anyone interested in mastering digital marketing skills.",
+          "We provide custom E-Commerce development, platform integration, marketplace solutions,and tailored solutions for B2B and B2C businesses.",
       },
       {
         id: "faq7",
-        question: "2.Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "2.Can you integrate third-party tools and payment gateways?",
         answer:
-          "The curriculum includes SEO, SEM, social media marketing, content marketing, email marketing, analytics, and paid advertising strategies.",
+          "Yes, we integrate various payment gateways, CRM, ERP, and third-party tools to streamline operations.",
       },
       {
         id: "faq8",
-        question: "3. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "3. How do you ensure security for my E-Commerce platform?",
         answer:
-          "No prior experience is required. The course is designed for beginners as well as professionals looking to enhance their skills.",
+          "We implement robust security measures including SSL encryption, secure payment gateways,and regular audits.",
       },
       {
         id: "faq9",
-        question: "4. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "4. Will my E-Commerce site be mobile-friendly?",
         answer:
-          "Yes. The course offers live projects and real-world case studies to ensure practical learning and application of strategies.",
+          "Absolutely! We ensure responsive designs that provide a seamless experience across all devices.",
       },
       {
         id: "faq10",
-        question: "5. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "5. Do you offer post-launch support and maintenance?",
         answer:
-          "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
+          "Yes, we offer ongoing support, maintenance, and performance optimization to ensure your platform runs smoothly.",
       },
       {
         id: "faq11",
-        question: "6. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "6. Can my E-Commerce site be scaled as my business grows?",
         answer:
-          "Graduates can pursue roles such as digital marketing strategist, SEO specialist, social media manager, content marketer, and more.",
+          "Certainly! Our solutions are designed to be scalable, accommodating your growing business needs.",
       },
       {
         id: "faq12",
-        question: "7. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "7. How long does it take to develop an E-Commerce website?",
         answer:
-          "The course duration typically ranges from 8 to 12 weeks, depending on the learning mode (full-time or part-time).",
+          "Timelines vary depending on project complexity, but we provide clear milestones and updates throughout the development process.",
       },
       {
         id: "faq13",
-        question: "8. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "8. Do you offer SEO and digital marketing support for my E-Commerce site?",
         answer:
-          "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
+          "Yes, we offer SEO, digital marketing, and content management services to help drive traffic and sales.",
       },
     ]
     const Performance={
       head:"High Performance",
       description:"Every E-Commerce plan includes:",
-      cta:"For ASP.NET apps, we offer Windows VPS plans with Plesk Obsidian.",
+      cta:"From concept to launch, we transform ideas into high-performing e-commerce platforms. Focused on customization, functionality, and growth, our expert approach ensures success. Launch, Grow, and Succeed Online — Get Started with Us!",
       guarantee:[
         {
           icon:"ti-ruler-pencil",
-          title:" 99.9% uptime guarantee.", 
-          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+          title:" Seamless Integration:", 
+          caption:"Effortless connectivity with payment gateways, logistics, and third-party tools."
         },
         {
           icon:"ti-ruler-pencil",
-          title:" 99.9% uptime guarantee.", 
-          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+          title:" User-Centric Design:", 
+          caption:"Intuitive interfaces for enhanced customer experience and engagement."
         },
         {
           icon:"ti-ruler-pencil",
-          title:" 99.9% uptime guarantee.", 
-          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+          title:" Scalable Solutions:", 
+          caption:"Flexible platforms that grow alongside your business."
         },
         {
           icon:"ti-ruler-pencil",
-          title:" 99.9% uptime guarantee.", 
-          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+          title:"Robust Security:", 
+          caption:"Advanced security measures to protect customer data and transactions."
         }
       ],
     

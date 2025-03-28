@@ -102,10 +102,10 @@ export default function page() {
     ]
     const bannerContent = {
       src:"https://img1.wsimg.com/cdnassets/transform/c50e55dd-152b-45c6-815a-f7164b2a87aa/FOSMO-98392-WH-SLP-New-Marquee-Image-without-cPanel",
-        head:"Web Design Development that's fast and reliable.",
+        head:"Craft Stunning Websites that Captivate, Engage, and Convert with our Web Designing Expertise!",
       caption:"Web Design",
-      subTitle:"From personal sites to high-performance sites, get hosting you can trust.",
-      description:"Our Web Hosting experts are happy to help you.",
+      subTitle:"Designing Websites that Work, Impress, and Convert!",
+      description:"Let our Web Design experts bring your vision to life!",
       rating:"4.6 out of 5 stars ",
       
         icon:[
@@ -114,17 +114,18 @@ export default function page() {
           <i className="ti-time " />
         ],
         list:[
-            "99.9% uptime — guaranteed.",
-        "Free SSL certificate for all your sites. ",
-        "Optimized high-performance hosting. "
+            "User-Centric Design",
+        "Responsive & Mobile-Friendly",
+        "SEO-Optimized for Visibility"
         ],
       
         formTitle:"Build. Scale. Succeed. ",
-      formCaption:"From powerful e-commerce platforms to smart SaaS solutions and flexible open-source development, we’ve got the tools to fuel digital growth. Let’s create something extraordinary—connect now! "
+      formCaption:"From powerful e-commerce platforms to smart SaaS solutions and flexible open-source development, we’ve got the tools to fuel digital growth. Let’s create something extraordinary—connect now! ",
+      about:"Create stunning, user-friendly websites that captivate and convert. Our web design solutions combine creativity with functionality, ensuring a seamless user experience across all devices. Let us build a digital presence that leaves a lasting impression."
     }
     const offers={
-      head:"Special offer for new customers.",
-      caption:"Pay only ₹199.00 /mo (1-year term) for a Web Hosting Economy plan. ",
+      head:"Transform Your Online Presence with Expert Web Design.",
+      caption:"Create stunning, user-friendly websites that captivate and convert. Our web design solutions combine creativity with functionality, ensuring a seamless user experience across all devices. Let us build a digital presence that leaves a lasting impression.",
       code:"Promo code: HOSTING25"
 }
 
@@ -185,78 +186,90 @@ export default function page() {
     const faqData = [
       {
         id: "faq6",
-        question: "1. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "1. What is the typical timeline for a web design project?",
         answer:
-          "The course is ideal for students, marketing professionals, entrepreneurs, and anyone interested in mastering digital marketing skills.",
+          "The timeline varies depending on the complexity and requirements of the project. On average, it takes 4 to 8 weeks to complete a standard website.",
       },
       {
         id: "faq7",
-        question: "2.Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "2.How involved will I be in the design process?",
         answer:
-          "The curriculum includes SEO, SEM, social media marketing, content marketing, email marketing, analytics, and paid advertising strategies.",
+          "We encourage collaboration and will involve you at every major milestone, from concept approval to design review and final testing.",
       },
       {
         id: "faq8",
-        question: "3. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "3.Will my website be mobile-friendly?",
         answer:
-          "No prior experience is required. The course is designed for beginners as well as professionals looking to enhance their skills.",
+          "Absolutely! All our designs are responsive and optimized to work seamlessly across all devices, including smartphones and tablets.",
       },
       {
         id: "faq9",
-        question: "4. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "4.Can I request changes once the design is complete?",
         answer:
-          "Yes. The course offers live projects and real-world case studies to ensure practical learning and application of strategies.",
+          "Yes, we offer revision rounds during the design phase to ensure your satisfaction before proceeding to development.",
       },
       {
         id: "faq10",
-        question: "5. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "5. Do you provide content for the website?",
         answer:
-          "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
+          "We can assist with content creation or work with the content you provide. Our team also offers copywriting services if needed.",
       },
       {
         id: "faq11",
-        question: "6. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "6. What platforms do you use for website development?",
         answer:
-          "Graduates can pursue roles such as digital marketing strategist, SEO specialist, social media manager, content marketer, and more.",
+          "We work with a variety of platforms like WordPress, Shopify, and custom solutions depending on your needs.",
       },
       {
         id: "faq12",
-        question: "7. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "7. Do you offer website maintenance and support?",
         answer:
-          "The course duration typically ranges from 8 to 12 weeks, depending on the learning mode (full-time or part-time).",
+          "Yes, we provide ongoing maintenance packages to keep your website updated, secure, and performing at its best.",
       },
       {
         id: "faq13",
-        question: "8. Lorem ipsum dolor sit, amet consectetur adipisicing elit.?",
+        question: "8.Will my website be SEO-friendly?",
         answer:
-          "Yes. Participants will receive a certification upon successfully completing the course, validating their digital marketing expertise.",
+          "Definitely! We follow best practices for SEO during the design and development stages to enhance your website’s visibility.",
+      },
+      {
+        id: "faq14",
+        question: "9.How much will the web design project cost?",
+        answer:
+          "The cost depends on the features and complexity of the website. We offer customized quotes based on your requirements.",
+      },
+      {
+        id: "faq15",
+        question: "10. How do I get started?",
+        answer:
+          "Simply contact us to schedule a consultation. We’ll discuss your vision, goals, and how we can bring your website to life!",
       },
     ]
 
     const Performance={
       head:"High Performance",
-      description:"Every Web Design Development plan includes:",
-      cta:"For ASP.NET apps, we offer Windows VPS plans with Plesk Obsidian.",
+      description:"Every Web Design plan includes:",
+      cta:"From understanding brand goals to delivering a responsive, user-friendly website, we ensure every step drives engagement and results. <br/>From Vision to Website — See the Magic of Our Design Process!",
       guarantee:[
         {
           icon:"ti-ruler-pencil",
-          title:" 99.9% uptime guarantee.", 
-          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+          title:" Responsive Design:", 
+          caption:"Seamless experience across all devices."
         },
         {
           icon:"ti-ruler-pencil",
-          title:" 99.9% uptime guarantee.", 
-          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+          title:" User-Centric Interface:", 
+          caption:"Engaging, intuitive, and easy to navigate."
         },
         {
           icon:"ti-ruler-pencil",
-          title:" 99.9% uptime guarantee.", 
-          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+          title:"SEO-Optimized:", 
+          caption:"Designed to rank higher on search engines."
         },
         {
           icon:"ti-ruler-pencil",
-          title:" 99.9% uptime guarantee.", 
-          caption:" We guarantee your site’s uptime, so you don’t miss customers."
+          title:"Custom Solutions:", 
+          caption:" Tailored to reflect brand identity and goals."
         }
       ],
     

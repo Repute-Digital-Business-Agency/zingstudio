@@ -33,7 +33,7 @@ export default function FAQ({faqData}) {
                         className="acod-body collapse"
                         data-bs-parent="#accordion2"
                       >
-                        <div className="acod-content">{faq.answer}</div>
+                        <div className="acod-content" dangerouslySetInnerHTML={{__html:faq.answer}}></div>
                       </div>
                     </div>
                   ))}
