@@ -281,7 +281,7 @@ export default function page() {
 
     const Cta={
       title:"Not sure which package is the best for you?",
-      description:"Get Expert Guidance on Web Design Packages, schedule a consultation with our experts at Zing Studio and find the perfect solution tailored to your business goals.",
+      description:"Get Expert Guidance on E-Commerce Packages, schedule a consultation with our experts at Zing Studio and find the perfect solution tailored to your business goals.",
       button:"Book Free Consultation"
     }
     

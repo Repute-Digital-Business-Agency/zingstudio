@@ -142,7 +142,7 @@ export default function page() {
 }
 
     const portfolioContent ={
-     description: "Discover a portfolio of e-commerce projects engineered for optimal user experiences, secure transactions, and scalable growth. Each solution is tailored to enhance customer engagement, drive sales, and support sustained digital success."
+     description: "Check out how we turn clicks into connections! From buzzworthy social media campaigns to SEO strategies that rank, our digital marketing projects are all about making brands shine and results soar."
     }
     const portfolioItems = [
       {
@@ -289,7 +289,7 @@ export default function page() {
     }
     const Cta={
       title:"Not sure which package is the best for you?",
-      description:"Get Expert Guidance on Web Design Packages, schedule a consultation with our experts at Zing Studio and find the perfect solution tailored to your business goals.",
+      description:"Get Expert Guidance on Digital Marketing Packages, schedule a consultation with our experts at Zing Studio and find the perfect solution tailored to your business goals.",
       button:"Book Free Consultation"
     }
 
