@@ -293,20 +293,20 @@ export default function page() {
             animation: "fadeInUp",
             delay: "0.3s",
             iconClass: "flaticon-settings",
-             img:"/images/Zing-SEO-Supercharger/Zing-SEO-Supercharger-Tools/essential-tools/tool-7.png"
+             img:"/images/Zing-SEO-Supercharger/Zing-SEO-Supercharger-Tools/essential-tools/tool-8.png"
           },
           {
            
             animation: "fadeInRight",
             delay: "0.3s",
             iconClass: "flaticon-conveyor",
-             img:"/images/Zing-SEO-Supercharger/Zing-SEO-Supercharger-Tools/essential-tools/tool-8.png"
+             img:"/images/Zing-SEO-Supercharger/Zing-SEO-Supercharger-Tools/essential-tools/tool-9.png"
           },
           {
             animation: "fadeInLeft",
             delay: "0.3s",
             iconClass: "flaticon-factory",
-             img:"/images/Zing-SEO-Supercharger/Zing-SEO-Supercharger-Tools/essential-tools/tool-9.png"
+             img:"/images/Zing-SEO-Supercharger/Zing-SEO-Supercharger-Tools/essential-tools/tool-10.png"
           },
          
         

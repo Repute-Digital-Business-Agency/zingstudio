@@ -21,7 +21,7 @@ export default function About() {
         <div className="container">
           <div className="row align-items-center">
             <div
-              className="col-lg-6 col-md-6 m-b30 wow fadeInUp"
+              className="col-xl-6 col-12 m-b30 wow fadeInUp"
               data-wow-duration="2s"
               data-wow-delay="0.3s"
             >
@@ -42,16 +42,17 @@ export default function About() {
               </div>
             </div>
             <div
-              className="col-lg-6 col-md-6 m-b30 wow fadeInUp"
+              className="col-xl-6 col-12 m-b30 wow fadeInUp d-flex justify-content-center "
               data-wow-duration="2s"
               data-wow-delay="0.6s"
             >
               <Image
-                className="radius-sm"
+                className="radius-sm "
                 alt=""
                 src="/images/about-us/about-img.jpg"
                 width="600"
                 height="800"
+                
               />
             </div>
           </div>
