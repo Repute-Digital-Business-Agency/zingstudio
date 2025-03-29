@@ -13,11 +13,11 @@ export default function ZingAcademyCta() {
       <div className="container">
         <div className="row">
           <div className="col-lg-5 col-md-12 content-inner chosesus-content text-white ">
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center justify-content-lg-end">
             <Image
           className="acdemy-img"
                               alt=""
-                              src="/images/Academy/lets-connect/lets-connect-img.png"
+                              src="/images/elementbg/img-2.webp"
                               width="350"
                               height="300"
                             />

@@ -14,11 +14,11 @@ export default function HeroSection({head,option,bannerContent,offers}) {
             <div className="col-11 mx-auto p-0 m-0">
                 <div className="containter-fluid p-0 m-0">
                     <div className="row m-0">
-                        <div className="col-xl-6 col-md-12 m-b30  pt-5" >
+                        <div className="col-xl-6 col-md-12 m-b30  pt-5 " >
                             <img className="rounded" src={bannerContent.src} alt="" style={{height:"100%", objectFit:"cover"}}/>
                         </div>
 
-                        <div className="col-xl-6 col-md-12 content-inner chosesus-content text-black pb-md-0 px-2 px-xl-5 pt-5">
+                        <div className="col-xl-6 col-md-12 content-inner chosesus-content text-black pb-md-0 px-2 px-xl-5 pt-2 pt-xl-5">
                         <p className="font-16  wow fadeInUp text-black mb-3" data-wow-delay="0.4s">
                             {bannerContent.caption}
 

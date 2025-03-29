@@ -111,9 +111,9 @@ export default function HomeMobileBanner() {
   >
      <Swiper
           modules={[Navigation, Autoplay]}
-          autoplay={{
-            delay: 4000,
-          }}
+          // autoplay={{
+          //   delay: 4000,
+          // }}
           speed={2500}
           loop
           direction={"horizontal"}

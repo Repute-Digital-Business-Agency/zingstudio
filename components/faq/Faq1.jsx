@@ -56,11 +56,16 @@ export default function Faq1() {
 
 
             </div>
-            <div className="col-lg-5 col-md-12 m-b30 wow fadeInUp  will-animate" data-wow-duration="2s" data-wow-delay="0.6s" >
-              <img alt=""
+            <div className="col-lg-5 col-md-12 m-b30 wow fadeInUp  will-animate" data-wow-duration="2s" data-wow-delay="0.6s" style={{height:"700px"}}>
+              {/* <img alt=""
                 className="img-cover radius-sm"
                 src="/images/Life-at-Zing/zing-life.jpg"
-              />
+              /> */}
+              <video src="/images/elementbg/vid-1.mp4"
+               loop autoPlay  muted
+                type="video/mp4"
+                 className="img-cover radius-sm" style={{objectFit:"contain"}} >   
+                 </video>
             </div>
           </div>
 
