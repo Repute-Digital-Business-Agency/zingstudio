@@ -11877,7 +11877,7 @@ ul[class*="list-"] {
     color: #000;
   }
 
-  @media  (max-width:768px){
+  @media  (max-width:990px){
     .hosting-titles{
       font-size: 30px;
       margin-bottom: 5px;
