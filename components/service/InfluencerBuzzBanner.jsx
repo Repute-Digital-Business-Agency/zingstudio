@@ -265,7 +265,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                   </button>
                 </div>
               </div>
-            </form>
+          </form>
           </div>
           </div>
         </div>

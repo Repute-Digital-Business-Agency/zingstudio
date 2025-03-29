@@ -248,7 +248,7 @@ export default function page() {
     ]
 
     const Performance={
-      head:"High Performance",
+      head:"Design Excellence",
       description:"Every Web Design plan includes:",
       cta:"From understanding brand goals to delivering a responsive, user-friendly website, we ensure every step drives engagement and results. <br/>From Vision to Website — See the Magic of Our Design Process!",
       guarantee:[

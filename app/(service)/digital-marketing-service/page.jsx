@@ -260,7 +260,7 @@ export default function page() {
     ]
 
     const Performance={
-      head:"High Performance",
+      head:"Result Oriented",
       description:"Every Digital Marketing plan includes:",
       cta:"From goal-setting and market analysis to campaign execution and performance tracking, we ensure measurable growth. Enhance Your Digital Presence with Confidence. Connect with us today!",
       guarantee:[

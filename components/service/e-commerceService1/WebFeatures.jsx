@@ -10,7 +10,7 @@ const WebFeatures = () => {
                 <div className=" d-flex flex-column">
                     <div className="item-1 wow fadeInUp pb-2 p-sm-b100"
                                 data-wow-delay="0.6s" >
-                        <p className="mb-2 fw-bold">Lorem ipsum dolor sit </p>
+                        <p className="mb-2 fw-bold">Design. Develop. Deliver. </p>
                     <h2 className="hosting-titles">Web design process for delivering exceptional websites:
                     </h2>
                     <p className="hosting-description ">

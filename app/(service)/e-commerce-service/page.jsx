@@ -251,7 +251,7 @@ export default function page() {
       },
     ]
     const Performance={
-      head:"High Performance",
+      head:"Seamless Solutions",
       description:"Every E-Commerce plan includes:",
       cta:"From concept to launch, we transform ideas into high-performing e-commerce platforms. Focused on customization, functionality, and growth, our expert approach ensures success. Launch, Grow, and Succeed Online — Get Started with Us!",
       guarantee:[

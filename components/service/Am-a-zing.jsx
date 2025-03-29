@@ -163,7 +163,7 @@ export default function Am_a_Zing() {
                       top:"70px",
                   left:"0",
                   zIndex:"1000",
-                  marginTop:"50px"
+                //   marginTop:"50px"
                   }}
                   />
 
