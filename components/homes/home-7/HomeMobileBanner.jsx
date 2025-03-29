@@ -140,7 +140,7 @@ export default function HomeMobileBanner() {
                     objectFit:"cover",
                     transformStyle: "preserve-3d",
                     backfaceVisibility: "hidden",
-                    height: 898,
+                    height: "100%",
                     width: "100%",
                     filter: "none",
                 }}

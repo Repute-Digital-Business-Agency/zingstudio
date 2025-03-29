@@ -11876,6 +11876,18 @@ ul[class*="list-"] {
   .hosting-description {
     color: #000;
   }
+
+  @media  (max-width:768px){
+    .hosting-titles{
+      font-size: 30px;
+      margin-bottom: 5px;
+    }
+    .hosting-title{
+      font-size: 30px;
+      margin-top: 50px;
+      margin-bottom: 5px;
+    }
+  }
   
   .security-card,
   .resources-card,
