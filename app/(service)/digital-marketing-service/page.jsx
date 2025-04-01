@@ -40,7 +40,7 @@ export default function page() {
 
     {
       head: "Digital Marketing",
-      title: "Basic - Digital Marketing",
+      title: "Basic",
       price: "10,000",
       // save: "Save 22%",
       // strike: "1,919.00",
@@ -65,7 +65,7 @@ export default function page() {
 
     {
       head: "Digital Marketing",
-      title: "Enterprise - Digital Marketing",
+      title: "Enterprise",
       price: "20,000",
       // save: "Save 23%",
       // strike: "1,919.00",
@@ -110,7 +110,7 @@ export default function page() {
 
     {
       head: "Digital Marketing",
-      title: "Basic - Digital Marketing",
+      title: "Basic",
       price: "12,000",
       // save: "Save 22%",
       // strike: "1,919.00",
@@ -127,7 +127,7 @@ export default function page() {
 
     {
       head: "Digital Marketing",
-      title: "Enterprise - Digital Marketing",
+      title: "Enterprise",
       price: "20,000",
       // save: "Save 23%",
       // strike: "1,919.00",
@@ -168,13 +168,13 @@ export default function page() {
       // condition: " With a 3-yr term. You pay ₹ 53,424.00 today. <br />Renews at  ₹ 69,084.00.",
 
       list: [
-        { icon: "ti-instagram", text: "Logo - 5 options)" },
-        { icon: "ti-facebook", text: "Brochure - 8 Pages" },
-        { icon: "ti-pinterest", text: "Business Card" },
-        { icon: "ti-pinterest", text: "Basic Website - 8 Pages" },
-        { icon: "ti-pinterest", text: "Google Maps" },
+        { icon: "ti-clipboard", text: "Logo - 5 options)" },
+        { icon: "ti-clipboard", text: "Brochure - 8 Pages" },
+        { icon: "ti-clipboard", text: "Business Card" },
+        { icon: "ti-clipboard", text: "Basic Website - 8 Pages" },
+        { icon: "ti-clipboard", text: "Google Maps" },
 
-        { icon: "ti-pinterest", text: "Social Media Pages - Basic profile creation" },
+        { icon: "ti-clipboard", text: "Social Media Pages - Basic profile creation" },
 
       ],
       delay: "0.6s"
@@ -189,14 +189,14 @@ export default function page() {
       // strike: "1,919.00",
       // condition: " With a 3-yr term. You pay ₹ 53,424.00 today. <br />Renews at  ₹ 69,084.00.",
       list: [
-        { icon: "ti-instagram", text: "Logo - 5 options)" },
-        { icon: "ti-facebook", text: "Brochure - 8 Pages" },
-        { icon: "ti-pinterest", text: "Business Card" },
-        { icon: "ti-pinterest", text: "Google Maps" },
-        { icon: "ti-pinterest", text: "Social Media Pages - Basic profile creation" },
-        { icon: "ti-pinterest", text: "CMS Website - 12 pages" },
+        { icon: "ti-clipboard", text: "Logo - 5 options)" },
+        { icon: "ti-clipboard", text: "Brochure - 8 Pages" },
+        { icon: "ti-clipboard", text: "Business Card" },
+        { icon: "ti-clipboard", text: "Google Maps" },
+        { icon: "ti-clipboard", text: "Social Media Pages - Basic profile creation" },
+        { icon: "ti-clipboard", text: "CMS Website - 12 pages" },
 
-        { icon: "ti-pinterest", text: "SEO for 3 Months - 6 Keywords" },
+        { icon: "ti-clipboard", text: "SEO for 3 Months - 6 Keywords" },
 
 
       ],
@@ -211,13 +211,13 @@ export default function page() {
       // strike: "1,919.00",
       // condition: " With a 3-yr term. You pay ₹ 53,424.00 today. <br />Renews at  ₹ 69,084.00.",
       list: [
-        { icon: "ti-instagram", text: "Logo - 5 options)" },
-        { icon: "ti-facebook", text: "Brochure - 8 Pages" },
-        { icon: "ti-pinterest", text: "Business Card" },
-        { icon: "ti-pinterest", text: "Google Maps" },
-        { icon: "ti-pinterest", text: "Social Media Management (SMM) for 3 Months" },
-        { icon: "ti-pinterest", text: "CMS Website - 12 pages" },
-        { icon: "ti-pinterest", text: "SEO for 6 Months" },
+        { icon: "ti-clipboard", text: "Logo - 5 options)" },
+        { icon: "ti-clipboard", text: "Brochure - 8 Pages" },
+        { icon: "ti-clipboard", text: "Business Card" },
+        { icon: "ti-clipboard", text: "Google Maps" },
+        { icon: "ti-clipboard", text: "Social Media Management (SMM) for 3 Months" },
+        { icon: "ti-clipboard", text: "CMS Website - 12 pages" },
+        { icon: "ti-clipboard", text: "SEO for 6 Months" },
 
 
       ],
