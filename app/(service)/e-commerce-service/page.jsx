@@ -149,39 +149,39 @@ export default function page() {
      description: "Discover a portfolio of e-commerce projects engineered for optimal user experiences, secure transactions, and scalable growth. Each solution is tailored to enhance customer engagement, drive sales, and support sustained digital success."
     }
     const portfolioItems = [
-      {
-        title: "Rhythm Fashion",
-        image: "/images/services/E-commerce/mockup-5.jpg",
-        className: "col-lg-3 col-md-3 col-sm-6",
-        delay: "0.6s",
-        duration: "1.12s",
-        link:"https://rhythmfashion.com/"
-      },
+      // {
+      //   title: "Rhythm Fashion",
+      //   image: "/images/services/E-commerce/mockup-5.jpg",
+      //   className: "col-lg-3 col-md-3 col-sm-6",
+      //   delay: "0.6s",
+      //   duration: "1.12s",
+      //   link:"https://rhythmfashion.com/"
+      // },
      
-      {
-        title: "Thangam Jewelry",
-        image: "/images/services/E-commerce/mockup-2.jpg",
-        className: "col-lg-3 col-md-3 col-sm-6",
-        delay: "0.6s",
-        duration: "1.3s",
-        link:"https://sreethangamjewellery.com/"
-      },
-      {
-        title: "Thangam Jewelry",
-        image: "/images/services/E-commerce/mockup-3.jpg",
-        className: "col-lg-3 col-md-3 col-sm-6",
-        delay: "0.9s",
-        duration: "1.6s",
-        link:"https://goesgood.in/"
-      },
-      {
-        title: "Faso",
-        image: "/images/services/E-commerce/mockup-4.jpg",
-        className: "col-lg-3 col-md-3 col-sm-6",
-        delay: "0.3s",
-        duration: "1.9s",
-        link:"https://faso.in/"
-      },
+      // {
+      //   title: "Thangam Jewelry",
+      //   image: "/images/services/E-commerce/mockup-2.jpg",
+      //   className: "col-lg-3 col-md-3 col-sm-6",
+      //   delay: "0.6s",
+      //   duration: "1.3s",
+      //   link:"https://sreethangamjewellery.com/"
+      // },
+      // {
+      //   title: "Thangam Jewelry",
+      //   image: "/images/services/E-commerce/mockup-3.jpg",
+      //   className: "col-lg-3 col-md-3 col-sm-6",
+      //   delay: "0.9s",
+      //   duration: "1.6s",
+      //   link:"https://goesgood.in/"
+      // },
+      // {
+      //   title: "Faso",
+      //   image: "/images/services/E-commerce/mockup-4.jpg",
+      //   className: "col-lg-3 col-md-3 col-sm-6",
+      //   delay: "0.3s",
+      //   duration: "1.9s",
+      //   link:"https://faso.in/"
+      // },
       // {
       //   title: "Filmode Fashon",
       //   image: "/images/services/E-commerce/mockup-1.jpg",
