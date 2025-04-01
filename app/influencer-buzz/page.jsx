@@ -49,7 +49,8 @@ export default function page() {
           "/images/Influence-Buzz/banner-img-7.png",
            "/images/Influence-Buzz/banner-img-8.png"
          ],
-        formTitle:"Join the Buzz—Let’s Make Influence Happen!"
+        formTitle:"Join the Buzz—Let’s Make Influence Happen!",
+        charImg:"/images/Home-Page/mbl-banner/character-img-6.png",
       };
       const faqData = [
         {

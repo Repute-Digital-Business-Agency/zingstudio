@@ -56,7 +56,8 @@ export default function page() {
           "/images/brand-buzz/banner-img-3.png"
         ],
         formTitle:"Let’s turn your brand into the next big thing!",
-        bgimg:"/images/brand-buzz/serviceBanner.jpg"
+        bgimg:"/images/brand-buzz/serviceBanner.jpg",
+        charImg:"/images/Home-Page/mbl-banner/character-img-5.png",
       }
 
       const faqData = [

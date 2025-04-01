@@ -22,11 +22,26 @@ const CareerForm = () => {
         {/* Form Section */}
         <div className="col-lg-7 col-md-12">
           <div className=" border rounded text-white">
-         
+
+          <div  className="inquiry-form wow box-shadow  fadeInUp p-0" style={{backgroundColor:"transparent", boxShadow:"none"}}>
+          <h2 className="fw-bold pt-4">  Join Our Team & Shine! 
+              </h2>
+              <p>
+              Got the skills? We’ve got the opportunities! Fill out the form and step into an exciting career with Zing Studio!
+              </p>
+          <iframe
+            src=" https://connect.irepute.in/file/lets-zing/"
+            width="100%"
+            height="450px"
+            // style="border: none;"
+            allowfullscreen
+            ></iframe>
+          </div>
+          
            
 
 
-            <form 
+            {/* <form 
               onSubmit={(e) => e.preventDefault()}
               className="inquiry-form wow box-shadow  fadeInUp p-0" style={{backgroundColor:"transparent", boxShadow:"none"}}
               data-wow-delay="0.2s"
@@ -141,7 +156,7 @@ const CareerForm = () => {
                   </button>
                 </div>
               </div>
-            </form>
+            </form> */}
 
 
           </div>

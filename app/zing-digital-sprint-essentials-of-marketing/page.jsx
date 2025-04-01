@@ -554,6 +554,7 @@ export default function page() {
             head:"Zing Digital Sprint – <br/> Essentials of Marketing",
             caption:"Course Highlights",
             duration:"15 Days",
+            fees:"₹7,000",
             subTitle:"Application Closes On 31/05/2025",
             list:[
               "Strong foundation in digital marketing fundamentals",
@@ -564,7 +565,8 @@ export default function page() {
             button2:"Online",
             button3:"Interactive",
             image:"/images/brand-buzz/brand-buzz-header-img.png",
-            formTitle:"Register Now For free"
+            formTitle:"Register Now For free",
+            charImg:"/images/Home-Page/mbl-banner/character-img-5.png",
           }
 
   return (

@@ -10,10 +10,10 @@ const slidesData = [
     // backgroundImage:
     //   'url("/images/Home-Page/banner-zing-studio-1.jpg") center center no-repeat',
     backgroundImage:
-      "/images/Home-Page/banner-bg-img-4.jpg",
-    charImg:"/images/Home-Page/character-img-4.png",
-    subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, <br/> Amplify Your  <b style='font-size:48px; color:#fff'> Impact <b/>`,
+      "/images/Home-Page/mbl-banner/banner-img-1.jpg",
+    charImg:"/images/Home-Page/mbl-banner/character-img-1.png",
+    subTitle: "Power up your brand with strategies that connect and convert.",
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Boost Your  <b style='font-size:30px; color:#fff'> Brand </b> <br/> Expand Your  <b style='font-size:40px; color:#fff'> Reach <b/>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "View Services",
@@ -26,10 +26,10 @@ const slidesData = [
     // backgroundImage:
     //   'url("/images/Home-Page/banner-opt-2.jpg") center center no-repeat',
     backgroundImage:
-      "/images/Home-Page/banner-bg-img-1.jpg",
-      charImg:"/images/Home-Page/character-img-1.png",
-    subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, <br/> Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
+      "/images/Home-Page/mbl-banner/banner-img-2.jpg",
+      charImg:"/images/Home-Page/mbl-banner/character-img-2.png",
+      subTitle: "Strengthen your digital footprint and make an impact that lasts.",
+      title:`<span class="home-banner-title">ZING STUDIO</span><br/>Level Up Your   <b style='font-size:48px; color:#fff'> Presence </b> Amplify Your   <b style='font-size:48px; color:#fff'> Influence <b/>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "View Services",
@@ -39,10 +39,24 @@ const slidesData = [
     // backgroundImage:
     //   'url("/images/Home-Page/banner-opt-3.jpg") center center no-repeat',
     backgroundImage:
-      "/images/Home-Page/banner-bg-img-2.jpg",
-      charImg:"/images/Home-Page/character-img-2.png",
-    subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your <b style='font-size:48px; color:#fff'> Brand </b>, <br/> Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
+      "/images/Home-Page/mbl-banner/banner-img-3.jpg",
+      charImg:"/images/Home-Page/mbl-banner/character-img-3.png",
+      subTitle: "Stand out with smart strategies that drive visibility and success.",
+    title: "<span class='home-banner-title'>ZING STUDIO </span><br/> Empower Your  <b style='font-size:48px; color:#fff'> Business </b> <br/> Make Your  <b style='font-size:48px; color:#fff'> Mark </b>",
+    description:
+      "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
+    buttonLabel: "View Services",
+    link:"/about"
+  },
+  {
+    // backgroundImage:
+    //   'url("/images/Home-Page/banner-opt-3.jpg") center center no-repeat',
+    backgroundImage:
+      "/images/Home-Page/mbl-banner/banner-img-4.jpg",
+      charImg:"/images/Home-Page/mbl-banner/character-img-4.png",
+      subTitle:
+          "Build a solid foundation that fuels engagement and results.",
+      title: "<span class='home-banner-title'>ZING STUDIO</span><br/>Strengthen Your  <b style='font-size:48px; color:#fff'> Brand </b> <br/> Multiply Your  <b style='font-size:48px; color:#fff'> Growth </b>",
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "View Services",
@@ -52,10 +66,36 @@ const slidesData = [
     // backgroundImage:
     //   'url("/images/Home-Page/banner-opt-4.jpg") center center no-repeat',
     backgroundImage:
-      "/images/Home-Page/banner-bg-img-3.jpg",
-      charImg:"/images/Home-Page/character-img-3.png",
-    subTitle: "Empowering Brands with Creativity, Strategy, and Innovation – Zing Studio, Your Partner in Digital Success!",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Elevate Your  <b style='font-size:48px; color:#fff'> Brand </b>, <br/> Amplify Your  <b style='font-size:48px; color:#fff'> Impact </b>`,
+      "/images/Home-Page/mbl-banner/banner-img-5.jpg",
+      charImg:"/images/Home-Page/mbl-banner/character-img-5.png",
+      subTitle: "Dominate the digital space with a brand that shines.",
+      title: `<span class="home-banner-title">ZING STUDIO</span><br/>Amplify Your  <b style='font-size:48px; color:#fff'> Presence </b>Lead the  <b style='font-size:48px; color:#fff'> Market </b>`,
+    description:
+      "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
+    buttonLabel: "View Services",
+    link:"/about"
+  },
+  {
+    // backgroundImage:
+    //   'url("/images/Home-Page/banner-opt-4.jpg") center center no-repeat',
+    backgroundImage:
+      "/images/Home-Page/mbl-banner/banner-img-6.jpg",
+      charImg:"/images/Home-Page/mbl-banner/character-img-6.png",
+      subTitle: "Unlock growth with innovative marketing and design solutions.",
+      title: `<span class="home-banner-title">ZING STUDIO</span><br/>Enhance Your <b style='font-size:48px; color:#fff'> Brand </b> Accelerate  <b style='font-size:48px; color:#fff'> Success </b>`,
+    description:
+      "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
+    buttonLabel: "View Services",
+    link:"/about"
+  },
+  {
+    // backgroundImage:
+    //   'url("/images/Home-Page/banner-opt-4.jpg") center center no-repeat',
+    backgroundImage:
+      "/images/Home-Page/mbl-banner/banner-img-7.jpg",
+      charImg:"/images/Home-Page/mbl-banner/character-img-7.png",
+      subTitle: "Expand effortlessly with strategies that turn reach into revenue.",
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Scale <b style='font-size:48px; color:#fff'> Smart </b><br/> Influence  <b style='font-size:48px; color:#fff'> Big </b>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "View Services",

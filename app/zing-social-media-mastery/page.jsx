@@ -622,6 +622,7 @@ export default function page() {
             head:"Zing Social Media Mastery",
             caption:"Course Highlights",
             duration:"4 Weeks",
+            fees:"₹10,000",
             subTitle:"Application Closes On 31/05/2025",
             list:[
               "Build expertise in social media strategy & engagement",
@@ -632,7 +633,8 @@ export default function page() {
             button2:"Online",
             button3:"Interactive",
             image:"/images/brand-buzz/brand-buzz-header-img.png",
-            formTitle:"Register Now For free"
+            formTitle:"Register Now For free",
+            charImg:"/images/Home-Page/mbl-banner/character-img-3.png",
           }
 
   return (

@@ -22,10 +22,27 @@ const Amazingform = () => {
         {/* Form Section */}
         <div className="col-lg-6 col-md-12">
           <div className=" border rounded text-white">
+
+            <div className="inquiry-form wow box-shadow  fadeInUp p-0" style={{backgroundColor:"transparent", boxShadow:"none"}}>
+            <h2 className="fw-bold pt-4">AM-A-ZING – Made Just for Women! </h2>
+              <p>
+              Boss lady or making a comeback? We’ve got an exclusive offer designed to power up your next big move!
+              </p>
+
+          <iframe
+            src="https://connect.irepute.in/file/am-a-zing/"
+            width="100%"
+            height="450px"
+            // style="border: none;"
+            allowfullscreen
+            ></iframe>
+            </div>
+
+          
          
            
 
-
+{/* 
             <form 
               onSubmit={(e) => e.preventDefault()}
               className="inquiry-form wow box-shadow  fadeInUp p-0" style={{backgroundColor:"transparent", boxShadow:"none"}}
@@ -122,7 +139,7 @@ const Amazingform = () => {
                   </button>
                 </div>
               </div>
-            </form>
+            </form> */}
 
 
           </div>

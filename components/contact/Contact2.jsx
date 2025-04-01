@@ -111,7 +111,16 @@ export default function Contact2() {
               </div>
             </div>
             <div className="col-lg-8 col-md-12 m-b30">
-              <form
+
+            <iframe
+            src="https://connect.irepute.in/file/lets-zing/"
+            width="100%"
+            height="550px"
+            // style="border: none;"
+            allowfullscreen
+            ></iframe>
+
+              {/* <form
                 onSubmit={(e) => e.preventDefault()}
                 className="inquiry-form wow fadeInUp py-3"
                 data-wow-delay="0.2s"
@@ -234,7 +243,7 @@ export default function Contact2() {
                     </button>
                   </div>
                 </div>
-              </form>
+              </form> */}
             </div>
           </div>
         </div>

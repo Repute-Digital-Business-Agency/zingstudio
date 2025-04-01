@@ -736,6 +736,7 @@ const faqData = [
             head:"Zing Digital Marketing Mastery",
             caption:"Course Highlights",
             duration:"3 Months + 3 Months Internship",
+            fees:"₹25,000",
             subTitle:"Application Closes On 31/05/2025",
             list:[
               "Master industry-relevant skills with hands-on projects",
@@ -746,7 +747,8 @@ const faqData = [
             button2:"Online",
             button3:"Interactive",
             image:"/images/brand-buzz/brand-buzz-header-img.png",
-            formTitle:"Register Now For free"
+            formTitle:"Register Now For free",
+            charImg:"/images/Home-Page/mbl-banner/character-img-1.png",
           }
 
   return (

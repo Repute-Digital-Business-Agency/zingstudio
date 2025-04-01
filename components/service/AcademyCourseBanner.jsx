@@ -4,6 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 export default function AcademyCourseBanner({option,bannerContent}) {
 
+  
+
     {/*  
          const bannerContent = {
         head:"Zing AdSense Ace",
@@ -69,6 +71,11 @@ export default function AcademyCourseBanner({option,bannerContent}) {
           Course Duration : {bannerContent.duration}
 
             </p>
+
+            <p className="font-16  wow fadeInUp mb-0 pb-2" data-wow-delay="1s">
+          Course Fees : {bannerContent.fees}
+
+            </p>
             
 
             <h4
@@ -120,7 +127,11 @@ export default function AcademyCourseBanner({option,bannerContent}) {
           </div>
          
           <div className="col-lg-5 col-md-12 m-b30  pt-sm-0 pt-3" >
-            <form 
+            {/* <div style={{width:"200px", height:"500px"}}> */}
+            <img src={bannerContent.charImg} alt={bannerContent.head} style={{width:"400px"}}/>
+            {/* </div> */}
+            
+            {/* <form 
               onSubmit={(e) => e.preventDefault()}
               className="inquiry-form wow box-shadow  fadeInUp mb-3"
               data-wow-delay="0.2s"
@@ -217,23 +228,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
                   </div>
                 </div>
 
-                {/* <div className="col-lg-12 col-md-12">
-                <div className="form-group">
-                        <div className="input-group">
-                          <input
-                            type="text"
-                            required
-                            className="form-control"
-                            placeholder="Enter OTP"
-                            value=""
-                            // onChange={(e) =>(e.target.value)}
-                          />
-                          <button type="button" className="site-button btnhover20 " >
-                            Verify OTP
-                          </button>
-                        </div>
-                      </div>
-                </div> */}
+                
                 
                
                 
@@ -249,7 +244,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
                   </button>
                 </div>
               </div>
-            </form>
+            </form> */}
           </div>
           </div>
         </div>

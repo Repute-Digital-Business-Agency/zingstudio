@@ -142,7 +142,11 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
               
             </div>
           <div className="col-xl-4 col-lg-12 col-md-12 " >
-            <form 
+            <div style={{display:"flex", justifyContent:"center"}}>
+            <img className=" wow box-shadow  fadeInUp" src={bannerContent.charImg} alt={bannerContent.head} style={{width:"400px", }}/>
+            </div>
+          
+            {/* <form 
               onSubmit={(e) => e.preventDefault()}
               className="inquiry-form wow box-shadow  fadeInUp "
               data-wow-delay="0.2s"
@@ -152,9 +156,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
               {bannerContent.formTitle}
                 <span className="bg-primary" />
               </h3>
-              {/* <p>
-               Have questions or need expert help with web design, digital marketing, or branding? We’re here for you! Simply fill out the form below, and one of our team members will reach out to discuss how we can create something amazing together. We can’t wait to connect with you!
-              </p> */}
+             
               <div className="row">
                 <div className="col-lg-6 col-md-6">
                   <div className="form-group">
@@ -223,9 +225,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                 <div className="col-lg-12 col-md-12">
                   <div className="form-group">
                     <div className="input-group">
-                      {/* <span className="input-group-addon">
-                        <i className="ti-email text-redblk" />
-                      </span> */}
+                     
                       <input
                         name="niche"
                         type="text"
@@ -239,9 +239,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                 <div className="col-lg-12 col-md-12">
                   <div className="form-group">
                     <div className="input-group">
-                      {/* <span className="input-group-addon">
-                        <i className="ti-email text-redblk" />
-                      </span> */}
+                     
                       <input
                         name="dzEmail"
                         type="email"
@@ -265,7 +263,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
                   </button>
                 </div>
               </div>
-          </form>
+          </form> */}
           </div>
           </div>
         </div>

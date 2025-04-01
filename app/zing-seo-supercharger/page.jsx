@@ -587,6 +587,7 @@ export default function page() {
             head:"Zing SEO Supercharger",
             caption:"Course Highlights",
             duration:"4 Weeks",
+            fees:"₹5,000",
             subTitle:"Application Closes On 31/05/2025",
             list:[
               "Master advanced SEO & data-driven optimization",
@@ -597,7 +598,8 @@ export default function page() {
             button2:"Online",
             button3:"Interactive",
             image:"/images/brand-buzz/brand-buzz-header-img.png",
-            formTitle:"Register Now For free"
+            formTitle:"Register Now For free",
+            charImg:"/images/Home-Page/mbl-banner/character-img-7.png",
           }
 
   return (

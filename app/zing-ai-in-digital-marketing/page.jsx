@@ -586,6 +586,7 @@ export default function page() {
             caption:"Course Highlights",
             duration:"5 Days",
             subTitle:"Application Closes On 31/05/2025",
+            fees:"₹7,000",
             list:[
               "Learn AI-powered marketing strategies",
               "Work with top AI tools for automation & content creation",
@@ -595,7 +596,8 @@ export default function page() {
             button2:"Online",
             button3:"Interactive",
             image:"/images/brand-buzz/brand-buzz-header-img.png",
-            formTitle:"Register Now For free"
+            formTitle:"Register Now For free",
+            charImg:"/images/Home-Page/mbl-banner/character-img-3.png",
           }
 
   return (

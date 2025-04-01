@@ -69,7 +69,27 @@ export default function ZingAcademyCta() {
             </ul> */}
           </div>
           <div className="col-lg-7 col-md-12 m-b30">
-            <form
+            <div className="inquiry-form contact-project bg-white box-shadow wow fadeInUp"
+            style={{marginTop:"-50px"}}>
+            <h3 className="title-box font-weight-300 m-t0 m-b10">
+              Got Questions? Let’s Chat!
+
+                <span className="bg-primary" />
+              </h3>
+              <p>
+              Fill out the form and get all the info you need to kickstart your digital marketing journey. We're here to help you level up and make your mark in the digital world!
+
+              </p>
+          <iframe
+            src="https://connect.irepute.in/file/zing-academy/"
+            width="100%"
+            height="380px"
+            // style="border: none;"
+            allowfullscreen
+            ></iframe>
+            </div>
+         
+            {/* <form
               onSubmit={(e) => e.preventDefault()}
               className="inquiry-form contact-project bg-white box-shadow wow fadeInUp"
               data-wow-delay="0.2s"
@@ -133,22 +153,7 @@ export default function ZingAcademyCta() {
                     </div>
                   </div>
                 </div>
-                {/* <div className="col-lg-6 col-sm-6">
-                  <div className="form-group">
-                    <div className="input-group">
-                      <span className="input-group-addon">
-                        <i className="ti-check-box text-primary" />
-                      </span>
-                      <input
-                        name="dzOther[Subject]"
-                        type="text"
-                        required
-                        className="form-control"
-                        placeholder="Upload File"
-                      />
-                    </div>
-                  </div>
-                </div> */}
+               
                 <div className="col-lg-6 col-sm-6">
                   <div className="form-group">
                     <div className="input-group">
@@ -196,17 +201,10 @@ export default function ZingAcademyCta() {
                 </Link>
                 
                 </div>
-                  {/* <button
-                    name="submit"
-                    type="submit"
-                    value="Submit"
-                    className="site-button button-lg"
-                  >
-                    <span>Get A Free Quote!</span>
-                  </button> */}
+                  
                 </div>
               </div>
-            </form>
+            </form> */}
           </div>
         </div>
       </div>

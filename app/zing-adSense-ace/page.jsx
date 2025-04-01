@@ -566,6 +566,7 @@ export default function page() {
           head:"Zing AdSense Ace",
           caption:"Course Highlights",
           duration:"8 Weeks",
+          fees:"₹15,000",
           subTitle:"Application Closes On 31/05/2025",
           list:[
             "Learn effective monetization strategies",
@@ -576,7 +577,8 @@ export default function page() {
           button2:"Online",
           button3:"Interactive",
           image:"/images/brand-buzz/brand-buzz-header-img.png",
-          formTitle:"Register Now For free"
+          formTitle:"Register Now For free",
+          charImg:"/images/Home-Page/mbl-banner/character-img-2.png",
         }
         
   return (
