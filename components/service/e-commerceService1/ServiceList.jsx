@@ -38,17 +38,17 @@ const ServiceList = ({data,head,WebDesignfeatures}) => {
                                 <div className="pricing-card h-100 d-flex flex-column ">
                                   <div className="card-body flex-grow-1">
                                     <h2 className="card-title">{data.title}</h2>
-                                    <p className="discount-text mb-3 mt-2">
+                                    {/* <p className="discount-text mb-3 mt-2">
                                       <span>{data.save} </span><span className="original-price ">₹  {data.strike}
                                       </span>
-                                    </p>
-                                    <h1 className="price mb-0">₹ {data.price} <span className="text-muted">/mo</span></h1>
+                                    </p> */}
+                                    <h1 className="price">₹ {data.price} </h1>
                                     {/* <p className="small text-black">
                                     {data.condition}
                                     </p> */}
-                                    <p className="small text-black" dangerouslySetInnerHTML={{__html:data.condition}}>
+                                    {/* <p className="small text-black" dangerouslySetInnerHTML={{__html:data.condition}}>
                                     
-                                    </p>
+                                    </p> */}
                                    
                                     <a href="/contact"
                                         className="site-button btnhover20 w-100 "
