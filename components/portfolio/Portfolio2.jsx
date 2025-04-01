@@ -52,22 +52,22 @@ export default function Portfolio2() {
       category: "Web Design",
       link:"https://gmaklaser.com/"
     },
-    {
-      id: 50,
-      filter: "e-commerce",
-      imageSrc: "/images/portfolio/portfolio/thangam-jew.jpg",
-      title: "Sree Thangam Jewellery",
-      category: "E-Commerce",
-      link:"https://sreethangamjewellery.com/"
-    },
-    {
-      id: 51,
-      filter: "digital-marketing",
-      imageSrc: "/images/portfolio/portfolio/karpagam.jpg",
-      title: "Karpagam Academy of Higher Education",
-      category: "Digital Marketing",
-      link:"https://kahedu.edu.in/"
-    },
+    // {
+    //   id: 50,
+    //   filter: "e-commerce",
+    //   imageSrc: "/images/portfolio/portfolio/thangam-jew.jpg",
+    //   title: "Sree Thangam Jewellery",
+    //   category: "E-Commerce",
+    //   link:"https://sreethangamjewellery.com/"
+    // },
+    // {
+    //   id: 51,
+    //   filter: "digital-marketing",
+    //   imageSrc: "/images/portfolio/portfolio/karpagam.jpg",
+    //   title: "Karpagam Academy of Higher Education",
+    //   category: "Digital Marketing",
+    //   link:"https://kahedu.edu.in/"
+    // },
     // {
     //   id: 52,
     //   filter: "e-commerce-management",
@@ -84,14 +84,14 @@ export default function Portfolio2() {
       category: "Web Design",
       link:"https://kitvarnam.in/"
     },
-    {
-      id: 54,
-      filter: "e-commerce",
-      imageSrc: "/images/portfolio/portfolio/prade.jpg",
-      title: "Prade Jewels ",
-      category: "E-commerce",
-      link:"https://prade.in/"
-    },
+    // {
+    //   id: 54,
+    //   filter: "e-commerce",
+    //   imageSrc: "/images/portfolio/portfolio/prade.jpg",
+    //   title: "Prade Jewels ",
+    //   category: "E-commerce",
+    //   link:"https://prade.in/"
+    // },
     {
       id: 55,
       filter: "digital-marketing",
@@ -205,22 +205,22 @@ export default function Portfolio2() {
       category: "Web Design",
       link:"https://premeuropa.com/"
     },
-    {
-      id: 68,
-      filter: "e-commerce",
-      imageSrc: "/images/portfolio/portfolio/filamode.jpg",
-      title: "Filmode",
-      category: "E-commerce",
-      link:"https://filmodefashion.com/"
-    },
-    {
-      id: 69,
-      filter: "e-commerce",
-      imageSrc: "/images/portfolio/portfolio/faso.jpg",
-      title: "FASO",
-      category: "E-commerce",
-      link:"https://faso.in/"
-    },
+    // {
+    //   id: 68,
+    //   filter: "e-commerce",
+    //   imageSrc: "/images/portfolio/portfolio/filamode.jpg",
+    //   title: "Filmode",
+    //   category: "E-commerce",
+    //   link:"https://filmodefashion.com/"
+    // },
+    // {
+    //   id: 69,
+    //   filter: "e-commerce",
+    //   imageSrc: "/images/portfolio/portfolio/faso.jpg",
+    //   title: "FASO",
+    //   category: "E-commerce",
+    //   link:"https://faso.in/"
+    // },
   ];
   
   console.log(portfolioItems3);
