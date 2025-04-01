@@ -54,7 +54,7 @@ const LightVersion = ({
                       <li className="text-black px-4 " style={{ borderTop: "none", color: "white" }}>1 Home Page Design</li>
                       <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Upto 10 Inner Page Design</li>
                       <li className="text-black px-4 pt-0"  style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>JQUERY Banner Slider</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>JQUERY Banner Slider <p  style={{ height:"57px"}}></p></li>
                     </ul>
 
                         <li className="text-black btn py-0 pt-2  mb-0" style={{borderTop:"1px solid black"}}>
@@ -79,7 +79,7 @@ const LightVersion = ({
                         <li className="text-black px-4">1 Home Page Design</li>
                       <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Upto 15 Inner Pages</li>
                       <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>CMS (Manage Website content)</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>CMS (Manage Website content)<p  style={{ height:"60px"}}></p></li>
                       
                     </ul>
 
@@ -133,7 +133,7 @@ const LightVersion = ({
                         <ul className="list-arrow mb-0 mt-0">
                       <li className="text-black px-4">Instagram - 3 Reels , 3 Posts per Month</li>
                       <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Facebook - 3 Reels , 3 Posts per Month</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Pinterest - 3 Reels , 3 Posts per Month</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Pinterest - 3 Reels , 3 Posts per Month <p  style={{ height:"90px"}}></p></li>
                     </ul>
 
                         <li className="text-black btn py-0 pt-2  mb-0" style={{borderTop:"1px solid black"}}>
@@ -188,7 +188,7 @@ const LightVersion = ({
                             <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Business Card</li>
                             <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Basic Website (8 pages)</li>
                             <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Google Maps</li>
-                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Social Media Pages  (Basic profile creation)</li>
+                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Social Media Pages  (Basic profile creation)<p  style={{ height:"27px"}}></p></li>
                     </ul>
                             {/* </strong> */}
                             {/* <span>{project.completionDate}</span> */}
