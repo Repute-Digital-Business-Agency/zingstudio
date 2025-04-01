@@ -6,43 +6,54 @@ import Link from "next/link";
 export default function HomeHero() {
   const slides = [
     {
-      backgroundImage: "/images/Home-Page/our-work-img-1.jpg",
-      content1: "Prade Jewels",
-      content2: "Prade Jewels",
-      link: "https://prade.in/files/"
+      backgroundImage: "/images/Home-Page/our-work/Mockup-1.jpg",
+      content1: "Zenlounge",
+      content2: "Zenlounge",
+      link: "https://zenwellnesslounge.com/"
     },
     {
-      backgroundImage: "/images/Home-Page/our-work/kpr-mill.jpg",
-      content1: "KPRMill",
-      content2: "KPRMill",
-      link: "https://kprmilllimited.com/"
+      backgroundImage: "/images/Home-Page/our-work/Mockup-2.jpg",
+      content1: "Magnum Spinning Millss",
+      content2: "Magnum Spinning Millss",
+      link: "https://magnummills.com/"
     },
     {
-      backgroundImage: "/images/Home-Page/our-work/omi-pumps.jpg",
-      content1: "OMI Pumps ",
-      content2: "OMI Pumps",
-      link: "https://omipumps.com/"
+      backgroundImage: "/images/Home-Page/our-work/Mockup-3.jpg",
+      content1: "Shree Sudharsan Engineering",
+      content2: "Shree Sudharsan Engineering",
+      link: "https://shreesudharsanengineering.com/"
     },
     {
-      backgroundImage: "/images/Home-Page/our-work/tirumalai-tex.jpg",
-      content1: "Tirumalai Textiles ",
+      backgroundImage: "/images/Home-Page/our-work/Mockup-4.jpg",
+      content1: "GMAK Fiber Laser ",
+      content2: "GMAK Fiber Laser",
+      link: "https://gmaklaser.com/"
+    },
+    {
+      backgroundImage: "/images/Home-Page/our-work/Mockup-5.jpg",
+      content1: "Motherland Textiles",
+      content2: "Motherland Textiles",
+      link: "https://motherlandtextiles.com/",
+
+    },
+    {
+      backgroundImage: "/images/Home-Page/our-work/Mockup-6.jpg",
+      content1: "SITARC",
+      content2: "SITARC",
+      link: "https://sitarc.com/"
+    },
+    {
+      backgroundImage: "/images/Home-Page/our-work/Mockup-7.jpg",
+      content1: "Tirumalai Textiles",
       content2: "Tirumalai Textiles",
       link: "https://tirumalaitextiles.com/"
     },
     {
-      backgroundImage: "/images/Home-Page/our-work/img-5.jpg",
-      content1: "Karpagam College of Engineering",
-      content2: "Karpagam College of Engineering",
-      link: "https://kce.ac.in/",
-
+      backgroundImage: "/images/Home-Page/our-work/Mockup-8.jpg",
+      content1: "Tirumalai Textiles",
+      content2: "Tirumalai Textiles",
+      link: "https://tirumalaitextiles.com/"
     },
-    {
-      backgroundImage: "/images/Home-Page/our-work/img-6.jpg",
-      content1: "Filmode Fashions",
-      content2: "Filmode Fashions",
-      link: "https://filmodefashion.com/"
-    },
-   
 
   ];
 
