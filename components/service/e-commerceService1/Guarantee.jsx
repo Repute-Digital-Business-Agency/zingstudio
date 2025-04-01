@@ -26,7 +26,8 @@ const Guarantee = ({Performance}) => {
                                     <div className="icon-bx-wraper" style={{textAlign:"left"}}>
                                         <div className="icon-sm text-orange m-b20">
                                             <a href="#" className="icon-cell text-orange" >
-                                            <i className={item.icon} style={{fontSize:"25px" , color:"#1a43bf"}}/>
+                                            {/* <i className={item.icon} style={{fontSize:"25px" , color:"#1a43bf"}}/> */}
+                                            <img src={item.icon} alt={item.name} />
                                             </a>
                                         </div>
                                         <div className="icon-content">

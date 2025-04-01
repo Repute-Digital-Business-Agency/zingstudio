@@ -254,22 +254,22 @@ export default function page() {
       cta:"From understanding brand goals to delivering a responsive, user-friendly website, we ensure every step drives engagement and results. <br/>From Vision to Website — See the Magic of Our Design Process!",
       guarantee:[
         {
-          icon:"ti-ruler-pencil",
+          icon:"/images/services/web-deisgn/responsive-design-icon.png",
           title:" Responsive Design:", 
           caption:"Seamless experience across all devices."
         },
         {
-          icon:"ti-ruler-pencil",
+          icon:"/images/services/web-deisgn/user-centric-interface-icon.png",
           title:" User-Centric Interface:", 
           caption:"Engaging, intuitive, and easy to navigate."
         },
         {
-          icon:"ti-ruler-pencil",
+          icon:"/images/services/web-deisgn/seo-optimized-icon.png",
           title:"SEO-Optimized:", 
           caption:"Designed to rank higher on search engines."
         },
         {
-          icon:"ti-ruler-pencil",
+          icon:"/images/services/web-deisgn/custom-solution-icon.png",
           title:"Custom Solutions:", 
           caption:" Tailored to reflect brand identity and goals."
         }

@@ -108,14 +108,14 @@ export default function Portfolio2() {
     //   category: "Industry",
     //   link:"https://irepute.in/"
     // },
-    {
-      id: 57,
-      filter: "web-design",
-      imageSrc: "/images/portfolio/portfolio/kce-dhurva.jpg",
-      title: "KCE - DHRUVA",
-      category: "Web Design",
-      link:"https://www.kcedhruva.in/"
-    },
+    // {
+    //   id: 57,
+    //   filter: "web-design",
+    //   imageSrc: "/images/portfolio/portfolio/kce-dhurva.jpg",
+    //   title: "KCE - DHRUVA",
+    //   category: "Web Design",
+    //   link:"https://www.kcedhruva.in/"
+    // },
     {
       id: 58,
       filter: "web-design",
@@ -124,14 +124,14 @@ export default function Portfolio2() {
       category: "Web Design",
       link:"https://skdfinedecor.com/"
     },
-    {
-      id: 59,
-      filter: "e-commerce",
-      imageSrc: "/images/portfolio/portfolio/goes-good-fashion.jpg",
-      title: "Goes Good Fashions",
-      category: "E-commerce",
-      link:"https://goesgood.in/"
-    },
+    // {
+    //   id: 59,
+    //   filter: "e-commerce",
+    //   imageSrc: "/images/portfolio/portfolio/goes-good-fashion.jpg",
+    //   title: "Goes Good Fashions",
+    //   category: "E-commerce",
+    //   link:"https://goesgood.in/"
+    // },
     {
       id: 60,
       filter: "web-design",

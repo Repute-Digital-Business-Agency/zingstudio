@@ -256,22 +256,22 @@ export default function page() {
       cta:"From concept to launch, we transform ideas into high-performing e-commerce platforms. Focused on customization, functionality, and growth, our expert approach ensures success. Launch, Grow, and Succeed Online — Get Started with Us!",
       guarantee:[
         {
-          icon:"ti-ruler-pencil",
+          icon:"/images/services/E-commerce/seamless-integration.png",
           title:" Seamless Integration:", 
           caption:"Effortless connectivity with payment gateways, logistics, and third-party tools."
         },
         {
-          icon:"ti-ruler-pencil",
+          icon:"/images/services/E-commerce/user-centric-design.png",
           title:" User-Centric Design:", 
           caption:"Intuitive interfaces for enhanced customer experience and engagement."
         },
         {
-          icon:"ti-ruler-pencil",
+          icon:"/images/services/E-commerce/scalable-solutions-icon.png",
           title:" Scalable Solutions:", 
           caption:"Flexible platforms that grow alongside your business."
         },
         {
-          icon:"ti-ruler-pencil",
+          icon:"/images/services/E-commerce/robust-security.png",
           title:"Robust Security:", 
           caption:"Advanced security measures to protect customer data and transactions."
         }

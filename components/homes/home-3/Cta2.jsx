@@ -13,7 +13,7 @@ export default function Cta2() {
           </div>
           <div className="col-lg-3 d-flex">
             <Link
-              href={`/contact-2`}
+              href={`/contact`}
               className="site-button white align-self-center outline ms-auto outline-2 btnhover14"
             >
               Get In Touch      

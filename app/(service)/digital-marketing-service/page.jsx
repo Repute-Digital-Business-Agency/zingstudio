@@ -266,22 +266,22 @@ export default function page() {
       cta:"From goal-setting and market analysis to campaign execution and performance tracking, we ensure measurable growth. Enhance Your Digital Presence with Confidence. Connect with us today!",
       guarantee:[
         {
-          icon:"ti-ruler-pencil",
+          icon:"/images/services/digital-marketing/tailored-strategies-icon.png",
           title:" Tailored Strategies:", 
           caption:" Personalized plans aligned with business goals."
         },
         {
-          icon:"ti-ruler-pencil",
+          icon:"/images/services/digital-marketing/targeted-reach-icon.png",
           title:"Targeted Reach:", 
           caption:" Effective audience engagement through data insights."
         },
         {
-          icon:"ti-ruler-pencil",
+          icon:"/images/services/digital-marketing/performance-tracking-icon.png",
           title:"Performance Tracking:", 
           caption:"Real-time analytics for measurable growth."
         },
         {
-          icon:"ti-ruler-pencil",
+          icon:"/images/services/digital-marketing/multi-channel-approach-icon.png",
           title:"Multi-Channel Approach:", 
           caption:"Integrated campaigns across platforms for maximum impact."
         }

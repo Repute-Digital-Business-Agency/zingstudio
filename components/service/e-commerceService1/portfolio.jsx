@@ -10,7 +10,7 @@ export default function ServicePortfolio({portfolioItems,portfolioContent}) {
   
   return (
     <div
-      className="section-full content-inner-2 wow fadeIn bg-grey  works"
+      className="section-full content-inner-2 wow fadeIn bg-gray  works"
       data-wow-duration="2s"
       data-wow-delay="0.6s"
     >
