@@ -20,7 +20,7 @@ const WebFeatures = () => {
                     <div className="item-2 wow fadeInUp"
                                 data-wow-delay="0.6s" >
                     <div className="security-card ">
-                        <img src="https://img1.wsimg.com/cdnassets/transform/77988898-896d-4b0e-a57e-a62b84b9bca7/feature-3-24-7-security" alt="Security" className="img-fluid security-img wow fadeInUp"
+                        <img src="/images/services/web-deisgn/discovery-planning-img.jpg" alt="Security" className="img-fluid security-img wow fadeInUp"
                                 data-wow-delay="0.6s" />
                         <h3 className="hosting-title wow fadeInUp"
                                 data-wow-delay="0.6s">Discovery & Planning</h3>
@@ -34,7 +34,7 @@ const WebFeatures = () => {
                     <div className="item-2 wow fadeInUp"
                                 data-wow-delay="0.6s" >
                     <div className="security-card ">
-                        <img src="https://img1.wsimg.com/cdnassets/transform/77988898-896d-4b0e-a57e-a62b84b9bca7/feature-3-24-7-security" alt="Security" className="img-fluid security-img wow fadeInUp"
+                        <img src="/images/services/web-deisgn/wireframing-prototyping.jpg" alt="Security" className="img-fluid security-img wow fadeInUp"
                                 data-wow-delay="0.6s" />
                         <h3 className="hosting-title wow fadeInUp"
                                 data-wow-delay="0.6s">Wireframing & Prototyping </h3>
@@ -48,7 +48,7 @@ const WebFeatures = () => {
                     <div className="item-2 wow fadeInUp"
                                 data-wow-delay="0.6s" >
                     <div className="security-card ">
-                        <img src="https://img1.wsimg.com/cdnassets/transform/77988898-896d-4b0e-a57e-a62b84b9bca7/feature-3-24-7-security" alt="Security" className="img-fluid security-img wow fadeInUp"
+                        <img src="/images/services/web-deisgn/design-creation.jpg" alt="Security" className="img-fluid security-img wow fadeInUp"
                                 data-wow-delay="0.6s" />
                         <h3 className="hosting-title wow fadeInUp"
                                 data-wow-delay="0.6s">Design Creation</h3>
@@ -65,7 +65,7 @@ const WebFeatures = () => {
             <div className=" d-flex flex-column">
                <div className="item-2 ">
                     <div className="security-card ">
-                        <img src="https://img1.wsimg.com/cdnassets/transform/77988898-896d-4b0e-a57e-a62b84b9bca7/feature-3-24-7-security" alt="Security" className="img-fluid security-img wow fadeInUp"
+                        <img src="/images/services/web-deisgn/development-img.jpg" alt="Security" className="img-fluid security-img wow fadeInUp"
                                 data-wow-delay="0.6s" />
                         <h3 className="hosting-title wow fadeInUp"
                                 data-wow-delay="0.6s">Development</h3>
@@ -78,7 +78,7 @@ const WebFeatures = () => {
 
               <div className="item-2">
                     <div className="security-card">
-                        <img src="https://img1.wsimg.com/cdnassets/transform/77988898-896d-4b0e-a57e-a62b84b9bca7/feature-3-24-7-security" alt="Security" className="img-fluid security-img wow fadeInUp"
+                        <img src="/images/services/web-deisgn/testing-optimization.jpg" alt="Security" className="img-fluid security-img wow fadeInUp"
                                 data-wow-delay="0.6s" />
                         <h3 className="hosting-title wow fadeInUp"
                                 data-wow-delay="0.6s">Testing & Optimization</h3>
@@ -91,7 +91,7 @@ const WebFeatures = () => {
 
                     <div className="item-2">
                     <div className="security-card">
-                        <img src="https://img1.wsimg.com/cdnassets/transform/77988898-896d-4b0e-a57e-a62b84b9bca7/feature-3-24-7-security" alt="Security" className="img-fluid security-img wow fadeInUp"
+                        <img src="/images/services/web-deisgn/launch-maintenance.jpg" alt="Security" className="img-fluid security-img wow fadeInUp"
                                 data-wow-delay="0.6s" />
                         <h3 className="hosting-title wow fadeInUp"
                                 data-wow-delay="0.6s">Launch & Maintenance</h3>
@@ -104,7 +104,7 @@ const WebFeatures = () => {
             </div>
            </div>
 
-           <div className="moveAnimation" style={{ position: "absolute", bottom: "0px", right: "0px", width:"auto", animation: "moveImage5 5s linear infinite",
+           <div className="moveAnimation1" style={{ position: "absolute", bottom: "0px", right: "0px", width:"auto", animation: "moveImage5 5s linear infinite",
                                                 // border:"1px solid red"
                                         }}>
                                                 <img

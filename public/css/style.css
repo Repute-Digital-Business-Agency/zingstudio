@@ -19957,3 +19957,75 @@ input[type="radio"]+label:hover:before {
   }
 }
 
+@media (max-width:580px){
+  .moveAnimation1{
+    display: none !important;
+  }
+  @keyframes moveImage5 {
+    0% {
+      bottom: 180px;
+      right: 280px;
+    }
+    50% {
+      bottom: 100px; 
+      right: 280px; 
+    }
+    100% {
+      bottom:180px;
+      right: 280px; 
+    }
+  }
+}
+
+@media (max-width:1178px){
+  @keyframes moveImage5 {
+    0% {
+      bottom: 180px;
+      right: 180px;
+    }
+    50% {
+      bottom: 100px; 
+      right: 180px; 
+    }
+    100% {
+      bottom:180px;
+      right: 180px; 
+    }
+  }
+}
+
+
+@media (max-width:990px){
+  @keyframes moveImage5 {
+    0% {
+      bottom: 180px;
+      right: 120px;
+    }
+    50% {
+      bottom: 100px; 
+      right: 120px; 
+    }
+    100% {
+      bottom:180px;
+      right: 120px; 
+    }
+  }
+}
+
+@media (max-width:760px){
+  @keyframes moveImage5 {
+    0% {
+      bottom: 180px;
+      right: 60px;
+    }
+    50% {
+      bottom: 100px; 
+      right: 60px; 
+    }
+    100% {
+      bottom:180px;
+      right: 60px; 
+    }
+  }
+}
+

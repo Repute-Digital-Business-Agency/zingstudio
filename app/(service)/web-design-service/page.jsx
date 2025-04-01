@@ -102,7 +102,8 @@ export default function page() {
       "Open-Source Development"
     ]
     const bannerContent = {
-      src:"https://img1.wsimg.com/cdnassets/transform/c50e55dd-152b-45c6-815a-f7164b2a87aa/FOSMO-98392-WH-SLP-New-Marquee-Image-without-cPanel",
+      // src:"https://img1.wsimg.com/cdnassets/transform/c50e55dd-152b-45c6-815a-f7164b2a87aa/FOSMO-98392-WH-SLP-New-Marquee-Image-without-cPanel",
+      src:"/images/services/web-deisgn/banner.jpg",
         head:"Craft Stunning Websites that Captivate, Engage, and Convert with our Web Designing Expertise!",
       caption:"Web Design",
       subTitle:"Designing Websites that Work, Impress, and Convert!",

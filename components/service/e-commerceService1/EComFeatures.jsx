@@ -19,7 +19,7 @@ const EComFeatures = () => {
                     <div className="item-2 wow fadeInUp"
                                 data-wow-delay="0.6s" >
                     <div className="security-card ">
-                        <img src="https://img1.wsimg.com/cdnassets/transform/77988898-896d-4b0e-a57e-a62b84b9bca7/feature-3-24-7-security" alt="Security" className="img-fluid security-img wow fadeInUp"
+                        <img src="/images/services/E-commerce/consultation-planning.jpg" alt="Security" className="img-fluid security-img wow fadeInUp"
                                 data-wow-delay="0.6s" />
                         <h3 className="hosting-title wow fadeInUp"
                                 data-wow-delay="0.6s">Consultation &amp; Planning</h3>
@@ -32,7 +32,7 @@ const EComFeatures = () => {
                     <div className="item-2 wow fadeInUp"
                                 data-wow-delay="0.6s" >
                     <div className="security-card ">
-                        <img src="https://img1.wsimg.com/cdnassets/transform/77988898-896d-4b0e-a57e-a62b84b9bca7/feature-3-24-7-security" alt="Security" className="img-fluid security-img wow fadeInUp"
+                        <img src="/images/services/E-commerce/design-development.jpg" alt="Security" className="img-fluid security-img wow fadeInUp"
                                 data-wow-delay="0.6s" />
                         <h3 className="hosting-title wow fadeInUp"
                                 data-wow-delay="0.6s">Design &amp; Development</h3>
@@ -47,7 +47,7 @@ const EComFeatures = () => {
                     <div className="item-2 wow fadeInUp"
                                 data-wow-delay="0.6s" >
                     <div className="security-card ">
-                        <img src="https://img1.wsimg.com/cdnassets/transform/77988898-896d-4b0e-a57e-a62b84b9bca7/feature-3-24-7-security" alt="Security" className="img-fluid security-img wow fadeInUp"
+                        <img src="/images/services/E-commerce/customization-iIntegration.jpg" alt="Security" className="img-fluid security-img wow fadeInUp"
                                 data-wow-delay="0.6s" />
                         <h3 className="hosting-title wow fadeInUp"
                                 data-wow-delay="0.6s">Customization &amp; Integration</h3>
@@ -65,7 +65,7 @@ const EComFeatures = () => {
                 <div className=" d-flex flex-column" >
                                 <div className="item-2 ">
                                         <div className="security-card ">
-                                                <img src="https://img1.wsimg.com/cdnassets/transform/77988898-896d-4b0e-a57e-a62b84b9bca7/feature-3-24-7-security" alt="Security" className="img-fluid security-img wow fadeInUp"
+                                                <img src="/images/services/E-commerce/testing-quality-assurance.jpg" alt="Security" className="img-fluid security-img wow fadeInUp"
                                                         data-wow-delay="0.6s" />
                                                 <h3 className="hosting-title wow fadeInUp"
                                                         data-wow-delay="0.6s">Testing &amp; Quality Assurance</h3>
@@ -79,7 +79,7 @@ const EComFeatures = () => {
 
                         <div className="item-2">
                                 <div className="security-card">
-                                        <img src="https://img1.wsimg.com/cdnassets/transform/77988898-896d-4b0e-a57e-a62b84b9bca7/feature-3-24-7-security" alt="Security" className="img-fluid security-img wow fadeInUp"
+                                        <img src="/images/services/E-commerce/launch-optimization.jpg" alt="Security" className="img-fluid security-img wow fadeInUp"
                                                 data-wow-delay="0.6s" />
                                         <h3 className="hosting-title wow fadeInUp"
                                                 data-wow-delay="0.6s">Launch &amp; Optimization</h3>
@@ -93,7 +93,7 @@ const EComFeatures = () => {
 
                         <div className="item-2">
                                 <div className="security-card relative" >
-                                        <img src="https://img1.wsimg.com/cdnassets/transform/77988898-896d-4b0e-a57e-a62b84b9bca7/feature-3-24-7-security" alt="Security" className="img-fluid security-img wow fadeInUp"
+                                        <img src="/images/services/E-commerce/maintenance-support.jpg" alt="Security" className="img-fluid security-img wow fadeInUp"
                                                 data-wow-delay="0.6s" />
                                         <h3 className="hosting-title wow fadeInUp"
                                                 data-wow-delay="0.6s">Maintenance &amp; Support</h3>
@@ -107,7 +107,7 @@ const EComFeatures = () => {
                         </div>
                 </div>
             </div>
-            <div className="moveAnimation" style={{ position: "absolute", bottom: "0px", right: "0px", width:"auto", animation: "moveImage5 5s linear infinite",
+            <div className="moveAnimation1" style={{ position: "absolute", bottom: "0px", right: "0px", width:"auto", animation: "moveImage5 5s linear infinite",
                                                 // border:"1px solid red"
                                         }}>
                                                 <img

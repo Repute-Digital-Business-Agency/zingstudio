@@ -117,7 +117,7 @@ export default function page() {
       "Open-Source Development"
     ]
     const bannerContent = {
-      src:"https://img1.wsimg.com/cdnassets/transform/c50e55dd-152b-45c6-815a-f7164b2a87aa/FOSMO-98392-WH-SLP-New-Marquee-Image-without-cPanel",
+      src:"/images/services/E-commerce/banner.jpg",
         head:"Scalable and Seamless E-Commerce Solutions for Business Growth.",
       caption:"E-Commerce",
       subTitle:"Custom E-Commerce solutions for smooth operations, better user experiences, and faster growth.",
