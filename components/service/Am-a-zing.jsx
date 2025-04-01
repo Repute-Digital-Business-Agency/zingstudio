@@ -158,9 +158,9 @@ export default function Am_a_Zing() {
                  
                   style={{
                       width:"300px",
-                      height:"800px",
-                      position:"sticky",
-                      top:"70px",
+                    //   height:"800px",
+                    //   position:"sticky",
+                    //   top:"70px",
                   left:"0",
                   zIndex:"1000",
                 //   marginTop:"50px"
@@ -187,9 +187,10 @@ export default function Am_a_Zing() {
           
               </div>
               <div className="col-lg-6 col-md-12 content" style={{position:"relative"}}>
-              <div className="Am-a-zing-content max-w700 m-auto p-tb50 p-lr20" style={{position:"sticky",
-                  top:"100px"
-              }}>
+              <div className="Am-a-zing-content max-w700 m-auto p-tb50 p-lr20" 
+            //   style={{position:"sticky",
+            //       top:"100px" }}
+                  >
                   <div className="our-story">
                   <h2 className="title text-primary">
                       <Link href="/am-a-zing">

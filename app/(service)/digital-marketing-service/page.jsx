@@ -163,7 +163,7 @@ export default function page() {
         link:"https://sreethangamjewellery.com/"
       },
       {
-        title: "Goes Good",
+        title: "Thangam Jewelry",
         image: "/images/services/E-commerce/mockup-3.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.9s",

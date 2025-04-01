@@ -37,7 +37,7 @@ export default function Home1() {
  
   return (
     <>
-      <div className="page-wraper  ">
+      <div className="page-wraper bg-white ">
         <Header17 />
         <div className="page-content bg-white pb-0" >
           {/* <Hero/> */}
@@ -100,8 +100,10 @@ export default function Home1() {
 
 
         <HomeCta />
-        
+        <div className="home-footer">
         <Footer13 />
+        </div>
+       
       </div>
     </>
   );
