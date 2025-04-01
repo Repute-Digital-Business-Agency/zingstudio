@@ -136,36 +136,36 @@ export default function page() {
     }
     const portfolioItems = [
       {
-        title: "Filmode Fashon",
-        image: "/images/services/E-commerce/mockup-5.jpg",
+        title: "GMAK Fiber Laser",
+        image: "/images/services/web-deisgn/mockup-1.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.3s",
         duration: "1s",
-        link:"https://filmodefashion.com/"
+        link:"https://gmaklaser.com/"
       },
       {
-        title: "Thangam Jewelry",
-        image: "/images/services/E-commerce/mockup-2.jpg",
+        title: "SKD Finedecor",
+        image: "/images/services/web-deisgn/mockup-2.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.6s",
         duration: "1.3s",
-        link:"https://sreethangamjewellery.com/"
+        link:"https://skdfinedecor.com/"
       },
       {
-        title: "Thangam Jewelry",
-        image: "/images/services/E-commerce/mockup-3.jpg",
+        title: "NVM Lifestyle Clinic",
+        image: "/images/services/web-deisgn/mockup-3.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.9s",
         duration: "1.6s",
-        link:"https://goesgood.in/"
+        link:"https://nvmlifestyleclinic.com/"
       },
       {
-        title: "Faso",
-        image: "/images/services/E-commerce/mockup-4.jpg",
+        title: "GSpace Interior",
+        image: "/images/services/web-deisgn/mockup-4.jpg",
         className: "col-lg-3 col-md-3 col-sm-6",
         delay: "0.3s",
         duration: "1.9s",
-        link:"https://faso.in/"
+        link:"https://www.gspaceinterior.com/"
       },
       // {
       //   title: "Rhythm Fashion",
