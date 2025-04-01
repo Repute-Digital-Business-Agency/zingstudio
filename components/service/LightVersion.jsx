@@ -127,14 +127,13 @@ const LightVersion = ({
                         <ul className="list-details">
                         <li className="text-black d-flex flex-sm-row justify-content-sm-between flex-column justify-content-start ">
                             <span style={{ fontSize: "18px" , fontWeight: "600" }}>Digital Marketing</span>
-                            <span className="pt-1 pt-sm-0" style={{  fontWeight: "500", fontSize:"17px", color:"#e21100" }}>Starting @ ₹ 25,999</span>
+                            <span className="pt-1 pt-sm-0" style={{  fontWeight: "500", fontSize:"17px", color:"#e21100" }}>Starting @ ₹ 12,000</span>
                         </li>
-                        <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600",borderTop:"1px solid black" }}>Basic</li>
+                        <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600",borderTop:"1px solid black" }}>SMO</li>
                         <ul className="list-arrow mb-0 mt-0">
-                      <li className="text-black px-4">On-Page Optimization - Up to 10 Pages</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Competitor Analysis - 1 Competitor</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Keyword Research and Analysis</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Keyphrase Optimization - 10 Pages</li>
+                      <li className="text-black px-4">Instagram - 3 reels , 3 posts per Month</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Facebook - 3 reels , 3 posts per Month</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Pinterest - 3 reels , 3 posts per Month</li>
                     </ul>
 
                         <li className="text-black btn py-0 pt-2  mb-0" style={{borderTop:"1px solid black"}}>
@@ -152,14 +151,15 @@ const LightVersion = ({
                         <ul className="list-details">
                         <li className="text-black d-flex flex-sm-row justify-content-sm-between flex-column justify-content-start ">
                             <span style={{ fontSize: "18px" , fontWeight: "600" }}>Digital Marketing</span>
-                            <span className="pt-1 pt-sm-0" style={{  fontWeight: "500", fontSize:"17px", color:"#e21100" }}>Starting @ ₹ 35,000</span>
+                            <span className="pt-1 pt-sm-0" style={{  fontWeight: "500", fontSize:"17px", color:"#e21100" }}>Starting @ ₹ 10,000</span>
                         </li>
-                        <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600",borderTop:"1px solid black" }}>Standard</li>
+                        <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600",borderTop:"1px solid black" }}>SEO</li>
                         <ul className="list-arrow mb-0 mt-0">
-                      <li className="text-black px-4">On-Page Optimization - Up to 15 Pages</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Competitor Analysis - 3 Competitor</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Keyword Research and Analysis</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Keyphrase Optimization - 15 Pages</li>
+                      <li className="text-black px-4">Max Keywords - 8 Keywords</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Competitor Analysis - 1 </li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}> Meta Tags Creation - 10 Pages</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}> Blog Posting (500 – 700 words) - 1</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Onsite Blog (1000 – 1500 words) - 1</li>
                     </ul>
 
                         <li className="text-black btn py-0 pt-2 mb-0" style={{borderTop:"1px solid black"}} >
@@ -177,16 +177,18 @@ const LightVersion = ({
                         <ul className="list-details">
                         <li className="text-black d-flex flex-sm-row justify-content-sm-between flex-column justify-content-start ">
                             <span style={{ fontSize: "18px", fontWeight: "600"  }}>Digital Marketing</span>
-                            <span className="pt-1 pt-sm-0" style={{  fontWeight: "500", fontSize:"17px", color:"#e21100" }}>Starting @ ₹ 25,850</span>
+                            <span className="pt-1 pt-sm-0" style={{  fontWeight: "500", fontSize:"17px", color:"#e21100" }}>Starting @ ₹ 40,000</span>
                         </li>
-                        <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600" , borderTop:"1px solid black"}}>Premium</li>
+                        <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600" , borderTop:"1px solid black"}}>Combo Packages for Startups</li>
                         <li className="text-black mt-0 pt-0" style={{ borderTop: "none" }}>
                             {/* <strong> */}
                             <ul className="list-arrow mb-0 mt-0">
-                            <li className="text-black px-4">On-Page Optimization - Up to 15 Pages</li>
-                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Competitor Analysis - 3 Competitor</li>
-                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Keyword Research and Analysis</li>
-                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Keyphrase Optimization - 10 Pages</li>
+                            <li className="text-black px-4">Logo (5 options)</li>
+                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Brochure (8 pages)</li>
+                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Business Card</li>
+                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Basic Website (8 pages)</li>
+                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Google Maps</li>
+                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Social Media Pages  (Basic profile creation)</li>
                     </ul>
                             {/* </strong> */}
                             {/* <span>{project.completionDate}</span> */}
