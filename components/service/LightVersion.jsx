@@ -131,9 +131,9 @@ const LightVersion = ({
                         </li>
                         <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600",borderTop:"1px solid black" }}>SMO</li>
                         <ul className="list-arrow mb-0 mt-0">
-                      <li className="text-black px-4">Instagram - 3 reels , 3 posts per Month</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Facebook - 3 reels , 3 posts per Month</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Pinterest - 3 reels , 3 posts per Month</li>
+                      <li className="text-black px-4">Instagram - 3 Reels , 3 Posts per Month</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Facebook - 3 Reels , 3 Posts per Month</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Pinterest - 3 Reels , 3 Posts per Month</li>
                     </ul>
 
                         <li className="text-black btn py-0 pt-2  mb-0" style={{borderTop:"1px solid black"}}>
