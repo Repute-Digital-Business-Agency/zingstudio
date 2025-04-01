@@ -482,7 +482,7 @@ export default function page() {
 
         <ServiceList data={EcommerceDevelopment} head={"Digital Marketing - SEO"} WebDesignfeatures={WebDesignfeatures} />
         <ServiceList data={EcommerceDevelopmentSmo} head={"Digital Marketing - SMO"} WebDesignfeatures={WebDesignfeatures} />
-        <ServiceList data={EcommerceDevelopmentCombo} head={"Digital Marketing - Combo Package"} WebDesignfeatures={WebDesignfeatures} />
+        <ServiceList data={EcommerceDevelopmentCombo} head={"Digital Marketing - Combo Packages for Startups"} WebDesignfeatures={WebDesignfeatures} />
 
         <Guarantee Performance={Performance} />
 
