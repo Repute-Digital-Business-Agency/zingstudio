@@ -47,7 +47,7 @@ export default function page() {
       title:"Module 1: Digital Marketing Basics",
       list:[
         "Introduction to Digital Marketing",
-        "MMarketing Psychology & Consumer Behavior",
+        "Marketing Psychology & Consumer Behavior",
         
       ],
       imgSrc:"/images/Zing-Launchpad-Student-Internship-Program/digital-marketing-basics.jpg",

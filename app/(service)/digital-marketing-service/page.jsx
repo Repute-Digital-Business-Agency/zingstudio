@@ -10,7 +10,7 @@ import Cta from "@/components/homes/home-13/Cta";
 import OurWorkServices from "@/components/homes/home-5/OurWorksServices";
 import HeroSection from "@/components/service/e-commerceService1/HeroSection";
 import ServiceList from "@/components/service/e-commerceService1/ServiceList";
-import Features from "@/components/service/e-commerceService1/EComFeatures";
+import Features from "@/components/service/e-commerceService1/Features";
 import FAQ from "@/components/service/FAQ";
 import Guarantee from "@/components/service/e-commerceService1/Guarantee";
 import EComFeatures from "@/components/service/e-commerceService1/EComFeatures";
@@ -294,6 +294,42 @@ export default function page() {
       button:"Book Free Consultation"
     }
 
+    const features = {
+      title:"Digital Marketing Service Process at Zing Studio",
+      description:"You get speedier page-load times, tools to help grow your business, and essential security measures to build trust and help protect user data. Plus, you get peace of mind with a money-back guarantee.",
+      subTitle:"Strategize. Optimize. Achieve!",
+      feature:[
+        {
+          title:"Understanding Goals:",
+          caption:"Collaborating to define clear objectives and key performance indicators (KPIs).",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-01.png"
+        },
+        {
+          title:"Market Research:",
+          caption:"Analyzing competitors, audience behavior, and industry trends.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-02.png"
+        },
+        {
+          title:"Strategy Development:",
+          caption:"Crafting data-driven marketing plans tailored to business goals.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-03.png"
+        },
+        {
+          title:"Implementation",
+          caption:"Executing multi-channel campaigns across relevant platforms.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-04.png"
+        },{
+          title:"Monitoring & Optimization:",
+          caption:"Tracking performance, analyzing insights, and making adjustments for continuous improvement.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-05.png"
+        },{
+          title:"Reporting",
+          caption:"Providing transparent reports to measure success and refine strategies.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-06.png"
+        }
+      ]
+    }
+
   return (
     <>
       <div className="page-wraper  ">
@@ -305,7 +341,9 @@ export default function page() {
        <Guarantee Performance={Performance}/>
 
 
-        <DigitalFeatures/>
+        {/* <DigitalFeatures/> */}
+
+        <Features features={features}/>
 
         <ServicePortfolio portfolioItems={portfolioItems} portfolioContent={portfolioContent}/>
 

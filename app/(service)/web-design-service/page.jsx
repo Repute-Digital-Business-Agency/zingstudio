@@ -10,7 +10,7 @@ import Cta from "@/components/homes/home-13/Cta";
 import OurWorkServices from "@/components/homes/home-5/OurWorksServices";
 import HeroSection from "@/components/service/e-commerceService1/HeroSection";
 import ServiceList from "@/components/service/e-commerceService1/ServiceList";
-import Features from "@/components/service/e-commerceService1/EComFeatures";
+import Features from "@/components/service/e-commerceService1/Features";
 import FAQ from "@/components/service/FAQ";
 import Guarantee from "@/components/service/e-commerceService1/Guarantee";
 import WebFeatures from "@/components/service/e-commerceService1/WebFeatures";
@@ -281,6 +281,42 @@ export default function page() {
       description:"Get Expert Guidance on Web Design Packages, schedule a consultation with our experts at Zing Studio and find the perfect solution tailored to your business goals.",
       button:"Book Free Consultation"
     }
+
+    const features = {
+      title:"Web design process for delivering exceptional websites:",
+      description:"You get speedier page-load times, tools to help grow your business, and essential security measures to build trust and help protect user data. Plus, you get peace of mind with a money-back guarantee.",
+      subTitle:"Design. Develop. Deliver.",
+      feature:[
+        {
+          title:"Discovery & Planning",
+          caption:"Understanding goals, audience, and brand identity to create a tailored strategy.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-01.png"
+        },
+        {
+          title:"Wireframing & Prototyping",
+          caption:"Designing a visual blueprint for seamless navigation and user experience.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-02.png"
+        },
+        {
+          title:"Design Creation",
+          caption:"Crafting visually engaging and brand-aligned designs using the latest design principles.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-03.png"
+        },
+        {
+          title:"Development",
+          caption:"Converting designs into responsive, functional websites with clean and efficient code.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-04.png"
+        },{
+          title:"Testing & Optimization",
+          caption:"Conducting thorough testing for usability, compatibility, and performance across devices.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-05.png"
+        },{
+          title:"Launch & Maintenance",
+          caption:"Deploying the website and providing continuous support for updates and improvements.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-06.png"
+        }
+      ]
+    }
     
   return (
     <>
@@ -293,7 +329,11 @@ export default function page() {
        <Guarantee Performance={Performance}/>
 
 
-        <WebFeatures/>
+        {/* <WebFeatures/> */}
+
+        <Features features={features}/>
+      
+
 
         <ServicePortfolio portfolioItems={portfolioItems} portfolioContent={portfolioContent}/>
 

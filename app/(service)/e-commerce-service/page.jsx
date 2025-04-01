@@ -10,7 +10,7 @@ import Cta from "@/components/homes/home-13/Cta";
 import OurWorkServices from "@/components/homes/home-5/OurWorksServices";
 import HeroSection from "@/components/service/e-commerceService1/HeroSection";
 import ServiceList from "@/components/service/e-commerceService1/ServiceList";
-import Features from "@/components/service/e-commerceService1/EComFeatures";
+import Features from "@/components/service/e-commerceService1/Features";
 import FAQ from "@/components/service/FAQ";
 import Guarantee from "@/components/service/e-commerceService1/Guarantee";
 import EComFeatures from "@/components/service/e-commerceService1/EComFeatures";
@@ -284,6 +284,42 @@ export default function page() {
       description:"Get Expert Guidance on E-Commerce Packages, schedule a consultation with our experts at Zing Studio and find the perfect solution tailored to your business goals.",
       button:"Book Free Consultation"
     }
+
+    const features = {
+      title:"Smart, secure, and scalable E-Commerce solutions to drive growth",
+      description:"Zing Studio delivers customized E-Commerce solutions designed for performance, security, and user engagement. From intuitive design to seamless functionality, we create online stores that enhance customer experience and drive conversions. Partner with us to build a future-ready digital storefront.",
+      subTitle:"Smart E-Commerce Solutions",
+      feature:[
+        {
+          title:"Consultation & Planning",
+          caption:"Understanding business goals and target audience to create a strategic roadmap.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-01.png"
+        },
+        {
+          title:"Design & Development",
+          caption:"Crafting user-friendly, responsive, and visually appealing designs backed by robust development.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-02.png"
+        },
+        {
+          title:"Customization & Integration",
+          caption:"Implementing tailored features and integrating essential third-party tools for seamless operations.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-03.png"
+        },
+        {
+          title:"Testing & Quality Assurance",
+          caption:"Conducting rigorous testing to ensure a flawless user experience across devices and platforms.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-04.png"
+        },{
+          title:"Launch & Optimization",
+          caption:"Deploying the platform with post-launch support, ensuring performance tracking and continuous improvements.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-05.png"
+        },{
+          title:"Maintenance & Support",
+          caption:"Offering reliable technical assistance, updates, and enhancements to keep the platform at its best.",
+          src:"/images/brand-buzz/Colored-icons/colored-icon-06.png"
+        }
+      ]
+    }
     
   return (
     <>
@@ -296,7 +332,9 @@ export default function page() {
        <Guarantee Performance={Performance}/>
 
 
-        <EComFeatures/>
+        {/* <EComFeatures/> */}
+
+        <Features features={features}/>
 
         <ServicePortfolio portfolioItems={portfolioItems} portfolioContent={portfolioContent}/>
 

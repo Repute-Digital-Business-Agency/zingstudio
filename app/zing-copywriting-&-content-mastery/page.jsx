@@ -65,7 +65,7 @@ export default function page() {
       title:"Module 3: Video & Social Media Content",
       list:[
         "Writing Video Scripts & Social Captions",
-        "FEngaging LinkedIn & Twitter Content",
+        "Engaging LinkedIn & Twitter Content",
         
       ],
       imgSrc:"/images/Zing-Copywriting-&-Content-Mastery/video-social-media-content.jpg",

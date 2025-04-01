@@ -56,7 +56,7 @@ export default function page() {
       title:"Module 2: Facebook & Instagram Ads",
       list:[
         "Audience Targeting & Lookalike Audiences",
-        "LFacebook Pixel & Conversion Tracking",
+        "Facebook Pixel & Conversion Tracking",
      
       ],
       imgSrc:"/images/Zing-AdSense-Ace/facebook-instagram-ads.jpg",
