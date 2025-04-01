@@ -291,36 +291,36 @@ export default function page() {
   }
   const portfolioItems = [
     {
-      title: "Rhythm Fashion",
-      image: "/images/services/E-commerce/mockup-5.jpg",
+      title: "Kumars Houston",
+      image: "/images/services/digital-marketing/mockup-1.jpg",
       className: "col-lg-3 col-md-3 col-sm-6",
       delay: "0.6s",
       duration: "1.12s",
-      link: "https://rhythmfashion.com/"
+     link: "https://www.kumarmesshouston.com/"
     },
     {
-      title: "Thangam Jewelry",
-      image: "/images/services/E-commerce/mockup-2.jpg",
+      title: "Vishwankar School",
+      image: "/images/services/digital-marketing/mockup-2.jpg",
       className: "col-lg-3 col-md-3 col-sm-6",
       delay: "0.6s",
       duration: "1.3s",
-      link: "https://sreethangamjewellery.com/"
+      link: "https://vishwankarschool.com/"
     },
     {
-      title: "Thangam Jewelry",
-      image: "/images/services/E-commerce/mockup-3.jpg",
+      title: "Gomuki",
+      image: "/images/services/digital-marketing/mockup-3.jpg",
       className: "col-lg-3 col-md-3 col-sm-6",
       delay: "0.9s",
       duration: "1.6s",
-      link: "https://goesgood.in/"
+    link: "https://srigomuki.com/"
     },
     {
-      title: "Faso",
-      image: "/images/services/E-commerce/mockup-4.jpg",
+      title: "Tirumalai Textiles",
+      image: "/images/services/digital-marketing/mockup-4.jpg",
       className: "col-lg-3 col-md-3 col-sm-6",
       delay: "0.3s",
       duration: "1.9s",
-      link: "https://faso.in/"
+     link: "https://tirumalaitextiles.com/"
     },
 
     // {
