@@ -93,12 +93,12 @@ export default function Faq1() {
 
                       <div className="col-lg-6 col-md-12 m-b30">
                         <div className="faq-video h-100">
-                          <a
+                          {/* <a
                             className="play-btn popup-youtube"
                             onClick={() => setOpen(true)}
                           >
                             <i className="flaticon-play-button text-white" />
-                          </a>
+                          </a> */}
                           <Image
                             alt=""
                             className="img-cover radius-sm"
