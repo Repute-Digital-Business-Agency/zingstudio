@@ -95,7 +95,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
              
             </a> */}
             <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp mt-2"
-              data-wow-delay="1.4s"  style={{textWrap:"wrap",marginRight:"10px",background:"transparent", border:"1px solid #fff ", color:"#fff"}}>
+              data-wow-delay="1.4s"  style={{textWrap:"wrap",marginRight:"10px",background:"transparent", border:"1px solid #fff ", color:"#fff", fontSize:"16px", textTransform:"uppercase"}}>
                      {bannerContent.button2}
              
             </a>

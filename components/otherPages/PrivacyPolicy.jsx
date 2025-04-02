@@ -182,7 +182,7 @@ settings.</p>
 
                 <div className="dlab-divider bg-gray-dark" />
                 <h4 className="title">Contact Us</h4>
-                <p className="font-18 mb-0">For any questions or concerns regarding this Privacy Policy, please contact us at: <b>Zing Studio</b></p>
+                <p className="font-18 mb-0">For any questions or concerns regarding this Privacy Policy, <br /> please contact us at: <b>Zing Studio</b></p>
                
                 <p className="font-18 m-0 fw-bold">
                   <a href="mailto:support@zingstudio.in">support@zingstudio.in</a>
