@@ -39,9 +39,11 @@ export default function ExpertsHub() {
         <div className="content-block">
           <WhyConsultUs />
         </div>
-        <div >
+
+        {/* <div >
           <MeetTheExperts />
-        </div>
+        </div> */}
+        
         <ExpertsCta />
 
         

@@ -692,7 +692,7 @@ export default function page() {
         {/* <LiveProjects projectContent={projectContent} projects={projects}/> */}
       
     
-      <GuestLectures/>
+      {/* <GuestLectures/> */}
       
       
       {/* <ToolsLearning ToolsContent={ToolsContent} Tools1={Tools1} Tools2={Tools2}/> */}
