@@ -67,19 +67,19 @@ export default function AcademyCourseBanner({option,bannerContent}) {
              
             </ul>
 
-            <p className="font-16  wow fadeInUp mb-0 pb-2" data-wow-delay="1s">
+            <h4 className="font-16 fw-medium wow fadeInUp mb-0 course-highlight" data-wow-delay="1s">
           Course Duration : {bannerContent.duration}
 
-            </p>
+            </h4>
 
-            <p className="font-16  wow fadeInUp mb-0 pb-2" data-wow-delay="1s">
+            <h4 className="font-16 fw-medium   wow fadeInUp mb-0  course-highlight" data-wow-delay="1s">
           Course Fees : {bannerContent.fees}
 
-            </p>
+            </h4>
             
 
             <h4
-              className="font-weight-300   wow fadeInUp "
+              className="font-16 fw-medium   wow fadeInUp course-highlight"
               data-wow-delay="1.2s"
             >
               {bannerContent.subTitle}
@@ -94,8 +94,8 @@ export default function AcademyCourseBanner({option,bannerContent}) {
                     {bannerContent.button1}
              
             </a> */}
-            <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp "
-              data-wow-delay="1.4s"  style={{textWrap:"wrap",marginRight:"10px"}}>
+            <a href="/contact" className="site-button btnhover13 primary align-self-center outline ms-auto outline-2 wow fadeInUp mt-2"
+              data-wow-delay="1.4s"  style={{textWrap:"wrap",marginRight:"10px",background:"transparent", border:"1px solid #fff ", color:"#fff"}}>
                      {bannerContent.button2}
              
             </a>

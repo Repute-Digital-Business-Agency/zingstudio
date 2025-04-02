@@ -71,9 +71,7 @@ export default function DigitalMarketingPortfolio({portfolioItems,portfolioConte
           slide: { display: "flex", alignItems: "center", justifyContent: "center",height:"100%" },
           toolbar: { top: "100px" }, // Move close button toolbar down
           button:{ fontSize:"15px"}
-        //   closeButton: { position: "absolute", top: "15px", right: "15px", fontSize: "24px" ,color:"#000"},
         
-
         }}
         render={{
             slide: ({ slide }) => (

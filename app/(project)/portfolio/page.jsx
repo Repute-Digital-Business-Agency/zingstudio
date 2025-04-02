@@ -7,6 +7,7 @@ import React from "react";
 import Header17 from "@/components/headers/Header17";
 import Footer13 from "@/components/footers/Footer13";
 import Cta from "@/components/homes/home-13/Cta";
+import Portfolio4 from "@/components/portfolio/Portfolio4";
 
 
 export const metadata = {
@@ -42,7 +43,9 @@ export default function page() {
         </div>
 
         <div className="content-block">
-          <Portfolio2 />
+          {/* <Portfolio2 /> */}
+          <Portfolio4/>
+
         </div>
 
         <Cta />

@@ -20174,4 +20174,27 @@ input[type="radio"]+label:hover:before {
 .yarl__toolbar button svg{
   width: 25px;
 }
+.course-highlight-top{
+  /* border-top: 1px  dashed #ffffff87; */
+  width: fit-content;
+  padding:0 50px 0 30px;
+  /* padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px; */
+  margin-top: 5px;
+  color: #000 !important;
+  background: #ffffff78;
+
+}
+.course-highlight{
+  /* border-bottom: 1px dashed #ffffff87; */
+  width: fit-content;
+  padding:5px 50px 5px 20px;
+  /* padding-bottom: 10px; */
+ /* color: #2a2c32 !important; */
+ color: #000 !important;
+ background: #fabc18;
+ margin-top: 8px;
+ text-transform: uppercase;
+}
 

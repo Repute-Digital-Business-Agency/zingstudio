@@ -292,9 +292,9 @@ export default function page() {
   }
   const portfolioItems = [
     {
-      title: "Kumars Houston",
+      title: "Kumar's Houston",
       image: "/images/services/digital-marketing/mockup-1.jpg",
-      className: "col-lg-4 col-md-4 col-sm-6",
+      className: "col-lg-3 col-md-3 col-sm-6",
       delay: "0.6s",
       duration: "1.12s",
       posters: [
@@ -330,9 +330,9 @@ export default function page() {
     //   // link: "https://vishwankarschool.com/"
     // },
     {
-      title: "Gomuki",
+      title: "Sri Gomuki Tex Chem Pvt Ltd",
       image: "/images/services/digital-marketing/mockup-3.jpg",
-      className: "col-lg-4 col-md-4 col-sm-6",
+      className: "col-lg-3 col-md-3 col-sm-6",
       delay: "0.9s",
       duration: "1.6s",
       posters: [
@@ -349,7 +349,7 @@ export default function page() {
     {
       title: "Tirumalai Textiles",
       image: "/images/services/digital-marketing/mockup-4.jpg",
-      className: "col-lg-4 col-md-4 col-sm-6",
+      className: "col-lg-3 col-md-3 col-sm-6",
       delay: "0.3s",
       duration: "1.9s",
       posters: [
@@ -362,6 +362,26 @@ export default function page() {
         "/images/services/digital-marketing/tirumalai/7.jpeg",
         "/images/services/digital-marketing/tirumalai/8.jpeg",
         "/images/services/digital-marketing/tirumalai/9.jpeg",
+        
+      ],
+    //  link: "https://tirumalaitextiles.com/"
+    },
+    {
+      title: "Torren Pumps",
+      image: "/images/services/digital-marketing/mockup-2.jpg",
+      className: "col-lg-3 col-md-3 col-sm-6",
+      delay: "0.3s",
+      duration: "1.9s",
+      posters: [
+        "/images/services/digital-marketing/torren/1.jpg",
+        "/images/services/digital-marketing/torren/2.jpg",
+        "/images/services/digital-marketing/torren/3.jpg",
+        "/images/services/digital-marketing/torren/4.jpg",
+       "/images/services/digital-marketing/torren/5.jpg",
+        "/images/services/digital-marketing/torren/6.jpg",
+        "/images/services/digital-marketing/torren/7.jpg",
+        "/images/services/digital-marketing/torren/8.jpg",
+        "/images/services/digital-marketing/torren/9.jpg",
         
       ],
     //  link: "https://tirumalaitextiles.com/"
