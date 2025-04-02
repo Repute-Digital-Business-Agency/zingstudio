@@ -29,13 +29,17 @@ const CareerForm = () => {
               <p>
               Got the skills? We’ve got the opportunities! Fill out the form and step into an exciting career with Zing Studio!
               </p>
+              <style>
+                
+              </style>
+             
           <iframe
-            src=" https://connect.irepute.in/file/lets-zing/"
+            src="https://connect.irepute.in/file/life-at-zing/"
             width="100%"
-            height="450px"
+            height="370px" scrolling="no"
             // style="border: none;"
-            allowfullscreen
             ></iframe>
+            
           </div>
           
            

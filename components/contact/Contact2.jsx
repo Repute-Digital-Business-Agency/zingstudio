@@ -113,7 +113,7 @@ export default function Contact2() {
             <iframe
             src="https://connect.irepute.in/file/lets-zing/"
             width="100%"
-            height="550px"
+            height="400px"
             // style="border: none;"
             allowfullscreen
             ></iframe>
