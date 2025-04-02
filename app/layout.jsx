@@ -139,15 +139,15 @@ export default function RootLayout({ children }) {
           )}
         </Context>
         <SearchPopup />
-        <a
+        {/* <a
           href="tel:04224980307"
           target="_blank"
           className="bt-buy-now theme-btn"
         >
           <i className="ti-mobile" />
           <span>call Now</span>
-        </a>
-        <a
+        </a> */}
+        {/* <a
           href="https://wa.me/8248779838"
           target="_blank"
           className="bt-support-now theme-btn whatsapp-icon"
@@ -155,7 +155,7 @@ export default function RootLayout({ children }) {
         >
           <i className="fab fa-whatsapp" />
           <span>Whatsapp</span>
-        </a>
+        </a> */}
       </body>
     </html>
   );
