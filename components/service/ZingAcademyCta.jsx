@@ -17,7 +17,8 @@ export default function ZingAcademyCta() {
             <Image
           className="acdemy-img"
                               alt=""
-                              src="/images/elementbg/img-2.webp"
+                              // src="/images/elementbg/img-2.webp"
+                              src="/images/Academy/image.webp.png"
                               width="350"
                               height="300"
                             />

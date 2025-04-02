@@ -17,7 +17,8 @@ import EComFeatures from "@/components/service/e-commerceService1/EComFeatures";
 import WebFeatures from "@/components/service/e-commerceService1/WebFeatures";
 import DigitalFeatures from "@/components/service/e-commerceService1/DigitalFeatures";
 import ServicesCta from "@/components/service/e-commerceService1/ServicesCta";
-import ServicePortfolio from "@/components/service/e-commerceService1/portfolio";
+// import ServicePortfolio from "@/components/service/e-commerceService1/portfolio";
+import DigitalMarketingPortfolio from "@/components/service/e-commerceService1/digitalMarketingportfolio";
 
 export const metadata = {
   title: "E-commerce Development || Zing Studio",
@@ -293,52 +294,79 @@ export default function page() {
     {
       title: "Kumars Houston",
       image: "/images/services/digital-marketing/mockup-1.jpg",
-      className: "col-lg-3 col-md-3 col-sm-6",
+      className: "col-lg-4 col-md-4 col-sm-6",
       delay: "0.6s",
       duration: "1.12s",
-     link: "https://www.kumarmesshouston.com/"
+      posters: [
+        "/images/services/digital-marketing/kumars/16.jpeg",
+        "/images/services/digital-marketing/kumars/2.jpeg",
+        "/images/services/digital-marketing/kumars/3.jpeg",
+        "/images/services/digital-marketing/kumars/4.jpeg",
+       "/images/services/digital-marketing/kumars/5.jpeg",
+        "/images/services/digital-marketing/kumars/6.jpeg",
+        "/images/services/digital-marketing/kumars/7.jpeg",
+        "/images/services/digital-marketing/kumars/8.jpeg",
+        "/images/services/digital-marketing/kumars/9.jpeg",
+        "/images/services/digital-marketing/kumars/10.jpeg",
+        "/images/services/digital-marketing/kumars/11.jpeg",
+        "/images/services/digital-marketing/kumars/12.jpeg",
+       "/images/services/digital-marketing/kumars/13.jpeg",
+        "/images/services/digital-marketing/kumars/14.jpeg",
+        "/images/services/digital-marketing/kumars/15.jpeg",
+        "/images/services/digital-marketing/kumars/1.jpeg",
+        "/images/services/digital-marketing/kumars/17.jpeg",
+        "/images/services/digital-marketing/kumars/18.jpeg",
+        "/images/services/digital-marketing/kumars/19.jpeg",
+
+      ],
+    //  link: "https://www.kumarmesshouston.com/"
     },
-    {
-      title: "Vishwankar School",
-      image: "/images/services/digital-marketing/mockup-2.jpg",
-      className: "col-lg-3 col-md-3 col-sm-6",
-      delay: "0.6s",
-      duration: "1.3s",
-      link: "https://vishwankarschool.com/"
-    },
+    // {
+    //   title: "Vishwankar School",
+    //   image: "/images/services/digital-marketing/mockup-2.jpg",
+    //   className: "col-lg-3 col-md-3 col-sm-6",
+    //   delay: "0.6s",
+    //   duration: "1.3s",
+    //   // link: "https://vishwankarschool.com/"
+    // },
     {
       title: "Gomuki",
       image: "/images/services/digital-marketing/mockup-3.jpg",
-      className: "col-lg-3 col-md-3 col-sm-6",
+      className: "col-lg-4 col-md-4 col-sm-6",
       delay: "0.9s",
       duration: "1.6s",
-    link: "https://srigomuki.com/"
+      posters: [
+        "/images/services/digital-marketing/gomuki/1.jpeg",
+        "/images/services/digital-marketing/gomuki/2.jpeg",
+        "/images/services/digital-marketing/gomuki/3.jpeg",
+        "/images/services/digital-marketing/gomuki/4.jpeg",
+       "/images/services/digital-marketing/gomuki/5.jpeg",
+        "/images/services/digital-marketing/gomuki/6.jpeg",
+        "/images/services/digital-marketing/gomuki/7.jpeg",
+      ],
+    // link: "https://srigomuki.com/"
     },
     {
       title: "Tirumalai Textiles",
       image: "/images/services/digital-marketing/mockup-4.jpg",
-      className: "col-lg-3 col-md-3 col-sm-6",
+      className: "col-lg-4 col-md-4 col-sm-6",
       delay: "0.3s",
       duration: "1.9s",
-     link: "https://tirumalaitextiles.com/"
+      posters: [
+        "/images/services/digital-marketing/tirumalai/1.jpeg",
+        "/images/services/digital-marketing/tirumalai/2.jpeg",
+        "/images/services/digital-marketing/tirumalai/3.jpeg",
+        "/images/services/digital-marketing/tirumalai/4.jpeg",
+       "/images/services/digital-marketing/tirumalai/5.jpeg",
+        "/images/services/digital-marketing/tirumalai/6.jpeg",
+        "/images/services/digital-marketing/tirumalai/7.jpeg",
+        "/images/services/digital-marketing/tirumalai/8.jpeg",
+        "/images/services/digital-marketing/tirumalai/9.jpeg",
+        
+      ],
+    //  link: "https://tirumalaitextiles.com/"
     },
 
-    // {
-    //   title: "Prade Jewels",
-    //   image: "/images/services/E-commerce/mockup-6.jpg",
-    //   className: "col-lg-6 col-md-6 col-sm-6",
-    //   delay: "0.9s",
-    //   duration: "1.15s",
-    //   link:"https://prade.in/"
-    // },
-    // {
-    //   title: "Filmode Fashon",
-    //   image: "/images/services/E-commerce/mockup-1.jpg",
-    //   className: "col-lg-6 col-md-6 col-sm-6",
-    //   delay: "0.3s",
-    //   duration: "1s",
-    //   link:"https://filmodefashion.com/"
-    // },
   ];
 
   const faqData = [
@@ -491,7 +519,9 @@ export default function page() {
 
         <Features features={features} />
 
-        <ServicePortfolio portfolioItems={portfolioItems} portfolioContent={portfolioContent} />
+        {/* <ServicePortfolio portfolioItems={portfolioItems} portfolioContent={portfolioContent} /> */}
+
+        <DigitalMarketingPortfolio portfolioItems={portfolioItems} portfolioContent={portfolioContent} />
 
         <FAQ faqData={faqData} />
 

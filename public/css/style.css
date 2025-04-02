@@ -20171,3 +20171,7 @@ input[type="radio"]+label:hover:before {
   }
 }
 
+.yarl__toolbar button svg{
+  width: 25px;
+}
+
