@@ -5,13 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 export default function HomeHero() {
   const slides = [
-    {
-      backgroundImage: "/images/Home-Page/our-work/Mockup-1.jpg",
-      content1: "Zenlounge",
-      content2: "Zenlounge",
-      link: "https://zenwellnesslounge.com/"
-    },
-    {
+     {
       backgroundImage: "/images/Home-Page/our-work/Mockup-2.jpg",
       content1: "Magnum Spinning Millss",
       content2: "Magnum Spinning Millss",
