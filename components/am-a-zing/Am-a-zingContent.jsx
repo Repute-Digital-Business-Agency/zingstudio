@@ -89,10 +89,10 @@ export default function About() {
                 >
                   {galleryItems.map((item) => (
                     <SwiperSlide key={item.id} className="item">
-                      <Image
+                      <img
                         src={item.imgSrc}
-                        width={600}
-                        height={722}
+                        // width={600}
+                        // height={722}
                         alt={item.altText}
                       />
                     </SwiperSlide>
