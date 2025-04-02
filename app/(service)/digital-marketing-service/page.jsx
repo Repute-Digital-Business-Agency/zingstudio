@@ -169,7 +169,7 @@ export default function page() {
       // condition: " With a 3-yr term. You pay ₹ 53,424.00 today. <br />Renews at  ₹ 69,084.00.",
 
       list: [
-        { icon: "ti-clipboard", text: "Logo - 5 options)" },
+        { icon: "ti-clipboard", text: "Logo - 5 options" },
         { icon: "ti-clipboard", text: "Brochure - 8 Pages" },
         { icon: "ti-clipboard", text: "Business Card" },
         { icon: "ti-clipboard", text: "Basic Website - 8 Pages" },
@@ -190,7 +190,7 @@ export default function page() {
       // strike: "1,919.00",
       // condition: " With a 3-yr term. You pay ₹ 53,424.00 today. <br />Renews at  ₹ 69,084.00.",
       list: [
-        { icon: "ti-clipboard", text: "Logo - 5 options)" },
+        { icon: "ti-clipboard", text: "Logo - 5 options" },
         { icon: "ti-clipboard", text: "Brochure - 8 Pages" },
         { icon: "ti-clipboard", text: "Business Card" },
         { icon: "ti-clipboard", text: "Google Maps" },
@@ -212,7 +212,7 @@ export default function page() {
       // strike: "1,919.00",
       // condition: " With a 3-yr term. You pay ₹ 53,424.00 today. <br />Renews at  ₹ 69,084.00.",
       list: [
-        { icon: "ti-clipboard", text: "Logo - 5 options)" },
+        { icon: "ti-clipboard", text: "Logo - 5 options" },
         { icon: "ti-clipboard", text: "Brochure - 8 Pages" },
         { icon: "ti-clipboard", text: "Business Card" },
         { icon: "ti-clipboard", text: "Google Maps" },
