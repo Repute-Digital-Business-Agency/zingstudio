@@ -66,8 +66,8 @@ export default function Contact2() {
                         E-mail
                       </h5>
                       <p className="m-b0">
-                        <a href="mailto:support@irepute.in">
-                          support@irepute.in
+                        <a href="mailto:support@zingstudio.in">
+                          support@zingstudio.in
                         </a>
                       </p>
                       {/* <p className="m-b0">
@@ -81,7 +81,7 @@ export default function Contact2() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-12 col-md-6">
+                {/* <div className="col-lg-12 col-md-6">
                   <div className="icon-bx-wraper expertise bx-style-1 p-a20 radius-sm">
                     <div className="icon-content">
                       <h5 className="dlab-tilte">
@@ -93,12 +93,10 @@ export default function Contact2() {
                       <p className="m-b0">
                         <a href="tel:04224980307"> +91 (422) 498 0307</a>
                       </p>
-                      {/* <p className="m-b0">
-                        <a href="tel:+4733378901">+00 1234 5678 90</a>
-                      </p> */}
+                     
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* <div className="col-lg-12 col-md-6 mx-auto">
                   
@@ -248,9 +246,9 @@ export default function Contact2() {
           </div>
         </div>
       </div>
-      <section>
+      {/* <section>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15664.460467731644!2d76.95759670714209!3d11.029989062678691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85815bb375b37%3A0x2ae31305026b56e8!2sRepute%20Branding%20%7C%20Mobile%20App%20%7C%20Web%20Development%20%7C%20Digital%20Marketing!5e0!3m2!1sen!2sin!4v1739790096596!5m2!1sen!2sin" width="100%" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </section>
+      </section> */}
        <Cta2/>
       {/* Con
        */}
