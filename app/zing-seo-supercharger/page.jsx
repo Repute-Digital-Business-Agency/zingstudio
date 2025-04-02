@@ -657,7 +657,7 @@ export default function page() {
         {/* <LiveProjects projectContent={projectContent} projects={projects}/> */}
       
     
-      <GuestLectures/>
+      {/* <GuestLectures/> */}
       
       
        <ZingSEOTools ToolsContent={ToolsContent} Tools1={Tools1} Tools3={Tools3}/>
