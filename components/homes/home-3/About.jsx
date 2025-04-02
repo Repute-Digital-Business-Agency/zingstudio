@@ -49,7 +49,7 @@ export default function About() {
               <Image
                 className="radius-sm "
                 alt=""
-                src="/images/about-us/about-img.jpg"
+                src="/images/about-us/about-img.png"
                 width="600"
                 height="800"
                 
