@@ -32,9 +32,10 @@ const Amazingform = () => {
           <iframe
             src="https://connect.irepute.in/file/am-a-zing/"
             width="100%"
-            height="450px"
+            height="380px"
             // style="border: none;"
             allowfullscreen
+            scrolling="no"
             ></iframe>
             </div>
 

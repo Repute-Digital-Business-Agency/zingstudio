@@ -116,6 +116,7 @@ export default function Contact2() {
             height="400px"
             // style="border: none;"
             allowfullscreen
+           scrolling="no"
             ></iframe>
 
               {/* <form
