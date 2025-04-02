@@ -9,7 +9,7 @@ const slidesData = [
     backgroundImage:
       'url("/images/Home-Page/banner/zing-studio-banner.jpg") center center no-repeat',
     subTitle: "Power up your brand with strategies that connect and convert.",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Boost Your  <b style='font-size:48px; color:#fff'> Brand </b>, Expand Your  <b style='font-size:48px; color:#fff'> Reach <b/>`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Boost Your  <b style='font-size:48px; color:#fff'> Brand </b> <br/> Expand Your  <b style='font-size:48px; color:#fff'> Reach <b/>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "View Services",
@@ -22,7 +22,7 @@ const slidesData = [
     backgroundImage:
       'url("/images/Home-Page/banner/web-design-banner.jpg") center center no-repeat',
     subTitle: "Strengthen your digital footprint and make an impact that lasts.",
-    title:`<span class="home-banner-title">ZING STUDIO</span><br/>Level Up Your   <b style='font-size:48px; color:#fff'> Presence </b>, Amplify Your   <b style='font-size:48px; color:#fff'> Influence <b/>`,
+    title:`<span class="home-banner-title">ZING STUDIO</span><br/>Level Up Your   <b style='font-size:48px; color:#fff'> Presence </b> <br/> Amplify Your   <b style='font-size:48px; color:#fff'> Influence <b/>`,
     description:
      "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "View Services",
@@ -53,7 +53,7 @@ const slidesData = [
     backgroundImage:
       'url("/images/Home-Page/banner/banner-img-5.jpg") center center no-repeat',
     subTitle: "Dominate the digital space with a brand that shines.",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Amplify Your  <b style='font-size:48px; color:#fff'> Presence </b>, Lead the  <b style='font-size:48px; color:#fff'> Market </b>`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Amplify Your  <b style='font-size:48px; color:#fff'> Presence </b> <br/> Lead the  <b style='font-size:48px; color:#fff'> Market </b>`,
     description:
       "Delivering sophisticated, cutting-edge web solutions with Zing Studio—your creative partner in digital excellence.",
     buttonLabel: "View Services",
@@ -63,7 +63,7 @@ const slidesData = [
     backgroundImage:
       'url("/images/Home-Page/banner/banner-img-6.jpg") center center no-repeat',
     subTitle: "Unlock growth with innovative marketing and design solutions.",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Enhance Your <b style='font-size:48px; color:#fff'> Brand </b>, Accelerate  <b style='font-size:48px; color:#fff'> Success </b>`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Enhance Your <b style='font-size:48px; color:#fff'> Brand </b> <br/> Accelerate  <b style='font-size:48px; color:#fff'> Success </b>`,
     description:
       "Unlock growth with innovative marketing and design solutions.",
     buttonLabel: "View Services",
@@ -73,7 +73,7 @@ const slidesData = [
     backgroundImage:
       'url("/images/Home-Page/banner/banner-img-7.jpg") center center no-repeat',
     subTitle: "Expand effortlessly with strategies that turn reach into revenue.",
-    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Scale <b style='font-size:48px; color:#fff'> Smart </b>, Influence  <b style='font-size:48px; color:#fff'> Big </b>`,
+    title: `<span class="home-banner-title">ZING STUDIO</span><br/>Scale <b style='font-size:48px; color:#fff'> Smart </b> <br/> Influence  <b style='font-size:48px; color:#fff'> Big </b>`,
     description:
       "Expand effortlessly with strategies that turn reach into revenue.",
     buttonLabel: "View Services",
