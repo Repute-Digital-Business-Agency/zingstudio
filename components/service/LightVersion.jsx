@@ -54,7 +54,9 @@ const LightVersion = ({
                       <li className="text-black px-4 " style={{ borderTop: "none", color: "white" }}>1 Home Page Design</li>
                       <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Upto 10 Inner Page Design</li>
                       <li className="text-black px-4 pt-0"  style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>JQUERY Banner Slider <p  style={{ height:"57px"}}></p></li>
+                      <li className="text-black px-4 pt-0 pb-3" style={{ borderTop: "none", color: "white" }}>JQUERY Banner Slider 
+                        <p className="res-height-1"></p>
+                        </li>
                     </ul>
 
                         <li className="text-black btn py-0 pt-2  mb-0" style={{borderTop:"1px solid black"}}>
@@ -69,7 +71,7 @@ const LightVersion = ({
 
                   <div className="col-sm-12 col-md-12 col-lg-5 col-xl-3 p-lr0 align-items-stretch">
                     <div className="project-content " style={{ background: "#e9e9e9" }}>
-                        <ul className="list-details">
+                        <ul className="list-details ">
                         <li className="text-black d-flex flex-sm-row justify-content-sm-between flex-column justify-content-start ">
                             <span style={{ fontSize: "18px" , fontWeight: "600" }}>Web Design</span>
                             <span  className="pt-1 pt-sm-0" style={{  fontWeight: "500", fontSize:"17px", color:"#e21100" }}>Starting @ ₹ 30,000</span>
@@ -79,7 +81,9 @@ const LightVersion = ({
                         <li className="text-black px-4">1 Home Page Design</li>
                       <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Upto 15 Inner Pages</li>
                       <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>CMS (Manage Website content)<p  style={{ height:"60px"}}></p></li>
+                      <li className="text-black px-4 pt-0 pb-3" style={{ borderTop: "none", color: "white" }}>CMS (Manage Website content)
+                        <p className="res-height-1"></p>
+                        </li>
                       
                     </ul>
 
@@ -95,7 +99,7 @@ const LightVersion = ({
 
                   <div className="col-sm-12 col-md-12 col-lg-5 col-xl-3 p-lr0 align-items-stretch">
                   <div className="project-content " style={{ background: "#e2110026" }}>
-                        <ul className="list-details">
+                        <ul className="list-details flex align-items-stretch">
                         <li className="text-black d-flex flex-sm-row justify-content-sm-between flex-column justify-content-start ">
                             <span style={{ fontSize: "18px", fontWeight: "600"  }}>Web Design</span>
                             <span  className="pt-1 pt-sm-0" style={{  fontWeight: "500", fontSize:"17px", color:"#e21100" }}>Starting @ ₹ 50,000</span>
@@ -108,6 +112,7 @@ const LightVersion = ({
                       <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>CMS (Manage Website content)</li>
                       <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
                       <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>General Features With Modern Look</li>
+                      {/* <p  style={{ height:"20px"}}></p> */}
                     </ul>
                             {/* </strong> */}
                             {/* <span>{project.completionDate}</span> */}
@@ -133,7 +138,8 @@ const LightVersion = ({
                         <ul className="list-arrow mb-0 mt-0">
                       <li className="text-black px-4">Instagram - 3 Reels , 3 Posts per Month</li>
                       <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Facebook - 3 Reels , 3 Posts per Month</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Pinterest - 3 Reels , 3 Posts per Month <p  style={{ height:"90px"}}></p></li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Pinterest - 3 Reels , 3 Posts per Month 
+                        <p className="res-height-3"></p></li>
                     </ul>
 
                         <li className="text-black btn py-0 pt-2  mb-0" style={{borderTop:"1px solid black"}}>
@@ -160,6 +166,7 @@ const LightVersion = ({
                       <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}> Meta Tags Creation - 10 Pages</li>
                       <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}> Blog Posting (500 – 700 words) - 1</li>
                       <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Onsite Blog (1000 – 1500 words) - 1</li>
+                      <p className="res-height-4"  style={{ height:"20px"}}></p>
                     </ul>
 
                         <li className="text-black btn py-0 pt-2 mb-0" style={{borderTop:"1px solid black"}} >
@@ -188,7 +195,8 @@ const LightVersion = ({
                             <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Business Card</li>
                             <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Basic Website (8 pages)</li>
                             <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Google Maps</li>
-                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Social Media Pages  (Basic profile creation)<p  style={{ height:"27px"}}></p></li>
+                            <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Social Media Pages  (Basic profile creation)</li>
+                            <p className="res-height-2"></p>
                     </ul>
                             {/* </strong> */}
                             {/* <span>{project.completionDate}</span> */}

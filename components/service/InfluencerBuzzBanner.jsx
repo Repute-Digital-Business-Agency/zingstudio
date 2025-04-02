@@ -32,7 +32,7 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
         
         <div className="col-11 m-auto">
           <div className="row">
-            <div className="col-xl-4 col-lg-6 col-md-6 content-inner chosesus-content text-white pb-md-0">
+            <div className="col-xl-4 col-lg-6 col-md-6 content-inner chosesus-content text-white pb-lg-5 pb-md-0">
               <h2 className="title-box wow fadeInUp pt-5" data-wow-delay="0.2s">
                 {bannerContent.head} <span className="bg-primary" />
               </h2>
