@@ -92,14 +92,14 @@ export default function Portfolio2() {
     //   category: "E-commerce",
     //   link:"https://prade.in/"
     // },
-    {
-      id: 55,
-      filter: "digital-marketing",
-      imageSrc: "/images/portfolio/portfolio/vishwankar.jpg",
-      title: "Vishwankar Public School",
-      category: "Digital Marketing",
-      link:"https://vishwankarschool.com/"
-    },
+    // {
+    //   id: 55,
+    //   filter: "digital-marketing",
+    //   imageSrc: "/images/portfolio/portfolio/vishwankar.jpg",
+    //   title: "Vishwankar Public School",
+    //   category: "Digital Marketing",
+    //   link:"https://vishwankarschool.com/"
+    // },
     // {
     //   id: 56,
     //   filter: "e-commerce-management",
