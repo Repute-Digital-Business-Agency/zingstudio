@@ -102,17 +102,24 @@ export default function RootLayout({ children }) {
     setShowChild(true);
   });
 
-  // useEffect(() => {
-  //   const disableRightClick = (event) => {
-  //     event.preventDefault();
-  //   };
+  useEffect(() => {
+    const disableRightClick = (event) => {
+      event.preventDefault();
+    };
 
-  //   document.addEventListener("contextmenu", disableRightClick);
+    document.addEventListener("contextmenu", disableRightClick);
 
-  //   return () => {
-  //     document.removeEventListener("contextmenu", disableRightClick);
-  //   };
-  // }, []);
+    return () => {
+      document.removeEventListener("contextmenu", disableRightClick);
+    };
+  }, []);
+
+  useEffect(() => {
+    document.body.style.userSelect = "none";
+    return () => {
+      document.body.style.userSelect = "auto"; // Reset on unmount
+    };
+  }, []);
 
   return (
     <html lang="en" dir="ltr">
