@@ -119,7 +119,7 @@ export default function page() {
       "Open-Source Development"
     ]
     const bannerContent = {
-      src:"/images/services/E-commerce/banner.jpg",
+      src:"/images/services/E-commerce/ecommerce-banner.png",
         head:"Scalable and Seamless E-Commerce Solutions for Business Growth.",
       caption:"E-Commerce",
       subTitle:"Custom E-Commerce solutions for smooth operations, better user experiences, and faster growth.",
@@ -205,52 +205,52 @@ export default function page() {
     const faqData = [
       {
         id: "faq6",
-        question: "1. What types of E-Commerce solutions do you offer?",
+        question: "1. Can I upload & edit the products on my own?",
         answer:
-          "We provide custom E-Commerce development, platform integration, marketplace solutions,and tailored solutions for B2B and B2C businesses.",
+          "Yes, you'll be able to upload and edit products on your own. <br/><br/> You'll also be able to add product pictures, videos, prices, discounts on your own without any coding. <br/><br/> We'll provide you with video tutorials to help you understand how to upload, edit and manage your products easily.",
       },
       {
         id: "faq7",
-        question: "2. Can you integrate third-party tools and payment gateways?",
+        question: "2. Will the website be secure?",
         answer:
-          "Yes, we integrate various payment gateways, CRM, ERP, and third-party tools to streamline operations.",
+          "All of our eCommerce websites come with an SSL secure certificate. An SSL certificate helps in keeping the website 100% encrypted and secure. <br/><br/> All of the payments on the website will also be 100% encrypted and secured.",
       },
       {
         id: "faq8",
-        question: "3. How do you ensure security for my E-Commerce platform?",
+        question: "3. Can I make changes to the website later?",
         answer:
-          "We implement robust security measures including SSL encryption, secure payment gateways,and regular audits.",
+          "All of our eCommerce websites are dynamic websites with integrated Content Management Systems (CMS). Through the CMS, you'll be able to add, edit, update all of the content on the website including pages, text, images, videos, products, etc. <br/><br/> You can also make changes to existing products listed on your website. You'll be able to update images, titles, prices, discounts & more directly through the CMS without having to code.",
       },
       {
         id: "faq9",
-        question: "4. Will my E-Commerce site be mobile-friendly?",
+        question: "4. Can I add blogs to my eCommerce website?",
         answer:
-          "Absolutely! We ensure responsive designs that provide a seamless experience across all devices.",
+          "Yes, you can add as many blogs as you like to your eCommerce website. <br/><br/> You can also organize your blogs into categories, sub-categories, and tags. <br/><br/> You can also add pictures, videos to the blogs and also embed social media posts directly on your website blogs.",
       },
       {
         id: "faq10",
-        question: "5. Do you offer post-launch support and maintenance?",
+        question: "5.  Do you provide technical support after project completion?",
         answer:
-          "Yes, we offer ongoing support, maintenance, and performance optimization to ensure your platform runs smoothly.",
+          "Yes, we provide up to 30 Days of free technical support after project completion.",
       },
       {
         id: "faq11",
-        question: "6. Can my E-Commerce site be scaled as my business grows?",
+        question: "6. Will I be able to track visitors on the website?",
         answer:
-          "Certainly! Our solutions are designed to be scalable, accommodating your growing business needs.",
+          "Yes, you'll be able to track visitors as well the key actions they take on the website. <br/><br/> We'll be integrating your website with Google Analytics. We'll also enable enhanced eCommerce tracking for your website. This helps in keeping track of all the visitors on the website as well as the key actions they are taking on the website like viewing a product, adding a product to the cart, reaching the checkout page, etc...",
       },
-      {
-        id: "faq12",
-        question: "7. How long does it take to develop an E-Commerce website?",
-        answer:
-          "Timelines vary depending on project complexity, but we provide clear milestones and updates throughout the development process.",
-      },
-      {
-        id: "faq13",
-        question: "8. Do you offer SEO and digital marketing support for my E-Commerce site?",
-        answer:
-          "Yes, we offer SEO, digital marketing, and content management services to help drive traffic and sales.",
-      },
+      // {
+      //   id: "faq12",
+      //   question: "7. How long does it take to develop an E-Commerce website?",
+      //   answer:
+      //     "Timelines vary depending on project complexity, but we provide clear milestones and updates throughout the development process.",
+      // },
+      // {
+      //   id: "faq13",
+      //   question: "8. Do you offer SEO and digital marketing support for my E-Commerce site?",
+      //   answer:
+      //     "Yes, we offer SEO, digital marketing, and content management services to help drive traffic and sales.",
+      // },
     ]
     const Performance={
       head:"Seamless Solutions",

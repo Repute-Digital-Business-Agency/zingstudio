@@ -258,7 +258,7 @@ export default function page() {
   ]
   const bannerContent = {
     // src:"https://img1.wsimg.com/cdnassets/transform/c50e55dd-152b-45c6-815a-f7164b2a87aa/FOSMO-98392-WH-SLP-New-Marquee-Image-without-cPanel",
-    src: "/images/services/digital-marketing/banner.jpg",
+    src: "/images/services/digital-marketing/digital-marketing-banner.png",
     head: "Boost Visibility, Engage Audiences, and Drive Results with Our Digital Marketing Expertise!",
     caption: "Digital Marketing",
     subTitle: "Drive growth with targeted digital strategies that maximize impact.",

@@ -42,7 +42,7 @@ const ServiceList = ({data,head,WebDesignfeatures}) => {
                                       <span>{data.save} </span><span className="original-price ">₹  {data.strike}
                                       </span>
                                     </p> */}
-                                    <h1 className="price">₹ {data.price} </h1>
+                                    <h1 className="price"><span style={{fontSize:"18px"}}>Starting @ </span>₹ {data.price} </h1>
                                     {/* <p className="small text-black">
                                     {data.condition}
                                     </p> */}
