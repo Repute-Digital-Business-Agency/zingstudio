@@ -155,7 +155,7 @@ export default function Hero() {
                   {/* <p className="subTitle1">{slide.subTitle}</p> */}
                   <h1 dangerouslySetInnerHTML={{ __html: slide.title }} ></h1>
                   {/* <p>{slide.description}</p> */}
-                  <p className="subTitle1">{slide.subTitle}</p>
+                  <p className="subTitle1 ">{slide.subTitle}</p>
                   {/* <Link href={slide.link}>
                     <button className="text-white" >{slide.buttonLabel}</button>
                   </Link> */}

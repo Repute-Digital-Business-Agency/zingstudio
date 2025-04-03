@@ -36,12 +36,11 @@ export default function DedicatedSupport() {
               data-wow-delay="0.6s"
             >
               <div className="icon-lg">
-                <a href="#" className="icon-cell ">
-                  {/* <i className="flaticon-factory"></i> */}
+                
 
                   {/* <img src="images/Influence-Buzz/Dedicated-Support/icon-1.png" alt="" /> */}
                   <img src="/images/brand-buzz/Colored-icons/colored-icon-02.png" alt="colored-icon" />
-                </a>
+                
               </div>
               <div className="icon-content">
                 <h4 className="dlab-tilte mb-2">
@@ -57,11 +56,11 @@ export default function DedicatedSupport() {
               data-wow-delay="0.8s"
             >
               <div className="icon-lg">
-                <a href="#" className="icon-cell">
+                
                   {/* <i className="flaticon-settings"></i> */}
                   {/* <img src="images/Influence-Buzz/Dedicated-Support/icon-2.png" alt="" /> */}
                   <img src="/images/brand-buzz/Colored-icons/colored-icon-01.png" alt="colored-icon" />
-                </a>
+                
               </div>
               <div className="icon-content">
                 <h4 className="dlab-tilte mb-2">
@@ -85,7 +84,7 @@ export default function DedicatedSupport() {
             <div className="radius-sm m-b30 h-100" >
               <img className=""
                 alt=""
-                src="/images/Influence-Buzz/Dedicated-Support/ds-img.jpg"
+                src="/images/Influence-Buzz/Dedicated-Support/dedicated-support-img.png"
                
                  style={{
                     height:"100%",

@@ -11,7 +11,7 @@ export default function BusinessWork() {
         <div className="section-full bg-white content-inner">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-lg-11 m-auto">
+              <div className=" col-lg-12  m-auto">
               <div className="section-head text-center ">
             <h2 className="title mb-5" >How does it work ?            </h2>
             

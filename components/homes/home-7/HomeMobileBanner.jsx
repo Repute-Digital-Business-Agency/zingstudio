@@ -218,7 +218,7 @@ export default function HomeMobileBanner() {
                             </div> */}
                         </div>
                         </div>
-                        <div className="col-lg-6 col-md-12">
+                        <div className="col-lg-6 col-md-12 p-0">
                         <Image
                         className="char-img"
                             alt=""

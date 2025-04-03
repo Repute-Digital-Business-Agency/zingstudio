@@ -77,16 +77,17 @@ export default function ZingAcademyCta() {
 
                 <span className="bg-primary" />
               </h3>
-              <p>
+              <p className="mb-0">
               Fill out the form and get all the info you need to kickstart your digital marketing journey. We're here to help you level up and make your mark in the digital world!
 
               </p>
           <iframe
             src="https://connect.irepute.in/file/zing-academy/"
             width="100%"
-            height="380px"
+            height="390px"
             // style="border: none;"
             allowfullscreen
+             scrolling="no"
             ></iframe>
             </div>
          
