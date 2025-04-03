@@ -90,15 +90,15 @@ export default function page() {
             // ],
             list:[
           
-              { icon: "ti-world", text: "Custom Layout" },
-              { icon: "ti-server", text: "10 Static Page(HTML/PHP)" },
-              { icon: "ti-time", text: "Enquiry Form" },
-              { icon: "ti-panel", text: "Free Website Maintenance" },
-              { icon: "ti-dashboard", text: "Free Images" },
-              { icon: "ti-lock", text:  "World Class Design & Approval" },
-              { icon: "ti-gift", text: "User Friendly Design" },
+              { icon: "ti-world", text: "Administrator Dashboard" },
+              { icon: "ti-server", text: "Categories" },
+              { icon: "ti-time", text: "Secure Online Payment" },
+              { icon: "ti-panel", text: "Product Reviews & Ratings" },
+              { icon: "ti-dashboard", text: "Email Notifications" },
+              { icon: "ti-lock", text:  "Products & Inventory Management" },
+              { icon: "ti-gift", text: "Orders & Shipping Management" },
               { icon: "ti-shield", text:"Stock,Order & Customer Report" },
-              // { icon: "ti-reload", text: "3Responsive Design" },
+              // { icon: "ti-reload", text: "30-day, money-back guarantee" },
             
           ],
               delay:"0.2s"

@@ -44,16 +44,17 @@ export default function page() {
          strike:"1,919.00",
          condition:" With a 3-yr term. You pay ₹ 53,424.00 today. <br />Renews at  ₹ 69,084.00.",
          
-         list: [
-          { icon: "ti-world", text: "Administrator Dashboard" },
-          { icon: "ti-server", text:  "Categories" },
-          { icon: "ti-time", text: "Secure Online Payment" },
-          { icon: "ti-panel", text: "Product Reviews & Ratings" },
-          { icon: "ti-dashboard", text: "Email Notifications" },
-          { icon: "ti-lock", text: "Products & Inventory Management" },
-          { icon: "ti-gift", text: "Orders & Shipping Management" },
-          { icon: "ti-shield", text: "Stock,Order & Customer Report" },
-          
+         
+
+        list: [
+          { icon: "ti-world", text: "Custom Layout" },
+          { icon: "ti-server", text: "10 Static Page(HTML/PHP)" },
+          { icon: "ti-time", text:  "Enquiry Form"},
+          { icon: "ti-dashboard", text: "Free Website Maintenance"},
+          { icon: "ti-lock", text: "Free Images" },
+          { icon: "ti-gift", text:   "World Class Design & Approval" },
+          { icon: "ti-shield", text: "User Friendly Design"},
+          { icon: "ti-reload", text: "Responsive Design" }
         ],
         //  list:[
         //      "Administrator Dashboard",
@@ -78,14 +79,15 @@ export default function page() {
             condition:" With a 3-yr term. You pay ₹ 53,424.00 today. <br />Renews at  ₹ 69,084.00.",
             
             list: [
-              { icon: "ti-world", text: "Custom Layout" },
-              { icon: "ti-server", text: "10 Static Page(HTML/PHP)" },
-              { icon: "ti-time", text:  "Enquiry Form"},
-              { icon: "ti-dashboard", text: "Free Website Maintenance"},
-              { icon: "ti-lock", text: "Free Images" },
-              { icon: "ti-gift", text:   "World Class Design & Approval" },
-              { icon: "ti-shield", text: "User Friendly Design"},
-              { icon: "ti-reload", text: "Responsive Design" }
+              { icon: "ti-world", text: "Administrator Dashboard" },
+              { icon: "ti-server", text:  "Categories" },
+              { icon: "ti-time", text: "Secure Online Payment" },
+              { icon: "ti-panel", text: "Product Reviews & Ratings" },
+              { icon: "ti-dashboard", text: "Email Notifications" },
+              { icon: "ti-lock", text: "Products & Inventory Management" },
+              { icon: "ti-gift", text: "Orders & Shipping Management" },
+              { icon: "ti-shield", text: "Stock,Order & Customer Report" },
+              
             ],
               delay:"0.2s"
            },
