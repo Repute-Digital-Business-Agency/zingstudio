@@ -98,7 +98,7 @@ export default function page() {
               { icon: "ti-lock", text:  "World Class Design & Approval" },
               { icon: "ti-gift", text: "User Friendly Design" },
               { icon: "ti-shield", text:"Stock,Order & Customer Report" },
-              { icon: "ti-reload", text: "3Responsive Design" },
+              // { icon: "ti-reload", text: "3Responsive Design" },
             
           ],
               delay:"0.2s"
