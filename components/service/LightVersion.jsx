@@ -51,10 +51,10 @@ const LightVersion = ({
                         </li>
                         <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600",borderTop:"1px solid black"}}>Static Websites</li>
                         <ul className="list-arrow mb-0 mt-0">
-                      <li className="text-black px-4 " style={{ borderTop: "none", color: "white" }}>1 Home Page Design</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Upto 10 Inner Page Design</li>
-                      <li className="text-black px-4 pt-0"  style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
-                      <li className="text-black px-4 pt-0 pb-3" style={{ borderTop: "none", color: "white" }}>JQUERY Banner Slider 
+                      <li className="text-black px-4 " style={{ borderTop: "none", color: "white" }}>10 Page Static Website Design</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>SEO Ready Website</li>
+                      <li className="text-black px-4 pt-0"  style={{ borderTop: "none", color: "white" }}>100% Mobile Friendly Website</li>
+                      <li className="text-black px-4 pt-0 pb-3" style={{ borderTop: "none", color: "white" }}>Quick Enquiry Form 
                         <p className="res-height-1"></p>
                         </li>
                     </ul>
@@ -78,10 +78,10 @@ const LightVersion = ({
                         </li>
                         <li className="pt-3 pb-0 text-black" style={{ fontWeight: "600" , borderTop:"1px solid black"}}>CMS Websites</li>
                         <ul className="list-arrow mb-0 mt-0">
-                        <li className="text-black px-4">1 Home Page Design</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Upto 15 Inner Pages</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
-                      <li className="text-black px-4 pt-0 pb-3" style={{ borderTop: "none", color: "white" }}>CMS (Manage Website content)
+                        <li className="text-black px-4">10 Page Dynamic Website Design</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>SEO Ready Website</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>100% Mobile Friendly Website</li>
+                      <li className="text-black px-4 pt-0 pb-3" style={{ borderTop: "none", color: "white" }}>Quick Enquiry Form
                         <p className="res-height-1"></p>
                         </li>
                       
@@ -108,10 +108,10 @@ const LightVersion = ({
                         <li className="text-black mt-0 pt-0" style={{ borderTop: "none" }}>
                             {/* <strong> */}
                             <ul className="list-arrow mb-0 mt-0">
-                            <li className="text-black px-4">Inventory management</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>CMS (Manage Website content)</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>HTML5 / CSS3 Compatible for Mobiles</li>
-                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>General Features With Modern Look</li>
+                            <li className="text-black px-4">Administrator Dashboard</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Categories</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Secure Online Payment</li>
+                      <li className="text-black px-4 pt-0" style={{ borderTop: "none", color: "white" }}>Product Reviews & Ratings</li>
                       {/* <p  style={{ height:"20px"}}></p> */}
                     </ul>
                             {/* </strong> */}
