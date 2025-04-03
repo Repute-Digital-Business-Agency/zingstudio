@@ -128,11 +128,11 @@ export default function AcademyCourseBanner({option,bannerContent}) {
          
           <div className="col-lg-5 col-md-12 m-b30  pt-sm-0 pt-3" >
             {/* <div style={{width:"200px", height:"500px"}}> */}
-            {/* <img src={bannerContent.charImg} alt={bannerContent.head} style={{width:"400px"}}/> */}
-            {/* </div> */}
+            <img src={bannerContent.charImg} alt={bannerContent.head} style={{width:"400px"}}/> 
+             {/* </div> */}
 
             
-            <div  className="inquiry-form wow box-shadow  fadeInUp mb-3 mt-0 mt-lg-5">
+            {/* <div  className="inquiry-form wow box-shadow  fadeInUp mb-3 mt-0 mt-lg-5">
             <h3 className="title-box font-weight-300 m-t0 m-b10 text-white">
               Register Now 
                
@@ -145,7 +145,7 @@ export default function AcademyCourseBanner({option,bannerContent}) {
             allowfullscreen
            scrolling="no"
             ></iframe>
-            </div>
+            </div> */}
             
 
             {/* <form 
