@@ -579,6 +579,7 @@ export default function page() {
             image:"/images/brand-buzz/brand-buzz-header-img.png",
             formTitle:"Register Now For free",
             charImg:"/images/Home-Page/mbl-banner/character-img-6.png",
+            formLink:"https://connect.irepute.in/file/zing-launchpad-student-internship-program/"
           }
 
   return (

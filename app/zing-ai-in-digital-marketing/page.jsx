@@ -598,6 +598,7 @@ export default function page() {
             image:"/images/brand-buzz/brand-buzz-header-img.png",
             formTitle:"Register Now For free",
             charImg:"/images/Home-Page/mbl-banner/character-img-3.png",
+            formLink:"https://connect.irepute.in/file/zing-ai-in-digital-marketing/"
           }
 
   return (

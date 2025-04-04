@@ -142,26 +142,26 @@ export default function InfluencerBuzzBanner({option,bannerContent}) {
               
             </div>
           <div className="col-xl-4 col-lg-12 col-md-12 " >
-            <div style={{display:"flex", justifyContent:"center"}}>
+            {/* <div style={{display:"flex", justifyContent:"center"}}>
             <img className=" wow box-shadow  fadeInUp" src={bannerContent.charImg} alt={bannerContent.head} style={{width:"400px", }}/>
-            </div>
+            </div> */}
 
 
-              {/* <div className="inquiry-form wow box-shadow  fadeInUp mt-0 mt-xl-5 mb-lg-5 mb-md-0">
+              <div className="inquiry-form wow box-shadow  fadeInUp mt-0 mt-xl-5 mb-lg-5 mb-md-0">
               <h3 className="title-box text-white m-t0 m-b10">
               {bannerContent.formTitle}
                 <span className="bg-primary" />
               </h3>
               <iframe
-            src="https://connect.irepute.in/file/zing-fluence/"
+            src="https://connect.irepute.in/file/brand-buzz/"
             width="100%"
-            height="320px"
+            height="290px"
             // style="border: none;"
             allowfullscreen
            scrolling="no"
            style={{background:"transparent"}}
             ></iframe>
-              </div> */}
+              </div>
             
           
             {/* <form 

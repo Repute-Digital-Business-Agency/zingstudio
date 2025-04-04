@@ -749,6 +749,7 @@ const faqData = [
             image:"/images/brand-buzz/brand-buzz-header-img.png",
             formTitle:"Register Now For free",
             charImg:"/images/Home-Page/mbl-banner/character-img-1.png",
+            formLink:"https://connect.irepute.in/file/zing-digital-marketing-mastery/"
           }
 
   return (

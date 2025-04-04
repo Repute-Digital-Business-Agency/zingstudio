@@ -600,6 +600,7 @@ export default function page() {
             image:"/images/brand-buzz/brand-buzz-header-img.png",
             formTitle:"Register Now For free",
             charImg:"/images/Home-Page/mbl-banner/character-img-7.png",
+            formLink:"https://connect.irepute.in/file/zing-seo-supercharger/"
           }
 
   return (
