@@ -15,7 +15,12 @@ export default function HeroSection({head,option,bannerContent,offers}) {
                 <div className="containter-fluid p-0 m-0">
                     <div className="row m-0">
                         <div className="col-xl-6 col-md-12 m-b30  pt-5 " >
-                            <img className="rounded" src={bannerContent.src} alt="" style={{height:"100%", width:"100%",objectFit:"contain"}}/>
+                        <video  src="/images/services/web-deisgn/banner-vd.mp4"
+                            loop autoPlay  muted
+                                type="video/mp4"
+                                className="rounded" style={{height:"100%", width:"100%",objectFit:"contain"}} >   
+                                </video>
+                            {/* <img className="rounded" src={bannerContent.src} alt="" style={{height:"100%", width:"100%",objectFit:"contain"}}/> */}
                         </div>
 
                         <div className="col-xl-6 col-md-12 content-inner chosesus-content text-black pb-md-0 px-2 px-xl-5 pt-2 pt-xl-5">

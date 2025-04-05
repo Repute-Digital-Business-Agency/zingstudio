@@ -18,7 +18,7 @@ import ServicesCta from "@/components/service/e-commerceService1/ServicesCta";
 import ServicePortfolio from "@/components/service/e-commerceService1/portfolio";
 
 export const metadata = {
-  title: "E-commerce Development || Zing Studio",
+  title: "Web Design Development || Zing Studio",
   description: "Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions.",
 };
 export default function page() {
