@@ -343,9 +343,9 @@ export default function Portfolio4() {
                     <Image src={item.imageSrc} width={650} height={528} alt={item.title} />
                     <div className="overlay-bx">
                       <div className="overlay-icon">
-                        <div className="text-white">
+                        <div className="text-white cursor-pointer">
                           {item.filter === "digital-marketing" ? (
-                            <i className="far fa-image icon-bx-xs"></i>
+                            <i className="fas fa-search icon-bx-xs"></i>
                           ) : (
                             <Link href={item.link || "#"} target="_blank">
                               <i className="fas fa-link icon-bx-xs"></i>
