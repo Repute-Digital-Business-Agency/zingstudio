@@ -1,6 +1,4 @@
-
-import Home1 from "./(homes)/home-1/page";
-
+import NewHome from "../(homes)/NewHome/page";
 
 export const metadata = {
   title: "Zing Studio",
@@ -11,8 +9,8 @@ export default function Home() {
   
   return (
     <>
-      <Home1 />
-
+     
+      <NewHome/>
     </>
   );
 }
