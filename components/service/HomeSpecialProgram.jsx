@@ -7,7 +7,7 @@ const HomeSpecialPrograms = () => {
       <div className="special-programs__container">
         <div className="special-programs__text">
           <h2 className="special-programs__title newtitle">
-            SPECIAL PROGRAMS
+            Special Programs
           </h2>
           <p className="special-programs__description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna exercitation. 

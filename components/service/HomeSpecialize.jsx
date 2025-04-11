@@ -40,6 +40,11 @@ export default function HomeSpecialize() {
           >
             {" "}
             <img src="/images/Home-Page/i-specialize.png" />
+            {/* <video src="/images/Home-Page/iteach-vid.mp4"
+               loop autoPlay  muted
+                type="video/mp4"
+                 className="img-cover radius-sm" style={{objectFit:"contain"}} >   
+                 </video> */}
           </div>
 
           <div
