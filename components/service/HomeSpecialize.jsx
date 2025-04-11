@@ -28,9 +28,9 @@ export default function HomeSpecialize() {
         <div className="row align-items-center" style={{ padding: "0 5%" }}>
           <h2
             className="title text-center newtitle"
-            style={{ fontSize: "65px", marginBottom: "45px" }}
+            // style={{ fontSize: "65px", marginBottom: "45px" }}
           >
-            I Specializein
+            I Specialize in
           </h2>
           <div
             className="col-lg-2 col-md-3 col-sm-12 col-12 wow fadeInUp"

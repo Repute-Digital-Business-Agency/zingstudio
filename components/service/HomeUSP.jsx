@@ -14,7 +14,7 @@ export default function Cta() {
 
         
         <div className="row">
-          <div className="col-12 text-white">
+          <div className="col-12 text-white" style={{marginBottom:"-5px"}}>
             
 
             <marquee behavior="scroll" direction="left" scrollamount="10">

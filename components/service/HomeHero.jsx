@@ -77,7 +77,7 @@ export default function HomeHero() {
               data-wow-delay="0.2s"
             >
               <div className="section-head style2">
-                <h2 className="dz-title title position-relative" >
+                <h2 className="dz-title  position-relative newtitle" >
                   Our Works
                   {/* Drive more
                 sales and achieve scalable growth for your business */}

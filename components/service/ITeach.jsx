@@ -114,7 +114,7 @@ export default function ITeach() {
   {
     // imgSrc:"/images/Home-Page/Zing-acd/zing-seo-spercharger.jpg",
     imgSrc:"/images/Home-Page/iteach-img-3.png",
-    title:"Zing SEO Supercharger",
+    title:"Zing SEO Supercharger ",
     mode:"online",
     list:[
       'Lorem ipsum dolor sit amet',
@@ -131,7 +131,7 @@ export default function ITeach() {
   {
     // imgSrc:"/images/Home-Page/Zing-acd/zing-adSense-ace.jpg",
     imgSrc:"/images/Home-Page/iteach-img-1.png",
-    title:" Zing AdSense Ace",
+    title:" Zing AdSense Ace ",
     mode:"online",
     list:[
       'Lorem ipsum dolor sit amet',
@@ -238,7 +238,7 @@ export default function ITeach() {
                     >
                       {course.map((elm, i) => (
                         <SwiperSlide key={i}>
-                        <div className="item h-100">
+                        <div className="item h-100 w-100">
                           <div className="ow-event-post date-style-2 d-flex flex-column h-100 w-100">
                             <div className="ow-event-media dlab-img-effect zoom-slow">
                               <Image
@@ -246,7 +246,7 @@ export default function ITeach() {
                                 src={elm?.imgSrc}
                                 width="700"
                                 height="500"
-                                style={{ borderTopLeftRadius: "10px", borderTopRightRadius: "10px" }}
+                                // style={{ borderTopLeftRadius: "10px", borderTopRightRadius: "10px" }}
                               />
                             </div>
                             <div className="ow-event-info d-flex flex-column flex-grow-1 justify-content-between" style={{ borderBottomLeftRadius: "10px", borderBottomRightRadius: "10px" }}>
