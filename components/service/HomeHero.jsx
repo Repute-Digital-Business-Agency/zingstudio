@@ -78,7 +78,7 @@ export default function HomeHero() {
             >
               <div className="section-head style2">
                 <h2 className="dz-title  position-relative newtitle" >
-                  Our Works
+                  My Works
                   {/* Drive more
                 sales and achieve scalable growth for your business */}
                 </h2>
