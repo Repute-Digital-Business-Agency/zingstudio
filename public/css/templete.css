@@ -8325,7 +8325,7 @@ button.scroltop {
 .dz-oil-industry-zone .dz-banner-top .dz-title::after {
   content: "";
   position: absolute;
-  width: 207px;
+  width: 250px;
   height: 3px;
   background-color: #e21100;
   left: 0;

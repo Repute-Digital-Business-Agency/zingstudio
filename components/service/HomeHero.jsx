@@ -78,7 +78,7 @@ export default function HomeHero() {
             >
               <div className="section-head style2">
                 <h2 className="dz-title  position-relative newtitle" >
-                  My Works
+                  Works I Did
                   {/* Drive more
                 sales and achieve scalable growth for your business */}
                 </h2>
@@ -93,10 +93,11 @@ export default function HomeHero() {
               data-wow-duration="2s"
               data-wow-delay="0.2s"
             >
-              <p>
-                Zing Studio specializes in web design, digital marketing, and brand identity, delivering creative, cost-effective, and impactful solutions. Explore our portfolio to see how we elevate brands.
-                
+              <p className="mb-2">
+               You will see design to purpose creativity and effectiveness in every piece of my works
+              
               </p>
+              <p className="fw-bold"> Web Design &nbsp; | &nbsp;  E-commerce &nbsp;  | &nbsp; Digital Marketing  &nbsp;| &nbsp; Creative Designs</p>
               
               <Link
                 href={`/portfolio`}

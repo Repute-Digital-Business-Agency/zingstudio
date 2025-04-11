@@ -179,8 +179,8 @@ export default function ITeach() {
                 <div className="col-lg-8 col-12 px-3 p-lg-0">
                   <div className="container-fluid ">
                     <div className="row">
-                      <h2 className="newtitle title">I Teach</h2>
-                      <p className="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem sit quas reprehenderit totam repudiandae consectetur, aliquam aperiam et, veritatis eligendi ipsam dolorum qui, unde voluptate incidunt quasi! Possimus, neque voluptate.</p>
+                      <h2 className="newtitle title mb-0">I Teach</h2> <br /> <b className="mb-3 fw-bold" style={{fontSize:"18px"}}>Mark me by:</b>
+                      <p className="mb-0">I teach digital marketing practicaly with hands-on training oppurtunity to work on live projects, internships. <br />Join a thriviing community for continuous learing </p>
                     <div className="col-md-1 col-2 mt-4 mt-lg-5  px-3 p-lg-0">
                 <div className="owl-nav">
                       <button

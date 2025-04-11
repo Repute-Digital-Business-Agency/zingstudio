@@ -10,8 +10,7 @@ const HomeSpecialPrograms = () => {
             Special Programs
           </h2>
           <p className="special-programs__description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna exercitation. 
-            Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+          I am all about making your brand stand out in the digital world. From handpicking the perfect influencers to crafting bold campaigns and tracking real-time results, I've got it covered. I create authentic, eye-catching content that connects with your audience and delivers big impact. 
           </p>
 
           <div className="special-programs__features">

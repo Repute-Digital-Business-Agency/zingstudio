@@ -20098,6 +20098,16 @@ input[type="radio"]+label:hover:before {
     letter-spacing: 2px;
 }
 
+.newHero .home-banner-subtitle{
+  -webkit-text-stroke:0px #fff;
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 25px;
+  position: relative;
+  top: -20px;
+  text-transform: uppercase;
+}
+
 .banner-btn a{
   font-size: 16px;
   padding: 12px 31px;
@@ -20613,7 +20623,7 @@ ul.wespealize li{ font-size:30px !important; list-style-type: none;}
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 10px;
   /* overflow: hidden; */
 }
 
@@ -20656,7 +20666,7 @@ ul.wespealize li{ font-size:30px !important; list-style-type: none;}
 .mascot.left {
   left: 100px;
   top: -100px;
-  width: 240px;
+  width: 220px;
   transform: translateY(20%);
 }
 
@@ -20665,6 +20675,65 @@ ul.wespealize li{ font-size:30px !important; list-style-type: none;}
   width: 200px;
   bottom: 50px;
   transform: translateY(20%);
+}
+
+.discount{
+  background: #fff;
+  color: #e21100;
+  padding: 20px 25px;
+  border-radius: 50%;
+  width: 180px;
+  position: absolute;
+  line-height: 18px;
+ font-weight: 600;
+  font-size: 12px !important;
+}
+
+.discount.one{
+  top: 20px;
+  right: 190px;
+   width: 170px;
+   padding: 30px 25px 20px 25px !important;
+}
+.discount.two{
+  top: 40px;
+  right: 10px;
+   width: 150px;
+   font-size: 14px !important;
+   line-height: 20px;
+}
+
+.sup-women-mbl{
+  display: none;
+}
+
+@media (max-width:1440px){
+  .cta-button{
+    margin-bottom: 15px;
+  }
+  .discount{
+    background: #fff;
+    color: #e21100;
+    padding: 20px 25px;
+    border-radius: 30px;
+    width: fit-content;
+    position:inherit ;
+    line-height: 18px;
+   font-weight: 600;
+    font-size: 12px !important;
+  }
+  .discount.one, .discount.two {
+    width: fit-content;
+    padding: 20px 25px !important;
+    top: 0 !important;
+    right: 0 !important;
+  }
+  .discount br{
+    display: none;
+  }
+  .discount span{
+    margin: 0 5px;
+  }
 }
 
 /* Responsive Tweaks */
@@ -20687,10 +20756,10 @@ ul.wespealize li{ font-size:30px !important; list-style-type: none;}
 
 @media (max-width: 1024px) {
   .mascot.left {
-    width: 180px;
+    width: 200px;
     left: 20px;
-    top: -30px;
-  }
+    top: 50px;
+}
 
   .mascot.right {
     width: 130px;
@@ -20743,6 +20812,17 @@ ul.wespealize li{ font-size:30px !important; list-style-type: none;}
 }
 
 @media (max-width: 630px) {
+  .sup-women-mbl{
+    display: block;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .sup-women-mbl img{
+    
+    width: 40%;
+  }
   .mascot.right{
     display: none;
     }

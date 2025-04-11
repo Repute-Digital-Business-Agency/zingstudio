@@ -59,6 +59,7 @@ export default function HomeSpecialize() {
                 <a class="service-heading text-uppercase fw-500" href="#">
                   Website<br></br> Design
                 </a>
+                <p class="pt-1 pt-sm-0" style={{fontWeight: "500", fontSize : "17px", color: "#000"}}>Starting @ ₹ 15,000</p>
               </div>
               <div
                 style={{
@@ -91,6 +92,7 @@ export default function HomeSpecialize() {
                 <a class="service-heading text-uppercase fw-500" href="#">
                   Digital<br></br> Marketing
                 </a>
+                <p class="pt-1 pt-sm-0" style={{fontWeight: "500", fontSize : "17px", color: "#000"}}>Starting @ ₹ 12,000</p>
               </div>
               <div
                 style={{
@@ -123,6 +125,7 @@ export default function HomeSpecialize() {
                 <a class="service-heading text-uppercase fw-500" href="#">
                   Ecommerce<br></br> Website
                 </a>
+                <p class="pt-1 pt-sm-0" style={{fontWeight: "500", fontSize : "17px", color: "#000"}}>Starting @ ₹ 50,000</p>
               </div>
               <div
                 style={{

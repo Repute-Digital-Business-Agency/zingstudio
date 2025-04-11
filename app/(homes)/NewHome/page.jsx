@@ -20,6 +20,7 @@ import HomeUSP from "@/components/service/HomeUSP";
 import ITeach from "@/components/service/ITeach";
 import HomeSpecialPrograms from "@/components/service/HomeSpecialProgram";
 import SupportWomen from "@/components/service/SupportWomen";
+import NewResponsiveHomeBanner from "@/components/service/NewResponsiveHomeBanner";
 // import HomeService from "@/components/service/HomeService"
 
 
@@ -34,8 +35,7 @@ export default function NewHome() {
       <div className="page-wraper bg-white ">
         <Header17 />
         <div className="page-content bg-white pb-0" >
-          {/* <Hero/> */}
-        <ResponsiveHomeBanner/>
+        <NewResponsiveHomeBanner/>
 
 
 
@@ -43,10 +43,10 @@ export default function NewHome() {
         <HomeSpecialize/>
 
         <HomeUSP/>
-
+        <HomeHero />
         <ITeach/>
          
-          <HomeHero />
+       
 
           <HomeSpecialPrograms/>
 
