@@ -78,7 +78,7 @@ export default function Cta() {
 
         .marquee-content {
           display: flex;
-          animation: scroll-left 15s linear infinite;
+          animation: scroll-left 5s linear infinite;
         }
 
         .marquee-content span {

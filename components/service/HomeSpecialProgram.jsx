@@ -20,7 +20,7 @@ const HomeSpecialPrograms = () => {
               <img src="/images/Home-Page/special-program-icon-1.png" alt="Icon" />
               </div>
               <div className="feature__content">
-                <h4>Lorem ipsum dolor</h4>
+                <h4>Influencer Buzz</h4>
                 {/* <p>Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl masuda lacinia integea.</p> */}
               </div>
             </div>
@@ -30,7 +30,7 @@ const HomeSpecialPrograms = () => {
               <img src="/images/Home-Page/special-program-icon-2.png" alt="Icon" />
               </div>
               <div className="feature__content">
-                <h4>Lorem ipsum dolor</h4>
+                <h4>Brand Buzz</h4>
                 {/* <p>Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl masuda lacinia integea.</p> */}
               </div>
             </div>
