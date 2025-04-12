@@ -5,7 +5,7 @@ export default function DefineMe() {
   return (
     <div
     className="section-full content-inner-2 contact-action style2 DefineMe "
-   style={{background:"#e21100"}}
+   style={{background:"#d23530"}}
   >
     <div className="container">
       <div className="row relative">

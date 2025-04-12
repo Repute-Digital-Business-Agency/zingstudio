@@ -7,7 +7,7 @@ export default function WhatIsZing() {
       <div className="container WhatIsZing">
         <div className="row">
             <div className="text-center">
-            <h2 className="newtitle title">What Is Zing</h2>
+            <h2 className="newtitle title wox">What Is Zing</h2>
             <p className="mb-0 mb-lg-4 mb-xl-0">New Age Digital Design, Development and Digital Marketing agency based in coimbatore, India. <br /> I Works across globe.</p>
             </div>
        
