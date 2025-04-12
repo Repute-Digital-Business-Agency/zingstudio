@@ -23,46 +23,46 @@ export default function WhatIsZing() {
                     <div className="d-flex justify-content-start gap-3 flex-wrap">
                     <div className="spl-list">
                     <div >
-                        <a href="#" className="icon-cell text-white">
-                        <i className="flaticon-settings"></i>
-                        </a>
+                       
+                        <img src="/images/about-us/webdesign.png" alt="webdesign" style={{width:"32px"}}/>
+                       
                     </div>
                     <div className="head">Website Design</div>
                         
                     </div>
                     <div className="spl-list">
-                    <div >
-                        <a href="#" className="icon-cell text-white">
-                        <i className="flaticon-settings"></i>
-                        </a>
+                    <div>
+                       
+                        <img src="/images/about-us/cms.png" alt="cms" style={{width:"32px"}}/>
+                       
                     </div>
                     <div className="head">CMS Websites</div>
                         
                     </div>
                     <div className="spl-list">
                     <div >
-                        <a href="#" className="icon-cell text-white">
-                        <i className="flaticon-settings"></i>
-                        </a>
+                       
+                        <img src="/images/about-us/ecommerce.png" alt="ecommerce" style={{width:"32px"}}/>
+                       
                     </div>
                     <div className="head">E-commerce Websites</div>
                         
                     </div>
                     <div className="spl-list">
                     <div >
-                        <a href="#" className="icon-cell text-white">
-                        <i className="flaticon-settings"></i>
-                        </a>
-                    </div>
+                       
+                       <img src="/images/about-us/dm.png" alt="dm" style={{width:"32px"}}/>
+                      
+                   </div>
                     <div className="head">Digital Marketing </div>
                         
                     </div>
 
                     <div className="spl-list">
                     <div >
-                        <a href="#" className="icon-cell text-white">
-                        <i className="flaticon-settings"></i>
-                        </a>
+                       
+                        <img src="/images/about-us/webdesign.png" alt="" style={{width:"32px"}}/>
+                       
                     </div>
                     <div className="head">Creative Design </div>
                         
