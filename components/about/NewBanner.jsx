@@ -4,7 +4,7 @@ export default function NewBanner() {
   return (
     <div
       className=" text-center bg-newblue py-2"
-     style={{background:"#ba1113"}}
+     style={{background:"#d23530"}}
     >
       <div className="container">
         <div className="text-center">
