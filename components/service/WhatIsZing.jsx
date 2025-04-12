@@ -33,7 +33,7 @@ export default function WhatIsZing() {
                     <div className="spl-list">
                     <div>
                        
-                        <img src="/images/about-us/cms.png" alt="cms" style={{width:"32px"}}/>
+                        <img src="/images/about-us/cms.png" alt="cms" style={{width:"45px",paddingLeft:"12px"}}/>
                        
                     </div>
                     <div className="head">CMS Websites</div>
@@ -61,7 +61,7 @@ export default function WhatIsZing() {
                     <div className="spl-list">
                     <div >
                        
-                        <img src="/images/about-us/webdesign.png" alt="" style={{width:"32px"}}/>
+                        <img src="/images/about-us/creative.png" alt="" style={{width:"32px"}}/>
                        
                     </div>
                     <div className="head">Creative Design </div>
