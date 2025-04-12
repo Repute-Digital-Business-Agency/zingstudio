@@ -125,7 +125,7 @@ export default function HomeSpecialize() {
                 <a class="service-heading text-uppercase fw-500" href="#">
                   Ecommerce<br></br> Website
                 </a>
-                <p class="pt-1 pt-sm-0" style={{fontWeight: "500", fontSize : "17px", color: "#000"}}>Starting @ ₹ 50,000</p>
+                <p class="pt-1 pt-sm-0" style={{fontWeight: "500", fontSize : "17px", color: "#000"}}>Starting @ ₹ <br className="d-none d-lg-block d-xl-none"/> 50,000</p>
               </div>
               <div
                 style={{
